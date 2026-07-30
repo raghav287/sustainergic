@@ -1,0 +1,14 @@
+(() => {
+  const hidePreloader = () => {
+    document.querySelectorAll(".preloader").forEach((preloader) => {
+      preloader.classList.add("preloader-hidden");
+      setTimeout(() => preloader.remove(), 400);
+    });
+  };
+
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", hidePreloader, { once: true });
+  } else {
+    hidePreloader();
+  }
+})();

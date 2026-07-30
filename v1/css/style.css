@@ -37,19 +37,14 @@ License: copyright commercial
 30. Main Footer
 **********************************************/
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&amp;family=Outfit:wght@100..900&amp;display=swap");
-@import url("animate.html");
-@import url("swiper.min.html");
-@import url("magnific.html");
-@import url("linear.html");
-@import url("fontawesome-free.html");
-@import url("fontawesome.html");
-@import url("flaticon.html");
-@import url("flaticon-set-business.html");
-@import url("tm-bs-mp.html");
-@import url("tm-utility-classes.html");
-@import url("odometer-theme-default.html");
-@import url("cusor-text.html");
-@import url("nice-select.html");
+@import url("animate.css");
+@import url("swiper.min.css");
+@import url("magnific.css");
+@import url("tm-bs-mp.css");
+@import url("tm-utility-classes.css");
+@import url("odometer-theme-default.css");
+@import url("cusor-text.css");
+@import url("nice-select.css");
 :root {
   --theme-color-white: #ffffff;
   --theme-color-white-rgb: 255, 255, 255;
@@ -760,6 +755,13 @@ li {
   height: 100%;
   z-index: 999999;
   background-color: #ffffff;
+  animation: preloader-fallback-hide 0.35s ease 2s forwards;
+}
+.preloader.preloader-hidden {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transition: opacity 0.3s ease, visibility 0s linear 0.3s;
 }
 .preloader:before {
   position: absolute;
@@ -831,6 +833,15 @@ li {
     -webkit-transform: rotate(360deg);
     -ms-transform: rotate(360deg);
     transform: rotate(360deg);
+  }
+}
+
+@keyframes preloader-fallback-hide {
+  to {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    z-index: -1;
   }
 }
 @keyframes spin {
@@ -3009,7 +3020,7 @@ Section Title
     Banner Section  environment classic
 =======================================***/
 .banner-section-classic {
-  background-image: url(../images/environment-classic/banner-bg2.html);
+  background-image: url(../images/environment-classic/banner-bg2.png);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -3017,13 +3028,13 @@ Section Title
   margin-top: -90px;
 }
 .banner-section-classic.dark {
-  background-image: url(../images/environment-classic/classic-banner-bg2.html);
+  background-image: url(../images/environment-classic/banner-bg2.png);
 }
 .banner-section-classic .econet-slider-height {
   height: 950px;
 }
 .banner-section-classic .econet-slider-bg {
-  background-image: url(../images/environment-classic/banner-bg2.html);
+  background-image: url(../images/environment-classic/banner-bg2.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -3044,7 +3055,7 @@ Section Title
   transform: scale(1.1);
 }
 .banner-section-classic .econet-slider-bg2 {
-  background-image: url(../images/environment-classic/classic-banner-bg2.html);
+  background-image: url(../images/environment-classic/banner-bg2.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -3351,7 +3362,7 @@ Section Title
     Banner Section solar
 ==================================***/
 .banner-section-solar {
-  background-image: url(../images/solar/banner-solar.html);
+  background-image: url(../images/solar/banner-solar.png);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -3594,7 +3605,7 @@ Section Title
     Banner Section solar classic
 ==================================***/
 .banner-section-solar-classic {
-  background-image: url(../images/solar-classic/solar-banner.html);
+  background-image: url(../images/solar-classic/solar-banner.png);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -3602,13 +3613,13 @@ Section Title
   margin: -100px 0px 0px;
 }
 .banner-section-solar-classic.dark {
-  background-image: url(../images/solar-dark/banner-solar-classic-dark.html);
+  background-image: url(../images/solar-classic/solar-banner.png);
 }
 .banner-section-solar-classic .econet-slider-height {
   height: 950px;
 }
 .banner-section-solar-classic .econet-slider-bg {
-  background-image: url(../images/solar-classic/solar-banner.html);
+  background-image: url(../images/solar-classic/solar-banner.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -3629,7 +3640,7 @@ Section Title
   transform: scale(1.1);
 }
 .banner-section-solar-classic .econet-slider-bg2 {
-  background-image: url(../images/solar-dark/banner-solar-classic-dark.html);
+  background-image: url(../images/solar-classic/solar-banner.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -3835,7 +3846,7 @@ Section Title
   height: 850px;
   left: 30px;
   top: 0;
-  background-image: url(../images/charity/banner-bg.html);
+  background-image: url(../images/charity/banner-bg.png);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -3867,7 +3878,7 @@ Section Title
   content: "";
   width: 240px;
   height: 40px;
-  background-image: url(../images/charity/banner-sub.html);
+  background-image: url(../images/charity/banner-sub.png);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -4149,7 +4160,7 @@ Section Title
   height: 850px;
   left: 30px;
   top: 0;
-  background-image: url(../images/charity-classic/banner-charity-classic-dark.html);
+  background-image: url(../images/charity/banner-bg.png);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -4169,7 +4180,7 @@ Section Title
   height: 850px;
   left: 30px;
   top: 0;
-  background-image: url(../images/charity-classic/banner-bg.html);
+  background-image: url(../images/charity/banner-bg.png);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -4201,7 +4212,7 @@ Section Title
   content: "";
   width: 240px;
   height: 40px;
-  background-image: url(../images/charity/banner-sub.html);
+  background-image: url(../images/charity/banner-sub.png);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -4646,7 +4657,7 @@ Section Title
 }
 
 .service-section-classic {
-  background-image: url(../images/environment-classic/service-bg-classic.html);
+  background-image: url(../images/environment-classic/service-bg-classic.png);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -5115,7 +5126,7 @@ Section Title
 }
 
 .service-section-solar-classic {
-  background-image: url(../images/solar-classic/service-bg.html);
+  background-image: url(../images/solar-classic/service-bg.png);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -5867,7 +5878,7 @@ Section Title
 }
 
 .about-section-solar {
-  background-image: url(../images/solar/about-bg.html);
+  background-image: url(../images/solar/about-bg.png);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -5890,7 +5901,7 @@ Section Title
   gap: 25px;
 }
 .about-section-solar .about-counter-wrapper .about-counter {
-  background-image: url(../images/solar/about-bg1.html);
+  background-image: url(../images/solar/about-bg1.png);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -5922,7 +5933,7 @@ Section Title
   background-color: transparent;
 }
 .about-section-solar .about-counter-wrapper .about-counter.two {
-  background-image: url(../images/solar/about-bg2.html);
+  background-image: url(../images/solar/about-bg2.png);
   padding: 32px 90px 10px 40px;
 }
 @media (min-width: 1200px) and (max-width: 1399.98px) {
@@ -6138,7 +6149,7 @@ Section Title
   gap: 25px;
 }
 .about-section-solar-classic .about-counter-wrapper .about-counter {
-  background-image: url(../images/solar-classic/about-bg.html);
+  background-image: url(../images/solar-classic/about-bg.png);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -6170,7 +6181,7 @@ Section Title
   background-color: transparent;
 }
 .about-section-solar-classic .about-counter-wrapper .about-counter.two {
-  background-image: url(../images/solar-classic/about-bg2.html);
+  background-image: url(../images/solar-classic/about-bg2.png);
   padding: 32px 90px 10px 40px;
 }
 @media (min-width: 1200px) and (max-width: 1399.98px) {
@@ -7059,7 +7070,7 @@ Section Title
 }
 .why-choose-section-one .why-choose-wrapper .why-choose-counter {
   position: absolute;
-  background-image: url(../images/environment/choose-skill-bg.html);
+  background-image: url(../images/environment/choose-skill-bg.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -7287,7 +7298,7 @@ Section Title
 }
 
 .why-choose-section-solar {
-  background-image: url(../images/solar/about-bg.html);
+  background-image: url(../images/solar/about-bg.png);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -7682,7 +7693,7 @@ Section Title
 
 .project-section-one {
   padding: 120px 0 110px;
-  background-image: url(../images/environment/project-bg.html);
+  background-image: url(../images/environment/project-bg.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -8051,7 +8062,7 @@ Section Title
   content: "";
   width: 575px;
   height: 35px;
-  background-image: url(../images/solar/shape.html);
+  background-image: url(../images/solar/shape.png);
   background-repeat: no-repeat;
   background-position: center center;
   left: 0;
@@ -8509,7 +8520,7 @@ Section Title
   height: 100%;
   right: 150px;
   top: 45px;
-  background: url(../images/environment/process-border.html);
+  background: url(../images/environment/process-border.png);
   background-repeat: no-repeat;
 }
 @media only screen and (max-width: 1700px) {
@@ -8524,7 +8535,7 @@ Section Title
   height: 100%;
   right: -255px;
   top: 66px;
-  background: url(../images/environment/process-border.html);
+  background: url(../images/environment/process-border.png);
   background-repeat: no-repeat;
   transform: rotate(20deg);
 }
@@ -8651,7 +8662,7 @@ Section Title
 
 .work-process-section-classic {
   padding: 120px 0 100px;
-  background-image: url(../images/environment-classic/work-process-bg.html);
+  background-image: url(../images/environment-classic/work-process-bg.png);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -8674,7 +8685,7 @@ Section Title
   height: 100%;
   right: 150px;
   top: 45px;
-  background: url(../images/environment-classic/process-border.html);
+  background: url(../images/environment-classic/process-border.png);
   background-repeat: no-repeat;
 }
 @media only screen and (max-width: 1700px) {
@@ -8689,7 +8700,7 @@ Section Title
   height: 100%;
   right: -300px;
   top: 66px;
-  background: url(../images/environment-classic/process-border2.html);
+  background: url(../images/environment-classic/process-border2.png);
   background-repeat: no-repeat;
 }
 @media only screen and (max-width: 1700px) {
@@ -8831,7 +8842,7 @@ Section Title
 
 .work-process-section-solar {
   padding: 120px 0 100px;
-  background-image: url(../images/environment-classic/work-process-bg.html);
+  background-image: url(../images/environment-classic/work-process-bg.png);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -8862,7 +8873,7 @@ Section Title
   height: 100%;
   right: 150px;
   top: 45px;
-  background: url(../images/environment-classic/process-border.html);
+  background: url(../images/environment-classic/process-border.png);
   background-repeat: no-repeat;
 }
 @media only screen and (max-width: 1700px) {
@@ -8877,7 +8888,7 @@ Section Title
   height: 100%;
   right: -300px;
   top: 66px;
-  background: url(../images/environment-classic/process-border2.html);
+  background: url(../images/environment-classic/process-border2.png);
   background-repeat: no-repeat;
 }
 @media only screen and (max-width: 1700px) {
@@ -9010,7 +9021,7 @@ Section Title
 
 .work-process-section-solar-classic {
   padding: 120px 0 100px;
-  background-image: url(../images/environment-classic/work-process-bg.html);
+  background-image: url(../images/environment-classic/work-process-bg.png);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -9033,7 +9044,7 @@ Section Title
   height: 100%;
   right: 150px;
   top: 45px;
-  background: url(../images/environment-classic/process-border.html);
+  background: url(../images/environment-classic/process-border.png);
   background-repeat: no-repeat;
 }
 @media only screen and (max-width: 1700px) {
@@ -9048,7 +9059,7 @@ Section Title
   height: 100%;
   right: -300px;
   top: 66px;
-  background: url(../images/environment-classic/process-border2.html);
+  background: url(../images/environment-classic/process-border2.png);
   background-repeat: no-repeat;
 }
 @media only screen and (max-width: 1700px) {
@@ -10446,7 +10457,7 @@ Section Title
   content: "";
   height: 100%;
   width: 0;
-  background-image: url(../images/solar/testi-box.html);
+  background-image: url(../images/solar/testi-box.png);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -10544,7 +10555,7 @@ Section Title
 }
 
 .testimonial-section-solar-classic {
-  background-image: url(../images/solar-classic/service-bg.html);
+  background-image: url(../images/solar-classic/service-bg.png);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -10751,7 +10762,7 @@ Section Title
 }
 
 .testimonial-section-charity {
-  background-image: url(../images/charity/charity-testi-bg.html);
+  background-image: url(../images/charity/charity-testi-bg.png);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -10776,7 +10787,7 @@ Section Title
   width: 540px !important;
 }
 .testimonial-section-charity .single-testi-box {
-  background-image: url(../images/charity/charity-testi-box-bg.html);
+  background-image: url(../images/charity/charity-testi-box-bg.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -10790,7 +10801,7 @@ Section Title
   content: "";
   height: 100%;
   width: 0;
-  background-image: url(../images/charity/charity-testi-box-hover-bg.html);
+  background-image: url(../images/charity/charity-testi-box-hover-bg.png);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -10879,7 +10890,7 @@ Section Title
 }
 
 .testimonial-section-charity-classic {
-  background-image: url(../images/charity-classic/testimonial-bg.html);
+  background-image: url(../images/charity-classic/testimonial-bg.png);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -11019,7 +11030,7 @@ Section Title
 
 .latest-blog-section-one {
   padding: 120px 0 105px;
-  background-image: url(../images/environment/blog-bg1.html);
+  background-image: url(../images/environment/blog-bg1.png);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -11928,7 +11939,7 @@ Section Title
 }
 
 .main-footer-one {
-  background: url(../images/environment/footer-bg.html);
+  background: url(../images/environment/footer-bg.png);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -12212,7 +12223,7 @@ Section Title
 }
 
 .sign-up-section-solar {
-  background-image: url(../images/solar/sign-bg.html);
+  background-image: url(../images/solar/sign-bg.png);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -12525,7 +12536,7 @@ Section Title
 }
 
 .sign-up-section-charity {
-  background-image: url(../images/solar/sign-bg.html);
+  background-image: url(../images/solar/sign-bg.png);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -12618,7 +12629,7 @@ Section Title
 }
 
 .main-footer-charity {
-  background: url(../images/charity/charity-footer-bg.html);
+  background: url(../images/charity/charity-footer-bg.png);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -13047,7 +13058,7 @@ Section Title
 }
 
 .donations-section-charity {
-  background-image: url(../images/charity/donations-bg.html);
+  background-image: url(../images/charity/donations-bg.png);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -13062,7 +13073,7 @@ Section Title
   height: 120px;
   left: 0;
   bottom: 50px;
-  background-image: url(../images/charity/mission-bg-shape.html);
+  background-image: url(../images/charity/mission-bg-shape.png);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -13357,7 +13368,7 @@ Section Title
   top: -30px;
 }
 .donate-love-section-charity .single-donate-love-box {
-  background-image: url(../images/charity/donation-love2.html);
+  background-image: url(../images/charity/donation-love2.png);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -13461,7 +13472,7 @@ Section Title
 
 .give-daonation-section-charity {
   padding: 170px 0 0px;
-  background-image: url(../images/charity/charity-donation-form-bg.html);
+  background-image: url(../images/charity/charity-donation-form-bg.png);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -13769,7 +13780,7 @@ Section Title
 }
 
 .donations-section-charity-classic {
-  background-image: url(../images/charity-classic/donation-bg.html);
+  background-image: url(../images/charity-classic/donation-bg.png);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -14006,7 +14017,7 @@ Section Title
 
 .give-daonation-section-charity-classic {
   padding: 120px 0 0px;
-  background-image: url(../images/charity-classic/give-donation-bg.html);
+  background-image: url(../images/charity-classic/give-donation-bg.png);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -14743,13 +14754,13 @@ Section Title
   height: 120px;
   left: 0;
   bottom: -60px;
-  background-image: url(../images/charity/feature-bg-shape.html);
+  background-image: url(../images/charity/feature-bg-shape.png);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
 }
 .feature-section-charity .single-feature-box {
-  background-image: url(../images/charity/feature-box.html);
+  background-image: url(../images/charity/feature-box.png);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -15035,7 +15046,7 @@ Section Title
   padding-top: 30px;
 }
 .contact-section-solar .contact-form-box {
-  background-image: url(../images/solar/about-bg.html);
+  background-image: url(../images/solar/about-bg.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -15405,7 +15416,7 @@ Section Title
   z-index: 1;
 }
 .contact-section-charity .contact-bg {
-  background-image: url(../images/charity/contact-bg2.html);
+  background-image: url(../images/charity/contact-bg2.png);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -15535,7 +15546,7 @@ Section Title
 
 .mission-vission-section-charity {
   padding: 230px 0 370px;
-  background-image: url(../images/charity/mission-bg.html);
+  background-image: url(../images/charity/mission-bg.png);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -16100,7 +16111,7 @@ Section Title
   height: 300px;
   left: 70%;
   top: -60px;
-  background: url(../images/charity/charity-event-img.html);
+  background: url(../images/charity/charity-event-img.png);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: auto;
@@ -16289,7 +16300,7 @@ Section Title
 }
 
 .breadcumb-area {
-  background-image: url(../images/inner-image/breadcumb-bg.html);
+  background-image: url(../images/environment-classic/banner-bg2.png);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -16602,7 +16613,7 @@ Section Title
   font-size: 16px;
 }
 .services-details-area .widget-sidber-contact-box {
-  background-image: url(../images/inner-image/sidber-contact.html);
+  background-image: url(../images/inner-image/sidber-contact.png);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -16752,7 +16763,7 @@ Section Title
   margin-top: 6px;
 }
 .project-details-area .widget-sidber-contact-box {
-  background-image: url(../images/inner-image/sidber-contact.html);
+  background-image: url(../images/inner-image/sidber-contact.png);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -17140,7 +17151,7 @@ Section Title
   color: var(--theme-color2) !important;
 }
 .donation-details-area .widget-sidber-contact-box {
-  background-image: url(../images/inner-image/sidber-contact.html);
+  background-image: url(../images/inner-image/sidber-contact.png);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
