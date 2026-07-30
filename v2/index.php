@@ -17,11 +17,18 @@
 
     <?php include 'includes/navbar.php'; ?>
 
+    <!-- =========================
+        HERO SECTION
+========================= -->
+
+    <!-- ================= HERO SECTION ================= -->
+
     <section class="hero">
 
         <div class="container">
 
-            <div class="hero-left">
+            <!-- Left Content -->
+            <div class="hero-content">
 
                 <span class="hero-badge">
                     🌱 Sustainable Engineering Solutions
@@ -34,38 +41,75 @@
                 </h1>
 
                 <p>
-                    Sustainergic provides Green Building Certification, Energy Simulation,
-                    HVAC Design, Building Commissioning, Renewable Energy Solutions and
-                    Sustainability Consulting to help organizations reduce costs,
-                    improve efficiency and achieve environmental excellence.
+                    Sustainergic Tech provides Green Building Certification,
+                    Energy Simulation, HVAC Design, Renewable Energy Solutions,
+                    Building Commissioning and Sustainability Consulting to help
+                    organizations create energy-efficient and environmentally
+                    responsible buildings.
                 </p>
 
-                <div class="hero-btns">
+                <div class="hero-buttons">
 
                     <a href="contact.php" class="btn-primary">
                         Get a Consultation
                     </a>
 
-                    <a href="services.php" class="btn-secondary">
+                    <a href="services.php" class="btn-outline">
                         Explore Services
                     </a>
 
                 </div>
 
+                <div class="hero-counter">
+
+                    <div class="counter-item">
+
+                        <h2>250+</h2>
+
+                        <span>Projects Delivered</span>
+
+                    </div>
+
+                    <div class="counter-item">
+
+                        <h2>15+</h2>
+
+                        <span>Years Experience</span>
+
+                    </div>
+
+                    <div class="counter-item">
+
+                        <h2>98%</h2>
+
+                        <span>Client Satisfaction</span>
+
+                    </div>
+
+                </div>
+
             </div>
 
-            <div class="hero-right">
+            <!-- Right Image -->
+
+            <div class="hero-image">
 
                 <img src="assets/images/hero.png" alt="Green Building">
 
-                <div class="info-card card-1">
+                <div class="hero-card card-one">
+
                     <h4>LEED Certified</h4>
+
                     <p>Green Building Experts</p>
+
                 </div>
 
-                <div class="info-card card-2">
+                <div class="hero-card card-two">
+
                     <h4>Energy Saving</h4>
+
                     <p>Up to 40% Efficiency</p>
+
                 </div>
 
             </div>
