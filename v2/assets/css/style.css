@@ -250,7 +250,7 @@ ul{
 
     border-radius:8px;
 
-    margin:1px 0;
+    margin:3px 0;
 
 }
 
@@ -268,7 +268,7 @@ ul{
 
     gap:10px;
 
-    padding:11px 14px;
+    padding:14px 16px;
 
     color:#4B5563;
 
@@ -276,7 +276,7 @@ ul{
 
     font-weight:500;
 
-    line-height:1.3;
+    line-height:1.35;
 
     transition:all .3s cubic-bezier(.4,0,.2,1);
 
@@ -292,13 +292,13 @@ ul{
 
     position:absolute;
 
-    left:14px;
+    left:16px;
 
     width:0;
 
     height:2px;
 
-    bottom:8px;
+    bottom:10px;
 
     background:var(--primary-color);
 
@@ -312,7 +312,7 @@ ul{
 
     color:var(--primary-color);
 
-    padding-left:18px;
+    padding-left:20px;
 
     transform:translateX(3px);
 
@@ -320,7 +320,7 @@ ul{
 
 .dropdown-menu a:hover::before{
 
-    width:16px;
+    width:18px;
 
 }
 
@@ -767,6 +767,283 @@ ul{
 .menu-toggle.active .hamburger span:nth-child(3){
 
     transform:translateY(-7px) rotate(-45deg);
+
+}
+
+}
+
+/*=========================
+        HERO
+=========================*/
+/*=============================
+ HERO SECTION
+=============================*/
+
+.hero{
+
+    padding:180px 0 100px;
+
+}
+
+.hero .container{
+
+    max-width:1320px;
+
+    margin:auto;
+
+    display:grid;
+
+    grid-template-columns:1fr 1fr;
+
+    align-items:center;
+
+    gap:70px;
+
+}
+
+/* LEFT */
+
+.hero-left h1{
+
+    font-size:72px;
+
+    line-height:1.08;
+
+    font-weight:800;
+
+    margin:25px 0;
+
+    color:#111;
+
+}
+
+.hero-left h1 span{
+
+    color:var(--primary-color);
+
+}
+
+.hero-left p{
+
+    font-size:20px;
+
+    color:#666;
+
+    line-height:1.9;
+
+    max-width:620px;
+
+    margin-bottom:40px;
+
+}
+
+.hero-badge{
+
+    display:inline-flex;
+
+    align-items:center;
+
+    padding:12px 22px;
+
+    background:#EAF7ED;
+
+    color:#1E9C55;
+
+    border-radius:50px;
+
+    font-weight:600;
+
+}
+
+.hero-btns{
+
+    display:flex;
+
+    gap:20px;
+
+    margin-top:40px;
+
+}
+
+.btn-primary{
+
+    padding:18px 38px;
+
+    background:var(--primary-color);
+
+    color:#fff;
+
+    border-radius:50px;
+
+    font-weight:600;
+
+}
+
+.btn-secondary{
+
+    padding:18px 38px;
+
+    border:2px solid var(--primary-color);
+
+    color:var(--primary-color);
+
+    border-radius:50px;
+
+    font-weight:600;
+
+}
+
+/* RIGHT */
+
+.hero-right{
+
+    position:relative;
+
+}
+
+.hero-right img{
+
+    width:100%;
+
+    max-width:620px;
+
+    display:block;
+
+    margin-left:auto;
+
+}
+
+/* Floating Cards */
+
+.info-card{
+
+    position:absolute;
+
+    background:#fff;
+
+    padding:22px;
+
+    border-radius:18px;
+
+    box-shadow:0 15px 40px rgba(0,0,0,.08);
+
+    min-width:230px;
+
+}
+
+.info-card h4{
+
+    font-size:22px;
+
+    margin-bottom:6px;
+
+}
+
+.info-card p{
+
+    color:#777;
+
+}
+
+.card-1{
+
+    bottom:40px;
+
+    left:-30px;
+
+}
+
+.card-2{
+
+    top:90px;
+
+    right:-20px;
+
+}
+
+/* Responsive */
+
+@media(max-width:992px){
+
+.hero{
+
+padding:150px 0 70px;
+
+}
+
+.hero .container{
+
+grid-template-columns:1fr;
+
+text-align:center;
+
+gap:50px;
+
+}
+
+.hero-left p{
+
+margin:auto;
+
+}
+
+.hero-btns{
+
+justify-content:center;
+
+}
+
+.hero-right{
+
+margin-top:20px;
+
+}
+
+.hero-right img{
+
+margin:auto;
+
+}
+
+.info-card{
+
+display:none;
+
+}
+
+.hero-left h1{
+
+font-size:52px;
+
+}
+
+}
+
+@media(max-width:576px){
+
+.hero-left h1{
+
+font-size:38px;
+
+}
+
+.hero-left p{
+
+font-size:17px;
+
+}
+
+.hero-btns{
+
+flex-direction:column;
+
+}
+
+.btn-primary,
+
+.btn-secondary{
+
+text-align:center;
 
 }
 
