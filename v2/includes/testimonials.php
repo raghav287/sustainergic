@@ -268,17 +268,17 @@
 
                 </div>
 
-                <!-- Navigation Arrows -->
-                <div class="testimonial-swiper-btn testimonial-swiper-prev">
-                    <i class="fa-solid fa-arrow-left"></i>
-                </div>
-                <div class="testimonial-swiper-btn testimonial-swiper-next">
-                    <i class="fa-solid fa-arrow-right"></i>
-                </div>
-
                 <!-- Pagination -->
                 <div class="testimonial-swiper-pagination"></div>
 
+            </div>
+
+            <!-- Navigation Arrows -->
+            <div class="testimonial-swiper-btn testimonial-swiper-prev">
+                <i class="fa-solid fa-arrow-left"></i>
+            </div>
+            <div class="testimonial-swiper-btn testimonial-swiper-next">
+                <i class="fa-solid fa-arrow-right"></i>
             </div>
 
         </div>

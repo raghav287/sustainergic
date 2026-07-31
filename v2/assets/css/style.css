@@ -384,6 +384,12 @@ button{
 
 }
 
+.navbar .mobile-cta{
+
+    display:none;
+
+}
+
 .quote-btn{
 
     background:#000;
@@ -502,7 +508,9 @@ button{
 
 .nav-wrapper{
 
-    padding:16px 20px;
+    max-width:calc(100% - 30px);
+    padding:15px 20px;
+    border-radius:20px;
 
 }
 
@@ -514,13 +522,13 @@ button{
 
 .navbar{
 
-    position:absolute;
+    position:fixed;
 
-    left:0;
+    left:15px;
 
-    right:0;
+    right:15px;
 
-    top:110%;
+    top:82px;
 
     background:#fff;
 
@@ -530,9 +538,9 @@ button{
 
     padding:12px 20px 20px;
 
-    box-shadow:var(--shadow);
+    box-shadow:var(--shadow-lg);
 
-    max-height:calc(100vh - 140px);
+    max-height:calc(100vh - 110px);
 
     overflow-y:auto;
 
@@ -726,11 +734,19 @@ button{
 
     justify-content:center;
 
+    padding-top:16px;
+
+    border-top:1px solid #f3f4f6;
+
 }
 
 .navbar .mobile-cta .quote-btn{
 
     display:inline-flex;
+    width:100%;
+    justify-content:center;
+    padding:14px 24px;
+    font-size:15px;
 
 }
 
@@ -746,29 +762,40 @@ button{
 
 .nav-wrapper{
 
-    border-radius:18px;
-
-    padding:14px 16px;
+    max-width:calc(100% - 24px);
+    border-radius:16px;
+    padding:13px 16px;
 
 }
 
 .navbar{
 
+    left:12px;
+    right:12px;
+    top:76px;
     padding:10px 16px 16px;
+    max-height:calc(100vh - 98px);
+    border-radius:16px;
 
 }
 
 .nav-menu > li > a{
 
     padding:14px 0;
-
     font-size:15px !important;
 
 }
 
+.navbar .mobile-cta{
+
+    margin-top:14px;
+    padding-top:14px;
+
 }
 
-@media(max-width:480px){
+}
+
+@media(max-width:575px){
 
 .main-header{
 
@@ -776,15 +803,36 @@ button{
 
 }
 
+.main-header.sticky{
+
+    top:8px;
+
+}
+
 .logo img{
 
-    height:36px;
+    height:38px;
+
+}
+
+.nav-wrapper{
+
+    max-width:calc(100% - 20px);
+    border-radius:14px;
+    padding:12px 15px;
+
+}
+
+.hamburger{
+
+    gap:5px;
 
 }
 
 .hamburger span{
 
-    width:22px;
+    width:24px;
+    height:2px;
 
 }
 
@@ -797,6 +845,200 @@ button{
 .menu-toggle.active .hamburger span:nth-child(3){
 
     transform:translateY(-7px) rotate(-45deg);
+
+}
+
+.navbar{
+
+    left:10px;
+    right:10px;
+    top:72px;
+    padding:8px 14px 14px;
+    max-height:calc(100vh - 92px);
+    border-radius:14px;
+
+}
+
+.nav-menu > li > a{
+
+    padding:13px 0;
+    font-size:14.5px !important;
+
+}
+
+.dropdown-menu a{
+
+    padding:10px 12px !important;
+    font-size:13.5px !important;
+
+}
+
+.navbar .mobile-cta{
+
+    margin-top:12px;
+    padding-top:12px;
+
+}
+
+.navbar .mobile-cta .quote-btn{
+
+    padding:13px 20px;
+    font-size:14.5px;
+
+}
+
+}
+
+@media(max-width:480px){
+
+.main-header{
+
+    top:8px;
+
+}
+
+.main-header.sticky{
+
+    top:6px;
+
+}
+
+.logo img{
+
+    height:34px;
+
+}
+
+.nav-wrapper{
+
+    max-width:calc(100% - 16px);
+    border-radius:13px;
+    padding:11px 13px;
+
+}
+
+.hamburger{
+
+    gap:4.5px;
+
+}
+
+.hamburger span{
+
+    width:22px;
+
+}
+
+.menu-toggle.active .hamburger span:nth-child(1){
+
+    transform:translateY(6.5px) rotate(45deg);
+
+}
+
+.menu-toggle.active .hamburger span:nth-child(3){
+
+    transform:translateY(-6.5px) rotate(-45deg);
+
+}
+
+.navbar{
+
+    left:8px;
+    right:8px;
+    top:66px;
+    padding:8px 12px 12px;
+    max-height:calc(100vh - 86px);
+    border-radius:13px;
+
+}
+
+.nav-menu > li > a{
+
+    padding:12px 0;
+    font-size:14px !important;
+
+}
+
+.dropdown-menu a{
+
+    padding:9.5px 11px !important;
+    font-size:13px !important;
+
+}
+
+.navbar .mobile-cta{
+
+    margin-top:10px;
+    padding-top:10px;
+
+}
+
+.navbar .mobile-cta .quote-btn{
+
+    padding:12px 18px;
+    font-size:14px;
+    gap:10px;
+
+}
+
+}
+
+@media(max-width:360px){
+
+.logo img{
+
+    height:30px;
+
+}
+
+.nav-wrapper{
+
+    max-width:calc(100% - 12px);
+    border-radius:12px;
+    padding:10px 12px;
+
+}
+
+.hamburger span{
+
+    width:20px;
+
+}
+
+.menu-toggle.active .hamburger span:nth-child(1){
+
+    transform:translateY(6px) rotate(45deg);
+
+}
+
+.menu-toggle.active .hamburger span:nth-child(3){
+
+    transform:translateY(-6px) rotate(-45deg);
+
+}
+
+.navbar{
+
+    left:6px;
+    right:6px;
+    top:62px;
+    padding:6px 10px 10px;
+    max-height:calc(100vh - 80px);
+    border-radius:12px;
+
+}
+
+.nav-menu > li > a{
+
+    padding:11px 0;
+    font-size:13.5px !important;
+
+}
+
+.navbar .mobile-cta .quote-btn{
+
+    padding:11px 16px;
+    font-size:13.5px;
 
 }
 
@@ -2800,7 +3042,7 @@ RESPONSIVE
 
 .testimonials-swiper{
 
-    padding:10px 70px 58px;
+    padding:10px 0 58px;
 
     position:relative;
 
@@ -3034,15 +3276,13 @@ RESPONSIVE
 
     position:absolute;
 
-    top:50%;
+    top:calc(50% - 28px);
 
-    transform:translateY(-50%);
+    width:56px;
 
-    width:52px;
+    height:56px;
 
-    height:52px;
-
-    border-radius:16px;
+    border-radius:50%;
 
     background:#fff;
 
@@ -3056,13 +3296,13 @@ RESPONSIVE
 
     cursor:pointer;
 
-    z-index:10;
+    z-index:12;
 
-    box-shadow:0 10px 30px rgba(15,23,42,0.09);
+    box-shadow:0 12px 36px rgba(15,23,42,0.12);
 
-    border:1px solid rgba(229,231,235,.8);
+    border:1px solid rgba(229,231,235,.9);
 
-    font-size:15px;
+    font-size:16px;
 
     transition:all .35s cubic-bezier(.22,.61,.36,1);
 
@@ -3074,11 +3314,11 @@ RESPONSIVE
 
     color:#fff;
 
-    box-shadow:0 14px 35px rgba(240,123,94,0.35);
+    box-shadow:0 16px 40px rgba(240,123,94,0.4);
 
     border-color:transparent;
 
-    transform:translateY(-50%) scale(1.06);
+    transform:scale(1.08);
 
 }
 
@@ -3100,7 +3340,7 @@ RESPONSIVE
 
     cursor:not-allowed;
 
-    transform:translateY(-50%) scale(1) !important;
+    transform:scale(1) !important;
 
     background:#fff !important;
 
@@ -3109,6 +3349,20 @@ RESPONSIVE
     box-shadow:0 10px 30px rgba(15,23,42,0.06) !important;
 
     border-color:rgba(229,231,235,.8) !important;
+
+}
+
+@media (min-width:1200px){
+
+    .testimonial-swiper-prev{ left:-10px; }
+    .testimonial-swiper-next{ right:-10px; }
+
+}
+
+@media (min-width:1400px){
+
+    .testimonial-swiper-prev{ left:-20px; }
+    .testimonial-swiper-next{ right:-20px; }
 
 }
 
@@ -3170,7 +3424,7 @@ RESPONSIVE
 
     .testimonials-heading h2{ font-size:36px; }
 
-    .testimonials-swiper{ padding:8px 60px 54px; }
+    .testimonials-swiper{ padding:8px 0 54px; }
 
     .testimonial-swiper-btn{
 

@@ -87,12 +87,12 @@
             </ul>
 
             <!-- Mobile CTA (shown only in mobile menu) -->
-            <!-- <div class="mobile-cta">
+            <div class="mobile-cta">
                 <a href="consultation.php" class="quote-btn">
                     Get a Consultation
                     <i class="fa-solid fa-arrow-right-long"></i>
                 </a>
-            </div> -->
+            </div>
 
         </nav>
 

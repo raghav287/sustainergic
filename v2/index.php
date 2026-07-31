@@ -626,41 +626,6 @@
 
                 </article>
 
-                <article class="project-card">
-
-                    <div class="project-image">
-                        <img src="assets/images/hero.png" alt="Manufacturing Plant">
-                        <span class="project-tag">WELL Gold</span>
-                    </div>
-
-                    <div class="project-body">
-
-                        <div class="project-meta">
-                            <span><i class="fa-solid fa-map-location-dot"></i> Ahmedabad</span>
-                            <span><i class="fa-solid fa-industry"></i> 30 Acres</span>
-                        </div>
-
-                        <h3>Suvida Manufacturing Park</h3>
-
-                        <p>
-                            Industrial campus delivering IEQ-first factory design
-                            with heat recovery wheels and rooftop solar PV carpark.
-                        </p>
-
-                        <div class="project-foot">
-                            <div class="project-stat">
-                                <strong>1.8 MWp</strong>
-                                <small>Rooftop Solar</small>
-                            </div>
-                            <a href="project-detail.php" class="project-link">
-                                <i class="fa-solid fa-arrow-up-right-from-square"></i>
-                            </a>
-                        </div>
-
-                    </div>
-
-                </article>
-
             </div>
 
             <div class="projects-cta-bottom">
