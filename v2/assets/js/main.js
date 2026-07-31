@@ -1,5 +1,52 @@
 document.addEventListener("DOMContentLoaded", function () {
 
+    const testimonialSwiperEl = document.querySelector(".testimonials-swiper");
+    if (testimonialSwiperEl && typeof Swiper !== "undefined") {
+        new Swiper(testimonialSwiperEl, {
+            slidesPerView: 1,
+            spaceBetween: 28,
+            speed: 700,
+            loop: true,
+            grabCursor: true,
+            centeredSlides: false,
+            autoplay: {
+                delay: 5500,
+                disableOnInteraction: false,
+                pauseOnMouseEnter: true
+            },
+            pagination: {
+                el: ".testimonial-swiper-pagination",
+                clickable: true
+            },
+            navigation: {
+                nextEl: ".testimonial-swiper-next",
+                prevEl: ".testimonial-swiper-prev"
+            },
+            keyboard: {
+                enabled: true,
+                onlyInViewport: true
+            },
+            breakpoints: {
+                576: {
+                    slidesPerView: 1,
+                    spaceBetween: 22
+                },
+                768: {
+                    slidesPerView: 2,
+                    spaceBetween: 22
+                },
+                991: {
+                    slidesPerView: 2,
+                    spaceBetween: 26
+                },
+                1200: {
+                    slidesPerView: 3,
+                    spaceBetween: 28
+                }
+            }
+        });
+    }
+
     const header = document.querySelector(".main-header");
     const toggle = document.getElementById("mobileToggle");
     const navbar = document.getElementById("navbar");

@@ -9,6 +9,7 @@
     <title>Home</title>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link rel="stylesheet" href="assets/css/style.css">
 
 </head>
@@ -113,7 +114,7 @@
                 <a href="green-building-certification.php" class="service-card">
 
                     <div class="service-image">
-                        <img src="https://coresg-normal.trae.ai/api/ide/v1/text_to_image?prompt=Modern+office+tower+with+green+living+walls+vertical+garden+sustainable+eco+friendly+LEED+certified+building+sunny+day+blue+sky+architectural+photography&image_size=landscape_4_3"
+                        <img src="assets/images/hero.png"
                             alt="Green Building Certification">
                         <div class="service-image-icon">
                             <i class="fa-solid fa-leaf"></i>
@@ -140,7 +141,7 @@
                 <a href="energy-simulation.php" class="service-card">
 
                     <div class="service-image">
-                        <img src="https://coresg-normal.trae.ai/api/ide/v1/text_to_image?prompt=Building+energy+simulation+3D+model+thermal+heat+map+visualization+modern+architecture+sustainability+engineering+software+blue+and+orange+data+layers&image_size=landscape_4_3"
+                        <img src="assets/images/hero.png"
                             alt="Energy Simulation">
                         <div class="service-image-icon">
                             <i class="fa-solid fa-chart-line"></i>
@@ -167,7 +168,7 @@
                 <a href="hvac-design-installation.php" class="service-card">
 
                     <div class="service-image">
-                        <img src="https://coresg-normal.trae.ai/api/ide/v1/text_to_image?prompt=HVAC+air+conditioning+system+installation+commercial+building+rooftop+units+ventilation+ductwork+industrial+mechanical+engineering+clean+modern&image_size=landscape_4_3"
+                        <img src="assets/images/hero.png"
                             alt="HVAC Design Installation">
                         <div class="service-image-icon">
                             <i class="fa-solid fa-temperature-half"></i>
@@ -194,7 +195,7 @@
                 <a href="geothermal-energy-system.php" class="service-card">
 
                     <div class="service-image">
-                        <img src="https://coresg-normal.trae.ai/api/ide/v1/text_to_image?prompt=Geothermal+renewable+energy+system+ground+source+heat+pump+underground+pipes+diagram+green+eco+friendly+power+clean+technology+blueprint+style&image_size=landscape_4_3"
+                        <img src="assets/images/hero.png"
                             alt="Geothermal Energy System">
                         <div class="service-image-icon">
                             <i class="fa-solid fa-earth-oceania"></i>
@@ -232,6 +233,140 @@
 
     </section>
 
+
+
+    <!--==========================
+        WORKING PROCESS
+===========================-->
+
+    <section class="process-section">
+
+        <div class="container">
+
+            <div class="process-heading">
+
+                <span class="process-badge">
+                    <i class="fa-solid fa-gears"></i> How We Work
+                </span>
+
+                <h2>
+                    Our <span>Working Process</span>
+                </h2>
+
+                <p>
+                    A structured, data-driven methodology that ensures every
+                    sustainability project delivers measurable, certifiable results.
+                </p>
+
+            </div>
+
+            <div class="process-steps">
+
+                <div class="process-step">
+
+                    <div class="process-step-number">
+                        <span>01</span>
+                    </div>
+
+                    <div class="process-step-icon">
+                        <i class="fa-solid fa-lightbulb"></i>
+                    </div>
+
+                    <h3>Project Understanding</h3>
+
+                    <p>
+                        Deep-dive stakeholder workshops and site feasibility
+                        analysis to align sustainability goals with business
+                        objectives and regulatory compliance.
+                    </p>
+
+                </div>
+
+                <div class="process-step">
+
+                    <div class="process-step-number">
+                        <span>02</span>
+                    </div>
+
+                    <div class="process-step-icon">
+                        <i class="fa-solid fa-database"></i>
+                    </div>
+
+                    <h3>Data Acquisition</h3>
+
+                    <p>
+                        Comprehensive on-site surveys, utility audits, BIM
+                        extraction and historical consumption analysis to build
+                        an accurate performance baseline.
+                    </p>
+
+                </div>
+
+                <div class="process-step">
+
+                    <div class="process-step-number">
+                        <span>03</span>
+                    </div>
+
+                    <div class="process-step-icon">
+                        <i class="fa-solid fa-cube"></i>
+                    </div>
+
+                    <h3>Process Modeling</h3>
+
+                    <p>
+                        Scientific energy simulation, thermal modeling and
+                        CFD analysis using industry-leading tools to design
+                        and validate every engineering decision.
+                    </p>
+
+                </div>
+
+                <div class="process-step">
+
+                    <div class="process-step-number">
+                        <span>04</span>
+                    </div>
+
+                    <div class="process-step-icon">
+                        <i class="fa-solid fa-scale-balanced"></i>
+                    </div>
+
+                    <h3>Compare &amp; Validate</h3>
+
+                    <p>
+                        Side-by-side comparison of simulation outputs against
+                        real-world site data to calibrate models and close any
+                        performance gaps before implementation.
+                    </p>
+
+                </div>
+
+                <div class="process-step">
+
+                    <div class="process-step-number">
+                        <span>05</span>
+                    </div>
+
+                    <div class="process-step-icon">
+                        <i class="fa-solid fa-trophy"></i>
+                    </div>
+
+                    <h3>Final Results</h3>
+
+                    <p>
+                        Commissioning, handover and certification support with
+                        post-occupancy monitoring to ensure promised energy
+                        savings and green ratings are actually achieved.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
 
 
     <!--==========================
@@ -372,9 +507,177 @@
 
     </section>
 
+    <!--==========================
+        PROJECTS
+===========================-->
 
-    <!-- Existing Homepage Content -->
+    <section class="projects-section">
 
+        <div class="projects-container">
+
+            <div class="projects-heading">
+                <h2>Our Projects</h2>
+            </div>
+
+            <div class="projects-grid">
+
+                <article class="project-card">
+
+                    <div class="project-image">
+                        <img src="assets/images/hero.png" alt="Green Corporate HQ">
+                        <span class="project-tag">LEED Platinum</span>
+                    </div>
+
+                    <div class="project-body">
+
+                        <div class="project-meta">
+                            <span><i class="fa-solid fa-map-location-dot"></i> Mumbai</span>
+                            <span><i class="fa-solid fa-layer-group"></i> 12 Floors</span>
+                        </div>
+
+                        <h3>Veridia Green Corporate HQ</h3>
+
+                        <p>
+                            Zero-discharge campus with 42% energy reduction,
+                            rainwater harvesting and a 400 kW rooftop solar array.
+                        </p>
+
+                        <div class="project-foot">
+                            <div class="project-stat">
+                                <strong>42%</strong>
+                                <small>Energy Saved</small>
+                            </div>
+                            <a href="project-detail.php" class="project-link">
+                                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                            </a>
+                        </div>
+
+                    </div>
+
+                </article>
+
+                <article class="project-card">
+
+                    <div class="project-image">
+                        <img src="assets/images/hero.png" alt="University Campus">
+                        <span class="project-tag project-tag--sage">IGBC Gold</span>
+                    </div>
+
+                    <div class="project-body">
+
+                        <div class="project-meta">
+                            <span><i class="fa-solid fa-map-location-dot"></i> Bengaluru</span>
+                            <span><i class="fa-solid fa-users"></i> 8,500 Students</span>
+                        </div>
+
+                        <h3>Ashray Knowledge Campus</h3>
+
+                        <p>
+                            25-acre net-positive university precinct with passive
+                            cooling, daylight design and 4 MLD STP reuse cycle.
+                        </p>
+
+                        <div class="project-foot">
+                            <div class="project-stat">
+                                <strong>100%</strong>
+                                <small>Water Reuse</small>
+                            </div>
+                            <a href="project-detail.php" class="project-link">
+                                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                            </a>
+                        </div>
+
+                    </div>
+
+                </article>
+
+                <article class="project-card">
+
+                    <div class="project-image">
+                        <img src="assets/images/hero.png" alt="Residential Towers">
+                        <span class="project-tag project-tag--coral">BREEAM Excellent</span>
+                    </div>
+
+                    <div class="project-body">
+
+                        <div class="project-meta">
+                            <span><i class="fa-solid fa-map-location-dot"></i> Pune</span>
+                            <span><i class="fa-solid fa-building"></i> 620 Units</span>
+                        </div>
+
+                        <h3>Coral Heights Residences</h3>
+
+                        <p>
+                            Luxury high-rise residences with VRF climate control,
+                            demand-controlled ventilation and district cooling.
+                        </p>
+
+                        <div class="project-foot">
+                            <div class="project-stat">
+                                <strong>55%</strong>
+                                <small>Peak Load Cut</small>
+                            </div>
+                            <a href="project-detail.php" class="project-link">
+                                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                            </a>
+                        </div>
+
+                    </div>
+
+                </article>
+
+                <article class="project-card">
+
+                    <div class="project-image">
+                        <img src="assets/images/hero.png" alt="Manufacturing Plant">
+                        <span class="project-tag">WELL Gold</span>
+                    </div>
+
+                    <div class="project-body">
+
+                        <div class="project-meta">
+                            <span><i class="fa-solid fa-map-location-dot"></i> Ahmedabad</span>
+                            <span><i class="fa-solid fa-industry"></i> 30 Acres</span>
+                        </div>
+
+                        <h3>Suvida Manufacturing Park</h3>
+
+                        <p>
+                            Industrial campus delivering IEQ-first factory design
+                            with heat recovery wheels and rooftop solar PV carpark.
+                        </p>
+
+                        <div class="project-foot">
+                            <div class="project-stat">
+                                <strong>1.8 MWp</strong>
+                                <small>Rooftop Solar</small>
+                            </div>
+                            <a href="project-detail.php" class="project-link">
+                                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                            </a>
+                        </div>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+            <div class="projects-cta-bottom">
+                <a href="projects.php" class="projects-view-all">
+                    View All Projects <i class="fa-solid fa-arrow-right"></i>
+                </a>
+            </div>
+
+        </div>
+
+    </section>
+
+    <?php include 'includes/testimonials.php'; ?>
+
+    <?php include 'includes/footer.php'; ?>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="assets/js/main.js"></script>
 
 </body>
