@@ -9,6 +9,8 @@
     <title>About Us | Sustainergic Tech</title>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link rel="stylesheet" href="assets/css/style.css">
 
 </head>
@@ -165,33 +167,63 @@
 
     <section class="about-section about-section--strength about-section--peach">
 
-        <div class="container about-container">
+        <div class="container strength-container">
 
-            <div class="about-section-head about-section-head--center">
-
-                <span class="section-badge">Why We Stand Out</span>
+            <div class="about-section-head about-section-head--center about-strength-head">
 
                 <h2>Our Strength</h2>
 
             </div>
 
-            <div class="strength-card">
+            <div class="strength-grid">
 
-                <div class="strength-icon">
-                    <i class="fa-solid fa-users-rays"></i>
+                <div class="strength-feature">
+                    <div class="strength-feature-icon">
+                        <i class="fa-solid fa-leaf"></i>
+                    </div>
+                    <div class="strength-feature-body">
+                        <div class="strength-feature-bar"><span></span></div>
+                        <h3>Green Building Certification</h3>
+                        <p>Expert guidance across LEED, BREEAM, IGBC and more — turning compliance into competitive
+                            advantage for every project.</p>
+                    </div>
                 </div>
 
-                <p>
-                    We are a young and dynamic team with our expertise revolves around innovative ideas
-                    and designs to arrive at <strong>cost-effective &amp; optimized solutions</strong>
-                    for our customers.
-                </p>
+                <div class="strength-feature">
+                    <div class="strength-feature-icon">
+                        <i class="fa-solid fa-bolt-lightning"></i>
+                    </div>
+                    <div class="strength-feature-body">
+                        <div class="strength-feature-bar"><span></span></div>
+                        <h3>Energy &amp; Daylight Simulation</h3>
+                        <p>Data-driven modelling that validates performance, reduces risk, and guarantees measurable
+                            savings before build.</p>
+                    </div>
+                </div>
 
-                <p>
-                    We remain <strong>customer-centric</strong> with the ability to use a hybrid approach
-                    — engineering calculation with simulation methodology — to arrive at best possible
-                    solutions.
-                </p>
+                <div class="strength-feature">
+                    <div class="strength-feature-icon">
+                        <i class="fa-solid fa-snowflake"></i>
+                    </div>
+                    <div class="strength-feature-body">
+                        <div class="strength-feature-bar"><span></span></div>
+                        <h3>Advanced HVAC &amp; VAM Design</h3>
+                        <p>Custom low-energy cooling, radiant systems, vapour absorption machines and plant optimization
+                            — engineered for efficiency.</p>
+                    </div>
+                </div>
+
+                <div class="strength-feature">
+                    <div class="strength-feature-icon">
+                        <i class="fa-solid fa-helmet-safety"></i>
+                    </div>
+                    <div class="strength-feature-body">
+                        <div class="strength-feature-bar"><span></span></div>
+                        <h3>End-to-End Project Delivery</h3>
+                        <p>From feasibility &amp; concept to commissioning &amp; energy audit — a single accountable
+                            partner for every milestone.</p>
+                    </div>
+                </div>
 
             </div>
 
@@ -276,6 +308,48 @@
 
     </section>
 
+    <section class="about-section about-section--overview">
+
+        <div class="container about-container">
+
+            <div class="about-section-head about-section-head--center">
+
+                <!-- <span class="section-badge">In Numbers</span> -->
+
+                <h2>Company Overview</h2>
+
+            </div>
+
+            <div class="overview-grid">
+
+                <div class="overview-stat">
+                    <strong>4+</strong>
+                    <span>Years of Green Building Experience</span>
+                </div>
+
+                <div class="overview-stat">
+                    <strong>50+</strong>
+                    <span>Projects Delivered Across India</span>
+                </div>
+
+                <div class="overview-stat">
+                    <strong>8</strong>
+                    <span>Green Building Certifications Handled</span>
+                </div>
+
+                <div class="overview-stat">
+                    <strong>100%</strong>
+                    <span>Client Retention Year on Year</span>
+                </div>
+
+            </div>
+
+        </div>
+
+        </div>
+
+    </section>
+
     <!-- =========================
         CORE VALUES
     ========================= -->
@@ -340,51 +414,15 @@
         COMPANY OVERVIEW
     ========================= -->
 
-    <section class="about-section about-section--overview">
+    <?php include 'includes/cta.php'; ?>
+    <?php include 'includes/testimonials.php'; ?>
 
-        <div class="container about-container">
-
-            <div class="about-section-head about-section-head--center">
-
-                <span class="section-badge">In Numbers</span>
-
-                <h2>Company Overview</h2>
-
-            </div>
-
-            <div class="overview-grid">
-
-                <div class="overview-stat">
-                    <strong>4+</strong>
-                    <span>Years of Green Building Experience</span>
-                </div>
-
-                <div class="overview-stat">
-                    <strong>50+</strong>
-                    <span>Projects Delivered Across India</span>
-                </div>
-
-                <div class="overview-stat">
-                    <strong>8</strong>
-                    <span>Green Building Certifications Handled</span>
-                </div>
-
-                <div class="overview-stat">
-                    <strong>100%</strong>
-                    <span>Client Retention Year on Year</span>
-                </div>
-
-            </div>
-
-        </div>
-
-        </div>
-
-    </section>
 
     <?php include 'includes/footer.php'; ?>
 
     <script src="assets/js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
 
 </body>
 
