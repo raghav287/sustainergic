@@ -629,7 +629,7 @@
             </div>
 
             <div class="projects-cta-bottom">
-                <a href="projects.php" class="projects-view-all">
+                <a href="project.php" class="projects-view-all">
                     View All Projects <i class="fa-solid fa-arrow-right"></i>
                 </a>
             </div>

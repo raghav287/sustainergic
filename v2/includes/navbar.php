@@ -1,3 +1,14 @@
+<?php
+$active_page = basename($_SERVER['PHP_SELF']);
+$service_pages = [
+    'green-building-certification.php', 'energy-simulation.php', 'daylight-simulation.php',
+    'cfd-simulation.php', 'ecbc-compliance.php', 'building-commissioning.php',
+    'energy-audit.php', 'water-audit.php', 'hvac-design-installation.php',
+    'radiant-cooling-system.php', 'heat-pump.php', 'geothermal-energy-system.php',
+    'vrf.php', 'hts.php'
+];
+$resource_pages = ['case-studies.php', 'clients.php', 'blog.php'];
+?>
 <header class="main-header" id="header">
 
     <div class="nav-wrapper">
@@ -12,13 +23,13 @@
 
             <ul class="nav-menu">
 
-                <li><a href="index.php" class="active">Home</a></li>
+                <li><a href="index.php" class="<?php echo ($active_page == 'index.php') ? 'active' : ''; ?>">Home</a></li>
 
-                <li><a href="about.php">About Us</a></li>
+                <li><a href="about.php" class="<?php echo ($active_page == 'about.php') ? 'active' : ''; ?>">About Us</a></li>
 
                 <li class="dropdown">
 
-                    <a href="#">
+                    <a href="#" class="<?php echo in_array($active_page, $service_pages) ? 'active' : ''; ?>">
                         Services
                         <i class="fa-solid fa-chevron-down"></i>
                     </a>
@@ -27,12 +38,15 @@
 
                         <li><a href="green-building-certification.php">Green Building Certification</a></li>
 
-                        <li><a href="energy-simulation.php">Energy Simulation</a></li>
+                        <li><a href="energy-simulation.php">Simulation/Modeling </a></li>
 
-                        <li><a href="daylight-simulation.php">Daylight Simulation</a></li>
+                        <li><a href="daylight-simulation.php">Audits </a></li>
 
-                        <li><a href="cfd-simulation.php">CFD Simulation</a></li>
 
+                        <li><a href="daylight-simulation.php">Commissioning Authority</a></li>
+
+                        <li><a href="cfd-simulation.php">Carbon Accounting & Advisory</a></li>
+<!-- 
                         <li><a href="ecbc-compliance.php">ECBC Compliance</a></li>
 
                         <li><a href="building-commissioning.php">Building Commissioning</a></li>
@@ -51,19 +65,53 @@
 
                         <li><a href="vrf.php">Variable Refrigerant Flow (VRF)</a></li>
 
-                        <li><a href="hts.php">Hybrid Thermal Solar Panel (HTS)</a></li>
+                        <li><a href="hts.php">Hybrid Thermal Solar Panel (HTS)</a></li> -->
 
                     </ul>
 
                 </li>
+                <li class="dropdown">
 
-                <li><a href="projects.php">Projects</a></li>
+                    <a href="#" class="<?php echo in_array($active_page, $service_pages) ? 'active' : ''; ?>">
+                        HVAC
+                        <i class="fa-solid fa-chevron-down"></i>
+                    </a>
+
+                    <ul class="dropdown-menu">
+
+                        <li><a href="#">Radiant Heating & Cooling System</a></li>
+
+                        <li><a href="#">Underfloor Electric Heating System </a></li>
+
+                        <li><a href="#">Air Source Heat Pump (ASHP)</a></li>
+
+
+                        <li><a href="#">Geothermal System</a></li>
+
+                        <li><a href="#">Fresh Air System</a></li>
+
+                        <li><a href="#">Chilled Water System</a></li>
+
+                        <li><a href="#">VRV/VRF System</a></li>
+
+                        <li><a href="#">Heat Pumps</a></li>
+
+                        <li><a href="#">Radiators</a></li>
+
+                        <li><a href="#">IoT Water Solution</a></li>
+
+                        <li><a href="#">Hybrid Thermal Solar (HTS) Panel</a></li>
+                    </ul>
+
+                </li>
+
+                <!-- <li><a href="project.php" class="<?php echo ($active_page == 'project.php') ? 'active' : ''; ?>">Projects</a></li> -->
 
                 <!-- <li><a href="industries.php">Industries</a></li> -->
 
                 <li class="dropdown">
 
-                    <a href="#">
+                    <a href="#" class="<?php echo in_array($active_page, $resource_pages) ? 'active' : ''; ?>">
                         Resources
                         <i class="fa-solid fa-chevron-down"></i>
                     </a>
@@ -80,9 +128,7 @@
 
                 </li>
 
-
-
-                <li><a href="contact-us.php">Contact Us</a></li>
+                <li><a href="contact-us.php" class="<?php echo ($active_page == 'contact-us.php') ? 'active' : ''; ?>">Contact Us</a></li>
 
             </ul>
 
