@@ -49,11 +49,12 @@
 
                 <div class="contact-info-card">
                     <div class="cic-icon"><i class="fa-solid fa-location-dot"></i></div>
-                    <h4>Head Office</h4>
-                    <p>
-                        302, Green Towers,<br>
-                        Mindspace, Malad West,<br>
-                        Mumbai, Maharashtra 400064
+                    <h4>Our Offices</h4>
+                    <p style="margin-bottom: 12px; font-size: 14.5px;">
+                        <strong>Jaipur:</strong> GF, D-5/24, Chitrakoot Scheme, Vaishali Nagar, Jaipur, Rajasthan 302021
+                    </p>
+                    <p style="font-size: 14.5px;">
+                        <strong>Zirakpur:</strong> SCO 3, First Floor, Dashmesh Colony, Patiala Road, Zirakpur 140603
                     </p>
                 </div>
 
@@ -61,8 +62,7 @@
                     <div class="cic-icon cic-icon--accent"><i class="fa-solid fa-phone-volume"></i></div>
                     <h4>Call Us</h4>
                     <p>
-                        <a href="tel:+1234567890">+91 22 6543 2100</a><br>
-                        <a href="tel:+1234567890">+91 98765 43210</a><br>
+                        <a href="tel:+919785749960">+91 97857 49960</a><br>
                         Mon – Sat · 9:00 – 18:00
                     </p>
                 </div>
@@ -71,8 +71,8 @@
                     <div class="cic-icon"><i class="fa-regular fa-envelope-open"></i></div>
                     <h4>Email</h4>
                     <p>
-                        <a href="mailto:hello@sustainergic.com">hello@sustainergic.com</a><br>
-                        <a href="mailto:projects@sustainergic.com">projects@sustainergic.com</a><br>
+                        <a href="mailto:prateek@sustainergictech.in">prateek@sustainergictech.in</a><br>
+                        <a href="mailto:business@sustainergictech.in">business@sustainergictech.in</a><br>
                         We reply within 24 hours
                     </p>
                 </div>
@@ -183,7 +183,7 @@
 
                     <div class="contact-map">
                         <iframe title="Sustainergic Office Location"
-                            src="https://www.openstreetmap.org/export/embed.html?bbox=72.825000%2C19.170000%2C72.855000%2C19.195000&amp;layer=mapnik&amp;marker=19.182500%2C72.840000"
+                            src="https://www.openstreetmap.org/export/embed.html?bbox=75.720000%2C26.895000%2C75.755000%2C26.920000&amp;layer=mapnik&amp;marker=26.907600%2C75.738100"
                             loading="lazy" referrerpolicy="no-referrer-when-downgrade">
                         </iframe>
                     </div>
@@ -203,9 +203,9 @@
                         <h4>Follow Us</h4>
 
                         <div class="side-socials">
-                            <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                            <a href="https://www.linkedin.com/company/sustainergic-tech/" target="_blank" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
                             <a href="#" aria-label="Twitter"><i class="fa-brands fa-x-twitter"></i></a>
-                            <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="https://www.instagram.com/sustainergictech?igsh=MTBwdDZhd3lzNnF0eQ" target="_blank" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
                             <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
                         </div>
 

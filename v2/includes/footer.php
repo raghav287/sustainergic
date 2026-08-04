@@ -15,7 +15,7 @@
                             <small>Get a free 30-min consultation with our lead engineer.</small>
                         </div>
                     </div>
-                    <a href="contact-us.php" class="ft-cta">
+                    <a href="#" class="ft-cta">
                         Book Free Consultation <i class="fa-solid fa-arrow-right"></i>
                     </a>
                 </div>
@@ -43,9 +43,9 @@
                         </p>
 
                         <div class="fm-socials">
-                            <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                            <a href="https://www.linkedin.com/company/sustainergic-tech/" target="_blank" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
                             <a href="#" aria-label="X"><i class="fa-brands fa-x-twitter"></i></a>
-                            <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="https://www.instagram.com/sustainergictech?igsh=MTBwdDZhd3lzNnF0eQ" target="_blank" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
                             <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
                             <a href="#" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
                         </div>
@@ -58,7 +58,7 @@
                         <ul>
                             <li><a href="index.php">Home</a></li>
                             <li><a href="about.php">About Us</a></li>
-                            <li><a href="services.php">Services</a></li>
+                            <li><a href="#">Services</a></li>
                             <li><a href="project.php">Projects</a></li>
                             <li><a href="contact-us.php">Contact Us</a></li>
                         </ul>
@@ -68,11 +68,11 @@
                     <div class="fm-col fm-nav">
                         <h4>Our Services</h4>
                         <ul>
-                            <li><a href="green-building-certification.php">Green Building Certification</a></li>
-                            <li><a href="energy-simulation.php">Energy Simulation</a></li>
-                            <li><a href="hvac-design-installation.php">HVAC Design &amp; Installation</a></li>
-                            <li><a href="geothermal-energy-system.php">Geothermal Systems</a></li>
-                            <li><a href="services.php">View All Services</a></li>
+                            <li><a href="#">Green Building Certification</a></li>
+                            <li><a href="#">Energy Simulation</a></li>
+                            <li><a href="#">HVAC Design &amp; Installation</a></li>
+                            <li><a href="#">Geothermal Systems</a></li>
+                            <li><a href="#">View All Services</a></li>
                         </ul>
                     </div>
 
@@ -86,15 +86,22 @@
                             <ul>
                                 <li>
                                     <i class="fa-solid fa-location-dot"></i>
-                                    <span>302, Green Towers,<br>Mindspace, Mumbai 400064</span>
+                                    <span style="font-size: 13.5px; line-height: 1.5;">
+                                        <strong>Jaipur:</strong> GF, D-5/24, Chitrakoot Scheme, Vaishali Nagar, Jaipur 302021<br><br>
+                                        <strong>Zirakpur:</strong> SCO 3, 1st Floor, Dashmesh Colony, Patiala Road, Zirakpur 140603
+                                    </span>
+                                    
                                 </li>
                                 <li>
                                     <i class="fa-solid fa-phone-volume"></i>
-                                    <span><a href="tel:+912265432100">+91 22 6543 2100</a></span>
+                                    <span><a href="tel:+919785749960">+91 97857 49960</a></span>
                                 </li>
                                 <li>
                                     <i class="fa-regular fa-envelope"></i>
-                                    <span><a href="mailto:hello@sustainergic.com">hello@sustainergic.com</a></span>
+                                    <span>
+                                        <a href="mailto:prateek@sustainergictech.in">prateek@sustainergictech.in</a><br>
+                                        <a href="mailto:business@sustainergictech.in">business@sustainergictech.in</a>
+                                    </span>
                                 </li>
                             </ul>
                         </div>

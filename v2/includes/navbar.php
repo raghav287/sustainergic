@@ -36,16 +36,16 @@ $resource_pages = ['case-studies.php', 'clients.php', 'blog.php'];
 
                     <ul class="dropdown-menu">
 
-                        <li><a href="green-building-certification.php">Green Building Certification</a></li>
+                        <li><a href="#">Green Building Certification</a></li>
 
-                        <li><a href="energy-simulation.php">Simulation/Modeling </a></li>
+                        <li><a href="#">Simulation/Modeling </a></li>
 
-                        <li><a href="daylight-simulation.php">Audits </a></li>
+                        <li><a href="#">Audits </a></li>
 
 
-                        <li><a href="daylight-simulation.php">Commissioning Authority</a></li>
+                        <li><a href="#">Commissioning Authority</a></li>
 
-                        <li><a href="cfd-simulation.php">Carbon Accounting & Advisory</a></li>
+                        <li><a href="#">Carbon Accounting & Advisory</a></li>
 <!-- 
                         <li><a href="ecbc-compliance.php">ECBC Compliance</a></li>
 
@@ -105,7 +105,7 @@ $resource_pages = ['case-studies.php', 'clients.php', 'blog.php'];
 
                 </li>
 
-                <!-- <li><a href="project.php" class="<?php echo ($active_page == 'project.php') ? 'active' : ''; ?>">Projects</a></li> -->
+                <li><a href="project.php" class="<?php echo ($active_page == 'project.php') ? 'active' : ''; ?>">Projects</a></li>
 
                 <!-- <li><a href="industries.php">Industries</a></li> -->
 
@@ -118,11 +118,11 @@ $resource_pages = ['case-studies.php', 'clients.php', 'blog.php'];
 
                     <ul class="dropdown-menu">
 
-                        <li><a href="case-studies.php">Case Studies</a></li>
+                        <li><a href="#">Case Studies</a></li>
 
-                        <li><a href="clients.php">Clients</a></li>
+                        <li><a href="#">Clients</a></li>
 
-                        <li><a href="blog.php">Blog</a></li>
+                        <li><a href="#">Blog</a></li>
 
                     </ul>
 
@@ -146,7 +146,7 @@ $resource_pages = ['case-studies.php', 'clients.php', 'blog.php'];
 
         <div class="nav-right">
 
-            <a href="consultation.php" class="quote-btn">
+            <a href="#" class="quote-btn">
 
                 Get a Consultation
 

@@ -55,7 +55,7 @@
                         Get a Consultation
                     </a>
 
-                    <a href="services.php" class="btn-outline">
+                    <a href="#" class="btn-outline">
                         Explore Services
                     </a>
 
@@ -111,7 +111,7 @@
 
             <div class="services-grid">
 
-                <a href="green-building-certification.php" class="service-card">
+                <a href="#" class="service-card">
 
                     <div class="service-image">
                         <img src="assets/images/hero.png"
@@ -138,7 +138,7 @@
 
                 </a>
 
-                <a href="energy-simulation.php" class="service-card">
+                <a href="#" class="service-card">
 
                     <div class="service-image">
                         <img src="assets/images/hero.png"
@@ -165,7 +165,7 @@
 
                 </a>
 
-                <a href="hvac-design-installation.php" class="service-card">
+                <a href="#" class="service-card">
 
                     <div class="service-image">
                         <img src="assets/images/hero.png"
@@ -192,7 +192,7 @@
 
                 </a>
 
-                <a href="geothermal-energy-system.php" class="service-card">
+                <a href="#" class="service-card">
 
                     <div class="service-image">
                         <img src="assets/images/hero.png"
@@ -223,7 +223,7 @@
 
             <div class="services-cta">
 
-                <a href="services.php" class="btn-primary">
+                <a href="#" class="btn-primary">
                     <i class="fa-solid fa-layer-group"></i> View All 14+ Services
                 </a>
 
@@ -547,7 +547,7 @@
                                 <strong>42%</strong>
                                 <small>Energy Saved</small>
                             </div>
-                            <a href="project-detail.php" class="project-link">
+                            <a href="#" class="project-link">
                                 <i class="fa-solid fa-arrow-up-right-from-square"></i>
                             </a>
                         </div>
@@ -582,7 +582,7 @@
                                 <strong>100%</strong>
                                 <small>Water Reuse</small>
                             </div>
-                            <a href="project-detail.php" class="project-link">
+                            <a href="#" class="project-link">
                                 <i class="fa-solid fa-arrow-up-right-from-square"></i>
                             </a>
                         </div>
@@ -617,7 +617,7 @@
                                 <strong>55%</strong>
                                 <small>Peak Load Cut</small>
                             </div>
-                            <a href="project-detail.php" class="project-link">
+                            <a href="#" class="project-link">
                                 <i class="fa-solid fa-arrow-up-right-from-square"></i>
                             </a>
                         </div>
@@ -629,7 +629,7 @@
             </div>
 
             <div class="projects-cta-bottom">
-                <a href="project.php" class="projects-view-all">
+                <a href="#" class="projects-view-all">
                     View All Projects <i class="fa-solid fa-arrow-right"></i>
                 </a>
             </div>
