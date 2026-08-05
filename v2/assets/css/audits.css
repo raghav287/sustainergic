@@ -1,0 +1,1457 @@
+/* ==========================================================================
+   SUSTAINERGIC TECH - ENERGY & WATER AUDITS SERVICES CSS
+   ========================================================================== */
+
+:root {
+    --aud-forest-dark: var(--text); /* Root Dark color */
+    --aud-forest: #111111;
+    --aud-emerald: var(--accent-green); /* Root green */
+    --aud-sage: var(--primary-color); /* Root Coral */
+    --aud-sage-light: var(--primary-light);
+    --aud-sage-ultra-light: var(--primary-light);
+    
+    /* Energy Accents (Warm Amber/Yellow) */
+    --aud-energy: #d97706;
+    --aud-energy-light: #fef3c7;
+    
+    /* Water Accents (Cool Blue/Teal) */
+    --aud-water: #0284c7;
+    --aud-water-light: #e0f2fe;
+    
+    --aud-white: var(--white);
+    --aud-text-dark: var(--text);
+    --aud-text-muted: #5c6f64;
+    --aud-border: var(--border);
+    --aud-border-light: var(--border);
+    --aud-shadow: var(--shadow);
+    --aud-shadow-sm: var(--shadow-sm);
+    --aud-shadow-lg: var(--shadow-lg);
+    --aud-font: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    --aud-transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+/* ==========================================================================
+   RESET & UTILITIES
+   ========================================================================== */
+
+.aud-section {
+    padding: 60px 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.aud-section--light {
+    background-color: var(--aud-sage-ultra-light);
+}
+
+.aud-section--light-blue {
+    background-color: var(--aud-water-light);
+}
+
+.aud-section--dark {
+    background-color: var(--aud-forest-dark);
+    color: var(--aud-white);
+}
+
+.aud-container {
+    max-width: 1240px;
+    margin: 0 auto;
+    padding: 0 24px;
+    width: 100%;
+}
+
+.aud-grid-2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 48px;
+    align-items: center;
+}
+
+.aud-grid-3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.aud-grid-4 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+/* Typography & Labels */
+.aud-label {
+    display: inline-block;
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: var(--aud-sage);
+    margin-bottom: 12px;
+    position: relative;
+    padding-left: 20px;
+}
+
+.aud-label::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 12px;
+    height: 2px;
+    background-color: var(--aud-sage);
+}
+
+.aud-label--blue {
+    color: var(--aud-water);
+}
+
+.aud-label--blue::before {
+    background-color: var(--aud-water);
+}
+
+.aud-title-main {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.25;
+    color: var(--aud-text-dark);
+    margin-bottom: 20px;
+}
+
+.aud-title-main span {
+    color: var(--aud-sage);
+}
+
+.aud-section--dark .aud-title-main {
+    color: var(--aud-white);
+}
+
+.aud-text-lead {
+    font-size: 17px;
+    line-height: 1.7;
+    color: var(--aud-text-muted);
+    margin-bottom: 30px;
+}
+
+/* Buttons */
+.aud-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 14px 28px;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 12px;
+    transition: var(--aud-transition);
+    gap: 10px;
+}
+
+.aud-btn--primary {
+    background-color: var(--aud-sage);
+    color: var(--aud-white);
+    box-shadow: 0 4px 14px rgba(240, 123, 94, 0.25);
+}
+
+.aud-btn--primary:hover {
+    background-color: var(--aud-forest);
+    transform: translateY(-3px);
+    box-shadow: 0 6px 20px rgba(17, 17, 17, 0.3);
+    color: var(--aud-white);
+}
+
+.aud-btn--outline {
+    border: 2px solid var(--aud-border);
+    color: var(--aud-text-dark);
+    background-color: transparent;
+}
+
+.aud-btn--outline:hover {
+    border-color: var(--aud-emerald);
+    background-color: var(--aud-sage-light);
+    color: var(--aud-emerald);
+    transform: translateY(-3px);
+}
+
+.aud-btn--white-outline {
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    color: var(--aud-white);
+}
+
+.aud-btn--white-outline:hover {
+    background-color: var(--aud-white);
+    color: var(--aud-forest-dark);
+    border-color: var(--aud-white);
+    transform: translateY(-3px);
+}
+
+.aud-btn--energy {
+    background-color: var(--aud-energy);
+    color: var(--aud-white);
+    box-shadow: 0 4px 14px rgba(217, 119, 6, 0.25);
+}
+
+.aud-btn--energy:hover {
+    background-color: #b45309;
+    transform: translateY(-3px);
+    box-shadow: 0 6px 20px rgba(180, 83, 9, 0.4);
+    color: var(--aud-white);
+}
+
+.aud-btn--water {
+    background-color: var(--aud-water);
+    color: var(--aud-white);
+    box-shadow: 0 4px 14px rgba(2, 132, 199, 0.25);
+}
+
+.aud-btn--water:hover {
+    background-color: #0369a1;
+    transform: translateY(-3px);
+    box-shadow: 0 6px 20px rgba(3, 105, 161, 0.4);
+    color: var(--aud-white);
+}
+
+/* ==========================================================================
+   1. HERO BANNER
+   ========================================================================== */
+
+.aud-hero {
+    position: relative;
+    padding: 170px 0 70px;
+    background: linear-gradient(135deg, var(--primary-color) 0%, #f5a68c 100%);
+    z-index: 1;
+}
+
+.aud-hero::after {
+    content: '';
+    position: absolute;
+    width: 600px;
+    height: 600px;
+    border-radius: 50%;
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0) 70%);
+    top: -100px;
+    right: -100px;
+    z-index: -1;
+}
+
+.aud-hero-grid {
+    display: grid;
+    grid-template-columns: 1.1fr 0.9fr;
+    gap: 48px;
+    align-items: center;
+}
+
+/* Breadcrumbs */
+.aud-breadcrumbs {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 24px;
+    font-size: 14px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.85);
+}
+
+.aud-breadcrumbs a {
+    color: rgba(255, 255, 255, 0.85);
+    transition: var(--aud-transition);
+}
+
+.aud-breadcrumbs a:hover {
+    color: var(--aud-white);
+}
+
+.aud-breadcrumbs li.sep, .aud-breadcrumbs li.sep i {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 11px;
+}
+
+.aud-breadcrumbs li.active {
+    color: var(--text);
+    font-weight: 600;
+}
+
+.aud-hero-title {
+    font-size: 52px;
+    font-weight: 800;
+    line-height: 1.15;
+    color: var(--aud-white);
+    margin-bottom: 20px;
+}
+
+.aud-hero-title span {
+    color: var(--aud-white);
+}
+
+.aud-hero-subtitle {
+    font-size: 18px;
+    line-height: 1.65;
+    color: rgba(255, 255, 255, 0.9);
+    margin-bottom: 36px;
+}
+
+.aud-hero-actions {
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+
+.aud-hero .aud-btn--primary {
+    background-color: var(--aud-white);
+    color: var(--primary-color);
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.1);
+}
+
+.aud-hero .aud-btn--primary:hover {
+    background-color: #111111;
+    color: var(--aud-white);
+    box-shadow: 0 6px 20px rgba(17, 17, 17, 0.2);
+}
+
+.aud-hero .aud-btn--outline {
+    border-color: rgba(255, 255, 255, 0.4);
+    color: var(--aud-white);
+}
+
+.aud-hero .aud-btn--outline:hover {
+    border-color: var(--aud-white);
+    background-color: rgba(255, 255, 255, 0.1);
+    color: var(--aud-white);
+}
+
+/* Hero Visual & Cards */
+.aud-hero-visual {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.aud-hero-img-wrapper {
+    position: relative;
+    border-radius: 30px;
+    overflow: hidden;
+    box-shadow: var(--aud-shadow-lg);
+    border: 8px solid var(--aud-white);
+    transform: perspective(1000px) rotateY(-5deg);
+    transition: var(--aud-transition);
+}
+
+.aud-hero-img-wrapper:hover {
+    transform: perspective(1000px) rotateY(0deg) scale(1.02);
+}
+
+.aud-hero-img-wrapper img {
+    width: 100%;
+    max-height: 480px;
+    object-fit: cover;
+}
+
+/* Background floating elements */
+.aud-hero-floating-card {
+    position: absolute;
+    background: rgba(255, 255, 255, 0.9);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.6);
+    padding: 16px 20px;
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    z-index: 2;
+    animation: float 6s ease-in-out infinite;
+}
+
+.aud-hero-floating-card--one {
+    top: 15%;
+    left: -40px;
+    animation-delay: 0s;
+}
+
+.aud-hero-floating-card--two {
+    bottom: 12%;
+    right: -20px;
+    animation-delay: 3s;
+}
+
+.aud-hero-fc-icon {
+    width: 44px;
+    height: 44px;
+    border-radius: 10px;
+    background-color: var(--aud-energy-light);
+    color: var(--aud-energy);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+}
+
+.aud-hero-floating-card--two .aud-hero-fc-icon {
+    background-color: var(--aud-water-light);
+    color: var(--aud-water);
+}
+
+.aud-hero-fc-text h5 {
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--aud-text-dark);
+    margin: 0 0 2px 0;
+}
+
+.aud-hero-fc-text p {
+    font-size: 12px;
+    color: var(--aud-text-muted);
+    margin: 0;
+}
+
+/* Float Animation */
+@keyframes float {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+}
+
+/* ==========================================================================
+   2. INTRODUCTION SECTION
+   ========================================================================== */
+
+.aud-intro-visual-wrapper {
+    position: relative;
+}
+
+.aud-intro-img {
+    border-radius: 24px;
+    box-shadow: var(--aud-shadow-lg);
+    border: 4px solid var(--aud-white);
+    width: 100%;
+    object-fit: cover;
+}
+
+.aud-intro-badge {
+    position: absolute;
+    bottom: -20px;
+    left: 40px;
+    background-color: var(--aud-forest-dark);
+    color: var(--aud-white);
+    padding: 24px 30px;
+    border-radius: 20px;
+    box-shadow: var(--aud-shadow-lg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.aud-intro-badge strong {
+    font-size: 28px;
+    font-weight: 800;
+    color: var(--aud-emerald);
+    line-height: 1;
+}
+
+.aud-intro-badge span {
+    font-size: 11px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    margin-top: 4px;
+    color: var(--aud-white);
+}
+
+.aud-intro-capabilities {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+    margin: 32px 0;
+}
+
+.aud-cap-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+}
+
+.aud-cap-icon {
+    flex-shrink: 0;
+    width: 36px;
+    height: 36px;
+    border-radius: 8px;
+    background-color: var(--aud-sage-light);
+    color: var(--aud-sage);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+}
+
+.aud-cap-text h4 {
+    font-size: 15px;
+    font-weight: 600;
+    color: var(--aud-text-dark);
+    margin-bottom: 4px;
+}
+
+.aud-cap-text p {
+    font-size: 13px;
+    line-height: 1.5;
+    color: var(--aud-text-muted);
+}
+
+.aud-trust-highlights {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding-top: 24px;
+    border-top: 1px solid var(--aud-border-light);
+}
+
+.aud-trust-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--aud-text-dark);
+}
+
+.aud-trust-item i {
+    color: var(--aud-emerald);
+    font-size: 16px;
+}
+
+/* ==========================================================================
+   3. AUDIT SERVICES SECTION
+   ========================================================================== */
+
+.aud-section-header {
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto 56px auto;
+}
+
+.aud-alternating-services {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+
+.aud-alt-row {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 60px;
+    align-items: center;
+}
+
+.aud-alt-row:nth-child(even) .aud-alt-visual {
+    order: 2;
+}
+
+.aud-alt-row:nth-child(even) .aud-alt-content {
+    order: 1;
+}
+
+.aud-alt-visual {
+    position: relative;
+    border-radius: 24px;
+    overflow: hidden;
+    box-shadow: var(--aud-shadow-lg);
+    border: 6px solid var(--aud-white);
+}
+
+.aud-alt-visual img {
+    width: 100%;
+    height: 380px;
+    object-fit: cover;
+    transition: var(--aud-transition);
+}
+
+.aud-alt-row:hover .aud-alt-visual img {
+    transform: scale(1.03);
+}
+
+.aud-alt-content-header {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 20px;
+}
+
+.aud-alt-icon-box {
+    width: 54px;
+    height: 54px;
+    border-radius: 12px;
+    background-color: var(--aud-energy-light);
+    color: var(--aud-energy);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+}
+
+.aud-alt-row:nth-child(2n) .aud-alt-icon-box {
+    background-color: var(--aud-water-light);
+    color: var(--aud-water);
+}
+
+.aud-alt-content h3 {
+    font-size: 26px;
+    font-weight: 700;
+    color: var(--aud-text-dark);
+}
+
+.aud-alt-content p {
+    font-size: 15px;
+    line-height: 1.65;
+    color: var(--aud-text-muted);
+    margin-bottom: 24px;
+}
+
+/* Key Assessment & Expected outcomes columns */
+.aud-results-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+    margin-bottom: 28px;
+    padding-top: 10px;
+}
+
+.aud-results-col h4 {
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: var(--aud-text-dark);
+    margin-bottom: 12px;
+}
+
+.aud-results-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.aud-results-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 13.5px;
+    color: var(--aud-text-dark);
+}
+
+.aud-results-item i {
+    color: var(--aud-energy);
+    font-size: 12px;
+}
+
+.aud-alt-row:nth-child(2n) .aud-results-item i {
+    color: var(--aud-water);
+}
+
+/* ==========================================================================
+   4. COMBINED RESOURCE ANALYSIS
+   ========================================================================== */
+
+.aud-comparison-grid {
+    display: grid;
+    grid-template-columns: 1fr 120px 1fr;
+    gap: 20px;
+    align-items: center;
+    margin-top: 48px;
+}
+
+.aud-comp-card {
+    background-color: var(--aud-white);
+    border: 1px solid var(--aud-border-light);
+    border-radius: 20px;
+    padding: 40px;
+    box-shadow: var(--aud-shadow-sm);
+    transition: var(--aud-transition);
+}
+
+.aud-comp-card:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--aud-shadow);
+}
+
+.aud-comp-card--energy {
+    border-top: 5px solid var(--aud-energy);
+}
+
+.aud-comp-card--water {
+    border-top: 5px solid var(--aud-water);
+}
+
+.aud-comp-card-header {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 24px;
+}
+
+.aud-comp-icon {
+    width: 48px;
+    height: 48px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+}
+
+.aud-comp-card--energy .aud-comp-icon {
+    background-color: var(--aud-energy-light);
+    color: var(--aud-energy);
+}
+
+.aud-comp-card--water .aud-comp-icon {
+    background-color: var(--aud-water-light);
+    color: var(--aud-water);
+}
+
+.aud-comp-card h3 {
+    font-size: 22px;
+    font-weight: 700;
+    color: var(--aud-text-dark);
+}
+
+.aud-comp-list {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.aud-comp-item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-size: 14.5px;
+    color: var(--aud-text-dark);
+}
+
+.aud-comp-item i {
+    font-size: 14px;
+}
+
+.aud-comp-card--energy .aud-comp-item i {
+    color: var(--aud-energy);
+}
+
+.aud-comp-card--water .aud-comp-item i {
+    color: var(--aud-water);
+}
+
+/* Central Building visual divider */
+.aud-comp-divider {
+    text-align: center;
+    position: relative;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.aud-comp-divider-circle {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: var(--aud-white);
+    border: 2px solid var(--aud-border);
+    box-shadow: var(--aud-shadow);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 28px;
+    color: var(--aud-emerald);
+    position: relative;
+    z-index: 2;
+}
+
+.aud-comp-divider::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 2px;
+    height: 100%;
+    background-color: var(--aud-border);
+    z-index: 1;
+}
+
+/* ==========================================================================
+   5. AUDIT PROCESS
+   ========================================================================== */
+
+.aud-process-timeline {
+    position: relative;
+    margin-top: 60px;
+}
+
+.aud-process-line {
+    position: absolute;
+    top: 40px;
+    left: 8%;
+    width: 84%;
+    height: 2px;
+    background-color: var(--aud-border);
+    z-index: 1;
+}
+
+.aud-process-grid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 20px;
+    position: relative;
+    z-index: 2;
+}
+
+.aud-process-step {
+    text-align: center;
+    position: relative;
+}
+
+.aud-process-num-wrapper {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: var(--aud-white);
+    border: 3px solid var(--aud-border);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 20px auto;
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--aud-sage);
+    transition: var(--aud-transition);
+    position: relative;
+    box-shadow: var(--aud-shadow-sm);
+}
+
+.aud-process-step:hover .aud-process-num-wrapper {
+    background-color: var(--aud-sage);
+    color: var(--aud-white);
+    border-color: var(--aud-sage);
+    transform: scale(1.05);
+    box-shadow: 0 8px 24px rgba(240, 123, 94, 0.2);
+}
+
+.aud-process-step h4 {
+    font-size: 15px;
+    font-weight: 700;
+    color: var(--aud-text-dark);
+    margin-bottom: 8px;
+    line-height: 1.4;
+}
+
+.aud-process-step p {
+    font-size: 13px;
+    line-height: 1.5;
+    color: var(--aud-text-muted);
+}
+
+/* ==========================================================================
+   6. AREAS WE ASSESS GRID
+   ========================================================================== */
+
+.aud-assess-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+    margin-top: 40px;
+}
+
+.aud-assess-card {
+    background-color: var(--aud-white);
+    border: 1px solid var(--aud-border-light);
+    border-radius: 16px;
+    padding: 24px;
+    text-align: center;
+    box-shadow: var(--aud-shadow-sm);
+    transition: var(--aud-transition);
+}
+
+.aud-assess-card:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--aud-shadow);
+}
+
+.aud-assess-card--energy:hover {
+    border-color: var(--aud-energy);
+}
+
+.aud-assess-card--water:hover {
+    border-color: var(--aud-water);
+}
+
+.aud-assess-icon {
+    width: 48px;
+    height: 48px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    margin: 0 auto 16px auto;
+    transition: var(--aud-transition);
+}
+
+.aud-assess-card--energy .aud-assess-icon {
+    background-color: var(--aud-energy-light);
+    color: var(--aud-energy);
+}
+
+.aud-assess-card--water .aud-assess-icon {
+    background-color: var(--aud-water-light);
+    color: var(--aud-water);
+}
+
+.aud-assess-card--energy:hover .aud-assess-icon {
+    background-color: var(--aud-energy);
+    color: var(--aud-white);
+}
+
+.aud-assess-card--water:hover .aud-assess-icon {
+    background-color: var(--aud-water);
+    color: var(--aud-white);
+}
+
+.aud-assess-card h4 {
+    font-size: 15px;
+    font-weight: 700;
+    color: var(--aud-text-dark);
+    margin: 0;
+}
+
+/* ==========================================================================
+   7. FACILITIES WE SUPPORT
+   ========================================================================== */
+
+.aud-fac-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+    margin-top: 40px;
+}
+
+.aud-fac-card {
+    background-color: var(--aud-white);
+    border: 1px solid var(--aud-border-light);
+    border-radius: 16px;
+    padding: 24px;
+    text-align: center;
+    box-shadow: var(--aud-shadow-sm);
+    transition: var(--aud-transition);
+}
+
+.aud-fac-card:hover {
+    transform: translateY(-5px);
+    border-color: var(--aud-emerald);
+    box-shadow: var(--aud-shadow);
+}
+
+.aud-fac-icon {
+    width: 48px;
+    height: 48px;
+    border-radius: 10px;
+    background-color: var(--aud-sage-light);
+    color: var(--aud-sage);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    margin: 0 auto 16px auto;
+    transition: var(--aud-transition);
+}
+
+.aud-fac-card:hover .aud-fac-icon {
+    background-color: var(--aud-sage);
+    color: var(--aud-white);
+}
+
+.aud-fac-card h4 {
+    font-size: 15.5px;
+    font-weight: 700;
+    color: var(--aud-text-dark);
+    margin: 0;
+}
+
+/* ==========================================================================
+   8. KEY BENEFITS SECTION
+   ========================================================================== */
+
+.aud-benefits-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+    margin-top: 24px;
+}
+
+.aud-benefit-item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 14px 18px;
+    background-color: var(--aud-white);
+    border: 1px solid var(--aud-border-light);
+    border-radius: 12px;
+    box-shadow: var(--aud-shadow-sm);
+    transition: var(--aud-transition);
+}
+
+.aud-benefit-item:hover {
+    transform: translateX(6px);
+    border-color: var(--aud-border);
+    box-shadow: var(--aud-shadow);
+}
+
+.aud-benefit-check {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background-color: var(--aud-sage-light);
+    color: var(--aud-sage);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 11px;
+    font-weight: bold;
+    flex-shrink: 0;
+    transition: var(--aud-transition);
+}
+
+.aud-benefit-item:hover .aud-benefit-check {
+    background-color: var(--aud-emerald);
+    color: var(--aud-white);
+}
+
+.aud-benefit-item span {
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--aud-text-dark);
+}
+
+.aud-benefits-visual-wrapper {
+    position: relative;
+    border-radius: 24px;
+    overflow: hidden;
+    box-shadow: var(--aud-shadow-lg);
+    border: 4px solid var(--aud-white);
+}
+
+.aud-benefits-visual-wrapper img {
+    width: 100%;
+    height: 520px;
+    object-fit: cover;
+}
+
+/* ==========================================================================
+   9. WHY CHOOSE SUSTAINERGIC TECH
+   ========================================================================== */
+
+.aud-why-choose-section {
+    background-color: var(--aud-white);
+}
+
+.aud-why-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin-top: 48px;
+}
+
+.aud-why-card {
+    background: var(--aud-white);
+    border: 1px solid var(--aud-border);
+    border-radius: 18px;
+    padding: 32px;
+    transition: var(--aud-transition);
+    box-shadow: var(--aud-shadow-sm);
+}
+
+.aud-why-card:hover {
+    background: var(--aud-white);
+    border-color: var(--aud-emerald);
+    transform: translateY(-5px);
+    box-shadow: var(--aud-shadow);
+}
+
+.aud-why-icon {
+    width: 56px;
+    height: 56px;
+    border-radius: 12px;
+    background-color: var(--aud-sage-light);
+    color: var(--aud-sage);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    margin-bottom: 20px;
+    transition: var(--aud-transition);
+}
+
+.aud-why-card:hover .aud-why-icon {
+    background-color: var(--aud-emerald);
+    color: var(--aud-white);
+}
+
+.aud-why-card h4 {
+    font-size: 17px;
+    font-weight: 700;
+    color: var(--aud-text-dark);
+    margin-bottom: 10px;
+}
+
+.aud-why-card p {
+    font-size: 13.5px;
+    line-height: 1.6;
+    color: var(--aud-text-muted);
+}
+
+/* ==========================================================================
+   10. CALL TO ACTION SECTION
+   ========================================================================== */
+
+.aud-cta-banner {
+    position: relative;
+    padding: 120px 0;
+    background-image: url('../images/audits-hero.png');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    border-radius: 30px;
+    overflow: hidden;
+    box-shadow: var(--aud-shadow-lg);
+    margin: 50px auto;
+    max-width: 1240px;
+    width: calc(100% - 48px);
+}
+
+.aud-cta-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(135deg, rgba(43, 174, 102, 0.95) 0%, rgba(31, 41, 55, 0.9) 100%);
+    z-index: 1;
+}
+
+.aud-cta-content {
+    position: relative;
+    z-index: 2;
+    max-width: 780px;
+    margin: 0 auto;
+    padding: 0 24px;
+}
+
+.aud-cta-content h2 {
+    font-size: 42px;
+    font-weight: 800;
+    color: var(--aud-white);
+    margin-bottom: 20px;
+    line-height: 1.2;
+}
+
+.aud-cta-content p {
+    font-size: 17px;
+    line-height: 1.65;
+    color: #a7c5b4;
+    margin-bottom: 36px;
+}
+
+.aud-cta-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+
+/* ==========================================================================
+   11. RELATED SERVICES
+   ========================================================================== */
+
+.aud-related-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.aud-related-card {
+    background-color: var(--aud-white);
+    border: 1px solid var(--aud-border-light);
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: var(--aud-shadow-sm);
+    transition: var(--aud-transition);
+    display: flex;
+    flex-direction: column;
+}
+
+.aud-related-card:hover {
+    transform: translateY(-8px);
+    box-shadow: var(--aud-shadow-lg);
+    border-color: var(--aud-emerald);
+}
+
+.aud-related-img-box {
+    position: relative;
+    height: 200px;
+    overflow: hidden;
+}
+
+.aud-related-img-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: var(--aud-transition);
+}
+
+.aud-related-card:hover .aud-related-img-box img {
+    transform: scale(1.08);
+}
+
+.aud-related-icon-box {
+    position: absolute;
+    bottom: -20px;
+    right: 24px;
+    width: 48px;
+    height: 48px;
+    border-radius: 12px;
+    background-color: var(--aud-sage);
+    color: var(--aud-white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    box-shadow: 0 4px 10px rgba(240, 123, 94, 0.25);
+    z-index: 2;
+}
+
+.aud-related-body {
+    padding: 30px 24px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.aud-related-body h3 {
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--aud-text-dark);
+    margin-bottom: 12px;
+}
+
+.aud-related-body p {
+    font-size: 13.5px;
+    line-height: 1.6;
+    color: var(--aud-text-muted);
+    margin-bottom: 20px;
+    flex-grow: 1;
+}
+
+.aud-related-link {
+    font-size: 13.5px;
+    font-weight: 600;
+    color: var(--aud-sage);
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    transition: var(--aud-transition);
+}
+
+.aud-related-link i {
+    font-size: 11px;
+    transition: var(--aud-transition);
+}
+
+.aud-related-card:hover .aud-related-link {
+    color: var(--aud-sage);
+}
+
+.aud-related-card:hover .aud-related-link i {
+    transform: translateX(4px);
+}
+
+/* ==========================================================================
+   RESPONSIVE DESIGN (MEDIA QUERIES)
+   ========================================================================== */
+
+@media (max-width: 1200px) {
+    .aud-hero-title {
+        font-size: 46px;
+    }
+    .aud-cta-banner {
+        max-width: 1000px;
+    }
+}
+
+@media (max-width: 991px) {
+    .aud-section {
+        padding: 50px 0;
+    }
+    .aud-grid-2 {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+    .aud-hero-grid {
+        grid-template-columns: 1fr;
+        gap: 50px;
+        text-align: center;
+    }
+    .aud-breadcrumbs {
+        justify-content: center;
+    }
+    .aud-hero-actions {
+        justify-content: center;
+    }
+    .aud-hero-floating-card--one {
+        left: 0;
+    }
+    .aud-hero-floating-card--two {
+        right: 0;
+    }
+    .aud-alternating-services {
+        gap: 60px;
+    }
+    .aud-alt-row {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+    .aud-alt-row:nth-child(even) .aud-alt-visual {
+        order: 0;
+    }
+    .aud-alt-row:nth-child(even) .aud-alt-content {
+        order: 0;
+    }
+    .aud-comparison-grid {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+    .aud-comp-divider {
+        height: 60px;
+    }
+    .aud-comp-divider::before {
+        width: 100%;
+        height: 2px;
+        top: 50%;
+        left: 0;
+        transform: translateY(-50%);
+    }
+    .aud-process-line {
+        display: none;
+    }
+    .aud-process-grid {
+        grid-template-columns: 1fr;
+        gap: 30px;
+        max-width: 480px;
+        margin: 0 auto;
+    }
+    .aud-process-step {
+        display: flex;
+        align-items: center;
+        text-align: left;
+        background-color: var(--aud-white);
+        border: 1px solid var(--aud-border-light);
+        border-radius: 16px;
+        padding: 20px;
+        box-shadow: var(--aud-shadow-sm);
+    }
+    .aud-process-num-wrapper {
+        margin: 0 20px 0 0;
+        flex-shrink: 0;
+        width: 60px;
+        height: 60px;
+        font-size: 18px;
+    }
+    .aud-assess-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .aud-fac-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .aud-benefits-visual-wrapper img {
+        height: 400px;
+    }
+    .aud-why-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .aud-cta-banner {
+        padding: 80px 0;
+        margin: 40px auto;
+    }
+    .aud-cta-content h2 {
+        font-size: 32px;
+    }
+    .aud-related-grid {
+        grid-template-columns: 1fr;
+        max-width: 480px;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 768px) {
+    .aud-hero {
+        padding: 150px 0 80px;
+    }
+    .aud-hero-title {
+        font-size: 36px;
+    }
+    .aud-hero-subtitle {
+        font-size: 16px;
+    }
+    .aud-title-main {
+        font-size: 32px;
+    }
+    .aud-why-grid {
+        grid-template-columns: 1fr;
+    }
+    .aud-intro-badge {
+        position: static;
+        margin-top: 24px;
+        padding: 16px 20px;
+        border-radius: 12px;
+    }
+    .aud-benefits-list {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 576px) {
+    .aud-intro-capabilities {
+        grid-template-columns: 1fr;
+        gap: 18px;
+    }
+    .aud-trust-highlights {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 16px;
+    }
+    .aud-hero-floating-card {
+        display: none;
+    }
+    .aud-hero-actions {
+        flex-direction: column;
+        width: 100%;
+    }
+    .aud-hero-actions .aud-btn {
+        width: 100%;
+    }
+    .aud-cta-buttons {
+        flex-direction: column;
+        width: 100%;
+        padding: 0 16px;
+    }
+    .aud-cta-buttons .aud-btn {
+        width: 100%;
+    }
+    .aud-why-card {
+        padding: 24px;
+    }
+    .aud-assess-grid {
+        grid-template-columns: 1fr;
+    }
+    .aud-fac-grid {
+        grid-template-columns: 1fr;
+    }
+}

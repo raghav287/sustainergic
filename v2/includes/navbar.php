@@ -36,16 +36,16 @@ $resource_pages = ['case-studies.php', 'clients.php', 'blog.php'];
 
                     <ul class="dropdown-menu">
 
-                        <li><a href="#">Green Building Certification</a></li>
+                        <li><a href="green-building-certification.php">Green Building Certification</a></li>
 
-                        <li><a href="#">Simulation/Modeling </a></li>
+                        <li><a href="simulation-modeling.php">Simulation/Modeling </a></li>
 
-                        <li><a href="#">Audits </a></li>
+                        <li><a href="audits.php">Audits </a></li>
 
+                        <li><a href="carbon-accounting-advisory.php">Carbon Accounting & Advisory</a></li>
 
-                        <li><a href="#">Commissioning Authority</a></li>
+                        <li><a href="commissioning-authority.php">Commissioning Authority</a></li>
 
-                        <li><a href="#">Carbon Accounting & Advisory</a></li>
 <!-- 
                         <li><a href="ecbc-compliance.php">ECBC Compliance</a></li>
 

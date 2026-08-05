@@ -68,8 +68,8 @@
                     <div class="fm-col fm-nav">
                         <h4>Our Services</h4>
                         <ul>
-                            <li><a href="#">Green Building Certification</a></li>
-                            <li><a href="#">Energy Simulation</a></li>
+                            <li><a href="green-building-certification.php">Green Building Certification</a></li>
+                            <li><a href="simulation-modeling.php">Energy Simulation</a></li>
                             <li><a href="#">HVAC Design &amp; Installation</a></li>
                             <li><a href="#">Geothermal Systems</a></li>
                             <li><a href="#">View All Services</a></li>

@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="assets/images/favicon.png" type="image/png">
+    
+    <title>Green Building Certification Services | Sustainergic Tech</title>
+    <meta name="description" content="Sustainergic Tech provides end-to-end consulting for IGBC, USGBC LEED, GRIHA, ASSOCHAM GEM, WELL, GreenPro, GreenCo, and EarthCheck certifications in India.">
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/green-building.css">
+</head>
+
+<body class="page-green-building">
+
+    <?php include 'includes/navbar.php'; ?>
+
+    <!-- ==========================================
+       1. HERO BANNER
+       ========================================== -->
+    <section class="gb-hero">
+        <div class="gb-container">
+            <div class="gb-hero-grid">
+                <!-- Left Content Column -->
+                <div class="gb-hero-content">
+                    <ul class="gb-breadcrumbs" aria-label="Breadcrumb">
+                        <li><a href="index.php">Home</a></li>
+                        <li class="sep"><i class="fa-solid fa-chevron-right"></i></li>
+                        <li><a href="#">Services</a></li>
+                        <li class="sep"><i class="fa-solid fa-chevron-right"></i></li>
+                        <li class="text-black" aria-current="page">Green Building Certifications</li>
+                    </ul>
+                    
+                    <h1 class="gb-hero-title">
+                        Green Building & <span>Sustainability</span> Certifications
+                    </h1>
+                    
+                    <p class="gb-hero-subtitle">
+                        End-to-end consultancy for nationally and internationally recognized green building, product, industrial, wellness, and sustainability certifications.
+                    </p>
+                    
+                    <div class="gb-hero-actions">
+                        <a href="contact-us.php" class="gb-btn gb-btn--primary">
+                            Request a Consultation <i class="fa-solid fa-calendar-check"></i>
+                        </a>
+                        <a href="#certifications" class="gb-btn gb-btn--outline">
+                            Explore Certifications <i class="fa-solid fa-arrow-down"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Right Visual Column -->
+                <div class="gb-hero-visual">
+                    <div class="gb-hero-img-wrapper">
+                        <img src="assets/images/green-building-hero.png" alt="Modern sustainable building with vertical gardens and solar integration">
+                        
+                        <!-- Floating Badge 1 -->
+                        <div class="gb-hero-floating-card gb-hero-floating-card--one">
+                            <div class="gb-hero-fc-icon">
+                                <i class="fa-solid fa-building-shield"></i>
+                            </div>
+                            <div class="gb-hero-fc-text">
+                                <h5>IGBC & LEED</h5>
+                                <p>Accredited Experts</p>
+                            </div>
+                        </div>
+
+                        <!-- Floating Badge 2 -->
+                        <div class="gb-hero-floating-card gb-hero-floating-card--two">
+                            <div class="gb-hero-fc-icon">
+                                <i class="fa-solid fa-certificate"></i>
+                            </div>
+                            <div class="gb-hero-fc-text">
+                                <h5>100% Compliance</h5>
+                                <p>Technical Coordination</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+     
+    </section>
+
+    <!-- ==========================================
+       2. INTRODUCTION SECTION
+       ========================================== -->
+    <section class="gb-section">
+        <div class="gb-container">
+            <div class="gb-grid-2">
+                <!-- Left Column (Visual) -->
+                <div class="gb-intro-visual-wrapper">
+                    <img src="assets/images/sustainable-architecture.png" class="gb-intro-img" alt="Sustainable Architecture Systems Schematic Graphic">
+                    <div class="gb-intro-badge">
+                        <strong>Eco-Design</strong>
+                        <span>Technical Advisory</span>
+                    </div>
+                </div>
+
+                <!-- Right Column (Content) -->
+                <div class="gb-intro-content">
+                    <span class="gb-label">Certification Consultancy</span>
+                    <h2 class="gb-title-main">Building a More Sustainable and Resilient Future</h2>
+                    <p class="gb-text-lead">
+                        Sustainergic Tech supports projects and organizations throughout the complete certification journey, transforming complex green building requirements into practical design strategies.
+                    </p>
+                    
+                    <div class="gb-intro-capabilities">
+                        <!-- Capability 1 -->
+                        <div class="gb-cap-item">
+                            <div class="gb-cap-icon"><i class="fa-solid fa-map-location-dot"></i></div>
+                            <div class="gb-cap-text">
+                                <h4>Certification Strategy</h4>
+                                <p>Defining targeted rating levels, credits, and optimal compliance pathways.</p>
+                            </div>
+                        </div>
+                        
+                        <!-- Capability 2 -->
+                        <div class="gb-cap-item">
+                            <div class="gb-cap-icon"><i class="fa-solid fa-chart-line"></i></div>
+                            <div class="gb-cap-text">
+                                <h4>Technical Assessment</h4>
+                                <p>Energy simulations, daylight modeling, water audits, and material evaluations.</p>
+                            </div>
+                        </div>
+
+                        <!-- Capability 3 -->
+                        <div class="gb-cap-item">
+                            <div class="gb-cap-icon"><i class="fa-solid fa-file-shield"></i></div>
+                            <div class="gb-cap-text">
+                                <h4>Documentation & Compliance</h4>
+                                <p>Rigorous preparation, compilation, and review of all technical documents.</p>
+                            </div>
+                        </div>
+
+                        <!-- Capability 4 -->
+                        <div class="gb-cap-item">
+                            <div class="gb-cap-icon"><i class="fa-solid fa-arrows-spin"></i></div>
+                            <div class="gb-cap-text">
+                                <h4>End-to-End Coordination</h4>
+                                <p>Managing review cycles, audits, and final certification submissions.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Trust Highlights -->
+                    <div class="gb-trust-highlights">
+                        <div class="gb-trust-item">
+                            <i class="fa-solid fa-circle-check"></i>
+                            <span>End-to-End Support</span>
+                        </div>
+                        <div class="gb-trust-item">
+                            <i class="fa-solid fa-shield-halved"></i>
+                            <span>Technical Expertise</span>
+                        </div>
+                        <div class="gb-trust-item">
+                            <i class="fa-solid fa-globe"></i>
+                            <span>National & Global Standards</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==========================================
+       3. CERTIFICATION SERVICES SECTION
+       ========================================== -->
+    <section class="gb-section gb-section--light" id="certifications">
+        <div class="gb-container">
+            <div class="gb-section-header">
+                <span class="gb-label">Our Certification Services</span>
+                <h2 class="gb-title-main">Comprehensive Support for Leading Sustainability Certifications</h2>
+            </div>
+
+            <div class="gb-services-grid">
+                <!-- 1. IGBC -->
+                <div class="gb-service-card">
+                    <div class="gb-card-icon-wrapper">
+                        <i class="fa-solid fa-building-circle-check"></i>
+                    </div>
+                    <h3>IGBC Green Building Certification</h3>
+                    <p>
+                        Indian Green Building Council (IGBC) Green Building Certification promotes environmentally responsible and resource-efficient buildings throughout their lifecycle. Sustainergic Tech provides end-to-end consultancy, including design review, documentation, simulation, and project coordination, to achieve the targeted IGBC rating. Our team ensures compliance while improving energy efficiency, water conservation, indoor environmental quality, and overall building performance.
+                    </p>
+                    <a href="contact-us.php" class="gb-card-link">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+
+                <!-- 2. USGBC LEED -->
+                <div class="gb-service-card">
+                    <div class="gb-card-icon-wrapper">
+                        <i class="fa-solid fa-earth-americas"></i>
+                    </div>
+                    <h3>USGBC LEED Green Building Certification</h3>
+                    <p>
+                        The U.S. Green Building Council’s LEED certification is one of the world’s most recognized green building certification systems. Sustainergic Tech supports projects through sustainable design strategies, energy modelling, material evaluation, documentation, and certification management. Our approach helps clients reduce environmental impact, improve operational efficiency, and achieve internationally recognized sustainability standards.
+                    </p>
+                    <a href="contact-us.php" class="gb-card-link">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+
+                <!-- 3. GRIHA -->
+                <div class="gb-service-card">
+                    <div class="gb-card-icon-wrapper">
+                        <i class="fa-solid fa-solar-panel"></i>
+                    </div>
+                    <h3>GRIHA Certification</h3>
+                    <p>
+                        GRIHA is India’s national green building rating system that encourages sustainable planning, construction, and operation. Sustainergic Tech assists clients from project registration to final certification by implementing energy-efficient solutions, water conservation measures, renewable energy integration, and environmental compliance. We help deliver buildings that are efficient, resilient, and environmentally responsible.
+                    </p>
+                    <a href="contact-us.php" class="gb-card-link">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+
+                <!-- 4. ASSOCHAM GEM -->
+                <div class="gb-service-card">
+                    <div class="gb-card-icon-wrapper">
+                        <i class="fa-solid fa-award"></i>
+                    </div>
+                    <h3>ASSOCHAM GEM Certification</h3>
+                    <p>
+                        ASSOCHAM GEM Certification recognizes organizations demonstrating excellence in sustainability and environmental management. Sustainergic Tech provides gap analysis, implementation support, documentation, and technical guidance to help clients meet certification requirements. Our services strengthen environmental performance while enhancing corporate reputation and stakeholder confidence.
+                    </p>
+                    <a href="contact-us.php" class="gb-card-link">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+
+                <!-- 5. WELL -->
+                <div class="gb-service-card">
+                    <div class="gb-card-icon-wrapper">
+                        <i class="fa-solid fa-heart-pulse"></i>
+                    </div>
+                    <h3>WELL Certification</h3>
+                    <p>
+                        WELL Certification focuses on improving occupant health, comfort, and well-being through better building design and operations. Sustainergic Tech helps integrate strategies for air quality, lighting, thermal comfort, acoustics, water quality, and wellness, creating healthier and more productive indoor environments.
+                    </p>
+                    <a href="contact-us.php" class="gb-card-link">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+
+                <!-- 6. GreenPro -->
+                <div class="gb-service-card">
+                    <div class="gb-card-icon-wrapper">
+                        <i class="fa-solid fa-box-open"></i>
+                    </div>
+                    <h3>GreenPro Certification</h3>
+                    <p>
+                        GreenPro Certification validates environmentally preferable products and materials based on their sustainability performance. Sustainergic Tech assists manufacturers with product assessment, technical documentation, and compliance support to achieve certification, improving product credibility and market acceptance.
+                    </p>
+                    <a href="contact-us.php" class="gb-card-link">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+
+                <!-- 7. GreenCo -->
+                <div class="gb-service-card">
+                    <div class="gb-card-icon-wrapper">
+                        <i class="fa-solid fa-industry"></i>
+                    </div>
+                    <h3>GreenCo Certification</h3>
+                    <p>
+                        GreenCo Certification evaluates industries based on energy efficiency, water management, waste reduction, emissions, and resource conservation. Sustainergic Tech conducts assessments, identifies improvement opportunities, and prepares the documentation required for certification, helping organizations achieve higher environmental performance.
+                    </p>
+                    <a href="contact-us.php" class="gb-card-link">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+
+                <!-- 8. EarthCheck -->
+                <div class="gb-service-card">
+                    <div class="gb-card-icon-wrapper">
+                        <i class="fa-solid fa-hotel"></i>
+                    </div>
+                    <h3>EarthCheck Certification</h3>
+                    <p>
+                        EarthCheck Certification is a globally recognized sustainability certification for tourism, hospitality, and infrastructure projects. Sustainergic Tech assists clients in implementing sustainable practices, improving resource efficiency, reducing carbon emissions, and meeting international sustainability benchmarks.
+                    </p>
+                    <a href="contact-us.php" class="gb-card-link">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==========================================
+       4. CERTIFICATION PROCESS
+       ========================================== -->
+    <section class="gb-section">
+        <div class="gb-container">
+            <div class="gb-section-header">
+                <span class="gb-label">Our Certification Approach</span>
+                <h2 class="gb-title-main">A Structured Path to Certification Success</h2>
+            </div>
+
+            <div class="gb-process-timeline">
+                <!-- Timeline connector line for desktop -->
+                <div class="gb-process-line"></div>
+
+                <div class="gb-process-grid">
+                    <!-- Step 1 -->
+                    <div class="gb-process-step">
+                        <div class="gb-process-num-wrapper">01</div>
+                        <div class="gb-process-step-content">
+                            <h4>Initial Consultation</h4>
+                            <p>Understanding the project, certification goals, and targeted rating.</p>
+                        </div>
+                    </div>
+
+                    <!-- Step 2 -->
+                    <div class="gb-process-step">
+                        <div class="gb-process-num-wrapper">02</div>
+                        <div class="gb-process-step-content">
+                            <h4>Gap Assessment</h4>
+                            <p>Evaluating the existing design, operations, and compliance status.</p>
+                        </div>
+                    </div>
+
+                    <!-- Step 3 -->
+                    <div class="gb-process-step">
+                        <div class="gb-process-num-wrapper">03</div>
+                        <div class="gb-process-step-content">
+                            <h4>Strategy Development</h4>
+                            <p>Preparing a customized roadmap for meeting certification requirements.</p>
+                        </div>
+                    </div>
+
+                    <!-- Step 4 -->
+                    <div class="gb-process-step">
+                        <div class="gb-process-num-wrapper">04</div>
+                        <div class="gb-process-step-content">
+                            <h4>Implementation Support</h4>
+                            <p>Coordinating sustainable design strategies and performance improvements.</p>
+                        </div>
+                    </div>
+
+                    <!-- Step 5 -->
+                    <div class="gb-process-step">
+                        <div class="gb-process-num-wrapper">05</div>
+                        <div class="gb-process-step-content">
+                            <h4>Documentation & Submission</h4>
+                            <p>Preparing, reviewing, and submitting all required technical documents.</p>
+                        </div>
+                    </div>
+
+                    <!-- Step 6 -->
+                    <div class="gb-process-step">
+                        <div class="gb-process-num-wrapper">06</div>
+                        <div class="gb-process-step-content">
+                            <h4>Certification Assistance</h4>
+                            <p>Managing clarifications, reviews, and coordination until certification is achieved.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==========================================
+       5. KEY BENEFITS SECTION
+       ========================================== -->
+    <section class="gb-section gb-section--light">
+        <div class="gb-container">
+            <div class="gb-grid-2">
+                <!-- Left Visual Column -->
+                <div class="gb-benefits-visual-wrapper">
+                    <img src="assets/images/benefits-building.png" alt="Eco-friendly green office building design facade representing benefits of sustainability">
+                </div>
+
+                <!-- Right Benefits List Column -->
+                <div class="gb-benefits-content">
+                    <span class="gb-label">Value Creation</span>
+                    <h2 class="gb-title-main">Why Invest in Sustainability Certification?</h2>
+                    <p class="gb-text-lead">
+                        Achieving green building status adds measurable commercial value, improves occupant health, and ensures long-term operational resilience.
+                    </p>
+
+                    <div class="gb-benefits-list">
+                        <div class="gb-benefit-item">
+                            <div class="gb-benefit-check"><i class="fa-solid fa-check"></i></div>
+                            <span>Reduced energy and water consumption</span>
+                        </div>
+                        <div class="gb-benefit-item">
+                            <div class="gb-benefit-check"><i class="fa-solid fa-check"></i></div>
+                            <span>Lower operating and lifecycle costs</span>
+                        </div>
+                        <div class="gb-benefit-item">
+                            <div class="gb-benefit-check"><i class="fa-solid fa-check"></i></div>
+                            <span>Improved occupant health and comfort</span>
+                        </div>
+                        <div class="gb-benefit-item">
+                            <div class="gb-benefit-check"><i class="fa-solid fa-check"></i></div>
+                            <span>Better environmental and ESG performance</span>
+                        </div>
+                   
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==========================================
+       6. WHY CHOOSE SUSTAINERGIC TECH
+       ========================================== -->
+    <section class="gb-section gb-why-choose-section">
+        <div class="gb-container">
+            <div class="gb-section-header">
+                <span class="gb-label">Why Choose Us</span>
+                <h2 class="gb-title-main">Why Choose <span>Sustainergic Tech?</span></h2>
+            </div>
+
+            <div class="gb-why-grid">
+                <!-- 1. End-to-end -->
+                <div class="gb-why-card">
+                    <div class="gb-why-icon"><i class="fa-solid fa-infinity"></i></div>
+                    <h4>End-to-end certification consultancy</h4>
+                    <p>We manage the complete lifecycle from project registration to final reviews, ensuring a seamless, worry-free process.</p>
+                </div>
+
+                <!-- 2. Experienced professionals -->
+                <div class="gb-why-card">
+                    <div class="gb-why-icon"><i class="fa-solid fa-user-tie"></i></div>
+                    <h4>Experienced sustainability professionals</h4>
+                    <p>Our team consists of qualified LEED APs, IGBC APs, and GRIHA Evaluators with extensive technical consulting experience.</p>
+                </div>
+
+                <!-- 3. Customized strategies -->
+                <div class="gb-why-card">
+                    <div class="gb-why-icon"><i class="fa-solid fa-sliders"></i></div>
+                    <h4>Customized certification strategies</h4>
+                    <p>We tailor rating targets and engineering solutions to align with your design goals and project budgets.</p>
+                </div>
+
+                <!-- 4. Detailed documentation -->
+                <div class="gb-why-card">
+                    <div class="gb-why-icon"><i class="fa-solid fa-file-contract"></i></div>
+                    <h4>Detailed technical documentation</h4>
+                    <p>We prepare precise reports, calculations, and compliance records, reducing regulatory review times significantly.</p>
+                </div>
+
+                <!-- 5. Environmental performance analysis -->
+                <div class="gb-why-card">
+                    <div class="gb-why-icon"><i class="fa-solid fa-microscope"></i></div>
+                    <h4>Energy and performance analysis</h4>
+                    <p>Advanced simulation methodologies support our recommendations, ensuring real-world operational savings.</p>
+                </div>
+
+                <!-- 6. Continuous coordination -->
+                <div class="gb-why-card">
+                    <div class="gb-why-icon"><i class="fa-solid fa-comments"></i></div>
+                    <h4>Continuous coordination</h4>
+                    <p>Direct communication and responsive handling of auditor feedback until your certification is officially awarded.</p>
+                </div>
+            </div>
+
+            <!-- Trust Indicators and Statistics Band -->
+            <div class="gb-stats-band">
+                <div class="gb-stat-item">
+                    <h3>100%</h3>
+                    <p>Commitment to Compliance</p>
+                </div>
+                <div class="gb-stat-item">
+                    <h3>Global & National</h3>
+                    <p>Rating Standards Covered</p>
+                </div>
+                <div class="gb-stat-item">
+                    <h3>6-Step</h3>
+                    <p>Structured Success Roadmap</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==========================================
+       7. CALL-TO-ACTION SECTION
+       ========================================== -->
+    <section class="gb-cta-banner">
+        <div class="gb-cta-overlay"></div>
+        <div class="gb-cta-content">
+            <h2>Ready to Begin Your Certification Journey?</h2>
+            <p>
+                Partner with Sustainergic Tech to improve building performance, meet global sustainability standards, and achieve your targeted green certification efficiently.
+            </p>
+            <div class="gb-cta-buttons">
+                <a href="contact-us.php" class="gb-btn gb-btn--gold">
+                    Schedule a Consultation <i class="fa-solid fa-calendar-days"></i>
+                </a>
+                <a href="contact-us.php" class="gb-btn gb-btn--white-outline">
+                    Contact Our Experts <i class="fa-solid fa-envelope"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==========================================
+       8. RELATED SERVICES
+       ========================================== -->
+    <section class="gb-section">
+        <div class="gb-container">
+            <div class="gb-section-header">
+                <span class="gb-label">Other Advisory Services</span>
+                <h2 class="gb-title-main">Related Engineering & Consulting Services</h2>
+            </div>
+
+            <div class="gb-related-grid">
+                <!-- Card 1 -->
+                <div class="gb-related-card">
+                    <div class="gb-related-img-box">
+                        <img src="assets/images/benefits-building.png" alt="Energy Modelling simulation graphic visualization">
+                        <div class="gb-related-icon-box">
+                            <i class="fa-solid fa-gauge-high"></i>
+                        </div>
+                    </div>
+                    <div class="gb-related-body">
+                        <h3>Energy Modelling & Simulation</h3>
+                        <p>High-fidelity thermal and energy models to optimize building energy performance, satisfy regulatory requirements, and calculate HVAC sizing configurations.</p>
+                        <a href="contact-us.php" class="gb-related-link">Explore Service <i class="fa-solid fa-chevron-right"></i></a>
+                    </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="gb-related-card">
+                    <div class="gb-related-img-box">
+                        <img src="assets/images/green-building-hero.png" alt="ESG advisory and consulting corporate building">
+                        <div class="gb-related-icon-box">
+                            <i class="fa-solid fa-leaf"></i>
+                        </div>
+                    </div>
+                    <div class="gb-related-body">
+                        <h3>ESG & Sustainability Consulting</h3>
+                        <p>Aligning corporate operations and real estate portfolios with environmental, social, and governance (ESG) reporting standards to build stakeholder value.</p>
+                        <a href="contact-us.php" class="gb-related-link">Explore Service <i class="fa-solid fa-chevron-right"></i></a>
+                    </div>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="gb-related-card">
+                    <div class="gb-related-img-box">
+                        <img src="assets/images/sustainable-architecture.png" alt="Carbon Footprint analysis illustration">
+                        <div class="gb-related-icon-box">
+                            <i class="fa-solid fa-shoe-prints"></i>
+                        </div>
+                    </div>
+                    <div class="gb-related-body">
+                        <h3>Carbon Footprint Assessment</h3>
+                        <p>Comprehensive greenhouse gas accounting across operations (Scope 1, 2, and 3) to outline reduction targets and drive toward carbon neutrality pathways.</p>
+                        <a href="contact-us.php" class="gb-related-link">Explore Service <i class="fa-solid fa-chevron-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Global Footer -->
+    <?php include 'includes/footer.php'; ?>
+
+    <!-- Swiper JS & custom animations -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
