@@ -275,7 +275,7 @@
                 </div>
 
                 <!-- 4. ECBC Compliance -->
-                <div class="sm-alt-row">
+                <!-- <div class="sm-alt-row">
                     <div class="sm-alt-visual">
                         <img src="assets/images/ecbc-compliance.png" alt="ECBC energy building code compliance checklist diagram">
                     </div>
@@ -300,7 +300,7 @@
                             Discuss Your Project <i class="fa-solid fa-chevron-right"></i>
                         </a>
                     </div>
-                </div>
+                </div> -->
             </div>
         </div>
     </section>

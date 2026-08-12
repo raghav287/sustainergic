@@ -45,6 +45,10 @@ $resource_pages = ['case-studies.php', 'clients.php', 'blog.php'];
                         <li><a href="carbon-accounting-advisory.php">Carbon Accounting & Advisory</a></li>
 
                         <li><a href="commissioning-authority.php">Commissioning Authority</a></li>
+                        <li><a href="commissioning-authority.php">ECBC Compliance</a></li>
+                        <li><a href="#">IoT Water Solution</a></li>
+
+                        <li><a href="#">Hybrid Thermal Solar (HTS) Panel</a></li>
 
 <!-- 
                         <li><a href="ecbc-compliance.php">ECBC Compliance</a></li>
@@ -83,7 +87,7 @@ $resource_pages = ['case-studies.php', 'clients.php', 'blog.php'];
 
                         <li><a href="#">Underfloor Electric Heating System </a></li>
 
-                        <li><a href="#">Air Source Heat Pump (ASHP)</a></li>
+                        <!-- <li><a href="#">Air Source Heat Pump (ASHP)</a></li> -->
 
 
                         <li><a href="#">Geothermal System</a></li>
@@ -98,9 +102,7 @@ $resource_pages = ['case-studies.php', 'clients.php', 'blog.php'];
 
                         <li><a href="#">Radiators</a></li>
 
-                        <li><a href="#">IoT Water Solution</a></li>
-
-                        <li><a href="#">Hybrid Thermal Solar (HTS) Panel</a></li>
+                        
                     </ul>
 
                 </li>

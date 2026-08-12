@@ -181,11 +181,29 @@
 
                 <div class="contact-side-wrapper">
 
-                    <div class="contact-map">
-                        <iframe title="Sustainergic Office Location"
-                            src="https://www.openstreetmap.org/export/embed.html?bbox=75.720000%2C26.895000%2C75.755000%2C26.920000&amp;layer=mapnik&amp;marker=26.907600%2C75.738100"
-                            loading="lazy" referrerpolicy="no-referrer-when-downgrade">
-                        </iframe>
+                    <div class="map-tabs-container">
+                        <div class="map-tabs-header">
+                            <button class="map-tab-btn active" onclick="switchMap(this, 'jaipur')">
+                                <i class="fa-solid fa-location-dot"></i> Jaipur Office
+                            </button>
+                            <button class="map-tab-btn" onclick="switchMap(this, 'zirakpur')">
+                                <i class="fa-solid fa-location-dot"></i> Zirakpur Office
+                            </button>
+                        </div>
+                        
+                        <div class="contact-map" id="map-jaipur">
+                            <iframe title="Sustainergic Jaipur Office Location"
+                                src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d29019.195209651716!2d75.69811562014799!3d26.906383277218882!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sGF%2C%20D-5%2F24%2C%20Chitrakoot%20Scheme%2C%20Vaishali%20Nagar%2C%20Jaipur%20302021!5e1!3m2!1sen!2sin!4v1786521547387!5m2!1sen!2sin" 
+                                style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin">
+                            </iframe>
+                        </div>
+
+                        <div class="contact-map" id="map-zirakpur" style="display: none;">
+                            <iframe title="Sustainergic Zirakpur Office Location"
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4375.737249700763!2d76.81682737630085!3d30.643766589925526!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390feb2e11f441e3%3A0x741d2739520e8a23!2sSCO%203%2C%20First%20Floor%2C%20Lohgarh%20Rd%2C%20Zirakpur%2C%20Punjab%20140603!5e1!3m2!1sen!2sin!4v1786521708071!5m2!1sen!2sin" 
+                                style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin">
+                            </iframe>
+                        </div>
                     </div>
 
                     <div class="contact-side-card">
@@ -222,6 +240,17 @@
     <?php include 'includes/footer.php'; ?>
 
     <script src="assets/js/main.js"></script>
+    <script>
+        function switchMap(btn, office) {
+            document.getElementById('map-jaipur').style.display = 'none';
+            document.getElementById('map-zirakpur').style.display = 'none';
+            document.getElementById('map-' + office).style.display = 'block';
+            
+            const buttons = document.querySelectorAll('.map-tab-btn');
+            buttons.forEach(b => b.classList.remove('active'));
+            btn.classList.add('active');
+        }
+    </script>
 
 </body>
 

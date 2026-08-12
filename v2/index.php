@@ -71,7 +71,7 @@
 
                 <img src="assets/images/hero.png" alt="Green Building">
 
-                <div class="hero-card card-one">
+                <!-- <div class="hero-card card-one">
 
                     <h4>LEED Certified</h4>
 
@@ -85,7 +85,7 @@
 
                     <p>Up to 40% Efficiency</p>
 
-                </div>
+                </div> -->
 
             </div>
 
@@ -224,7 +224,7 @@
             <div class="services-cta">
 
                 <a href="#" class="btn-primary">
-                    <i class="fa-solid fa-layer-group"></i> View All 14+ Services
+                    <i class="fa-solid fa-layer-group"></i> View All  Services
                 </a>
 
             </div>
@@ -236,136 +236,228 @@
 
 
     <!--==========================
-        WORKING PROCESS
-===========================-->
-
-    <section class="process-section">
-
+        HVAC SERVICES SECTION
+    ===========================-->
+    <section class="hvac-split-section">
         <div class="container">
-
-            <div class="process-heading">
-
-                <span class="process-badge">
-                    <i class="fa-solid fa-gears"></i> How We Work
-                </span>
-
-                <h2>
-                    Our <span>Working Process</span>
-                </h2>
-
-                <p>
-                    A structured, data-driven methodology that ensures every
-                    sustainability project delivers measurable, certifiable results.
-                </p>
-
+            <div class="hvac-split-wrapper">
+                
+                <!-- Left Side: Information Panel -->
+                <div class="hvac-info-panel">
+                    <div class="panel-content">
+                        <span class="hvac-accent-badge">
+                            <i class="fa-solid fa-bolt-lightning"></i> Smart HVAC Engineering
+                        </span>
+                        <h2>Intelligent <span>Climate Systems</span></h2>
+                        <p>
+                            We engineer next-generation HVAC solutions designed for net-zero performance, optimal air quality, and maximum thermal comfort.
+                        </p>
+                        
+                        <div class="hvac-stats-row">
+                            <div class="stat-box">
+                                <span class="stat-number">40%</span>
+                                <span class="stat-label">Energy Saved</span>
+                            </div>
+                            <div class="stat-box">
+                                <span class="stat-number">Zero</span>
+                                <span class="stat-label">Carbon Goal</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <a href="#" class="hvac-panel-btn">
+                        Explore All Services <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                </div>
+                
+                <!-- Right Side: 2x2 Grid of Custom Cards -->
+                <div class="hvac-services-grid">
+                    
+                    <!-- Card 1 -->
+                    <div class="hvac-grid-card">
+                        <div class="card-header">
+                            <div class="card-icon-box">
+                                <i class="fa-solid fa-temperature-half"></i>
+                            </div>
+                            <span class="card-number">01</span>
+                        </div>
+                        <div class="card-body">
+                            <h3>Radiant Heating & Cooling</h3>
+                            <p>Hydronic piping embedded in building surfaces for energy-efficient, draft-free thermal comfort.</p>
+                        </div>
+                        <div class="card-footer">
+                            <span class="card-tag">30% Saved</span>
+                            <span class="card-tag">Draft-Free</span>
+                            <span class="card-tag">Hydronic</span>
+                        </div>
+                        <a href="#" class="card-overlay-link" aria-label="Radiant Heating & Cooling"></a>
+                    </div>
+                    
+                    <!-- Card 2 -->
+                    <div class="hvac-grid-card">
+                        <div class="card-header">
+                            <div class="card-icon-box">
+                                <i class="fa-solid fa-earth-americas"></i>
+                            </div>
+                            <span class="card-number">02</span>
+                        </div>
+                        <div class="card-body">
+                            <h3>Geothermal Systems</h3>
+                            <p>Ground-source thermal loop integration for high-performance, renewable heating and cooling.</p>
+                        </div>
+                        <div class="card-footer">
+                            <span class="card-tag">Renewable</span>
+                            <span class="card-tag">COP 4.5+</span>
+                            <span class="card-tag">Low OPEX</span>
+                        </div>
+                        <a href="#" class="card-overlay-link" aria-label="Geothermal Energy Systems"></a>
+                    </div>
+                    
+                    <!-- Card 3 -->
+                    <div class="hvac-grid-card">
+                        <div class="card-header">
+                            <div class="card-icon-box">
+                                <i class="fa-solid fa-wind"></i>
+                            </div>
+                            <span class="card-number">03</span>
+                        </div>
+                        <div class="card-body">
+                            <h3>Variable Refrigerant (VRF)</h3>
+                            <p>Zoned climate control systems offering high partial-load efficiency and compact footprints.</p>
+                        </div>
+                        <div class="card-footer">
+                            <span class="card-tag">Zoned Comfort</span>
+                            <span class="card-tag">High SEER</span>
+                            <span class="card-tag">Flexible</span>
+                        </div>
+                        <a href="#" class="card-overlay-link" aria-label="Variable Refrigerant Flow"></a>
+                    </div>
+                    
+                    <!-- Card 4 -->
+                    <div class="hvac-grid-card">
+                        <div class="card-header">
+                            <div class="card-icon-box">
+                                <i class="fa-solid fa-fan"></i>
+                            </div>
+                            <span class="card-number">04</span>
+                        </div>
+                        <div class="card-body">
+                            <h3>Mechanical Ventilation</h3>
+                            <p>Fresh air circulation with thermal energy recovery and filtration for pristine indoor air quality.</p>
+                        </div>
+                        <div class="card-footer">
+                            <span class="card-tag">ERVs / HRVs</span>
+                            <span class="card-tag">Fresh Air</span>
+                            <span class="card-tag">HEPA Filter</span>
+                        </div>
+                        <a href="#" class="card-overlay-link" aria-label="Mechanical Ventilation & IAQ"></a>
+                    </div>
+                    
+                </div>
+                
             </div>
-
-            <div class="process-steps">
-
-                <div class="process-step">
-
-                    <div class="process-step-number">
-                        <span>01</span>
-                    </div>
-
-                    <div class="process-step-icon">
-                        <i class="fa-solid fa-lightbulb"></i>
-                    </div>
-
-                    <h3>Project Understanding</h3>
-
-                    <p>
-                        Deep-dive stakeholder workshops and site feasibility
-                        analysis to align sustainability goals with business
-                        objectives and regulatory compliance.
-                    </p>
-
-                </div>
-
-                <div class="process-step">
-
-                    <div class="process-step-number">
-                        <span>02</span>
-                    </div>
-
-                    <div class="process-step-icon">
-                        <i class="fa-solid fa-database"></i>
-                    </div>
-
-                    <h3>Data Acquisition</h3>
-
-                    <p>
-                        Comprehensive on-site surveys, utility audits, BIM
-                        extraction and historical consumption analysis to build
-                        an accurate performance baseline.
-                    </p>
-
-                </div>
-
-                <div class="process-step">
-
-                    <div class="process-step-number">
-                        <span>03</span>
-                    </div>
-
-                    <div class="process-step-icon">
-                        <i class="fa-solid fa-cube"></i>
-                    </div>
-
-                    <h3>Process Modeling</h3>
-
-                    <p>
-                        Scientific energy simulation, thermal modeling and
-                        CFD analysis using industry-leading tools to design
-                        and validate every engineering decision.
-                    </p>
-
-                </div>
-
-                <div class="process-step">
-
-                    <div class="process-step-number">
-                        <span>04</span>
-                    </div>
-
-                    <div class="process-step-icon">
-                        <i class="fa-solid fa-scale-balanced"></i>
-                    </div>
-
-                    <h3>Compare &amp; Validate</h3>
-
-                    <p>
-                        Side-by-side comparison of simulation outputs against
-                        real-world site data to calibrate models and close any
-                        performance gaps before implementation.
-                    </p>
-
-                </div>
-
-                <div class="process-step">
-
-                    <div class="process-step-number">
-                        <span>05</span>
-                    </div>
-
-                    <div class="process-step-icon">
-                        <i class="fa-solid fa-trophy"></i>
-                    </div>
-
-                    <h3>Final Results</h3>
-
-                    <p>
-                        Commissioning, handover and certification support with
-                        post-occupancy monitoring to ensure promised energy
-                        savings and green ratings are actually achieved.
-                    </p>
-
-                </div>
-
-            </div>
-
         </div>
-
+    </section>
+    <!--==========================
+        WORKING PROCESS
+    ===========================-->
+    <section class="process-section">
+        <div class="container">
+            <div class="process-split-wrapper">
+                
+                <!-- Left Sticky Heading Panel -->
+                <div class="process-sticky-panel">
+                    <!-- <span class="process-badge">
+                        <i class="fa-solid fa-gears"></i> Our Methodology
+                    </span> -->
+                    <h2>Our <span>Working Process</span></h2>
+                    <p>
+                        A structured, data-driven methodology that ensures every engineering and sustainability project delivers measurable, certifiable results.
+                    </p>
+                    <div class="process-cta-box">
+                        <a href="contact-us.php" class="btn-primary">
+                            Partner With Us <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Right Vertical Timeline -->
+                <div class="process-timeline">
+                    
+                    <!-- Timeline Node 1 -->
+                    <div class="timeline-node">
+                        <div class="node-number-marker">
+                            <span class="node-num">01</span>
+                            <div class="node-icon-glow">
+                                <i class="fa-solid fa-lightbulb"></i>
+                            </div>
+                        </div>
+                        <div class="node-card">
+                            <h3>Project Understanding</h3>
+                            <p>Deep-dive stakeholder workshops and site feasibility analysis to align sustainability goals with business objectives and regulatory compliance.</p>
+                        </div>
+                    </div>
+                    
+                    <!-- Timeline Node 2 -->
+                    <div class="timeline-node">
+                        <div class="node-number-marker">
+                            <span class="node-num">02</span>
+                            <div class="node-icon-glow">
+                                <i class="fa-solid fa-database"></i>
+                            </div>
+                        </div>
+                        <div class="node-card">
+                            <h3>Data Acquisition</h3>
+                            <p>Comprehensive on-site surveys, utility audits, BIM extraction and historical consumption analysis to build an accurate performance baseline.</p>
+                        </div>
+                    </div>
+                    
+                    <!-- Timeline Node 3 -->
+                    <div class="timeline-node">
+                        <div class="node-number-marker">
+                            <span class="node-num">03</span>
+                            <div class="node-icon-glow">
+                                <i class="fa-solid fa-cube"></i>
+                            </div>
+                        </div>
+                        <div class="node-card">
+                            <h3>Process Modeling</h3>
+                            <p>Scientific energy simulation, thermal modeling and CFD analysis using industry-leading tools to design and validate every engineering decision.</p>
+                        </div>
+                    </div>
+                    
+                    <!-- Timeline Node 4 -->
+                    <div class="timeline-node">
+                        <div class="node-number-marker">
+                            <span class="node-num">04</span>
+                            <div class="node-icon-glow">
+                                <i class="fa-solid fa-scale-balanced"></i>
+                            </div>
+                        </div>
+                        <div class="node-card">
+                            <h3>Compare & Validate</h3>
+                            <p>Side-by-side comparison of simulation outputs against real-world site data to calibrate models and close any performance gaps before implementation.</p>
+                        </div>
+                    </div>
+                    
+                    <!-- Timeline Node 5 -->
+                    <div class="timeline-node">
+                        <div class="node-number-marker">
+                            <span class="node-num">05</span>
+                            <div class="node-icon-glow">
+                                <i class="fa-solid fa-trophy"></i>
+                            </div>
+                        </div>
+                        <div class="node-card">
+                            <h3>Final Results</h3>
+                            <p>Commissioning, handover and certification support with post-occupancy monitoring to ensure promised energy savings and green ratings are achieved.</p>
+                        </div>
+                    </div>
+                    
+                </div>
+                
+            </div>
+        </div>
     </section>
 
 
@@ -401,7 +493,7 @@
                 <ul class="about-features">
                     <li><i class="fas fa-check-circle"></i> Green Building Certification</li>
                     <li><i class="fas fa-check-circle"></i> Energy Efficient Design</li>
-                    <li><i class="fas fa-check-circle"></i> Renewable Energy Solutions</li>
+                    <li><i class="fas fa-check-circle"></i> Hybrid Thermal Solar Panels </li>
                     <li><i class="fas fa-check-circle"></i> Expert Engineering Team</li>
                 </ul>
 
