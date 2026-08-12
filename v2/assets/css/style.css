@@ -9111,6 +9111,13 @@ RESPONSIVE
     .about-section--mission-vision {
 
         background-color: #fff !important;
+        padding: 46px 0;
+
+    }
+
+    .about-section--mission-vision .about-section-head {
+
+        margin-bottom: 30px;
 
     }
 
@@ -9120,9 +9127,9 @@ RESPONSIVE
 
         grid-template-columns: repeat(2, 1fr);
 
-        gap: 28px;
+        gap: 22px;
 
-        max-width: 1100px;
+        max-width: 1060px;
 
         margin: 0 auto;
 
@@ -9132,17 +9139,25 @@ RESPONSIVE
 
         background: #fff;
 
-        border-radius: 26px;
+        border-radius: 18px;
 
-        padding: 44px 40px 40px;
+        padding: 30px 30px 28px;
 
-        box-shadow: 0 18px 48px rgba(15, 23, 42, 0.07);
+        box-shadow: 0 16px 38px rgba(15, 23, 42, 0.06);
 
-        border: 1px solid rgba(229, 231, 235, .55);
+        border: 1px solid rgba(15, 23, 42, .08);
 
         position: relative;
 
         overflow: hidden;
+
+        display: grid;
+
+        grid-template-columns: auto 1fr;
+
+        column-gap: 18px;
+
+        align-items: start;
 
         transition: all .4s cubic-bezier(.22, .61, .36, 1);
 
@@ -9154,17 +9169,17 @@ RESPONSIVE
 
         position: absolute;
 
-        top: -60px;
+        top: -80px;
 
-        right: -60px;
+        right: -80px;
 
-        width: 220px;
+        width: 190px;
 
-        height: 220px;
+        height: 190px;
 
         border-radius: 50%;
 
-        opacity: .06;
+        opacity: .08;
 
         transition: opacity .4s ease, transform .4s ease;
 
@@ -9184,9 +9199,9 @@ RESPONSIVE
 
     .mv-card:hover {
 
-        transform: translateY(-10px);
+        transform: translateY(-6px);
 
-        box-shadow: 0 28px 60px rgba(15, 23, 42, 0.10);
+        box-shadow: 0 22px 46px rgba(15, 23, 42, 0.09);
 
     }
 
@@ -9200,11 +9215,11 @@ RESPONSIVE
 
     .mv-icon {
 
-        width: 82px;
+        width: 58px;
 
-        height: 82px;
+        height: 58px;
 
-        border-radius: 24px;
+        border-radius: 16px;
 
         display: flex;
 
@@ -9214,9 +9229,9 @@ RESPONSIVE
 
         color: #fff;
 
-        font-size: 32px;
+        font-size: 23px;
 
-        margin-bottom: 24px;
+        margin-bottom: 0;
 
         position: relative;
 
@@ -9244,7 +9259,11 @@ RESPONSIVE
 
         display: inline-block;
 
-        font-size: 12.5px;
+        align-self: start;
+
+        justify-self: start;
+
+        font-size: 11px;
 
         font-weight: 800;
 
@@ -9252,11 +9271,11 @@ RESPONSIVE
 
         letter-spacing: 1.5px;
 
-        padding: 7px 16px;
+        padding: 6px 13px;
 
         border-radius: 999px;
 
-        margin-bottom: 18px;
+        margin: 1px 0 10px;
 
         position: relative;
 
@@ -9282,15 +9301,17 @@ RESPONSIVE
 
     .mv-card h3 {
 
-        font-size: 24px;
+        grid-column: 2;
 
-        line-height: 1.3;
+        font-size: 21px;
+
+        line-height: 1.25;
 
         color: #111;
 
         font-weight: 800;
 
-        margin: 0 0 16px;
+        margin: 0 0 13px;
 
         position: relative;
 
@@ -9300,13 +9321,15 @@ RESPONSIVE
 
     .mv-card p {
 
-        font-size: 16px;
+        grid-column: 1 / -1;
 
-        line-height: 1.78;
+        font-size: 15px;
+
+        line-height: 1.65;
 
         color: #4B5563;
 
-        margin: 0 0 22px;
+        margin: 18px 0 18px;
 
         position: relative;
 
@@ -9315,6 +9338,8 @@ RESPONSIVE
     }
 
     .mv-points {
+
+        grid-column: 1 / -1;
 
         list-style: none;
 
@@ -9326,7 +9351,7 @@ RESPONSIVE
 
         flex-direction: column;
 
-        gap: 11px;
+        gap: 8px;
 
         position: relative;
 
@@ -9340,9 +9365,9 @@ RESPONSIVE
 
         align-items: center;
 
-        gap: 10px;
+        gap: 9px;
 
-        font-size: 15px;
+        font-size: 14px;
 
         color: #1F2937;
 
@@ -9352,9 +9377,9 @@ RESPONSIVE
 
     .mv-points li i {
 
-        width: 22px;
+        width: 20px;
 
-        height: 22px;
+        height: 20px;
 
         border-radius: 50%;
 
@@ -9366,7 +9391,7 @@ RESPONSIVE
 
         justify-content: center;
 
-        font-size: 11px;
+        font-size: 10px;
 
         flex-shrink: 0;
 
@@ -9699,24 +9724,24 @@ RESPONSIVE
         }
 
         .mv-card {
-            padding: 40px 36px 36px;
-            border-radius: 24px;
+            padding: 28px 28px 26px;
+            border-radius: 18px;
         }
 
         .mv-icon {
-            width: 76px;
-            height: 76px;
-            border-radius: 22px;
-            font-size: 29px;
-            margin-bottom: 22px;
+            width: 56px;
+            height: 56px;
+            border-radius: 16px;
+            font-size: 22px;
+            margin-bottom: 0;
         }
 
         .mv-card h3 {
-            font-size: 22px;
+            font-size: 20px;
         }
 
         .mv-card p {
-            font-size: 15.5px;
+            font-size: 14.8px;
         }
 
         .values-grid {
@@ -9830,26 +9855,26 @@ RESPONSIVE
         }
 
         .mv-card {
-            padding: 38px 34px 34px;
-            border-radius: 24px;
+            padding: 28px 28px 26px;
+            border-radius: 18px;
         }
 
         .mv-icon {
-            width: 72px;
-            height: 72px;
-            border-radius: 20px;
-            font-size: 28px;
-            margin-bottom: 20px;
+            width: 56px;
+            height: 56px;
+            border-radius: 16px;
+            font-size: 22px;
+            margin-bottom: 0;
         }
 
         .mv-card h3 {
-            font-size: 21px;
-            margin-bottom: 14px;
+            font-size: 20px;
+            margin-bottom: 12px;
         }
 
         .mv-card p {
-            font-size: 15.5px;
-            margin-bottom: 20px;
+            font-size: 14.8px;
+            margin-bottom: 17px;
         }
 
         .mv-points li {
@@ -9935,26 +9960,26 @@ RESPONSIVE
         }
 
         .mv-card {
-            padding: 34px 30px 30px;
-            border-radius: 22px;
+            padding: 26px 24px 24px;
+            border-radius: 18px;
         }
 
         .mv-icon {
-            width: 66px;
-            height: 66px;
-            border-radius: 19px;
-            font-size: 25px;
-            margin-bottom: 18px;
+            width: 52px;
+            height: 52px;
+            border-radius: 15px;
+            font-size: 20px;
+            margin-bottom: 0;
         }
 
         .mv-card h3 {
-            font-size: 20px;
-            margin-bottom: 13px;
+            font-size: 19px;
+            margin-bottom: 11px;
         }
 
         .mv-card p {
-            font-size: 15px;
-            margin-bottom: 18px;
+            font-size: 14.5px;
+            margin-bottom: 16px;
         }
 
         .mv-points {
@@ -10089,33 +10114,35 @@ RESPONSIVE
         }
 
         .mv-card {
-            padding: 30px 24px 26px;
-            border-radius: 22px;
+            padding: 24px 20px 22px;
+            border-radius: 17px;
+            grid-template-columns: 1fr;
         }
 
         .mv-icon {
-            width: 62px;
-            height: 62px;
-            border-radius: 18px;
-            font-size: 23px;
-            margin-bottom: 17px;
+            width: 50px;
+            height: 50px;
+            border-radius: 15px;
+            font-size: 19px;
+            margin-bottom: 14px;
         }
 
         .mv-label {
             font-size: 11.5px;
             padding: 6px 14px;
-            margin-bottom: 16px;
+            margin-bottom: 12px;
             letter-spacing: 1.2px;
         }
 
         .mv-card h3 {
+            grid-column: 1;
             font-size: 19px;
             margin-bottom: 12px;
         }
 
         .mv-card p {
             font-size: 14.5px;
-            margin-bottom: 17px;
+            margin: 0 0 16px;
         }
 
         .mv-points {
@@ -10238,33 +10265,35 @@ RESPONSIVE
         }
 
         .mv-card {
-            padding: 26px 20px 22px;
-            border-radius: 20px;
+            padding: 22px 18px 20px;
+            border-radius: 16px;
+            grid-template-columns: 1fr;
         }
 
         .mv-icon {
-            width: 56px;
-            height: 56px;
-            border-radius: 16px;
-            font-size: 21px;
-            margin-bottom: 15px;
+            width: 46px;
+            height: 46px;
+            border-radius: 14px;
+            font-size: 18px;
+            margin-bottom: 12px;
         }
 
         .mv-label {
             font-size: 11px;
             padding: 6px 12px;
-            margin-bottom: 14px;
+            margin-bottom: 11px;
             letter-spacing: 1px;
         }
 
         .mv-card h3 {
+            grid-column: 1;
             font-size: 18px;
             margin-bottom: 11px;
         }
 
         .mv-card p {
             font-size: 14px;
-            margin-bottom: 16px;
+            margin: 0 0 15px;
         }
 
         .mv-points {
@@ -11523,389 +11552,171 @@ RESPONSIVE
 
     }
 
-    .about-strength-head {
-
-        text-align: center;
-        margin-bottom: 72px;
-
+      /*================================================================
+        REDESIGNED OUR STRENGTHS SECTION
+    ==================================================================*/
+    .about-section--strength {
+        padding: 60px 0;
+        background: #fff8f5; /* Premium soft peach background tint */
+        position: relative;
     }
 
-    .about-strength-head h2 {
-
-        font-size: 64px;
-        font-weight: 700;
-        color: #111827;
-        margin: 0;
-        letter-spacing: -1px;
-        font-family: 'DM Serif Display', 'Playfair Display', Georgia, serif;
-
-    }
-
-    .strength-grid {
-
+    .strength-split-wrapper {
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        gap: 72px 96px;
-        max-width: 1200px;
-        margin: 0 auto;
-
+        grid-template-columns: 4.5fr 7.5fr;
+        gap: 80px;
+        align-items: start;
     }
 
-    .strength-feature {
-
-        display: flex;
-        align-items: flex-start;
-        gap: 32px;
-
+    .strength-info-panel {
+        position: sticky;
+        top: 120px;
     }
 
-    .strength-feature-icon {
-
-        flex: 0 0 auto;
-        width: 120px;
-        height: 120px;
-        position: relative;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-
+    .strength-info-panel h2 {
+        font-size: 42px;
+        font-weight: 800;
+        color: #0f172a;
+        line-height: 1.2;
+        margin: 20px 0 24px;
     }
 
-    .strength-feature-icon::before {
-
-        content: "";
-        position: absolute;
-        inset: 0;
-        background: radial-gradient(circle at 50% 58%, #FFE4DC 0%, #FFF1EC 62%, rgba(255, 241, 236, 0) 100%);
-        border-radius: 50%;
-        z-index: 0;
-
+    .strength-info-panel h2 span {
+        color: var(--primary-color);
+        background: none;
+        -webkit-text-fill-color: initial;
     }
 
-    .strength-feature-icon i {
-
-        position: relative;
-        z-index: 1;
-        width: 68px;
-        height: 68px;
-        background: #ffffff;
-        color: #2E8B57;
-        font-size: 26px;
-        border-radius: 18px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        border: 2px solid #E5F4EB;
-        box-shadow: 0 6px 24px rgba(46, 139, 87, .08);
-
-    }
-
-    .strength-feature-body {
-
-        flex: 1;
-        min-width: 0;
-        padding-top: 8px;
-
-    }
-
-    .strength-feature-bar {
-
-        width: 280px;
-        max-width: 100%;
-        height: 5px;
-        background: #FFE4DC;
-        border-radius: 5px;
-        overflow: hidden;
-        margin-bottom: 20px;
-
-    }
-
-    .strength-feature-bar span {
-
-        display: block;
-        height: 100%;
-        width: 55%;
-        background: #F07B5E;
-        border-radius: 5px;
-
-    }
-
-    .strength-feature h3 {
-
-        font-size: 24px;
-        font-weight: 700;
-        color: #111827;
-        margin: 0 0 12px;
-        line-height: 1.25;
-        font-family: 'Inter', -apple-system, sans-serif;
-
-    }
-
-    .strength-feature p {
-
+    .strength-info-panel p {
         font-size: 17px;
-        line-height: 1.7;
-        color: #4B5563;
+        color: #475569;
+        line-height: 1.75;
+        margin-bottom: 35px;
+    }
+
+    .strength-panel-card {
+        background: #ffffff;
+        border-radius: 20px;
+        padding: 30px;
+        border: 1px solid rgba(240, 123, 94, 0.15);
+        box-shadow: 0 10px 30px rgba(240, 123, 94, 0.04);
+        display: inline-block;
+    }
+
+    .spc-metric {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .spc-num {
+        font-size: 48px;
+        font-weight: 800;
+        color: var(--primary-color);
+        line-height: 1.1;
+    }
+
+    .spc-lbl {
+        font-size: 13px;
+        font-weight: 600;
+        color: #64748b;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+        margin-top: 8px;
+    }
+
+    /* Right side list */
+    .strength-list-panel {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .strength-item {
+        background: #ffffff;
+        border-radius: 20px;
+        padding: 20px 20px;
+        border: 1px solid rgba(226, 232, 240, 0.8);
+        display: flex;
+        gap: 30px;
+        align-items: flex-start;
+        transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+        box-shadow: 0 4px 6px -1px rgba(15, 23, 42, 0.01);
+    }
+
+    .strength-item:hover {
+        transform: translateX(10px);
+        border-color: rgba(240, 123, 94, 0.25);
+        box-shadow: 0 12px 25px rgba(240, 123, 94, 0.06);
+    }
+
+    .strength-item-number {
+        font-size: 20px;
+        font-weight: 800;
+        color: var(--primary-color);
+        background: rgba(240, 123, 94, 0.08);
+        width: 46px;
+        height: 46px;
+        border-radius: 12px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-shrink: 0;
+        transition: all 0.4s ease;
+    }
+
+    .strength-item:hover .strength-item-number {
+        background: var(--primary-color);
+        color: #ffffff;
+    }
+
+    .strength-item-content h3 {
+        font-size: 20px;
+        font-weight: 700;
+        color: #0f172a;
+        margin: 0 0 8px;
+    }
+
+    .strength-item-content p {
+        font-size: 15px;
+        color: #64748b;
+        line-height: 1.6;
         margin: 0;
-        max-width: 460px;
-
     }
 
-
-    /* ---------- Responsive ---------- */
-
-    @media(max-width:1200px) {
-
-        .strength-grid {
-            gap: 60px 72px;
-        }
-
-        .about-strength-head h2 {
-            font-size: 54px;
-        }
-
-        .strength-feature {
-            gap: 26px;
-        }
-
-        .strength-feature-icon {
-            width: 104px;
-            height: 104px;
-        }
-
-        .strength-feature-icon i {
-            width: 60px;
-            height: 60px;
-            font-size: 23px;
-            border-radius: 16px;
-        }
-
-    }
-
-    @media(max-width:991px) {
-
-        .about-section--strength {
-            padding: 72px 0;
-        }
-
-        .strength-grid {
+    /* Responsive strengths styling */
+    @media (max-width: 991px) {
+        .strength-split-wrapper {
             grid-template-columns: 1fr;
-            gap: 48px;
-            max-width: 640px;
+            gap: 50px;
         }
+    }
 
-        .about-strength-head {
-            margin-bottom: 56px;
+    @media (max-width: 600px) {
+        .about-section--strength {
+            padding: 60px 0;
         }
-
-        .about-strength-head h2 {
-            font-size: 46px;
+        .strength-item {
+            padding: 24px 20px;
+            gap: 20px;
         }
-
-        .strength-feature h3 {
-            font-size: 22px;
-        }
-
-        .strength-feature p {
+        .strength-item-number {
+            width: 38px;
+            height: 38px;
             font-size: 16px;
+            border-radius: 10px;
         }
-
-    }
-
-    @media(max-width:768px) {
-
-        .about-section--strength {
-            padding: 64px 0;
-        }
-
-        .about-strength-head {
-            margin-bottom: 48px;
-        }
-
-        .about-strength-head h2 {
-            font-size: 40px;
-        }
-
-        .strength-grid {
-            gap: 44px;
-        }
-
-        .strength-feature {
-            gap: 22px;
-        }
-
-        .strength-feature-icon {
-            width: 92px;
-            height: 92px;
-        }
-
-        .strength-feature-icon i {
-            width: 54px;
-            height: 54px;
-            font-size: 21px;
-            border-radius: 14px;
-        }
-
-        .strength-feature-bar {
-            width: 220px;
-            height: 4px;
-            margin-bottom: 16px;
-        }
-
-        .strength-feature h3 {
-            font-size: 20px;
-        }
-
-        .strength-feature p {
-            font-size: 15.5px;
-            line-height: 1.65;
-        }
-
-    }
-
-    @media(max-width:575px) {
-
-        .about-section--strength {
-            padding: 56px 0;
-        }
-
-        .about-strength-head h2 {
-            font-size: 34px;
-        }
-
-        .about-strength-head {
-            margin-bottom: 40px;
-        }
-
-        .strength-grid {
-            gap: 40px;
-        }
-
-        .strength-feature {
-            flex-direction: column;
-            align-items: flex-start;
-            gap: 18px;
-        }
-
-        .strength-feature-icon {
-            width: 80px;
-            height: 80px;
-        }
-
-        .strength-feature-icon i {
-            width: 48px;
-            height: 48px;
-            font-size: 19px;
-            border-radius: 13px;
-        }
-
-        .strength-feature-bar {
-            width: 180px;
-            margin-bottom: 14px;
-        }
-
-        .strength-feature h3 {
-            font-size: 19px;
-        }
-
-        .strength-feature p {
-            font-size: 15px;
-        }
-
-    }
-
-    @media(max-width:480px) {
-
-        .about-section--strength {
-            padding: 48px 0;
-        }
-
-        .about-strength-head h2 {
-            font-size: 30px;
-        }
-
-        .about-strength-head {
-            margin-bottom: 36px;
-        }
-
-        .strength-grid {
-            gap: 36px;
-        }
-
-        .strength-feature-icon {
-            width: 72px;
-            height: 72px;
-        }
-
-        .strength-feature-icon i {
-            width: 44px;
-            height: 44px;
+        .strength-item-content h3 {
             font-size: 18px;
         }
-
-        .strength-feature-bar {
-            width: 160px;
+        .strength-item-content p {
+            font-size: 13.5px;
         }
-
-        .strength-feature h3 {
-            font-size: 18px;
+        .strength-info-panel h2 {
+            font-size: 32px;
         }
-
-        .strength-feature p {
-            font-size: 14.5px;
+        .spc-num {
+            font-size: 38px;
         }
-
-    }
-
-    @media(max-width:360px) {
-
-        .about-section--strength {
-            padding: 42px 0;
-        }
-
-        .about-strength-head h2 {
-            font-size: 27px;
-        }
-
-        .about-strength-head {
-            margin-bottom: 32px;
-        }
-
-        .strength-grid {
-            gap: 32px;
-        }
-
-        .strength-feature {
-            gap: 14px;
-        }
-
-        .strength-feature-icon {
-            width: 64px;
-            height: 64px;
-        }
-
-        .strength-feature-icon i {
-            width: 40px;
-            height: 40px;
-            font-size: 17px;
-        }
-
-        .strength-feature-bar {
-            width: 140px;
-            height: 3px;
-            margin-bottom: 12px;
-        }
-
-        .strength-feature h3 {
-            font-size: 17px;
-            margin-bottom: 10px;
-        }
-
-        .strength-feature p {
-            font-size: 14px;
-            line-height: 1.6;
-        }
-
     }
 
     /* ==========================================

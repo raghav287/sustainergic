@@ -166,69 +166,67 @@
     ========================= -->
 
     <section class="about-section about-section--strength about-section--peach">
-
         <div class="container strength-container">
-
-            <div class="about-section-head about-section-head--center about-strength-head">
-
-                <h2>Our Strength</h2>
-
+            <div class="strength-split-wrapper">
+                
+                <!-- Left Content Column -->
+                <div class="strength-info-panel">
+                    <span class="section-badge section-badge--peach">Our Assets</span>
+                    <h2>Key <span>Strengths</span> &amp; Capabilities</h2>
+                    <p>
+                        We combine deep technical intelligence with practical sustainability strategies to deliver high-performance, certified green assets that outperform commercial baselines.
+                    </p>
+                    <div class="strength-panel-card">
+                        <div class="spc-metric">
+                            <span class="spc-num">100%</span>
+                            <span class="spc-lbl">Success Rate in Certifications</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Right Strength List Column -->
+                <div class="strength-list-panel">
+                    
+                    <!-- Strength Item 1 -->
+                    <div class="strength-item">
+                        <div class="strength-item-number">01</div>
+                        <div class="strength-item-content">
+                            <h3>Green Building Certification</h3>
+                            <p>Expert guidance across LEED, BREEAM, IGBC, WELL, and GRIHA — turning compliance into long-term competitive advantage.</p>
+                        </div>
+                    </div>
+                    
+                    <!-- Strength Item 2 -->
+                    <div class="strength-item">
+                        <div class="strength-item-number">02</div>
+                        <div class="strength-item-content">
+                            <h3>Energy &amp; Daylight Simulation</h3>
+                            <p>Data-driven performance modeling that validates architectural details, reduces operational risk, and guarantees returns before build.</p>
+                        </div>
+                    </div>
+                    
+                    <!-- Strength Item 3 -->
+                    <div class="strength-item">
+                        <div class="strength-item-number">03</div>
+                        <div class="strength-item-content">
+                            <h3>Advanced HVAC &amp; VAM Design</h3>
+                            <p>Low-energy cooling, active radiant systems, vapour absorption machines, and central plant optimization engineered to save power.</p>
+                        </div>
+                    </div>
+                    
+                    <!-- Strength Item 4 -->
+                    <div class="strength-item">
+                        <div class="strength-item-number">04</div>
+                        <div class="strength-item-content">
+                            <h3>End-to-End Project Delivery</h3>
+                            <p>From concept and solar feasibility to on-site commissioning, certification documentation, and post-occupancy audits.</p>
+                        </div>
+                    </div>
+                    
+                </div>
+                
             </div>
-
-            <div class="strength-grid">
-
-                <div class="strength-feature">
-                    <div class="strength-feature-icon">
-                        <i class="fa-solid fa-leaf"></i>
-                    </div>
-                    <div class="strength-feature-body">
-                        <div class="strength-feature-bar"><span></span></div>
-                        <h3>Green Building Certification</h3>
-                        <p>Expert guidance across LEED, BREEAM, IGBC and more — turning compliance into competitive
-                            advantage for every project.</p>
-                    </div>
-                </div>
-
-                <div class="strength-feature">
-                    <div class="strength-feature-icon">
-                        <i class="fa-solid fa-bolt-lightning"></i>
-                    </div>
-                    <div class="strength-feature-body">
-                        <div class="strength-feature-bar"><span></span></div>
-                        <h3>Energy &amp; Daylight Simulation</h3>
-                        <p>Data-driven modelling that validates performance, reduces risk, and guarantees measurable
-                            savings before build.</p>
-                    </div>
-                </div>
-
-                <div class="strength-feature">
-                    <div class="strength-feature-icon">
-                        <i class="fa-solid fa-snowflake"></i>
-                    </div>
-                    <div class="strength-feature-body">
-                        <div class="strength-feature-bar"><span></span></div>
-                        <h3>Advanced HVAC &amp; VAM Design</h3>
-                        <p>Custom low-energy cooling, radiant systems, vapour absorption machines and plant optimization
-                            — engineered for efficiency.</p>
-                    </div>
-                </div>
-
-                <div class="strength-feature">
-                    <div class="strength-feature-icon">
-                        <i class="fa-solid fa-helmet-safety"></i>
-                    </div>
-                    <div class="strength-feature-body">
-                        <div class="strength-feature-bar"><span></span></div>
-                        <h3>End-to-End Project Delivery</h3>
-                        <p>From feasibility &amp; concept to commissioning &amp; energy audit — a single accountable
-                            partner for every milestone.</p>
-                    </div>
-                </div>
-
-            </div>
-
         </div>
-
     </section>
 
     <!-- =========================
@@ -257,7 +255,7 @@
                 <div class="mission-card mv-card">
 
                     <div class="mv-icon mv-icon--mission">
-                        <i class="fa-solid fa-bullseye-arrow"></i>
+                        <i class="fa-solid fa-bullseye"></i>
                     </div>
 
                     <span class="mv-label">Our Mission</span>
@@ -281,7 +279,7 @@
                 <div class="vision-card mv-card">
 
                     <div class="mv-icon mv-icon--vision">
-                        <i class="fa-solid fa-eye-low-vision"></i>
+                        <i class="fa-solid fa-seedling"></i>
                     </div>
 
                     <span class="mv-label">Our Vision</span>
