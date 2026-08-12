@@ -36,7 +36,7 @@ $resource_pages = ['case-studies.php', 'clients.php', 'blog.php'];
 
                     <ul class="dropdown-menu">
 
-                        <li><a href="green-building-certification.php">Green Building Certification</a></li>
+                        <li><a href="green-building-certification.php">Green Certification</a></li>
 
                         <li><a href="simulation-modeling.php">Simulation/Modeling </a></li>
 
@@ -101,6 +101,8 @@ $resource_pages = ['case-studies.php', 'clients.php', 'blog.php'];
                         <li><a href="#">Heat Pumps</a></li>
 
                         <li><a href="#">Radiators</a></li>
+                        <li><a href="#">Industrial HVAC Solutions</a></li>
+                        <li><a href="#">Precision Medical Cooling Solution</a></li>
 
                         
                     </ul>
