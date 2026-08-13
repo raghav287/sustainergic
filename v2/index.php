@@ -109,116 +109,129 @@
 
             </div>
 
-            <div class="services-grid">
+            <div class="services-swiper-container">
+                <div class="swiper services-swiper">
+                    <div class="swiper-wrapper">
 
-                <a href="#" class="service-card">
-
-                    <div class="service-image">
-                        <img src="assets/images/hero.png"
-                            alt="Green Building Certification">
-                        <div class="service-image-icon">
-                            <i class="fa-solid fa-leaf"></i>
+                        <!-- Slide 1: Green Certification -->
+                        <div class="swiper-slide">
+                            <a href="green-building-certification.php" class="service-card">
+                                <div class="service-image">
+                                    <img src="assets/images/green-building-hero.png" alt="Green Certification">
+                                    <div class="service-image-icon">
+                                        <i class="fa-solid fa-leaf"></i>
+                                    </div>
+                                </div>
+                                <div class="service-body">
+                                    <h3>Green Certification</h3>
+                                    <p>
+                                        LEED, BREEAM, IGBC, WELL and GRIHA certification expertise to help your project achieve the highest sustainability ratings.
+                                    </p>
+                                    <span class="service-link">
+                                        Learn More <i class="fa-solid fa-arrow-right"></i>
+                                    </span>
+                                </div>
+                            </a>
                         </div>
-                    </div>
 
-                    <div class="service-body">
-
-                        <h3>Green Building Certification</h3>
-
-                        <p>
-                            LEED, BREEAM, IGBC, WELL and GRIHA certification expertise
-                            to help your project achieve the highest sustainability ratings.
-                        </p>
-
-                        <span class="service-link">
-                            Learn More <i class="fa-solid fa-arrow-right"></i>
-                        </span>
-
-                    </div>
-
-                </a>
-
-                <a href="#" class="service-card">
-
-                    <div class="service-image">
-                        <img src="assets/images/hero.png"
-                            alt="Energy Simulation">
-                        <div class="service-image-icon">
-                            <i class="fa-solid fa-chart-line"></i>
+                        <!-- Slide 2: Audits -->
+                        <div class="swiper-slide">
+                            <a href="audits.php" class="service-card">
+                                <div class="service-image">
+                                    <img src="assets/images/audits-hero.png" alt="Audits">
+                                    <div class="service-image-icon">
+                                        <i class="fa-solid fa-clipboard-check"></i>
+                                    </div>
+                                </div>
+                                <div class="service-body">
+                                    <h3>Audits</h3>
+                                    <p>
+                                        Comprehensive Energy, Water, and Waste audits to identify inefficiencies, reduce consumption, and optimize resource performance.
+                                    </p>
+                                    <span class="service-link">
+                                        Learn More <i class="fa-solid fa-arrow-right"></i>
+                                    </span>
+                                </div>
+                            </a>
                         </div>
-                    </div>
 
-                    <div class="service-body">
-
-                        <h3>Energy Simulation</h3>
-
-                        <p>
-                            Advanced building energy modeling and simulation to optimize
-                            design, reduce consumption and achieve net-zero performance targets.
-                        </p>
-
-                        <span class="service-link">
-                            Learn More <i class="fa-solid fa-arrow-right"></i>
-                        </span>
-
-                    </div>
-
-                </a>
-
-                <a href="#" class="service-card">
-
-                    <div class="service-image">
-                        <img src="assets/images/hero.png"
-                            alt="HVAC Design Installation">
-                        <div class="service-image-icon">
-                            <i class="fa-solid fa-temperature-half"></i>
+                        <!-- Slide 3: HTS -->
+                        <div class="swiper-slide">
+                            <a href="#" class="service-card">
+                                <div class="service-image">
+                                    <img src="assets/images/tab-services.png" alt="Hybrid Thermal Solar (HTS) Panel">
+                                    <div class="service-image-icon">
+                                        <i class="fa-solid fa-solar-panel"></i>
+                                    </div>
+                                </div>
+                                <div class="service-body">
+                                    <h3>Hybrid Thermal Solar (HTS) Panel</h3>
+                                    <p>
+                                        Innovative dual-generation HTS panels producing both clean electricity and thermal energy from a single integrated solar collector.
+                                    </p>
+                                    <span class="service-link">
+                                        Learn More <i class="fa-solid fa-arrow-right"></i>
+                                    </span>
+                                </div>
+                            </a>
                         </div>
-                    </div>
 
-                    <div class="service-body">
-
-                        <h3>HVAC Design &amp; Installation</h3>
-
-                        <p>
-                            High-efficiency heating, ventilation and air-conditioning
-                            systems designed for performance, comfort and energy savings.
-                        </p>
-
-                        <span class="service-link">
-                            Learn More <i class="fa-solid fa-arrow-right"></i>
-                        </span>
-
-                    </div>
-
-                </a>
-
-                <a href="#" class="service-card">
-
-                    <div class="service-image">
-                        <img src="assets/images/hero.png"
-                            alt="Geothermal Energy System">
-                        <div class="service-image-icon">
-                            <i class="fa-solid fa-earth-oceania"></i>
+                        <!-- Slide 4: IoT Water Solutions -->
+                        <div class="swiper-slide">
+                            <a href="#" class="service-card">
+                                <div class="service-image">
+                                    <img src="assets/images/water-audit.png" alt="IoT Water Solution">
+                                    <div class="service-image-icon">
+                                        <i class="fa-solid fa-droplet"></i>
+                                    </div>
+                                </div>
+                                <div class="service-body">
+                                    <h3>IoT Water Solution</h3>
+                                    <p>
+                                        Smart, real-time water monitoring, flow tracking, and automated analytics powered by IoT sensors to prevent leakages and waste.
+                                    </p>
+                                    <span class="service-link">
+                                        Learn More <i class="fa-solid fa-arrow-right"></i>
+                                    </span>
+                                </div>
+                            </a>
                         </div>
+
+                        <!-- Slide 5: Carbon Advisory -->
+                        <div class="swiper-slide">
+                            <a href="carbon-accounting-advisory.php" class="service-card">
+                                <div class="service-image">
+                                    <img src="assets/images/carbon-hero.png" alt="Carbon Accounting & Advisory">
+                                    <div class="service-image-icon">
+                                        <i class="fa-solid fa-cloud-arrow-up"></i>
+                                    </div>
+                                </div>
+                                <div class="service-body">
+                                    <h3>Carbon Accounting &amp; Advisory</h3>
+                                    <p>
+                                        Strategic carbon footprint mapping, decarbonization planning, and ESG reporting to guide your business toward net-zero emissions.
+                                    </p>
+                                    <span class="service-link">
+                                        Learn More <i class="fa-solid fa-arrow-right"></i>
+                                    </span>
+                                </div>
+                            </a>
+                        </div>
+
                     </div>
 
-                    <div class="service-body">
+                    <!-- Pagination -->
+                    <div class="services-swiper-pagination"></div>
 
-                        <h3>Geothermal Energy System</h3>
+                </div>
 
-                        <p>
-                            Clean, renewable ground-source heating and cooling solutions
-                            that slash long-term operational costs and carbon footprint.
-                        </p>
-
-                        <span class="service-link">
-                            Learn More <i class="fa-solid fa-arrow-right"></i>
-                        </span>
-
-                    </div>
-
-                </a>
-
+                <!-- Navigation Arrows -->
+                <div class="services-swiper-btn services-swiper-prev">
+                    <i class="fa-solid fa-arrow-left"></i>
+                </div>
+                <div class="services-swiper-btn services-swiper-next">
+                    <i class="fa-solid fa-arrow-right"></i>
+                </div>
             </div>
 
             <div class="services-cta">
@@ -611,113 +624,256 @@
                 <h2>Our Projects</h2>
             </div>
 
-            <div class="projects-grid">
+            <div class="projects-swiper-container">
+                <div class="swiper projects-swiper">
+                    <div class="swiper-wrapper">
 
-                <article class="project-card">
-
-                    <div class="project-image">
-                        <img src="assets/images/hero.png" alt="Green Corporate HQ">
-                        <span class="project-tag">LEED Platinum</span>
-                    </div>
-
-                    <div class="project-body">
-
-                        <div class="project-meta">
-                            <span><i class="fa-solid fa-map-location-dot"></i> Mumbai</span>
-                            <span><i class="fa-solid fa-layer-group"></i> 12 Floors</span>
+                        <!-- Project 1 -->
+                        <div class="swiper-slide">
+                            <article class="project-card">
+                                <div class="project-image">
+                                    <img src="assets/images/green-building-hero.png" alt="Veridia Green Corporate HQ">
+                                    <span class="project-tag">LEED Platinum</span>
+                                </div>
+                                <div class="project-body">
+                                    <div class="project-meta">
+                                        <span><i class="fa-solid fa-map-location-dot"></i> Mumbai</span>
+                                        <span><i class="fa-solid fa-layer-group"></i> 12 Floors</span>
+                                    </div>
+                                    <h3>Veridia Green Corporate HQ</h3>
+                                    <p>
+                                        Zero-discharge campus with 42% energy reduction, rainwater harvesting and a 400 kW rooftop solar array.
+                                    </p>
+                                    <div class="project-foot">
+                                        <div class="project-stat">
+                                            <strong>42%</strong>
+                                            <small>Energy Saved</small>
+                                        </div>
+                                        <a href="#" class="project-link">
+                                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </article>
                         </div>
 
-                        <h3>Veridia Green Corporate HQ</h3>
+                        <!-- Project 2 -->
+                        <div class="swiper-slide">
+                            <article class="project-card">
+                                <div class="project-image">
+                                    <img src="assets/images/commissioning-hero.png" alt="Ashray Knowledge Campus">
+                                    <span class="project-tag project-tag--sage">IGBC Gold</span>
+                                </div>
+                                <div class="project-body">
+                                    <div class="project-meta">
+                                        <span><i class="fa-solid fa-map-location-dot"></i> Bengaluru</span>
+                                        <span><i class="fa-solid fa-users"></i> 8,500 Students</span>
+                                    </div>
+                                    <h3>Ashray Knowledge Campus</h3>
+                                    <p>
+                                        25-acre net-positive university precinct with passive cooling, daylight design and 4 MLD STP reuse cycle.
+                                    </p>
+                                    <div class="project-foot">
+                                        <div class="project-stat">
+                                            <strong>100%</strong>
+                                            <small>Water Reuse</small>
+                                        </div>
+                                        <a href="#" class="project-link">
+                                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
 
-                        <p>
-                            Zero-discharge campus with 42% energy reduction,
-                            rainwater harvesting and a 400 kW rooftop solar array.
-                        </p>
+                        <!-- Project 3 -->
+                        <div class="swiper-slide">
+                            <article class="project-card">
+                                <div class="project-image">
+                                    <img src="assets/images/simulation-hero.png" alt="Coral Heights Residences">
+                                    <span class="project-tag project-tag--coral">BREEAM Excellent</span>
+                                </div>
+                                <div class="project-body">
+                                    <div class="project-meta">
+                                        <span><i class="fa-solid fa-map-location-dot"></i> Pune</span>
+                                        <span><i class="fa-solid fa-building"></i> 620 Units</span>
+                                    </div>
+                                    <h3>Coral Heights Residences</h3>
+                                    <p>
+                                        Luxury high-rise residences with VRF climate control, demand-controlled ventilation and district cooling.
+                                    </p>
+                                    <div class="project-foot">
+                                        <div class="project-stat">
+                                            <strong>55%</strong>
+                                            <small>Peak Load Cut</small>
+                                        </div>
+                                        <a href="#" class="project-link">
+                                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
 
-                        <div class="project-foot">
-                            <div class="project-stat">
-                                <strong>42%</strong>
-                                <small>Energy Saved</small>
-                            </div>
-                            <a href="#" class="project-link">
-                                <i class="fa-solid fa-arrow-up-right-from-square"></i>
-                            </a>
+                        <!-- Project 4 -->
+                        <div class="swiper-slide">
+                            <article class="project-card">
+                                <div class="project-image">
+                                    <img src="assets/images/audits-hero.png" alt="Zenith Industrial Park">
+                                    <span class="project-tag">LEED Gold</span>
+                                </div>
+                                <div class="project-body">
+                                    <div class="project-meta">
+                                        <span><i class="fa-solid fa-map-location-dot"></i> Chennai</span>
+                                        <span><i class="fa-solid fa-layer-group"></i> 150,000 sq.ft</span>
+                                    </div>
+                                    <h3>Zenith Industrial Park</h3>
+                                    <p>
+                                        Energy-efficient manufacturing facility with automated building management systems and high-efficiency heat pumps.
+                                    </p>
+                                    <div class="project-foot">
+                                        <div class="project-stat">
+                                            <strong>35%</strong>
+                                            <small>OpEx Reduced</small>
+                                        </div>
+                                        <a href="#" class="project-link">
+                                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+
+                        <!-- Project 5 -->
+                        <div class="swiper-slide">
+                            <article class="project-card">
+                                <div class="project-image">
+                                    <img src="assets/images/sustainable-architecture.png" alt="Serene Eco-Resort">
+                                    <span class="project-tag project-tag--sage">GRIHA 5-Star</span>
+                                </div>
+                                <div class="project-body">
+                                    <div class="project-meta">
+                                        <span><i class="fa-solid fa-map-location-dot"></i> Goa</span>
+                                        <span><i class="fa-solid fa-building"></i> 85 Villas</span>
+                                    </div>
+                                    <h3>Serene Eco-Resort</h3>
+                                    <p>
+                                        Sustainable hospitality project featuring geothermal cooling, solar water heating, and zero-carbon waste management.
+                                    </p>
+                                    <div class="project-foot">
+                                        <div class="project-stat">
+                                            <strong>58%</strong>
+                                            <small>Cooling Bill Cut</small>
+                                        </div>
+                                        <a href="#" class="project-link">
+                                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+
+                        <!-- Project 6 -->
+                        <div class="swiper-slide">
+                            <article class="project-card">
+                                <div class="project-image">
+                                    <img src="assets/images/carbon-hero.png" alt="TechNest IT Park">
+                                    <span class="project-tag project-tag--coral">WELL Gold</span>
+                                </div>
+                                <div class="project-body">
+                                    <div class="project-meta">
+                                        <span><i class="fa-solid fa-map-location-dot"></i> Hyderabad</span>
+                                        <span><i class="fa-solid fa-layer-group"></i> 450,000 sq.ft</span>
+                                    </div>
+                                    <h3>TechNest IT Park</h3>
+                                    <p>
+                                        Modern office building focusing on indoor air quality, daylight optimization, and smart IoT sensor integrations.
+                                    </p>
+                                    <div class="project-foot">
+                                        <div class="project-stat">
+                                            <strong>22%</strong>
+                                            <small>Air Quality Up</small>
+                                        </div>
+                                        <a href="#" class="project-link">
+                                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+
+                        <!-- Project 7 -->
+                        <div class="swiper-slide">
+                            <article class="project-card">
+                                <div class="project-image">
+                                    <img src="assets/images/tab-services.png" alt="SkyNet Logistics Hub">
+                                    <span class="project-tag">Net-Zero Certified</span>
+                                </div>
+                                <div class="project-body">
+                                    <div class="project-meta">
+                                        <span><i class="fa-solid fa-map-location-dot"></i> Noida</span>
+                                        <span><i class="fa-solid fa-layer-group"></i> 50 Acres</span>
+                                    </div>
+                                    <h3>SkyNet Logistics Hub</h3>
+                                    <p>
+                                        Large-scale warehouse facility featuring rooftop solar PV carports and intelligent LED lighting controls.
+                                    </p>
+                                    <div class="project-foot">
+                                        <div class="project-stat">
+                                            <strong>100%</strong>
+                                            <small>Solar Powered</small>
+                                        </div>
+                                        <a href="#" class="project-link">
+                                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+
+                        <!-- Project 8 -->
+                        <div class="swiper-slide">
+                            <article class="project-card">
+                                <div class="project-image">
+                                    <img src="assets/images/benefits-building.png" alt="Aashirwad Green Hospital">
+                                    <span class="project-tag project-tag--sage">IGBC Platinum</span>
+                                </div>
+                                <div class="project-body">
+                                    <div class="project-meta">
+                                        <span><i class="fa-solid fa-map-location-dot"></i> Delhi</span>
+                                        <span><i class="fa-solid fa-bed"></i> 350 Beds</span>
+                                    </div>
+                                    <h3>Aashirwad Green Hospital</h3>
+                                    <p>
+                                        Green healthcare facility prioritizing occupant well-being, waste management, and high-efficiency HVAC.
+                                    </p>
+                                    <div class="project-foot">
+                                        <div class="project-stat">
+                                            <strong>48%</strong>
+                                            <small>Carbon Cut</small>
+                                        </div>
+                                        <a href="#" class="project-link">
+                                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </article>
                         </div>
 
                     </div>
 
-                </article>
+                    <!-- Pagination -->
+                    <div class="projects-swiper-pagination"></div>
 
-                <article class="project-card">
+                </div>
 
-                    <div class="project-image">
-                        <img src="assets/images/hero.png" alt="University Campus">
-                        <span class="project-tag project-tag--sage">IGBC Gold</span>
-                    </div>
-
-                    <div class="project-body">
-
-                        <div class="project-meta">
-                            <span><i class="fa-solid fa-map-location-dot"></i> Bengaluru</span>
-                            <span><i class="fa-solid fa-users"></i> 8,500 Students</span>
-                        </div>
-
-                        <h3>Ashray Knowledge Campus</h3>
-
-                        <p>
-                            25-acre net-positive university precinct with passive
-                            cooling, daylight design and 4 MLD STP reuse cycle.
-                        </p>
-
-                        <div class="project-foot">
-                            <div class="project-stat">
-                                <strong>100%</strong>
-                                <small>Water Reuse</small>
-                            </div>
-                            <a href="#" class="project-link">
-                                <i class="fa-solid fa-arrow-up-right-from-square"></i>
-                            </a>
-                        </div>
-
-                    </div>
-
-                </article>
-
-                <article class="project-card">
-
-                    <div class="project-image">
-                        <img src="assets/images/hero.png" alt="Residential Towers">
-                        <span class="project-tag project-tag--coral">BREEAM Excellent</span>
-                    </div>
-
-                    <div class="project-body">
-
-                        <div class="project-meta">
-                            <span><i class="fa-solid fa-map-location-dot"></i> Pune</span>
-                            <span><i class="fa-solid fa-building"></i> 620 Units</span>
-                        </div>
-
-                        <h3>Coral Heights Residences</h3>
-
-                        <p>
-                            Luxury high-rise residences with VRF climate control,
-                            demand-controlled ventilation and district cooling.
-                        </p>
-
-                        <div class="project-foot">
-                            <div class="project-stat">
-                                <strong>55%</strong>
-                                <small>Peak Load Cut</small>
-                            </div>
-                            <a href="#" class="project-link">
-                                <i class="fa-solid fa-arrow-up-right-from-square"></i>
-                            </a>
-                        </div>
-
-                    </div>
-
-                </article>
-
+                <!-- Navigation Arrows -->
+                <div class="projects-swiper-btn projects-swiper-prev">
+                    <i class="fa-solid fa-arrow-left"></i>
+                </div>
+                <div class="projects-swiper-btn projects-swiper-next">
+                    <i class="fa-solid fa-arrow-right"></i>
+                </div>
             </div>
 
             <div class="projects-cta-bottom">

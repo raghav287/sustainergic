@@ -2721,6 +2721,136 @@ RESPONSIVE
 
     }
 
+    /* ===== Projects Swiper Slider ===== */
+    .projects-swiper-container {
+        position: relative;
+        padding: 0 45px;
+        margin-top: 10px;
+    }
+
+    .projects-swiper {
+        padding: 10px 0 58px;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .projects-swiper .swiper-wrapper {
+        align-items: stretch;
+    }
+
+    .projects-swiper .swiper-slide {
+        height: auto;
+        display: flex;
+    }
+
+    .projects-swiper .swiper-slide .project-card {
+        height: 100%;
+        width: 100%;
+    }
+
+    .projects-swiper-btn {
+        position: absolute;
+        top: calc(50% - 28px);
+        width: 56px;
+        height: 56px;
+        border-radius: 50%;
+        background: #fff;
+        color: var(--primary-color);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        z-index: 12;
+        box-shadow: 0 12px 36px rgba(15, 23, 42, 0.12);
+        border: 1px solid rgba(229, 231, 235, .9);
+        font-size: 16px;
+        transition: all .35s cubic-bezier(.22, .61, .36, 1);
+    }
+
+    .projects-swiper-btn:hover {
+        background: linear-gradient(135deg, var(--primary-color), #ff9475);
+        color: #fff;
+        box-shadow: 0 16px 40px rgba(240, 123, 94, 0.4);
+        border-color: transparent;
+        transform: scale(1.08);
+    }
+
+    .projects-swiper-prev {
+        left: -10px;
+    }
+
+    .projects-swiper-next {
+        right: -10px;
+    }
+
+    .projects-swiper-btn.swiper-button-disabled {
+        opacity: .45;
+        cursor: not-allowed;
+        transform: scale(1) !important;
+        background: #fff !important;
+        color: var(--primary-color) !important;
+        box-shadow: 0 10px 30px rgba(15, 23, 42, 0.06) !important;
+        pointer-events: none;
+    }
+
+    .projects-swiper-pagination {
+        bottom: 0 !important;
+        position: absolute;
+        left: 50% !important;
+        transform: translateX(-50%);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 8px;
+        z-index: 10;
+    }
+
+    .projects-swiper-pagination .swiper-pagination-bullet {
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        background: rgba(240, 123, 94, 0.22);
+        opacity: 1;
+        transition: all .3s ease;
+        margin: 0 !important;
+        cursor: pointer;
+    }
+
+    .projects-swiper-pagination .swiper-pagination-bullet-active {
+        background: var(--primary-color);
+        width: 28px;
+        border-radius: 20px;
+    }
+
+    @media (max-width: 1200px) {
+        .projects-swiper-container {
+            padding: 0 35px;
+        }
+        .projects-swiper-btn {
+            width: 48px;
+            height: 48px;
+            font-size: 14px;
+        }
+        .projects-swiper-prev {
+            left: -12px;
+        }
+        .projects-swiper-next {
+            right: -12px;
+        }
+    }
+
+    @media(max-width: 991px) {
+        .projects-swiper-container {
+            padding: 0;
+        }
+        .projects-swiper-btn {
+            display: none;
+        }
+        .projects-swiper {
+            padding: 8px 0 52px;
+        }
+    }
+
     .project-card {
 
         background: #fff;
@@ -2893,6 +3023,9 @@ RESPONSIVE
 
         transition: color .3s ease;
 
+        /* Ensure consistent title height */
+        min-height: 60px;
+
     }
 
     .project-card:hover .project-body h3 {
@@ -2912,6 +3045,13 @@ RESPONSIVE
         margin: 0 0 18px;
 
         flex: 1;
+
+        /* Ensure consistent description height and clamp to 3 lines */
+        min-height: 78px;
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
 
     }
 
@@ -4280,6 +4420,142 @@ RESPONSIVE
 
     }
 
+    /* ===== Services Swiper Slider ===== */
+    .services-swiper-container {
+        position: relative;
+        padding: 0 45px;
+        margin-top: 10px;
+    }
+
+    .services-swiper {
+        padding: 10px 0 58px;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .services-swiper .swiper-wrapper {
+        align-items: stretch;
+    }
+
+    .services-swiper .swiper-slide {
+        height: auto;
+        display: flex;
+    }
+
+    .services-swiper .swiper-slide .service-card {
+        height: 100%;
+        width: 100%;
+    }
+
+    .services-swiper-btn {
+        position: absolute;
+        top: calc(50% - 28px);
+        width: 56px;
+        height: 56px;
+        border-radius: 50%;
+        background: #fff;
+        color: var(--primary-color);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        z-index: 12;
+        box-shadow: 0 12px 36px rgba(15, 23, 42, 0.12);
+        border: 1px solid rgba(229, 231, 235, .9);
+        font-size: 16px;
+        transition: all .35s cubic-bezier(.22, .61, .36, 1);
+    }
+
+    .services-swiper-btn:hover {
+        background: linear-gradient(135deg, var(--primary-color), #ff9475);
+        color: #fff;
+        box-shadow: 0 16px 40px rgba(240, 123, 94, 0.4);
+        border-color: transparent;
+        transform: scale(1.08);
+    }
+
+    .services-swiper-prev {
+        left: -10px;
+    }
+
+    .services-swiper-next {
+        right: -10px;
+    }
+
+    .services-swiper-btn.swiper-button-disabled {
+        opacity: .45;
+        cursor: not-allowed;
+        transform: scale(1) !important;
+        background: #fff !important;
+        color: var(--primary-color) !important;
+        box-shadow: 0 10px 30px rgba(15, 23, 42, 0.06) !important;
+        pointer-events: none;
+    }
+
+    .services-swiper-pagination {
+        bottom: 0 !important;
+        position: absolute;
+        left: 50% !important;
+        transform: translateX(-50%);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 8px;
+        z-index: 10;
+    }
+
+    .services-swiper-pagination .swiper-pagination-bullet {
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        background: rgba(240, 123, 94, 0.22);
+        opacity: 1;
+        transition: all .3s ease;
+        margin: 0 !important;
+        cursor: pointer;
+    }
+
+    .services-swiper-pagination .swiper-pagination-bullet-active {
+        background: var(--primary-color);
+        width: 28px;
+        border-radius: 20px;
+    }
+
+    @media (max-width: 1200px) {
+        .services-swiper-container {
+            padding: 0 35px;
+        }
+
+        .services-swiper-btn {
+            width: 48px;
+            height: 48px;
+            font-size: 14px;
+        }
+
+        .services-swiper-prev {
+            left: -12px;
+        }
+
+        .services-swiper-next {
+            right: -12px;
+        }
+    }
+
+    @media(max-width: 991px) {
+        .services-swiper-container {
+            padding: 0;
+        }
+
+        .services-swiper-btn {
+            display: none;
+        }
+
+        .services-swiper {
+            padding: 8px 0 52px;
+        }
+    }
+
+
     .service-card {
 
         background: #fff;
@@ -4452,6 +4728,9 @@ RESPONSIVE
 
         transition: color .3s ease;
 
+        /* Ensure consistent height for 1 and 2 line titles */
+        min-height: 52px;
+
     }
 
     .service-card:hover h3 {
@@ -4471,6 +4750,13 @@ RESPONSIVE
         margin-bottom: 18px;
 
         flex-grow: 1;
+
+        /* Ensure consistent height for descriptions and clamp to 4 lines */
+        min-height: 98px;
+        display: -webkit-box;
+        -webkit-line-clamp: 4;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
 
     }
 
@@ -6153,7 +6439,7 @@ RESPONSIVE
 
     .process-sticky-panel h2 span {
         color: var(--primary-color);
-        background:var(--primary-color) ;
+        background: var(--primary-color);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
     }
@@ -11557,12 +11843,13 @@ RESPONSIVE
 
     }
 
-      /*================================================================
+    /*================================================================
         REDESIGNED OUR STRENGTHS SECTION
     ==================================================================*/
     .about-section--strength {
         padding: 60px 0;
-        background: #fff8f5; /* Premium soft peach background tint */
+        background: #fff8f5;
+        /* Premium soft peach background tint */
         position: relative;
     }
 
@@ -11700,25 +11987,31 @@ RESPONSIVE
         .about-section--strength {
             padding: 60px 0;
         }
+
         .strength-item {
             padding: 24px 20px;
             gap: 20px;
         }
+
         .strength-item-number {
             width: 38px;
             height: 38px;
             font-size: 16px;
             border-radius: 10px;
         }
+
         .strength-item-content h3 {
             font-size: 18px;
         }
+
         .strength-item-content p {
             font-size: 13.5px;
         }
+
         .strength-info-panel h2 {
             font-size: 32px;
         }
+
         .spc-num {
             font-size: 38px;
         }

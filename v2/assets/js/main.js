@@ -47,6 +47,99 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     }
 
+    const servicesSwiperEl = document.querySelector(".services-swiper");
+    if (servicesSwiperEl && typeof Swiper !== "undefined") {
+        new Swiper(servicesSwiperEl, {
+            slidesPerView: 1,
+            spaceBetween: 24,
+            speed: 700,
+            loop: true,
+            grabCursor: true,
+            autoplay: {
+                delay: 6000,
+                disableOnInteraction: false,
+                pauseOnMouseEnter: true
+            },
+            pagination: {
+                el: ".services-swiper-pagination",
+                clickable: true
+            },
+            navigation: {
+                nextEl: ".services-swiper-next",
+                prevEl: ".services-swiper-prev"
+            },
+            keyboard: {
+                enabled: true,
+                onlyInViewport: true
+            },
+            breakpoints: {
+                576: {
+                    slidesPerView: 1.2,
+                    spaceBetween: 20
+                },
+                768: {
+                    slidesPerView: 2,
+                    spaceBetween: 24
+                },
+                992: {
+                    slidesPerView: 3,
+                    spaceBetween: 24
+                },
+                1200: {
+                    slidesPerView: 4,
+                    spaceBetween: 24
+                }
+            }
+        });
+    }
+
+    const projectsSwiperEl = document.querySelector(".projects-swiper");
+    if (projectsSwiperEl && typeof Swiper !== "undefined") {
+        new Swiper(projectsSwiperEl, {
+            slidesPerView: 1,
+            spaceBetween: 32,
+            speed: 700,
+            loop: true,
+            grabCursor: true,
+            autoplay: {
+                delay: 6500,
+                disableOnInteraction: false,
+                pauseOnMouseEnter: true
+            },
+            pagination: {
+                el: ".projects-swiper-pagination",
+                clickable: true
+            },
+            navigation: {
+                nextEl: ".projects-swiper-next",
+                prevEl: ".projects-swiper-prev"
+            },
+            keyboard: {
+                enabled: true,
+                onlyInViewport: true
+            },
+            breakpoints: {
+                576: {
+                    slidesPerView: 1.2,
+                    spaceBetween: 20
+                },
+                768: {
+                    slidesPerView: 2,
+                    spaceBetween: 28
+                },
+                992: {
+                    slidesPerView: 3,
+                    spaceBetween: 28
+                },
+                1200: {
+                    slidesPerView: 3,
+                    spaceBetween: 32
+                }
+            }
+        });
+    }
+
+
     const header = document.querySelector(".main-header");
     const toggle = document.getElementById("mobileToggle");
     const navbar = document.getElementById("navbar");
