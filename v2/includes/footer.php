@@ -59,7 +59,7 @@
                             <li><a href="index.php">Home</a></li>
                             <li><a href="about.php">About Us</a></li>
                             <li><a href="#">Services</a></li>
-                            <li><a href="project.php">Projects</a></li>
+                            <li><a href="#">Carrer</a></li>
                             <li><a href="contact-us.php">Contact Us</a></li>
                         </ul>
                     </div>
@@ -118,8 +118,8 @@
                 <div class="fb-inner">
                     <small>&copy; <?php echo date('Y'); ?> Sustainergic Tech. All rights reserved.</small>
                     <ul class="fb-legal">
-                        <li><a href="#">Privacy Policy</a></li>
-                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="privacy-policy.php">Privacy Policy</a></li>
+                        <li><a href="terms-condition.php">Terms of Service</a></li>
                         <li><a href="#">Sitemap</a></li>
                     </ul>
                 </div>

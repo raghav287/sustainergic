@@ -1,11 +1,14 @@
 <?php
 $active_page = basename($_SERVER['PHP_SELF']);
 $service_pages = [
-    'green-building-certification.php', 'energy-simulation.php', 'daylight-simulation.php',
-    'cfd-simulation.php', 'ecbc-compliance.php', 'building-commissioning.php',
-    'energy-audit.php', 'water-audit.php', 'hvac-design-installation.php',
-    'radiant-cooling-system.php', 'heat-pump.php', 'geothermal-energy-system.php',
-    'vrf.php', 'hts.php'
+    'green-building-certification.php', 'simulation-modeling.php', 'audits.php',
+    'carbon-accounting-advisory.php', 'commissioning-authority.php', 'ecbc-compliance.php',
+    'energy-simulation.php', 'daylight-simulation.php', 'cfd-simulation.php',
+    'building-commissioning.php', 'energy-audit.php', 'water-audit.php'
+];
+$hvac_pages = [
+    'hvac-design-installation.php', 'radiant-cooling-system.php', 'heat-pump.php',
+    'geothermal-energy-system.php', 'vrf.php', 'hts.php'
 ];
 $resource_pages = ['case-studies.php', 'clients.php', 'blog.php'];
 ?>
@@ -76,7 +79,7 @@ $resource_pages = ['case-studies.php', 'clients.php', 'blog.php'];
                 </li>
                 <li class="dropdown">
 
-                    <a href="#" class="<?php echo in_array($active_page, $service_pages) ? 'active' : ''; ?>">
+                    <a href="#" class="<?php echo in_array($active_page, $hvac_pages) ? 'active' : ''; ?>">
                         HVAC
                         <i class="fa-solid fa-chevron-down"></i>
                     </a>

@@ -494,7 +494,7 @@
 
                 <span class="section-badge">About Sustainergic</span>
 
-                <h2>Building Sustainable Solutions for a Better Tomorrow</h2>
+                <h2>We Engineer Energy and Water Optimization in the Built Environment</h2>
 
                 <p>
                     Sustainergic Tech is a leading sustainability engineering and
@@ -597,7 +597,7 @@
                         <i class="fa-solid fa-bolt-lightning"></i>
                     </div>
 
-                    <h3>Proven Energy Savings</h3>
+                    <h3>Proven Energy/Water Savings</h3>
 
                     <p>
                         500+ completed projects with an average 40% reduction in energy
