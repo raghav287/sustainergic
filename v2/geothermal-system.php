@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="assets/images/favicon.png" type="image/png">
+    
+    <title>Geothermal System Design & Feasibility | Sustainergic Tech</title>
+    <meta name="description" content="Sustainergic Tech delivers complete geothermal HVAC solutions including feasibility studies, ground loop design, and system integration to reduce energy consumption and carbon emissions.">
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/green-building.css">
+</head>
+
+<body class="page-green-building">
+
+    <?php include 'includes/navbar.php'; ?>
+
+    <!-- ==========================================
+       1. HERO BANNER
+       ========================================== -->
+    <section class="gb-hero">
+        <div class="gb-container">
+            <div class="gb-hero-grid">
+                <!-- Left Content Column -->
+                <div class="gb-hero-content">
+                    <ul class="gb-breadcrumbs" aria-label="Breadcrumb">
+                        <li><a href="index.php">Home</a></li>
+                        <li class="sep"><i class="fa-solid fa-chevron-right"></i></li>
+                        <li><a href="#">HVAC</a></li>
+                        <li class="sep"><i class="fa-solid fa-chevron-right"></i></li>
+                        <li class="text-black" aria-current="page">Geothermal System</li>
+                    </ul>
+                    
+                    <h1 class="gb-hero-title">
+                        Geothermal &amp; Ground Source <span>Energy Systems</span>
+                    </h1>
+                    
+                    <p class="gb-hero-subtitle">
+                        Harnessing the constant thermal energy of the earth to deliver ultra-efficient heating, cooling, and water heating for commercial, institutional, and residential developments.
+                    </p>
+                    
+                    <div class="gb-hero-actions">
+                        <a href="contact-us.php" class="gb-btn gb-btn--primary">
+                            Request Feasibility Study <i class="fa-solid fa-calendar-check"></i>
+                        </a>
+                        <a href="#system-types" class="gb-btn gb-btn--outline">
+                            Explore Ground Loop Types <i class="fa-solid fa-arrow-down"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Right Visual Column -->
+                <div class="gb-hero-visual">
+                    <div class="gb-hero-img-wrapper">
+                        <img src="assets/images/sustainable-architecture.png" alt="Geothermal ground loop heat exchanger installation">
+                        
+                        <!-- Floating Badge 1 -->
+                        <div class="gb-hero-floating-card gb-hero-floating-card--one">
+                            <div class="gb-hero-fc-icon">
+                                <i class="fa-solid fa-earth-americas"></i>
+                            </div>
+                            <div class="gb-hero-fc-text">
+                                <h5>Earth Energy</h5>
+                                <p>COP 4.5 – 5.5 High Efficiency</p>
+                            </div>
+                        </div>
+
+                        <!-- Floating Badge 2 -->
+                        <div class="gb-hero-floating-card gb-hero-floating-card--two">
+                            <div class="gb-hero-fc-icon">
+                                <i class="fa-solid fa-leaf"></i>
+                            </div>
+                            <div class="gb-hero-fc-text">
+                                <h5>Zero Carbon Impact</h5>
+                                <p>Low Operating Costs</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==========================================
+       2. OVERVIEW SECTION (PARALLEL ALIGNED)
+       ========================================== -->
+    <section class="gb-section">
+        <div class="gb-container">
+            <div class="gb-grid-2">
+                <!-- Left Column (Visual) -->
+                <div class="gb-intro-visual-wrapper">
+                    <img src="assets/images/green-building-hero.png" class="gb-intro-img" alt="Geothermal Ground Source Heat Pump Facility">
+                    <div class="gb-intro-badge">
+                        <strong>Geothermal HVAC</strong>
+                        <span>Ground Energy Solutions</span>
+                    </div>
+                </div>
+
+                <!-- Right Column (Content) -->
+                <div class="gb-intro-content">
+                    <span class="gb-label">Geothermal HVAC Advisory</span>
+                    <h2 class="gb-title-main">Sustainable Heating &amp; Cooling Powered by the Earth</h2>
+                    <p class="gb-text-lead">
+                        Geothermal Systems utilize the stable temperature of the earth to provide highly efficient heating and cooling. Sustainergic Tech delivers complete geothermal solutions including feasibility studies, design, and system integration to reduce energy consumption, carbon emissions, and long-term operating costs.
+                    </p>
+                    
+                    <div class="gb-intro-capabilities">
+                        <!-- Capability 1 -->
+                        <div class="gb-cap-item">
+                            <div class="gb-cap-icon"><i class="fa-solid fa-vial"></i></div>
+                            <div class="gb-cap-text">
+                                <h4>Feasibility &amp; Thermal Response Testing</h4>
+                                <p>Evaluating soil thermal conductivity, borehole thermal response (TRT), and site geological suitability.</p>
+                            </div>
+                        </div>
+                        
+                        <!-- Capability 2 -->
+                        <div class="gb-cap-item">
+                            <div class="gb-cap-icon"><i class="fa-solid fa-diagram-project"></i></div>
+                            <div class="gb-cap-text">
+                                <h4>Ground Heat Exchanger (GHE) Design</h4>
+                                <p>Precision modeling of vertical borehole fields, horizontal loop grids, and surface water heat exchangers.</p>
+                            </div>
+                        </div>
+
+                        <!-- Capability 3 -->
+                        <div class="gb-cap-item">
+                            <div class="gb-cap-icon"><i class="fa-solid fa-temperature-arrow-down"></i></div>
+                            <div class="gb-cap-text">
+                                <h4>Geothermal Heat Pump Integration</h4>
+                                <p>Pairing ground loops with high-efficiency water-to-water and water-to-air geothermal heat pump plants.</p>
+                            </div>
+                        </div>
+
+                        <!-- Capability 4 -->
+                        <div class="gb-cap-item">
+                            <div class="gb-cap-icon"><i class="fa-solid fa-file-circle-check"></i></div>
+                            <div class="gb-cap-text">
+                                <h4>Turnkey Engineering &amp; Commissioning</h4>
+                                <p>Managing loop field sizing, header manifolds, hydraulic balance, and long-term system optimization.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Trust Highlights -->
+                    <div class="gb-trust-highlights">
+                        <div class="gb-trust-item">
+                            <i class="fa-solid fa-circle-check"></i>
+                            <span>Stable Sub-Surface Temp</span>
+                        </div>
+                        <div class="gb-trust-item">
+                            <i class="fa-solid fa-shield-halved"></i>
+                            <span>No Outdoor Cooling Towers</span>
+                        </div>
+                        <div class="gb-trust-item">
+                            <i class="fa-solid fa-bolt"></i>
+                            <span>50+ Year Loop Lifespan</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==========================================
+       3. GROUND LOOP CONFIGURATIONS
+       ========================================== -->
+    <section class="gb-section gb-section--light" id="system-types">
+        <div class="gb-container">
+            <div class="gb-section-header">
+                <span class="gb-label">Ground Heat Exchangers</span>
+                <h2 class="gb-title-main">Customized Geothermal Loop Configurations</h2>
+            </div>
+
+            <div class="gb-services-grid">
+                <!-- 1. Vertical Closed Loop -->
+                <div class="gb-service-card">
+                    <div class="gb-card-icon-wrapper">
+                        <i class="fa-solid fa-arrows-up-to-line"></i>
+                    </div>
+                    <h3>Vertical Closed-Loop Systems</h3>
+                    <p>
+                        High-density vertical boreholes (80m to 150m deep) with U-bend HDPE piping. Ideal for commercial office buildings, hospitals, and urban sites where surface land footprint is limited.
+                    </p>
+                </div>
+
+                <!-- 2. Horizontal Closed Loop -->
+                <div class="gb-service-card">
+                    <div class="gb-card-icon-wrapper">
+                        <i class="fa-solid fa-arrows-left-right"></i>
+                    </div>
+                    <h3>Horizontal Closed-Loop Systems</h3>
+                    <p>
+                        Shallow horizontal trenches (1.5m to 2.5m deep) with coiled or straight pipe configurations. Extremely cost-effective for large campus sites, agricultural facilities, and suburban developments.
+                    </p>
+                </div>
+
+                <!-- 3. Open Loop Groundwater -->
+                <div class="gb-service-card">
+                    <div class="gb-card-icon-wrapper">
+                        <i class="fa-solid fa-water"></i>
+                    </div>
+                    <h3>Open-Loop Groundwater Systems</h3>
+                    <p>
+                        Extracts water directly from an aquifer well, passes it through an isolation heat exchanger, and reinjects it into a discharge well. Offers high efficiency for sites with abundant water tables.
+                    </p>
+                </div>
+
+                <!-- 4. Surface Water Loop -->
+                <div class="gb-service-card">
+                    <div class="gb-card-icon-wrapper">
+                        <i class="fa-solid fa-fish-fins"></i>
+                    </div>
+                    <h3>Surface Water (Pond/Lake) Loops</h3>
+                    <p>
+                        Submerged closed-loop piping modules placed at the bottom of a nearby lake, pond, or water reservoir. Delivers low installation costs and exceptional thermal heat rejection.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==========================================
+       4. KEY ADVANTAGES & VALUE
+       ========================================== -->
+    <section class="gb-section">
+        <div class="gb-container">
+            <div class="gb-section-header">
+                <span class="gb-label">Geothermal Performance</span>
+                <h2 class="gb-title-main">Why Choose Geothermal Energy Systems?</h2>
+            </div>
+
+            <div class="gb-why-grid" style="grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));">
+                <!-- Advantage 1 -->
+                <div class="gb-why-card">
+                    <div class="gb-why-icon"><i class="fa-solid fa-chart-line"></i></div>
+                    <h4>Unrivaled COP (4.5 to 5.5)</h4>
+                    <p>Geothermal heat pumps deliver 4.5 to 5.5 units of thermal cooling/heating for every 1 unit of electricity, outperforming conventional air-cooled systems by up to 50%.</p>
+                </div>
+
+                <!-- Advantage 2 -->
+                <div class="gb-why-card">
+                    <div class="gb-why-icon"><i class="fa-solid fa-volume-xmark"></i></div>
+                    <h4>No Exterior Chillers or Noise</h4>
+                    <p>Eliminates noisy roof-top condensers, cooling tower chemical treatment, and evaporative water consumption, preserving roof real estate for solar PV panels.</p>
+                </div>
+
+                <!-- Advantage 3 -->
+                <div class="gb-why-card">
+                    <div class="gb-why-icon"><i class="fa-solid fa-cloud-arrow-down"></i></div>
+                    <h4>Decarbonization &amp; ESG Goals</h4>
+                    <p>Directly reduces building Scope 1 and Scope 2 carbon emissions, helping real estate portfolios achieve Net Zero Carbon and ESG compliance.</p>
+                </div>
+
+                <!-- Advantage 4 -->
+                <div class="gb-why-card">
+                    <div class="gb-why-icon"><i class="fa-solid fa-clock-rotate-left"></i></div>
+                    <h4>50+ Year Underground Lifespan</h4>
+                    <p>High-density polyethylene (HDPE) ground loops are warrantied for decades with virtually zero maintenance, providing generational infrastructure value.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==========================================
+       5. ENGINEERING PROCESS
+       ========================================== -->
+    <section class="gb-section gb-section--light">
+        <div class="gb-container">
+            <div class="gb-section-header">
+                <span class="gb-label">Our Process</span>
+                <h2 class="gb-title-main">A 4-Step Geothermal Engineering Roadmap</h2>
+            </div>
+
+            <div class="gb-process-timeline">
+                <!-- Timeline connector line for desktop -->
+                <div class="gb-process-line"></div>
+
+                <div class="gb-process-grid gb-process-grid--4">
+                    <!-- Step 1 -->
+                    <div class="gb-process-step">
+                        <div class="gb-process-num-wrapper">01</div>
+                        <div class="gb-process-step-content">
+                            <h4>Site &amp; Geological Assessment</h4>
+                            <p>Conducting Thermal Response Testing (TRT), soil sampling, and analyzing building hourly thermal load profiles.</p>
+                        </div>
+                    </div>
+
+                    <!-- Step 2 -->
+                    <div class="gb-process-step">
+                        <div class="gb-process-num-wrapper">02</div>
+                        <div class="gb-process-step-content">
+                            <h4>Loop Field Modeling</h4>
+                            <p>Using GLD (Ground Loop Design) software to simulate long-term thermal ground balance and determine exact borehole depth and count.</p>
+                        </div>
+                    </div>
+
+                    <!-- Step 3 -->
+                    <div class="gb-process-step">
+                        <div class="gb-process-num-wrapper">03</div>
+                        <div class="gb-process-step-content">
+                            <h4>Plant &amp; Piping Integration</h4>
+                            <p>Designing central heat pump mechanical room, header manifolds, variable-speed circulation pumps, and BMS control algorithms.</p>
+                        </div>
+                    </div>
+
+                    <!-- Step 4 -->
+                    <div class="gb-process-step">
+                        <div class="gb-process-num-wrapper">04</div>
+                        <div class="gb-process-step-content">
+                            <h4>Commissioning &amp; Optimization</h4>
+                            <p>Performing hydrostatic loop pressure testing, glycol fluid thermal balancing, and verifying seasonal system performance.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==========================================
+       6. CALL-TO-ACTION SECTION
+       ========================================== -->
+    <section class="gb-cta-banner">
+        <div class="gb-cta-overlay"></div>
+        <div class="gb-cta-content">
+            <h2>Ready to Harness Earth Energy for Your Facility?</h2>
+            <p>
+                Partner with Sustainergic Tech to conduct geothermal feasibility studies, design ground loops, and reduce your building's carbon footprint.
+            </p>
+            <div class="gb-cta-buttons">
+                <a href="contact-us.php" class="gb-btn gb-btn--gold">
+                    Schedule Feasibility Study <i class="fa-solid fa-calendar-days"></i>
+                </a>
+                <a href="contact-us.php" class="gb-btn gb-btn--white-outline">
+                    Contact Geothermal Engineers <i class="fa-solid fa-envelope"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==========================================
+       7. RELATED HVAC SERVICES
+       ========================================== -->
+    <section class="gb-section">
+        <div class="gb-container">
+            <div class="gb-section-header">
+                <span class="gb-label">Related HVAC Solutions</span>
+                <h2 class="gb-title-main">Explore Other HVAC &amp; Energy Systems</h2>
+            </div>
+
+            <div class="gb-related-grid">
+                <!-- Card 1 -->
+                <div class="gb-related-card">
+                    <div class="gb-related-img-box">
+                        <img src="assets/images/benefits-building.png" alt="Radiant Heating & Cooling System">
+                        <div class="gb-related-icon-box">
+                            <i class="fa-solid fa-temperature-arrow-down"></i>
+                        </div>
+                    </div>
+                    <div class="gb-related-body">
+                        <h3>Radiant Heating &amp; Cooling</h3>
+                        <p>Hydronic radiant floor and ceiling systems delivering draft-free, silent, and energy-efficient thermal comfort.</p>
+                        <a href="radiant-heating-cooling-system.php" class="gb-related-link">Explore Service <i class="fa-solid fa-chevron-right"></i></a>
+                    </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="gb-related-card">
+                    <div class="gb-related-img-box">
+                        <img src="assets/images/green-building-hero.png" alt="Heat Pump Systems">
+                        <div class="gb-related-icon-box">
+                            <i class="fa-solid fa-temperature-arrow-up"></i>
+                        </div>
+                    </div>
+                    <div class="gb-related-body">
+                        <h3>Air &amp; Water Source Heat Pumps</h3>
+                        <p>High-performance heat pump systems for domestic hot water, space heating, and chilled water generation.</p>
+                        <a href="contact-us.php" class="gb-related-link">Explore Service <i class="fa-solid fa-chevron-right"></i></a>
+                    </div>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="gb-related-card">
+                    <div class="gb-related-img-box">
+                        <img src="assets/images/sustainable-architecture.png" alt="ECBC Compliance">
+                        <div class="gb-related-icon-box">
+                            <i class="fa-solid fa-award"></i>
+                        </div>
+                    </div>
+                    <div class="gb-related-body">
+                        <h3>ECBC Compliance</h3>
+                        <p>Statutory design reviews, energy calculations, and BEE code compliance for commercial developments.</p>
+                        <a href="ecbc-compliance.php" class="gb-related-link">Explore Service <i class="fa-solid fa-chevron-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Global Footer -->
+    <?php include 'includes/footer.php'; ?>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>

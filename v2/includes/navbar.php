@@ -7,7 +7,7 @@ $service_pages = [
     'building-commissioning.php', 'energy-audit.php', 'water-audit.php'
 ];
 $hvac_pages = [
-    'hvac-design-installation.php', 'radiant-cooling-system.php', 'heat-pump.php',
+    'radiators.php', 'heat-pumps.php', 'vrv-vrf-system.php', 'chilled-water-system.php', 'underfloor-electric-heating-system.php', 'radiant-heating-cooling-system.php', 'geothermal-system.php', 'fresh-air-system.php', 'hvac-design-installation.php', 'radiant-cooling-system.php', 'heat-pump.php',
     'geothermal-energy-system.php', 'vrf.php', 'hts.php'
 ];
 $resource_pages = ['case-studies.php', 'clients.php', 'blog.php'];
@@ -48,7 +48,7 @@ $resource_pages = ['case-studies.php', 'clients.php', 'blog.php'];
                         <li><a href="carbon-accounting-advisory.php">Carbon Accounting & Advisory</a></li>
 
                         <li><a href="commissioning-authority.php">Commissioning Authority</a></li>
-                        <li><a href="commissioning-authority.php">ECBC Compliance</a></li>
+                        <li><a href="ecbc-compliance.php">ECBC Compliance</a></li>
                         <li><a href="#">IoT Water Solution</a></li>
 
                         <li><a href="#">Hybrid Thermal Solar (HTS) Panel</a></li>
@@ -86,24 +86,24 @@ $resource_pages = ['case-studies.php', 'clients.php', 'blog.php'];
 
                     <ul class="dropdown-menu">
 
-                        <li><a href="#">Radiant Heating & Cooling System</a></li>
+                        <li><a href="radiant-heating-cooling-system.php">Radiant Heating & Cooling System</a></li>
 
-                        <li><a href="#">Underfloor Electric Heating System </a></li>
+                        <li><a href="underfloor-electric-heating-system.php">Underfloor Electric Heating System</a></li>
 
                         <!-- <li><a href="#">Air Source Heat Pump (ASHP)</a></li> -->
 
 
-                        <li><a href="#">Geothermal System</a></li>
+                        <li><a href="geothermal-system.php">Geothermal System</a></li>
 
-                        <li><a href="#">Fresh Air System</a></li>
+                        <li><a href="fresh-air-system.php">Fresh Air System</a></li>
 
-                        <li><a href="#">Chilled Water System</a></li>
+                        <li><a href="chilled-water-system.php">Chilled Water System</a></li>
 
-                        <li><a href="#">VRV/VRF System</a></li>
+                        <li><a href="vrv-vrf-system.php">VRV/VRF System</a></li>
 
-                        <li><a href="#">Heat Pumps</a></li>
+                        <li><a href="heat-pumps.php">Heat Pumps</a></li>
 
-                        <li><a href="#">Radiators</a></li>
+                        <li><a href="radiators.php">Radiators</a></li>
                         <li><a href="#">Industrial HVAC Solutions</a></li>
                         <li><a href="#">Precision Medical Cooling Solution</a></li>
 
