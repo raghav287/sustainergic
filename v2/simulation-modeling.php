@@ -142,10 +142,10 @@
                         </div>
                         <!-- Cap 4 -->
                         <div class="sm-cap-item">
-                            <div class="sm-cap-icon"><i class="fa-solid fa-shield-halved"></i></div>
+                            <div class="sm-cap-icon"><i class="fa-solid fa-arrows-spin"></i></div>
                             <div class="sm-cap-text">
-                                <h4>ECBC Compliance</h4>
-                                <p>Evaluations against statutory codes.</p>
+                                <h4>LCA Analysis</h4>
+                                <p>Embodied carbon and lifecycle impact assessments.</p>
                             </div>
                         </div>
                     </div>
@@ -189,7 +189,8 @@
                             <h3>Energy Simulation</h3>
                         </div>
                         <p>
-                            Energy Simulation evaluates the predicted energy performance of a building before construction or renovation. Sustainergic Tech develops detailed energy models to analyze HVAC systems, lighting, building envelope, and operational patterns. Our simulations help optimize energy consumption, reduce operating costs, support green building certifications, and enable informed design decisions for high-performance buildings.
+                            Energy Simulation evaluates the predicted energy performance of a building before construction or renovation. Sustainergic Tech develops detailed energy models to analyze HVAC systems, lighting, building envelope, and operational patterns. 
+                            Our simulations help optimize energy consumption, reduce operating costs, support green building certifications, and enable informed design decisions for high-performance buildings. Our expert energy modelers provide calibrated energy building models for NET ZERO Energy Projects 
                         </p>
                         <h4 class="sm-alt-analysis-title">Key Analysis Areas:</h4>
                         <div class="sm-alt-list">
@@ -274,33 +275,33 @@
                     </div>
                 </div>
 
-                <!-- 4. ECBC Compliance -->
-                <!-- <div class="sm-alt-row">
+                <!-- 4. LCA Analysis -->
+                <div class="sm-alt-row">
                     <div class="sm-alt-visual">
-                        <img src="assets/images/ecbc-compliance.png" alt="ECBC energy building code compliance checklist diagram">
+                        <img src="assets/images/lca-stages.png" alt="Life Cycle Assessment lifecycle diagram mapping embodied carbon and environmental impacts">
                     </div>
                     <div class="sm-alt-content">
                         <div class="sm-alt-content-header">
-                            <div class="sm-alt-icon-box"><i class="fa-solid fa-file-shield"></i></div>
-                            <h3>ECBC Compliance</h3>
+                            <div class="sm-alt-icon-box"><i class="fa-solid fa-arrows-spin"></i></div>
+                            <h3>LCA Analysis</h3>
                         </div>
                         <p>
-                            ECBC Compliance ensures that commercial buildings meet the Energy Conservation Building Code requirements issued by the Bureau of Energy Efficiency. Sustainergic Tech provides design reviews, compliance calculations, energy assessments, and documentation to help projects satisfy statutory requirements while improving overall energy performance and operational efficiency.
+                            Life Cycle Assessment (LCA) evaluates the environmental impacts of buildings and materials across their entire lifespan—from raw material extraction and manufacturing to construction, operation, and end-of-life disposal. Sustainergic Tech provides whole-building LCA and embodied carbon modeling to quantify environmental footprints, optimize material selection, and support green building certification requirements.
                         </p>
-                        <h4 class="sm-alt-analysis-title">Key Support Areas:</h4>
+                        <h4 class="sm-alt-analysis-title">Key Analysis Areas:</h4>
                         <div class="sm-alt-list">
-                            <div class="sm-alt-list-item"><i class="fa-solid fa-check"></i> Building-envelope assessment</div>
-                            <div class="sm-alt-list-item"><i class="fa-solid fa-check"></i> HVAC and lighting compliance</div>
-                            <div class="sm-alt-list-item"><i class="fa-solid fa-check"></i> Energy calculations</div>
-                            <div class="sm-alt-list-item"><i class="fa-solid fa-check"></i> Design recommendations</div>
-                            <div class="sm-alt-list-item"><i class="fa-solid fa-check"></i> Compliance documentation</div>
-                            <div class="sm-alt-list-item"><i class="fa-solid fa-check"></i> Stakeholder coordination</div>
+                            <div class="sm-alt-list-item"><i class="fa-solid fa-check"></i> Whole-building embodied carbon modeling</div>
+                            <div class="sm-alt-list-item"><i class="fa-solid fa-check"></i> Material lifecycle impact assessment</div>
+                            <div class="sm-alt-list-item"><i class="fa-solid fa-check"></i> Low-carbon material optimization</div>
+                            <div class="sm-alt-list-item"><i class="fa-solid fa-check"></i> Environmental Product Declaration (EPD) integration</div>
+                            <div class="sm-alt-list-item"><i class="fa-solid fa-check"></i> Carbon reduction & mitigation strategies</div>
+                            <div class="sm-alt-list-item"><i class="fa-solid fa-check"></i> Green building certification compliance</div>
                         </div>
                         <a href="contact-us.php" class="sm-btn sm-btn--gold">
                             Discuss Your Project <i class="fa-solid fa-chevron-right"></i>
                         </a>
                     </div>
-                </div> -->
+                </div>
             </div>
         </div>
     </section>
@@ -321,43 +322,55 @@
                     <!-- Step 1 -->
                     <div class="sm-process-step">
                         <div class="sm-process-num-wrapper">01</div>
-                        <h4>Project Understanding</h4>
-                        <p>Review the project scope, drawings, design requirements, and performance objectives.</p>
+                        <div class="sm-process-text">
+                            <h4>Project Understanding</h4>
+                            <p>Review the project scope, drawings, design requirements, and performance objectives.</p>
+                        </div>
                     </div>
 
                     <!-- Step 2 -->
                     <div class="sm-process-step">
                         <div class="sm-process-num-wrapper">02</div>
-                        <h4>Data Collection</h4>
-                        <p>Collect architectural, mechanical, electrical, climatic, and operational details.</p>
+                        <div class="sm-process-text">
+                            <h4>Data Collection</h4>
+                            <p>Collect architectural, mechanical, electrical, climatic, and operational details.</p>
+                        </div>
                     </div>
 
                     <!-- Step 3 -->
                     <div class="sm-process-step">
                         <div class="sm-process-num-wrapper">03</div>
-                        <h4>Digital Model Development</h4>
-                        <p>Develop an accurate simulation model based on the available project data.</p>
+                        <div class="sm-process-text">
+                            <h4>Digital Model Development</h4>
+                            <p>Develop an accurate simulation model based on the available project data.</p>
+                        </div>
                     </div>
 
                     <!-- Step 4 -->
                     <div class="sm-process-step">
                         <div class="sm-process-num-wrapper">04</div>
-                        <h4>Performance Analysis</h4>
-                        <p>Run simulations to evaluate energy, daylight, airflow, thermal comfort, or compliance.</p>
+                        <div class="sm-process-text">
+                            <h4>Performance Analysis</h4>
+                            <p>Run simulations to evaluate energy, daylight, airflow, thermal comfort, or compliance.</p>
+                        </div>
                     </div>
 
                     <!-- Step 5 -->
                     <div class="sm-process-step">
                         <div class="sm-process-num-wrapper">05</div>
-                        <h4>Design Optimization</h4>
-                        <p>Compare alternatives and recommend practical performance improvements.</p>
+                        <div class="sm-process-text">
+                            <h4>Design Optimization</h4>
+                            <p>Compare alternatives and recommend practical performance improvements.</p>
+                        </div>
                     </div>
 
                     <!-- Step 6 -->
                     <div class="sm-process-step">
                         <div class="sm-process-num-wrapper">06</div>
-                        <h4>Reporting & Coordination</h4>
-                        <p>Deliver technical reports, visual findings, and coordination support to the team.</p>
+                        <div class="sm-process-text">
+                            <h4>Reporting & Coordination</h4>
+                            <p>Deliver technical reports, visual findings, and coordination support to the team.</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -464,7 +477,7 @@
                         </div>
                         <div class="sm-outcome-item">
                             <div class="sm-outcome-check"><i class="fa-solid fa-check"></i></div>
-                            <span>Better external wind flow</span>
+                            <span>Improved Natural Ventilation </span>
                         </div>
                         <div class="sm-outcome-item">
                             <div class="sm-outcome-check"><i class="fa-solid fa-check"></i></div>
@@ -476,7 +489,7 @@
                         </div>
                         <div class="sm-outcome-item">
                             <div class="sm-outcome-check"><i class="fa-solid fa-check"></i></div>
-                            <span>Lower environmental footprint</span>
+                            <span>Lower Carbon Footprint </span>
                         </div>
                         <div class="sm-outcome-item">
                             <div class="sm-outcome-check"><i class="fa-solid fa-check"></i></div>

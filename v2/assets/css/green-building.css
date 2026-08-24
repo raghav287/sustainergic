@@ -201,6 +201,7 @@
     padding: 170px 0 70px;
     background: linear-gradient(135deg, var(--primary-color) 0%, #f5a68c 100%);
     z-index: 1;
+    overflow: hidden;
 }
 
 .gb-hero::after {
@@ -554,6 +555,7 @@
     display: flex;
     flex-direction: column;
     height: 100%;
+    overflow: hidden;
 }
 
 .gb-service-card::before {
@@ -561,11 +563,11 @@
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
-    height: 4px;
+    right: 0;
+    height: 3px;
     background-color: transparent;
-    border-radius: 20px 20px 0 0;
     transition: var(--gb-transition);
+    z-index: 2;
 }
 
 .gb-service-card:hover {
@@ -596,6 +598,34 @@
     background-color: var(--gb-sage);
     color: var(--gb-white);
     transform: scale(1.05) rotate(5deg);
+}
+
+.gb-card-logo-wrapper {
+    width: 64px;
+    height: 64px;
+    border-radius: 16px;
+    background-color: var(--gb-white);
+    border: 1px solid var(--gb-border-light);
+    box-shadow: var(--gb-shadow-sm);
+    padding: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 24px;
+    transition: var(--gb-transition);
+    overflow: hidden;
+}
+
+.gb-card-logo-wrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.gb-service-card:hover .gb-card-logo-wrapper {
+    transform: scale(1.08);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    border-color: var(--primary-color);
 }
 
 .gb-service-card h3 {
@@ -669,6 +699,14 @@
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 24px;
+    position: relative;
+    z-index: 2;
+}
+
+.gb-process-grid--7 {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 16px;
     position: relative;
     z-index: 2;
 }
@@ -1039,9 +1077,13 @@
     transform: translateX(4px);
 }
 
-/* ==========================================================================
-   RESPONSIVE DESIGN (MEDIA QUERIES)
-   ========================================================================== */
+/* Global Viewport & Responsiveness Safety */
+html, body, .page-green-building {
+    overflow-x: hidden !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    box-sizing: border-box !important;
+}
 
 @media (max-width: 1200px) {
     .gb-hero-title {
@@ -1049,6 +1091,10 @@
     }
     .gb-cta-banner {
         max-width: 1000px;
+    }
+    .gb-process-grid--7 {
+        grid-template-columns: repeat(4, 1fr);
+        gap: 20px;
     }
 }
 
@@ -1091,9 +1137,11 @@
     .gb-process-line {
         display: none;
     }
-    .gb-process-grid {
-        grid-template-columns: 1fr;
-        gap: 30px;
+    .gb-process-grid,
+    .gb-process-grid--4,
+    .gb-process-grid--7 {
+        grid-template-columns: 1fr !important;
+        gap: 20px;
         max-width: 480px;
         margin: 0 auto;
     }

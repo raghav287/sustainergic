@@ -182,8 +182,8 @@
             <div class="gb-services-grid">
                 <!-- 1. IGBC -->
                 <div class="gb-service-card">
-                    <div class="gb-card-icon-wrapper">
-                        <i class="fa-solid fa-building-circle-check"></i>
+                    <div class="gb-card-logo-wrapper">
+                        <img src="assets/images/certifications/igbc-logo.png" alt="IGBC Certification Logo" width="64" height="64">
                     </div>
                     <h3>IGBC Green Building Certification</h3>
                     <p>
@@ -194,8 +194,8 @@
 
                 <!-- 2. USGBC LEED -->
                 <div class="gb-service-card">
-                    <div class="gb-card-icon-wrapper">
-                        <i class="fa-solid fa-earth-americas"></i>
+                    <div class="gb-card-logo-wrapper">
+                        <img src="assets/images/certifications/leed-logo.png" alt="LEED Certification Logo" width="64" height="64">
                     </div>
                     <h3>USGBC LEED Green Building Certification</h3>
                     <p>
@@ -206,8 +206,8 @@
 
                 <!-- 3. GRIHA -->
                 <div class="gb-service-card">
-                    <div class="gb-card-icon-wrapper">
-                        <i class="fa-solid fa-solar-panel"></i>
+                    <div class="gb-card-logo-wrapper">
+                        <img src="assets/images/certifications/griha-logo.png" alt="GRIHA Certification Logo" width="64" height="64">
                     </div>
                     <h3>GRIHA Certification</h3>
                     <p>
@@ -218,8 +218,8 @@
 
                 <!-- 4. ASSOCHAM GEM -->
                 <div class="gb-service-card">
-                    <div class="gb-card-icon-wrapper">
-                        <i class="fa-solid fa-award"></i>
+                    <div class="gb-card-logo-wrapper">
+                        <img src="assets/images/certifications/gem-logo.png" alt="ASSOCHAM GEM Certification Logo" width="64" height="64">
                     </div>
                     <h3>ASSOCHAM GEM Certification</h3>
                     <p>
@@ -230,8 +230,8 @@
 
                 <!-- 5. WELL -->
                 <div class="gb-service-card">
-                    <div class="gb-card-icon-wrapper">
-                        <i class="fa-solid fa-heart-pulse"></i>
+                    <div class="gb-card-logo-wrapper">
+                        <img src="assets/images/certifications/well-logo.png" alt="WELL Certification Logo" width="64" height="64">
                     </div>
                     <h3>WELL Certification</h3>
                     <p>
@@ -242,8 +242,8 @@
 
                 <!-- 6. GreenPro -->
                 <div class="gb-service-card">
-                    <div class="gb-card-icon-wrapper">
-                        <i class="fa-solid fa-box-open"></i>
+                    <div class="gb-card-logo-wrapper">
+                        <img src="assets/images/certifications/greenpro-logo.png" alt="GreenPro Certification Logo" width="64" height="64">
                     </div>
                     <h3>GreenPro Certification</h3>
                     <p>
@@ -254,8 +254,8 @@
 
                 <!-- 7. GreenCo -->
                 <div class="gb-service-card">
-                    <div class="gb-card-icon-wrapper">
-                        <i class="fa-solid fa-industry"></i>
+                    <div class="gb-card-logo-wrapper">
+                        <img src="assets/images/certifications/greenco-logo.png" alt="GreenCo Certification Logo" width="64" height="64">
                     </div>
                     <h3>GreenCo Certification</h3>
                     <p>
@@ -266,8 +266,8 @@
 
                 <!-- 8. EarthCheck -->
                 <div class="gb-service-card">
-                    <div class="gb-card-icon-wrapper">
-                        <i class="fa-solid fa-hotel"></i>
+                    <div class="gb-card-logo-wrapper">
+                        <img src="assets/images/certifications/earthcheck-logo.png" alt="EarthCheck Certification Logo" width="64" height="64">
                     </div>
                     <h3>EarthCheck Certification</h3>
                     <p>
@@ -276,13 +276,74 @@
                     <a href="contact-us.php" class="gb-card-link">Learn More <i class="fa-solid fa-arrow-right"></i></a>
                 </div>
             </div>
+    </section>
+
+    <!-- ==========================================
+       4. NET ZERO CERTIFICATION SECTION
+       ========================================== -->
+    <section class="gb-section" id="net-zero">
+        <div class="gb-container">
+            <div class="gb-section-header">
+                <span class="gb-label">Net Zero Excellence</span>
+                <h2 class="gb-title-main">NET ZERO <span>Energy, Water, Carbon &amp; Waste</span> Certification</h2>
+            </div>
+
+            <div class="gb-services-grid">
+                <!-- 1. Net Zero Energy -->
+                <div class="gb-service-card">
+                    <div class="gb-card-icon-wrapper">
+                        <i class="fa-solid fa-bolt-lightning"></i>
+                    </div>
+                    <h3>Net Zero Energy (NZE)</h3>
+                    <p>
+                        Optimizing building energy efficiency through passive architectural design, ultra-high COP HVAC equipment, and offsetting 100% of annual energy consumption through on-site solar PV and renewable power integration.
+                    </p>
+                    <a href="contact-us.php" class="gb-card-link">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+
+                <!-- 2. Net Zero Water -->
+                <div class="gb-service-card">
+                    <div class="gb-card-icon-wrapper">
+                        <i class="fa-solid fa-droplet"></i>
+                    </div>
+                    <h3>Net Zero Water (NZW)</h3>
+                    <p>
+                        Achieving 100% water neutrality by implementing rainwater harvesting, advanced STP/MBBR wastewater treatment, zero liquid discharge (ZLD), and eliminating reliance on external fresh water supplies.
+                    </p>
+                    <a href="contact-us.php" class="gb-card-link">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+
+                <!-- 3. Net Zero Carbon -->
+                <div class="gb-service-card">
+                    <div class="gb-card-icon-wrapper">
+                        <i class="fa-solid fa-leaf"></i>
+                    </div>
+                    <h3>Net Zero Carbon (NZC)</h3>
+                    <p>
+                        Eliminating Scope 1 and Scope 2 operational carbon emissions through 100% green energy sourcing while evaluating embodied carbon in construction materials through Life Cycle Assessment (LCA).
+                    </p>
+                    <a href="contact-us.php" class="gb-card-link">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+
+                <!-- 4. Net Zero Waste -->
+                <div class="gb-service-card">
+                    <div class="gb-card-icon-wrapper">
+                        <i class="fa-solid fa-arrows-spin"></i>
+                    </div>
+                    <h3>Net Zero Waste to Landfill</h3>
+                    <p>
+                        Diverting 90%+ of construction and operational waste from municipal landfills through organic waste composting, source segregation, material recovery, and circular economy waste management practices.
+                    </p>
+                    <a href="contact-us.php" class="gb-card-link">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
         </div>
     </section>
 
     <!-- ==========================================
-       4. CERTIFICATION PROCESS
+       5. CERTIFICATION PROCESS
        ========================================== -->
-    <section class="gb-section">
+    <section class="gb-section gb-section--light" style="background-color: #F2F2F2;">
         <div class="gb-container">
             <div class="gb-section-header">
                 <span class="gb-label">Our Certification Approach</span>
@@ -293,7 +354,7 @@
                 <!-- Timeline connector line for desktop -->
                 <div class="gb-process-line"></div>
 
-                <div class="gb-process-grid">
+                <div class="gb-process-grid gb-process-grid--7">
                     <!-- Step 1 -->
                     <div class="gb-process-step">
                         <div class="gb-process-num-wrapper">01</div>
@@ -325,8 +386,8 @@
                     <div class="gb-process-step">
                         <div class="gb-process-num-wrapper">04</div>
                         <div class="gb-process-step-content">
-                            <h4>Implementation Support</h4>
-                            <p>Coordinating sustainable design strategies and performance improvements.</p>
+                            <h4>Modeling</h4>
+                            <p>Conduct energy, daylight, and LCA modeling of the building.</p>
                         </div>
                     </div>
 
@@ -334,14 +395,23 @@
                     <div class="gb-process-step">
                         <div class="gb-process-num-wrapper">05</div>
                         <div class="gb-process-step-content">
-                            <h4>Documentation & Submission</h4>
-                            <p>Preparing, reviewing, and submitting all required technical documents.</p>
+                            <h4>Implementation Support</h4>
+                            <p>Coordinating sustainable design strategies and performance improvements.</p>
                         </div>
                     </div>
 
                     <!-- Step 6 -->
                     <div class="gb-process-step">
                         <div class="gb-process-num-wrapper">06</div>
+                        <div class="gb-process-step-content">
+                            <h4>Documentation &amp; Submission</h4>
+                            <p>Preparing, reviewing, and submitting all required technical documents.</p>
+                        </div>
+                    </div>
+
+                    <!-- Step 7 -->
+                    <div class="gb-process-step">
+                        <div class="gb-process-num-wrapper">07</div>
                         <div class="gb-process-step-content">
                             <h4>Certification Assistance</h4>
                             <p>Managing clarifications, reviews, and coordination until certification is achieved.</p>
@@ -414,10 +484,10 @@
                 </div>
 
                 <!-- 2. Experienced professionals -->
-                <div class="gb-why-card">
-                    <div class="gb-why-icon"><i class="fa-solid fa-user-tie"></i></div>
-                    <h4>Experienced sustainability professionals</h4>
-                    <p>Our team consists of qualified LEED APs, IGBC APs, and GRIHA Evaluators with extensive technical consulting experience.</p>
+                  <div class="gb-why-card">
+                    <div class="gb-why-icon"><i class="fa-solid fa-file-contract"></i></div>
+                    <h4>Detailed technical documentation</h4>
+                    <p>We prepare precise reports, calculations, and compliance records, reducing regulatory review times significantly.</p>
                 </div>
 
                 <!-- 3. Customized strategies -->
@@ -428,23 +498,24 @@
                 </div>
 
                 <!-- 4. Detailed documentation -->
+              
                 <div class="gb-why-card">
-                    <div class="gb-why-icon"><i class="fa-solid fa-file-contract"></i></div>
-                    <h4>Detailed technical documentation</h4>
-                    <p>We prepare precise reports, calculations, and compliance records, reducing regulatory review times significantly.</p>
+                    <div class="gb-why-icon"><i class="fa-solid fa-user-tie"></i></div>
+                    <h4>Experienced sustainability professionals</h4>
+                    <p>Our team consists of qualified LEED APs, IGBC APs, and GRIHA Evaluators with extensive technical consulting experience.</p>
                 </div>
 
                 <!-- 5. Environmental performance analysis -->
                 <div class="gb-why-card">
                     <div class="gb-why-icon"><i class="fa-solid fa-microscope"></i></div>
-                    <h4>Energy and performance analysis</h4>
+                    <h4>Expert Energy, Daylight & LCA Modelers</h4>
                     <p>Advanced simulation methodologies support our recommendations, ensuring real-world operational savings.</p>
                 </div>
 
                 <!-- 6. Continuous coordination -->
                 <div class="gb-why-card">
                     <div class="gb-why-icon"><i class="fa-solid fa-comments"></i></div>
-                    <h4>Continuous coordination</h4>
+                    <h4>Implementation of Innovative Technologies</h4>
                     <p>Direct communication and responsive handling of auditor feedback until your certification is officially awarded.</p>
                 </div>
             </div>

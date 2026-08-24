@@ -189,7 +189,7 @@
                             <h3>Energy Audit</h3>
                         </div>
                         <p>
-                            An Energy Audit identifies opportunities to reduce energy consumption and operating costs through detailed assessment of building systems and equipment. Sustainergic Tech evaluates HVAC, lighting, electrical systems, and utilities to recommend practical energy-saving measures. Our audits help improve efficiency, reduce carbon emissions, and enhance long-term building performance.
+                           An Energy Audit identifies opportunities to reduce energy consumption and operating costs through detailed metered assessment of building systems and equipment. Sustainergic Tech evaluates HVAC, lighting, electrical systems, Hot Water Systems, utilities, distributions, and Electromechanical Equipment to recommend practical energy-saving measures. Our audits help improve efficiency, reduce carbon emissions, and enhance long-term building performance.
                         </p>
                         
                         <!-- Analysis & Outcomes splits -->
@@ -200,7 +200,7 @@
                                     <div class="aud-results-item"><i class="fa-solid fa-check"></i> Electricity bills & utilities</div>
                                     <div class="aud-results-item"><i class="fa-solid fa-check"></i> HVAC system performance</div>
                                     <div class="aud-results-item"><i class="fa-solid fa-check"></i> Lighting systems & controls</div>
-                                    <div class="aud-results-item"><i class="fa-solid fa-check"></i> Equipment & distribution</div>
+                                    <div class="aud-results-item"><i class="fa-solid fa-check"></i> Electromechanical Equipments</div>
                                 </div>
                             </div>
                             <div class="aud-results-col">
@@ -231,7 +231,7 @@
                             <h3>Water Audit</h3>
                         </div>
                         <p>
-                            A Water Audit examines water consumption, distribution, losses, and reuse opportunities within a facility. Sustainergic Tech analyzes water balance, identifies leakages, and recommends conservation strategies to improve water efficiency. Our solutions help clients reduce freshwater demand, optimize resource utilization, and achieve sustainable water management.
+                            A Water Audit examines water consumption, distribution, losses, and reuse opportunities within a facility. Sustainergic Tech analyzes water balance, identifies leakages, and recommends conservation strategies to improve water efficiency. Our solutions help clients reduce freshwater demand, optimize resource utilization, and achieve sustainable water management. Additionally, we offer a structured framework designed to guide organizations toward achieving <strong>Net Zero Water Certification</strong>.
                         </p>
                         
                         <!-- Analysis & Outcomes splits -->
@@ -240,7 +240,7 @@
                                 <h4>Key Assessment Areas:</h4>
                                 <div class="aud-results-list">
                                     <div class="aud-results-item"><i class="fa-solid fa-check"></i> Water supply & end-uses</div>
-                                    <div class="aud-results-item"><i class="fa-solid fa-check"></i> Water balance preparation</div>
+                                    <div class="aud-results-item"><i class="fa-solid fa-check"></i> Preparation of Water Balance</div>
                                     <div class="aud-results-item"><i class="fa-solid fa-check"></i> Leakage & loss detection</div>
                                     <div class="aud-results-item"><i class="fa-solid fa-check"></i> Fixtures & recycling units</div>
                                 </div>
@@ -250,8 +250,8 @@
                                 <div class="aud-results-list">
                                     <div class="aud-results-item"><i class="fa-solid fa-check"></i> Avoided leakage and losses</div>
                                     <div class="aud-results-item"><i class="fa-solid fa-check"></i> Lower freshwater demand</div>
-                                    <div class="aud-results-item"><i class="fa-solid fa-check"></i> Optimized storage & reuse</div>
-                                    <div class="aud-results-item"><i class="fa-solid fa-check"></i> Sustainable management</div>
+                                    <div class="aud-results-item"><i class="fa-solid fa-check"></i>  Reduce, Recycle & Reuse</div>
+                                    <div class="aud-results-item"><i class="fa-solid fa-check"></i> Innovative Technologies</div>
                                 </div>
                             </div>
                         </div>
@@ -330,47 +330,68 @@
 
             <div class="aud-process-timeline">
                 <div class="aud-process-line"></div>
-                <div class="aud-process-grid">
+                <div class="aud-process-grid aud-process-grid--7">
                     <!-- Step 1 -->
                     <div class="aud-process-step">
                         <div class="aud-process-num-wrapper">01</div>
-                        <h4>Initial Consultation</h4>
-                        <p>Understand the facility, operational profiles, constraints, and audit objectives.</p>
+                        <div class="aud-process-text">
+                            <h4>Initial Consultation</h4>
+                            <p>Understand the facility, operational profiles, constraints, and audit objectives.</p>
+                        </div>
                     </div>
 
                     <!-- Step 2 -->
                     <div class="aud-process-step">
                         <div class="aud-process-num-wrapper">02</div>
-                        <h4>Data Collection</h4>
-                        <p>Review utility bills, consumption logs, drawings, and operating cycles.</p>
+                        <div class="aud-process-text">
+                            <h4>Site Assessment</h4>
+                            <p>Inspect relevant building infrastructure, utilities, systems, and equipment.</p>
+                        </div>
                     </div>
 
                     <!-- Step 3 -->
                     <div class="aud-process-step">
                         <div class="aud-process-num-wrapper">03</div>
-                        <h4>Site Assessment</h4>
-                        <p>Inspect relevant building infrastructure, utilities, systems, and equipment.</p>
+                        <div class="aud-process-text">
+                            <h4>Data Collection</h4>
+                            <p>Review utility bills, consumption logs, drawings, and operating cycles.</p>
+                        </div>
                     </div>
 
                     <!-- Step 4 -->
                     <div class="aud-process-step">
                         <div class="aud-process-num-wrapper">04</div>
-                        <h4>Performance Analysis</h4>
-                        <p>Analyze patterns, HVAC loads, plumbing, losses, and conservation steps.</p>
+                        <div class="aud-process-text">
+                            <h4>Instrument Data Acquisition</h4>
+                            <p>Deploy calibrated instruments and meters for logging real-time system metrics.</p>
+                        </div>
                     </div>
 
                     <!-- Step 5 -->
                     <div class="aud-process-step">
                         <div class="aud-process-num-wrapper">05</div>
-                        <h4>Recommendations</h4>
-                        <p>Develop practical measures for improving efficiency and reducing consumption.</p>
+                        <div class="aud-process-text">
+                            <h4>Data Analysis</h4>
+                            <p>Analyze performance patterns, HVAC loads, efficiency baselines, and losses.</p>
+                        </div>
                     </div>
 
                     <!-- Step 6 -->
                     <div class="aud-process-step">
                         <div class="aud-process-num-wrapper">06</div>
-                        <h4>Reporting & Support</h4>
-                        <p>Present findings in a clear report and support implementation decisions.</p>
+                        <div class="aud-process-text">
+                            <h4>Recommendations</h4>
+                            <p>Develop practical measures for improving efficiency and reducing consumption.</p>
+                        </div>
+                    </div>
+
+                    <!-- Step 7 -->
+                    <div class="aud-process-step">
+                        <div class="aud-process-num-wrapper">07</div>
+                        <div class="aud-process-text">
+                            <h4>Reporting & Support</h4>
+                            <p>Present findings in a clear report and support implementation decisions.</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -388,65 +409,72 @@
             </div>
 
             <div class="aud-assess-grid">
-                <!-- Card 1 -->
+                <!-- Energy Assessment Cards (8) -->
                 <div class="aud-assess-card aud-assess-card--energy">
                     <div class="aud-assess-icon"><i class="fa-solid fa-temperature-half"></i></div>
                     <h4>HVAC Systems</h4>
                 </div>
-                <!-- Card 2 -->
                 <div class="aud-assess-card aud-assess-card--energy">
                     <div class="aud-assess-icon"><i class="fa-solid fa-lightbulb"></i></div>
                     <h4>Lighting & Controls</h4>
                 </div>
-                <!-- Card 3 -->
                 <div class="aud-assess-card aud-assess-card--energy">
                     <div class="aud-assess-icon"><i class="fa-solid fa-network-wired"></i></div>
                     <h4>Electrical Distribution</h4>
                 </div>
-                <!-- Card 4 -->
+                <div class="aud-assess-card aud-assess-card--energy">
+                    <div class="aud-assess-icon"><i class="fa-solid fa-bolt"></i></div>
+                    <h4>Power Factor Correction</h4>
+                </div>
                 <div class="aud-assess-card aud-assess-card--energy">
                     <div class="aud-assess-icon"><i class="fa-solid fa-industry"></i></div>
-                    <h4>Building Equipment</h4>
+                    <h4>Electromechanical Equipment</h4>
                 </div>
-                <!-- Card 5 -->
+                <div class="aud-assess-card aud-assess-card--energy">
+                    <div class="aud-assess-icon"><i class="fa-solid fa-solar-panel"></i></div>
+                    <h4>Renewable Energy Integration</h4>
+                </div>
                 <div class="aud-assess-card aud-assess-card--energy">
                     <div class="aud-assess-icon"><i class="fa-solid fa-file-invoice-dollar"></i></div>
                     <h4>Utility Consumption</h4>
                 </div>
-                <!-- Card 6 -->
+                <div class="aud-assess-card aud-assess-card--energy">
+                    <div class="aud-assess-icon"><i class="fa-solid fa-clock-rotate-left"></i></div>
+                    <h4>Operating Practices</h4>
+                </div>
+
+                <!-- Water Assessment Cards (8) -->
                 <div class="aud-assess-card aud-assess-card--water">
                     <div class="aud-assess-icon"><i class="fa-solid fa-faucet-drip"></i></div>
                     <h4>Water Supply & Grid</h4>
                 </div>
-                <!-- Card 7 -->
+                <div class="aud-assess-card aud-assess-card--water">
+                    <div class="aud-assess-icon"><i class="fa-solid fa-temperature-arrow-up"></i></div>
+                    <h4>Hot Water Systems</h4>
+                </div>
                 <div class="aud-assess-card aud-assess-card--water">
                     <div class="aud-assess-icon"><i class="fa-solid fa-shower"></i></div>
                     <h4>Plumbing Fixtures</h4>
                 </div>
-                <!-- Card 8 -->
                 <div class="aud-assess-card aud-assess-card--water">
                     <div class="aud-assess-icon"><i class="fa-solid fa-gears"></i></div>
                     <h4>Pumps & Storage</h4>
                 </div>
-                <!-- Card 9 -->
                 <div class="aud-assess-card aud-assess-card--water">
                     <div class="aud-assess-icon"><i class="fa-solid fa-triangle-exclamation"></i></div>
                     <h4>Leakage & Losses</h4>
                 </div>
-                <!-- Card 10 -->
                 <div class="aud-assess-card aud-assess-card--water">
                     <div class="aud-assess-icon"><i class="fa-solid fa-soap"></i></div>
                     <h4>Wastewater Generation</h4>
                 </div>
-                <!-- Card 11 -->
                 <div class="aud-assess-card aud-assess-card--water">
                     <div class="aud-assess-icon"><i class="fa-solid fa-arrows-spin"></i></div>
-                    <h4>Water Reuse Systems</h4>
+                    <h4>Water Recycling Systems</h4>
                 </div>
-                <!-- Card 12 -->
-                <div class="aud-assess-card aud-assess-card--energy">
-                    <div class="aud-assess-icon"><i class="fa-solid fa-clock-rotate-left"></i></div>
-                    <h4>Operating Practices</h4>
+                <div class="aud-assess-card aud-assess-card--water">
+                    <div class="aud-assess-icon"><i class="fa-solid fa-cloud-showers-heavy"></i></div>
+                    <h4>Rainwater Harvesting</h4>
                 </div>
             </div>
         </div>
