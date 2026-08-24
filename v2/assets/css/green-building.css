@@ -40,6 +40,10 @@
     background-color: var(--gb-sage-ultra-light);
 }
 
+.gb-section--grey {
+    background-color: #f3f4f6;
+}
+
 .gb-section--dark {
     background-color: var(--gb-forest-dark);
     color: var(--gb-white);

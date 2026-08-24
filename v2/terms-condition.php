@@ -106,7 +106,7 @@
                         <div class="legal-card-body">
                             <p>Sustainergic Tech provides specialized sustainability engineering and green building consultancy services across India, including but not limited to:</p>
                             <ul>
-                                <li><i class="fa-solid fa-circle-check"></i> <span><strong>Green Building Certification:</strong> LEED, IGBC, GRIHA, ECBC, and WELL certification consulting and documentation.</span></li>
+                                <li><i class="fa-solid fa-circle-check"></i> <span><strong>Green Building Certification:</strong> LEED, IGBC, GRIHA, ECSBC, and WELL certification consulting and documentation.</span></li>
                                 <li><i class="fa-solid fa-circle-check"></i> <span><strong>Building Simulation &amp; Modeling:</strong> Energy modeling, daylight analysis, CFD simulations, and microclimate evaluations.</span></li>
                                 <li><i class="fa-solid fa-circle-check"></i> <span><strong>Audits &amp; Advisory:</strong> Energy audits, water audits, thermal comfort assessments, and carbon accounting.</span></li>
                                 <li><i class="fa-solid fa-circle-check"></i> <span><strong>MEP &amp; Commissioning:</strong> Commissioning authority services, HVAC design optimization, geothermal, and radiant cooling consultation.</span></li>

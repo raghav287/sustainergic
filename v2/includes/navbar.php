@@ -2,7 +2,7 @@
 $active_page = basename($_SERVER['PHP_SELF']);
 $service_pages = [
     'green-building-certification.php', 'simulation-modeling.php', 'audits.php',
-    'carbon-accounting-advisory.php', 'commissioning-authority.php', 'ecbc-compliance.php',
+    'carbon-accounting-advisory.php', 'commissioning-authority.php', 'ecsbc-compliance.php', 'ecbc-compliance.php',
     'energy-simulation.php', 'daylight-simulation.php', 'cfd-simulation.php',
     'building-commissioning.php', 'energy-audit.php', 'water-audit.php'
 ];
@@ -47,7 +47,7 @@ $resource_pages = ['case-studies.php', 'clients.php', 'blog.php'];
 
                         
                         <li><a href="commissioning-authority.php">Commissioning Authority</a></li>
-                        <li><a href="ecbc-compliance.php">ECBC Compliance</a></li>
+                        <li><a href="ecsbc-compliance.php">ECSBC Compliance</a></li>
                         <li><a href="carbon-accounting-advisory.php">Carbon Accounting & Advisory</a></li>
                         <li><a href="#">IoT Water Solution</a></li>
 
@@ -55,7 +55,7 @@ $resource_pages = ['case-studies.php', 'clients.php', 'blog.php'];
                         <li><a href="#">ESG and EHS</a></li>
 
 <!-- 
-                        <li><a href="ecbc-compliance.php">ECBC Compliance</a></li>
+                        <li><a href="ecsbc-compliance.php">ECSBC Compliance</a></li>
 
                         <li><a href="building-commissioning.php">Building Commissioning</a></li>
 

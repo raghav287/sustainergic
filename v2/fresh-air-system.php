@@ -387,15 +387,15 @@
                 <!-- Card 3 -->
                 <div class="gb-related-card">
                     <div class="gb-related-img-box">
-                        <img src="assets/images/benefits-building.png" alt="ECBC Compliance">
+                        <img src="assets/images/benefits-building.png" alt="ECSBC Compliance">
                         <div class="gb-related-icon-box">
                             <i class="fa-solid fa-award"></i>
                         </div>
                     </div>
                     <div class="gb-related-body">
-                        <h3>ECBC Compliance</h3>
+                        <h3>ECSBC Compliance</h3>
                         <p>Statutory design reviews, energy calculations, and BEE code compliance for commercial developments.</p>
-                        <a href="ecbc-compliance.php" class="gb-related-link">Explore Service <i class="fa-solid fa-chevron-right"></i></a>
+                        <a href="ecsbc-compliance.php" class="gb-related-link">Explore Service <i class="fa-solid fa-chevron-right"></i></a>
                     </div>
                 </div>
             </div>
