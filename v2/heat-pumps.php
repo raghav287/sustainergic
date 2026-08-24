@@ -37,7 +37,7 @@
                     </ul>
                     
                     <h1 class="gb-hero-title">
-                        Heat Pump <span>Energy Systems</span>
+                        Heat Pump 
                     </h1>
                     
                     <p class="gb-hero-subtitle">
@@ -114,7 +114,7 @@
                         <div class="gb-cap-item">
                             <div class="gb-cap-icon"><i class="fa-solid fa-wind"></i></div>
                             <div class="gb-cap-text">
-                                <h4>Air-to-Water &amp; Air-to-Air Heat Pumps</h4>
+                                <h4>Air-to-Water &amp; Water to Water Heat Pumps</h4>
                                 <p>Extracting free thermal energy from ambient outdoor air to generate hot water (up to 65°C) or space cooling.</p>
                             </div>
                         </div>
@@ -123,7 +123,8 @@
                         <div class="gb-cap-item">
                             <div class="gb-cap-icon"><i class="fa-solid fa-droplet"></i></div>
                             <div class="gb-cap-text">
-                                <h4>Water-to-Water Hydronic Heat Pumps</h4>
+                                <h4> Heat pump for swimming pool Application 
+</h4>
                                 <p>Leveraging condenser loops, ground loops, or process water to achieve ultra-high efficiency (COP 4.5–5.5).</p>
                             </div>
                         </div>
@@ -155,7 +156,7 @@
                         </div>
                         <div class="gb-trust-item">
                             <i class="fa-solid fa-shield-halved"></i>
-                            <span>70% Carbon Reduction</span>
+                            <span>Upto 70 % Energy Savings</span>
                         </div>
                         <div class="gb-trust-item">
                             <i class="fa-solid fa-bolt"></i>
@@ -219,6 +220,28 @@
                     <h3>4-Pipe Simultaneous Heating &amp; Cooling</h3>
                     <p>
                         Generates 60°C sanitary hot water while simultaneously producing 7°C chilled water for space air conditioning, achieving combined total COPs over 7.5.
+                    </p>
+                </div>
+
+                <!-- 5. Heat Pump for Domestic Hot Water -->
+                <div class="gb-service-card">
+                    <div class="gb-card-icon-wrapper">
+                        <i class="fa-solid fa-shower"></i>
+                    </div>
+                    <h3>Heat Pump for Domestic Hot Water</h3>
+                    <p>
+                        Delivers reliable, high-efficiency sanitary hot water for residential complexes, hotels, hospitals, and hostels with up to 70% energy savings compared to conventional electric or gas heaters.
+                    </p>
+                </div>
+
+                <!-- 6. Heat Pump for Food Processing Industry -->
+                <div class="gb-service-card">
+                    <div class="gb-card-icon-wrapper">
+                        <i class="fa-solid fa-industry"></i>
+                    </div>
+                    <h3>Heat Pump for Food Processing Industry</h3>
+                    <p>
+                        Provides clean, high-temperature thermal energy for pasteurization, washing, drying, and sterilization processes in dairy, food, and beverage manufacturing, replacing fossil-fuel boilers.
                     </p>
                 </div>
             </div>

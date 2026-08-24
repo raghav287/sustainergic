@@ -205,9 +205,9 @@
                     <div class="gb-card-icon-wrapper">
                         <i class="fa-solid fa-rug"></i>
                     </div>
-                    <h3>Foil Mat Heating for Timber &amp; Laminate</h3>
+                    <h3>Heat Tracing Cable For Plumbing Pipes</h3>
                     <p>
-                        Reinforced aluminum foil heating mats designed specifically for floating laminate, engineered wood, and carpet floors. Ensures uniform thermal distribution without scorching delicate wood finishes.
+                        In extremely low ambient temperatures, these cables help prevent water in plumbing pipes from freezing, ensuring continuous and reliable water flow.
                     </p>
                 </div>
 

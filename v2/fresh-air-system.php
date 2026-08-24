@@ -260,7 +260,7 @@
                 <!-- Advantage 4 -->
                 <div class="gb-why-card">
                     <div class="gb-why-icon"><i class="fa-solid fa-award"></i></div>
-                    <h4>LEED &amp; WELL Certification Points</h4>
+                    <h4>Green Building certification Mandatory Points </h4>
                     <p>Fulfills mandatory minimum ventilation prerequisites and earns valuable Indoor Environmental Quality (EQ) credit points for green building ratings.</p>
                 </div>
             </div>
@@ -295,7 +295,7 @@
                     <div class="gb-process-step">
                         <div class="gb-process-num-wrapper">02</div>
                         <div class="gb-process-step-content">
-                            <h4>ERV &amp; Ductwork Engineering</h4>
+                            <h4>System Selection &amp; Ductwork Engineering</h4>
                             <p>Selecting enthalpy heat recovery wheels, sizing low-friction duct routes, and specifying MERV 13/HEPA filter banks.</p>
                         </div>
                     </div>

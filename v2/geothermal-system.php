@@ -66,7 +66,7 @@
                             </div>
                             <div class="gb-hero-fc-text">
                                 <h5>Earth Energy</h5>
-                                <p>COP 4.5 – 5.5 High Efficiency</p>
+                                <p>Heating COP up to 9 and Cooling EER up to 7 </p>
                             </div>
                         </div>
 
@@ -239,14 +239,14 @@
                 <!-- Advantage 1 -->
                 <div class="gb-why-card">
                     <div class="gb-why-icon"><i class="fa-solid fa-chart-line"></i></div>
-                    <h4>Unrivaled COP (4.5 to 5.5)</h4>
+                    <h4>Heating COP up to 9 and Cooling EER up to 7</h4>
                     <p>Geothermal heat pumps deliver 4.5 to 5.5 units of thermal cooling/heating for every 1 unit of electricity, outperforming conventional air-cooled systems by up to 50%.</p>
                 </div>
 
                 <!-- Advantage 2 -->
                 <div class="gb-why-card">
                     <div class="gb-why-icon"><i class="fa-solid fa-volume-xmark"></i></div>
-                    <h4>No Exterior Chillers or Noise</h4>
+                    <h4>Most Suitable For NET ZERO energy Buildings</h4>
                     <p>Eliminates noisy roof-top condensers, cooling tower chemical treatment, and evaporative water consumption, preserving roof real estate for solar PV panels.</p>
                 </div>
 
@@ -274,20 +274,20 @@
         <div class="gb-container">
             <div class="gb-section-header">
                 <span class="gb-label">Our Process</span>
-                <h2 class="gb-title-main">A 4-Step Geothermal Engineering Roadmap</h2>
+                <h2 class="gb-title-main">A 7-Step Geothermal Engineering Roadmap</h2>
             </div>
 
             <div class="gb-process-timeline">
                 <!-- Timeline connector line for desktop -->
                 <div class="gb-process-line"></div>
 
-                <div class="gb-process-grid gb-process-grid--4">
+                <div class="gb-process-grid gb-process-grid--7">
                     <!-- Step 1 -->
                     <div class="gb-process-step">
                         <div class="gb-process-num-wrapper">01</div>
                         <div class="gb-process-step-content">
-                            <h4>Site &amp; Geological Assessment</h4>
-                            <p>Conducting Thermal Response Testing (TRT), soil sampling, and analyzing building hourly thermal load profiles.</p>
+                            <h4>Heat Load Calculation</h4>
+                            <p>Calculating annual building thermal loads, peak heating and cooling demands, and hourly energy profiles.</p>
                         </div>
                     </div>
 
@@ -295,8 +295,8 @@
                     <div class="gb-process-step">
                         <div class="gb-process-num-wrapper">02</div>
                         <div class="gb-process-step-content">
-                            <h4>Loop Field Modeling</h4>
-                            <p>Using GLD (Ground Loop Design) software to simulate long-term thermal ground balance and determine exact borehole depth and count.</p>
+                            <h4>System Design</h4>
+                            <p>Developing initial geothermal system layouts, loop field sizing estimates, and heat pump plant specifications.</p>
                         </div>
                     </div>
 
@@ -304,8 +304,8 @@
                     <div class="gb-process-step">
                         <div class="gb-process-num-wrapper">03</div>
                         <div class="gb-process-step-content">
-                            <h4>Plant &amp; Piping Integration</h4>
-                            <p>Designing central heat pump mechanical room, header manifolds, variable-speed circulation pumps, and BMS control algorithms.</p>
+                            <h4>Site &amp; Geological Assessment</h4>
+                            <p>Conducting test bore drilling, soil sampling, and Thermal Response Testing (TRT) to determine ground conductivity.</p>
                         </div>
                     </div>
 
@@ -313,8 +313,35 @@
                     <div class="gb-process-step">
                         <div class="gb-process-num-wrapper">04</div>
                         <div class="gb-process-step-content">
+                            <h4>System Redesign Based on TRT</h4>
+                            <p>Refining geothermal loop parameters, heat exchanger depth, and fluid flow rates using actual TRT empirical data.</p>
+                        </div>
+                    </div>
+
+                    <!-- Step 5 -->
+                    <div class="gb-process-step">
+                        <div class="gb-process-num-wrapper">05</div>
+                        <div class="gb-process-step-content">
+                            <h4>Loop Field Modeling</h4>
+                            <p>Simulating multi-decade ground thermal balance using GLD software to prevent long-term ground thermal depletion.</p>
+                        </div>
+                    </div>
+
+                    <!-- Step 6 -->
+                    <div class="gb-process-step">
+                        <div class="gb-process-num-wrapper">06</div>
+                        <div class="gb-process-step-content">
+                            <h4>Plant &amp; Piping Integration</h4>
+                            <p>Designing central heat pump mechanical room, header manifolds, variable-speed circulation pumps, and BMS integration.</p>
+                        </div>
+                    </div>
+
+                    <!-- Step 7 -->
+                    <div class="gb-process-step">
+                        <div class="gb-process-num-wrapper">07</div>
+                        <div class="gb-process-step-content">
                             <h4>Commissioning &amp; Optimization</h4>
-                            <p>Performing hydrostatic loop pressure testing, glycol fluid thermal balancing, and verifying seasonal system performance.</p>
+                            <p>Performing hydrostatic loop pressure testing, fluid thermal balancing, and fine-tuning seasonal COP performance.</p>
                         </div>
                     </div>
                 </div>

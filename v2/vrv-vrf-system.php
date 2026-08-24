@@ -205,9 +205,9 @@
                     <div class="gb-card-icon-wrapper">
                         <i class="fa-solid fa-droplet"></i>
                     </div>
-                    <h3>Water-Cooled VRF Systems</h3>
+                    <h3>VRF Systems With HTS Panel</h3>
                     <p>
-                        Uses water loops or geothermal ground loops instead of air to cool condensing units. Compact indoor installation allows high-rise buildings to eliminate outdoor rooftop condenser clutter.
+                        Uses water or geothermal ground loops for heat exchange instead of air, while integrating an HTS Panel with VRF systems to achieve a COP of up to 6. The compact indoor installation also eliminates outdoor condenser clutter, making it ideal for high-rise buildings.
                     </p>
                 </div>
 

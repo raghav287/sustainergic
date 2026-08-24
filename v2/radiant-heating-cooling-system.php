@@ -104,9 +104,9 @@
                 <!-- Right Column (Content) -->
                 <div class="gb-intro-content">
                     <span class="gb-label">HVAC Solutions Overview</span>
-                    <h2 class="gb-title-main">Superior Thermal Comfort via Radiant Energy Transfer</h2>
+                    <h2 class="gb-title-main">Higher Energy Efficiency and  Superior Thermal Comfort </h2>
                     <p class="gb-text-lead">
-                        Radiant Heating &amp; Cooling Systems provide thermal comfort by transferring heat through floors, ceilings, or walls instead of relying solely on air. Sustainergic Tech designs energy-efficient radiant solutions that deliver uniform temperature distribution, lower operating costs, improved indoor comfort, and enhanced energy performance for residential, commercial, and institutional buildings.
+                        Radiant Heating &amp; Cooling Systems can save 30 to 40 % energy compared to conventional air conditioning systems and provide enhanced thermal comfort by transferring heat through floors, ceilings, or walls instead of relying solely on air. Sustainergic Tech designs energy-efficient radiant solutions that deliver uniform temperature distribution, lower operating costs, improved indoor comfort, and enhanced energy performance for residential, commercial, and institutional buildings. 
                     </p>
                     
                     <div class="gb-intro-capabilities">
@@ -132,7 +132,7 @@
                         <div class="gb-cap-item">
                             <div class="gb-cap-icon"><i class="fa-solid fa-volume-xmark"></i></div>
                             <div class="gb-cap-text">
-                                <h4>100% Silent &amp; Dust-Free Operation</h4>
+                                <h4> Most suitable for Technology for NET ZERO Energy Buildings </h4>
                                 <p>Eliminates noisy fans, blowing ducts, and circulating dust allergens for healthier indoor environments.</p>
                             </div>
                         </div>
@@ -141,7 +141,7 @@
                         <div class="gb-cap-item">
                             <div class="gb-cap-icon"><i class="fa-solid fa-arrows-split-up-and-left"></i></div>
                             <div class="gb-cap-text">
-                                <h4>Heat Pump &amp; Chiller Integration</h4>
+                                <h4>Heat Pump, Chiller, Renewable Energy Integration 	</h4>
                                 <p>Seamless pairing with air-to-water heat pumps and geothermal systems to maximize overall COP.</p>
                             </div>
                         </div>
@@ -246,21 +246,22 @@
                 <!-- Advantage 2 -->
                 <div class="gb-why-card">
                     <div class="gb-why-icon"><i class="fa-solid fa-wind"></i></div>
-                    <h4>No Drafts &amp; Superior Air Quality</h4>
+                    <h4>30 to 40 % higher energy savings 
+</h4>
                     <p>By eliminating high-velocity air blowers, radiant systems prevent draft discomfort, cold air dumping, and dust re-circulation.</p>
                 </div>
 
                 <!-- Advantage 3 -->
                 <div class="gb-why-card">
                     <div class="gb-why-icon"><i class="fa-solid fa-maximize"></i></div>
-                    <h4>100% Usable Architectural Space</h4>
+                    <h4>Enhanced thermal comfort </h4>
                     <p>Concealed floor and ceiling piping eliminates bulky air ducts, fan coil units, and floor registers, giving architects complete aesthetic freedom.</p>
                 </div>
 
                 <!-- Advantage 4 -->
                 <div class="gb-why-card">
-                    <div class="gb-why-icon"><i class="fa-solid fa-chart-line-down"></i></div>
-                    <h4>Lower Water Temperatures</h4>
+                    <div class="gb-why-icon"><i class="fa-solid fa-arrow-trend-down"></i></div>
+                    <h4>No draft , More space saving</h4>
                     <p>Radiant cooling operates with higher chilled water supply temperatures (14°C–16°C vs 7°C for FCUs), enabling chillers and heat pumps to run at significantly higher efficiency (COP).</p>
                 </div>
             </div>
@@ -274,14 +275,14 @@
         <div class="gb-container">
             <div class="gb-section-header">
                 <span class="gb-label">Our Process</span>
-                <h2 class="gb-title-main">A 4-Step Engineering &amp; Design Roadmap</h2>
+                <h2 class="gb-title-main">A 5-Step Engineering &amp; Design Roadmap</h2>
             </div>
 
             <div class="gb-process-timeline">
                 <!-- Timeline connector line for desktop -->
                 <div class="gb-process-line"></div>
 
-                <div class="gb-process-grid gb-process-grid--4">
+                <div class="gb-process-grid gb-process-grid--5">
                     <!-- Step 1 -->
                     <div class="gb-process-step">
                         <div class="gb-process-num-wrapper">01</div>
@@ -295,8 +296,8 @@
                     <div class="gb-process-step">
                         <div class="gb-process-num-wrapper">02</div>
                         <div class="gb-process-step-content">
-                            <h4>Hydronic Loop &amp; Manifold Design</h4>
-                            <p>Designing PEX loop spacing, pipe sizing, manifold location, hydraulic pressure drops, and balancing valve configurations.</p>
+                            <h4>Hydronic System Selection</h4>
+                            <p>Selecting optimal radiant surface configurations (underfloor, radiant ceiling panel, or TABS) tailored to architectural and thermal requirements.</p>
                         </div>
                     </div>
 
@@ -304,14 +305,23 @@
                     <div class="gb-process-step">
                         <div class="gb-process-num-wrapper">03</div>
                         <div class="gb-process-step-content">
-                            <h4>Dew Point &amp; BMS Integration</h4>
-                            <p>Integrating dew point sensors, room humidity transmitters, and 2-way modulating valves with the central Building Management System (BMS).</p>
+                            <h4>Hydronic Loop &amp; Manifold Design</h4>
+                            <p>Designing PEX loop spacing, pipe sizing, manifold location, hydraulic pressure drops, and balancing valve configurations.</p>
                         </div>
                     </div>
 
                     <!-- Step 4 -->
                     <div class="gb-process-step">
                         <div class="gb-process-num-wrapper">04</div>
+                        <div class="gb-process-step-content">
+                            <h4>Dew Point &amp; BMS Integration</h4>
+                            <p>Integrating dew point sensors, room humidity transmitters, and 2-way modulating valves with the central Building Management System (BMS).</p>
+                        </div>
+                    </div>
+
+                    <!-- Step 5 -->
+                    <div class="gb-process-step">
+                        <div class="gb-process-num-wrapper">05</div>
                         <div class="gb-process-step-content">
                             <h4>Commissioning &amp; Balancing</h4>
                             <p>Flushing hydronic loops, pressure testing, balancing manifold flow rates, and fine-tuning thermal comfort parameters.</p>
