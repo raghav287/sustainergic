@@ -230,7 +230,7 @@
        ========================================== -->
     <section class="aud-section">
         <div class="aud-container">
-            <div class="aud-grid-2">
+            <div class="aud-grid-2 aud-intro-grid">
                 <!-- Left Visual Column -->
                 <div class="aud-intro-visual-wrapper">
                     <img src="assets/images/carbon-intro.png" alt="Clean energy commercial facility showing supply chain logistics, electricity meters, and emissions logs" class="aud-intro-img">
@@ -805,7 +805,7 @@
        ========================================== -->
     <section class="aud-section">
         <div class="aud-container">
-            <div class="aud-grid-2">
+            <div class="aud-grid-2 aud-benefits-grid">
                 <!-- Left: Benefits copy -->
                 <div class="aud-benefits-content">
                     <span class="aud-label aud-label--carbon">Better Climate Decision-Making</span>

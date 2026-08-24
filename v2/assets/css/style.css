@@ -13111,3 +13111,95 @@ RESPONSIVE
         font-size: 12.5px;
     }
 }
+
+/* ==========================================================================
+   Image & Text Parallel Layout Alignment (2-Column Grid Sections)
+   ========================================================================== */
+
+/* 1. Introduction Section Grid Alignment */
+.aud-intro-grid {
+    align-items: stretch !important;
+}
+
+.aud-intro-visual-wrapper {
+    height: 100% !important;
+    min-height: 0 !important;
+    display: flex !important;
+    position: relative !important;
+}
+
+.aud-intro-img {
+    height: 100% !important;
+    width: 100% !important;
+    min-height: 0 !important;
+    object-fit: cover !important;
+    border-radius: 24px !important;
+}
+
+.aud-intro-badge {
+    bottom: 24px !important;
+    left: 24px !important;
+}
+
+/* 2. Alternating Services Rows Image Alignment (Eliminate dead space under text) */
+.aud-alt-row {
+    align-items: center !important;
+}
+
+.aud-alt-visual {
+    position: relative !important;
+    border-radius: 24px !important;
+    overflow: hidden !important;
+    box-shadow: var(--aud-shadow-lg) !important;
+    border: 6px solid var(--aud-white) !important;
+    width: 100% !important;
+}
+
+.aud-alt-visual img {
+    height: 440px !important;
+    width: 100% !important;
+    object-fit: cover !important;
+    transition: var(--aud-transition) !important;
+}
+
+/* 3. Benefits Section Visual Wrapper Alignment */
+.aud-benefits-grid {
+    align-items: stretch !important;
+}
+
+.aud-benefits-visual-wrapper {
+    height: 100% !important;
+    min-height: 0 !important;
+    display: flex !important;
+    position: relative !important;
+    border-radius: 24px !important;
+    overflow: hidden !important;
+    box-shadow: var(--aud-shadow-lg) !important;
+    border: 4px solid var(--aud-white) !important;
+}
+
+.aud-benefits-visual-wrapper img {
+    height: 100% !important;
+    width: 100% !important;
+    min-height: 0 !important;
+    max-height: 100% !important;
+    object-fit: cover !important;
+}
+
+/* Responsive alignment for tablet & mobile views */
+@media (max-width: 991px) {
+    .aud-intro-grid,
+    .aud-alt-row,
+    .aud-benefits-grid {
+        align-items: center !important;
+    }
+    .aud-alt-visual img {
+        height: 380px !important;
+    }
+    .aud-benefits-visual-wrapper img {
+        height: 400px !important;
+    }
+    .aud-intro-img {
+        height: auto !important;
+    }
+}

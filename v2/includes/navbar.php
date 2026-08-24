@@ -45,13 +45,14 @@ $resource_pages = ['case-studies.php', 'clients.php', 'blog.php'];
 
                         <li><a href="audits.php">Audits </a></li>
 
-                        <li><a href="carbon-accounting-advisory.php">Carbon Accounting & Advisory</a></li>
-
+                        
                         <li><a href="commissioning-authority.php">Commissioning Authority</a></li>
                         <li><a href="ecbc-compliance.php">ECBC Compliance</a></li>
+                        <li><a href="carbon-accounting-advisory.php">Carbon Accounting & Advisory</a></li>
                         <li><a href="#">IoT Water Solution</a></li>
 
                         <li><a href="#">Hybrid Thermal Solar (HTS) Panel</a></li>
+                        <li><a href="#">ESG and EHS</a></li>
 
 <!-- 
                         <li><a href="ecbc-compliance.php">ECBC Compliance</a></li>

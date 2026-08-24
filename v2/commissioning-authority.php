@@ -387,7 +387,7 @@
                     <div class="aud-process-step">
                         <div class="aud-process-num-wrapper">02</div>
                         <h4>Commissioning Planning</h4>
-                        <p>Define responsibilities, systems to test, procedures, and coordination logs.</p>
+                        <p> Data Collection, Define responsibilities, systems to test, procedures, and coordination logs.</p>
                     </div>
 
                     <!-- Step 3 -->
@@ -453,16 +453,7 @@
                     <div class="aud-assess-icon"><i class="fa-solid fa-lightbulb"></i></div>
                     <h4>Lighting & Controls</h4>
                 </div>
-                <!-- Card 5 -->
-                <div class="aud-assess-card aud-assess-card--water">
-                    <div class="aud-assess-icon"><i class="fa-solid fa-droplet"></i></div>
-                    <h4>Plumbing & Water</h4>
-                </div>
-                <!-- Card 6 -->
-                <div class="aud-assess-card aud-assess-card--water">
-                    <div class="aud-assess-icon"><i class="fa-solid fa-gears"></i></div>
-                    <h4>Pumps & Hydronics</h4>
-                </div>
+                
                 <!-- Card 7 -->
                 <div class="aud-assess-card aud-assess-card--energy">
                     <div class="aud-assess-icon"><i class="fa-solid fa-wind"></i></div>
@@ -492,6 +483,16 @@
                 <div class="aud-assess-card aud-assess-card--energy">
                     <div class="aud-assess-icon"><i class="fa-solid fa-circle-nodes"></i></div>
                     <h4>Integrated System Operations</h4>
+                </div>
+                <!-- Card 5 -->
+                <div class="aud-assess-card aud-assess-card--water">
+                    <div class="aud-assess-icon"><i class="fa-solid fa-droplet"></i></div>
+                    <h4>Plumbing & Water</h4>
+                </div>
+                <!-- Card 6 -->
+                <div class="aud-assess-card aud-assess-card--water">
+                    <div class="aud-assess-icon"><i class="fa-solid fa-gears"></i></div>
+                    <h4>Pumps & Hydronics</h4>
                 </div>
             </div>
         </div>
