@@ -128,7 +128,7 @@ $resource_pages = ['case-studies.php', 'clients.php', 'blog.php'];
 
                         <li><a href="#">Case Studies</a></li>
 
-                        <li><a href="#">Clients</a></li>
+                        <li><a href="client.php">Clients</a></li>
 
                         <li><a href="#">Blog</a></li>
 
