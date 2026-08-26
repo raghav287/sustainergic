@@ -804,6 +804,81 @@
         </div>
     </section>
 
+    <!-- ==========================================
+       PROJECTS SECTION (8 PROJECTS SLIDER)
+       ========================================== -->
+    <?php
+    $service_projects_title = "Commissioning Authority Projects";
+    $service_projects_subtitle = "Third-party commissioning, fundamental & enhanced Cx, retro-commissioning, and TAB verification for complex building infrastructure.";
+    $service_projects = [
+        [
+            'title' => 'Patiala Locomotive Works',
+            'location' => 'Patiala',
+            'tag' => 'Enhanced Cx & TAB',
+            'badge_type' => 'badge-igbc',
+            'description' => 'Third-party commissioning authority and testing, adjusting, and balancing (TAB) of heavy industrial ventilation plants, fume extraction systems, and central chiller units.',
+            'image' => 'assets/images/fundamental-commissioning.png'
+        ],
+        [
+            'title' => 'Honda Automotive Manufacturing Facility',
+            'location' => 'Vithalapur, Gujarat',
+            'tag' => 'Fundamental Cx',
+            'badge_type' => 'badge-igbc',
+            'description' => 'Fundamental commissioning authority verification for central plant cooling towers, AHUs, compressed air networks, and electrical substation protection relays.',
+            'image' => 'assets/images/enhanced-commissioning.png'
+        ],
+        [
+            'title' => 'Sentro Technology Facility',
+            'location' => 'Gurugram',
+            'tag' => 'Building Enclosure Cx',
+            'badge_type' => 'badge-ea',
+            'description' => 'Comprehensive commissioning of critical HVAC systems, BMS automation logic, and building envelope thermal tightness testing via infrared thermography and blower door tests.',
+            'image' => 'assets/images/tab-services.png'
+        ],
+        [
+            'title' => 'Hyatt Regency Dehradun Resort',
+            'location' => 'Dehradun',
+            'tag' => 'LEED Enhanced Commissioning',
+            'badge_type' => 'badge-leed',
+            'description' => 'LEED v4 Enhanced Commissioning Authority services covering thermal energy plants, hot water heat pumps, emergency power generator transfer, and fire-life safety systems.',
+            'image' => 'assets/images/retro-commissioning.png'
+        ],
+        [
+            'title' => 'Noida International University Campus',
+            'location' => 'Noida',
+            'tag' => 'Retro-Commissioning (RCx)',
+            'badge_type' => 'badge-ea',
+            'description' => 'Existing building retro-commissioning (RCx) across 8 academic blocks, recalibrating faulty BMS temperature sensors and correcting hydronic valve hunting.',
+            'image' => 'assets/images/monitoring-based-commissioning.png'
+        ],
+        [
+            'title' => 'Havells India Manufacturing Plant',
+            'location' => 'Alwar, Rajasthan',
+            'tag' => 'HVAC & TAB Verification',
+            'badge_type' => 'badge-igbc',
+            'description' => 'Systematic TAB airflow traverses and hydronic pump head verification across manufacturing assembly halls to ensure balanced air distribution.',
+            'image' => 'assets/images/tab-services.png'
+        ],
+        [
+            'title' => 'SBI Local Head Office Tower',
+            'location' => 'Chandigarh',
+            'tag' => 'BMS & Controls Commissioning',
+            'badge_type' => 'badge-igbc',
+            'description' => 'Point-by-point digital input/output functional performance testing of building management system (BMS) controllers and VFD drive sequences.',
+            'image' => 'assets/images/commissioning-hero.png'
+        ],
+        [
+            'title' => 'Appworx Commercial IT Center',
+            'location' => 'Mohali',
+            'tag' => 'Re-Commissioning Verification',
+            'badge_type' => 'badge-ea',
+            'description' => 'Re-commissioning of tenant floor VAV boxes and fresh air dampers to restore initial green building design efficiency after tenant space alterations.',
+            'image' => 'assets/images/audits-hero.png'
+        ]
+    ];
+    include 'includes/service-projects-section.php';
+    ?>
+
     <!-- Global Footer -->
     <?php include 'includes/footer.php'; ?>
 

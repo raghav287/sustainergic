@@ -736,6 +736,81 @@
         </div>
     </section>
 
+    <!-- ==========================================
+       PROJECTS SECTION (8 PROJECTS SLIDER)
+       ========================================== -->
+    <?php
+    $service_projects_title = "Audits & Energy Assessment Projects";
+    $service_projects_subtitle = "Detailed energy, water, thermography, and IoT performance audits conducted by certified energy auditors at Sustainergic Tech.";
+    $service_projects = [
+        [
+            'title' => 'Noida International University',
+            'location' => 'Noida',
+            'tag' => 'Campus Energy Audit',
+            'badge_type' => 'badge-ea',
+            'description' => 'Comprehensive multi-building educational campus energy audit, electrical safety assessment, transformer load logging, and HVAC power consumption optimization yielding 18% energy savings.',
+            'image' => 'assets/images/energy-audit.png'
+        ],
+        [
+            'title' => 'Havells India Manufacturing Plant',
+            'location' => 'Alwar, Rajasthan',
+            'tag' => 'Water & Energy Audit',
+            'badge_type' => 'badge-ea',
+            'description' => 'Industrial manufacturing plant energy conservation audit and water balance assessment. Identified cooling tower blowdown recovery and motor VFD retrofits saving 320 MWh annually.',
+            'image' => 'assets/images/water-audit.png'
+        ],
+        [
+            'title' => 'Advance Plastic Industries (Ecovia)',
+            'location' => 'Ludhiana',
+            'tag' => 'Power Quality Audit',
+            'badge_type' => 'badge-ea',
+            'description' => 'Polymer extrusion plant electrical power quality audit, harmonic analysis, power factor correction, and waste heat recovery feasibility study for process barrel heaters.',
+            'image' => 'assets/images/audits-intro.png'
+        ],
+        [
+            'title' => 'SBI Training Institute',
+            'location' => 'Panchkula',
+            'tag' => 'HVAC & Lighting Audit',
+            'badge_type' => 'badge-ea',
+            'description' => 'Banking officer academy facility energy audit evaluating central chiller COP, chilled water pumping efficiency, and smart LED fixture retrofits across residential hostel blocks.',
+            'image' => 'assets/images/audits-hero.png'
+        ],
+        [
+            'title' => 'JREW Engineering Heavy Works',
+            'location' => 'Rajpura, Punjab',
+            'tag' => 'Compressed Air Audit',
+            'badge_type' => 'badge-ea',
+            'description' => 'Ultrasonic compressed air leak audit and compressor sequencing assessment, detecting pneumatic line pressure drops and cutting compressor power draw by 22%.',
+            'image' => 'assets/images/benefits-building.png'
+        ],
+        [
+            'title' => 'IOCL Commercial Infrastructure',
+            'location' => 'Jalandhar',
+            'tag' => 'Thermal Imaging Audit',
+            'badge_type' => 'badge-ea',
+            'description' => 'Infrared thermography inspection of electrical switchgear panels, busducts, and cold-storage insulation envelopes, identifying high-resistance hot joints before system failure.',
+            'image' => 'assets/images/green-building-hero.png'
+        ],
+        [
+            'title' => 'Eastman Cast & Forge Facility',
+            'location' => 'Ludhiana',
+            'tag' => 'Furnace Thermal Audit',
+            'badge_type' => 'badge-ea',
+            'description' => 'Forging furnace flue-gas thermal efficiency audit, combustion air-fuel ratio tuning, and recuperator waste heat recovery system engineering.',
+            'image' => 'assets/images/sustainable-architecture.png'
+        ],
+        [
+            'title' => 'Venkateswara Wires Industrial Unit',
+            'location' => 'Jaipur',
+            'tag' => 'Water Balance & Conservation',
+            'badge_type' => 'badge-ea',
+            'description' => 'Industrial process water balance audit and rainwater harvesting potential mapping, helping achieve zero groundwater depletion targets.',
+            'image' => 'assets/images/emissions-calculation.png'
+        ]
+    ];
+    include 'includes/service-projects-section.php';
+    ?>
+
     <!-- Global Footer -->
     <?php include 'includes/footer.php'; ?>
 

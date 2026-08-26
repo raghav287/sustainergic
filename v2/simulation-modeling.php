@@ -633,6 +633,81 @@
         </div>
     </section>
 
+    <!-- ==========================================
+       PROJECTS SECTION (8 PROJECTS SLIDER)
+       ========================================== -->
+    <?php
+    $service_projects_title = "Building Simulation & Modeling Projects";
+    $service_projects_subtitle = "High-fidelity thermal, daylighting, energy, and Computational Fluid Dynamics (CFD) simulation projects executed by Sustainergic Tech.";
+    $service_projects = [
+        [
+            'title' => 'Netsmartz IT Tower',
+            'location' => 'Mohali',
+            'tag' => 'CFD & Thermal Model',
+            'badge_type' => 'badge-ea',
+            'description' => 'Whole-building energy simulation and thermal comfort analysis for high-density IT workstation floors. Predicted indoor air velocity and mean radiant temperatures to prevent hot-spots and cut AC sizing.',
+            'image' => 'assets/images/cfd-simulation.png'
+        ],
+        [
+            'title' => 'Appworx Commercial Tower',
+            'location' => 'Mohali',
+            'tag' => 'Daylight & Energy Model',
+            'badge_type' => 'badge-ea',
+            'description' => 'Comprehensive daylight simulation and solar heat gain coefficient (SHGC) glass optimization modeling. Calculated Spatial Daylight Autonomy (sDA) to maximize natural illumination while reducing solar radiation.',
+            'image' => 'assets/images/daylight-simulation.png'
+        ],
+        [
+            'title' => 'VRS Fintech Square',
+            'location' => 'Mohali',
+            'tag' => 'Energy Simulation',
+            'badge_type' => 'badge-ea',
+            'description' => 'Energy simulation modeling for envelope optimization, HVAC chiller sizing, and peak electrical demand reduction. Achieved 24% lower annual energy consumption against baseline ASHRAE 90.1 models.',
+            'image' => 'assets/images/energy-simulation.png'
+        ],
+        [
+            'title' => 'Vaibhav Global Head Office',
+            'location' => 'Jaipur',
+            'tag' => 'Whole Building Simulation',
+            'badge_type' => 'badge-ea',
+            'description' => 'Whole-building energy modeling evaluating multi-glazed facade options, roof thermal insulation, and variable refrigerant flow performance in arid desert climate conditions.',
+            'image' => 'assets/images/simulation-intro.png'
+        ],
+        [
+            'title' => '42 Works Digital Center',
+            'location' => 'Mohali',
+            'tag' => 'Airflow & Microclimate CFD',
+            'badge_type' => 'badge-ea',
+            'description' => 'Advanced 3D CFD airflow simulation for server room heat dissipation and open-office ventilation distribution, mitigating stagnant air zones and optimizing supply diffuser placements.',
+            'image' => 'assets/images/simulation-hero.png'
+        ],
+        [
+            'title' => 'Vedatam Commercial Mall',
+            'location' => 'Gurugram',
+            'tag' => 'Atrium Daylight Simulation',
+            'badge_type' => 'badge-ea',
+            'description' => 'Atrium glass daylighting simulation and glare analysis for retail common walkways, guiding high-performance glass specification and shading louver angles.',
+            'image' => 'assets/images/sustainable-architecture.png'
+        ],
+        [
+            'title' => 'Chitkara University Rockefeller Block',
+            'location' => 'Zirakpur',
+            'tag' => 'Thermal Comfort Model',
+            'badge_type' => 'badge-ea',
+            'description' => 'PMV/PPD thermal comfort simulation modeling for university lecture halls and computer laboratories, ensuring compliance with NBC 2016 adaptive thermal comfort bands.',
+            'image' => 'assets/images/benefits-building.png'
+        ],
+        [
+            'title' => 'The Crest Hills Complex',
+            'location' => 'Faridabad',
+            'tag' => 'Solar Shading Analysis',
+            'badge_type' => 'badge-ea',
+            'description' => 'Sun-path solar radiation and shading analysis for residential high-rise towers, evaluating window overhangs and vertical fins to lower summer cooling loads.',
+            'image' => 'assets/images/green-building-hero.png'
+        ]
+    ];
+    include 'includes/service-projects-section.php';
+    ?>
+
     <!-- Global Footer -->
     <?php include 'includes/footer.php'; ?>
 

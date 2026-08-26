@@ -429,6 +429,81 @@
         </div>
     </section>
 
+    <!-- ==========================================
+       PROJECTS SECTION (8 PROJECTS SLIDER)
+       ========================================== -->
+    <?php
+    $service_projects_title = "Geothermal & Ground Source Projects";
+    $service_projects_subtitle = "Closed-loop geothermal heat exchanger borefields and ground source heat pump (GSHP) installations.";
+    $service_projects = [
+        [
+            'title' => 'Avanta Greens Eco Township',
+            'location' => 'Punjab',
+            'tag' => 'Ground Source Heat Pump',
+            'badge_type' => 'badge-igbc',
+            'description' => 'Closed-loop vertical borehole ground heat exchange network (50 boreholes at 100m depth) providing seasonal heating and cooling to township clubhouse with 45% net energy reduction.',
+            'image' => 'assets/images/hero.png'
+        ],
+        [
+            'title' => 'JREW Heavy Industrial Facility',
+            'location' => 'Rajpura, Punjab',
+            'tag' => 'Industrial Geothermal Heat',
+            'badge_type' => 'badge-igbc',
+            'description' => 'Geothermal heat exchange system coupled with industrial water chiller loop for baseline thermal heat dissipation, utilizing constant ground temperature at 22°C year-round.',
+            'image' => 'assets/images/sustainable-architecture.png'
+        ],
+        [
+            'title' => 'The Crest Hills Township',
+            'location' => 'Panchkula',
+            'tag' => 'Geothermal Radiant System',
+            'badge_type' => 'badge-igbc',
+            'description' => 'Ground source heat pump integrated with hydronic radiant floor heating network for zero-carbon building operations, avoiding fossil-fuel furnace usage.',
+            'image' => 'assets/images/benefits-building.png'
+        ],
+        [
+            'title' => 'Leh Mountain Alpine Research Station',
+            'location' => 'Leh & Ladakh',
+            'tag' => 'Cold-Climate Borefield',
+            'badge_type' => 'badge-ea',
+            'description' => 'Sub-surface geothermal loop installed in alpine bedrock to provide continuous 20°C indoor thermal comfort during winter ambient extremes of -25°C.',
+            'image' => 'assets/images/green-building-hero.png'
+        ],
+        [
+            'title' => 'Sukhavas Private Villa Estate',
+            'location' => 'Panchkula',
+            'tag' => 'Residential Geothermal GSHP',
+            'badge_type' => 'badge-igbc',
+            'description' => 'Horizontal ground loop heat exchanger installed under estate gardens, connected to a quiet indoor GSHP unit for 100% renewable space conditioning.',
+            'image' => 'assets/images/audits-hero.png'
+        ],
+        [
+            'title' => 'Chitkara University Eco Lab',
+            'location' => 'Zirakpur',
+            'tag' => 'Geothermal Direct Cooling',
+            'badge_type' => 'badge-igbc',
+            'description' => 'Direct geothermal free-cooling system circulating water straight from ground loops into radiant cooling ceiling panels without active compressor operation.',
+            'image' => 'assets/images/commissioning-hero.png'
+        ],
+        [
+            'title' => 'Vaibhav Global Heritage Office',
+            'location' => 'Jaipur',
+            'tag' => 'Vertical Borefield Exchange',
+            'badge_type' => 'badge-igbc',
+            'description' => 'Compact vertical closed-loop U-tube borefield installed beneath parking courtyard, supplying steady cooling condenser water to corporate office heat pumps.',
+            'image' => 'assets/images/daylight-simulation.png'
+        ],
+        [
+            'title' => 'Crown - 5 Trishla Community Park',
+            'location' => 'Zirakpur',
+            'tag' => 'Ground Loop Heat Sink',
+            'badge_type' => 'badge-igbc',
+            'description' => 'Shared community geothermal ground loop network providing centralized heating and cooling infrastructure for residential apartments.',
+            'image' => 'assets/images/cfd-simulation.png'
+        ]
+    ];
+    include 'includes/service-projects-section.php';
+    ?>
+
     <!-- Global Footer -->
     <?php include 'includes/footer.php'; ?>
 

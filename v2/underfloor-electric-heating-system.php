@@ -402,6 +402,81 @@
         </div>
     </section>
 
+    <!-- ==========================================
+       PROJECTS SECTION (8 PROJECTS SLIDER)
+       ========================================== -->
+    <?php
+    $service_projects_title = "Underfloor Electric Heating Projects";
+    $service_projects_subtitle = "Electric thermal mat, heating cable, and smart thermostat installations for luxury residences, hotels, and cold-climate resorts.";
+    $service_projects = [
+        [
+            'title' => 'Hotel Taj Panchkula Suites',
+            'location' => 'Panchkula',
+            'tag' => 'Electric Heating Cable',
+            'badge_type' => 'badge-igbc',
+            'description' => 'Thermostat-controlled electric heating cable mats installed beneath Italian marble flooring in luxury presidential suites and master bathroom zones for instantaneous floor warmth.',
+            'image' => 'assets/images/benefits-building.png'
+        ],
+        [
+            'title' => 'The Residence Villa Complex',
+            'location' => 'Gurugram',
+            'tag' => 'Under-Tile Electric Heat',
+            'badge_type' => 'badge-igbc',
+            'description' => 'Ultra-thin 150W/m² electric heating mesh installed under ceramic tile flooring across 12 luxury private villas with smart Wi-Fi thermostat automation and energy scheduling.',
+            'image' => 'assets/images/hero.png'
+        ],
+        [
+            'title' => 'Leh Alpine Mountain Resort',
+            'location' => 'Leh & Ladakh',
+            'tag' => 'Extreme Sub-Zero Heating',
+            'badge_type' => 'badge-ea',
+            'description' => 'High-output 200W/m² electric underfloor heating system engineered for sub-zero mountain winter conditions, preventing pipe freezing and ensuring cozy indoor temperatures.',
+            'image' => 'assets/images/sustainable-architecture.png'
+        ],
+        [
+            'title' => 'Hyatt Regency Dehradun Spa Suites',
+            'location' => 'Dehradun',
+            'tag' => 'Bathroom Radiant Heating',
+            'badge_type' => 'badge-leed',
+            'description' => 'IP67 waterproof electric underfloor heating mesh deployed in wellness spa treatment rooms and luxury suite bath areas to deliver fast, hygienic floor warmth.',
+            'image' => 'assets/images/green-building-hero.png'
+        ],
+        [
+            'title' => 'Sukhavas Residence Master Block',
+            'location' => 'Panchkula',
+            'tag' => 'Smart Carpet Mat Heating',
+            'badge_type' => 'badge-igbc',
+            'description' => 'Under-carpet electric foil heating mats integrated with home automation touchpanels, allowing bedroom-by-bedroom heating control during cold winter nights.',
+            'image' => 'assets/images/audits-hero.png'
+        ],
+        [
+            'title' => 'Crown - 5 Trishla City Penthouse',
+            'location' => 'Zirakpur',
+            'tag' => 'Wooden Floor Electric Heat',
+            'badge_type' => 'badge-igbc',
+            'description' => 'Engineered wooden floor electric heating foil elements with floor temperature limit sensors to prevent wood warping while maintaining optimal foot comfort.',
+            'image' => 'assets/images/daylight-simulation.png'
+        ],
+        [
+            'title' => 'Chitkara University Guest House',
+            'location' => 'Zirakpur',
+            'tag' => 'Electric Heating Mesh',
+            'badge_type' => 'badge-igbc',
+            'description' => 'Low-wattage electric underfloor heating installed in executive VIP guest house rooms, delivering maintenance-free winter heating with zero seasonal servicing.',
+            'image' => 'assets/images/cfd-simulation.png'
+        ],
+        [
+            'title' => 'Avanta Greens Villa Estates',
+            'location' => 'Punjab',
+            'tag' => 'Solar-Coupled Electric Heat',
+            'badge_type' => 'badge-igbc',
+            'description' => 'Rooftop solar PV powered electric underfloor heating mats providing zero-carbon winter space heating for sustainable eco-villa residences.',
+            'image' => 'assets/images/emissions-calculation.png'
+        ]
+    ];
+    include 'includes/service-projects-section.php';
+    ?>
+
     <!-- Global Footer -->
     <?php include 'includes/footer.php'; ?>
 

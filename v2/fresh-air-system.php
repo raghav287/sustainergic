@@ -402,6 +402,81 @@
         </div>
     </section>
 
+    <!-- ==========================================
+       PROJECTS SECTION (8 PROJECTS SLIDER)
+       ========================================== -->
+    <?php
+    $service_projects_title = "Fresh Air & ERV System Projects";
+    $service_projects_subtitle = "Treated fresh air units (TFA), Energy Recovery Ventilators (ERV), and IAQ filtration system projects.";
+    $service_projects = [
+        [
+            'title' => 'SBI Training Institute',
+            'location' => 'Panchkula',
+            'tag' => 'TFA & ERV Fresh Air',
+            'badge_type' => 'badge-igbc',
+            'description' => 'Dedicated outdoor air system (DOAS) with enthalpy heat recovery wheels ensuring 100% fresh, MERV-13 filtered air in auditorium and classrooms.',
+            'image' => 'assets/images/green-building-hero.png'
+        ],
+        [
+            'title' => 'Appworx IT Office Tower',
+            'location' => 'Mohali',
+            'tag' => 'Demand Controlled Ventilation',
+            'badge_type' => 'badge-ea',
+            'description' => 'CO2 sensor-based demand controlled ventilation (DCV) fresh air system optimizing fan energy and occupant alertness across 6 IT office floors.',
+            'image' => 'assets/images/hero.png'
+        ],
+        [
+            'title' => 'Crown - 5, Trishla City',
+            'location' => 'Zirakpur',
+            'tag' => 'Residential ERV Ventilation',
+            'badge_type' => 'badge-igbc',
+            'description' => 'Compact ceiling-concealed Energy Recovery Ventilators (ERV) providing continuous filtered fresh air to luxury apartments while recovering 75% exhaust energy.',
+            'image' => 'assets/images/benefits-building.png'
+        ],
+        [
+            'title' => 'Hyatt Regency Dehradun Banquet Hall',
+            'location' => 'Dehradun',
+            'tag' => 'Treated Fresh Air (TFA)',
+            'badge_type' => 'badge-leed',
+            'description' => 'High-CFM treated fresh air unit integrated with UVGI germicidal lamps and active carbon filters for ultra-pure indoor air quality in hospitality event spaces.',
+            'image' => 'assets/images/audits-hero.png'
+        ],
+        [
+            'title' => 'Netsmartz Tower Data Center',
+            'location' => 'Mohali',
+            'tag' => 'Positive Pressure Fresh Air',
+            'badge_type' => 'badge-igbc',
+            'description' => 'Pressurized fresh air system preventing dust infiltration in server room environments, equipped with HEPA filtration and modulating dampers.',
+            'image' => 'assets/images/cfd-simulation.png'
+        ],
+        [
+            'title' => 'VRS Fintech Square',
+            'location' => 'Mohali',
+            'tag' => 'Heat Recovery Ventilation',
+            'badge_type' => 'badge-igbc',
+            'description' => 'Plate heat exchanger ERV system supplying pre-cooled outdoor air to financial trading floors, significantly reducing central chiller latent load.',
+            'image' => 'assets/images/energy-simulation.png'
+        ],
+        [
+            'title' => 'Chitkara University Rockefeller Block',
+            'location' => 'Zirakpur',
+            'tag' => 'Lab Dedicated Ventilation',
+            'badge_type' => 'badge-igbc',
+            'description' => 'Specialized research laboratory fresh air supply and exhaust system engineered for toxic fume dilution and 100% one-pass outdoor air circulation.',
+            'image' => 'assets/images/commissioning-hero.png'
+        ],
+        [
+            'title' => 'Vaibhav Global Head Office',
+            'location' => 'Jaipur',
+            'tag' => 'IAQ Monitoring Fresh Air',
+            'badge_type' => 'badge-igbc',
+            'description' => 'Smart BMS connected fresh air ventilation with PM2.5 real-time monitoring and multi-stage electro-static precipitator (ESP) filtration.',
+            'image' => 'assets/images/daylight-simulation.png'
+        ]
+    ];
+    include 'includes/service-projects-section.php';
+    ?>
+
     <!-- Global Footer -->
     <?php include 'includes/footer.php'; ?>
 

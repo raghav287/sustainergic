@@ -412,6 +412,81 @@
         </div>
     </section>
 
+    <!-- ==========================================
+       PROJECTS SECTION (8 PROJECTS SLIDER)
+       ========================================== -->
+    <?php
+    $service_projects_title = "Radiant Heating & Cooling Projects";
+    $service_projects_subtitle = "Hydronic in-slab radiant cooling grids and radiant ceiling panel installations engineered by Sustainergic Tech.";
+    $service_projects = [
+        [
+            'title' => 'Hyatt Regency Dehradun Resort',
+            'location' => 'Dehradun',
+            'tag' => 'In-Slab Radiant Cooling',
+            'badge_type' => 'badge-leed',
+            'description' => 'In-slab hydronic radiant cooling system installed across luxury grand lobby and public convention areas for draft-free thermal comfort, silent operation, and 35% lower HVAC energy consumption.',
+            'image' => 'assets/images/hero.png'
+        ],
+        [
+            'title' => 'Dewcrest - Gulnaar Meadows',
+            'location' => 'Zirakpur',
+            'tag' => 'Hydronic Floor Heating',
+            'badge_type' => 'badge-igbc',
+            'description' => 'Sustainable residential township equipped with energy-efficient PEX hydronic floor heating grids connected to central heat pump loops, eliminating cold floor drafts in winter.',
+            'image' => 'assets/images/benefits-building.png'
+        ],
+        [
+            'title' => 'Sukhavas Luxury Residence',
+            'location' => 'Panchkula',
+            'tag' => 'Radiant Ceiling Panels',
+            'badge_type' => 'badge-igbc',
+            'description' => 'Luxury eco-residence featuring integrated radiant cooling ceiling panels combined with ground-source heat pump hydronics and automated dew-point condensation prevention sensors.',
+            'image' => 'assets/images/sustainable-architecture.png'
+        ],
+        [
+            'title' => 'Hotel Taj Panchkula Heritage Wing',
+            'location' => 'Panchkula',
+            'tag' => 'Hydronic Radiant Cooling',
+            'badge_type' => 'badge-igbc',
+            'description' => 'Silent hydronic radiant cooling circuit integrated with thermal storage screed floor beds, providing uniform indoor air temperatures without forced air noise or dust circulation.',
+            'image' => 'assets/images/green-building-hero.png'
+        ],
+        [
+            'title' => 'Netsmartz Corporate Tech Center',
+            'location' => 'Mohali',
+            'tag' => 'Passive Chilled Beams',
+            'badge_type' => 'badge-igbc',
+            'description' => 'Passive chilled beam radiant cooling installation in open-plan corporate IT offices, delivering exceptional occupant thermal satisfaction and low annual maintenance overhead.',
+            'image' => 'assets/images/cfd-simulation.png'
+        ],
+        [
+            'title' => 'Chitkara University Kotler Block',
+            'location' => 'Zirakpur',
+            'tag' => 'Thermally Active Slab (TABS)',
+            'badge_type' => 'badge-igbc',
+            'description' => 'Thermally Active Building System (TABS) embedded in structural concrete floor slabs, utilizing off-peak night chillers to store cooling capacity for daytime academic use.',
+            'image' => 'assets/images/commissioning-hero.png'
+        ],
+        [
+            'title' => 'The Residence Villa Complex',
+            'location' => 'Gurugram',
+            'tag' => 'Zoned Radiant Heating',
+            'badge_type' => 'badge-igbc',
+            'description' => 'Multi-zone hydronic radiant floor heating with intelligent room thermostats and manifold mixing stations for custom temperature regulation in every living area.',
+            'image' => 'assets/images/audits-hero.png'
+        ],
+        [
+            'title' => 'Avanta Greens Eco Clubhouse',
+            'location' => 'Punjab',
+            'tag' => 'Geothermal Radiant System',
+            'badge_type' => 'badge-igbc',
+            'description' => 'Ground-source geothermal loop coupled with radiant floor heating and cooling grids, serving as a zero-carbon thermal comfort showcase for township residents.',
+            'image' => 'assets/images/daylight-simulation.png'
+        ]
+    ];
+    include 'includes/service-projects-section.php';
+    ?>
+
     <!-- Global Footer -->
     <?php include 'includes/footer.php'; ?>
 

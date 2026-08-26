@@ -402,6 +402,81 @@
         </div>
     </section>
 
+    <!-- ==========================================
+       PROJECTS SECTION (8 PROJECTS SLIDER)
+       ========================================== -->
+    <?php
+    $service_projects_title = "Hydronic Radiator System Projects";
+    $service_projects_subtitle = "Designer aluminum, steel panel, and decorative towel radiator hydronic heating installations.";
+    $service_projects = [
+        [
+            'title' => 'Chitkara University Academic Blocks',
+            'location' => 'Zirakpur',
+            'tag' => 'Hydronic Radiators',
+            'badge_type' => 'badge-igbc',
+            'description' => 'Low-temperature hydronic steel panel radiator network integrated with central air-source heat pumps for clean, quiet winter space heating across faculty offices.',
+            'image' => 'assets/images/benefits-building.png'
+        ],
+        [
+            'title' => 'Hotel Taj Panchkula Heritage Wing',
+            'location' => 'Panchkula',
+            'tag' => 'Designer Radiators',
+            'badge_type' => 'badge-igbc',
+            'description' => 'Architectural aluminum sectional radiators paired with thermostatic radiator valves (TRV) in luxury guest rooms, providing instant responsive room temperature adjustment.',
+            'image' => 'assets/images/hero.png'
+        ],
+        [
+            'title' => 'Sukhavas Private Residence',
+            'location' => 'Panchkula',
+            'tag' => 'Hydronic Towel Warmers',
+            'badge_type' => 'badge-igbc',
+            'description' => 'Multi-zone hydronic radiator heating coupled with decorative chrome bathroom towel warmers connected to high-efficiency domestic heat pumps.',
+            'image' => 'assets/images/sustainable-architecture.png'
+        ],
+        [
+            'title' => 'Leh Alpine Mountain Resort',
+            'location' => 'Leh & Ladakh',
+            'tag' => 'Cast Iron Hydronic Radiators',
+            'badge_type' => 'badge-ea',
+            'description' => 'Heavy-duty high-thermal mass cast iron hydronic radiator system designed for mountain freezing conditions, maintaining residual room heat during power outages.',
+            'image' => 'assets/images/green-building-hero.png'
+        ],
+        [
+            'title' => 'The Residence Villa Complex',
+            'location' => 'Gurugram',
+            'tag' => 'Low-H2O Aluminum Radiators',
+            'badge_type' => 'badge-igbc',
+            'description' => 'Low water content (Low-H2O) aluminum heat exchangers providing fast thermal response and up to 16% annual energy savings compared to legacy radiators.',
+            'image' => 'assets/images/audits-hero.png'
+        ],
+        [
+            'title' => 'Crown - 5 Trishla City Penthouse',
+            'location' => 'Zirakpur',
+            'tag' => 'Vertical Designer Radiators',
+            'badge_type' => 'badge-igbc',
+            'description' => 'Sleek vertical wall-mounted designer radiators in living rooms, maximizing wall space while delivering radiant convection winter heating.',
+            'image' => 'assets/images/daylight-simulation.png'
+        ],
+        [
+            'title' => 'Avanta Greens Eco Estate',
+            'location' => 'Punjab',
+            'tag' => 'Solar Thermal Radiators',
+            'badge_type' => 'badge-igbc',
+            'description' => 'Solar thermal collector backed hydronic radiator heating circuit, using solar pre-heated water to warm villa interiors in winter.',
+            'image' => 'assets/images/cfd-simulation.png'
+        ],
+        [
+            'title' => 'Dewcrest Gulnaar Meadows',
+            'location' => 'Zirakpur',
+            'tag' => 'TRV Smart Radiator Valves',
+            'badge_type' => 'badge-igbc',
+            'description' => 'Smart wireless thermostatic radiator valves (TRV) allowing mobile app room-by-room heating scheduling and energy optimization.',
+            'image' => 'assets/images/emissions-calculation.png'
+        ]
+    ];
+    include 'includes/service-projects-section.php';
+    ?>
+
     <!-- Global Footer -->
     <?php include 'includes/footer.php'; ?>
 

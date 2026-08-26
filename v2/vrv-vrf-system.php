@@ -402,6 +402,81 @@
         </div>
     </section>
 
+    <!-- ==========================================
+       PROJECTS SECTION (8 PROJECTS SLIDER)
+       ========================================== -->
+    <?php
+    $service_projects_title = "VRV / VRF HVAC System Projects";
+    $service_projects_subtitle = "Variable Refrigerant Volume (VRV/VRF) heat recovery and multi-split cooling projects engineered by Sustainergic Tech.";
+    $service_projects = [
+        [
+            'title' => '42 Works Digital Innovation Center',
+            'location' => 'Mohali',
+            'tag' => 'VRV Heat Recovery',
+            'badge_type' => 'badge-igbc',
+            'description' => 'Inverter-driven 3-pipe VRV IV heat recovery system allowing simultaneous heating and cooling across IT software development zones, transferring excess server room heat to office perimeter zones.',
+            'image' => 'assets/images/benefits-building.png'
+        ],
+        [
+            'title' => 'Window Tech India Headquarters',
+            'location' => 'Jaipur',
+            'tag' => 'Modular VRF System',
+            'badge_type' => 'badge-igbc',
+            'description' => 'Outdoor VRF heat pump modular units connected to 4-way cassette and slim ceiling duct indoor units across corporate office floors with central touch-screen energy management.',
+            'image' => 'assets/images/hero.png'
+        ],
+        [
+            'title' => 'The Crest Hills Faridabad Complex',
+            'location' => 'Faridabad',
+            'tag' => 'Residential VRF HVAC',
+            'badge_type' => 'badge-igbc',
+            'description' => 'High-efficiency residential VRF multi-split installation across luxury high-rise apartments, with quiet 22 dBA indoor acoustic operation and individual room temperature control.',
+            'image' => 'assets/images/green-building-hero.png'
+        ],
+        [
+            'title' => 'Sentro Technology Corporate HQ',
+            'location' => 'Gurugram',
+            'tag' => 'Water-Cooled VRF System',
+            'badge_type' => 'badge-igbc',
+            'description' => 'Water-cooled VRF heat pump system connected to a closed-loop cooling tower circuit, operating with superior seasonal part-load EER efficiency in dense urban commercial tower.',
+            'image' => 'assets/images/cfd-simulation.png'
+        ],
+        [
+            'title' => 'JREW Engineering Office Block',
+            'location' => 'Rajpura, Punjab',
+            'tag' => 'VRF Inverter Multi-Split',
+            'badge_type' => 'badge-igbc',
+            'description' => 'High-ambient VRF outdoor units engineered to operate seamlessly up to 52°C ambient temperatures, providing reliable cooling for industrial administrative offices.',
+            'image' => 'assets/images/audits-hero.png'
+        ],
+        [
+            'title' => 'Appworx Commercial IT Tower',
+            'location' => 'Mohali',
+            'tag' => 'BMS Integrated VRF',
+            'badge_type' => 'badge-igbc',
+            'description' => 'BACnet gateway connected VRF air conditioning network giving facility managers automated scheduling, tenant billing sub-metering, and remote setpoint adjustment.',
+            'image' => 'assets/images/daylight-simulation.png'
+        ],
+        [
+            'title' => 'Noida International University Admin Block',
+            'location' => 'Noida',
+            'tag' => 'Multi-Zone VRF System',
+            'badge_type' => 'badge-ea',
+            'description' => 'Multi-zone VRF system serving university administrative offices, boardrooms, and faculty suites with low refrigerant piping pressure drops and energy recovery ventilation.',
+            'image' => 'assets/images/energy-audit.png'
+        ],
+        [
+            'title' => 'Vaibhav Global Retail Showrooms',
+            'location' => 'Jaipur',
+            'tag' => 'Commercial VRF Air Conditioning',
+            'badge_type' => 'badge-igbc',
+            'description' => 'High-capacity commercial VRF units with duct-concealed ceiling indoor units providing draft-free customer comfort in high-traffic retail display areas.',
+            'image' => 'assets/images/sustainable-architecture.png'
+        ]
+    ];
+    include 'includes/service-projects-section.php';
+    ?>
+
     <!-- Global Footer -->
     <?php include 'includes/footer.php'; ?>
 

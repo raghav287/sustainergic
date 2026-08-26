@@ -3,11 +3,12 @@ $active_page = basename($_SERVER['PHP_SELF']);
 $service_pages = [
     'green-building-certification.php', 'simulation-modeling.php', 'audits.php',
     'carbon-accounting-advisory.php', 'commissioning-authority.php', 'ecsbc-compliance.php', 'ecbc-compliance.php',
+    'iot-water-solution.php', 'hybrid-thermal-solar-panel.php', 'esg-and-ehs.php',
     'energy-simulation.php', 'daylight-simulation.php', 'cfd-simulation.php',
     'building-commissioning.php', 'energy-audit.php', 'water-audit.php'
 ];
 $hvac_pages = [
-    'radiators.php', 'heat-pumps.php', 'vrv-vrf-system.php', 'chilled-water-system.php', 'underfloor-electric-heating-system.php', 'radiant-heating-cooling-system.php', 'geothermal-system.php', 'fresh-air-system.php', 'hvac-design-installation.php', 'radiant-cooling-system.php', 'heat-pump.php',
+    'radiators.php', 'heat-pumps.php', 'vrv-vrf-system.php', 'chilled-water-system.php', 'underfloor-electric-heating-system.php', 'radiant-heating-cooling-system.php', 'geothermal-system.php', 'fresh-air-system.php', 'industrial-hvac-solutions.php', 'precision-medical-cooling-solution.php', 'hvac-design-installation.php', 'radiant-cooling-system.php', 'heat-pump.php',
     'geothermal-energy-system.php', 'vrf.php', 'hts.php'
 ];
 $resource_pages = ['case-studies.php', 'clients.php', 'blog.php'];
@@ -49,10 +50,10 @@ $resource_pages = ['case-studies.php', 'clients.php', 'blog.php'];
                         <li><a href="commissioning-authority.php">Commissioning Authority</a></li>
                         <li><a href="ecsbc-compliance.php">ECSBC Compliance</a></li>
                         <li><a href="carbon-accounting-advisory.php">Carbon Accounting & Advisory</a></li>
-                        <li><a href="#">IoT Water Solution</a></li>
+                        <li><a href="iot-water-solution.php">IoT Water Solution</a></li>
 
-                        <li><a href="#">Hybrid Thermal Solar (HTS) Panel</a></li>
-                        <li><a href="#">ESG and EHS</a></li>
+                        <li><a href="hybrid-thermal-solar-panel.php">Hybrid Thermal Solar (HTS) Panel</a></li>
+                        <li><a href="esg-and-ehs.php">ESG and EHS</a></li>
 
 <!-- 
                         <li><a href="ecsbc-compliance.php">ECSBC Compliance</a></li>
@@ -105,8 +106,8 @@ $resource_pages = ['case-studies.php', 'clients.php', 'blog.php'];
                         <li><a href="heat-pumps.php">Heat Pumps</a></li>
 
                         <li><a href="radiators.php">Radiators</a></li>
-                        <li><a href="#">Industrial HVAC Solutions</a></li>
-                        <li><a href="#">Precision Medical Cooling Solution</a></li>
+                        <li><a href="industrial-hvac-solutions.php">Industrial HVAC Solutions</a></li>
+                        <li><a href="precision-medical-cooling-solution.php">Precision Medical Cooling Solution</a></li>
 
                         
                     </ul>
@@ -126,7 +127,7 @@ $resource_pages = ['case-studies.php', 'clients.php', 'blog.php'];
 
                     <ul class="dropdown-menu">
 
-                        <li><a href="#">Case Studies</a></li>
+                        <li><a href="case-studies.php">Case Studies</a></li>
 
                         <li><a href="client.php">Clients</a></li>
 

@@ -402,6 +402,81 @@
         </div>
     </section>
 
+    <!-- ==========================================
+       PROJECTS SECTION (8 PROJECTS SLIDER)
+       ========================================== -->
+    <?php
+    $service_projects_title = "Chilled Water System Projects";
+    $service_projects_subtitle = "High-efficiency centrifugal/magnetic chillers, primary-secondary pumping, and hydronic cooling plants.";
+    $service_projects = [
+        [
+            'title' => 'Platinum Mall Commercial Complex',
+            'location' => 'Lucknow',
+            'tag' => 'Central Chiller Plant',
+            'badge_type' => 'badge-igbc',
+            'description' => '1,200 TR central water-cooled chiller plant with variable primary pumping, cooling tower fan VFD optimization, and smart plant room automation resulting in 0.61 kW/TR efficiency.',
+            'image' => 'assets/images/hero.png'
+        ],
+        [
+            'title' => 'Core Metal Krafts (IEC Group)',
+            'location' => 'Dera Bassi, Punjab',
+            'tag' => 'Process Chilled Water',
+            'badge_type' => 'badge-igbc',
+            'description' => 'Industrial process water chiller plant design and hydraulic balancing for heavy metal fabrication machinery, maintaining ±0.5°C precise process supply water temperatures.',
+            'image' => 'assets/images/benefits-building.png'
+        ],
+        [
+            'title' => 'Vedatam Commercial Mall',
+            'location' => 'Gurugram',
+            'tag' => 'Magnetic Levitation Chiller',
+            'badge_type' => 'badge-igbc',
+            'description' => 'High-efficiency oil-free magnetic levitation centrifugal chiller plant serving multi-tenant retail and multiplex cinema spaces with low acoustic noise levels.',
+            'image' => 'assets/images/green-building-hero.png'
+        ],
+        [
+            'title' => 'Hyatt Regency Delhi Central Plant',
+            'location' => 'Delhi',
+            'tag' => 'Chiller Retrofit & Optimisation',
+            'badge_type' => 'badge-igbc',
+            'description' => 'Luxury hotel central chilled water plant retrofit, upgrading legacy chillers with high-COP screw units, 2-way pressure independent control valves (PICV), and plate heat exchangers.',
+            'image' => 'assets/images/audits-hero.png'
+        ],
+        [
+            'title' => 'SBI Local Head Office Headquarters',
+            'location' => 'Chandigarh',
+            'tag' => 'Variable Primary Chilled Water',
+            'badge_type' => 'badge-igbc',
+            'description' => 'Variable Primary Flow (VPF) chilled water distribution network engineered for 10-story corporate headquarters with thermal energy storage integration.',
+            'image' => 'assets/images/cfd-simulation.png'
+        ],
+        [
+            'title' => 'Honda Motorcycle Industrial Plant',
+            'location' => 'Vithalapur, Gujarat',
+            'tag' => 'High Delta-T Chiller Loop',
+            'badge_type' => 'badge-igbc',
+            'description' => 'High Delta-T (7°C ∆T) chilled water plant loop reducing pipe sizing, pump kW consumption, and peak electrical demand across 50,000 sq.m manufacturing bays.',
+            'image' => 'assets/images/commissioning-hero.png'
+        ],
+        [
+            'title' => 'Netsmartz Tower IT Park',
+            'location' => 'Mohali',
+            'tag' => 'Dual Circuit Chiller Plant',
+            'badge_type' => 'badge-igbc',
+            'description' => 'N+1 redundant water-cooled chiller configuration with dual power feed reliability for continuous 24/7 mission-critical IT server rooms.',
+            'image' => 'assets/images/daylight-simulation.png'
+        ],
+        [
+            'title' => 'Noida International University Campus',
+            'location' => 'Noida',
+            'tag' => 'District Chilled Water',
+            'badge_type' => 'badge-ea',
+            'description' => 'District cooling chilled water pipe distribution network connecting academic buildings, library, and administrative blocks from a centralized energy plant.',
+            'image' => 'assets/images/energy-audit.png'
+        ]
+    ];
+    include 'includes/service-projects-section.php';
+    ?>
+
     <!-- Global Footer -->
     <?php include 'includes/footer.php'; ?>
 

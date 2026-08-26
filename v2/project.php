@@ -5,87 +5,102 @@
 
 $sustainability_categories = [
     [
-        'title' => 'Green Building Certification',
-        'url' => '#',
-        'image' => 'https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&w=800&q=80',
+        'title' => 'Green Certification',
+        'url' => 'green-building-certification.php',
+        'image' => 'assets/images/green-building-hero.png',
     ],
     [
         'title' => 'Simulation/Modeling',
-        'url' => '#',
-        'image' => 'https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?auto=format&fit=crop&w=800&q=80',
+        'url' => 'simulation-modeling.php',
+        'image' => 'assets/images/daylight-simulation.png',
     ],
     [
         'title' => 'Audits',
-        'url' => '#',
-        'image' => 'https://images.unsplash.com/photo-1513828742140-ccaa34f3158e?auto=format&fit=crop&w=800&q=80',
+        'url' => 'audits.php',
+        'image' => 'assets/images/audits-hero.png',
     ],
     [
         'title' => 'Commissioning Authority',
-        'url' => '#',
-        'image' => 'https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=800&q=80',
+        'url' => 'commissioning-authority.php',
+        'image' => 'assets/images/commissioning-hero.png',
+    ],
+    [
+        'title' => 'ECSBC Compliance',
+        'url' => 'ecsbc-compliance.php',
+        'image' => 'assets/images/ecbc-compliance.png',
     ],
     [
         'title' => 'Carbon Accounting & Advisory',
-        'url' => '#',
-        'image' => 'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=800&q=80',
+        'url' => 'carbon-accounting-advisory.php',
+        'image' => 'assets/images/carbon-hero.png',
+    ],
+    [
+        'title' => 'IoT Water Solution',
+        'url' => 'iot-water-solution.php',
+        'image' => 'assets/images/water-audit.png',
+    ],
+    [
+        'title' => 'Hybrid Thermal Solar (HTS) Panel',
+        'url' => 'hybrid-thermal-solar-panel.php',
+        'image' => 'assets/images/hero.png',
+    ],
+    [
+        'title' => 'ESG and EHS',
+        'url' => 'esg-and-ehs.php',
+        'image' => 'assets/images/emissions-calculation.png',
     ]
 ];
 
 $hvac_categories = [
     [
         'title' => 'Radiant Heating & Cooling System',
-        'url' => '#',
-        'image' => 'https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&w=800&q=80',
+        'url' => 'radiant-heating-cooling-system.php',
+        'image' => 'assets/images/benefits-building.png',
     ],
     [
         'title' => 'Underfloor Electric Heating System',
-        'url' => '#',
-        'image' => 'https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=800&q=80',
-    ],
-    [
-        'title' => 'Air Source Heat Pump (ASHP)',
-        'url' => '#',
-        'image' => 'https://images.unsplash.com/photo-1585338107529-13afc5f02586?auto=format&fit=crop&w=800&q=80',
+        'url' => 'underfloor-electric-heating-system.php',
+        'image' => 'assets/images/sustainable-architecture.png',
     ],
     [
         'title' => 'Geothermal System',
-        'url' => '#',
-        'image' => 'https://images.unsplash.com/photo-1532601224476-15c79f2f7a51?auto=format&fit=crop&w=800&q=80',
+        'url' => 'geothermal-system.php',
+        'image' => 'assets/images/cfd-simulation.png',
     ],
     [
         'title' => 'Fresh Air System',
-        'url' => '#',
-        'image' => 'https://images.unsplash.com/photo-1621905251189-08b45d6a269e?auto=format&fit=crop&w=800&q=80',
+        'url' => 'fresh-air-system.php',
+        'image' => 'assets/images/energy-simulation.png',
     ],
     [
         'title' => 'Chilled Water System',
-        'url' => '#',
-        'image' => 'https://images.unsplash.com/photo-1527018601619-a508a2be00cd?auto=format&fit=crop&w=800&q=80',
+        'url' => 'chilled-water-system.php',
+        'image' => 'assets/images/fundamental-commissioning.png',
     ],
     [
         'title' => 'VRV/VRF System',
-        'url' => '#',
-        'image' => 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80',
+        'url' => 'vrv-vrf-system.php',
+        'image' => 'assets/images/enhanced-commissioning.png',
     ],
     [
         'title' => 'Heat Pumps',
-        'url' => '#',
-        'image' => 'https://images.unsplash.com/photo-1585338107529-13afc5f02586?auto=format&fit=crop&w=800&q=80',
+        'url' => 'heat-pumps.php',
+        'image' => 'assets/images/tab-services.png',
     ],
     [
         'title' => 'Radiators',
-        'url' => '#',
-        'image' => 'https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&w=800&q=80',
+        'url' => 'radiators.php',
+        'image' => 'assets/images/retro-commissioning.png',
     ],
     [
-        'title' => 'IoT Water Solution',
-        'url' => '#',
-        'image' => 'https://images.unsplash.com/photo-1600845941397-6644d50c2a7c?auto=format&fit=crop&w=800&q=80',
+        'title' => 'Industrial HVAC Solutions',
+        'url' => 'industrial-hvac-solutions.php',
+        'image' => 'assets/images/monitoring-based-commissioning.png',
     ],
     [
-        'title' => 'Hybrid Thermal Solar (HTS) Panel',
-        'url' => '#',
-        'image' => 'https://images.unsplash.com/photo-1508514177221-188b1cf16e9d?auto=format&fit=crop&w=800&q=80',
+        'title' => 'Precision Medical Cooling Solution',
+        'url' => 'precision-medical-cooling-solution.php',
+        'image' => 'assets/images/lca-stages.png',
     ]
 ];
 ?>
@@ -145,7 +160,7 @@ $hvac_categories = [
             <div class="projects-grid" style="margin-bottom: 80px;">
 
                 <?php foreach ($sustainability_categories as $category): ?>
-                    <a href="<?php echo htmlspecialchars($category['url']) . '#projects'; ?>" class="project-category-card">
+                    <a href="<?php echo htmlspecialchars($category['url']); ?>#projects" class="project-category-card">
                         
                         <div class="project-category-image">
                             <img src="<?php echo htmlspecialchars($category['image']); ?>" alt="<?php echo htmlspecialchars($category['title']); ?>" loading="lazy">
@@ -169,7 +184,7 @@ $hvac_categories = [
             <div class="projects-grid">
 
                 <?php foreach ($hvac_categories as $category): ?>
-                    <a href="<?php echo htmlspecialchars($category['url']) . '#projects'; ?>" class="project-category-card">
+                    <a href="<?php echo htmlspecialchars($category['url']); ?>#projects" class="project-category-card">
                         
                         <div class="project-category-image">
                             <img src="<?php echo htmlspecialchars($category['image']); ?>" alt="<?php echo htmlspecialchars($category['title']); ?>" loading="lazy">

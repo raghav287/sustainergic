@@ -1001,6 +1001,81 @@
         </div>
     </section>
 
+    <!-- ==========================================
+       PROJECTS SECTION (8 PROJECTS SLIDER)
+       ========================================== -->
+    <?php
+    $service_projects_title = "Carbon Accounting & Advisory Projects";
+    $service_projects_subtitle = "Scope 1, 2 & 3 emissions calculations, LCA product EPDs, and net-zero roadmap advisory projects.";
+    $service_projects = [
+        [
+            'title' => 'Vaibhav Global Corporate HQ',
+            'location' => 'Jaipur',
+            'tag' => 'Scope 1, 2 & 3 Carbon Footprint',
+            'badge_type' => 'badge-ea',
+            'description' => 'Corporate carbon footprint calculation, supply chain Scope 3 inventorying, GHG Protocol corporate accounting compliance, and decarbonization strategy development target setting.',
+            'image' => 'assets/images/carbon-intro.png'
+        ],
+        [
+            'title' => 'Eastman Cast & Forge Facility',
+            'location' => 'Ludhiana',
+            'tag' => 'Product Life Cycle (LCA)',
+            'badge_type' => 'badge-ea',
+            'description' => 'ISO 14040/44 compliant Environmental Product Declaration (EPD) and embodied carbon life-cycle assessment (LCA) for hand tools and forged automotive components export compliance.',
+            'image' => 'assets/images/lca-stages.png'
+        ],
+        [
+            'title' => 'SBI Local Head Office Campus',
+            'location' => 'Chandigarh',
+            'tag' => 'GHG Emissions Reporting',
+            'badge_type' => 'badge-igbc',
+            'description' => 'Facility GHG inventory accounting and science-based carbon reduction strategy for regional banking headquarters, identifying Scope 2 electricity reduction pathways.',
+            'image' => 'assets/images/ghg-reporting.png'
+        ],
+        [
+            'title' => 'Havells India Industrial Plants',
+            'location' => 'Alwar, Rajasthan',
+            'tag' => 'BRSR & ESG Carbon Reporting',
+            'badge_type' => 'badge-ea',
+            'description' => 'Business Responsibility and Sustainability Reporting (BRSR) carbon accounting for electrical appliance manufacturing facilities under SEBI mandates.',
+            'image' => 'assets/images/emissions-calculation.png'
+        ],
+        [
+            'title' => 'Honda Automotive Manufacturing',
+            'location' => 'Vithalapur, Gujarat',
+            'tag' => 'Net Zero Decarbonization Plan',
+            'badge_type' => 'badge-ea',
+            'description' => '2030 Net-Zero operational carbon roadmap, modeling renewable solar power purchase agreements (PPA) and process heating electrification options.',
+            'image' => 'assets/images/carbon-hero.png'
+        ],
+        [
+            'title' => 'Advance Plastic Industries (Ecovia)',
+            'location' => 'Ludhiana',
+            'tag' => 'Circular Product Carbon LCA',
+            'badge_type' => 'badge-ea',
+            'description' => 'Cradle-to-gate embodied carbon LCA comparison between virgin polymers and recycled eco-plastic resin products for European sustainability certification.',
+            'image' => 'assets/images/sustainable-architecture.png'
+        ],
+        [
+            'title' => 'Netsmartz IT Tower',
+            'location' => 'Mohali',
+            'tag' => 'Corporate Scope 2 Carbon Audit',
+            'badge_type' => 'badge-ea',
+            'description' => 'Annual Scope 2 market-based carbon accounting for commercial IT office space, tracking green energy attributes and carbon offset certificates.',
+            'image' => 'assets/images/benefits-building.png'
+        ],
+        [
+            'title' => 'Chitkara University Campus',
+            'location' => 'Zirakpur',
+            'tag' => 'Campus Carbon Neutrality',
+            'badge_type' => 'badge-igbc',
+            'description' => 'University-wide carbon footprint benchmark assessment establishing baseline emissions and campus forestry sequestration credits.',
+            'image' => 'assets/images/green-building-hero.png'
+        ]
+    ];
+    include 'includes/service-projects-section.php';
+    ?>
+
     <!-- Global Footer -->
     <?php include 'includes/footer.php'; ?>
 

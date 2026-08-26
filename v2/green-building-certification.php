@@ -618,6 +618,81 @@
         </div>
     </section>
 
+    <!-- ==========================================
+       PROJECTS SECTION (8 PROJECTS SLIDER)
+       ========================================== -->
+    <?php
+    $service_projects_title = "Green Building Certified Projects";
+    $service_projects_subtitle = "Explore our certified green building consultancy achievements across USGBC LEED, IGBC, and GRIHA certified developments.";
+    $service_projects = [
+        [
+            'title' => 'Hyatt Regency Dehradun Resort',
+            'location' => 'Dehradun',
+            'tag' => 'USGBC LEED Certified',
+            'badge_type' => 'badge-leed',
+            'description' => '5-Star luxury resort & convention center certified under USGBC LEED standard. Sustainergic Tech facilitated energy modeling, HVAC optimization, sustainable water systems, and complete certification commissioning.',
+            'image' => 'assets/images/hero.png'
+        ],
+        [
+            'title' => 'Hyatt Regency Delhi',
+            'location' => 'Delhi',
+            'tag' => 'IGBC Existing Building',
+            'badge_type' => 'badge-igbc',
+            'description' => 'Flagship luxury commercial hotel achieving IGBC Green Existing Building certification. We conducted indoor air quality testing, energy performance benchmarking, and sustainable facility retrofits.',
+            'image' => 'assets/images/green-building-hero.png'
+        ],
+        [
+            'title' => 'Hotel Taj Panchkula',
+            'location' => 'Panchkula',
+            'tag' => 'IGBC Green Hotel',
+            'badge_type' => 'badge-igbc',
+            'description' => 'Heritage luxury hospitality property optimized for sustainable water recycling, thermal comfort, and high-efficiency HVAC design to earn prestigious IGBC Green Hotel certification.',
+            'image' => 'assets/images/sustainable-architecture.png'
+        ],
+        [
+            'title' => 'Honda Motorcycle & Scooter India',
+            'location' => 'Vithalapur, Gujarat',
+            'tag' => 'IGBC Green Factory',
+            'badge_type' => 'badge-igbc',
+            'description' => 'Large-scale automotive manufacturing plant certified under IGBC Green Factory Building rating. Features passive ventilation, solar thermal integration, and zero liquid discharge water management.',
+            'image' => 'assets/images/benefits-building.png'
+        ],
+        [
+            'title' => 'Havells India Industrial Campus',
+            'location' => 'Alwar, Rajasthan',
+            'tag' => 'IGBC Gold Certified',
+            'badge_type' => 'badge-igbc',
+            'description' => 'Electrical manufacturing industrial campus achieving IGBC Gold status through envelope thermal insulation, energy-efficient lighting power density, and extensive rainwater harvesting.',
+            'image' => 'assets/images/audits-hero.png'
+        ],
+        [
+            'title' => 'Netsmartz IT Tower',
+            'location' => 'Mohali',
+            'tag' => 'IGBC Commercial IT',
+            'badge_type' => 'badge-igbc',
+            'description' => 'State-of-the-art commercial IT park certified under IGBC Green Commercial Buildings rating. Features energy simulation-guided glass envelope design and smart BMS automated controls.',
+            'image' => 'assets/images/cfd-simulation.png'
+        ],
+        [
+            'title' => 'Chitkara University Kotler Block',
+            'location' => 'Zirakpur',
+            'tag' => 'IGBC Green Campus',
+            'badge_type' => 'badge-igbc',
+            'description' => 'Premier academic research campus block earning IGBC Green Campus certification with high daylight autonomy, native landscaping, and sub-metered energy management.',
+            'image' => 'assets/images/commissioning-hero.png'
+        ],
+        [
+            'title' => 'SBI Local Head Office Campus',
+            'location' => 'Chandigarh',
+            'tag' => 'IGBC Certified Office',
+            'badge_type' => 'badge-igbc',
+            'description' => 'Regional banking headquarters achieving IGBC certification with comprehensive energy audit compliance, chilled water plant optimization, and low-VOC interior materials.',
+            'image' => 'assets/images/carbon-hero.png'
+        ]
+    ];
+    include 'includes/service-projects-section.php';
+    ?>
+
     <!-- Global Footer -->
     <?php include 'includes/footer.php'; ?>
 
