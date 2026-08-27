@@ -37,7 +37,7 @@
                     </ul>
                     
                     <h1 class="gb-hero-title">
-                        Geothermal &amp; Ground Source <span>Energy Systems</span>
+                      Geothermal Systems for HVAC Application 
                     </h1>
                     
                     <p class="gb-hero-subtitle">

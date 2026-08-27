@@ -106,7 +106,7 @@
                     <span class="gb-label">Healthcare Engineering Solutions</span>
                     <h2 class="gb-title-main">Life-Critical Thermal Control &amp; Infection Prevention</h2>
                     <p class="gb-text-lead">
-                        Healthcare facilities require 100% uptime, zero thermal drift, and strict biological airborne particle containment. Sustainergic Tech engineers precision medical cooling solutions, custom MRI helium compressor chillers, surgical suite laminar flow systems, and negative-pressure isolation wards meeting NABH, ASHRAE 170, and HTM 03-01 standards.
+                         Healthcare facilities require 100% uptime, zero thermal drift, and strict biological airborne particle containment. Sustainergic Tech engineers precision medical cooling solutions, custom MRI chillers, surgical suite laminar flow systems, and negative-pressure isolation wards meeting NABH, ASHRAE 170, and HTM 03-01 standards.
                     </p>
                     
                     <div class="gb-intro-capabilities">
@@ -115,7 +115,7 @@
                             <div class="gb-cap-icon"><i class="fa-solid fa-magnet"></i></div>
                             <div class="gb-cap-text">
                                 <h4>MRI &amp; CT Scanner Precision Chillers</h4>
-                                <p>N+1 redundant dual-circuit chillers delivering ±0.1°C liquid temperature control for helium compressors and linear accelerators.</p>
+                                <p>N+1 redundant chillers delivering ±0.1°C liquid temperature MRI & CT Scanner Machines.</p>
                             </div>
                         </div>
                         
@@ -180,7 +180,7 @@
                     </div>
                     <h3>MRI &amp; CT Scanner Precision Chillers (±0.1°C)</h3>
                     <p>
-                        Dual-circuit N+1 water chillers engineered for MRI helium compressors and CT scanners, featuring automatic city water bypass valves and non-ferrous glycol piping loops.
+                       Dual-circuit N+1 water chillers engineered for MRI Machines and CT scanners, featuring automatic city water bypass valves and non-ferrous glycol piping loops.
                     </p>
                 </div>
 
@@ -275,13 +275,13 @@
             <div class="gb-process-timeline">
                 <div class="gb-process-line"></div>
 
-                <div class="gb-process-grid gb-process-grid--4">
+                <div class="gb-process-grid gb-process-grid--7">
                     <!-- Step 1 -->
                     <div class="gb-process-step">
                         <div class="gb-process-num-wrapper">01</div>
                         <div class="gb-process-step-content">
-                            <h4>Clinical Thermal &amp; Airflow Assessment</h4>
-                            <p>Auditing diagnostic equipment heat dissipation (kW), required OT air change rates (ACH), and directional pressure targets.</p>
+                            <h4>Heat Load Calculation</h4>
+                            <p>Calculating medical equipment heat dissipation (kW), chiller capacities, and thermal gains.</p>
                         </div>
                     </div>
 
@@ -289,8 +289,8 @@
                     <div class="gb-process-step">
                         <div class="gb-process-num-wrapper">02</div>
                         <div class="gb-process-step-content">
-                            <h4>3D CFD &amp; HEPA Plenum Design</h4>
-                            <p>Modeling laminar airflow velocity vectors to eliminate turbulent air pockets over surgical tables and specifying N+1 chillers.</p>
+                            <h4>Clinical Thermal &amp; Airflow Assessment</h4>
+                            <p>Auditing OT air change rates (ACH), isolation pressure differentials, and thermal targets.</p>
                         </div>
                     </div>
 
@@ -298,8 +298,8 @@
                     <div class="gb-process-step">
                         <div class="gb-process-num-wrapper">03</div>
                         <div class="gb-process-step-content">
-                            <h4>Precision Installation &amp; Piping</h4>
-                            <p>Installing anti-bacterial stainless steel ductwork, terminal HEPA filter housings, and non-ferrous glycol chilled water lines.</p>
+                            <h4>System Design</h4>
+                            <p>Selecting N+1 redundant medical chillers, non-ferrous piping loops, and HEPA units.</p>
                         </div>
                     </div>
 
@@ -307,8 +307,35 @@
                     <div class="gb-process-step">
                         <div class="gb-process-num-wrapper">04</div>
                         <div class="gb-process-step-content">
+                            <h4>3D CFD Modeling</h4>
+                            <p>Simulating laminar airflow velocity vectors to eliminate turbulent air pockets over surgical tables.</p>
+                        </div>
+                    </div>
+
+                    <!-- Step 5 -->
+                    <div class="gb-process-step">
+                        <div class="gb-process-num-wrapper">05</div>
+                        <div class="gb-process-step-content">
+                            <h4>Precision Installation &amp; Piping</h4>
+                            <p>Installing anti-bacterial stainless ductwork, medical piping, and sealed AHU housings.</p>
+                        </div>
+                    </div>
+
+                    <!-- Step 6 -->
+                    <div class="gb-process-step">
+                        <div class="gb-process-num-wrapper">06</div>
+                        <div class="gb-process-step-content">
+                            <h4>Testing, Balancing &amp; Commissioning</h4>
+                            <p>Executing TAB airflow balancing, hydronic pressure testing, and thermal stress validation.</p>
+                        </div>
+                    </div>
+
+                    <!-- Step 7 -->
+                    <div class="gb-process-step">
+                        <div class="gb-process-num-wrapper">07</div>
+                        <div class="gb-process-step-content">
                             <h4>Particle Counting &amp; NABH Validation</h4>
-                            <p>Conducting airborne particle counter tests, pressure differential logging, thermal drift validation, and compliance sign-off.</p>
+                            <p>Conducting ISO airborne particle counts, pressure differential logging, and NABH compliance sign-off.</p>
                         </div>
                     </div>
                 </div>

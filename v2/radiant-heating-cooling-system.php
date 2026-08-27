@@ -114,7 +114,7 @@
                         <div class="gb-cap-item">
                             <div class="gb-cap-icon"><i class="fa-solid fa-layer-group"></i></div>
                             <div class="gb-cap-text">
-                                <h4>In-Slab &amp; Panel Hydronic Design</h4>
+                                <h4>In-slab, surface-embedded, and ceiling panel system</h4>
                                 <p>Precision PEX piping layouts, zone manifold balance, and thermal mass optimization for floors &amp; ceilings.</p>
                             </div>
                         </div>
@@ -132,8 +132,8 @@
                         <div class="gb-cap-item">
                             <div class="gb-cap-icon"><i class="fa-solid fa-volume-xmark"></i></div>
                             <div class="gb-cap-text">
-                                <h4> Most suitable for Technology for NET ZERO Energy Buildings </h4>
-                                <p>Eliminates noisy fans, blowing ducts, and circulating dust allergens for healthier indoor environments.</p>
+                                <h4> Most suitable Technology for NET ZERO Energy Buildings</h4>
+                                <p>Delivers highly energy-efficient heating and cooling with minimal energy consumption, helping buildings achieve Net Zero Energy goals while maintaining a comfortable and sustainable indoor environment.</p>
                             </div>
                         </div>
 

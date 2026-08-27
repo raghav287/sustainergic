@@ -313,7 +313,7 @@
                     <div class="gb-process-step">
                         <div class="gb-process-num-wrapper">04</div>
                         <div class="gb-process-step-content">
-                            <h4>Flushing &amp; Hydronic Balancing</h4>
+                            <h4>Flushing , Hydronic Balancing & Commissioning</h4>
                             <p>Flushing heating circuits, adding anti-corrosion inhibitor fluid, and balancing flow rates across all radiator nodes.</p>
                         </div>
                     </div>

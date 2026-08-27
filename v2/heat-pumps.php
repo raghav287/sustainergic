@@ -104,7 +104,9 @@
                 <!-- Right Column (Content) -->
                 <div class="gb-intro-content">
                     <span class="gb-label">Heat Pump Engineering</span>
-                    <h2 class="gb-title-main">Year-Round Efficient Heating &amp; Cooling by Transferring Heat</h2>
+                    <h2 class="gb-title-main">Year-Round Efficient Heating-Cooling, Domestic hot water by Heat Pump 
+
+</h2>
                     <p class="gb-text-lead">
                         Heat Pumps provide efficient heating and cooling by transferring heat instead of generating it directly. Sustainergic Tech offers advanced heat pump solutions that lower energy costs, reduce carbon emissions, and provide year-round thermal comfort for residential, commercial, and industrial applications.
                     </p>

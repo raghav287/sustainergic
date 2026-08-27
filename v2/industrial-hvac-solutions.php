@@ -115,7 +115,7 @@
                             <div class="gb-cap-icon"><i class="fa-solid fa-snowflake"></i></div>
                             <div class="gb-cap-text">
                                 <h4>Industrial Chilled Water &amp; Process Cooling</h4>
-                                <p>High-capacity process chillers providing constant temperature cooling loops for extrusion, molding, forging, and hydraulic machinery.</p>
+                                <p>Constant-temperature cooling loops for extrusion, molding, and heavy machinery.</p>
                             </div>
                         </div>
                         
@@ -124,7 +124,7 @@
                             <div class="gb-cap-icon"><i class="fa-solid fa-wind"></i></div>
                             <div class="gb-cap-text">
                                 <h4>Heavy Dust &amp; Fume Extraction Systems</h4>
-                                <p>Industrial baghouse filters, wet scrubbers, and positive/negative pressure ventilation networks for hazardous air containment.</p>
+                                <p>Baghouses and wet scrubbers for hazardous air containment and filtration.</p>
                             </div>
                         </div>
 
@@ -133,7 +133,7 @@
                             <div class="gb-cap-icon"><i class="fa-solid fa-shield-virus"></i></div>
                             <div class="gb-cap-text">
                                 <h4>Cleanroom &amp; ISO Enclosure HVAC</h4>
-                                <p>Precision air handling units delivering strict ISO Class 5-8 airborne particulate control and relative humidity regulation for electronics &amp; pharma.</p>
+                                <p>Precision ISO Class 5-8 particulate and humidity control systems.</p>
                             </div>
                         </div>
 
@@ -142,7 +142,25 @@
                             <div class="gb-cap-icon"><i class="fa-solid fa-fire-flame-curved"></i></div>
                             <div class="gb-cap-text">
                                 <h4>Waste Heat Recovery &amp; Thermal Reuse</h4>
-                                <p>Recuperative heat exchangers capturing furnace exhaust and compressor heat to preheat process water, lowering fuel consumption.</p>
+                                <p>Capturing furnace exhaust and compressor heat to preheat process water.</p>
+                            </div>
+                        </div>
+
+                        <!-- Capability 5 -->
+                        <div class="gb-cap-item">
+                            <div class="gb-cap-icon"><i class="fa-solid fa-fan"></i></div>
+                            <div class="gb-cap-text">
+                                <h4>Industrial Ventilation</h4>
+                                <p>Balanced supply and exhaust networks for fresh air turnover and pressure control.</p>
+                            </div>
+                        </div>
+
+                        <!-- Capability 6 -->
+                        <div class="gb-cap-item">
+                            <div class="gb-cap-icon"><i class="fa-solid fa-temperature-arrow-down"></i></div>
+                            <div class="gb-cap-text">
+                                <h4>Industrial Plant Heat Load Optimization</h4>
+                                <p>Thermal auditing and modeling to minimize heat gains and HVAC energy use.</p>
                             </div>
                         </div>
                     </div>
@@ -234,15 +252,15 @@
                 <!-- Advantage 1 -->
                 <div class="gb-why-card">
                     <div class="gb-why-icon"><i class="fa-solid fa-temperature-arrow-up"></i></div>
-                    <h4>55°C Ambient Operating Duty</h4>
-                    <p>Built with heavy copper-fin coils and variable speed condenser fans to guarantee zero thermal tripping during extreme summer peak production hours.</p>
+                    <h4>Design for extreme weather condition</h4>
+                    <p>Designed for reliable and efficient performance even in extreme weather conditions and harsh outdoor temperatures.</p>
                 </div>
 
                 <!-- Advantage 2 -->
                 <div class="gb-why-card">
                     <div class="gb-why-icon"><i class="fa-solid fa-gauge-high"></i></div>
-                    <h4>±0.5°C Process Temperature Precision</h4>
-                    <p>Proportional 3-way modulating valves and inverter compressors ensure exact thermal stability for critical hydraulic oils and laser cutting heads.</p>
+                    <h4>High Precision Air Conditioning</h4>
+                    <p>Wide range of cooling and heating capacities with precision control to maintain optimal temperature and humidity levels.</p>
                 </div>
 
                 <!-- Advantage 3 -->
@@ -275,13 +293,13 @@
             <div class="gb-process-timeline">
                 <div class="gb-process-line"></div>
 
-                <div class="gb-process-grid gb-process-grid--4">
+                <div class="gb-process-grid gb-process-grid--5">
                     <!-- Step 1 -->
                     <div class="gb-process-step">
                         <div class="gb-process-num-wrapper">01</div>
                         <div class="gb-process-step-content">
-                            <h4>Industrial Thermal &amp; Airflow Audit</h4>
-                            <p>Calculating machine heat loads, airborne dust particle sizes, CFM exhaust requirements, and peak ambient temperature variations.</p>
+                            <h4>Data Collection</h4>
+                            <p>Gathering industrial thermal loads, machine heat specs, CFM requirements, and ambient parameters.</p>
                         </div>
                     </div>
 
@@ -289,8 +307,8 @@
                     <div class="gb-process-step">
                         <div class="gb-process-num-wrapper">02</div>
                         <div class="gb-process-step-content">
-                            <h4>3D CFD &amp; Duct Modeling</h4>
-                            <p>Simulating industrial air distribution vectors, duct static pressure losses, and selecting N+1 redundant process cooling equipment.</p>
+                            <h4>Site Assessment</h4>
+                            <p>Evaluating facility structural layout, airflow vectors, duct routing, and utility infrastructure.</p>
                         </div>
                     </div>
 
@@ -298,8 +316,8 @@
                     <div class="gb-process-step">
                         <div class="gb-process-num-wrapper">03</div>
                         <div class="gb-process-step-content">
-                            <h4>Heavy Machinery Installation</h4>
-                            <p>Rigging heavy chillers onto anti-vibration pads, erecting heavy-gauge spiral ductwork, and connecting BMS automation controllers.</p>
+                            <h4>System Design with Modeling &amp; Calculation</h4>
+                            <p>Performing 3D CFD airflow simulations, static pressure loss calculations, and equipment sizing.</p>
                         </div>
                     </div>
 
@@ -307,8 +325,17 @@
                     <div class="gb-process-step">
                         <div class="gb-process-num-wrapper">04</div>
                         <div class="gb-process-step-content">
-                            <h4>TAB Balancing &amp; Load Testing</h4>
-                            <p>Conducting full-load thermal stress tests, hydronic pump balancing, air velocity traverses, and safety shutoff verification.</p>
+                            <h4>Machine Installation</h4>
+                            <p>Precision rigging of chillers, AHUs, anti-vibration mounting, and ductwork erection.</p>
+                        </div>
+                    </div>
+
+                    <!-- Step 5 -->
+                    <div class="gb-process-step">
+                        <div class="gb-process-num-wrapper">05</div>
+                        <div class="gb-process-step-content">
+                            <h4>Testing &amp; Commissioning</h4>
+                            <p>Conducting TAB balancing, hydronic pressure testing, thermal stress tests, and BMS integration.</p>
                         </div>
                     </div>
                 </div>
