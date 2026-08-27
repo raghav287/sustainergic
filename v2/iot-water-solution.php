@@ -113,7 +113,7 @@
                     </ul>
                     
                     <h1 class="gb-hero-title">
-                        Aquasense <span>IoT Water Solutions</span> &amp; Smart Water Management
+                      Iot Water Automation
                     </h1>
                     
                     <p class="gb-hero-subtitle">
