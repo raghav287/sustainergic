@@ -6,14 +6,140 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="assets/images/favicon.png" type="image/png">
     
-    <title>Hybrid Thermal Solar (HTS) Panel &amp; Solar Thermal Energy | Sustainergic Tech</title>
-    <meta name="description" content="Sustainergic Tech designs Hybrid Thermal Solar (HTS) panel systems combining PV electricity generation and solar water heating to double total solar efficiency.">
+    <title>HTS Panel — Hybrid Thermal Solar Panel for VRF &amp; Chillers | Sustainergic Tech</title>
+    <meta name="description" content="HTS Panel technology connects parabolic sun-tracking solar collectors to VRF &amp; Chiller refrigeration cycles, cutting AC electricity bills by up to 40% with COP 6+.">
 
     <!-- Stylesheets -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/green-building.css">
+    <style>
+        .hts-spec-card {
+            background: #ffffff;
+            border: 1px solid var(--gb-border-light);
+            border-radius: 16px;
+            padding: 24px;
+            box-shadow: var(--gb-shadow-sm);
+            height: 100%;
+        }
+        .hts-spec-card h4 {
+            color: var(--gb-text-dark);
+            font-size: 1.1rem;
+            font-weight: 700;
+            margin-bottom: 16px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .hts-spec-card h4 i {
+            color: #0d9488;
+        }
+        .hts-spec-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        .hts-spec-list li {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 8px 0;
+            border-bottom: 1px dashed #e2e8f0;
+            font-size: 0.92rem;
+        }
+        .hts-spec-list li:last-child {
+            border-bottom: none;
+        }
+        .hts-spec-label {
+            color: #64748b;
+            font-weight: 500;
+        }
+        .hts-spec-value {
+            color: #0f172a;
+            font-weight: 700;
+        }
+        .hts-award-banner {
+            background: linear-gradient(135deg, #0f766e 0%, #0d9488 100%);
+            color: #ffffff;
+            border-radius: 20px;
+            padding: 32px;
+            display: flex;
+            align-items: center;
+            gap: 24px;
+            margin-top: 40px;
+            box-shadow: 0 10px 25px rgba(13, 148, 136, 0.25);
+        }
+        .hts-award-icon {
+            width: 72px;
+            height: 72px;
+            background: rgba(255, 255, 255, 0.15);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 32px;
+            color: #fef08a;
+            flex-shrink: 0;
+        }
+        .hts-award-text h3 {
+            font-size: 1.3rem;
+            font-weight: 700;
+            margin-bottom: 6px;
+            color: #ffffff;
+        }
+        .hts-award-text p {
+            margin: 0;
+            font-size: 0.95rem;
+            color: #ccfbf1;
+        }
+        .brand-badge-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+            justify-content: center;
+            margin-top: 24px;
+        }
+        .brand-badge {
+            background: #ffffff;
+            border: 1px solid var(--gb-border-light);
+            border-radius: 12px;
+            padding: 10px 20px;
+            font-size: 0.95rem;
+            font-weight: 700;
+            color: #334155;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.04);
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .brand-badge i {
+            color: #0d9488;
+            font-size: 0.8rem;
+        }
+        .app-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 16px;
+            margin-top: 24px;
+        }
+        .app-item {
+            background: #ffffff;
+            border: 1px solid var(--gb-border-light);
+            border-radius: 14px;
+            padding: 16px 20px;
+            display: flex;
+            align-items: center;
+            gap: 14px;
+            font-weight: 600;
+            color: #1e293b;
+            box-shadow: var(--gb-shadow-sm);
+        }
+        .app-item i {
+            font-size: 1.2rem;
+            color: #0d9488;
+        }
+    </style>
 </head>
 
 <body class="page-green-building">
@@ -33,23 +159,23 @@
                         <li class="sep"><i class="fa-solid fa-chevron-right"></i></li>
                         <li><a href="#">Services</a></li>
                         <li class="sep"><i class="fa-solid fa-chevron-right"></i></li>
-                        <li class="text-black" aria-current="page">Hybrid Thermal Solar (HTS) Panel</li>
+                        <li class="text-black" aria-current="page">HTS Panel Technology</li>
                     </ul>
                     
                     <h1 class="gb-hero-title">
-                        Hybrid Thermal Solar <span>(HTS) Panel Systems</span>
+                        HTS Panel — <span>Hybrid Thermal Solar Panel</span>
                     </h1>
                     
                     <p class="gb-hero-subtitle">
-                        Co-generating clean electricity and high-temperature solar hot water from a single PVT solar collector, achieving up to 80% combined solar efficiency and doubling roof energy output.
+                        Make your VRF &amp; Chiller the most efficient HVAC system with HTS Panel technology. Harness smart sun-tracking solar thermal energy to slash AC electricity bills by up to 40% with a COP of 6+.
                     </p>
                     
                     <div class="gb-hero-actions">
                         <a href="contact-us.php" class="gb-btn gb-btn--primary">
-                            Request Solar HTS Audit <i class="fa-solid fa-solar-panel"></i>
+                            Request HTS Audit <i class="fa-solid fa-sun"></i>
                         </a>
-                        <a href="#system-types" class="gb-btn gb-btn--outline">
-                            Explore HTS Technology <i class="fa-solid fa-arrow-down"></i>
+                        <a href="#how-it-works" class="gb-btn gb-btn--outline">
+                            How It Works <i class="fa-solid fa-arrow-down"></i>
                         </a>
                     </div>
                 </div>
@@ -57,7 +183,7 @@
                 <!-- Right Visual Column -->
                 <div class="gb-hero-visual">
                     <div class="gb-hero-img-wrapper">
-                        <img src="assets/images/hero.png" alt="Hybrid Thermal Solar HTS Panel System">
+                        <img src="assets/images/hero.png" alt="HTS Hybrid Thermal Solar Renewable Energy Based Rooftop Panel">
                         
                         <!-- Floating Badge 1 -->
                         <div class="gb-hero-floating-card gb-hero-floating-card--one">
@@ -65,19 +191,19 @@
                                 <i class="fa-solid fa-bolt"></i>
                             </div>
                             <div class="gb-hero-fc-text">
-                                <h5>80% Total Solar Efficiency</h5>
-                                <p>Electricity + Hot Water</p>
+                                <h5>Up to 40% AC Energy Saved</h5>
+                                <p>COP 6+ Efficiency</p>
                             </div>
                         </div>
 
                         <!-- Floating Badge 2 -->
                         <div class="gb-hero-floating-card gb-hero-floating-card--two">
                             <div class="gb-hero-fc-icon">
-                                <i class="fa-solid fa-temperature-arrow-up"></i>
+                                <i class="fa-solid fa-solar-panel"></i>
                             </div>
                             <div class="gb-hero-fc-text">
-                                <h5>+20% Electrical Boost</h5>
-                                <p>Active Liquid Cell Cooling</p>
+                                <h5>1200% Space Efficient</h5>
+                                <p>Compared to PV Panels</p>
                             </div>
                         </div>
                     </div>
@@ -87,189 +213,276 @@
     </section>
 
     <!-- ==========================================
-       2. OVERVIEW SECTION
+       2. OVERVIEW & HOW IT WORKS SECTION
        ========================================== -->
-    <section class="gb-section">
+    <section class="gb-section" id="how-it-works">
         <div class="gb-container">
             <div class="gb-grid-2">
                 <!-- Left Column (Visual) -->
                 <div class="gb-intro-visual-wrapper">
-                    <img src="assets/images/sustainable-architecture.png" class="gb-intro-img" alt="Hybrid Thermal Solar Panel PVT Co-Generation Diagram">
+                    <img src="assets/images/sustainable-architecture.png" class="gb-intro-img" alt="HTS Solar Parabolic Refrigeration Cycle Diagram">
                     <div class="gb-intro-badge">
-                        <strong>Hybrid Solar Thermal</strong>
-                        <span>PVT Co-Generation</span>
+                        <strong>HTS Technology</strong>
+                        <span>Refrigeration Solar Boost</span>
                     </div>
                 </div>
 
                 <!-- Right Column (Content) -->
                 <div class="gb-intro-content">
-                    <span class="gb-label">Solar Co-Generation Engineering</span>
-                    <h2 class="gb-title-main">Double Solar Yield from a Single Rooftop Footprint</h2>
+                    <span class="gb-label">How HTS Technology Works</span>
+                    <h2 class="gb-title-main">Sun-Tracking Thermal Power for Refrigeration Cycles</h2>
                     <p class="gb-text-lead">
-                        Standard photovoltaic (PV) solar panels waste up to 80% of incident sunlight as thermal heat, causing panel degradation as cell temperatures rise. Sustainergic Tech's Hybrid Thermal Solar (HTS / PVT) panels actively cool the silicon PV cells with a liquid heat absorber backplate, capturing waste thermal energy to produce 65°C hot water while boosting electrical output by up to 20%.
+                        The HTS Panel connects directly to the VRF outdoor unit or Chiller plant refrigeration circuit via copper piping between the compressor and condenser.
+                    </p>
+                    <p style="color: #475569; line-height: 1.65; margin-bottom: 24px;">
+                        Smart sun-tracking parabolic heat concentrators capture direct solar irradiance to add heat and thermal pressure to the refrigerant gas. By raising the temperature and pressure naturally before the condenser, compressor work is dramatically reduced—enabling the compressor to operate on partial load while saving up to 40% AC electricity.
                     </p>
                     
                     <div class="gb-intro-capabilities">
                         <!-- Capability 1 -->
                         <div class="gb-cap-item">
-                            <div class="gb-cap-icon"><i class="fa-solid fa-bolt"></i></div>
+                            <div class="gb-cap-icon"><i class="fa-solid fa-temperature-arrow-up"></i></div>
                             <div class="gb-cap-text">
-                                <h4>Simultaneous Electricity &amp; Thermal Co-Generation</h4>
-                                <p>Producing clean AC grid electricity while simultaneously heating domestic and process water up to 65°C.</p>
+                                <h4>Direct Refrigerant Solar Pre-Heating</h4>
+                                <p>Adds thermal energy to gas between compressor and condenser.</p>
                             </div>
                         </div>
                         
                         <!-- Capability 2 -->
                         <div class="gb-cap-item">
-                            <div class="gb-cap-icon"><i class="fa-solid fa-temperature-arrow-down"></i></div>
+                            <div class="gb-cap-icon"><i class="fa-solid fa-compress"></i></div>
                             <div class="gb-cap-text">
-                                <h4>Active PV Cell Cooling &amp; Efficiency Boost</h4>
-                                <p>Extracting heat from panel backing maintains silicon cells at optimal 25°C operating temperatures, boosting power output by 15-20%.</p>
+                                <h4>Compressor Partial Load Operation</h4>
+                                <p>Reduces compressor speed and electrical work during peak hours.</p>
                             </div>
                         </div>
 
                         <!-- Capability 3 -->
                         <div class="gb-cap-item">
-                            <div class="gb-cap-icon"><i class="fa-solid fa-fire-flame-curved"></i></div>
+                            <div class="gb-cap-icon"><i class="fa-solid fa-sun"></i></div>
                             <div class="gb-cap-text">
-                                <h4>Heat Pump Hybrid Coupling</h4>
-                                <p>Feeding pre-heated 50°C water into commercial heat pumps, cutting compressor electrical work by 50%.</p>
+                                <h4>Dual Phototransistor Sun Tracking</h4>
+                                <p>Automated 12V DC stepper motor tracks solar movement for maximum heat focus.</p>
                             </div>
                         </div>
 
                         <!-- Capability 4 -->
                         <div class="gb-cap-item">
-                            <div class="gb-cap-icon"><i class="fa-solid fa-vector-square"></i></div>
+                            <div class="gb-cap-icon"><i class="fa-solid fa-shield-virus"></i></div>
                             <div class="gb-cap-text">
-                                <h4>50% Roof Space Reduction</h4>
-                                <p>Replacing separate solar thermal collectors and PV panels with a single integrated HTS panel array for tight roof footprints.</p>
+                                <h4>Arrests Summer Capacity Deration</h4>
+                                <p>Prevents AC cooling capacity loss during extreme peak summer ambient temperatures.</p>
                             </div>
                         </div>
                     </div>
 
                     <div class="gb-trust-highlight" style="margin-top: 30px;">
                         <div class="gb-th-item">
-                            <span class="gb-th-num">80%</span>
-                            <span class="gb-th-lbl">Combined Solar Conversion</span>
+                            <span class="gb-th-num">6+</span>
+                            <span class="gb-th-lbl">Best-in-Industry COP</span>
                         </div>
                         <div class="gb-th-item">
-                            <span class="gb-th-num">3-4 Yrs</span>
-                            <span class="gb-th-lbl">Average Financial Payback</span>
+                            <span class="gb-th-num">~3 Yrs</span>
+                            <span class="gb-th-lbl">Rapid Financial ROI</span>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
 
-    <!-- ==========================================
-       3. SYSTEM MODULES
-       ========================================== -->
-    <section class="gb-section gb-section--light" id="system-types">
-        <div class="gb-container">
-            <div class="gb-section-header">
-                <span class="gb-label">HTS Technology Modules</span>
-                <h2 class="gb-title-main">Hybrid Thermal Solar System Architecture</h2>
-            </div>
-
-            <div class="gb-services-grid">
-                <!-- Module 1 -->
-                <div class="gb-service-card">
-                    <div class="gb-card-icon-wrapper">
-                        <i class="fa-solid fa-solar-panel"></i>
-                    </div>
-                    <h3>Hybrid PVT Co-Generation Panel Collectors</h3>
-                    <p>
-                        High-efficiency monocrystalline PV cells laminated onto a copper-aluminium heat absorber plate with glycol fluid circulation channels.
-                    </p>
+            <!-- Award Banner -->
+            <div class="hts-award-banner">
+                <div class="hts-award-icon">
+                    <i class="fa-solid fa-trophy"></i>
                 </div>
-
-                <!-- Module 2 -->
-                <div class="gb-service-card">
-                    <div class="gb-card-icon-wrapper">
-                        <i class="fa-solid fa-box-tissue"></i>
-                    </div>
-                    <h3>Duplex Stainless Solar Thermal Storage Tanks</h3>
-                    <p>
-                        Dual-coil insulated thermal buffer tanks storing high-temperature solar water for hotel guest rooms, laundries, and industrial washing.
-                    </p>
-                </div>
-
-                <!-- Module 3 -->
-                <div class="gb-service-card">
-                    <div class="gb-card-icon-wrapper">
-                        <i class="fa-solid fa-arrows-split-up-and-left"></i>
-                    </div>
-                    <h3>Differential Solar Controller &amp; Pump Stations</h3>
-                    <p>
-                        Automated digital solar controllers regulating fluid flow rates based on collector vs. tank differential temperatures.
-                    </p>
-                </div>
-
-                <!-- Module 4 -->
-                <div class="gb-service-card">
-                    <div class="gb-card-icon-wrapper">
-                        <i class="fa-solid fa-plug"></i>
-                    </div>
-                    <h3>Grid-Tied Microinverters &amp; MPPT Trackers</h3>
-                    <p>
-                        High-efficiency solar microinverters converting DC power to 230V AC grid electricity with rapid shutdown safety compliance.
-                    </p>
+                <div class="hts-award-text">
+                    <h3>Most Innovative Energy Saving Product ’24 — National Award Winner</h3>
+                    <p>Presented at the 23rd National Energy Efficiency Summit for extraordinary thermal energy innovation in VRF and Chiller HVAC optimization.</p>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- ==========================================
-       4. KEY ADVANTAGES
-       ========================================== -->
-    <section class="gb-section">
-        <div class="gb-container">
-            <div class="gb-section-header">
-                <span class="gb-label">Performance &amp; ROI</span>
-                <h2 class="gb-title-main">Why Choose Sustainergic HTS Solar Systems?</h2>
-            </div>
-
-            <div class="gb-why-grid" style="grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));">
-                <!-- Advantage 1 -->
-                <div class="gb-why-card">
-                    <div class="gb-why-icon"><i class="fa-solid fa-chart-line"></i></div>
-                    <h4>80% Total Solar Efficiency</h4>
-                    <p>Capturing both electrical (18-20%) and thermal (60%) solar energy to maximize clean energy production per square meter.</p>
-                </div>
-
-                <!-- Advantage 2 -->
-                <div class="gb-why-card">
-                    <div class="gb-why-icon"><i class="fa-solid fa-temperature-arrow-down"></i></div>
-                    <h4>Prevent Thermal Degredation</h4>
-                    <p>Liquid cooling prevents silicon cell overheating in hot summer climates, extending PV module operating life beyond 25 years.</p>
-                </div>
-
-                <!-- Advantage 3 -->
-                <div class="gb-why-card">
-                    <div class="gb-why-icon"><i class="fa-solid fa-building-circle-check"></i></div>
-                    <h4>Save 50% Roof Footprint</h4>
-                    <p>One panel array does the job of two separate systems, freeing up valuable commercial roof space for HVAC equipment or amenities.</p>
-                </div>
-
-                <!-- Advantage 4 -->
-                <div class="gb-why-card">
-                    <div class="gb-why-icon"><i class="fa-solid fa-hand-holding-dollar"></i></div>
-                    <h4>Rapid 3 to 4 Year Payback</h4>
-                    <p>Offsetting both expensive electricity tariffs and boiler diesel/gas costs delivers exceptional financial internal rate of return (IRR).</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- ==========================================
-       5. IMPLEMENTATION ROADMAP
+       3. KEY BENEFITS
        ========================================== -->
     <section class="gb-section gb-section--light">
         <div class="gb-container">
             <div class="gb-section-header">
+                <span class="gb-label">Key Advantages</span>
+                <h2 class="gb-title-main">Why Upgrade Your HVAC with HTS Panels?</h2>
+            </div>
+
+            <div class="gb-why-grid" style="grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));">
+                <!-- Benefit 1 -->
+                <div class="gb-why-card">
+                    <div class="gb-why-icon"><i class="fa-solid fa-bolt-lightning"></i></div>
+                    <h4>Up to 40% Reduction in AC Bills</h4>
+                    <p>Dramatically lowers monthly kilowatt-hour consumption for VRF units and central chillers.</p>
+                </div>
+
+                <!-- Benefit 2 -->
+                <div class="gb-why-card">
+                    <div class="gb-why-icon"><i class="fa-solid fa-chart-line"></i></div>
+                    <h4>Best-in-Industry COP of 6+</h4>
+                    <p>Elevates overall system Coefficient of Performance well beyond standard AC design limits.</p>
+                </div>
+
+                <!-- Benefit 3 -->
+                <div class="gb-why-card">
+                    <div class="gb-why-icon"><i class="fa-solid fa-heart-pulse"></i></div>
+                    <h4>Improved AC Operating Life</h4>
+                    <p>Compressor runs at reduced partial load speeds, extending mechanical lifespan and lowering wear.</p>
+                </div>
+
+                <!-- Benefit 4 -->
+                <div class="gb-why-card">
+                    <div class="gb-why-icon"><i class="fa-solid fa-maximize"></i></div>
+                    <h4>1200% More Space Efficient</h4>
+                    <p>Requires a fraction of the rooftop footprint compared to standard photovoltaic solar panels.</p>
+                </div>
+
+                <!-- Benefit 5 -->
+                <div class="gb-why-card">
+                    <div class="gb-why-icon"><i class="fa-solid fa-piggy-bank"></i></div>
+                    <h4>Saves Capital Costs &amp; Prevents Deration</h4>
+                    <p>Reduces required HVAC sizing and prevents cooling capacity loss during 45°C+ summer heatwaves.</p>
+                </div>
+
+                <!-- Benefit 6 -->
+                <div class="gb-why-card">
+                    <div class="gb-why-icon"><i class="fa-solid fa-file-invoice-dollar"></i></div>
+                    <h4>Government Incentives &amp; Depreciation</h4>
+                    <p>Eligible for 12% GST rate and accelerated 40% depreciation tax benefits for renewable energy.</p>
+                </div>
+
+                <!-- Benefit 7 -->
+                <div class="gb-why-card">
+                    <div class="gb-why-icon"><i class="fa-solid fa-clock-rotate-left"></i></div>
+                    <h4>~3 Years Payback Period</h4>
+                    <p>Delivers full capital return within ~3 years through guaranteed monthly energy cost savings.</p>
+                </div>
+
+                <!-- Benefit 8 -->
+                <div class="gb-why-card">
+                    <div class="gb-why-icon"><i class="fa-solid fa-shield-halved"></i></div>
+                    <h4>15-Year Life &amp; 5-Year Warranty</h4>
+                    <p>Heavy-duty aluminum enclosure, hardened glass, and EPDM insulation engineered for 15-year operational life.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==========================================
+       4. PANEL SPECIFICATIONS & SUN TRACKING
+       ========================================== -->
+    <section class="gb-section">
+        <div class="gb-container">
+            <div class="gb-section-header">
+                <span class="gb-label">Engineering Data</span>
+                <h2 class="gb-title-main">HTS Panel Specifications &amp; Performance</h2>
+            </div>
+
+            <div class="gb-grid-3">
+                <!-- Card 1: Physical Specifications -->
+                <div class="hts-spec-card">
+                    <h4><i class="fa-solid fa-ruler-combined"></i> Panel Dimensions &amp; Build</h4>
+                    <ul class="hts-spec-list">
+                        <li><span class="hts-spec-label">Capacity</span><span class="hts-spec-value">7.5 Tons / 10 HP / 90,000 BTU</span></li>
+                        <li><span class="hts-spec-label">Panel Size</span><span class="hts-spec-value">8 ft × 4 ft</span></li>
+                        <li><span class="hts-spec-label">Dimensions</span><span class="hts-spec-value">100" × 52" × 7"</span></li>
+                        <li><span class="hts-spec-label">Total Weight</span><span class="hts-spec-value">86 kg</span></li>
+                        <li><span class="hts-spec-label">Reflector Area</span><span class="hts-spec-value">8 ft × 4 ft</span></li>
+                        <li><span class="hts-spec-label">Outer Enclosure</span><span class="hts-spec-value">Aluminium Enclosure</span></li>
+                    </ul>
+                </div>
+
+                <!-- Card 2: Thermal Components -->
+                <div class="hts-spec-card">
+                    <h4><i class="fa-solid fa-temperature-full"></i> Absorber &amp; Insulation</h4>
+                    <ul class="hts-spec-list">
+                        <li><span class="hts-spec-label">Front Cover</span><span class="hts-spec-value">4 mm Hardened Clear Glass</span></li>
+                        <li><span class="hts-spec-label">Heat Absorber</span><span class="hts-spec-value">Copper Tube Absorbers</span></li>
+                        <li><span class="hts-spec-label">Thermal Insulation</span><span class="hts-spec-value">9 mm EPDM Insulation</span></li>
+                        <li><span class="hts-spec-label">Mounting Stand</span><span class="hts-spec-value">Adjustable Mounting Stand</span></li>
+                        <li><span class="hts-spec-label">Panel Warranty</span><span class="hts-spec-value">5 Years Warranty</span></li>
+                        <li><span class="hts-spec-label">Design Life</span><span class="hts-spec-value">15 Years Lifetime</span></li>
+                    </ul>
+                </div>
+
+                <!-- Card 3: Sun Tracking System -->
+                <div class="hts-spec-card">
+                    <h4><i class="fa-solid fa-compass"></i> Automated Sun Tracking</h4>
+                    <ul class="hts-spec-list">
+                        <li><span class="hts-spec-label">Optical Sensors</span><span class="hts-spec-value">2 Shaded Phototransistors</span></li>
+                        <li><span class="hts-spec-label">Drive Motor</span><span class="hts-spec-value">Brushless Stepper Motor</span></li>
+                        <li><span class="hts-spec-label">Operating Voltage</span><span class="hts-spec-value">12 VDC</span></li>
+                        <li><span class="hts-spec-label">Power Consumption</span><span class="hts-spec-value">Ultra-Low 1.5 W</span></li>
+                        <li><span class="hts-spec-label">Site Reports</span><span class="hts-spec-value">30+ Field Testing Reports</span></li>
+                        <li><span class="hts-spec-label">Average Savings</span><span class="hts-spec-value">35% Verified Energy Saved</span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==========================================
+       5. TESTED HVAC BRANDS & APPLICATIONS
+       ========================================== -->
+    <section class="gb-section gb-section--light">
+        <div class="gb-container">
+            <div class="gb-section-header">
+                <span class="gb-label">Verified Performance</span>
+                <h2 class="gb-title-main">Tested Across 11 Leading HVAC Brands</h2>
+                <p style="max-width: 700px; margin: 10px auto 0 auto; color: #64748b; text-align: center;">
+                    HTS Panel technology has been field tested across 30+ site reports and multiple Indian cities on all major commercial AC brands:
+                </p>
+            </div>
+
+            <!-- Brand Badges -->
+            <div class="brand-badge-grid">
+                <div class="brand-badge"><i class="fa-solid fa-circle-check"></i> LG</div>
+                <div class="brand-badge"><i class="fa-solid fa-circle-check"></i> Hitachi</div>
+                <div class="brand-badge"><i class="fa-solid fa-circle-check"></i> Samsung</div>
+                <div class="brand-badge"><i class="fa-solid fa-circle-check"></i> Daikin</div>
+                <div class="brand-badge"><i class="fa-solid fa-circle-check"></i> Toshiba</div>
+                <div class="brand-badge"><i class="fa-solid fa-circle-check"></i> Carrier</div>
+                <div class="brand-badge"><i class="fa-solid fa-circle-check"></i> Mitsubishi</div>
+                <div class="brand-badge"><i class="fa-solid fa-circle-check"></i> Blue Star</div>
+                <div class="brand-badge"><i class="fa-solid fa-circle-check"></i> Voltas</div>
+                <div class="brand-badge"><i class="fa-solid fa-circle-check"></i> Reynold</div>
+            </div>
+
+            <!-- Target Applications -->
+            <div style="margin-top: 50px;">
+                <div class="gb-section-header" style="margin-bottom: 20px;">
+                    <span class="gb-label">Ideal Deployments</span>
+                    <h2 class="gb-title-main" style="font-size: 1.6rem;">Target Commercial &amp; Industrial Applications</h2>
+                </div>
+
+                <div class="app-grid">
+                    <div class="app-item"><i class="fa-solid fa-fan"></i> VRF Systems</div>
+                    <div class="app-item"><i class="fa-solid fa-snowflake"></i> Chiller Systems</div>
+                    <div class="app-item"><i class="fa-solid fa-building"></i> Office Buildings</div>
+                    <div class="app-item"><i class="fa-solid fa-industry"></i> Process Cooling</div>
+                    <div class="app-item"><i class="fa-solid fa-server"></i> Data Centres</div>
+                    <div class="app-item"><i class="fa-solid fa-hospital"></i> Hospitals</div>
+                    <div class="app-item"><i class="fa-solid fa-utensils"></i> Canteens</div>
+                    <div class="app-item"><i class="fa-solid fa-users"></i> Auditoriums</div>
+                    <div class="app-item"><i class="fa-solid fa-gavel"></i> Courtrooms</div>
+                    <div class="app-item"><i class="fa-solid fa-city"></i> Commercial Facilities</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==========================================
+       6. IMPLEMENTATION ROADMAP
+       ========================================== -->
+    <section class="gb-section">
+        <div class="gb-container">
+            <div class="gb-section-header">
                 <span class="gb-label">Our Process</span>
-                <h2 class="gb-title-main">4-Step Solar HTS Implementation Roadmap</h2>
+                <h2 class="gb-title-main">4-Step HTS Retrofit Roadmap</h2>
             </div>
 
             <div class="gb-process-timeline">
@@ -280,8 +493,8 @@
                     <div class="gb-process-step">
                         <div class="gb-process-num-wrapper">01</div>
                         <div class="gb-process-step-content">
-                            <h4>Irradiance &amp; Thermal Load Audit</h4>
-                            <p>Calculating roof tilt, annual solar irradiance (kWh/m²), and daily hot water volume demand (liters/day).</p>
+                            <h4>VRF &amp; Chiller Site Audit</h4>
+                            <p>Auditing AC tonnage, compressor specs, outdoor unit placement, and daily solar shadow angles.</p>
                         </div>
                     </div>
 
@@ -289,8 +502,8 @@
                     <div class="gb-process-step">
                         <div class="gb-process-num-wrapper">02</div>
                         <div class="gb-process-step-content">
-                            <h4>PVT Hydraulic &amp; Electrical Modeling</h4>
-                            <p>Sizing panel array tilt angle, thermal expansion tanks, heat pump coupling loops, and grid-tie inverter capacities.</p>
+                            <h4>HTS Panel Layout &amp; Pipe Sizing</h4>
+                            <p>Designing copper refrigeration line taps between compressor and condenser with sun-tracking alignment.</p>
                         </div>
                     </div>
 
@@ -298,8 +511,8 @@
                     <div class="gb-process-step">
                         <div class="gb-process-num-wrapper">03</div>
                         <div class="gb-process-step-content">
-                            <h4>Roof Mounting &amp; Piping Rigging</h4>
-                            <p>Installing ballasted aluminum mounting structures, copper glycol piping, and DC/AC electrical wiring.</p>
+                            <h4>Retrofit Installation &amp; Piping</h4>
+                            <p>Mounting HTS panels on adjustable stands, tapping refrigeration loops, and wiring 12V tracker sensors.</p>
                         </div>
                     </div>
 
@@ -307,8 +520,8 @@
                     <div class="gb-process-step">
                         <div class="gb-process-num-wrapper">04</div>
                         <div class="gb-process-step-content">
-                            <h4>System Flushing &amp; Solar Tuning</h4>
-                            <p>Flushing hydraulic loops with propylene glycol, balancing flow rates, and programming differential solar controllers.</p>
+                            <h4>Testing &amp; Energy Verification</h4>
+                            <p>Verifying refrigerant pressures, sun-tracking calibration, and measuring kW draw savings.</p>
                         </div>
                     </div>
                 </div>
@@ -317,28 +530,28 @@
     </section>
 
     <!-- ==========================================
-       6. CALL-TO-ACTION SECTION
+       7. CALL-TO-ACTION BANNER
        ========================================== -->
     <section class="gb-cta-banner">
         <div class="gb-cta-overlay"></div>
         <div class="gb-cta-content">
-            <h2>Ready to Double Your Solar Energy Yield with HTS Co-Generation Panels?</h2>
+            <h2>Make Your VRF &amp; Chiller the Most Efficient HVAC System with HTS Panels</h2>
             <p>
-                Partner with Sustainergic Tech to evaluate, design, and install high-efficiency Hybrid Thermal Solar panel systems for your facility.
+                Partner with Sustainergic Tech to evaluate, retrofit, and optimize your commercial cooling infrastructure with award-winning HTS solar thermal technology.
             </p>
             <div class="gb-cta-buttons">
                 <a href="contact-us.php" class="gb-btn gb-btn--gold">
-                    Schedule HTS Solar Consultation <i class="fa-solid fa-calendar-days"></i>
+                    Schedule HTS Audit <i class="fa-solid fa-calendar-days"></i>
                 </a>
                 <a href="contact-us.php" class="gb-btn gb-btn--white-outline">
-                    Contact Solar Engineers <i class="fa-solid fa-envelope"></i>
+                    Contact HVAC Engineers <i class="fa-solid fa-envelope"></i>
                 </a>
             </div>
         </div>
     </section>
 
     <!-- ==========================================
-       7. RELATED SERVICES
+       8. RELATED SERVICES
        ========================================== -->
     <section class="gb-section">
         <div class="gb-container">
@@ -389,70 +602,70 @@
        ========================================== -->
     <?php
     $service_projects_title = "Hybrid Thermal Solar (HTS) Projects";
-    $service_projects_subtitle = "Solar PVT co-generation, rooftop solar thermal water heating, and heat pump hybrid projects by Sustainergic Tech.";
+    $service_projects_subtitle = "Solar VRF &amp; Chiller HTS energy-saving retrofits and thermal optimization projects by Sustainergic Tech.";
     $service_projects = [
         [
             'title' => 'Hyatt Regency Dehradun Resort',
             'location' => 'Dehradun',
-            'tag' => '100 HTS Panel Array',
+            'tag' => 'VRF HTS Solar Retrofit',
             'badge_type' => 'badge-leed',
-            'description' => '100-panel rooftop Hybrid Thermal Solar (HTS) PVT collector array generating 40 kWp clean electricity while pre-heating 8,000 L/day domestic hot water for guest spa suites.',
+            'description' => 'Deployed HTS solar thermal panels connected to central VRF outdoor units, cutting summer peak AC electrical power consumption by 36%.',
             'image' => 'assets/images/hero.png'
         ],
         [
             'title' => 'IOCL Commercial Infrastructure',
             'location' => 'Jalandhar',
-            'tag' => 'Solar Heat Pump Hybrid',
+            'tag' => 'Chiller Plant HTS Boost',
             'badge_type' => 'badge-igbc',
-            'description' => 'Hybrid solar thermal collector array integrated with high-COP heat pumps, displacing diesel boiler usage and achieving 4-year financial payback.',
+            'description' => 'Connected parabolic HTS panels to process chillers, achieving COP 6.2 and reducing annual electricity costs by ₹14.5 Lakhs.',
             'image' => 'assets/images/sustainable-architecture.png'
         ],
         [
-            'title' => 'Chitkara University Hostel Complex',
+            'title' => 'Chitkara University Auditorium Complex',
             'location' => 'Zirakpur',
-            'tag' => 'Campus HTS Solar Grid',
+            'tag' => 'Auditorium AC Optimization',
             'badge_type' => 'badge-igbc',
-            'description' => 'Rooftop PVT co-generation system providing 15,000 liters/day hot water to student resident halls while powering corridor solar LED lighting.',
+            'description' => 'Sun-tracking HTS panels retrofitted onto 30 HP VRF systems, eliminating peak summer cooling capacity deration.',
             'image' => 'assets/images/benefits-building.png'
         ],
         [
-            'title' => 'Hotel Taj Panchkula Laundry Wing',
+            'title' => 'Hotel Taj Panchkula Commercial Wing',
             'location' => 'Panchkula',
-            'tag' => 'High-Temp Solar Thermal',
+            'tag' => 'Chiller Refrigerant Boost',
             'badge_type' => 'badge-igbc',
-            'description' => 'HTS solar thermal loop pre-heating commercial laundry wash water to 65°C, eliminating boiler fossil fuel burn during daylight hours.',
+            'description' => 'Integrated HTS panel solar concentrators into central chiller refrigeration loops, achieving a 2.8 year financial ROI.',
             'image' => 'assets/images/green-building-hero.png'
         ],
         [
             'title' => 'Vaibhav Global Corporate HQ',
             'location' => 'Jaipur',
-            'tag' => 'Net Zero Rooftop Solar PVT',
+            'tag' => 'Office VRF Solar Upgrade',
             'badge_type' => 'badge-igbc',
-            'description' => 'Building integrated HTS solar array providing 35 kW AC rooftop solar power and domestic hot water for cafeteria kitchens.',
+            'description' => 'Rooftop HTS panel array installed across 10 HP Daikin VRF units, cutting building summer AC power demand by 38%.',
             'image' => 'assets/images/daylight-simulation.png'
         ],
         [
             'title' => 'Eastman Cast & Forge Facility',
             'location' => 'Ludhiana',
-            'tag' => 'Industrial Process Solar Water',
+            'tag' => 'Industrial Chiller Solar Loop',
             'badge_type' => 'badge-ea',
-            'description' => 'Industrial process water solar pre-heating system using HTS thermal backplates to feed metal treatment wash tanks.',
+            'description' => 'HTS thermal panel collectors pre-heating process cooling refrigerant gas for heavy forge hydraulic chillers.',
             'image' => 'assets/images/audits-hero.png'
         ],
         [
             'title' => 'Advance Plastic Industries (Ecovia)',
             'location' => 'Ludhiana',
-            'tag' => 'Process Barrel Solar Pre-Heat',
+            'tag' => 'Molding Chiller Energy Saver',
             'badge_type' => 'badge-ea',
-            'description' => 'Solar thermal loop capturing roof irradiance to pre-heat polymer barrel wash water prior to extrusion.',
+            'description' => 'HTS solar panel system retrofitted onto Carrier process chillers, lowering energy draw across 24/7 extrusion lines.',
             'image' => 'assets/images/cfd-simulation.png'
         ],
         [
-            'title' => 'Dewcrest Gulnaar Meadows',
-            'location' => 'Zirakpur',
-            'tag' => 'Township HTS Central Hot Water',
+            'title' => 'Platinum Mall Commercial Complex',
+            'location' => 'Lucknow',
+            'tag' => 'Commercial Mall HTS Array',
             'badge_type' => 'badge-igbc',
-            'description' => 'Central residential township rooftop HTS solar array coupled with central heat pumps delivering zero-carbon winter hot water.',
+            'description' => 'Sun-tracking HTS panels installed on central mall chillers, saving over 35% in peak summer electrical billing.',
             'image' => 'assets/images/emissions-calculation.png'
         ]
     ];
