@@ -8,6 +8,7 @@
     
     <title>Precision Medical Cooling Solution &amp; Healthcare HVAC | Sustainergic Tech</title>
     <meta name="description" content="Sustainergic Tech designs precision medical cooling solutions, MRI/CT scanner chillers, laminar airflow operating theater HVAC, and negative pressure isolation ward systems across India.">
+    <meta name="keywords" content="precision medical cooling, MRI chiller, CT scanner chiller, hospital HVAC, operating theater laminar flow, negative pressure isolation ward, NABH ASHRAE 170">
 
     <!-- Stylesheets -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />

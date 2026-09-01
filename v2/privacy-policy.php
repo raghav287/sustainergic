@@ -7,6 +7,7 @@
     <link rel="icon" href="assets/images/favicon.png" type="image/png">
     <title>Privacy Policy | Sustainergic Tech</title>
     <meta name="description" content="Privacy Policy of Sustainergic Tech Pvt. Ltd. Learn how we collect, protect, and use your personal and business data.">
+    <meta name="keywords" content="privacy policy, Sustainergic privacy terms, user data protection, data privacy policy">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
     <link rel="stylesheet" href="assets/css/style.css">

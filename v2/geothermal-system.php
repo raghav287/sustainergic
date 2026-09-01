@@ -8,6 +8,7 @@
     
     <title>Geothermal System Design & Feasibility | Sustainergic Tech</title>
     <meta name="description" content="Sustainergic Tech delivers complete geothermal HVAC solutions including feasibility studies, ground loop design, and system integration to reduce energy consumption and carbon emissions.">
+    <meta name="keywords" content="geothermal HVAC system, ground source heat pump, GSHP ground loop, geothermal cooling India, geothermal energy feasibility">
 
     <!-- Stylesheets -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />

@@ -8,6 +8,7 @@
     
     <title>Case Studies &amp; Engineering Success Stories | Sustainergic Tech</title>
     <meta name="description" content="Explore real-world sustainability, HVAC engineering, IoT water management, and green building case studies executed by Sustainergic Tech across India.">
+    <meta name="keywords" content="sustainability case studies, HVAC project case studies, green building success stories, energy saving project reports India">
 
     <!-- Stylesheets -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />

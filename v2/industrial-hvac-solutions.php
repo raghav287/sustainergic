@@ -8,6 +8,7 @@
     
     <title>Industrial HVAC Solutions &amp; Process Climate Control | Sustainergic Tech</title>
     <meta name="description" content="Sustainergic Tech designs heavy-duty industrial HVAC solutions, process cooling plants, cleanroom ventilation, and fume extraction systems for manufacturing facilities across India.">
+    <meta name="keywords" content="industrial HVAC solutions, process chillers, dust collection system, wet scrubbers, cleanroom AHU, industrial heat load optimization, plant climate control">
 
     <!-- Stylesheets -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />

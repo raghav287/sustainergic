@@ -13,6 +13,7 @@
     
     <title>Simulation & Modeling Services | Sustainergic Tech</title>
     <meta name="description" content="Advanced building-performance simulations that support informed design decisions, regulatory compliance, improved occupant comfort, and greater energy efficiency.">
+    <meta name="keywords" content="building energy simulation, CFD airflow modeling, eQUEST energy model, EnergyPlus modeling, daylight simulation, thermal comfort analysis">
 
     <!-- Stylesheets -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />

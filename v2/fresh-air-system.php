@@ -8,6 +8,7 @@
     
     <title>Fresh Air System & IAQ Ventilation | Sustainergic Tech</title>
     <meta name="description" content="Sustainergic Tech designs ventilation systems and Fresh Air Systems that improve indoor air quality, control humidity, and comply with ventilation standards.">
+    <meta name="keywords" content="fresh air system, IAQ ventilation, dedicated outdoor air system, DOAS, HRV heat recovery ventilator, ERV energy recovery ventilator, humidity control">
 
     <!-- Stylesheets -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />

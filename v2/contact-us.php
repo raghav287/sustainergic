@@ -7,6 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="assets/images/favicon.png" type="image/png">
     <title>Contact Us | Sustainergic Tech</title>
+    <meta name="description" content="Get in touch with Sustainergic Tech for green building certifications, HVAC engineering, IoT water solutions, and sustainability advisory services.">
+    <meta name="keywords" content="contact Sustainergic Tech, HVAC consultant inquiry, green building consultation, energy audit contact, sustainability advisors India">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
     <link rel="stylesheet" href="assets/css/style.css">

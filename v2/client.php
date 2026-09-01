@@ -13,6 +13,7 @@
     
     <title>Our Clients &amp; Project Portfolio | Sustainergic Tech</title>
     <meta name="description" content="Explore Sustainergic Tech's extensive portfolio of green building certifications, energy assessments, LEED, and IGBC certified projects for corporate, industrial, hospitality, and residential clients.">
+    <meta name="keywords" content="Sustainergic clients, green building project portfolio, LEED certified building projects, corporate HVAC clients India">
 
     <!-- Stylesheets -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />

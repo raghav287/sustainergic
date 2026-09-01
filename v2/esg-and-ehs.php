@@ -8,6 +8,7 @@
     
     <title>ESG &amp; EHS Consulting &amp; Environmental Advisory | Sustainergic Tech</title>
     <meta name="description" content="Sustainergic Tech provides corporate ESG consulting, SEBI BRSR sustainability reporting, ISO 14001 &amp; 45001 EHS compliance audits, and carbon footprint decarbonization advisory.">
+    <meta name="keywords" content="ESG consulting, SEBI BRSR reporting, EHS compliance audit, ISO 14001 certification, ISO 45001 safety audit, corporate sustainability advisory">
 
     <!-- Stylesheets -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />

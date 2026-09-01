@@ -8,6 +8,7 @@
     
     <title>Radiator Space Heating Systems | Sustainergic Tech</title>
     <meta name="description" content="Sustainergic Tech supplies and integrates high-performance radiator systems designed for optimum comfort, energy efficiency, durability, and compatibility with modern heating technologies.">
+    <meta name="keywords" content="radiator heating system, panel radiators, hydronic radiators, space heating India, central heating radiators, room warming radiator">
 
     <!-- Stylesheets -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />

@@ -114,6 +114,7 @@ $hvac_categories = [
     <meta name="description" content="Explore Sustainergic Tech's sustainability and energy efficiency projects organized by service category, including LEED certifications and advanced HVAC installations.">
     <link rel="icon" href="assets/images/favicon.png" type="image/png">
     <title>Projects | Sustainergic Tech</title>
+    <meta name="keywords" content="Sustainergic projects, sustainability engineering portfolio, LEED IGBC certified projects, commercial HVAC installations">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />

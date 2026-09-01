@@ -8,6 +8,7 @@
     
     <title>Radiant Heating & Cooling System Design | Sustainergic Tech</title>
     <meta name="description" content="Sustainergic Tech designs energy-efficient Radiant Heating & Cooling Systems delivering uniform thermal comfort, lower operating costs, and silent operation.">
+    <meta name="keywords" content="radiant cooling system, radiant floor heating, hydronic radiant cooling, PEX piping manifold, TABS thermal active building system, draft free HVAC">
 
     <!-- Stylesheets -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />

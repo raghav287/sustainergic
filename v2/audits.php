@@ -13,6 +13,7 @@
     
     <title>Energy & Water Audits | Sustainergic Tech</title>
     <meta name="description" content="Comprehensive resource audits that identify inefficiencies, reduce operating costs, and support more sustainable building and facility performance.">
+    <meta name="keywords" content="energy audit, water audit, facility energy assessment, ECM energy conservation measures, thermal image audit, power quality audit">
 
     <!-- Stylesheets -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />

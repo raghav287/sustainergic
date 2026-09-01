@@ -13,6 +13,7 @@
     
     <title>Carbon Accounting & Advisory | Sustainergic Tech</title>
     <meta name="description" content="Comprehensive carbon measurement, lifecycle assessment, emissions reporting, and mitigation support to help organizations understand and reduce their climate impact.">
+    <meta name="keywords" content="carbon accounting, Scope 1 2 3 emissions, decarbonization roadmap, carbon footprint calculation, GHG protocol reporting, lifecycle assessment">
 
     <!-- Stylesheets -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />

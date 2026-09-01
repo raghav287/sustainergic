@@ -13,6 +13,7 @@
     
     <title>Commissioning Authority | Sustainergic Tech</title>
     <meta name="description" content="Independent verification, testing, and performance optimization to ensure building systems operate reliably, efficiently, and in accordance with the project's design intent.">
+    <meta name="keywords" content="commissioning authority, CxA consultant, building commissioning, HVAC TAB testing, LEED commissioning, functional performance testing">
 
     <!-- Stylesheets -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />

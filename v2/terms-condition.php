@@ -7,6 +7,7 @@
     <link rel="icon" href="assets/images/favicon.png" type="image/png">
     <title>Terms & Conditions | Sustainergic Tech</title>
     <meta name="description" content="Terms & Conditions of Sustainergic Tech Pvt. Ltd. Read our terms of service, consulting scope, intellectual property, and service agreements.">
+    <meta name="keywords" content="terms and conditions, terms of service, Sustainergic consulting agreement, service terms">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
     <link rel="stylesheet" href="assets/css/style.css">

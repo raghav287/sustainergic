@@ -8,6 +8,7 @@
     
     <title>Heat Pump Systems Design & Engineering | Sustainergic Tech</title>
     <meta name="description" content="Sustainergic Tech offers advanced heat pump solutions that lower energy costs, reduce carbon emissions, and provide year-round thermal comfort for residential, commercial, and industrial applications.">
+    <meta name="keywords" content="heat pump system, air to water heat pump, commercial water heating, thermal heat pump, heat pump design India, energy efficient hot water">
 
     <!-- Stylesheets -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />

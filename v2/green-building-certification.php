@@ -8,6 +8,7 @@
     
     <title>Green Building Certification Services | Sustainergic Tech</title>
     <meta name="description" content="Sustainergic Tech provides end-to-end consulting for IGBC, USGBC LEED, GRIHA, ASSOCHAM GEM, WELL, GreenPro, GreenCo, and EarthCheck certifications in India.">
+    <meta name="keywords" content="green building certification, IGBC consultant, LEED certification India, GRIHA rating, WELL building standard, GEM certification, GreenPro consultant">
 
     <!-- Stylesheets -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
