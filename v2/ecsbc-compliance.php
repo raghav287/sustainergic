@@ -58,7 +58,7 @@
                 <!-- Right Visual Column -->
                 <div class="gb-hero-visual">
                     <div class="gb-hero-img-wrapper">
-                        <img src="assets/images/sustainable-architecture.png" alt="ECSBC compliant energy efficient commercial building design">
+                        <img src="assets/images/ecbc-hero.png" alt="ECSBC compliant energy efficient commercial building design">
                         
                         <!-- Floating Badge 1 -->
                         <div class="gb-hero-floating-card gb-hero-floating-card--one">
@@ -266,7 +266,7 @@
 
                 <!-- Right: Visual Card -->
                 <div class="gb-intro-visual-wrapper">
-                    <img src="assets/images/sustainable-architecture.png" class="gb-intro-img" alt="Eco-Niwas Samhita Residential Energy Code">
+                    <img src="assets/images/eco-niwas.png" class="gb-intro-img" alt="Eco-Niwas Samhita Residential Energy Code">
                     <div class="gb-intro-badge">
                         <strong>BEE ENS</strong>
                         <span>Residential Code</span>

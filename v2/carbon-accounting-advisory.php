@@ -198,7 +198,7 @@
                 <!-- Right Column: Visual -->
                 <div class="aud-hero-visual">
                     <div class="aud-hero-img-wrapper">
-                        <img src="assets/images/carbon-hero.png" alt="Corporate facility showing floating paths for Scope 1 direct, Scope 2 indirect, and Scope 3 supply-chain emissions">
+                        <img src="assets/images/carbon-accounting.png" alt="Corporate facility showing floating paths for Scope 1 direct, Scope 2 indirect, and Scope 3 supply-chain emissions">
                     </div>
                     
                     <!-- Floating Scope Indicator cards -->
@@ -234,7 +234,7 @@
             <div class="aud-grid-2 aud-intro-grid">
                 <!-- Left Visual Column -->
                 <div class="aud-intro-visual-wrapper">
-                    <img src="assets/images/carbon-intro.png" alt="Clean energy commercial facility showing supply chain logistics, electricity meters, and emissions logs" class="aud-intro-img">
+                    <img src="assets/images/carbon-why.png" alt="Clean energy commercial facility showing supply chain logistics, electricity meters, and emissions logs" class="aud-intro-img">
                     <div class="aud-intro-badge" style="background-color: var(--carb-scope1);">
                         <strong style="color: var(--aud-white);">GHG</strong>
                         <span style="color: rgba(255, 255, 255, 0.85);">Protocol Method</span>

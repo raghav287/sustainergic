@@ -58,7 +58,7 @@
                 <!-- Right Visual Column -->
                 <div class="gb-hero-visual">
                     <div class="gb-hero-img-wrapper">
-                        <img src="assets/images/green-building-hero.png" alt="Modern sustainable building with vertical gardens and solar integration">
+                        <img src="assets/images/green-building.png" alt="Modern sustainable building with vertical gardens and solar integration">
                         
                         <!-- Floating Badge 1 -->
                         <div class="gb-hero-floating-card gb-hero-floating-card--one">
@@ -97,7 +97,7 @@
             <div class="gb-grid-2">
                 <!-- Left Column (Visual) -->
                 <div class="gb-intro-visual-wrapper">
-                    <img src="assets/images/sustainable-architecture.png" class="gb-intro-img" alt="Sustainable Architecture Systems Schematic Graphic">
+                    <img src="assets/images/green-why.png" class="gb-intro-img" alt="Sustainable Architecture Systems Schematic Graphic">
                     <div class="gb-intro-badge">
                         <strong>Eco-Design</strong>
                         <span>Technical Advisory</span>
@@ -431,7 +431,7 @@
             <div class="gb-grid-2">
                 <!-- Left Visual Column -->
                 <div class="gb-benefits-visual-wrapper">
-                    <img src="assets/images/benefits-building.png" alt="Eco-friendly green office building design facade representing benefits of sustainability">
+                    <img src="assets/images/green-why-2.png" alt="Eco-friendly green office building design facade representing benefits of sustainability">
                 </div>
 
                 <!-- Right Benefits List Column -->
@@ -620,75 +620,171 @@
     </section>
 
     <!-- ==========================================
-       PROJECTS SECTION (8 PROJECTS SLIDER)
+       PROJECTS SECTION (20 PROJECTS SLIDER)
        ========================================== -->
     <?php
     $service_projects_title = "Green Building Certified Projects";
     $service_projects_subtitle = "Explore our certified green building consultancy achievements across USGBC LEED, IGBC, and GRIHA certified developments.";
     $service_projects = [
         [
-            'title' => 'Hyatt Regency Dehradun Resort',
-            'location' => 'Dehradun',
-            'tag' => 'USGBC LEED Certified',
-            'badge_type' => 'badge-leed',
-            'description' => '5-Star luxury resort & convention center certified under USGBC LEED standard. Sustainergic Tech facilitated energy modeling, HVAC optimization, sustainable water systems, and complete certification commissioning.',
-            'image' => 'assets/images/hero.png'
-        ],
-        [
-            'title' => 'Hyatt Regency Delhi',
-            'location' => 'Delhi',
-            'tag' => 'IGBC Existing Building',
+            'title' => 'Admin Building - PLW',
+            'location' => 'Patiala, Punjab',
+            'tag' => 'IGBC Green Building',
             'badge_type' => 'badge-igbc',
-            'description' => 'Flagship luxury commercial hotel achieving IGBC Green Existing Building certification. We conducted indoor air quality testing, energy performance benchmarking, and sustainable facility retrofits.',
-            'image' => 'assets/images/green-building-hero.png'
+            'description' => 'Government administrative headquarters achieving IGBC Green Building certification with energy-efficient HVAC controls, daylight harvesting, and sustainable water management.',
+            'image' => 'assets/images/admin-building.png'
         ],
         [
-            'title' => 'Hotel Taj Panchkula',
-            'location' => 'Panchkula',
-            'tag' => 'IGBC Green Hotel',
+            'title' => 'Appworx IT Park',
+            'location' => 'Panchkula, Haryana',
+            'tag' => 'IGBC Commercial IT',
             'badge_type' => 'badge-igbc',
-            'description' => 'Heritage luxury hospitality property optimized for sustainable water recycling, thermal comfort, and high-efficiency HVAC design to earn prestigious IGBC Green Hotel certification.',
-            'image' => 'assets/images/sustainable-architecture.png'
+            'description' => 'Modern commercial IT park engineered for optimal building envelope thermal performance, sub-metered BMS automation, and indoor environmental air quality.',
+            'image' => 'assets/images/appworx.png'
         ],
         [
-            'title' => 'Honda Motorcycle & Scooter India',
-            'location' => 'Vithalapur, Gujarat',
-            'tag' => 'IGBC Green Factory',
+            'title' => 'Chitkara University',
+            'location' => 'Chandigarh / Rajpura',
+            'tag' => 'IGBC Green Campus',
             'badge_type' => 'badge-igbc',
-            'description' => 'Large-scale automotive manufacturing plant certified under IGBC Green Factory Building rating. Features passive ventilation, solar thermal integration, and zero liquid discharge water management.',
-            'image' => 'assets/images/benefits-building.png'
+            'description' => 'Integrated green university campus block with passive solar architecture, campus-wide rainwater harvesting, and high daylight autonomy in academic halls.',
+            'image' => 'assets/images/green-building.png'
         ],
         [
-            'title' => 'Havells India Industrial Campus',
+            'title' => 'Havells India Ltd. - LT Export Plant',
             'location' => 'Alwar, Rajasthan',
             'tag' => 'IGBC Gold Certified',
             'badge_type' => 'badge-igbc',
-            'description' => 'Electrical manufacturing industrial campus achieving IGBC Gold status through envelope thermal insulation, energy-efficient lighting power density, and extensive rainwater harvesting.',
-            'image' => 'assets/images/audits-hero.png'
+            'description' => 'State-of-the-art manufacturing export plant certified under IGBC Green Factory rating. Features 100% zero liquid discharge water treatment and high-COP cooling systems.',
+            'image' => 'assets/images/havells.png'
         ],
         [
-            'title' => 'Netsmartz IT Tower',
-            'location' => 'Mohali',
+            'title' => 'Honda Motorcycles and Scooter India - Line 4',
+            'location' => 'Vithalapur, Gujarat',
+            'tag' => 'IGBC Green Factory',
+            'badge_type' => 'badge-igbc',
+            'description' => 'Large-scale automotive manufacturing plant certified under IGBC Green Factory Building rating. Features passive ventilation, solar thermal integration, and industrial heat recovery.',
+            'image' => 'assets/images/honda.png'
+        ],
+        [
+            'title' => 'Hotel Taj',
+            'location' => 'Panchkula, Haryana',
+            'tag' => 'IGBC Green Hotel',
+            'badge_type' => 'badge-igbc',
+            'description' => 'Heritage luxury hospitality property optimized for sustainable water recycling, thermal comfort, and high-efficiency HVAC design to earn prestigious IGBC Green Hotel certification.',
+            'image' => 'assets/images/hotel-taj.png'
+        ],
+        [
+            'title' => 'Hyatt Regency',
+            'location' => 'Dehradun, Uttarakhand',
+            'tag' => 'USGBC LEED Platinum',
+            'badge_type' => 'badge-leed',
+            'description' => '5-Star luxury resort & convention center certified under USGBC LEED standard. Sustainergic Tech facilitated energy modeling, geothermal heat pumps, HTS PVT panels, and commissioning.',
+            'image' => 'assets/images/hyatt.png'
+        ],
+        [
+            'title' => 'JREW Engineering',
+            'location' => 'Rajpura, Punjab',
+            'tag' => 'IGBC Industrial Certified',
+            'badge_type' => 'badge-igbc',
+            'description' => 'Heavy engineering facility optimized for high-ambient shopfloor fresh air ventilation, LED lighting power reduction, and site construction waste diversion.',
+            'image' => 'assets/images/jrew-engineering.png'
+        ],
+        [
+            'title' => 'Netsmartz Tower',
+            'location' => 'Mohali, Punjab',
             'tag' => 'IGBC Commercial IT',
             'badge_type' => 'badge-igbc',
-            'description' => 'State-of-the-art commercial IT park certified under IGBC Green Commercial Buildings rating. Features energy simulation-guided glass envelope design and smart BMS automated controls.',
-            'image' => 'assets/images/cfd-simulation.png'
+            'description' => 'Commercial IT tower certified under IGBC Green Commercial Buildings rating. Features energy simulation-guided glass envelope design and smart BMS automated controls.',
+            'image' => 'assets/images/netsmartz.png'
         ],
         [
-            'title' => 'Chitkara University Kotler Block',
-            'location' => 'Zirakpur',
-            'tag' => 'IGBC Green Campus',
+            'title' => 'NIU Campus',
+            'location' => 'Noida, Uttar Pradesh',
+            'tag' => 'GRIHA 5-Star Rated',
+            'badge_type' => 'badge-griha',
+            'description' => 'Extensive university educational campus incorporating GRIHA sustainability benchmarks, rooftop solar arrays, native landscape xeriscaping, and EC plug fan AHUs.',
+            'image' => 'assets/images/niu-campus.png'
+        ],
+        [
+            'title' => 'Platinum Mall',
+            'location' => 'Lucknow, Uttar Pradesh',
+            'tag' => 'IGBC Green Retail',
             'badge_type' => 'badge-igbc',
-            'description' => 'Premier academic research campus block earning IGBC Green Campus certification with high daylight autonomy, native landscaping, and sub-metered energy management.',
-            'image' => 'assets/images/commissioning-hero.png'
+            'description' => 'High-footfall commercial shopping center optimized for retail energy conservation, variable chilled water pumping, and low-emission indoor material sourcing.',
+            'image' => 'assets/images/platinum-mall.png'
         ],
         [
-            'title' => 'SBI Local Head Office Campus',
+            'title' => 'RBI (Reserve Bank of India)',
             'location' => 'Chandigarh',
+            'tag' => 'IGBC Existing Building',
+            'badge_type' => 'badge-igbc',
+            'description' => 'Central banking regional institution achieving IGBC Green Existing Building certification with indoor air quality testing, energy benchmarking, and retro-commissioning.',
+            'image' => 'assets/images/rbi.png'
+        ],
+        [
+            'title' => 'Rockefeller Block, Chitkara University',
+            'location' => 'Punjab, India',
+            'tag' => 'IGBC Platinum Benchmark',
+            'badge_type' => 'badge-igbc',
+            'description' => 'Academic landmark achieving IGBC Platinum certification with 90% waste diversion, 46% water savings, 45% energy savings, and 27% solar energy offset.',
+            'image' => 'assets/images/rockefeller-block.png'
+        ],
+        [
+            'title' => 'SBI AO Building',
+            'location' => 'Mohali, Punjab',
             'tag' => 'IGBC Certified Office',
             'badge_type' => 'badge-igbc',
-            'description' => 'Regional banking headquarters achieving IGBC certification with comprehensive energy audit compliance, chilled water plant optimization, and low-VOC interior materials.',
-            'image' => 'assets/images/carbon-hero.png'
+            'description' => 'Administrative office facility engineered for low building LPD, high-COP VRF cooling systems, and sub-metered water consumption tracking.',
+            'image' => 'assets/images/sbi-ao.png'
+        ],
+        [
+            'title' => 'SBI LHO',
+            'location' => 'Chandigarh',
+            'tag' => 'IGBC Platinum Certified',
+            'badge_type' => 'badge-igbc',
+            'description' => '12-story financial headquarters retro-commissioned for hydronic radiant heating loops, EC plug fans, and low-VOC interior environment choices.',
+            'image' => 'assets/images/sbi-lho.png'
+        ],
+        [
+            'title' => 'SPJ Vedatam Mall',
+            'location' => 'Gurugram, Haryana',
+            'tag' => 'IGBC Retail & Commercial',
+            'badge_type' => 'badge-igbc',
+            'description' => 'Multi-story commercial retail destination designed with double-glazed low-E curtain walling, automated lighting controls, and greywater recycling systems.',
+            'image' => 'assets/images/spj.png'
+        ],
+        [
+            'title' => 'Sukhavas Residences',
+            'location' => 'Panchkula, Haryana',
+            'tag' => 'IGBC Green Homes',
+            'badge_type' => 'badge-igbc',
+            'description' => 'Luxury residential development certified under IGBC Green Homes standard, providing continuous fresh air ventilation, solar thermal water heating, and rainwater recharge.',
+            'image' => 'assets/images/sukhavas-residences.png'
+        ],
+        [
+            'title' => 'The Crest Hills',
+            'location' => 'Panchkula, Haryana',
+            'tag' => 'IGBC Residential Township',
+            'badge_type' => 'badge-igbc',
+            'description' => 'Hillside luxury residential community integrated with low-impact site development, 100% on-site sewage treatment, and energy-efficient lighting grids.',
+            'image' => 'assets/images/crest-hills.png'
+        ],
+        [
+            'title' => 'Vaibhav Global Limited',
+            'location' => 'Jaipur, Rajasthan',
+            'tag' => 'IGBC Gold & Net-Zero',
+            'badge_type' => 'badge-igbc',
+            'description' => 'Listed corporate headquarters certified for ESG compliance, GHG Scope 1-3 decarbonization, rooftop solar integration, and low-VOC workspaces.',
+            'image' => 'assets/images/vaibhav.png'
+        ],
+        [
+            'title' => 'VRS Fintech Mall',
+            'location' => 'Mohali, Punjab',
+            'tag' => 'IGBC Commercial Gold',
+            'badge_type' => 'badge-igbc',
+            'description' => 'Financial technology commercial hub engineered with precision thermal modeling, high-efficiency chiller plant automation, and zero-waste management practices.',
+            'image' => 'assets/images/vrs.png'
         ]
     ];
     include 'includes/service-projects-section.php';

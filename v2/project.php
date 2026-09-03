@@ -7,12 +7,12 @@ $sustainability_categories = [
     [
         'title' => 'Green Certification',
         'url' => 'green-building-certification.php',
-        'image' => 'assets/images/green-building-hero.png',
+        'image' => 'assets/images/green-building.png',
     ],
     [
         'title' => 'Simulation/Modeling',
         'url' => 'simulation-modeling.php',
-        'image' => 'assets/images/daylight-simulation.png',
+        'image' => 'assets/images/simulation-hero.png',
     ],
     [
         'title' => 'Audits',

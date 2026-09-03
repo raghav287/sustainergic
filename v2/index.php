@@ -119,7 +119,7 @@
                         <div class="swiper-slide">
                             <a href="green-building-certification.php" class="service-card">
                                 <div class="service-image">
-                                    <img src="assets/images/green-building-hero.png" alt="Green Certification">
+                                    <img src="assets/images/green-building.png" alt="Green Certification">
                                     <div class="service-image-icon">
                                         <i class="fa-solid fa-leaf"></i>
                                     </div>
