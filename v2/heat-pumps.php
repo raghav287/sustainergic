@@ -414,7 +414,7 @@
             'tag' => 'High-Temp Heat Pump',
             'badge_type' => 'badge-igbc',
             'description' => 'High-temperature R134a heat pump producing 65°C hot water for commercial hotel laundry operations, replacing diesel boilers with green electrification.',
-            'image' => 'assets/images/green-building-hero.png'
+            'image' => 'assets/images/sbi-lho.png'
         ],
         [
             'title' => 'Chitkara University Hostel Blocks',

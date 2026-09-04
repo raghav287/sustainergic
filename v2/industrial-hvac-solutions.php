@@ -417,7 +417,7 @@
             'tag' => 'Extruder Hydraulic Cooling',
             'badge_type' => 'badge-ea',
             'description' => 'Closed-circuit evaporative fluid cooler plant providing continuous hydraulic oil cooling for high-output polymer extrusion machinery.',
-            'image' => 'assets/images/green-building-hero.png'
+            'image' => 'assets/images/sbi-lho.png'
         ],
         [
             'title' => 'JREW Engineering Heavy Works',

@@ -381,18 +381,20 @@
             <div class="process-split-wrapper">
                 
                 <!-- Left Sticky Heading Panel -->
-                <div class="process-sticky-panel">
-                    <!-- <span class="process-badge">
-                        <i class="fa-solid fa-gears"></i> Our Methodology
-                    </span> -->
-                    <h2>Our <span>Working Process</span></h2>
-                    <p>
-                        A structured, data-driven methodology that ensures every engineering and sustainability project delivers measurable, certifiable results.
-                    </p>
-                    <div class="process-cta-box">
-                        <a href="contact-us.php" class="btn-primary">
-                            Partner With Us <i class="fa-solid fa-arrow-right"></i>
-                        </a>
+                <div class="process-left-col">
+                    <div class="process-sticky-panel">
+                        <!-- <span class="process-badge">
+                            <i class="fa-solid fa-gears"></i> Our Methodology
+                        </span> -->
+                        <h2>Our <span>Working Process</span></h2>
+                        <p>
+                            A structured, data-driven methodology that ensures every engineering and sustainability project delivers measurable, certifiable results.
+                        </p>
+                        <div class="process-cta-box">
+                            <a href="contact-us.php" class="btn-primary">
+                                Partner With Us <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+                        </div>
                     </div>
                 </div>
                 
@@ -634,7 +636,7 @@
                         <div class="swiper-slide">
                             <article class="project-card">
                                 <div class="project-image">
-                                    <img src="assets/images/green-building-hero.png" alt="Veridia Green Corporate HQ">
+                                    <img src="assets/images/green-building.png" alt="Veridia Green Corporate HQ">
                                     <span class="project-tag">LEED Platinum</span>
                                 </div>
                                 <div class="project-body">

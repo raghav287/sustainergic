@@ -739,7 +739,7 @@
             'tag' => 'Thermal Imaging Audit',
             'badge_type' => 'badge-ea',
             'description' => 'Infrared thermography inspection of electrical switchgear panels, busducts, and cold-storage insulation envelopes, identifying high-resistance hot joints before system failure.',
-            'image' => 'assets/images/green-building-hero.png'
+            'image' => 'assets/images/sbi-lho.png'
         ],
         [
             'title' => 'Eastman Cast & Forge Facility',

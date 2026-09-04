@@ -94,7 +94,7 @@
             <div class="gb-grid-2">
                 <!-- Left Column (Visual) -->
                 <div class="gb-intro-visual-wrapper">
-                    <img src="assets/images/green-building-hero.png" class="gb-intro-img" alt="Energy Conservation &amp; Sustainable Building Code Analysis Schematic">
+                    <img src="assets/images/ecbc-about.png" class="gb-intro-img" alt="Energy Conservation &amp; Sustainable Building Code Analysis Schematic">
                     <div class="gb-intro-badge">
                         <strong>BEE ECSBC</strong>
                         <span>Technical Advisory</span>
@@ -431,7 +431,7 @@
             'tag' => 'ECSBC Green Code',
             'badge_type' => 'badge-igbc',
             'description' => 'Energy Conservation Sustainable Building Code (ECSBC) compliance documentation, whole-building simulation modeling, and municipal environmental sanction clearance.',
-            'image' => 'assets/images/green-building-hero.png'
+            'image' => 'assets/images/sbi-lho.png'
         ],
         [
             'title' => 'Netsmartz Commercial IT Tower',

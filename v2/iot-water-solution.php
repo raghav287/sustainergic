@@ -602,7 +602,7 @@
             'tag' => 'Township Smart Water Metering',
             'badge_type' => 'badge-igbc',
             'description' => 'Smart AMR ultrasonic water meters installed in 250 eco-villas with mobile app water consumption tracking for residents.',
-            'image' => 'assets/images/green-building-hero.png'
+            'image' => 'assets/images/sbi-lho.png'
         ]
     ];
     include 'includes/service-projects-section.php';

@@ -389,7 +389,7 @@
             'tag' => 'Cast Iron Hydronic Radiators',
             'badge_type' => 'badge-ea',
             'description' => 'Heavy-duty high-thermal mass cast iron hydronic radiator system designed for mountain freezing conditions, maintaining residual room heat during power outages.',
-            'image' => 'assets/images/green-building-hero.png'
+            'image' => 'assets/images/sbi-lho.png'
         ],
         [
             'title' => 'The Residence Villa Complex',

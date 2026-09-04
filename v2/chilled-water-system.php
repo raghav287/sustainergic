@@ -381,7 +381,7 @@
             'tag' => 'Magnetic Levitation Chiller',
             'badge_type' => 'badge-igbc',
             'description' => 'High-efficiency oil-free magnetic levitation centrifugal chiller plant serving multi-tenant retail and multiplex cinema spaces with low acoustic noise levels.',
-            'image' => 'assets/images/green-building-hero.png'
+            'image' => 'assets/images/sbi-lho.png'
         ],
         [
             'title' => 'Hyatt Regency Delhi Central Plant',

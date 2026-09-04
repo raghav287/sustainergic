@@ -381,7 +381,7 @@
             'tag' => 'Residential VRF HVAC',
             'badge_type' => 'badge-igbc',
             'description' => 'High-efficiency residential VRF multi-split installation across luxury high-rise apartments, with quiet 22 dBA indoor acoustic operation and individual room temperature control.',
-            'image' => 'assets/images/green-building-hero.png'
+            'image' => 'assets/images/sbi-lho.png'
         ],
         [
             'title' => 'Sentro Technology Corporate HQ',

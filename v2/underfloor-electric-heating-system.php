@@ -389,7 +389,7 @@
             'tag' => 'Bathroom Radiant Heating',
             'badge_type' => 'badge-leed',
             'description' => 'IP67 waterproof electric underfloor heating mesh deployed in wellness spa treatment rooms and luxury suite bath areas to deliver fast, hygienic floor warmth.',
-            'image' => 'assets/images/green-building-hero.png'
+            'image' => 'assets/images/sbi-lho.png'
         ],
         [
             'title' => 'Sukhavas Residence Master Block',

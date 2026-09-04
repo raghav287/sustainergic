@@ -399,7 +399,7 @@
             'tag' => 'Hydronic Radiant Cooling',
             'badge_type' => 'badge-igbc',
             'description' => 'Silent hydronic radiant cooling circuit integrated with thermal storage screed floor beds, providing uniform indoor air temperatures without forced air noise or dust circulation.',
-            'image' => 'assets/images/green-building-hero.png'
+            'image' => 'assets/images/sbi-lho.png'
         ],
         [
             'title' => 'Netsmartz Corporate Tech Center',

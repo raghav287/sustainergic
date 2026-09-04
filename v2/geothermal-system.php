@@ -416,7 +416,7 @@
             'tag' => 'Cold-Climate Borefield',
             'badge_type' => 'badge-ea',
             'description' => 'Sub-surface geothermal loop installed in alpine bedrock to provide continuous 20°C indoor thermal comfort during winter ambient extremes of -25°C.',
-            'image' => 'assets/images/green-building-hero.png'
+            'image' => 'assets/images/sbi-lho.png'
         ],
         [
             'title' => 'Sukhavas Private Villa Estate',

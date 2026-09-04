@@ -1020,7 +1020,7 @@
             'tag' => 'Campus Carbon Neutrality',
             'badge_type' => 'badge-igbc',
             'description' => 'University-wide carbon footprint benchmark assessment establishing baseline emissions and campus forestry sequestration credits.',
-            'image' => 'assets/images/green-building-hero.png'
+            'image' => 'assets/images/sbi-lho.png'
         ]
     ];
     include 'includes/service-projects-section.php';

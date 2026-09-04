@@ -652,7 +652,7 @@
             'tag' => 'Solar Shading Analysis',
             'badge_type' => 'badge-ea',
             'description' => 'Sun-path solar radiation and shading analysis for residential high-rise towers, evaluating window overhangs and vertical fins to lower summer cooling loads.',
-            'image' => 'assets/images/green-building-hero.png'
+            'image' => 'assets/images/sbi-lho.png'
         ]
     ];
     include 'includes/service-projects-section.php';

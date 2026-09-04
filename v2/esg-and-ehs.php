@@ -415,7 +415,7 @@
             'tag' => 'Campus EHS & Zero-Waste Audit',
             'badge_type' => 'badge-igbc',
             'description' => 'University-wide environmental health and safety assessment, chemical lab safety protocols, and zero-waste-to-landfill verification.',
-            'image' => 'assets/images/green-building-hero.png'
+            'image' => 'assets/images/sbi-lho.png'
         ]
     ];
     include 'includes/service-projects-section.php';

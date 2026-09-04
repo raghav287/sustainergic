@@ -596,7 +596,7 @@
             'tag' => 'Chiller Refrigerant Boost',
             'badge_type' => 'badge-igbc',
             'description' => 'Integrated HTS panel solar concentrators into central chiller refrigeration loops, achieving a 2.8 year financial ROI.',
-            'image' => 'assets/images/green-building-hero.png'
+            'image' => 'assets/images/sbi-lho.png'
         ],
         [
             'title' => 'Vaibhav Global Corporate HQ',

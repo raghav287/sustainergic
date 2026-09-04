@@ -393,7 +393,7 @@
             'tag' => 'Laminar Flow OT HVAC',
             'badge_type' => 'badge-igbc',
             'description' => 'ISO Class 5 ultra-clean laminar airflow distribution ceilings in 6 cardiac operating theaters with 99.997% HEPA filtration and differential pressure monitors.',
-            'image' => 'assets/images/green-building-hero.png'
+            'image' => 'assets/images/sbi-lho.png'
         ],
         [
             'title' => 'PGIMER Advanced Medical Research Center',

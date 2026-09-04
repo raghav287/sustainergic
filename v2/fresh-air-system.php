@@ -365,7 +365,7 @@
             'tag' => 'TFA & ERV Fresh Air',
             'badge_type' => 'badge-igbc',
             'description' => 'Dedicated outdoor air system (DOAS) with enthalpy heat recovery wheels ensuring 100% fresh, MERV-13 filtered air in auditorium and classrooms.',
-            'image' => 'assets/images/green-building-hero.png'
+            'image' => 'assets/images/sbi-lho.png'
         ],
         [
             'title' => 'Appworx IT Office Tower',
