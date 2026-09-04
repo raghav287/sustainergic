@@ -485,7 +485,7 @@
         <div class="container">
 
             <div class="about-image">
-                <img src="assets/images/hero.png" alt="About Sustainergic Tech">
+                <img src="assets/images/home-about.png" alt="About Sustainergic Tech">
                 <div class="about-experience-badge">
                     <span class="abt-num">15+</span>
                     <span class="abt-lbl">Years Experience</span>

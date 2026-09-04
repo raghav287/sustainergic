@@ -184,7 +184,7 @@
                 <!-- Right Visual Column -->
                 <div class="gb-hero-visual">
                     <div class="gb-hero-img-wrapper">
-                        <img src="assets/images/hero.png" alt="HTS Hybrid Thermal Solar Renewable Energy Based Rooftop Panel">
+                        <img src="assets/images/hts-hero.png" alt="HTS Hybrid Thermal Solar Renewable Energy Based Rooftop Panel">
                         
                         <!-- Floating Badge 1 -->
                         <div class="gb-hero-floating-card gb-hero-floating-card--one">
@@ -221,7 +221,7 @@
             <div class="gb-grid-2">
                 <!-- Left Column (Visual) -->
                 <div class="gb-intro-visual-wrapper">
-                    <img src="assets/images/sustainable-architecture.png" class="gb-intro-img" alt="HTS Solar Parabolic Refrigeration Cycle Diagram">
+                    <img src="assets/images/hts-about.png" class="gb-intro-img" alt="HTS Solar Parabolic Refrigeration Cycle Diagram">
                     <div class="gb-intro-badge">
                         <strong>HTS Technology</strong>
                         <span>Refrigeration Solar Boost</span>

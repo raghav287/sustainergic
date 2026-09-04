@@ -58,7 +58,7 @@
                 <!-- Right Visual Column -->
                 <div class="gb-hero-visual">
                     <div class="gb-hero-img-wrapper">
-                        <img src="assets/images/sustainable-architecture.png" alt="Modern architectural steel panel radiator with thermostatic valve">
+                        <img src="assets/images/radiator-hero.png" alt="Modern architectural steel panel radiator with thermostatic valve">
                         
                         <!-- Floating Badge 1 -->
                         <div class="gb-hero-floating-card gb-hero-floating-card--one">
@@ -95,7 +95,7 @@
             <div class="gb-grid-2">
                 <!-- Left Column (Visual) -->
                 <div class="gb-intro-visual-wrapper">
-                    <img src="assets/images/green-building-hero.png" class="gb-intro-img" alt="Modern Interior Space Heating Radiator">
+                    <img src="assets/images/radiator-about.png" class="gb-intro-img" alt="Modern Interior Space Heating Radiator">
                     <div class="gb-intro-badge">
                         <strong>Hydronic Heating</strong>
                         <span>Space Radiators</span>

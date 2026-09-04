@@ -58,7 +58,7 @@
                 <!-- Right Visual Column -->
                 <div class="gb-hero-visual">
                     <div class="gb-hero-img-wrapper">
-                        <img src="assets/images/carbon-hero.png" alt="Corporate ESG and EHS Advisory Dashboard">
+                        <img src="assets/images/esg-hero.png" alt="Corporate ESG and EHS Advisory Dashboard">
                         
                         <!-- Floating Badge 1 -->
                         <div class="gb-hero-floating-card gb-hero-floating-card--one">
@@ -95,7 +95,7 @@
             <div class="gb-grid-2">
                 <!-- Left Column (Visual) -->
                 <div class="gb-intro-visual-wrapper">
-                    <img src="assets/images/emissions-calculation.png" class="gb-intro-img" alt="Corporate ESG Materiality and EHS Audit Framework">
+                    <img src="assets/images/esg-about.png" class="gb-intro-img" alt="Corporate ESG Materiality and EHS Audit Framework">
                     <div class="gb-intro-badge">
                         <strong>ESG &amp; EHS Consulting</strong>
                         <span>Corporate Advisory</span>

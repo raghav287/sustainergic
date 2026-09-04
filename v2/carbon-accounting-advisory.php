@@ -869,7 +869,7 @@
 
                 <!-- Right: Visual -->
                 <div class="aud-benefits-visual-wrapper">
-                    <img src="assets/images/carbon-mitigation.png" alt="Clean energy solar fields and office complex showing carbon footprint reduction baseline tracking">
+                    <img src="assets/images/carbon-benifits.png" alt="Clean energy solar fields and office complex showing carbon footprint reduction baseline tracking">
                 </div>
             </div>
         </div>

@@ -58,7 +58,7 @@
                 <!-- Right Visual Column -->
                 <div class="gb-hero-visual">
                     <div class="gb-hero-img-wrapper">
-                        <img src="assets/images/benefits-building.png" alt="Commercial air-to-water heat pump facility with hot water buffer tanks">
+                        <img src="assets/images/heat-pump-hero.png" alt="Commercial air-to-water heat pump facility with hot water buffer tanks">
                         
                         <!-- Floating Badge 1 -->
                         <div class="gb-hero-floating-card gb-hero-floating-card--one">
@@ -95,7 +95,7 @@
             <div class="gb-grid-2">
                 <!-- Left Column (Visual) -->
                 <div class="gb-intro-visual-wrapper">
-                    <img src="assets/images/green-building-hero.png" class="gb-intro-img" alt="Heat Pump System Hydronic Engineering Diagram">
+                    <img src="assets/images/heat-pump-about.png" class="gb-intro-img" alt="Heat Pump System Hydronic Engineering Diagram">
                     <div class="gb-intro-badge">
                         <strong>Heat Pump Solutions</strong>
                         <span>Thermal Transfer</span>
