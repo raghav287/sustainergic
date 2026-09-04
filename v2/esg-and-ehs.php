@@ -339,51 +339,13 @@
     </section>
 
     <!-- ==========================================
-       7. RELATED SERVICES
+       7. RELATED SERVICES (QUERIED FROM HEADER)
        ========================================== -->
-    <section class="gb-section">
-        <div class="gb-container">
-            <div class="gb-section-header">
-                <span class="gb-label">Integrated Advisory</span>
-                <h2 class="gb-title-main">Complementary Sustainability Services</h2>
-            </div>
-
-            <div class="gb-grid-3">
-                <div class="gb-related-card">
-                    <div class="gb-related-img-box">
-                        <img src="assets/images/carbon-hero.png" alt="Carbon Accounting">
-                    </div>
-                    <div class="gb-related-body">
-                        <h3>Carbon Accounting &amp; Advisory</h3>
-                        <p>Detailed Scope 1, 2 &amp; 3 emissions calculations, LCA product EPDs, and net-zero roadmap advisory.</p>
-                        <a href="carbon-accounting-advisory.php" class="gb-related-link">Explore Service <i class="fa-solid fa-chevron-right"></i></a>
-                    </div>
-                </div>
-
-                <div class="gb-related-card">
-                    <div class="gb-related-img-box">
-                        <img src="assets/images/audits-hero.png" alt="Energy &amp; Water Audits">
-                    </div>
-                    <div class="gb-related-body">
-                        <h3>Energy &amp; Water Audits</h3>
-                        <p>Comprehensive energy, water balance, and thermal audits supporting EHS environmental target setting.</p>
-                        <a href="audits.php" class="gb-related-link">Explore Service <i class="fa-solid fa-chevron-right"></i></a>
-                    </div>
-                </div>
-
-                <div class="gb-related-card">
-                    <div class="gb-related-img-box">
-                        <img src="assets/images/green-building-hero.png" alt="Green Building Certification">
-                    </div>
-                    <div class="gb-related-body">
-                        <h3>Green Building Certification</h3>
-                        <p>Achieve USGBC LEED, IGBC, and WELL certifications to fulfill corporate real estate ESG goals.</p>
-                        <a href="green-building-certification.php" class="gb-related-link">Explore Service <i class="fa-solid fa-chevron-right"></i></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+    <?php 
+    $related_title = "Complementary Sustainability Services";
+    $related_label = "Integrated Advisory";
+    include 'includes/related-services.php'; 
+    ?>
 
     <!-- ==========================================
        PROJECTS SECTION (8 PROJECTS SLIDER)

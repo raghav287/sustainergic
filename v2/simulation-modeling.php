@@ -576,63 +576,13 @@
     </section>
 
     <!-- ==========================================
-       9. RELATED SERVICES
+       9. RELATED SERVICES (QUERIED FROM HEADER)
        ========================================== -->
-    <section class="sm-section">
-        <div class="sm-container">
-            <div class="sm-section-header">
-                <span class="sm-label">Other Advisory Services</span>
-                <h2 class="sm-title-main">Related Engineering & <span>Consulting Services</span></h2>
-            </div>
-
-            <div class="sm-related-grid">
-                <!-- Service 1 -->
-                <div class="sm-related-card">
-                    <div class="sm-related-img-box">
-                        <img src="assets/images/green-building-hero.png" alt="Green Building Certification documentation check checks">
-                        <div class="sm-related-icon-box">
-                            <i class="fa-solid fa-leaf"></i>
-                        </div>
-                    </div>
-                    <div class="sm-related-body">
-                        <h3>Green Building Certification Services</h3>
-                        <p>End-to-end consulting for IGBC, USGBC LEED, GRIHA, and WELL certifications to achieve gold and platinum ratings.</p>
-                        <a href="green-building-certification.php" class="sm-related-link">Explore Service <i class="fa-solid fa-chevron-right"></i></a>
-                    </div>
-                </div>
-
-                <!-- Service 2 -->
-                <div class="sm-related-card">
-                    <div class="sm-related-img-box">
-                        <img src="assets/images/benefits-building.png" alt="Energy audits measuring equipment loads">
-                        <div class="sm-related-icon-box">
-                            <i class="fa-solid fa-lightbulb"></i>
-                        </div>
-                    </div>
-                    <div class="sm-related-body">
-                        <h3>Energy Efficiency Consulting</h3>
-                        <p>Comprehensive energy conservation studies, equipment load analysis, and optimization measures to lower commercial utility bills.</p>
-                        <a href="contact-us.php" class="sm-related-link">Explore Service <i class="fa-solid fa-chevron-right"></i></a>
-                    </div>
-                </div>
-
-                <!-- Service 3 -->
-                <div class="sm-related-card">
-                    <div class="sm-related-img-box">
-                        <img src="assets/images/sustainable-architecture.png" alt="Carbon Footprint analysis illustration">
-                        <div class="sm-related-icon-box">
-                            <i class="fa-solid fa-shoe-prints"></i>
-                        </div>
-                    </div>
-                    <div class="sm-related-body">
-                        <h3>ESG & Sustainability Consulting</h3>
-                        <p>Strategy definition, carbon footprint accounting, and environmental performance tracking to meet ESG compliance targets.</p>
-                        <a href="contact-us.php" class="sm-related-link">Explore Service <i class="fa-solid fa-chevron-right"></i></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+    <?php 
+    $related_title = "Related Engineering & Consulting Services";
+    $related_label = "Other Advisory Services";
+    include 'includes/related-services.php'; 
+    ?>
 
     <!-- ==========================================
        PROJECTS SECTION (8 PROJECTS SLIDER)

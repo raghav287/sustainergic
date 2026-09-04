@@ -562,62 +562,14 @@
 
     <!-- ==========================================
        8. RELATED SERVICES
+    <!-- ==========================================
+       7. RELATED SERVICES (QUERIED FROM HEADER)
        ========================================== -->
-    <section class="gb-section">
-        <div class="gb-container">
-            <div class="gb-section-header">
-                <span class="gb-label">Other Advisory Services</span>
-                <h2 class="gb-title-main">Related Engineering & Consulting Services</h2>
-            </div>
-
-            <div class="gb-related-grid">
-                <!-- Card 1 -->
-                <div class="gb-related-card">
-                    <div class="gb-related-img-box">
-                        <img src="assets/images/benefits-building.png" alt="Energy Modelling simulation graphic visualization">
-                        <div class="gb-related-icon-box">
-                            <i class="fa-solid fa-gauge-high"></i>
-                        </div>
-                    </div>
-                    <div class="gb-related-body">
-                        <h3>Energy Modelling & Simulation</h3>
-                        <p>High-fidelity thermal and energy models to optimize building energy performance, satisfy regulatory requirements, and calculate HVAC sizing configurations.</p>
-                        <a href="contact-us.php" class="gb-related-link">Explore Service <i class="fa-solid fa-chevron-right"></i></a>
-                    </div>
-                </div>
-
-                <!-- Card 2 -->
-                <div class="gb-related-card">
-                    <div class="gb-related-img-box">
-                        <img src="assets/images/green-building-hero.png" alt="ESG advisory and consulting corporate building">
-                        <div class="gb-related-icon-box">
-                            <i class="fa-solid fa-leaf"></i>
-                        </div>
-                    </div>
-                    <div class="gb-related-body">
-                        <h3>ESG & Sustainability Consulting</h3>
-                        <p>Aligning corporate operations and real estate portfolios with environmental, social, and governance (ESG) reporting standards to build stakeholder value.</p>
-                        <a href="contact-us.php" class="gb-related-link">Explore Service <i class="fa-solid fa-chevron-right"></i></a>
-                    </div>
-                </div>
-
-                <!-- Card 3 -->
-                <div class="gb-related-card">
-                    <div class="gb-related-img-box">
-                        <img src="assets/images/sustainable-architecture.png" alt="Carbon Footprint analysis illustration">
-                        <div class="gb-related-icon-box">
-                            <i class="fa-solid fa-shoe-prints"></i>
-                        </div>
-                    </div>
-                    <div class="gb-related-body">
-                        <h3>Carbon Footprint Assessment</h3>
-                        <p>Comprehensive greenhouse gas accounting across operations (Scope 1, 2, and 3) to outline reduction targets and drive toward carbon neutrality pathways.</p>
-                        <a href="contact-us.php" class="gb-related-link">Explore Service <i class="fa-solid fa-chevron-right"></i></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+    <?php 
+    $related_title = "Related Engineering & Consulting Services";
+    $related_label = "Other Advisory Services";
+    include 'includes/related-services.php'; 
+    ?>
 
     <!-- ==========================================
        PROJECTS SECTION (20 PROJECTS SLIDER)

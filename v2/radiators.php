@@ -345,63 +345,13 @@
     </section>
 
     <!-- ==========================================
-       7. RELATED HVAC SERVICES
+       7. RELATED SERVICES (QUERIED FROM HEADER)
        ========================================== -->
-    <section class="gb-section">
-        <div class="gb-container">
-            <div class="gb-section-header">
-                <span class="gb-label">Related HVAC Solutions</span>
-                <h2 class="gb-title-main">Explore Other HVAC &amp; Energy Systems</h2>
-            </div>
-
-            <div class="gb-related-grid">
-                <!-- Card 1 -->
-                <div class="gb-related-card">
-                    <div class="gb-related-img-box">
-                        <img src="assets/images/benefits-building.png" alt="Heat Pumps">
-                        <div class="gb-related-icon-box">
-                            <i class="fa-solid fa-temperature-arrow-up"></i>
-                        </div>
-                    </div>
-                    <div class="gb-related-body">
-                        <h3>Heat Pump Systems</h3>
-                        <p>High-efficiency air-source and water-source heat pumps for space heating, cooling, and hot water.</p>
-                        <a href="heat-pumps.php" class="gb-related-link">Explore Service <i class="fa-solid fa-chevron-right"></i></a>
-                    </div>
-                </div>
-
-                <!-- Card 2 -->
-                <div class="gb-related-card">
-                    <div class="gb-related-img-box">
-                        <img src="assets/images/green-building-hero.png" alt="Underfloor Electric Heating">
-                        <div class="gb-related-icon-box">
-                            <i class="fa-solid fa-border-top-left"></i>
-                        </div>
-                    </div>
-                    <div class="gb-related-body">
-                        <h3>Underfloor Electric Heating</h3>
-                        <p>Comfortable, silent, and evenly distributed floor warmth utilizing heating cables and ultra-thin mats.</p>
-                        <a href="underfloor-electric-heating-system.php" class="gb-related-link">Explore Service <i class="fa-solid fa-chevron-right"></i></a>
-                    </div>
-                </div>
-
-                <!-- Card 3 -->
-                <div class="gb-related-card">
-                    <div class="gb-related-img-box">
-                        <img src="assets/images/sustainable-architecture.png" alt="Radiant Heating & Cooling">
-                        <div class="gb-related-icon-box">
-                            <i class="fa-solid fa-temperature-arrow-down"></i>
-                        </div>
-                    </div>
-                    <div class="gb-related-body">
-                        <h3>Radiant Heating &amp; Cooling</h3>
-                        <p>Hydronic radiant floor and ceiling systems delivering draft-free, silent, and energy-efficient thermal comfort.</p>
-                        <a href="radiant-heating-cooling-system.php" class="gb-related-link">Explore Service <i class="fa-solid fa-chevron-right"></i></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+    <?php 
+    $related_title = "Explore Other HVAC & Energy Systems";
+    $related_label = "Related HVAC Solutions";
+    include 'includes/related-services.php'; 
+    ?>
 
     <!-- ==========================================
        PROJECTS SECTION (8 PROJECTS SLIDER)

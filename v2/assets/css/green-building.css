@@ -315,7 +315,7 @@
 .gb-hero-img-wrapper {
     position: relative;
     border-radius: 30px;
-    overflow: hidden;
+    overflow: visible;
     box-shadow: var(--gb-shadow-lg);
     border: 8px solid var(--gb-white);
     transform: perspective(1000px) rotateY(-5deg);
@@ -330,33 +330,36 @@
     width: 100%;
     max-height: 480px;
     object-fit: cover;
+    border-radius: 22px;
+    display: block;
 }
 
 /* Background floating elements */
 .gb-hero-floating-card {
     position: absolute;
-    background: rgba(255, 255, 255, 0.9);
+    background: rgba(255, 255, 255, 0.92);
     backdrop-filter: blur(10px);
-    border: 1px solid rgba(255, 255, 255, 0.6);
-    padding: 16px 20px;
+    border: 1px solid rgba(255, 255, 255, 0.8);
+    padding: 14px 18px;
     border-radius: 16px;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
     display: flex;
     align-items: center;
     gap: 12px;
-    z-index: 2;
+    z-index: 5;
     animation: float 6s ease-in-out infinite;
+    max-width: max-content;
 }
 
 .gb-hero-floating-card--one {
-    top: 15%;
-    left: -40px;
+    top: 12%;
+    left: -15px;
     animation-delay: 0s;
 }
 
 .gb-hero-floating-card--two {
-    bottom: 12%;
-    right: -20px;
+    bottom: 10%;
+    right: -15px;
     animation-delay: 3s;
 }
 
@@ -1029,23 +1032,23 @@
 
 .gb-related-icon-box {
     position: absolute;
-    bottom: -20px;
-    right: 24px;
-    width: 48px;
-    height: 48px;
+    bottom: 14px;
+    right: 14px;
+    width: 44px;
+    height: 44px;
     border-radius: 12px;
-    background-color: var(--gb-sage);
-    color: var(--gb-white);
+    background-color: #f07b5e;
+    color: #ffffff;
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: 18px;
-    box-shadow: 0 4px 10px rgba(240, 123, 94, 0.25);
-    z-index: 2;
+    box-shadow: 0 4px 14px rgba(240, 123, 94, 0.4);
+    z-index: 10;
 }
 
 .gb-related-body {
-    padding: 30px 24px;
+    padding: 24px;
     flex-grow: 1;
     display: flex;
     flex-direction: column;

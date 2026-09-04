@@ -366,51 +366,12 @@
     </section>
 
     <!-- ==========================================
-       7. RELATED INDUSTRIAL SERVICES
+       7. RELATED SERVICES (QUERIED FROM HEADER)
        ========================================== -->
-    <section class="gb-section">
-        <div class="gb-container">
-            <div class="gb-section-header">
-                <span class="gb-label">Integrated Engineering</span>
-                <h2 class="gb-title-main">Complementary Industrial Services</h2>
-            </div>
-
-            <div class="gb-grid-3">
-                <div class="gb-related-card">
-                    <div class="gb-related-img-box">
-                        <img src="assets/images/fundamental-commissioning.png" alt="Commissioning Authority">
-                    </div>
-                    <div class="gb-related-body">
-                        <h3>Commissioning Authority</h3>
-                        <p>Third-party testing, adjusting, and balancing (TAB) for heavy industrial ventilation and process chillers.</p>
-                        <a href="commissioning-authority.php" class="gb-related-link">Explore Service <i class="fa-solid fa-chevron-right"></i></a>
-                    </div>
-                </div>
-
-                <div class="gb-related-card">
-                    <div class="gb-related-img-box">
-                        <img src="assets/images/audits-hero.png" alt="Energy &amp; Water Audits">
-                    </div>
-                    <div class="gb-related-body">
-                        <h3>Energy &amp; Water Audits</h3>
-                        <p>Comprehensive electrical, thermal imaging, compressed air, and water balance audits for manufacturing plants.</p>
-                        <a href="audits.php" class="gb-related-link">Explore Service <i class="fa-solid fa-chevron-right"></i></a>
-                    </div>
-                </div>
-
-                <div class="gb-related-card">
-                    <div class="gb-related-img-box">
-                        <img src="assets/images/cfd-simulation.png" alt="Chilled Water Systems">
-                    </div>
-                    <div class="gb-related-body">
-                        <h3>Chilled Water Systems</h3>
-                        <p>Centralized centrifugal and magnetic chillers engineered for large industrial footprint cooling.</p>
-                        <a href="chilled-water-system.php" class="gb-related-link">Explore Service <i class="fa-solid fa-chevron-right"></i></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+    <?php 
+    $related_title = "Complementary Industrial Services";
+    include 'includes/related-services.php'; 
+    ?>
 
     <!-- ==========================================
        PROJECTS SECTION (8 PROJECTS SLIDER)

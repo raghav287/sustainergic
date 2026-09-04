@@ -2,107 +2,15 @@
 /**
  * Projects Page displaying all services as project categories.
  */
+require_once __DIR__ . '/includes/header-services.php';
 
-$sustainability_categories = [
-    [
-        'title' => 'Green Certification',
-        'url' => 'green-building-certification.php',
-        'image' => 'assets/images/green-building.png',
-    ],
-    [
-        'title' => 'Simulation/Modeling',
-        'url' => 'simulation-modeling.php',
-        'image' => 'assets/images/simulation-hero.png',
-    ],
-    [
-        'title' => 'Audits',
-        'url' => 'audits.php',
-        'image' => 'assets/images/audits-hero.png',
-    ],
-    [
-        'title' => 'Commissioning Authority',
-        'url' => 'commissioning-authority.php',
-        'image' => 'assets/images/commissioning-hero.png',
-    ],
-    [
-        'title' => 'ECSBC Compliance',
-        'url' => 'ecsbc-compliance.php',
-        'image' => 'assets/images/ecbc-compliance.png',
-    ],
-    [
-        'title' => 'Carbon Accounting & Advisory',
-        'url' => 'carbon-accounting-advisory.php',
-        'image' => 'assets/images/carbon-hero.png',
-    ],
-    [
-        'title' => 'IoT Water Solution',
-        'url' => 'iot-water-solution.php',
-        'image' => 'assets/images/water-audit.png',
-    ],
-    [
-        'title' => 'Hybrid Thermal Solar (HTS) Panel',
-        'url' => 'hybrid-thermal-solar-panel.php',
-        'image' => 'assets/images/hero.png',
-    ],
-    [
-        'title' => 'ESG and EHS',
-        'url' => 'esg-and-ehs.php',
-        'image' => 'assets/images/emissions-calculation.png',
-    ]
-];
+$sustainability_categories = array_filter($header_services, function($s) {
+    return $s['category'] === 'services';
+});
 
-$hvac_categories = [
-    [
-        'title' => 'Radiant Heating & Cooling System',
-        'url' => 'radiant-heating-cooling-system.php',
-        'image' => 'assets/images/benefits-building.png',
-    ],
-    [
-        'title' => 'Underfloor Electric Heating System',
-        'url' => 'underfloor-electric-heating-system.php',
-        'image' => 'assets/images/sustainable-architecture.png',
-    ],
-    [
-        'title' => 'Geothermal System',
-        'url' => 'geothermal-system.php',
-        'image' => 'assets/images/cfd-simulation.png',
-    ],
-    [
-        'title' => 'Fresh Air System',
-        'url' => 'fresh-air-system.php',
-        'image' => 'assets/images/energy-simulation.png',
-    ],
-    [
-        'title' => 'Chilled Water System',
-        'url' => 'chilled-water-system.php',
-        'image' => 'assets/images/fundamental-commissioning.png',
-    ],
-    [
-        'title' => 'VRV/VRF System',
-        'url' => 'vrv-vrf-system.php',
-        'image' => 'assets/images/enhanced-commissioning.png',
-    ],
-    [
-        'title' => 'Heat Pumps',
-        'url' => 'heat-pumps.php',
-        'image' => 'assets/images/tab-services.png',
-    ],
-    [
-        'title' => 'Radiators',
-        'url' => 'radiators.php',
-        'image' => 'assets/images/retro-commissioning.png',
-    ],
-    [
-        'title' => 'Industrial HVAC Solutions',
-        'url' => 'industrial-hvac-solutions.php',
-        'image' => 'assets/images/monitoring-based-commissioning.png',
-    ],
-    [
-        'title' => 'Precision Medical Cooling Solution',
-        'url' => 'precision-medical-cooling-solution.php',
-        'image' => 'assets/images/lca-stages.png',
-    ]
-];
+$hvac_categories = array_filter($header_services, function($s) {
+    return $s['category'] === 'hvac';
+});
 ?>
 <!DOCTYPE html>
 <html lang="en">

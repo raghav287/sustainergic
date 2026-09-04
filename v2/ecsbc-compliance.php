@@ -395,63 +395,13 @@
     </section>
 
     <!-- ==========================================
-       7. RELATED SERVICES
+       7. RELATED SERVICES (QUERIED FROM HEADER)
        ========================================== -->
-    <section class="gb-section">
-        <div class="gb-container">
-            <div class="gb-section-header">
-                <span class="gb-label">Related Services</span>
-                <h2 class="gb-title-main">Explore Other Engineering Services</h2>
-            </div>
-
-            <div class="gb-related-grid">
-                <!-- Card 1 -->
-                <div class="gb-related-card">
-                    <div class="gb-related-img-box">
-                        <img src="assets/images/green-building-hero.png" alt="Green Building Certification Services">
-                        <div class="gb-related-icon-box">
-                            <i class="fa-solid fa-building-circle-check"></i>
-                        </div>
-                    </div>
-                    <div class="gb-related-body">
-                        <h3>Green Building Certification</h3>
-                        <p>End-to-end consulting for IGBC, USGBC LEED, GRIHA, WELL, and ASSOCHAM GEM rating systems.</p>
-                        <a href="green-building-certification.php" class="gb-related-link">Explore Service <i class="fa-solid fa-chevron-right"></i></a>
-                    </div>
-                </div>
-
-                <!-- Card 2 -->
-                <div class="gb-related-card">
-                    <div class="gb-related-img-box">
-                        <img src="assets/images/benefits-building.png" alt="Simulation and modeling">
-                        <div class="gb-related-icon-box">
-                            <i class="fa-solid fa-gauge-high"></i>
-                        </div>
-                    </div>
-                    <div class="gb-related-body">
-                        <h3>Simulation &amp; Modeling</h3>
-                        <p>High-fidelity thermal, energy, daylight, and CFD simulations to optimize building performance.</p>
-                        <a href="simulation-modeling.php" class="gb-related-link">Explore Service <i class="fa-solid fa-chevron-right"></i></a>
-                    </div>
-                </div>
-
-                <!-- Card 3 -->
-                <div class="gb-related-card">
-                    <div class="gb-related-img-box">
-                        <img src="assets/images/sustainable-architecture.png" alt="Energy and Water Audits">
-                        <div class="gb-related-icon-box">
-                            <i class="fa-solid fa-chart-pie"></i>
-                        </div>
-                    </div>
-                    <div class="gb-related-body">
-                        <h3>Audits &amp; Assessments</h3>
-                        <p>Comprehensive energy and water audits to detect inefficiencies and lower operational costs.</p>
-                        <a href="audits.php" class="gb-related-link">Explore Service <i class="fa-solid fa-chevron-right"></i></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+    <?php 
+    $related_title = "Explore Other Engineering Services";
+    $related_label = "Related Services";
+    include 'includes/related-services.php'; 
+    ?>
 
     <!-- ==========================================
        PROJECTS SECTION (8 PROJECTS SLIDER)

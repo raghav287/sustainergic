@@ -526,51 +526,13 @@
     </section>
 
     <!-- ==========================================
-       8. RELATED SERVICES
+       8. RELATED SERVICES (QUERIED FROM HEADER)
        ========================================== -->
-    <section class="gb-section">
-        <div class="gb-container">
-            <div class="gb-section-header">
-                <span class="gb-label">Integrated Services</span>
-                <h2 class="gb-title-main">Complementary Sustainability Solutions</h2>
-            </div>
-
-            <div class="gb-grid-3">
-                <div class="gb-related-card">
-                    <div class="gb-related-img-box">
-                        <img src="assets/images/water-audit.png" alt="Energy &amp; Water Audits">
-                    </div>
-                    <div class="gb-related-body">
-                        <h3>Energy &amp; Water Audits</h3>
-                        <p>Detailed physical water balance audits, cooling tower drift checks, and rainwater harvesting assessments.</p>
-                        <a href="audits.php" class="gb-related-link">Explore Service <i class="fa-solid fa-chevron-right"></i></a>
-                    </div>
-                </div>
-
-                <div class="gb-related-card">
-                    <div class="gb-related-img-box">
-                        <img src="assets/images/carbon-hero.png" alt="Carbon Accounting">
-                    </div>
-                    <div class="gb-related-body">
-                        <h3>Carbon Accounting &amp; Advisory</h3>
-                        <p>Calculate embodied and operational Scope 3 water footprint carbon impacts for ESG disclosures.</p>
-                        <a href="carbon-accounting-advisory.php" class="gb-related-link">Explore Service <i class="fa-solid fa-chevron-right"></i></a>
-                    </div>
-                </div>
-
-                <div class="gb-related-card">
-                    <div class="gb-related-img-box">
-                        <img src="assets/images/green-building-hero.png" alt="Green Building Certification">
-                    </div>
-                    <div class="gb-related-body">
-                        <h3>Green Building Certification</h3>
-                        <p>Earn IGBC, LEED, and GRIHA credits for smart water metering and water efficiency performance.</p>
-                        <a href="green-building-certification.php" class="gb-related-link">Explore Service <i class="fa-solid fa-chevron-right"></i></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+    <?php 
+    $related_title = "Complementary Sustainability Solutions";
+    $related_label = "Integrated Services";
+    include 'includes/related-services.php'; 
+    ?>
 
     <!-- ==========================================
        PROJECTS SECTION (8 PROJECTS SLIDER)

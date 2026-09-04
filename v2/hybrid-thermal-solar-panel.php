@@ -552,51 +552,13 @@
     </section>
 
     <!-- ==========================================
-       8. RELATED SERVICES
+       8. RELATED SERVICES (QUERIED FROM HEADER)
        ========================================== -->
-    <section class="gb-section">
-        <div class="gb-container">
-            <div class="gb-section-header">
-                <span class="gb-label">Integrated Services</span>
-                <h2 class="gb-title-main">Complementary Clean Energy Systems</h2>
-            </div>
-
-            <div class="gb-grid-3">
-                <div class="gb-related-card">
-                    <div class="gb-related-img-box">
-                        <img src="assets/images/benefits-building.png" alt="Heat Pumps">
-                    </div>
-                    <div class="gb-related-body">
-                        <h3>Heat Pump Systems</h3>
-                        <p>Air-source and water-source heat pumps coupled with HTS solar thermal collectors for zero-carbon water heating.</p>
-                        <a href="heat-pumps.php" class="gb-related-link">Explore Service <i class="fa-solid fa-chevron-right"></i></a>
-                    </div>
-                </div>
-
-                <div class="gb-related-card">
-                    <div class="gb-related-img-box">
-                        <img src="assets/images/carbon-hero.png" alt="Carbon Accounting">
-                    </div>
-                    <div class="gb-related-body">
-                        <h3>Carbon Accounting &amp; Advisory</h3>
-                        <p>Calculate Scope 1 and Scope 2 operational carbon reductions achieved through rooftop solar co-generation.</p>
-                        <a href="carbon-accounting-advisory.php" class="gb-related-link">Explore Service <i class="fa-solid fa-chevron-right"></i></a>
-                    </div>
-                </div>
-
-                <div class="gb-related-card">
-                    <div class="gb-related-img-box">
-                        <img src="assets/images/green-building-hero.png" alt="Green Building Certification">
-                    </div>
-                    <div class="gb-related-body">
-                        <h3>Green Building Certification</h3>
-                        <p>Earn high USGBC LEED and IGBC Energy &amp; Atmosphere (EA) points for on-site solar renewable energy generation.</p>
-                        <a href="green-building-certification.php" class="gb-related-link">Explore Service <i class="fa-solid fa-chevron-right"></i></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+    <?php 
+    $related_title = "Complementary Clean Energy Systems";
+    $related_label = "Integrated Services";
+    include 'includes/related-services.php'; 
+    ?>
 
     <!-- ==========================================
        PROJECTS SECTION (8 PROJECTS SLIDER)

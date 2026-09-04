@@ -747,63 +747,13 @@
     </section>
 
     <!-- ==========================================
-       12. RELATED SERVICES
+       12. RELATED SERVICES (QUERIED FROM HEADER)
        ========================================== -->
-    <section class="aud-section">
-        <div class="aud-container">
-            <div class="aud-section-header">
-                <span class="aud-label">Other Engineering Services</span>
-                <h2 class="aud-title-main">Related Building <span>Performance Services</span></h2>
-            </div>
-
-            <div class="aud-related-grid">
-                <!-- Service 1 -->
-                <div class="aud-related-card">
-                    <div class="aud-related-img-box">
-                        <img src="assets/images/simulation-hero.png" alt="Building CFD simulation analysis visualization">
-                        <div class="aud-related-icon-box">
-                            <i class="fa-solid fa-laptop-code"></i>
-                        </div>
-                    </div>
-                    <div class="aud-related-body">
-                        <h3>Simulation & Modeling Services</h3>
-                        <p>Advanced building-performance simulations that support informed design decisions, regulatory compliance, and occupant comfort.</p>
-                        <a href="simulation-modeling.php" class="aud-related-link">Explore Service <i class="fa-solid fa-chevron-right"></i></a>
-                    </div>
-                </div>
-
-                <!-- Service 2 -->
-                <div class="aud-related-card">
-                    <div class="aud-related-img-box">
-                        <img src="assets/images/energy-audit.png" alt="Energy and utility assessments diagnostic view">
-                        <div class="aud-related-icon-box">
-                            <i class="fa-solid fa-magnifying-glass-chart"></i>
-                        </div>
-                    </div>
-                    <div class="aud-related-body">
-                        <h3>Energy & Water Audits</h3>
-                        <p>Comprehensive resource audits that identify inefficiencies, reduce operating costs, and support more sustainable building performance.</p>
-                        <a href="audits.php" class="aud-related-link">Explore Service <i class="fa-solid fa-chevron-right"></i></a>
-                    </div>
-                </div>
-
-                <!-- Service 3 -->
-                <div class="aud-related-card">
-                    <div class="aud-related-img-box">
-                        <img src="assets/images/green-building-hero.png" alt="IGBC GRIHA USGBC LEED green certifications support">
-                        <div class="aud-related-icon-box">
-                            <i class="fa-solid fa-leaf"></i>
-                        </div>
-                    </div>
-                    <div class="aud-related-body">
-                        <h3>Green Building Certification Services</h3>
-                        <p>End-to-end consulting for IGBC, USGBC LEED, GRIHA, and WELL certifications to achieve gold and platinum ratings.</p>
-                        <a href="green-building-certification.php" class="aud-related-link">Explore Service <i class="fa-solid fa-chevron-right"></i></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+    <?php 
+    $related_title = "Related Building Performance Services";
+    $related_label = "Other Engineering Services";
+    include 'includes/related-services.php'; 
+    ?>
 
     <!-- ==========================================
        PROJECTS SECTION (8 PROJECTS SLIDER)

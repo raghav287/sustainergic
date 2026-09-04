@@ -366,51 +366,12 @@
     </section>
 
     <!-- ==========================================
-       7. RELATED MEDICAL SERVICES
+       7. RELATED SERVICES (QUERIED FROM HEADER)
        ========================================== -->
-    <section class="gb-section">
-        <div class="gb-container">
-            <div class="gb-section-header">
-                <span class="gb-label">Integrated Engineering</span>
-                <h2 class="gb-title-main">Complementary Medical Services</h2>
-            </div>
-
-            <div class="gb-grid-3">
-                <div class="gb-related-card">
-                    <div class="gb-related-img-box">
-                        <img src="assets/images/benefits-building.png" alt="Fresh Air System">
-                    </div>
-                    <div class="gb-related-body">
-                        <h3>Fresh Air &amp; ERV System</h3>
-                        <p>High-CFM outdoor air handling with UVGI germicidal lamps and HEPA filtration for medical wards.</p>
-                        <a href="fresh-air-system.php" class="gb-related-link">Explore Service <i class="fa-solid fa-chevron-right"></i></a>
-                    </div>
-                </div>
-
-                <div class="gb-related-card">
-                    <div class="gb-related-img-box">
-                        <img src="assets/images/hero.png" alt="Chilled Water Systems">
-                    </div>
-                    <div class="gb-related-body">
-                        <h3>Chilled Water Systems</h3>
-                        <p>Centralized medical facility chillers with dual power feeds and BACnet BMS monitoring.</p>
-                        <a href="chilled-water-system.php" class="gb-related-link">Explore Service <i class="fa-solid fa-chevron-right"></i></a>
-                    </div>
-                </div>
-
-                <div class="gb-related-card">
-                    <div class="gb-related-img-box">
-                        <img src="assets/images/daylight-simulation.png" alt="Building Simulation">
-                    </div>
-                    <div class="gb-related-body">
-                        <h3>CFD &amp; Airflow Simulation</h3>
-                        <p>3D airflow modeling for surgical theaters, isolating airborne contaminants away from sterile zones.</p>
-                        <a href="simulation-modeling.php" class="gb-related-link">Explore Service <i class="fa-solid fa-chevron-right"></i></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+    <?php 
+    $related_title = "Complementary Medical Solutions";
+    include 'includes/related-services.php'; 
+    ?>
 
     <!-- ==========================================
        PROJECTS SECTION (8 PROJECTS SLIDER)
