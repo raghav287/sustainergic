@@ -567,68 +567,60 @@
     $service_projects_subtitle = "Solar VRF &amp; Chiller HTS energy-saving retrofits and thermal optimization projects by Sustainergic Tech.";
     $service_projects = [
         [
-            'title' => 'Hyatt Regency Dehradun Resort',
-            'location' => 'Dehradun',
-            'tag' => 'VRF HTS Solar Retrofit',
+            'title' => 'ICICI Bank Regional Office',
+            'location' => 'Delhi',
+            'tag' => 'Solar Thermal & PV System',
             'badge_type' => 'badge-leed',
-            'description' => 'Deployed HTS solar thermal panels connected to central VRF outdoor units, cutting summer peak AC electrical power consumption by 36%.',
-            'image' => 'assets/images/hero.png'
+            'description' => 'Deployed rooftop hybrid thermal-solar panel arrays connected to central climate systems, cutting peak daytime power draw by 38%.',
+            'image' => 'assets/images/admin-building.png'
         ],
         [
-            'title' => 'IOCL Commercial Infrastructure',
-            'location' => 'Jalandhar',
-            'tag' => 'Chiller Plant HTS Boost',
+            'title' => 'REC Limited Corporate Complex',
+            'location' => 'Jaipur',
+            'tag' => 'Renewable Solar Cogeneration',
             'badge_type' => 'badge-igbc',
-            'description' => 'Connected parabolic HTS panels to process chillers, achieving COP 6.2 and reducing annual electricity costs by ₹14.5 Lakhs.',
+            'description' => 'Advanced hybrid solar thermal installation providing concurrent clean electricity and high-efficiency water heating for campus facilities.',
             'image' => 'assets/images/sustainable-architecture.png'
         ],
         [
-            'title' => 'Chitkara University Auditorium Complex',
-            'location' => 'Zirakpur',
-            'tag' => 'Auditorium AC Optimization',
+            'title' => 'Mazgaon Metropolitan Court - Phase 1',
+            'location' => 'Mumbai',
+            'tag' => 'Civic Infrastructure Solar Thermal',
             'badge_type' => 'badge-igbc',
-            'description' => 'Sun-tracking HTS panels retrofitted onto 30 HP VRF systems, eliminating peak summer cooling capacity deration.',
+            'description' => 'Sustainable institutional rooftop hybrid solar array engineered to optimize energy savings, reduce grid dependence, and supply solar hot water.',
             'image' => 'assets/images/benefits-building.png'
         ],
         [
-            'title' => 'Hotel Taj Panchkula Commercial Wing',
-            'location' => 'Panchkula',
-            'tag' => 'Chiller Refrigerant Boost',
+            'title' => 'Mazgaon Metropolitan Court - Phase 2',
+            'location' => 'Mumbai',
+            'tag' => 'Hybrid PV-T Solar Expansion',
             'badge_type' => 'badge-igbc',
-            'description' => 'Integrated HTS panel solar concentrators into central chiller refrigeration loops, achieving a 2.8 year financial ROI.',
-            'image' => 'assets/images/sbi-lho.png'
+            'description' => 'Extended hybrid solar-thermal collector array providing round-the-clock zero-emission hot water and auxiliary solar electrical generation.',
+            'image' => 'assets/images/hts-about.png'
         ],
         [
-            'title' => 'Vaibhav Global Corporate HQ',
-            'location' => 'Jaipur',
-            'tag' => 'Office VRF Solar Upgrade',
-            'badge_type' => 'badge-igbc',
-            'description' => 'Rooftop HTS panel array installed across 10 HP Daikin VRF units, cutting building summer AC power demand by 38%.',
+            'title' => 'NTPC Township & Regional HQ - Unit 2',
+            'location' => 'Naya Raipur',
+            'tag' => 'Industrial Solar Thermal & PV',
+            'badge_type' => 'badge-ea',
+            'description' => 'Grid-integrated high-performance hybrid PV-thermal collector array for public sector township utility heating and peak load reduction.',
+            'image' => 'assets/images/industry-hero.png'
+        ],
+        [
+            'title' => 'Tata Communications Data Center - Phase 2',
+            'location' => 'Chennai',
+            'tag' => 'Data Center Solar Cogeneration',
+            'badge_type' => 'badge-leed',
+            'description' => 'High-density solar photovoltaic-thermal system delivering co-generated electricity and heat dissipation cooling support for telecom infrastructure.',
             'image' => 'assets/images/daylight-simulation.png'
         ],
         [
-            'title' => 'Eastman Cast & Forge Facility',
-            'location' => 'Ludhiana',
-            'tag' => 'Industrial Chiller Solar Loop',
+            'title' => 'Asahi India Glass Manufacturing Facility',
+            'location' => 'Patan, Gujarat',
+            'tag' => 'Industrial Process Solar Heat & Power',
             'badge_type' => 'badge-ea',
-            'description' => 'HTS thermal panel collectors pre-heating process cooling refrigerant gas for heavy forge hydraulic chillers.',
-            'image' => 'assets/images/audits-hero.png'
-        ],
-        [
-            'title' => 'Advance Plastic Industries (Ecovia)',
-            'location' => 'Ludhiana',
-            'tag' => 'Molding Chiller Energy Saver',
-            'badge_type' => 'badge-ea',
-            'description' => 'HTS solar panel system retrofitted onto Carrier process chillers, lowering energy draw across 24/7 extrusion lines.',
-            'image' => 'assets/images/cfd-simulation.png'
-        ],
-        [
-            'title' => 'Platinum Mall Commercial Complex',
-            'location' => 'Lucknow',
-            'tag' => 'Commercial Mall HTS Array',
-            'badge_type' => 'badge-igbc',
-            'description' => 'Sun-tracking HTS panels installed on central mall chillers, saving over 35% in peak summer electrical billing.',
-            'image' => 'assets/images/emissions-calculation.png'
+            'description' => 'Large-scale hybrid solar collector installation providing industrial solar pre-heating and rooftop clean electrical generation with enhanced cell efficiency.',
+            'image' => 'assets/images/energy-simulation.png'
         ]
     ];
     include 'includes/service-projects-section.php';
