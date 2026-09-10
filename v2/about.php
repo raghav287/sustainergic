@@ -107,17 +107,17 @@
                         <div class="about-stats-grid">
 
                             <div class="about-stat-card about-stat-card--white">
-                                <strong>4+</strong>
+                                <strong>6</strong>
                                 <span>Years of Green Building Experience</span>
                             </div>
 
                             <div class="about-stat-card about-stat-card--dark">
-                                <strong>50+</strong>
+                                <strong>100+</strong>
                                 <span>Projects Delivered Across India</span>
                             </div>
 
                             <div class="about-stat-card about-stat-card--white">
-                                <strong>8</strong>
+                                <strong>43+</strong>
                                 <span>Green Building Certifications Handled</span>
                             </div>
 
@@ -130,7 +130,7 @@
 
                         <div class="about-stats-badges">
                             <span class="about-stat-badge">
-                                <i class="fa-solid fa-certificate"></i> LEED / BREEAM / IGBC Certified
+                                <i class="fa-solid fa-certificate"></i>  IGBC / LEED / GRIHA Certified
                             </span>
                             <span class="about-stat-badge">
                                 <i class="fa-solid fa-lightbulb"></i> Energy Simulation Experts
@@ -323,17 +323,17 @@
             <div class="overview-grid">
 
                 <div class="overview-stat">
-                    <strong>4+</strong>
+                    <strong>6</strong>
                     <span>Years of Green Building Experience</span>
                 </div>
 
                 <div class="overview-stat">
-                    <strong>50+</strong>
+                    <strong>100+</strong>
                     <span>Projects Delivered Across India</span>
                 </div>
 
                 <div class="overview-stat">
-                    <strong>8</strong>
+                    <strong>43+</strong>
                     <span>Green Building Certifications Handled</span>
                 </div>
 

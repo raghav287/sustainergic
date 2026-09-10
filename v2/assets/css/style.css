@@ -3606,11 +3606,11 @@ RESPONSIVE
 
     .testimonials-container {
 
-        max-width: 1320px;
+        max-width: 1360px;
 
         margin: auto;
 
-        padding: 0 24px;
+        padding: 0 76px;
 
         position: relative;
 
@@ -3646,7 +3646,7 @@ RESPONSIVE
 
     .testimonials-swiper {
 
-        padding: 10px 0 58px;
+        padding: 16px 8px 58px 8px;
 
         position: relative;
 
@@ -3880,11 +3880,11 @@ RESPONSIVE
 
         position: absolute;
 
-        top: calc(50% - 28px);
+        top: calc(50% - 40px);
 
-        width: 56px;
+        width: 54px;
 
-        height: 56px;
+        height: 54px;
 
         border-radius: 50%;
 
@@ -3902,7 +3902,7 @@ RESPONSIVE
 
         z-index: 12;
 
-        box-shadow: 0 12px 36px rgba(15, 23, 42, 0.12);
+        box-shadow: 0 10px 30px rgba(15, 23, 42, 0.12);
 
         border: 1px solid rgba(229, 231, 235, .9);
 
@@ -3928,13 +3928,13 @@ RESPONSIVE
 
     .testimonial-swiper-prev {
 
-        left: 0;
+        left: 10px;
 
     }
 
     .testimonial-swiper-next {
 
-        right: 0;
+        right: 10px;
 
     }
 
@@ -3959,23 +3959,27 @@ RESPONSIVE
     @media (min-width:1200px) {
 
         .testimonial-swiper-prev {
-            left: -10px;
+            left: 10px;
         }
 
         .testimonial-swiper-next {
-            right: -10px;
+            right: 10px;
         }
 
     }
 
     @media (min-width:1400px) {
 
+        .testimonials-container {
+            padding: 0 80px;
+        }
+
         .testimonial-swiper-prev {
-            left: -20px;
+            left: 12px;
         }
 
         .testimonial-swiper-next {
-            right: -20px;
+            right: 12px;
         }
 
     }
@@ -4034,6 +4038,10 @@ RESPONSIVE
 
     @media(max-width:1200px) {
 
+        .testimonials-container {
+            padding: 0 64px;
+        }
+
         .testimonials-heading {
             margin-bottom: 40px;
         }
@@ -4043,7 +4051,7 @@ RESPONSIVE
         }
 
         .testimonials-swiper {
-            padding: 8px 0 54px;
+            padding: 12px 6px 54px 6px;
         }
 
         .testimonial-swiper-btn {
@@ -4051,7 +4059,7 @@ RESPONSIVE
             width: 48px;
             height: 48px;
 
-            border-radius: 15px;
+            border-radius: 50%;
 
             font-size: 14px;
 

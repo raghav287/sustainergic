@@ -63,7 +63,7 @@
                 <!-- Right Column: Visual -->
                 <div class="aud-hero-visual">
                     <div class="aud-hero-img-wrapper">
-                        <img src="assets/images/audits-hero.png" alt="Commercial high-rise building with thermal and water consumption audit dashboard overlay">
+                        <img src="assets/images/audit hero.png" alt="Commercial high-rise building with thermal and water consumption audit dashboard overlay">
                     </div>
                     
                     <!-- Floating Indicator cards -->
@@ -99,7 +99,7 @@
             <div class="aud-grid-2">
                 <!-- Left Visual Column -->
                 <div class="aud-intro-visual-wrapper">
-                    <img src="assets/images/audits-intro.png" alt="Commercial facility 3D cutaway showing mechanical, lighting, and plumbing systems under audit" class="aud-intro-img">
+                    <img src="assets/images/audit-about.png" alt="Commercial facility 3D cutaway showing mechanical, lighting, and plumbing systems under audit" class="aud-intro-img">
                     <div class="aud-intro-badge">
                         <strong>ASHRAE</strong>
                         <span>Compliant Audits</span>
@@ -603,7 +603,7 @@
 
                 <!-- Right: Visual -->
                 <div class="aud-benefits-visual-wrapper">
-                    <img src="assets/images/audits-intro.png" alt="Facility cutaway model highlighting mechanical and water utilities inspection">
+                    <img src="assets/images/water-benifits.png" alt="Facility cutaway model highlighting mechanical and water utilities inspection">
                 </div>
             </div>
         </div>

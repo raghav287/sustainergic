@@ -572,7 +572,7 @@
             'tag' => 'Solar Thermal & PV System',
             'badge_type' => 'badge-leed',
             'description' => 'Deployed rooftop hybrid thermal-solar panel arrays connected to central climate systems, cutting peak daytime power draw by 38%.',
-            'image' => 'assets/images/admin-building.png'
+            'image' => 'assets/images/icici-bank-delhi.png'
         ],
         [
             'title' => 'REC Limited Corporate Complex',
@@ -580,7 +580,7 @@
             'tag' => 'Renewable Solar Cogeneration',
             'badge_type' => 'badge-igbc',
             'description' => 'Advanced hybrid solar thermal installation providing concurrent clean electricity and high-efficiency water heating for campus facilities.',
-            'image' => 'assets/images/sustainable-architecture.png'
+            'image' => 'assets/images/rec-jaipur-site.png'
         ],
         [
             'title' => 'Mazgaon Metropolitan Court - Phase 1',
@@ -588,7 +588,7 @@
             'tag' => 'Civic Infrastructure Solar Thermal',
             'badge_type' => 'badge-igbc',
             'description' => 'Sustainable institutional rooftop hybrid solar array engineered to optimize energy savings, reduce grid dependence, and supply solar hot water.',
-            'image' => 'assets/images/benefits-building.png'
+            'image' => 'assets/images/mazgaon-metropolitan-court.png'
         ],
         [
             'title' => 'Mazgaon Metropolitan Court - Phase 2',
@@ -596,7 +596,7 @@
             'tag' => 'Hybrid PV-T Solar Expansion',
             'badge_type' => 'badge-igbc',
             'description' => 'Extended hybrid solar-thermal collector array providing round-the-clock zero-emission hot water and auxiliary solar electrical generation.',
-            'image' => 'assets/images/hts-about.png'
+            'image' => 'assets/images/mazgaon-metropolitan-court -1.png'
         ],
         [
             'title' => 'NTPC Township & Regional HQ - Unit 2',
@@ -604,7 +604,7 @@
             'tag' => 'Industrial Solar Thermal & PV',
             'badge_type' => 'badge-ea',
             'description' => 'Grid-integrated high-performance hybrid PV-thermal collector array for public sector township utility heating and peak load reduction.',
-            'image' => 'assets/images/industry-hero.png'
+            'image' => 'assets/images/ntpc-naya-raipur.png'
         ],
         [
             'title' => 'Tata Communications Data Center - Phase 2',
@@ -612,7 +612,7 @@
             'tag' => 'Data Center Solar Cogeneration',
             'badge_type' => 'badge-leed',
             'description' => 'High-density solar photovoltaic-thermal system delivering co-generated electricity and heat dissipation cooling support for telecom infrastructure.',
-            'image' => 'assets/images/daylight-simulation.png'
+            'image' => 'assets/images/tata-communication.png'
         ],
         [
             'title' => 'Asahi India Glass Manufacturing Facility',
@@ -620,7 +620,7 @@
             'tag' => 'Industrial Process Solar Heat & Power',
             'badge_type' => 'badge-ea',
             'description' => 'Large-scale hybrid solar collector installation providing industrial solar pre-heating and rooftop clean electrical generation with enhanced cell efficiency.',
-            'image' => 'assets/images/energy-simulation.png'
+            'image' => 'assets/images/asahi-patan-1.png'
         ]
     ];
     include 'includes/service-projects-section.php';

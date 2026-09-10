@@ -531,7 +531,7 @@
                     <p>Rating Standards Covered</p>
                 </div>
                 <div class="gb-stat-item">
-                    <h3>6-Step</h3>
+                    <h3>7-Step</h3>
                     <p>Structured Success Roadmap</p>
                 </div>
             </div>
@@ -594,12 +594,12 @@
             'image' => 'assets/images/appworx.png'
         ],
         [
-            'title' => 'Chitkara University',
+            'title' => 'Martin Luther Block — Chitkara University',
             'location' => 'Chandigarh / Rajpura',
             'tag' => 'IGBC Green Campus',
             'badge_type' => 'badge-igbc',
-            'description' => 'Integrated green university campus block with passive solar architecture, campus-wide rainwater harvesting, and high daylight autonomy in academic halls.',
-            'image' => 'assets/images/green-building.png'
+            'description' => 'Integrated green university academic block (Martin Luther Block) featuring passive solar architecture, campus-wide rainwater harvesting, and high daylight autonomy.',
+            'image' => 'assets/images/martin-luther.png'
         ],
         [
             'title' => 'Havells India Ltd. - LT Export Plant',
