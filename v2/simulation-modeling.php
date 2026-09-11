@@ -181,7 +181,7 @@
                 <!-- 1. Energy Simulation -->
                 <div class="sm-alt-row">
                     <div class="sm-alt-visual">
-                        <img src="assets/images/energy-simulation.png" alt="Building energy model showcasing HVAC airflow paths and temperature zones">
+                        <img src="assets/images/energy-sim.png" alt="Building energy model showcasing HVAC airflow paths and temperature zones">
                     </div>
                     <div class="sm-alt-content">
                         <div class="sm-alt-content-header">
@@ -210,7 +210,7 @@
                 <!-- 2. Daylight Simulation -->
                 <div class="sm-alt-row">
                     <div class="sm-alt-visual">
-                        <img src="assets/images/daylight-simulation.png" alt="Daylight and glare analysis grid on office floor layout">
+                        <img src="assets/images/energy-daylight.png" alt="Daylight and glare analysis grid on office floor layout">
                     </div>
                     <div class="sm-alt-content">
                         <div class="sm-alt-content-header">
@@ -238,7 +238,7 @@
                 <!-- 3. CFD Simulation -->
                 <div class="sm-alt-row">
                     <div class="sm-alt-visual">
-                        <img src="assets/images/cfd-simulation.png" alt="Computational Fluid Dynamics showing vector wind streamlines around building">
+                        <img src="assets/images/internal-cfd.png" alt="Computational Fluid Dynamics showing vector wind streamlines around building">
                     </div>
                     <div class="sm-alt-content">
                         <div class="sm-alt-content-header">
@@ -278,7 +278,7 @@
                 <!-- 4. LCA Analysis -->
                 <div class="sm-alt-row">
                     <div class="sm-alt-visual">
-                        <img src="assets/images/lca-stages.png" alt="Life Cycle Assessment lifecycle diagram mapping embodied carbon and environmental impacts">
+                        <img src="assets/images/lca.png" alt="Life Cycle Assessment lifecycle diagram mapping embodied carbon and environmental impacts">
                     </div>
                     <div class="sm-alt-content">
                         <div class="sm-alt-content-header">
@@ -591,68 +591,44 @@
     $service_projects_subtitle = "High-fidelity thermal, daylighting, energy, and Computational Fluid Dynamics (CFD) simulation projects executed by Sustainergic Tech.";
     $service_projects = [
         [
-            'title' => 'Netsmartz IT Tower',
-            'location' => 'Mohali',
-            'tag' => 'CFD & Thermal Model',
-            'badge_type' => 'badge-ea',
-            'description' => 'Whole-building energy simulation and thermal comfort analysis for high-density IT workstation floors. Predicted indoor air velocity and mean radiant temperatures to prevent hot-spots and cut AC sizing.',
-            'image' => 'assets/images/cfd-simulation.png'
-        ],
-        [
-            'title' => 'Appworx Commercial Tower',
-            'location' => 'Mohali',
-            'tag' => 'Daylight & Energy Model',
-            'badge_type' => 'badge-ea',
-            'description' => 'Comprehensive daylight simulation and solar heat gain coefficient (SHGC) glass optimization modeling. Calculated Spatial Daylight Autonomy (sDA) to maximize natural illumination while reducing solar radiation.',
-            'image' => 'assets/images/daylight-simulation.png'
-        ],
-        [
-            'title' => 'VRS Fintech Square',
-            'location' => 'Mohali',
-            'tag' => 'Energy Simulation',
-            'badge_type' => 'badge-ea',
-            'description' => 'Energy simulation modeling for envelope optimization, HVAC chiller sizing, and peak electrical demand reduction. Achieved 24% lower annual energy consumption against baseline ASHRAE 90.1 models.',
-            'image' => 'assets/images/energy-simulation.png'
-        ],
-        [
-            'title' => 'Vaibhav Global Head Office',
-            'location' => 'Jaipur',
-            'tag' => 'Whole Building Simulation',
-            'badge_type' => 'badge-ea',
-            'description' => 'Whole-building energy modeling evaluating multi-glazed facade options, roof thermal insulation, and variable refrigerant flow performance in arid desert climate conditions.',
-            'image' => 'assets/images/simulation-intro.png'
-        ],
-        [
-            'title' => '42 Works Digital Center',
-            'location' => 'Mohali',
-            'tag' => 'Airflow & Microclimate CFD',
-            'badge_type' => 'badge-ea',
-            'description' => 'Advanced 3D CFD airflow simulation for server room heat dissipation and open-office ventilation distribution, mitigating stagnant air zones and optimizing supply diffuser placements.',
-            'image' => 'assets/images/simulation-hero.png'
-        ],
-        [
-            'title' => 'Vedatam Commercial Mall',
+            'title' => 'Vedatam Mall',
             'location' => 'Gurugram',
             'tag' => 'Atrium Daylight Simulation',
             'badge_type' => 'badge-ea',
             'description' => 'Atrium glass daylighting simulation and glare analysis for retail common walkways, guiding high-performance glass specification and shading louver angles.',
-            'image' => 'assets/images/sustainable-architecture.png'
+            'image' => 'assets/images/vedanta-mall.png'
         ],
         [
-            'title' => 'Chitkara University Rockefeller Block',
-            'location' => 'Zirakpur',
-            'tag' => 'Thermal Comfort Model',
+            'title' => 'VRS Fintech Square Mall',
+            'location' => 'Mohali',
+            'tag' => 'Energy Simulation',
             'badge_type' => 'badge-ea',
-            'description' => 'PMV/PPD thermal comfort simulation modeling for university lecture halls and computer laboratories, ensuring compliance with NBC 2016 adaptive thermal comfort bands.',
-            'image' => 'assets/images/benefits-building.png'
+            'description' => 'Energy simulation modeling for envelope optimization, HVAC chiller sizing, and peak electrical demand reduction. Achieved 24% lower annual energy consumption against baseline ASHRAE 90.1 models.',
+            'image' => 'assets/images/vrs-fintech.png'
         ],
         [
-            'title' => 'The Crest Hills Complex',
-            'location' => 'Faridabad',
-            'tag' => 'Solar Shading Analysis',
+            'title' => 'Royal Apartment',
+            'location' => 'Panchkula',
+            'tag' => 'Daylight Simulation',
             'badge_type' => 'badge-ea',
-            'description' => 'Sun-path solar radiation and shading analysis for residential high-rise towers, evaluating window overhangs and vertical fins to lower summer cooling loads.',
-            'image' => 'assets/images/sbi-lho.png'
+            'description' => 'High-fidelity daylight simulation and microclimate solar analysis for luxury residential tower apartments, optimizing window placement and natural lighting autonomy.',
+            'image' => 'assets/images/royal-apartment.png'
+        ],
+        [
+            'title' => 'VRS Fintech Square Mall',
+            'location' => 'Mohali',
+            'tag' => 'Daylight Simulation',
+            'badge_type' => 'badge-ea',
+            'description' => 'Comprehensive daylight simulation and solar heat gain coefficient (SHGC) glass optimization modeling. Calculated Spatial Daylight Autonomy (sDA) to maximize natural illumination.',
+            'image' => 'assets/images/vrs-daylight.png'
+        ],
+        [
+            'title' => '42 Works',
+            'location' => 'Mohali',
+            'tag' => 'Airflow & Microclimate CFD',
+            'badge_type' => 'badge-ea',
+            'description' => 'Advanced 3D CFD airflow simulation for server room heat dissipation and open-office ventilation distribution, mitigating stagnant air zones and optimizing supply diffuser placements.',
+            'image' => 'assets/images/42-works.png'
         ]
     ];
     include 'includes/service-projects-section.php';

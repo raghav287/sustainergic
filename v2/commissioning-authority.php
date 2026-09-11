@@ -181,7 +181,7 @@
                 <!-- 1. Fundamental Commissioning -->
                 <div class="aud-alt-row">
                     <div class="aud-alt-visual">
-                        <img src="assets/images/fundamental-commissioning.png" alt="Commissioning engineer checking HVAC electrical wiring and checklists">
+                        <img src="assets/images/fundamental.png" alt="Commissioning engineer checking HVAC electrical wiring and checklists">
                     </div>
                     <div class="aud-alt-content">
                         <div class="aud-alt-content-header">
@@ -222,7 +222,7 @@
                 <!-- 2. Enhanced Commissioning -->
                 <div class="aud-alt-row">
                     <div class="aud-alt-visual">
-                        <img src="assets/images/enhanced-commissioning.png" alt="Technician calibrating control loops and analyzing parameters on energy dashboard">
+                        <img src="assets/images/enhanced.png" alt="Technician calibrating control loops and analyzing parameters on energy dashboard">
                     </div>
                     <div class="aud-alt-content">
                         <div class="aud-alt-content-header">
