@@ -134,13 +134,30 @@
                                 <label for="cf-service">Service You Need</label>
                                 <select id="cf-service" name="service">
                                     <option value="">Choose a service…</option>
-                                    <option>Green Building Certification</option>
-                                    <option>Energy Simulation</option>
-                                    <option>HVAC Design &amp; Installation</option>
-                                    <option>Building Commissioning</option>
-                                    <option>Renewable Energy Systems</option>
-                                    <option>Sustainability Consulting</option>
-                                    <option>Other</option>
+                                    <optgroup label="Engineering &amp; Advisory Services">
+                                        <option value="Green Building Certification">Green Building Certification</option>
+                                        <option value="Building Simulation &amp; Modeling">Building Simulation &amp; Modeling</option>
+                                        <option value="Energy, Water &amp; Carbon Audits">Energy, Water &amp; Carbon Audits</option>
+                                        <option value="Commissioning Authority (CxA)">Commissioning Authority (CxA)</option>
+                                        <option value="ECBC / ECSBC Compliance">ECBC / ECSBC Compliance</option>
+                                        <option value="Carbon Accounting &amp; Advisory">Carbon Accounting &amp; Advisory</option>
+                                        <option value="IoT Water Solution">IoT Water Solution</option>
+                                        <option value="Hybrid Thermal Solar (HTS) Panel">Hybrid Thermal Solar (HTS) Panel</option>
+                                        <option value="ESG and EHS Advisory">ESG and EHS Advisory</option>
+                                    </optgroup>
+                                    <optgroup label="HVAC &amp; Thermal Engineering Solutions">
+                                        <option value="Radiant Heating &amp; Cooling System">Radiant Heating &amp; Cooling System</option>
+                                        <option value="Underfloor Electric Heating System">Underfloor Electric Heating System</option>
+                                        <option value="Geothermal System">Geothermal System</option>
+                                        <option value="Fresh Air System (IAQ)">Fresh Air System (IAQ)</option>
+                                        <option value="Chilled Water System">Chilled Water System</option>
+                                        <option value="VRV / VRF System">VRV / VRF System</option>
+                                        <option value="Heat Pumps">Heat Pumps</option>
+                                        <option value="Radiators">Radiators</option>
+                                        <option value="Industrial HVAC Solutions">Industrial HVAC Solutions</option>
+                                        <option value="Precision Medical Cooling Solution">Precision Medical Cooling Solution</option>
+                                    </optgroup>
+                                    <option value="Other">Other / Custom Requirement</option>
                                 </select>
                             </div>
                         </div>
