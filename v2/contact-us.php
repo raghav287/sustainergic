@@ -1,3 +1,69 @@
+<?php
+require_once __DIR__ . '/includes/smtp-config.php';
+require_once __DIR__ . '/includes/SmtpMailer.php';
+require_once __DIR__ . '/includes/email-templates.php';
+
+$form_success = false;
+$form_error = '';
+$form_data = [
+    'name' => '',
+    'email' => '',
+    'phone' => '',
+    'service' => '',
+    'company' => '',
+    'location' => '',
+    'message' => ''
+];
+
+if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+    $form_data['name']     = trim($_POST['name'] ?? '');
+    $form_data['email']    = trim($_POST['email'] ?? '');
+    $form_data['phone']    = trim($_POST['phone'] ?? '');
+    $form_data['service']  = trim($_POST['service'] ?? '');
+    $form_data['company']  = trim($_POST['company'] ?? '');
+    $form_data['location'] = trim($_POST['location'] ?? '');
+    $form_data['message']  = trim($_POST['message'] ?? '');
+
+    // Basic Validation
+    if (empty($form_data['name']) || empty($form_data['email']) || empty($form_data['message'])) {
+        $form_error = 'Please fill in all required fields (Name, Email, and Message).';
+    } elseif (!filter_var($form_data['email'], FILTER_VALIDATE_EMAIL)) {
+        $form_error = 'Please enter a valid email address.';
+    } else {
+        $mailer = new SmtpMailer();
+
+        // 1. Admin Email (Notification via PHPMailer)
+        $adminSubject = "New Project Inquiry: " . ($form_data['service'] ? $form_data['service'] : 'General') . " - " . $form_data['name'];
+        $adminBody    = getAdminEmailTemplate($form_data);
+        $adminTo      = defined('ADMIN_NOTIFICATION_EMAIL') ? ADMIN_NOTIFICATION_EMAIL : 'business@sustainergictech.in';
+        $adminCc      = defined('ADMIN_NOTIFICATION_CC') ? ADMIN_NOTIFICATION_CC : '';
+
+        $adminSent = $mailer->send($adminTo, $adminSubject, $adminBody, $form_data['email'], $adminCc);
+
+        // 2. Customer Email (Auto-responder Confirmation via PHPMailer)
+        $customerSubject = "Thank you for contacting Sustainergic Tech";
+        $customerBody    = getCustomerEmailTemplate($form_data);
+
+        $customerSent = $mailer->send($form_data['email'], $customerSubject, $customerBody);
+
+        if ($adminSent || $customerSent) {
+            $form_success = true;
+            // Reset form fields on success
+            $form_data = [
+                'name' => '',
+                'email' => '',
+                'phone' => '',
+                'service' => '',
+                'company' => '',
+                'location' => '',
+                'message' => ''
+            ];
+        } else {
+            $form_error = 'Unable to send message: ' . ($mailer->getLastError() ? $mailer->getLastError() : 'Please check your SMTP credentials or contact business@sustainergictech.in');
+        }
+    }
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -97,7 +163,7 @@
 
                 <!-- Contact Form -->
 
-                <div class="contact-form-wrapper">
+                <div class="contact-form-wrapper" id="contact-form-wrapper">
 
                     <div class="contact-form-head">
 
@@ -112,7 +178,21 @@
 
                     </div>
 
-                    <form class="contact-form" action="#" method="post">
+                    <?php if ($form_success): ?>
+                        <div id="formAlert" class="alert-box alert-success" style="transition: opacity 0.5s ease-out; background: #e6f4ea; border: 1px solid #34a853; color: #137333; padding: 15px 20px; border-radius: 8px; margin-bottom: 25px; font-weight: 500;">
+                            <i class="fa-solid fa-circle-check" style="margin-right: 8px; font-size: 18px;"></i>
+                            Thank you! Your message has been sent successfully. Our engineering team will contact you within 24 hours.
+                        </div>
+                    <?php endif; ?>
+
+                    <?php if (!empty($form_error)): ?>
+                        <div id="formAlert" class="alert-box alert-error" style="transition: opacity 0.5s ease-out; background: #fce8e6; border: 1px solid #ea4335; color: #c5221f; padding: 15px 20px; border-radius: 8px; margin-bottom: 25px; font-weight: 500;">
+                            <i class="fa-solid fa-circle-exclamation" style="margin-right: 8px; font-size: 18px;"></i>
+                            <?php echo htmlspecialchars($form_error); ?>
+                        </div>
+                    <?php endif; ?>
+
+                    <form class="contact-form" action="#contact-form-wrapper" method="post">
 
                         <div class="cf-row cf-row-2">
                             <div class="cf-field">
@@ -269,6 +349,25 @@
             buttons.forEach(b => b.classList.remove('active'));
             btn.classList.add('active');
         }
+
+        <?php if ($form_success || !empty($form_error)): ?>
+        document.addEventListener("DOMContentLoaded", function() {
+            const formElem = document.getElementById("contact-form-wrapper");
+            if (formElem) {
+                formElem.scrollIntoView({ behavior: "smooth", block: "start" });
+            }
+
+            const alertElem = document.getElementById("formAlert");
+            if (alertElem) {
+                setTimeout(function() {
+                    alertElem.style.opacity = "0";
+                    setTimeout(function() {
+                        alertElem.style.display = "none";
+                    }, 500);
+                }, 5000); // Auto hide confirmation/error message after 5 seconds
+            }
+        });
+        <?php endif; ?>
     </script>
 
 </body>
