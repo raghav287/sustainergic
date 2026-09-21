@@ -373,74 +373,98 @@
     ?>
 
     <!-- ==========================================
-       PROJECTS SECTION (8 PROJECTS SLIDER)
+       PROJECTS SECTION (PRECISION MEDICAL COOLING PORTFOLIO)
        ========================================== -->
     <?php
     $service_projects_title = "Precision Medical &amp; Healthcare Projects";
-    $service_projects_subtitle = "Hospital diagnostic chillers, operating theater laminar flow systems, and medical research cleanroom cooling executed by Sustainergic Tech.";
+    $service_projects_subtitle = "Hospital diagnostic chillers, MRI/CT precision liquid cooling, and sterile operating theater HVAC executed by Sustainergic Tech.";
     $service_projects = [
         [
-            'title' => 'Fortis Multi-Specialty Hospital',
-            'location' => 'Mohali',
-            'tag' => 'MRI Scanner Chiller',
+            'title' => 'AIIMS Delhi',
+            'location' => 'New Delhi',
+            'tag' => 'Diagnostic MRI & CT Chillers',
             'badge_type' => 'badge-igbc',
-            'description' => 'N+1 redundant precision water chiller plant installed for 3.0 Tesla MRI helium compressor cooling, maintaining ±0.1°C thermal stability with dual pump transfer.',
-            'image' => 'assets/images/lca-stages.png'
+            'description' => 'Precision hospital liquid chiller plant providing ultra-stable ±0.1°C chilled water cooling for superconducting MRI magnets and high-throughput CT scanner suites.',
+            'image' => 'assets/images/medical-hero.png'
         ],
         [
-            'title' => 'Max Super Specialty Hospital Suite',
-            'location' => 'Delhi NCR',
-            'tag' => 'Laminar Flow OT HVAC',
-            'badge_type' => 'badge-igbc',
-            'description' => 'ISO Class 5 ultra-clean laminar airflow distribution ceilings in 6 cardiac operating theaters with 99.997% HEPA filtration and differential pressure monitors.',
-            'image' => 'assets/images/sbi-lho.png'
+            'title' => 'Max Hospital',
+            'location' => 'Vaishali, Ghaziabad (NCR)',
+            'tag' => 'OT Laminar Flow & Medical Cooling',
+            'badge_type' => 'badge-leed',
+            'description' => 'Hospital operating theater precision HVAC and diagnostic medical cooling system with terminal HEPA filtration, positive pressure cascades, and strict humidity control.',
+            'image' => 'assets/images/medical-about.png'
         ],
         [
-            'title' => 'PGIMER Advanced Medical Research Center',
-            'location' => 'Chandigarh',
-            'tag' => 'CT Scanner Precision Chiller',
-            'badge_type' => 'badge-ea',
-            'description' => 'Closed-circuit glycol precision chillers engineered for high-radiation diagnostic imaging CT scanners with dual emergency city-water backup valves.',
+            'title' => 'Max Hospital',
+            'location' => 'Saket, New Delhi',
+            'tag' => 'High-Tesla MRI Precision Chiller',
+            'badge_type' => 'badge-leed',
+            'description' => 'Mission-critical dual-circuit precision chiller plant with N+1 compressor redundancy for advanced 3.0T MRI helium compressor cold heads and cardiac catheterization labs.',
             'image' => 'assets/images/benefits-building.png'
         ],
         [
-            'title' => 'Noida International University Medical Block',
-            'location' => 'Noida',
-            'tag' => 'Negative Pressure Isolation Wards',
+            'title' => 'Mahajan Imaging & Labs',
+            'location' => 'New Delhi',
+            'tag' => 'Advanced Radiology Precision Chillers',
             'badge_type' => 'badge-ea',
-            'description' => '100% fresh air exhaust isolation ward HVAC system featuring exhaust HEPA filter banks and differential pressure cascading control.',
-            'image' => 'assets/images/audits-hero.png'
+            'description' => 'Dedicated high-reliability precision medical chillers engineered for state-of-the-art MRI, CT, and PET-CT imaging equipment, eliminating diagnostic downtime during peak patient scan loads.',
+            'image' => 'assets/images/lca-stages.png'
         ],
         [
-            'title' => 'Chitkara School of Health Sciences',
-            'location' => 'Zirakpur',
-            'tag' => 'Pathology Cleanroom HVAC',
+            'title' => 'Continental Hospital',
+            'location' => 'Hyderabad, Telangana',
+            'tag' => 'Critical Care & Diagnostic Cooling',
             'badge_type' => 'badge-igbc',
-            'description' => 'Clinical diagnostics cleanroom laboratory HVAC maintaining strict 22°C ± 0.5°C temperature and 50% RH humidity control for automated blood analyzers.',
+            'description' => 'Centralized precision medical cooling infrastructure supporting surgical suites, radiology imaging scanners, and pharmaceutical cold storage with automatic failover backup.',
+            'image' => 'assets/images/sustainable-architecture.png'
+        ],
+        [
+            'title' => 'SKN Diagnostic',
+            'location' => 'Ujjain, Madhya Pradesh',
+            'tag' => 'Medical Imaging Chiller Plant',
+            'badge_type' => 'badge-ea',
+            'description' => 'Closed-circuit precision water chiller solution engineered for magnetic resonance imaging (MRI) and multi-slice CT equipment, ensuring continuous temperature stability.',
             'image' => 'assets/images/hero.png'
         ],
         [
-            'title' => 'SBI Executive Healthcare Center',
-            'location' => 'Panchkula',
-            'tag' => 'Pharma Cold Room Refrigeration',
+            'title' => 'KIMS Kondapur',
+            'location' => 'Hyderabad, Telangana',
+            'tag' => 'Hospital MRI & OT Precision HVAC',
             'badge_type' => 'badge-igbc',
-            'description' => 'Dual-compressor 2°C to 8°C pharmaceutical vaccine cold room refrigeration with automated SMS alert logs and UPS battery backup.',
-            'image' => 'assets/images/commissioning-hero.png'
-        ],
-        [
-            'title' => 'Hyatt Regency Dehradun Wellness Spa',
-            'location' => 'Dehradun',
-            'tag' => 'Medical Hydrotherapy Cooling',
-            'badge_type' => 'badge-leed',
-            'description' => 'Titanium heat exchanger water chiller system for specialized cold plunge recovery pools with UV sanitation and quiet operation.',
+            'description' => 'Precision chiller and sterile operating room HVAC integration engineered for major multi-specialty healthcare campus, ensuring strict thermal and aseptic environmental compliance.',
             'image' => 'assets/images/cfd-simulation.png'
         ],
         [
-            'title' => 'Sentro Diagnostics Imaging Hub',
-            'location' => 'Gurugram',
-            'tag' => 'Linear Accelerator Chiller',
+            'title' => 'KIMS Mumbai',
+            'location' => 'Mumbai, Maharashtra',
+            'tag' => 'Medical Scanner Precision Chillers',
+            'badge_type' => 'badge-igbc',
+            'description' => 'High-efficiency medical equipment liquid chiller systems engineered for coastal ambient conditions, providing continuous cooling for oncology and diagnostic imaging departments.',
+            'image' => 'assets/images/audits-hero.png'
+        ],
+        [
+            'title' => 'DY Patil Hospital',
+            'location' => 'Mumbai, Maharashtra',
+            'tag' => 'Super-Specialty Hospital Cooling',
+            'badge_type' => 'badge-igbc',
+            'description' => 'High-capacity precision chillers and cleanroom HVAC controls serving tertiary care hospital diagnostic blocks, surgical operating theaters, and sterile medical supply rooms.',
+            'image' => 'assets/images/commissioning-hero.png'
+        ],
+        [
+            'title' => 'Popular Diagnostic',
+            'location' => 'Dhaka, Bangladesh',
+            'tag' => 'International Medical Imaging Cooling',
             'badge_type' => 'badge-ea',
-            'description' => 'High-capacity medical chiller engineered for oncology linear accelerator equipment, eliminating thermal shutoffs during peak patient scan schedules.',
+            'description' => 'Specialized export medical precision chiller installation providing uninterrupted liquid cooling for high-frequency MRI and CT diagnostic scanners in Bangladesh\'s leading healthcare network.',
+            'image' => 'assets/images/sbi-lho.png'
+        ],
+        [
+            'title' => 'Islami Bank Hospital',
+            'location' => 'Chattogram, Bangladesh',
+            'tag' => 'Hospital Imaging & Surgical Cooling',
+            'badge_type' => 'badge-ea',
+            'description' => 'Precision medical fluid chillers and critical zone temperature regulation engineered for multi-specialty diagnostic imaging and surgical facilities in Chattogram.',
             'image' => 'assets/images/daylight-simulation.png'
         ]
     ];

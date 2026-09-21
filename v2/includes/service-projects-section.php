@@ -303,7 +303,7 @@ $unique_id = 'sp_swiper_' . uniqid();
         </div>
 
         <!-- Swiper Container -->
-        <div class="swiper <?php echo $unique_id; ?>" style="padding: 10px 4px 10px;">
+        <div class="swiper <?php echo $unique_id; ?>" style="padding: 10px 4px 10px; <?php if (count($service_projects) === 1) echo 'max-width: 780px; margin: 0 auto;'; ?>">
             <div class="swiper-wrapper">
                 <?php foreach ($service_projects as $proj): ?>
                     <div class="swiper-slide" style="height: auto;">
@@ -338,7 +338,8 @@ $unique_id = 'sp_swiper_' . uniqid();
             </div>
         </div>
 
-        <!-- Custom Swiper Navigation Controls (Placed Outside Swiper for Perfect Centering) -->
+        <!-- Custom Swiper Navigation Controls (Only shown when multiple projects exist) -->
+        <?php if (count($service_projects) > 1): ?>
         <div class="sp-swiper-controls-bar">
             <div class="sp-nav-btn <?php echo $unique_id; ?>-prev">
                 <i class="fa-solid fa-chevron-left"></i>
@@ -348,6 +349,7 @@ $unique_id = 'sp_swiper_' . uniqid();
                 <i class="fa-solid fa-chevron-right"></i>
             </div>
         </div>
+        <?php endif; ?>
 
     </div>
 </section>
@@ -355,15 +357,16 @@ $unique_id = 'sp_swiper_' . uniqid();
 <script>
 document.addEventListener('DOMContentLoaded', function () {
     if (typeof Swiper !== 'undefined') {
+        var projCount = <?php echo count($service_projects); ?>;
         new Swiper('.<?php echo $unique_id; ?>', {
             slidesPerView: 1,
             spaceBetween: 24,
-            loop: true,
-            autoplay: {
+            loop: projCount > 2,
+            autoplay: projCount > 1 ? {
                 delay: 4500,
                 disableOnInteraction: false,
                 pauseOnMouseEnter: true
-            },
+            } : false,
             pagination: {
                 el: '.<?php echo $unique_id; ?>-pag',
                 clickable: true,
@@ -374,7 +377,7 @@ document.addEventListener('DOMContentLoaded', function () {
             },
             breakpoints: {
                 992: {
-                    slidesPerView: 2,
+                    slidesPerView: projCount === 1 ? 1 : 2,
                     spaceBetween: 24
                 }
             }

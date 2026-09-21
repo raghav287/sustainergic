@@ -363,75 +363,67 @@
     ?>
 
     <!-- ==========================================
-       PROJECTS SECTION (8 PROJECTS SLIDER)
+       PROJECTS SECTION (RADIANT HEATING PORTFOLIO)
        ========================================== -->
     <?php
-    $service_projects_title = "Radiant Heating & Cooling Projects";
-    $service_projects_subtitle = "Hydronic in-slab radiant cooling grids and radiant ceiling panel installations engineered by Sustainergic Tech.";
+    $service_projects_title = "Radiant Heating Projects Portfolio";
+    $service_projects_subtitle = "High-altitude cold climate radiant heating installations, luxury mountain resorts, and hydronic thermal engineering by Sustainergic Tech.";
     $service_projects = [
         [
-            'title' => 'Hyatt Regency Dehradun Resort',
-            'location' => 'Dehradun',
-            'tag' => 'In-Slab Radiant Cooling',
+            'title' => 'The Doksa',
+            'location' => 'Spiti, Himachal Pradesh',
+            'tag' => 'Radiant Floor Heating',
+            'badge_type' => 'badge-igbc',
+            'description' => 'High-altitude hydronic radiant floor heating system engineered for extreme sub-zero Himalayan winters in Spiti Valley, maintaining uniform indoor thermal comfort without dry air drafts.',
+            'image' => 'assets/images/the-doksa.jpg'
+        ],
+        [
+            'title' => 'Kudos Krest',
+            'location' => 'Mukteshwar, Uttarakhand',
+            'tag' => 'In-Slab Hydronic Radiant',
             'badge_type' => 'badge-leed',
-            'description' => 'In-slab hydronic radiant cooling system installed across luxury grand lobby and public convention areas for draft-free thermal comfort, silent operation, and 35% lower HVAC energy consumption.',
-            'image' => 'assets/images/hero.png'
+            'description' => 'Embedded in-slab hydronic radiant heating grid coupled with high-efficiency heat pump loops, delivering luxurious draft-free floor warmth across mountain resort cottages.',
+            'image' => 'assets/images/kudos-krest.jpg'
         ],
         [
-            'title' => 'Dewcrest - Gulnaar Meadows',
-            'location' => 'Zirakpur',
-            'tag' => 'Hydronic Floor Heating',
+            'title' => 'Pinegrove School',
+            'location' => 'Subathu, Himachal Pradesh',
+            'tag' => 'Campus Hydronic Heating',
             'badge_type' => 'badge-igbc',
-            'description' => 'Sustainable residential township equipped with energy-efficient PEX hydronic floor heating grids connected to central heat pump loops, eliminating cold floor drafts in winter.',
-            'image' => 'assets/images/benefits-building.png'
+            'description' => 'Campus-wide low-temperature hydronic radiant heating installation across academic blocks and dormitories, ensuring energy-efficient warmth and optimal student focus.',
+            'image' => 'assets/images/pinegrove-school.jpg'
         ],
         [
-            'title' => 'Sukhavas Luxury Residence',
-            'location' => 'Panchkula',
-            'tag' => 'Radiant Ceiling Panels',
-            'badge_type' => 'badge-igbc',
-            'description' => 'Luxury eco-residence featuring integrated radiant cooling ceiling panels combined with ground-source heat pump hydronics and automated dew-point condensation prevention sensors.',
-            'image' => 'assets/images/sustainable-architecture.png'
+            'title' => 'Marriott Hotel',
+            'location' => 'Pahalgam, Jammu & Kashmir',
+            'tag' => 'Luxury Hospitality Radiant',
+            'badge_type' => 'badge-leed',
+            'description' => 'Premium multi-zone hydronic radiant heating system integrated into guest suites, grand lobby, and indoor dining halls, maintaining silent and draft-free thermal comfort during snowfall.',
+            'image' => 'assets/images/marriott-pahalgam.jpg'
         ],
         [
-            'title' => 'Hotel Taj Panchkula Heritage Wing',
-            'location' => 'Panchkula',
-            'tag' => 'Hydronic Radiant Cooling',
+            'title' => 'Char Machan',
+            'location' => 'Badrinath, Uttarakhand',
+            'tag' => 'Hydronic Radiant Floor',
             'badge_type' => 'badge-igbc',
-            'description' => 'Silent hydronic radiant cooling circuit integrated with thermal storage screed floor beds, providing uniform indoor air temperatures without forced air noise or dust circulation.',
-            'image' => 'assets/images/sbi-lho.png'
+            'description' => 'Hydronic radiant floor heating system engineered for luxury alpine cottages in Badrinath, providing uniform draft-free warmth and superior thermal comfort during freezing sub-zero weather.',
+            'image' => 'assets/images/char-machan.jpg'
         ],
         [
-            'title' => 'Netsmartz Corporate Tech Center',
-            'location' => 'Mohali',
-            'tag' => 'Passive Chilled Beams',
-            'badge_type' => 'badge-igbc',
-            'description' => 'Passive chilled beam radiant cooling installation in open-plan corporate IT offices, delivering exceptional occupant thermal satisfaction and low annual maintenance overhead.',
-            'image' => 'assets/images/cfd-simulation.png'
+            'title' => 'Taj Ginger',
+            'location' => 'Badrinath, Uttarakhand',
+            'tag' => 'Radiant Heating & DHW',
+            'badge_type' => 'badge-leed',
+            'description' => 'Integrated hydronic radiant floor heating and heat pump sanitary hot water infrastructure designed for high-altitude hospitality suites in Badrinath.',
+            'image' => 'assets/images/taj-ginger.jpg'
         ],
         [
-            'title' => 'Chitkara University Kotler Block',
-            'location' => 'Zirakpur',
-            'tag' => 'Thermally Active Slab (TABS)',
+            'title' => 'Resort Project',
+            'location' => 'Narkanda, Himachal Pradesh',
+            'tag' => 'Alpine Resort Radiant System',
             'badge_type' => 'badge-igbc',
-            'description' => 'Thermally Active Building System (TABS) embedded in structural concrete floor slabs, utilizing off-peak night chillers to store cooling capacity for daytime academic use.',
-            'image' => 'assets/images/commissioning-hero.png'
-        ],
-        [
-            'title' => 'The Residence Villa Complex',
-            'location' => 'Gurugram',
-            'tag' => 'Zoned Radiant Heating',
-            'badge_type' => 'badge-igbc',
-            'description' => 'Multi-zone hydronic radiant floor heating with intelligent room thermostats and manifold mixing stations for custom temperature regulation in every living area.',
-            'image' => 'assets/images/audits-hero.png'
-        ],
-        [
-            'title' => 'Avanta Greens Eco Clubhouse',
-            'location' => 'Punjab',
-            'tag' => 'Geothermal Radiant System',
-            'badge_type' => 'badge-igbc',
-            'description' => 'Ground-source geothermal loop coupled with radiant floor heating and cooling grids, serving as a zero-carbon thermal comfort showcase for township residents.',
-            'image' => 'assets/images/daylight-simulation.png'
+            'description' => 'High-efficiency hydronic radiant heating network embedded across boutique alpine resort suites, delivering silent warmth and 38% lower space heating energy costs in Narkanda.',
+            'image' => 'assets/images/resort-narkanda.jpg'
         ]
     ];
     include 'includes/service-projects-section.php';

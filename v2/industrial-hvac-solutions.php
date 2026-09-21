@@ -373,75 +373,35 @@
     ?>
 
     <!-- ==========================================
-       PROJECTS SECTION (8 PROJECTS SLIDER)
+       PROJECTS SECTION (INDUSTRIAL HVAC PORTFOLIO)
        ========================================== -->
     <?php
-    $service_projects_title = "Industrial HVAC & Process Cooling Projects";
-    $service_projects_subtitle = "Heavy manufacturing, automotive plants, process chillers, cleanrooms, and industrial ventilation installations by Sustainergic Tech.";
+    $service_projects_title = "Industrial HVAC &amp; Process Cooling Projects";
+    $service_projects_subtitle = "Heavy manufacturing, beverage bottling plants, process chillers, and industrial ventilation installations by Sustainergic Tech.";
     $service_projects = [
         [
-            'title' => 'Honda Motorcycle & Scooter Plant',
-            'location' => 'Vithalapur, Gujarat',
-            'tag' => 'Heavy Factory Ventilation',
+            'title' => 'Hindustan Coca-Cola Beverages',
+            'location' => 'Kala Hasti (Srikalahasti), Andhra Pradesh',
+            'tag' => 'Process Cooling & Plant HVAC',
             'badge_type' => 'badge-igbc',
-            'description' => 'Industrial fresh air supply and positive pressure ventilation across 50,000 sq.m assembly bays, keeping ambient working temperatures controlled under 50°C summer conditions.',
-            'image' => 'assets/images/benefits-building.png'
+            'description' => 'Industrial process cooling, syrup processing room thermal control, and high-volume plant ventilation systems for Coca-Cola\'s state-of-the-art beverage bottling facility.',
+            'image' => 'assets/images/industry-hero.png'
         ],
         [
-            'title' => 'Core Metal Krafts Industrial Works',
-            'location' => 'Dera Bassi, Punjab',
-            'tag' => 'Process Chilled Water',
+            'title' => 'LBPL (Ludhiana Beverages Pvt. Ltd.)',
+            'location' => 'Ludhiana, Punjab',
+            'tag' => 'Industrial Beverage Bottling HVAC',
             'badge_type' => 'badge-igbc',
-            'description' => 'Dedicated 450 TR process water chiller loop maintaining ±0.5°C precise fluid temperature for heavy metal fabrication laser cutting and hydraulic presses.',
-            'image' => 'assets/images/hero.png'
+            'description' => 'Industrial air handling units, positive pressure filtration, and high-capacity process chiller circuits for Coca-Cola authorized bottling plant, optimizing bottling hall thermal management.',
+            'image' => 'assets/images/industry-about.png'
         ],
         [
-            'title' => 'Havells India Manufacturing Campus',
-            'location' => 'Alwar, Rajasthan',
-            'tag' => 'Dust & Fume Extraction',
+            'title' => 'Moon Beverages',
+            'location' => 'Greater Noida, Uttar Pradesh',
+            'tag' => 'Process Chillers & Plant Ventilation',
             'badge_type' => 'badge-igbc',
-            'description' => 'Industrial baghouse filter dust collection network and explosion-proof exhaust fans installed in plastic molding and paint spray booths.',
+            'description' => 'Heavy-duty industrial process water chillers, production bay positive ventilation, and compressed air cooling optimization for premier North India Coca-Cola manufacturing and bottling lines.',
             'image' => 'assets/images/audits-hero.png'
-        ],
-        [
-            'title' => 'Eastman Cast & Forge Facility',
-            'location' => 'Ludhiana',
-            'tag' => 'Furnace Heat Recovery',
-            'badge_type' => 'badge-ea',
-            'description' => 'Flue-gas recuperative heat exchanger system recovering waste heat from forging furnaces to pre-heat boiler feedwater, cutting fuel consumption by 18%.',
-            'image' => 'assets/images/sustainable-architecture.png'
-        ],
-        [
-            'title' => 'Advance Plastic Industries (Ecovia)',
-            'location' => 'Ludhiana',
-            'tag' => 'Extruder Hydraulic Cooling',
-            'badge_type' => 'badge-ea',
-            'description' => 'Closed-circuit evaporative fluid cooler plant providing continuous hydraulic oil cooling for high-output polymer extrusion machinery.',
-            'image' => 'assets/images/sbi-lho.png'
-        ],
-        [
-            'title' => 'JREW Engineering Heavy Works',
-            'location' => 'Rajpura, Punjab',
-            'tag' => 'Compressed Air Heat Recovery',
-            'badge_type' => 'badge-igbc',
-            'description' => 'Ultrasonic leak audit and heat exchanger retrofit capturing rotary screw compressor waste thermal energy for industrial plant space heating.',
-            'image' => 'assets/images/commissioning-hero.png'
-        ],
-        [
-            'title' => 'Sentro Technology Precision Plant',
-            'location' => 'Gurugram',
-            'tag' => 'ISO Class 7 Cleanroom HVAC',
-            'badge_type' => 'badge-ea',
-            'description' => 'ISO Class 7 cleanroom HVAC system with terminal HEPA filter modules, modulating bypass dampers, and strict ±2% relative humidity control.',
-            'image' => 'assets/images/cfd-simulation.png'
-        ],
-        [
-            'title' => 'Venkateswara Wires Industrial Unit',
-            'location' => 'Jaipur',
-            'tag' => 'High-Ambient AC & Chillers',
-            'badge_type' => 'badge-igbc',
-            'description' => 'High-ambient air-cooled process chillers and industrial air handling units designed to operate continuously at ambient temperatures up to 52°C.',
-            'image' => 'assets/images/daylight-simulation.png'
         ]
     ];
     include 'includes/service-projects-section.php';

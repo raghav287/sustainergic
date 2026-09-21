@@ -378,75 +378,43 @@
     ?>
 
     <!-- ==========================================
-       PROJECTS SECTION (8 PROJECTS SLIDER)
+       PROJECTS SECTION (HEAT PUMPS PORTFOLIO)
        ========================================== -->
     <?php
     $service_projects_title = "Heat Pump Systems Projects";
-    $service_projects_subtitle = "Air-source (ASHP), water-source, and hybrid thermal solar heat pump installations for commercial hot water and HVAC.";
+    $service_projects_subtitle = "High-COP air-source, water-source, and sanitary hot water heat pump installations engineered by Sustainergic Tech.";
     $service_projects = [
         [
-            'title' => 'Hyatt Regency Dehradun Hot Water System',
-            'location' => 'Dehradun',
-            'tag' => 'Air Source Heat Pump',
-            'badge_type' => 'badge-leed',
-            'description' => 'Commercial air-to-water heat pump bank generating domestic hot water (DHW) at COP 4.2 for 200+ luxury guest rooms, banquet kitchens, and spa facilities.',
-            'image' => 'assets/images/benefits-building.png'
+            'title' => 'Himmatnagar Bungalow / Villa',
+            'location' => 'Himmatnagar, Gujarat',
+            'tag' => 'Inverter Air-to-Water Heat Pump',
+            'badge_type' => 'badge-igbc',
+            'description' => 'High-efficiency inverter air-to-water heat pump system supplying centralized domestic hot water and radiant thermal loops for a luxury private villa with COP exceeding 4.2.',
+            'image' => 'assets/images/heat-pump-about.png'
         ],
         [
-            'title' => 'IOCL Commercial Facility',
-            'location' => 'Jalandhar',
-            'tag' => 'Hybrid Solar Heat Pump',
+            'title' => 'Kudos Krest',
+            'location' => 'Mukteshwar, Uttarakhand',
+            'tag' => 'Cold-Climate Heat Pump',
+            'badge_type' => 'badge-leed',
+            'description' => 'High-altitude cold-climate air-source heat pump bank operating reliably down to sub-zero ambient temperatures to produce continuous 60°C sanitary hot water and hydronic space heating.',
+            'image' => 'assets/images/heat-pump-hero.png'
+        ],
+        [
+            'title' => 'Hotel President New Court',
+            'location' => 'Jalandhar, Punjab',
+            'tag' => 'Commercial DHW Heat Pump',
             'badge_type' => 'badge-igbc',
-            'description' => 'Hybrid thermal solar (HTS) collector array integrated with high-efficiency water source heat pumps for zero-fuel boiler displacement and rapid payback.',
+            'description' => 'Centralized commercial heat pump water heater plant replacing legacy fossil-fuel boilers, providing instant high-volume hot water across luxury hospitality rooms and banquet kitchens.',
             'image' => 'assets/images/hero.png'
         ],
         [
-            'title' => 'The Crest Hills Resort',
-            'location' => 'Panchkula',
-            'tag' => 'Swimming Pool Heat Pump',
+            'title' => 'Hotel Downtown',
+            'location' => 'Jalandhar, Punjab',
+            'tag' => 'Hospitality Heat Pump System',
             'badge_type' => 'badge-igbc',
-            'description' => 'High-capacity titanium heat exchanger pool heat pump system maintaining year-round 28°C heated swimming pool water with 70% lower power consumption.',
-            'image' => 'assets/images/sustainable-architecture.png'
-        ],
-        [
-            'title' => 'Hotel Taj Panchkula Laundry & DHW',
-            'location' => 'Panchkula',
-            'tag' => 'High-Temp Heat Pump',
-            'badge_type' => 'badge-igbc',
-            'description' => 'High-temperature R134a heat pump producing 65°C hot water for commercial hotel laundry operations, replacing diesel boilers with green electrification.',
-            'image' => 'assets/images/sbi-lho.png'
-        ],
-        [
-            'title' => 'Chitkara University Hostel Blocks',
-            'location' => 'Zirakpur',
-            'tag' => 'Centralized ASHP Plant',
-            'badge_type' => 'badge-igbc',
-            'description' => 'Centralized air-source heat pump water heater plant supplying 15,000 liters/day hot water to student resident halls with smart temperature sensors.',
-            'image' => 'assets/images/commissioning-hero.png'
-        ],
-        [
-            'title' => 'Advance Plastic Industries (Ecovia)',
-            'location' => 'Ludhiana',
-            'tag' => 'Waste Heat Recovery Pump',
-            'badge_type' => 'badge-ea',
-            'description' => 'Industrial heat pump recovering waste heat from hydraulic oil chillers to pre-heat boiler feedwater and washdown tanks.',
-            'image' => 'assets/images/audits-hero.png'
-        ],
-        [
-            'title' => 'Dewcrest Gulnaar Meadows',
-            'location' => 'Zirakpur',
-            'tag' => 'Hydronic Heating Heat Pump',
-            'badge_type' => 'badge-igbc',
-            'description' => 'Inverter monobloc air-to-water heat pumps feeding residential underfloor heating circuits with climate-compensated weather curves.',
-            'image' => 'assets/images/daylight-simulation.png'
-        ],
-        [
-            'title' => 'Sukhavas Residence',
-            'location' => 'Panchkula',
-            'tag' => 'Ground Source Heat Pump',
-            'badge_type' => 'badge-igbc',
-            'description' => 'Ultra-quiet residential geothermal water-to-water heat pump supplying both chilled water for summer cooling and hot water for winter floor heating.',
-            'image' => 'assets/images/cfd-simulation.png'
+            'description' => 'Energy-efficient commercial heat pump installation delivering high-COP sanitary hot water generation, reducing hotel thermal water heating electricity bills by 68%.',
+            'image' => 'assets/images/benefits-building.png'
         ]
     ];
     include 'includes/service-projects-section.php';
