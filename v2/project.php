@@ -4,13 +4,23 @@
  */
 require_once __DIR__ . '/includes/header-services.php';
 
-$sustainability_categories = array_filter($header_services, function($s) {
-    return $s['category'] === 'services';
-});
+// Services hidden from the Projects page portfolio
+$hidden_project_services = [
+    'carbon-accounting-advisory.php',
+    'esg-and-ehs.php',
+    'fresh-air-system.php',
+    'vrv-vrf-system.php',
+    'chilled-water-system.php',
+    'radiators.php'
+];
 
-$hvac_categories = array_filter($header_services, function($s) {
-    return $s['category'] === 'hvac';
-});
+$sustainability_categories = array_filter($header_services, function($s, $key) use ($hidden_project_services) {
+    return $s['category'] === 'services' && !in_array($key, $hidden_project_services);
+}, ARRAY_FILTER_USE_BOTH);
+
+$hvac_categories = array_filter($header_services, function($s, $key) use ($hidden_project_services) {
+    return $s['category'] === 'hvac' && !in_array($key, $hidden_project_services);
+}, ARRAY_FILTER_USE_BOTH);
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -63,7 +73,7 @@ $hvac_categories = array_filter($header_services, function($s) {
             <!-- Sustainability Services Section -->
             <div class="section-heading">
                 <h2>Sustainability <span>Services</span></h2>
-                <p>Explore our projects across green certifications, advanced simulations, and carbon accounting advisory.</p>
+                <p>Explore our certified projects across green certifications, advanced simulations, and building energy compliance.</p>
             </div>
 
             <div class="projects-grid" style="margin-bottom: 80px;">
