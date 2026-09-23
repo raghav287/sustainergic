@@ -37,7 +37,7 @@
                     </ul>
                     
                     <h1 class="gb-hero-title">
-                        Precision Medical &amp; <span>Healthcare Cooling</span>
+                        Precision Medical & <span>Healthcare Cooling</span>
                     </h1>
                     
                     <p class="gb-hero-subtitle">
@@ -376,7 +376,7 @@
        PROJECTS SECTION (PRECISION MEDICAL COOLING PORTFOLIO)
        ========================================== -->
     <?php
-    $service_projects_title = "Precision Medical &amp; Healthcare Projects";
+    $service_projects_title = "Precision Medical & Healthcare Projects";
     $service_projects_subtitle = "Hospital diagnostic chillers, MRI/CT precision liquid cooling, and sterile operating theater HVAC executed by Sustainergic Tech.";
     $service_projects = [
         [
@@ -385,7 +385,7 @@
             'tag' => 'Diagnostic MRI & CT Chillers',
             'badge_type' => 'badge-igbc',
             'description' => 'Precision hospital liquid chiller plant providing ultra-stable ±0.1°C chilled water cooling for superconducting MRI magnets and high-throughput CT scanner suites.',
-            'image' => 'assets/images/medical-hero.png'
+            'image' => 'assets/images/medical-aims.png'
         ],
         [
             'title' => 'Max Hospital',
@@ -393,7 +393,7 @@
             'tag' => 'OT Laminar Flow & Medical Cooling',
             'badge_type' => 'badge-leed',
             'description' => 'Hospital operating theater precision HVAC and diagnostic medical cooling system with terminal HEPA filtration, positive pressure cascades, and strict humidity control.',
-            'image' => 'assets/images/medical-about.png'
+            'image' => 'assets/images/medical-max.png'
         ],
         [
             'title' => 'Max Hospital',
@@ -401,7 +401,7 @@
             'tag' => 'High-Tesla MRI Precision Chiller',
             'badge_type' => 'badge-leed',
             'description' => 'Mission-critical dual-circuit precision chiller plant with N+1 compressor redundancy for advanced 3.0T MRI helium compressor cold heads and cardiac catheterization labs.',
-            'image' => 'assets/images/benefits-building.png'
+            'image' => 'assets/images/medical-max.png'
         ],
         [
             'title' => 'Mahajan Imaging & Labs',
@@ -409,7 +409,7 @@
             'tag' => 'Advanced Radiology Precision Chillers',
             'badge_type' => 'badge-ea',
             'description' => 'Dedicated high-reliability precision medical chillers engineered for state-of-the-art MRI, CT, and PET-CT imaging equipment, eliminating diagnostic downtime during peak patient scan loads.',
-            'image' => 'assets/images/lca-stages.png'
+            'image' => 'assets/images/medical-mahajan.png'
         ],
         [
             'title' => 'Continental Hospital',
@@ -417,7 +417,7 @@
             'tag' => 'Critical Care & Diagnostic Cooling',
             'badge_type' => 'badge-igbc',
             'description' => 'Centralized precision medical cooling infrastructure supporting surgical suites, radiology imaging scanners, and pharmaceutical cold storage with automatic failover backup.',
-            'image' => 'assets/images/sustainable-architecture.png'
+            'image' => 'assets/images/medical-contienatal.png'
         ],
         [
             'title' => 'SKN Diagnostic',
@@ -425,7 +425,7 @@
             'tag' => 'Medical Imaging Chiller Plant',
             'badge_type' => 'badge-ea',
             'description' => 'Closed-circuit precision water chiller solution engineered for magnetic resonance imaging (MRI) and multi-slice CT equipment, ensuring continuous temperature stability.',
-            'image' => 'assets/images/hero.png'
+            'image' => 'assets/images/medical-skn.png'
         ],
         [
             'title' => 'KIMS Kondapur',
@@ -433,7 +433,7 @@
             'tag' => 'Hospital MRI & OT Precision HVAC',
             'badge_type' => 'badge-igbc',
             'description' => 'Precision chiller and sterile operating room HVAC integration engineered for major multi-specialty healthcare campus, ensuring strict thermal and aseptic environmental compliance.',
-            'image' => 'assets/images/cfd-simulation.png'
+            'image' => 'assets/images/medical-kims-hyderabad.png'
         ],
         [
             'title' => 'KIMS Mumbai',
@@ -441,7 +441,7 @@
             'tag' => 'Medical Scanner Precision Chillers',
             'badge_type' => 'badge-igbc',
             'description' => 'High-efficiency medical equipment liquid chiller systems engineered for coastal ambient conditions, providing continuous cooling for oncology and diagnostic imaging departments.',
-            'image' => 'assets/images/audits-hero.png'
+            'image' => 'assets/images/medical-kims-mumbai.png'
         ],
         [
             'title' => 'DY Patil Hospital',
@@ -449,7 +449,7 @@
             'tag' => 'Super-Specialty Hospital Cooling',
             'badge_type' => 'badge-igbc',
             'description' => 'High-capacity precision chillers and cleanroom HVAC controls serving tertiary care hospital diagnostic blocks, surgical operating theaters, and sterile medical supply rooms.',
-            'image' => 'assets/images/commissioning-hero.png'
+            'image' => 'assets/images/medical-dy-patil.png'
         ],
         [
             'title' => 'Popular Diagnostic',
@@ -457,7 +457,7 @@
             'tag' => 'International Medical Imaging Cooling',
             'badge_type' => 'badge-ea',
             'description' => 'Specialized export medical precision chiller installation providing uninterrupted liquid cooling for high-frequency MRI and CT diagnostic scanners in Bangladesh\'s leading healthcare network.',
-            'image' => 'assets/images/sbi-lho.png'
+            'image' => 'assets/images/medical-popular-diagnostic.png'
         ],
         [
             'title' => 'Islami Bank Hospital',
@@ -465,7 +465,7 @@
             'tag' => 'Hospital Imaging & Surgical Cooling',
             'badge_type' => 'badge-ea',
             'description' => 'Precision medical fluid chillers and critical zone temperature regulation engineered for multi-specialty diagnostic imaging and surgical facilities in Chattogram.',
-            'image' => 'assets/images/daylight-simulation.png'
+            'image' => 'assets/images/medical-islami-bank.png'
         ]
     ];
     include 'includes/service-projects-section.php';

@@ -755,75 +755,51 @@
     ?>
 
     <!-- ==========================================
-       PROJECTS SECTION (8 PROJECTS SLIDER)
+       PROJECTS SECTION (COMMISSIONING PROJECTS SLIDER)
        ========================================== -->
     <?php
     $service_projects_title = "Commissioning Authority Projects";
     $service_projects_subtitle = "Third-party commissioning, fundamental & enhanced Cx, retro-commissioning, and TAB verification for complex building infrastructure.";
     $service_projects = [
         [
-            'title' => 'Patiala Locomotive Works',
-            'location' => 'Patiala',
-            'tag' => 'Enhanced Cx & TAB',
+            'title' => 'Martin Luther Block, Chitkara University',
+            'location' => 'Rajpura, Punjab',
+            'tag' => 'Fundamental & Enhanced Cx',
             'badge_type' => 'badge-igbc',
-            'description' => 'Third-party commissioning authority and testing, adjusting, and balancing (TAB) of heavy industrial ventilation plants, fume extraction systems, and central chiller units.',
-            'image' => 'assets/images/fundamental-commissioning.png'
+            'description' => 'Third-party Commissioning Authority (CxA) services for university academic block, verifying HVAC chiller performance, air handling unit balancing, and BMS automation controls.',
+            'image' => 'assets/images/comission-martin.png'
         ],
         [
-            'title' => 'Honda Automotive Manufacturing Facility',
-            'location' => 'Vithalapur, Gujarat',
-            'tag' => 'Fundamental Cx',
+            'title' => 'Netsmartz Tower',
+            'location' => 'Mohali, Punjab',
+            'tag' => 'Commissioning & TAB Verification',
             'badge_type' => 'badge-igbc',
-            'description' => 'Fundamental commissioning authority verification for central plant cooling towers, AHUs, compressed air networks, and electrical substation protection relays.',
-            'image' => 'assets/images/enhanced-commissioning.png'
+            'description' => 'Third-party fundamental commissioning and Testing, Adjusting & Balancing (TAB) verification for IT park tower HVAC chilled water network and air distribution.',
+            'image' => 'assets/images/comission-netsmartz.png'
         ],
         [
-            'title' => 'Sentro Technology Facility',
-            'location' => 'Gurugram',
-            'tag' => 'Building Enclosure Cx',
-            'badge_type' => 'badge-ea',
-            'description' => 'Comprehensive commissioning of critical HVAC systems, BMS automation logic, and building envelope thermal tightness testing via infrared thermography and blower door tests.',
-            'image' => 'assets/images/tab-services.png'
-        ],
-        [
-            'title' => 'Hyatt Regency Dehradun Resort',
-            'location' => 'Dehradun',
-            'tag' => 'LEED Enhanced Commissioning',
-            'badge_type' => 'badge-leed',
-            'description' => 'LEED v4 Enhanced Commissioning Authority services covering thermal energy plants, hot water heat pumps, emergency power generator transfer, and fire-life safety systems.',
-            'image' => 'assets/images/retro-commissioning.png'
-        ],
-        [
-            'title' => 'Noida International University Campus',
-            'location' => 'Noida',
-            'tag' => 'Retro-Commissioning (RCx)',
-            'badge_type' => 'badge-ea',
-            'description' => 'Existing building retro-commissioning (RCx) across 8 academic blocks, recalibrating faulty BMS temperature sensors and correcting hydronic valve hunting.',
-            'image' => 'assets/images/monitoring-based-commissioning.png'
-        ],
-        [
-            'title' => 'Havells India Manufacturing Plant',
-            'location' => 'Alwar, Rajasthan',
-            'tag' => 'HVAC & TAB Verification',
+            'title' => 'Rockefeller Block, Chitkara University',
+            'location' => 'Rajpura, Punjab',
+            'tag' => 'LEED Platinum CxA',
             'badge_type' => 'badge-igbc',
-            'description' => 'Systematic TAB airflow traverses and hydronic pump head verification across manufacturing assembly halls to ensure balanced air distribution.',
-            'image' => 'assets/images/tab-services.png'
+            'description' => 'Enhanced commissioning authority verification for academic research block, validating VRF system COP, envelope air tightness, and BMS control loops.',
+            'image' => 'assets/images/comission-rockfeller.png'
         ],
         [
-            'title' => 'SBI Local Head Office Tower',
-            'location' => 'Chandigarh',
-            'tag' => 'BMS & Controls Commissioning',
+            'title' => 'SPJ Vedatam Mall',
+            'location' => 'Gurugram, Haryana',
+            'tag' => 'Retail Complex Commissioning',
             'badge_type' => 'badge-igbc',
-            'description' => 'Point-by-point digital input/output functional performance testing of building management system (BMS) controllers and VFD drive sequences.',
-            'image' => 'assets/images/commissioning-hero.png'
+            'description' => 'Third-party commissioning authority for multi-story commercial mall, verifying central chiller plant performance, smoke extraction fans, and lighting control systems.',
+            'image' => 'assets/images/comission-spj.png'
         ],
         [
-            'title' => 'Appworx Commercial IT Center',
-            'location' => 'Mohali',
-            'tag' => 'Re-Commissioning Verification',
-            'badge_type' => 'badge-ea',
-            'description' => 'Re-commissioning of tenant floor VAV boxes and fresh air dampers to restore initial green building design efficiency after tenant space alterations.',
-            'image' => 'assets/images/audits-hero.png'
+            'title' => 'VRS Fintech Mall',
+            'location' => 'Mohali, Punjab',
+            'tag' => 'Commercial Building CxA',
+            'badge_type' => 'badge-igbc',
+            'description' => 'Fundamental and enhanced commissioning authority verification for commercial fintech hub, validating precision cooling, power transfer switches, and TAB balance.',
+            'image' => 'assets/images/comission-vrs.png'
         ]
     ];
     include 'includes/service-projects-section.php';

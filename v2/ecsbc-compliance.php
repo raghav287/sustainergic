@@ -403,75 +403,43 @@
     ?>
 
     <!-- ==========================================
-       PROJECTS SECTION (8 PROJECTS SLIDER)
+       PROJECTS SECTION (ECSBC PROJECTS SLIDER)
        ========================================== -->
     <?php
     $service_projects_title = "ECBC & ECSBC Compliance Projects";
     $service_projects_subtitle = "Energy Conservation Building Code (ECBC) and Energy Conservation Building Code for Commercial (ECSBC) compliance documentation and approvals.";
     $service_projects = [
         [
-            'title' => 'Kotler & Rockefeller Blocks, Chitkara University',
-            'location' => 'Zirakpur',
-            'tag' => 'ECBC Super-Compliant',
+            'title' => '42 Works',
+            'location' => 'Mohali, Punjab',
+            'tag' => 'ECBC Energy Modeling',
             'badge_type' => 'badge-igbc',
-            'description' => 'Comprehensive ECBC super-compliant building envelope modeling, window-to-wall ratio (WWR) optimization, lighting power density (LPD) verification, and BEE code sanction approvals.',
-            'image' => 'assets/images/ecbc-compliance.png'
+            'description' => 'BEE Energy Conservation & Sustainable Building Code compliance review, envelope U-value calculation, and Whole Building Performance simulation modeling.',
+            'image' => 'assets/images/ecsbc-42.png'
         ],
         [
-            'title' => 'Leh Assembly Infrastructure Complex',
-            'location' => 'Leh & Ladakh',
-            'tag' => 'Extreme Climate ECBC',
+            'title' => 'GDPL',
+            'location' => 'Mohali, Punjab',
+            'tag' => 'ECSBC Code Compliance',
             'badge_type' => 'badge-igbc',
-            'description' => 'Cold climate building code thermal insulation compliance, double-glazed low-E assembly verification, and passive solar architectural compliance reporting.',
-            'image' => 'assets/images/sustainable-architecture.png'
+            'description' => 'Commercial building statutory ECSBC energy compliance documentation, HVAC equipment efficiency vetting, and municipal plan approval clearances.',
+            'image' => 'assets/images/ecsbc-gdpl.png'
         ],
         [
-            'title' => 'SBI Local Head Office Tower',
-            'location' => 'Mohali',
-            'tag' => 'ECSBC Green Code',
-            'badge_type' => 'badge-igbc',
-            'description' => 'Energy Conservation Sustainable Building Code (ECSBC) compliance documentation, whole-building simulation modeling, and municipal environmental sanction clearance.',
-            'image' => 'assets/images/sbi-lho.png'
-        ],
-        [
-            'title' => 'Netsmartz Commercial IT Tower',
-            'location' => 'Mohali',
-            'tag' => 'ECBC Whole Building Method',
-            'badge_type' => 'badge-igbc',
-            'description' => 'ECBC compliance submission using the Whole Building Performance (WBP) simulation method, demonstrating 22% lower energy use intensity (EUI) than baseline.',
-            'image' => 'assets/images/cfd-simulation.png'
-        ],
-        [
-            'title' => 'Vedatam Commercial Mall',
-            'location' => 'Gurugram',
+            'title' => 'ONE BCG',
+            'location' => 'Mohali, Punjab',
             'tag' => 'ECBC Prescriptive Compliance',
             'badge_type' => 'badge-igbc',
-            'description' => 'Prescriptive trade-off ECBC compliance verification covering glass SHGC, roof U-values, HVAC equipment COP, and automatic daylight sensor controls.',
-            'image' => 'assets/images/benefits-building.png'
+            'description' => 'IT facility ECBC prescriptive trade-off compliance verification covering high-efficiency glazing SHGC, LED lighting power density, and VFD cooling controls.',
+            'image' => 'assets/images/ecsbc-one.png'
         ],
         [
-            'title' => 'Appworx IT Office Tower',
-            'location' => 'Mohali',
-            'tag' => 'ECBC Compliant HVAC',
+            'title' => 'SPJ Vedatam Mall',
+            'location' => 'Gurugram, Haryana',
+            'tag' => 'ECBC Commercial Retail',
             'badge_type' => 'badge-igbc',
-            'description' => 'Statutory ECBC technical compliance audit verifying VFD economizers, insulation thermal resistance, and digital occupancy sensor shutoff.',
-            'image' => 'assets/images/hero.png'
-        ],
-        [
-            'title' => 'Platinum Mall Commercial Complex',
-            'location' => 'Lucknow',
-            'tag' => 'ECSBC Municipal Approval',
-            'badge_type' => 'badge-igbc',
-            'description' => 'State Development Authority ECSBC green building code sanction report preparation, structural shading calculation, and energy modeling approval.',
-            'image' => 'assets/images/audits-hero.png'
-        ],
-        [
-            'title' => 'VRS Fintech Square',
-            'location' => 'Mohali',
-            'tag' => 'BEE Star Rating & ECBC',
-            'badge_type' => 'badge-igbc',
-            'description' => 'BEE Star Rating energy performance benchmarking and ECBC design review for commercial office space clearance.',
-            'image' => 'assets/images/daylight-simulation.png'
+            'description' => 'Prescriptive trade-off and performance ECBC compliance verification for multi-story commercial retail destination covering curtain wall glass SHGC, roof U-values, and chiller COP.',
+            'image' => 'assets/images/ecsbc-spj.png'
         ]
     ];
     include 'includes/service-projects-section.php';

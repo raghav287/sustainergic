@@ -687,75 +687,83 @@
     ?>
 
     <!-- ==========================================
-       PROJECTS SECTION (8 PROJECTS SLIDER)
+       PROJECTS SECTION (AUDIT PROJECTS SLIDER)
        ========================================== -->
     <?php
     $service_projects_title = "Audits & Energy Assessment Projects";
-    $service_projects_subtitle = "Detailed energy, water, thermography, and IoT performance audits conducted by certified energy auditors at Sustainergic Tech.";
+    $service_projects_subtitle = "Detailed energy, water, thermography, and resource efficiency audits conducted by certified auditors at Sustainergic Tech.";
     $service_projects = [
         [
-            'title' => 'Noida International University',
-            'location' => 'Noida',
-            'tag' => 'Campus Energy Audit',
+            'title' => 'Holiday Inn',
+            'location' => 'Jaipur, Rajasthan',
+            'tag' => 'Energy & Water Audit',
             'badge_type' => 'badge-ea',
-            'description' => 'Comprehensive multi-building educational campus energy audit, electrical safety assessment, transformer load logging, and HVAC power consumption optimization yielding 18% energy savings.',
-            'image' => 'assets/images/energy-audit.png'
+            'description' => 'Comprehensive energy and water consumption audit for premium hotel facility, evaluating HVAC chiller performance, domestic hot water system efficiency, and guest area lighting controls.',
+            'image' => 'assets/images/energy-holiday.png'
         ],
         [
-            'title' => 'Havells India Manufacturing Plant',
-            'location' => 'Alwar, Rajasthan',
-            'tag' => 'Water & Energy Audit',
+            'title' => 'Hyatt Regency',
+            'location' => 'Dehradun, Uttarakhand',
+            'tag' => 'Energy & Net Zero Thermal Audit',
             'badge_type' => 'badge-ea',
-            'description' => 'Industrial manufacturing plant energy conservation audit and water balance assessment. Identified cooling tower blowdown recovery and motor VFD retrofits saving 320 MWh annually.',
-            'image' => 'assets/images/water-audit.png'
+            'description' => 'Comprehensive resource audit and thermal performance inspection for 5-star luxury resort infrastructure, evaluating heat pump COP, water recycling, and building envelope energy loss.',
+            'image' => 'assets/images/energy-hyatt.png'
         ],
         [
-            'title' => 'Advance Plastic Industries (Ecovia)',
-            'location' => 'Ludhiana',
-            'tag' => 'Power Quality Audit',
+            'title' => 'RBI (Reserve Bank of India)',
+            'location' => 'Chandigarh',
+            'tag' => 'Power Quality & Energy Audit',
             'badge_type' => 'badge-ea',
-            'description' => 'Polymer extrusion plant electrical power quality audit, harmonic analysis, power factor correction, and waste heat recovery feasibility study for process barrel heaters.',
-            'image' => 'assets/images/audits-intro.png'
+            'description' => 'Detailed facility energy assessment, electrical power quality harmonic analysis, transformer load logging, and HVAC system energy optimization for regional central bank headquarters.',
+            'image' => 'assets/images/energy-rbi.png'
         ],
         [
-            'title' => 'SBI Training Institute',
-            'location' => 'Panchkula',
-            'tag' => 'HVAC & Lighting Audit',
+            'title' => 'SBI AO Building',
+            'location' => 'Mohali, Punjab',
+            'tag' => 'Energy Conservation Audit',
             'badge_type' => 'badge-ea',
-            'description' => 'Banking officer academy facility energy audit evaluating central chiller COP, chilled water pumping efficiency, and smart LED fixture retrofits across residential hostel blocks.',
-            'image' => 'assets/images/audits-hero.png'
+            'description' => 'Administrative office energy audit, utility sub-metering load profile analysis, and high-efficiency VRF cooling system performance evaluation for state banking headquarters.',
+            'image' => 'assets/images/energy-sbiao.png'
         ],
         [
-            'title' => 'JREW Engineering Heavy Works',
-            'location' => 'Rajpura, Punjab',
-            'tag' => 'Compressed Air Audit',
+            'title' => 'SBI LHO',
+            'location' => 'Chandigarh',
+            'tag' => 'HVAC & Energy Efficiency Audit',
             'badge_type' => 'badge-ea',
-            'description' => 'Ultrasonic compressed air leak audit and compressor sequencing assessment, detecting pneumatic line pressure drops and cutting compressor power draw by 22%.',
-            'image' => 'assets/images/benefits-building.png'
+            'description' => '12-story financial head office energy and water performance audit evaluating central chiller plant COP, hydronic pumping, LED lighting controls, and peak load reduction.',
+            'image' => 'assets/images/energy-sbilho.png'
         ],
         [
-            'title' => 'IOCL Commercial Infrastructure',
-            'location' => 'Jalandhar',
-            'tag' => 'Thermal Imaging Audit',
+            'title' => 'SBILD',
+            'location' => 'Panchkula, Haryana',
+            'tag' => 'Institutional Energy Audit',
             'badge_type' => 'badge-ea',
-            'description' => 'Infrared thermography inspection of electrical switchgear panels, busducts, and cold-storage insulation envelopes, identifying high-resistance hot joints before system failure.',
-            'image' => 'assets/images/sbi-lho.png'
+            'description' => 'State Bank Institute of Learning campus energy audit evaluating central chiller COP, chilled water pumping efficiency, hostel solar thermal units, and smart LED retrofits.',
+            'image' => 'assets/images/energy-sbild.png'
         ],
         [
-            'title' => 'Eastman Cast & Forge Facility',
-            'location' => 'Ludhiana',
-            'tag' => 'Furnace Thermal Audit',
+            'title' => 'St. Xavier\'s College',
+            'location' => 'Jaipur, Rajasthan',
+            'tag' => 'Campus Energy & Water Audit',
             'badge_type' => 'badge-ea',
-            'description' => 'Forging furnace flue-gas thermal efficiency audit, combustion air-fuel ratio tuning, and recuperator waste heat recovery system engineering.',
-            'image' => 'assets/images/sustainable-architecture.png'
+            'description' => 'Comprehensive academic campus energy and water audit, assessing distribution losses, solar rooftop generation potential, lighting power density, and water balance.',
+            'image' => 'assets/images/energy-xavier.png'
         ],
         [
-            'title' => 'Venkateswara Wires Industrial Unit',
-            'location' => 'Jaipur',
-            'tag' => 'Water Balance & Conservation',
+            'title' => 'The Gold Palace',
+            'location' => 'Jaipur, Rajasthan',
+            'tag' => 'Resort Energy & Thermal Audit',
             'badge_type' => 'badge-ea',
-            'description' => 'Industrial process water balance audit and rainwater harvesting potential mapping, helping achieve zero groundwater depletion targets.',
-            'image' => 'assets/images/emissions-calculation.png'
+            'description' => 'Comprehensive resource efficiency audit for heritage resort property, identifying energy conservation measures across thermal envelope insulation, pool heating, and water conservation.',
+            'image' => 'assets/images/energy-gold.png'
+        ],
+        [
+            'title' => 'Vaibhav Global Limited',
+            'location' => 'Jaipur, Rajasthan',
+            'tag' => 'Industrial Energy & Water Audit',
+            'badge_type' => 'badge-ea',
+            'description' => 'Comprehensive industrial facility energy audit, compressed air leak testing, water balance study, and waste heat recovery mapping for global export manufacturing unit.',
+            'image' => 'assets/images/energy-vaibhav.png'
         ]
     ];
     include 'includes/service-projects-section.php';

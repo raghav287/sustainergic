@@ -385,7 +385,7 @@
             'tag' => 'Process Cooling & Plant HVAC',
             'badge_type' => 'badge-igbc',
             'description' => 'Industrial process cooling, syrup processing room thermal control, and high-volume plant ventilation systems for Coca-Cola\'s state-of-the-art beverage bottling facility.',
-            'image' => 'assets/images/industry-hero.png'
+            'image' => 'assets/images/industry-hindustan.png'
         ],
         [
             'title' => 'LBPL (Ludhiana Beverages Pvt. Ltd.)',
@@ -393,7 +393,7 @@
             'tag' => 'Industrial Beverage Bottling HVAC',
             'badge_type' => 'badge-igbc',
             'description' => 'Industrial air handling units, positive pressure filtration, and high-capacity process chiller circuits for Coca-Cola authorized bottling plant, optimizing bottling hall thermal management.',
-            'image' => 'assets/images/industry-about.png'
+            'image' => 'assets/images/industry-moon.png'
         ],
         [
             'title' => 'Moon Beverages',
@@ -401,7 +401,7 @@
             'tag' => 'Process Chillers & Plant Ventilation',
             'badge_type' => 'badge-igbc',
             'description' => 'Heavy-duty industrial process water chillers, production bay positive ventilation, and compressed air cooling optimization for premier North India Coca-Cola manufacturing and bottling lines.',
-            'image' => 'assets/images/audits-hero.png'
+            'image' => 'assets/images/industry-lbpl.png'
         ]
     ];
     include 'includes/service-projects-section.php';
