@@ -376,7 +376,7 @@
        PROJECTS SECTION (INDUSTRIAL HVAC PORTFOLIO)
        ========================================== -->
     <?php
-    $service_projects_title = "Industrial HVAC &amp; Process Cooling Projects";
+    $service_projects_title = "Industrial HVAC  & Process Cooling Projects";
     $service_projects_subtitle = "Heavy manufacturing, beverage bottling plants, process chillers, and industrial ventilation installations by Sustainergic Tech.";
     $service_projects = [
         [

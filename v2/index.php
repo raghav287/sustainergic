@@ -329,7 +329,7 @@
                                 <div class="service-body">
                                     <h3>Green Certification</h3>
                                     <p>
-                                        LEED, BREEAM, IGBC, WELL and GRIHA certification expertise to help your project achieve the highest sustainability ratings.
+                                        IGBC, LEED, BREEAM,  WELL and GRIHA certification expertise to help your project achieve the highest sustainability ratings.
                                     </p>
                                     <span class="service-link">
                                         Learn More <i class="fa-solid fa-arrow-right"></i>
@@ -342,7 +342,7 @@
                         <div class="swiper-slide">
                             <a href="audits.php" class="service-card">
                                 <div class="service-image">
-                                    <img src="assets/images/audits-hero.png" alt="Audits">
+                                    <img src="assets/images/energy-audit.png" alt="Audits">
                                     <div class="service-image-icon">
                                         <i class="fa-solid fa-clipboard-check"></i>
                                     </div>
@@ -361,9 +361,9 @@
 
                         <!-- Slide 3: HTS -->
                         <div class="swiper-slide">
-                            <a href="#" class="service-card">
+                            <a href="hybrid-thermal-solar-panel.php" class="service-card">
                                 <div class="service-image">
-                                    <img src="assets/images/tab-services.png" alt="Hybrid Thermal Solar (HTS) Panel">
+                                    <img src="assets/images/hts-hero.png" alt="Hybrid Thermal Solar (HTS) Panel">
                                     <div class="service-image-icon">
                                         <i class="fa-solid fa-solar-panel"></i>
                                     </div>
@@ -382,7 +382,7 @@
 
                         <!-- Slide 4: IoT Water Solutions -->
                         <div class="swiper-slide">
-                            <a href="#" class="service-card">
+                            <a href="iot-water-solution.php" class="service-card">
                                 <div class="service-image">
                                     <img src="assets/images/water-audit.png" alt="IoT Water Solution">
                                     <div class="service-image-icon">
@@ -405,7 +405,7 @@
                         <div class="swiper-slide">
                             <a href="carbon-accounting-advisory.php" class="service-card">
                                 <div class="service-image">
-                                    <img src="assets/images/carbon-hero.png" alt="Carbon Accounting & Advisory">
+                                    <img src="assets/images/carbon-accounting.png" alt="Carbon Accounting & Advisory">
                                     <div class="service-image-icon">
                                         <i class="fa-solid fa-cloud-arrow-up"></i>
                                     </div>

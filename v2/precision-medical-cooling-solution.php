@@ -401,7 +401,7 @@
             'tag' => 'High-Tesla MRI Precision Chiller',
             'badge_type' => 'badge-leed',
             'description' => 'Mission-critical dual-circuit precision chiller plant with N+1 compressor redundancy for advanced 3.0T MRI helium compressor cold heads and cardiac catheterization labs.',
-            'image' => 'assets/images/medical-max.png'
+            'image' => 'assets/images/medical-max-saket.png'
         ],
         [
             'title' => 'Mahajan Imaging & Labs',
