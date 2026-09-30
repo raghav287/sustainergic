@@ -52,11 +52,14 @@ document.addEventListener("DOMContentLoaded", function () {
         new Swiper(servicesSwiperEl, {
             slidesPerView: 1,
             spaceBetween: 24,
-            speed: 700,
+            speed: 800,
             loop: true,
             grabCursor: true,
+            watchSlidesProgress: true,
+            resistanceRatio: 0.85,
+            touchReleaseOnEdges: true,
             autoplay: {
-                delay: 6000,
+                delay: 5500,
                 disableOnInteraction: false,
                 pauseOnMouseEnter: true
             },
@@ -98,11 +101,14 @@ document.addEventListener("DOMContentLoaded", function () {
         new Swiper(projectsSwiperEl, {
             slidesPerView: 1,
             spaceBetween: 32,
-            speed: 700,
+            speed: 800,
             loop: true,
             grabCursor: true,
+            watchSlidesProgress: true,
+            resistanceRatio: 0.85,
+            touchReleaseOnEdges: true,
             autoplay: {
-                delay: 6500,
+                delay: 5500,
                 disableOnInteraction: false,
                 pauseOnMouseEnter: true
             },

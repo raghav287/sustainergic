@@ -20,19 +20,246 @@
 
     <?php include 'includes/navbar.php'; ?>
 
-    <!-- =========================
-        HERO SECTION
-========================= -->
+    <!-- ================= HERO SECTION (STATIC REDESIGN - #EE775A BRAND COLOR) ================= -->
+    <style>
+    /* Scoped Hero Section Styles */
+    .hero {
+        position: relative;
+        padding-top: 180px;
+        padding-bottom: 80px;
+        overflow: hidden;
+        background: #EE775A;
+        color: #ffffff;
+        min-height: auto;
+        display: flex;
+        align-items: center;
+    }
 
-    <!-- ================= HERO SECTION ================= -->
+    /* Completely hide global hero::before circle from style.css */
+    .hero::before {
+        display: none !important;
+        content: none !important;
+    }
+
+    /* Ambient subtle watermark */
+    .hero-watermark {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: clamp(70px, 12vw, 160px);
+        font-weight: 900;
+        color: rgba(255, 255, 255, 0.08);
+        letter-spacing: 16px;
+        white-space: nowrap;
+        pointer-events: none;
+        user-select: none;
+        z-index: 1;
+        font-family: 'Poppins', sans-serif;
+        text-transform: uppercase;
+    }
+
+    .hero-glow-effect {
+        display: none;
+    }
+
+    .hero .container {
+        max-width: 1280px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 50px;
+        position: relative;
+        z-index: 3;
+        padding: 0 24px;
+        width: 100%;
+    }
+
+    /* Left Content Column */
+    .hero-content {
+        width: 50%;
+        max-width: 580px;
+    }
+
+    .hero-badge {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        padding: 6px 18px;
+        background: rgba(255, 255, 255, 0.18);
+        border: 1px solid rgba(255, 255, 255, 0.38);
+        border-radius: 40px;
+        color: #ffffff;
+        font-size: 12.5px;
+        font-weight: 700;
+        letter-spacing: 0.5px;
+        margin-bottom: 20px;
+        backdrop-filter: blur(8px);
+    }
+
+    .hero h1 {
+        font-size: clamp(28px, 3.2vw, 42px);
+        font-weight: 800;
+        color: #ffffff;
+        line-height: 1.22;
+        margin-bottom: 18px;
+        letter-spacing: -0.3px;
+    }
+
+    .hero h1 span {
+        color: #ffffff;
+    }
+
+    .hero-content > p {
+        font-size: 15px;
+        line-height: 1.7;
+        color: rgba(255, 255, 255, 0.92);
+        max-width: 520px;
+        margin-bottom: 30px;
+    }
+
+    /* Action Buttons */
+    .hero-buttons {
+        display: flex;
+        align-items: center;
+        gap: 16px;
+        flex-wrap: wrap;
+        margin-top: 0;
+    }
+
+    .btn-primary {
+        padding: 14px 30px;
+        background: #0f172a;
+        color: #ffffff;
+        font-weight: 600;
+        font-size: 14px;
+        border-radius: 50px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        box-shadow: 0 8px 24px rgba(0, 0, 0, 0.18);
+        transition: all 0.3s ease;
+        letter-spacing: 0.3px;
+        border: none;
+        text-decoration: none;
+    }
+
+    .btn-primary:hover {
+        background: #000000;
+        transform: translateY(-2px);
+        box-shadow: 0 12px 30px rgba(0, 0, 0, 0.28);
+        color: #ffffff;
+    }
+
+    .btn-outline {
+        padding: 14px 28px;
+        background: rgba(255, 255, 255, 0.16);
+        border: 1.5px solid rgba(255, 255, 255, 0.45);
+        color: #ffffff;
+        font-weight: 600;
+        font-size: 14px;
+        border-radius: 50px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        transition: all 0.3s ease;
+        backdrop-filter: blur(8px);
+        text-decoration: none;
+    }
+
+    .btn-outline:hover {
+        background: rgba(255, 255, 255, 0.3);
+        border-color: #ffffff;
+        color: #ffffff;
+        transform: translateY(-2px);
+    }
+
+    /* Right Framed Image Container */
+    .hero-image {
+        width: 46%;
+        position: relative;
+        display: flex;
+        justify-content: center;
+    }
+
+    .hero-image-frame {
+        position: relative;
+        padding: 12px;
+        background: rgba(255, 255, 255, 0.18);
+        border: 1.5px solid rgba(255, 255, 255, 0.38);
+        border-radius: 28px;
+        box-shadow: 0 20px 50px rgba(0, 0, 0, 0.12);
+        backdrop-filter: blur(12px);
+        width: 100%;
+        max-width: 480px;
+    }
+
+    .hero-image-frame img {
+        width: 100%;
+        height: 380px;
+        object-fit: cover;
+        border-radius: 20px;
+        display: block;
+    }
+
+    /* Responsive Adjustments */
+    @media (max-width: 991px) {
+        .hero {
+            padding-top: 160px;
+            padding-bottom: 60px;
+        }
+        .hero .container {
+            flex-direction: column;
+            gap: 36px;
+        }
+        .hero-content {
+            width: 100%;
+            max-width: 100%;
+            text-align: center;
+        }
+        .hero-content > p {
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .hero-buttons {
+            justify-content: center;
+        }
+        .hero-image {
+            width: 100%;
+            max-width: 460px;
+        }
+        .hero-image-frame img {
+            height: 340px;
+        }
+    }
+
+    @media (max-width: 576px) {
+        .hero {
+            padding-top: 140px;
+            padding-bottom: 50px;
+        }
+        .hero h1 {
+            font-size: 28px;
+        }
+        .hero-image-frame img {
+            height: 280px;
+        }
+        .btn-primary, .btn-outline {
+            width: 100%;
+        }
+    }
+    </style>
 
     <section class="hero">
+        <!-- Ambient Watermark & Glow Background -->
+        <div class="hero-watermark">SUSTAINABILITY</div>
+        <div class="hero-glow-effect"></div>
 
         <div class="container">
-
-            <!-- Left Content -->
+            <!-- Left Content Column -->
             <div class="hero-content">
-
                 <span class="hero-badge">
                     🌱 Sustainable Engineering Solutions
                 </span>
@@ -52,47 +279,22 @@
                 </p>
 
                 <div class="hero-buttons">
-
-                    <a href="contact.php" class="btn-primary">
+                    <a href="contact-us.php" class="btn-primary">
                         Get a Consultation
                     </a>
-
-                    <a href="#" class="btn-outline">
+                    <a href="#services" class="btn-outline">
                         Explore Services
                     </a>
-
                 </div>
-
-
-
             </div>
 
-            <!-- Right Image -->
-
+            <!-- Right Image Framed Container -->
             <div class="hero-image">
-
-                <img src="assets/images/hero.png" alt="Green Building">
-
-                <!-- <div class="hero-card card-one">
-
-                    <h4>LEED Certified</h4>
-
-                    <p>Green Building Experts</p>
-
+                <div class="hero-image-frame">
+                    <img src="assets/images/hero.png" alt="Green Building Engineering">
                 </div>
-
-                <div class="hero-card card-two">
-
-                    <h4>Energy Saving</h4>
-
-                    <p>Up to 40% Efficiency</p>
-
-                </div> -->
-
             </div>
-
         </div>
-
     </section>
 
     <!--==========================
@@ -229,10 +431,10 @@
 
                 <!-- Navigation Arrows -->
                 <div class="services-swiper-btn services-swiper-prev">
-                    <i class="fa-solid fa-arrow-left"></i>
+                    <i class="fa-solid fa-chevron-left"></i>
                 </div>
                 <div class="services-swiper-btn services-swiper-next">
-                    <i class="fa-solid fa-arrow-right"></i>
+                    <i class="fa-solid fa-chevron-right"></i>
                 </div>
             </div>
 
@@ -632,28 +834,28 @@
                 <div class="swiper projects-swiper">
                     <div class="swiper-wrapper">
 
-                        <!-- Project 1 -->
+                        <!-- Project 1: Green Building Certification -->
                         <div class="swiper-slide">
                             <article class="project-card">
                                 <div class="project-image">
-                                    <img src="assets/images/green-building.png" alt="Veridia Green Corporate HQ">
-                                    <span class="project-tag">LEED Platinum</span>
+                                    <img src="assets/images/energy-hyatt.png" alt="Hyatt Regency, Kasauli">
+                                    <span class="project-tag">Green Certification</span>
                                 </div>
                                 <div class="project-body">
                                     <div class="project-meta">
-                                        <span><i class="fa-solid fa-map-location-dot"></i> Mumbai</span>
-                                        <span><i class="fa-solid fa-layer-group"></i> 12 Floors</span>
+                                        <span><i class="fa-solid fa-map-location-dot"></i> Kasauli, HP</span>
+                                        <span><i class="fa-solid fa-building-shield"></i> IGBC Platinum</span>
                                     </div>
-                                    <h3>Veridia Green Corporate HQ</h3>
+                                    <h3>Hyatt Regency, Kasauli</h3>
                                     <p>
-                                        Zero-discharge campus with 42% energy reduction, rainwater harvesting and a 400 kW rooftop solar array.
+                                        Comprehensive green building certification, thermal envelope optimization, and energy reduction strategies for a luxury resort.
                                     </p>
                                     <div class="project-foot">
                                         <div class="project-stat">
-                                            <strong>42%</strong>
+                                            <strong>38%</strong>
                                             <small>Energy Saved</small>
                                         </div>
-                                        <a href="#" class="project-link">
+                                        <a href="contact-us.php" class="project-link" title="Contact Us">
                                             <i class="fa-solid fa-arrow-up-right-from-square"></i>
                                         </a>
                                     </div>
@@ -661,28 +863,57 @@
                             </article>
                         </div>
 
-                        <!-- Project 2 -->
+                        <!-- Project 2: Energy & Safety Audits -->
                         <div class="swiper-slide">
                             <article class="project-card">
                                 <div class="project-image">
-                                    <img src="assets/images/commissioning-hero.png" alt="Ashray Knowledge Campus">
-                                    <span class="project-tag project-tag--sage">IGBC Gold</span>
+                                    <img src="assets/images/energy-holiday.png" alt="Holiday Inn, Jaipur">
+                                    <span class="project-tag project-tag--sage">Energy Audit</span>
                                 </div>
                                 <div class="project-body">
                                     <div class="project-meta">
-                                        <span><i class="fa-solid fa-map-location-dot"></i> Bengaluru</span>
-                                        <span><i class="fa-solid fa-users"></i> 8,500 Students</span>
+                                        <span><i class="fa-solid fa-map-location-dot"></i> Jaipur, RJ</span>
+                                        <span><i class="fa-solid fa-chart-line"></i> Energy & HVAC</span>
                                     </div>
-                                    <h3>Ashray Knowledge Campus</h3>
+                                    <h3>Holiday Inn, Jaipur</h3>
                                     <p>
-                                        25-acre net-positive university precinct with passive cooling, daylight design and 4 MLD STP reuse cycle.
+                                        Detailed electrical safety and HVAC thermal performance audit delivering actionable energy conservation measures.
+                                    </p>
+                                    <div class="project-foot">
+                                        <div class="project-stat">
+                                            <strong>28%</strong>
+                                            <small>OpEx Saved</small>
+                                        </div>
+                                        <a href="contact-us.php" class="project-link" title="Contact Us">
+                                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+
+                        <!-- Project 3: ECSBC Compliance -->
+                        <div class="swiper-slide">
+                            <article class="project-card">
+                                <div class="project-image">
+                                    <img src="assets/images/ecsbc-spj.png" alt="SPJ Vedatam Mall">
+                                    <span class="project-tag project-tag--coral">ECSBC Compliance</span>
+                                </div>
+                                <div class="project-body">
+                                    <div class="project-meta">
+                                        <span><i class="fa-solid fa-map-location-dot"></i> Gurugram, HR</span>
+                                        <span><i class="fa-solid fa-shield-halved"></i> ECBC Code</span>
+                                    </div>
+                                    <h3>SPJ Vedatam Mall</h3>
+                                    <p>
+                                        Energy Conservation Building Code (ECSBC) compliance modeling, glass specification, and efficient HVAC integration.
                                     </p>
                                     <div class="project-foot">
                                         <div class="project-stat">
                                             <strong>100%</strong>
-                                            <small>Water Reuse</small>
+                                            <small>Code Compliant</small>
                                         </div>
-                                        <a href="#" class="project-link">
+                                        <a href="contact-us.php" class="project-link" title="Contact Us">
                                             <i class="fa-solid fa-arrow-up-right-from-square"></i>
                                         </a>
                                     </div>
@@ -690,28 +921,28 @@
                             </article>
                         </div>
 
-                        <!-- Project 3 -->
+                        <!-- Project 4: Commissioning Authority -->
                         <div class="swiper-slide">
                             <article class="project-card">
                                 <div class="project-image">
-                                    <img src="assets/images/simulation-hero.png" alt="Coral Heights Residences">
-                                    <span class="project-tag project-tag--coral">BREEAM Excellent</span>
+                                    <img src="assets/images/comission-martin.png" alt="Martin Luther Block, Chitkara">
+                                    <span class="project-tag">Building Commissioning</span>
                                 </div>
                                 <div class="project-body">
                                     <div class="project-meta">
-                                        <span><i class="fa-solid fa-map-location-dot"></i> Pune</span>
-                                        <span><i class="fa-solid fa-building"></i> 620 Units</span>
+                                        <span><i class="fa-solid fa-map-location-dot"></i> Rajpura, PB</span>
+                                        <span><i class="fa-solid fa-clipboard-check"></i> Third-Party Cx</span>
                                     </div>
-                                    <h3>Coral Heights Residences</h3>
+                                    <h3>Martin Luther Block, Chitkara</h3>
                                     <p>
-                                        Luxury high-rise residences with VRF climate control, demand-controlled ventilation and district cooling.
+                                        Comprehensive third-party commissioning of MEP systems, air balancing, and BMS controls for optimal operational performance.
                                     </p>
                                     <div class="project-foot">
                                         <div class="project-stat">
-                                            <strong>55%</strong>
-                                            <small>Peak Load Cut</small>
+                                            <strong>100%</strong>
+                                            <small>Verified Cx</small>
                                         </div>
-                                        <a href="#" class="project-link">
+                                        <a href="contact-us.php" class="project-link" title="Contact Us">
                                             <i class="fa-solid fa-arrow-up-right-from-square"></i>
                                         </a>
                                     </div>
@@ -719,28 +950,57 @@
                             </article>
                         </div>
 
-                        <!-- Project 4 -->
+                        <!-- Project 5: Precision Medical Cooling -->
                         <div class="swiper-slide">
                             <article class="project-card">
                                 <div class="project-image">
-                                    <img src="assets/images/audits-hero.png" alt="Zenith Industrial Park">
-                                    <span class="project-tag">LEED Gold</span>
+                                    <img src="assets/images/medical-aims.png" alt="AIIMS, Delhi">
+                                    <span class="project-tag project-tag--sage">Precision Medical</span>
                                 </div>
                                 <div class="project-body">
                                     <div class="project-meta">
-                                        <span><i class="fa-solid fa-map-location-dot"></i> Chennai</span>
-                                        <span><i class="fa-solid fa-layer-group"></i> 150,000 sq.ft</span>
+                                        <span><i class="fa-solid fa-map-location-dot"></i> New Delhi</span>
+                                        <span><i class="fa-solid fa-hospital"></i> Medical Cooling</span>
                                     </div>
-                                    <h3>Zenith Industrial Park</h3>
+                                    <h3>AIIMS, Delhi</h3>
                                     <p>
-                                        Energy-efficient manufacturing facility with automated building management systems and high-efficiency heat pumps.
+                                        Specialized ultra-precise temperature and humidity control cooling systems for critical medical equipment and research labs.
+                                    </p>
+                                    <div class="project-foot">
+                                        <div class="project-stat">
+                                            <strong>±0.5°C</strong>
+                                            <small>Precision Control</small>
+                                        </div>
+                                        <a href="contact-us.php" class="project-link" title="Contact Us">
+                                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+
+                        <!-- Project 6: Industrial HVAC Solutions -->
+                        <div class="swiper-slide">
+                            <article class="project-card">
+                                <div class="project-image">
+                                    <img src="assets/images/industry-hindustan.png" alt="Hindustan Unilever Facility">
+                                    <span class="project-tag project-tag--coral">Industrial HVAC</span>
+                                </div>
+                                <div class="project-body">
+                                    <div class="project-meta">
+                                        <span><i class="fa-solid fa-map-location-dot"></i> Northern Region</span>
+                                        <span><i class="fa-solid fa-industry"></i> Cleanroom Air</span>
+                                    </div>
+                                    <h3>Hindustan Unilever Facility</h3>
+                                    <p>
+                                        High-efficiency industrial ventilation, cleanroom environmental control, and waste heat recovery for manufacturing plant.
                                     </p>
                                     <div class="project-foot">
                                         <div class="project-stat">
                                             <strong>35%</strong>
-                                            <small>OpEx Reduced</small>
+                                            <small>Heat Recovered</small>
                                         </div>
-                                        <a href="#" class="project-link">
+                                        <a href="contact-us.php" class="project-link" title="Contact Us">
                                             <i class="fa-solid fa-arrow-up-right-from-square"></i>
                                         </a>
                                     </div>
@@ -748,28 +1008,28 @@
                             </article>
                         </div>
 
-                        <!-- Project 5 -->
+                        <!-- Project 7: Energy Simulation & Modeling -->
                         <div class="swiper-slide">
                             <article class="project-card">
                                 <div class="project-image">
-                                    <img src="assets/images/sustainable-architecture.png" alt="Serene Eco-Resort">
-                                    <span class="project-tag project-tag--sage">GRIHA 5-Star</span>
+                                    <img src="assets/images/ecsbc-42.png" alt="42 Works Campus">
+                                    <span class="project-tag">Energy Simulation</span>
                                 </div>
                                 <div class="project-body">
                                     <div class="project-meta">
-                                        <span><i class="fa-solid fa-map-location-dot"></i> Goa</span>
-                                        <span><i class="fa-solid fa-building"></i> 85 Villas</span>
+                                        <span><i class="fa-solid fa-map-location-dot"></i> Mohali, PB</span>
+                                        <span><i class="fa-solid fa-vr-cardboard"></i> 3D Modeling</span>
                                     </div>
-                                    <h3>Serene Eco-Resort</h3>
+                                    <h3>42 Works Campus</h3>
                                     <p>
-                                        Sustainable hospitality project featuring geothermal cooling, solar water heating, and zero-carbon waste management.
+                                        Advanced 3D building energy simulation, solar shade analysis, and CFD airflow modeling for optimized daylighting and efficiency.
                                     </p>
                                     <div class="project-foot">
                                         <div class="project-stat">
-                                            <strong>58%</strong>
-                                            <small>Cooling Bill Cut</small>
+                                            <strong>40%</strong>
+                                            <small>Peak Load Cut</small>
                                         </div>
-                                        <a href="#" class="project-link">
+                                        <a href="contact-us.php" class="project-link" title="Contact Us">
                                             <i class="fa-solid fa-arrow-up-right-from-square"></i>
                                         </a>
                                     </div>
@@ -777,86 +1037,28 @@
                             </article>
                         </div>
 
-                        <!-- Project 6 -->
+                        <!-- Project 8: IoT Water Solution -->
                         <div class="swiper-slide">
                             <article class="project-card">
                                 <div class="project-image">
-                                    <img src="assets/images/carbon-hero.png" alt="TechNest IT Park">
-                                    <span class="project-tag project-tag--coral">WELL Gold</span>
+                                    <img src="assets/images/energy-gold.png" alt="Gold Plus Glass Plant">
+                                    <span class="project-tag project-tag--sage">IoT Water Solution</span>
                                 </div>
                                 <div class="project-body">
                                     <div class="project-meta">
-                                        <span><i class="fa-solid fa-map-location-dot"></i> Hyderabad</span>
-                                        <span><i class="fa-solid fa-layer-group"></i> 450,000 sq.ft</span>
+                                        <span><i class="fa-solid fa-map-location-dot"></i> Roorkee, UK</span>
+                                        <span><i class="fa-solid fa-droplet"></i> Smart Water IoT</span>
                                     </div>
-                                    <h3>TechNest IT Park</h3>
+                                    <h3>Gold Plus Glass Plant</h3>
                                     <p>
-                                        Modern office building focusing on indoor air quality, daylight optimization, and smart IoT sensor integrations.
+                                        Real-time IoT sensor network deployment for industrial water management, consumption auditing, and automated flow optimization.
                                     </p>
                                     <div class="project-foot">
                                         <div class="project-stat">
-                                            <strong>22%</strong>
-                                            <small>Air Quality Up</small>
+                                            <strong>45%</strong>
+                                            <small>Water Recycled</small>
                                         </div>
-                                        <a href="#" class="project-link">
-                                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                            </article>
-                        </div>
-
-                        <!-- Project 7 -->
-                        <div class="swiper-slide">
-                            <article class="project-card">
-                                <div class="project-image">
-                                    <img src="assets/images/tab-services.png" alt="SkyNet Logistics Hub">
-                                    <span class="project-tag">Net-Zero Certified</span>
-                                </div>
-                                <div class="project-body">
-                                    <div class="project-meta">
-                                        <span><i class="fa-solid fa-map-location-dot"></i> Noida</span>
-                                        <span><i class="fa-solid fa-layer-group"></i> 50 Acres</span>
-                                    </div>
-                                    <h3>SkyNet Logistics Hub</h3>
-                                    <p>
-                                        Large-scale warehouse facility featuring rooftop solar PV carports and intelligent LED lighting controls.
-                                    </p>
-                                    <div class="project-foot">
-                                        <div class="project-stat">
-                                            <strong>100%</strong>
-                                            <small>Solar Powered</small>
-                                        </div>
-                                        <a href="#" class="project-link">
-                                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                            </article>
-                        </div>
-
-                        <!-- Project 8 -->
-                        <div class="swiper-slide">
-                            <article class="project-card">
-                                <div class="project-image">
-                                    <img src="assets/images/benefits-building.png" alt="Aashirwad Green Hospital">
-                                    <span class="project-tag project-tag--sage">IGBC Platinum</span>
-                                </div>
-                                <div class="project-body">
-                                    <div class="project-meta">
-                                        <span><i class="fa-solid fa-map-location-dot"></i> Delhi</span>
-                                        <span><i class="fa-solid fa-bed"></i> 350 Beds</span>
-                                    </div>
-                                    <h3>Aashirwad Green Hospital</h3>
-                                    <p>
-                                        Green healthcare facility prioritizing occupant well-being, waste management, and high-efficiency HVAC.
-                                    </p>
-                                    <div class="project-foot">
-                                        <div class="project-stat">
-                                            <strong>48%</strong>
-                                            <small>Carbon Cut</small>
-                                        </div>
-                                        <a href="#" class="project-link">
+                                        <a href="contact-us.php" class="project-link" title="Contact Us">
                                             <i class="fa-solid fa-arrow-up-right-from-square"></i>
                                         </a>
                                     </div>
