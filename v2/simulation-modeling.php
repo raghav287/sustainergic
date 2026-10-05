@@ -72,7 +72,7 @@
                             <i class="fa-solid fa-chart-line"></i>
                         </div>
                         <div class="sm-hero-fc-text">
-                            <h5>98% Accuracy</h5>
+                            <h5>HighAccuracy</h5>
                             <p>Calibration Models</p>
                         </div>
                     </div>

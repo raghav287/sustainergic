@@ -107,12 +107,12 @@
                         <div class="about-stats-grid">
 
                             <div class="about-stat-card about-stat-card--white">
-                                <strong>6</strong>
+                                <strong>6+</strong>
                                 <span>Years of Green Building Experience</span>
                             </div>
 
                             <div class="about-stat-card about-stat-card--dark">
-                                <strong>100+</strong>
+                                <strong>50+</strong>
                                 <span>Projects Delivered Across India</span>
                             </div>
 
@@ -136,7 +136,7 @@
                                 <i class="fa-solid fa-lightbulb"></i> Energy Simulation Experts
                             </span>
                             <span class="about-stat-badge">
-                                <i class="fa-solid fa-snowflake"></i> HVAC Design &amp; VAM Specialists
+                                <i class="fa-solid fa-snowflake"></i> HVAC &amp; RCS (Radiant Cooling Heating Design) Specialists
                             </span>
                             <span class="about-stat-badge about-stat-badge--coral">
                                 <i class="fa-solid fa-leaf"></i> End-to-End Green Delivery
@@ -211,8 +211,8 @@
                     <div class="strength-item">
                         <div class="strength-item-number">03</div>
                         <div class="strength-item-content">
-                            <h3>Advanced HVAC &amp; VAM Design</h3>
-                            <p>Low-energy cooling, active radiant systems, vapour absorption machines, and central plant optimization engineered to save power.</p>
+                            <h3>Advanced HVAC &amp; RCS Design</h3>
+                            <p>Low-energy cooling, active radiant cooling &amp; heating systems (RCS), and central plant optimization engineered to save power.</p>
                         </div>
                     </div>
                     
@@ -323,12 +323,12 @@
             <div class="overview-grid">
 
                 <div class="overview-stat">
-                    <strong>6</strong>
+                    <strong>6+</strong>
                     <span>Years of Green Building Experience</span>
                 </div>
 
                 <div class="overview-stat">
-                    <strong>100+</strong>
+                    <strong>50+</strong>
                     <span>Projects Delivered Across India</span>
                 </div>
 

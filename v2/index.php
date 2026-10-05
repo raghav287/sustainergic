@@ -401,19 +401,19 @@
                             </a>
                         </div>
 
-                        <!-- Slide 5: Carbon Advisory -->
+                        <!-- Slide 5: Radiant Heating & Cooling System -->
                         <div class="swiper-slide">
-                            <a href="carbon-accounting-advisory.php" class="service-card">
+                            <a href="radiant-heating-cooling-system.php" class="service-card">
                                 <div class="service-image">
-                                    <img src="assets/images/carbon-accounting.png" alt="Carbon Accounting & Advisory">
+                                    <img src="assets/images/radiant-hero.png" alt="Radiant Heating & Cooling System">
                                     <div class="service-image-icon">
-                                        <i class="fa-solid fa-cloud-arrow-up"></i>
+                                        <i class="fa-solid fa-temperature-arrow-down"></i>
                                     </div>
                                 </div>
                                 <div class="service-body">
-                                    <h3>Carbon Accounting &amp; Advisory</h3>
+                                    <h3>Radiant Heating &amp; Cooling System</h3>
                                     <p>
-                                        Strategic carbon footprint mapping, decarbonization planning, and ESG reporting to guide your business toward net-zero emissions.
+                                        Advanced hydronic solutions delivering 30–40% energy savings, silent draft-free comfort, and uniform temperature distribution.
                                     </p>
                                     <span class="service-link">
                                         Learn More <i class="fa-solid fa-arrow-right"></i>
@@ -838,27 +838,18 @@
                         <div class="swiper-slide">
                             <article class="project-card">
                                 <div class="project-image">
-                                    <img src="assets/images/energy-hyatt.png" alt="Hyatt Regency, Kasauli">
+                                    <img src="assets/images/energy-hyatt.png" alt="Hyatt Regency, Dehradun">
                                     <span class="project-tag">Green Certification</span>
                                 </div>
                                 <div class="project-body">
                                     <div class="project-meta">
-                                        <span><i class="fa-solid fa-map-location-dot"></i> Kasauli, HP</span>
+                                        <span><i class="fa-solid fa-map-location-dot"></i> Dehradun, UK</span>
                                         <span><i class="fa-solid fa-building-shield"></i> IGBC Platinum</span>
                                     </div>
-                                    <h3>Hyatt Regency, Kasauli</h3>
+                                    <h3>Hyatt Regency, Dehradun</h3>
                                     <p>
                                         Comprehensive green building certification, thermal envelope optimization, and energy reduction strategies for a luxury resort.
                                     </p>
-                                    <div class="project-foot">
-                                        <div class="project-stat">
-                                            <strong>38%</strong>
-                                            <small>Energy Saved</small>
-                                        </div>
-                                        <a href="contact-us.php" class="project-link" title="Contact Us">
-                                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
-                                        </a>
-                                    </div>
                                 </div>
                             </article>
                         </div>
@@ -879,15 +870,6 @@
                                     <p>
                                         Detailed electrical safety and HVAC thermal performance audit delivering actionable energy conservation measures.
                                     </p>
-                                    <div class="project-foot">
-                                        <div class="project-stat">
-                                            <strong>28%</strong>
-                                            <small>OpEx Saved</small>
-                                        </div>
-                                        <a href="contact-us.php" class="project-link" title="Contact Us">
-                                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
-                                        </a>
-                                    </div>
                                 </div>
                             </article>
                         </div>
@@ -908,15 +890,6 @@
                                     <p>
                                         Energy Conservation Building Code (ECSBC) compliance modeling, glass specification, and efficient HVAC integration.
                                     </p>
-                                    <div class="project-foot">
-                                        <div class="project-stat">
-                                            <strong>100%</strong>
-                                            <small>Code Compliant</small>
-                                        </div>
-                                        <a href="contact-us.php" class="project-link" title="Contact Us">
-                                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
-                                        </a>
-                                    </div>
                                 </div>
                             </article>
                         </div>
@@ -937,15 +910,6 @@
                                     <p>
                                         Comprehensive third-party commissioning of MEP systems, air balancing, and BMS controls for optimal operational performance.
                                     </p>
-                                    <div class="project-foot">
-                                        <div class="project-stat">
-                                            <strong>100%</strong>
-                                            <small>Verified Cx</small>
-                                        </div>
-                                        <a href="contact-us.php" class="project-link" title="Contact Us">
-                                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
-                                        </a>
-                                    </div>
                                 </div>
                             </article>
                         </div>
@@ -966,15 +930,6 @@
                                     <p>
                                         Specialized ultra-precise temperature and humidity control cooling systems for critical medical equipment and research labs.
                                     </p>
-                                    <div class="project-foot">
-                                        <div class="project-stat">
-                                            <strong>±0.5°C</strong>
-                                            <small>Precision Control</small>
-                                        </div>
-                                        <a href="contact-us.php" class="project-link" title="Contact Us">
-                                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
-                                        </a>
-                                    </div>
                                 </div>
                             </article>
                         </div>
@@ -995,15 +950,6 @@
                                     <p>
                                         High-efficiency industrial ventilation, cleanroom environmental control, and waste heat recovery for manufacturing plant.
                                     </p>
-                                    <div class="project-foot">
-                                        <div class="project-stat">
-                                            <strong>35%</strong>
-                                            <small>Heat Recovered</small>
-                                        </div>
-                                        <a href="contact-us.php" class="project-link" title="Contact Us">
-                                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
-                                        </a>
-                                    </div>
                                 </div>
                             </article>
                         </div>
@@ -1024,15 +970,6 @@
                                     <p>
                                         Advanced 3D building energy simulation, solar shade analysis, and CFD airflow modeling for optimized daylighting and efficiency.
                                     </p>
-                                    <div class="project-foot">
-                                        <div class="project-stat">
-                                            <strong>40%</strong>
-                                            <small>Peak Load Cut</small>
-                                        </div>
-                                        <a href="contact-us.php" class="project-link" title="Contact Us">
-                                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
-                                        </a>
-                                    </div>
                                 </div>
                             </article>
                         </div>
@@ -1053,15 +990,6 @@
                                     <p>
                                         Real-time IoT sensor network deployment for industrial water management, consumption auditing, and automated flow optimization.
                                     </p>
-                                    <div class="project-foot">
-                                        <div class="project-stat">
-                                            <strong>45%</strong>
-                                            <small>Water Recycled</small>
-                                        </div>
-                                        <a href="contact-us.php" class="project-link" title="Contact Us">
-                                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
-                                        </a>
-                                    </div>
                                 </div>
                             </article>
                         </div>

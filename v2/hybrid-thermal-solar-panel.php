@@ -373,109 +373,6 @@
     </section>
 
     <!-- ==========================================
-       4. PANEL SPECIFICATIONS & SUN TRACKING
-       ========================================== -->
-    <section class="gb-section">
-        <div class="gb-container">
-            <div class="gb-section-header">
-                <span class="gb-label">Engineering Data</span>
-                <h2 class="gb-title-main">HTS Panel Specifications &amp; Performance</h2>
-            </div>
-
-            <div class="gb-grid-3">
-                <!-- Card 1: Physical Specifications -->
-                <div class="hts-spec-card">
-                    <h4><i class="fa-solid fa-ruler-combined"></i> Panel Dimensions &amp; Build</h4>
-                    <ul class="hts-spec-list">
-                        <li><span class="hts-spec-label">Capacity</span><span class="hts-spec-value">7.5 Tons / 10 HP / 90,000 BTU</span></li>
-                        <li><span class="hts-spec-label">Panel Size</span><span class="hts-spec-value">8 ft × 4 ft</span></li>
-                        <li><span class="hts-spec-label">Dimensions</span><span class="hts-spec-value">100" × 52" × 7"</span></li>
-                        <li><span class="hts-spec-label">Total Weight</span><span class="hts-spec-value">86 kg</span></li>
-                        <li><span class="hts-spec-label">Reflector Area</span><span class="hts-spec-value">8 ft × 4 ft</span></li>
-                        <li><span class="hts-spec-label">Outer Enclosure</span><span class="hts-spec-value">Aluminium Enclosure</span></li>
-                    </ul>
-                </div>
-
-                <!-- Card 2: Thermal Components -->
-                <div class="hts-spec-card">
-                    <h4><i class="fa-solid fa-temperature-full"></i> Absorber &amp; Insulation</h4>
-                    <ul class="hts-spec-list">
-                        <li><span class="hts-spec-label">Front Cover</span><span class="hts-spec-value">4 mm Hardened Clear Glass</span></li>
-                        <li><span class="hts-spec-label">Heat Absorber</span><span class="hts-spec-value">Copper Tube Absorbers</span></li>
-                        <li><span class="hts-spec-label">Thermal Insulation</span><span class="hts-spec-value">9 mm EPDM Insulation</span></li>
-                        <li><span class="hts-spec-label">Mounting Stand</span><span class="hts-spec-value">Adjustable Mounting Stand</span></li>
-                        <li><span class="hts-spec-label">Panel Warranty</span><span class="hts-spec-value">5 Years Warranty</span></li>
-                        <li><span class="hts-spec-label">Design Life</span><span class="hts-spec-value">15 Years Lifetime</span></li>
-                    </ul>
-                </div>
-
-                <!-- Card 3: Sun Tracking System -->
-                <div class="hts-spec-card">
-                    <h4><i class="fa-solid fa-compass"></i> Automated Sun Tracking</h4>
-                    <ul class="hts-spec-list">
-                        <li><span class="hts-spec-label">Optical Sensors</span><span class="hts-spec-value">2 Shaded Phototransistors</span></li>
-                        <li><span class="hts-spec-label">Drive Motor</span><span class="hts-spec-value">Brushless Stepper Motor</span></li>
-                        <li><span class="hts-spec-label">Operating Voltage</span><span class="hts-spec-value">12 VDC</span></li>
-                        <li><span class="hts-spec-label">Power Consumption</span><span class="hts-spec-value">Ultra-Low 1.5 W</span></li>
-                        <li><span class="hts-spec-label">Site Reports</span><span class="hts-spec-value">30+ Field Testing Reports</span></li>
-                        <li><span class="hts-spec-label">Average Savings</span><span class="hts-spec-value">35% Verified Energy Saved</span></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- ==========================================
-       5. TESTED HVAC BRANDS & APPLICATIONS
-       ========================================== -->
-    <section class="gb-section gb-section--light">
-        <div class="gb-container">
-            <div class="gb-section-header">
-                <span class="gb-label">Verified Performance</span>
-                <h2 class="gb-title-main">Tested Across 11 Leading HVAC Brands</h2>
-                <p style="max-width: 700px; margin: 10px auto 0 auto; color: #64748b; text-align: center;">
-                    HTS Panel technology has been field tested across 30+ site reports and multiple Indian cities on all major commercial AC brands:
-                </p>
-            </div>
-
-            <!-- Brand Badges -->
-            <div class="brand-badge-grid">
-                <div class="brand-badge"><i class="fa-solid fa-circle-check"></i> LG</div>
-                <div class="brand-badge"><i class="fa-solid fa-circle-check"></i> Hitachi</div>
-                <div class="brand-badge"><i class="fa-solid fa-circle-check"></i> Samsung</div>
-                <div class="brand-badge"><i class="fa-solid fa-circle-check"></i> Daikin</div>
-                <div class="brand-badge"><i class="fa-solid fa-circle-check"></i> Toshiba</div>
-                <div class="brand-badge"><i class="fa-solid fa-circle-check"></i> Carrier</div>
-                <div class="brand-badge"><i class="fa-solid fa-circle-check"></i> Mitsubishi</div>
-                <div class="brand-badge"><i class="fa-solid fa-circle-check"></i> Blue Star</div>
-                <div class="brand-badge"><i class="fa-solid fa-circle-check"></i> Voltas</div>
-                <div class="brand-badge"><i class="fa-solid fa-circle-check"></i> Reynold</div>
-            </div>
-
-            <!-- Target Applications -->
-            <div style="margin-top: 50px;">
-                <div class="gb-section-header" style="margin-bottom: 20px;">
-                    <span class="gb-label">Ideal Deployments</span>
-                    <h2 class="gb-title-main" style="font-size: 1.6rem;">Target Commercial &amp; Industrial Applications</h2>
-                </div>
-
-                <div class="app-grid">
-                    <div class="app-item"><i class="fa-solid fa-fan"></i> VRF Systems</div>
-                    <div class="app-item"><i class="fa-solid fa-snowflake"></i> Chiller Systems</div>
-                    <div class="app-item"><i class="fa-solid fa-building"></i> Office Buildings</div>
-                    <div class="app-item"><i class="fa-solid fa-industry"></i> Process Cooling</div>
-                    <div class="app-item"><i class="fa-solid fa-server"></i> Data Centres</div>
-                    <div class="app-item"><i class="fa-solid fa-hospital"></i> Hospitals</div>
-                    <div class="app-item"><i class="fa-solid fa-utensils"></i> Canteens</div>
-                    <div class="app-item"><i class="fa-solid fa-users"></i> Auditoriums</div>
-                    <div class="app-item"><i class="fa-solid fa-gavel"></i> Courtrooms</div>
-                    <div class="app-item"><i class="fa-solid fa-city"></i> Commercial Facilities</div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- ==========================================
        6. IMPLEMENTATION ROADMAP
        ========================================== -->
     <section class="gb-section">
@@ -528,6 +425,59 @@
             </div>
         </div>
     </section>
+    <!-- ==========================================
+       5. TESTED HVAC BRANDS & APPLICATIONS
+       ========================================== -->
+    <section class="gb-section gb-section--light">
+        <div class="gb-container">
+            <div class="gb-section-header">
+                <span class="gb-label">Verified Performance</span>
+                <h2 class="gb-title-main">Tested Across All Leading HVAC Brands</h2>
+                <p style="max-width: 700px; margin: 10px auto 0 auto; color: #64748b; text-align: center;">
+                    HTS Panel technology has been field tested across 30+ site reports and multiple Indian cities on all major commercial AC brands:
+                </p>
+            </div>
+
+            <!-- Brand Badges -->
+            <div class="brand-badge-grid">
+                <div class="brand-badge"><i class="fa-solid fa-circle-check"></i> LG</div>
+                <div class="brand-badge"><i class="fa-solid fa-circle-check"></i> Hitachi</div>
+                <div class="brand-badge"><i class="fa-solid fa-circle-check"></i> Samsung</div>
+                <div class="brand-badge"><i class="fa-solid fa-circle-check"></i> Daikin</div>
+                <div class="brand-badge"><i class="fa-solid fa-circle-check"></i> Toshiba</div>
+                <div class="brand-badge"><i class="fa-solid fa-circle-check"></i> Carrier</div>
+                 <div class="brand-badge"><i class="fa-solid fa-circle-check"></i> Mitsubishi Heavy</div>
+                  <div class="brand-badge"><i class="fa-solid fa-circle-check"></i> Mitsubishi Electric</div>
+                   <div class="brand-badge"><i class="fa-solid fa-circle-check"></i> O-general</div>
+                <div class="brand-badge"><i class="fa-solid fa-circle-check"></i> Blue Star</div>
+                <div class="brand-badge"><i class="fa-solid fa-circle-check"></i> Voltas</div>
+                <div class="brand-badge"><i class="fa-solid fa-circle-check"></i> Reynold</div>
+            </div>
+
+            <!-- Target Applications -->
+            <div style="margin-top: 50px;">
+                <div class="gb-section-header" style="margin-bottom: 20px;">
+                    <span class="gb-label">Ideal Deployments</span>
+                    <h2 class="gb-title-main" style="font-size: 1.6rem;">Target Commercial &amp; Industrial Applications</h2>
+                </div>
+
+                <div class="app-grid">
+                    <div class="app-item"><i class="fa-solid fa-fan"></i> VRF Systems</div>
+                    <div class="app-item"><i class="fa-solid fa-snowflake"></i> Chiller Systems</div>
+                    <div class="app-item"><i class="fa-solid fa-building"></i> Office Buildings</div>
+                    <div class="app-item"><i class="fa-solid fa-industry"></i> Process Cooling</div>
+                    <div class="app-item"><i class="fa-solid fa-server"></i> Data Centres</div>
+                    <div class="app-item"><i class="fa-solid fa-hospital"></i> Hospitals</div>
+                    <div class="app-item"><i class="fa-solid fa-utensils"></i> Canteens</div>
+                    <div class="app-item"><i class="fa-solid fa-users"></i> Auditoriums</div>
+                    <div class="app-item"><i class="fa-solid fa-gavel"></i> Courtrooms</div>
+                    <div class="app-item"><i class="fa-solid fa-city"></i> Commercial Facilities</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+  
 
     <!-- ==========================================
        7. CALL-TO-ACTION BANNER
