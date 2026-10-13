@@ -438,13 +438,13 @@
                 </div>
             </div>
 
-            <div class="services-cta">
+            <!--<div class="services-cta">-->
 
-                <a href="#" class="btn-primary">
-                    <i class="fa-solid fa-layer-group"></i> View All  Services
-                </a>
+            <!--    <a href="#" class="btn-primary">-->
+            <!--        <i class="fa-solid fa-layer-group"></i> View All  Services-->
+            <!--    </a>-->
 
-            </div>
+            <!--</div>-->
 
         </div>
 
@@ -806,8 +806,7 @@
                     <h3>Proven Energy/Water Savings</h3>
 
                     <p>
-                        500+ completed projects with an average 40% reduction in energy
-                        consumption and measurable operational cost savings.
+                        100+ completed and ongoing projects with an average 20-40% reduction in energy consumption and measurable operational cost savings.
                     </p>
 
                 </div>
@@ -844,7 +843,7 @@
                                 <div class="project-body">
                                     <div class="project-meta">
                                         <span><i class="fa-solid fa-map-location-dot"></i> Dehradun, UK</span>
-                                        <span><i class="fa-solid fa-building-shield"></i> IGBC Platinum</span>
+                                        <span><i class="fa-solid fa-building-shield"></i> LEED Platinum</span>
                                     </div>
                                     <h3>Hyatt Regency, Dehradun</h3>
                                     <p>
@@ -943,10 +942,10 @@
                                 </div>
                                 <div class="project-body">
                                     <div class="project-meta">
-                                        <span><i class="fa-solid fa-map-location-dot"></i> Northern Region</span>
-                                        <span><i class="fa-solid fa-industry"></i> Cleanroom Air</span>
+                                        <span><i class="fa-solid fa-map-location-dot"></i>  Kala Hasti, AP</span>
+                                        <span><i class="fa-solid fa-industry"></i> Industrial HVAC Solution.</span>
                                     </div>
-                                    <h3>Hindustan Unilever Facility</h3>
+                                    <h3>Hindustan Coca-Cola Beverages</h3>
                                     <p>
                                         High-efficiency industrial ventilation, cleanroom environmental control, and waste heat recovery for manufacturing plant.
                                     </p>
@@ -983,10 +982,10 @@
                                 </div>
                                 <div class="project-body">
                                     <div class="project-meta">
-                                        <span><i class="fa-solid fa-map-location-dot"></i> Roorkee, UK</span>
+                                        <span><i class="fa-solid fa-map-location-dot"></i> Jaipur</span>
                                         <span><i class="fa-solid fa-droplet"></i> Smart Water IoT</span>
                                     </div>
-                                    <h3>Gold Plus Glass Plant</h3>
+                                    <h3>The Gold Palace</h3>
                                     <p>
                                         Real-time IoT sensor network deployment for industrial water management, consumption auditing, and automated flow optimization.
                                     </p>
@@ -1011,7 +1010,7 @@
             </div>
 
             <div class="projects-cta-bottom">
-                <a href="#" class="projects-view-all">
+                <a href="project.php" class="projects-view-all">
                     View All Projects <i class="fa-solid fa-arrow-right"></i>
                 </a>
             </div>

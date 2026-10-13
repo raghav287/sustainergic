@@ -370,7 +370,7 @@
                 <!-- 2. Life Cycle Assessment (LCA) -->
                 <div class="aud-alt-row">
                     <div class="aud-alt-visual">
-                        <img src="assets/images/lca-stages.png" alt="Circular lifecycle cradle-to-grave diagram mapping raw extraction to reuse and recycling">
+                        <img src="assets/images/lca-analysis.png" alt="Circular lifecycle cradle-to-grave diagram mapping raw extraction to reuse and recycling">
                     </div>
                     <div class="aud-alt-content">
                         <div class="aud-alt-content-header">

@@ -278,7 +278,7 @@
                 <!-- 4. LCA Analysis -->
                 <div class="sm-alt-row">
                     <div class="sm-alt-visual">
-                        <img src="assets/images/lca.png" alt="Life Cycle Assessment lifecycle diagram mapping embodied carbon and environmental impacts">
+                        <img src="assets/images/lca-analysis.png" alt="Life Cycle Assessment lifecycle diagram mapping embodied carbon and environmental impacts">
                     </div>
                     <div class="sm-alt-content">
                         <div class="sm-alt-content-header">

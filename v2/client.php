@@ -82,46 +82,6 @@
             transform: scale(1.08);
         }
 
-        /* Placeholder slot for pending logos */
-        .client-card-placeholder {
-            border: 1.5px dashed #cbd5e1;
-            background: #f8fafc;
-        }
-
-        .client-card-placeholder:hover {
-            border-color: #10b981;
-            background: #ffffff;
-        }
-
-        .client-placeholder-content {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            gap: 8px;
-            text-align: center;
-            color: #64748b;
-            transition: color 0.3s ease;
-        }
-
-        .client-placeholder-content i {
-            font-size: 24px;
-            color: #94a3b8;
-            transition: color 0.3s ease;
-        }
-
-        .client-placeholder-content span {
-            font-size: 13.5px;
-            font-weight: 700;
-            color: #334155;
-            letter-spacing: -0.2px;
-            line-height: 1.25;
-        }
-
-        .client-card-placeholder:hover .client-placeholder-content i {
-            color: #10b981;
-        }
-
         @media (max-width: 1024px) {
             .client-cards-grid {
                 grid-template-columns: repeat(3, 1fr);
@@ -205,193 +165,184 @@
                     </div>
                 </div>
 
-                <!-- 2. Hotel Taj Panchkula (Placeholder Slot) -->
-                <div class="client-card-item client-card-placeholder">
+                <!-- 2. Hotel Taj -->
+                <div class="client-card-item">
                     <div class="client-logo-header">
-                        <div class="client-placeholder-content">
-                            <i class="fa-solid fa-hotel"></i>
-                            <span>Hotel Taj Panchkula</span>
-                        </div>
+                        <img src="assets/images/clients/taj.png" alt="Taj Hotels Logo" width="300" height="100" class="client-logo-img">
                     </div>
                 </div>
 
-                <!-- 3. Honda Motorcycle & Scooter India -->
+                <!-- 3. Reserve Bank of India (RBI) -->
+                <div class="client-card-item">
+                    <div class="client-logo-header">
+                        <img src="assets/images/clients/rbi.png" alt="Reserve Bank of India Logo" width="300" height="100" class="client-logo-img">
+                    </div>
+                </div>
+
+                <!-- 4. AIIMS New Delhi -->
+                <div class="client-card-item">
+                    <div class="client-logo-header">
+                        <img src="assets/images/clients/aiims.png" alt="AIIMS Delhi Logo" width="300" height="100" class="client-logo-img">
+                    </div>
+                </div>
+
+                <!-- 5. Holiday Inn -->
+                <div class="client-card-item">
+                    <div class="client-logo-header">
+                        <img src="assets/images/clients/holiday.png" alt="Holiday Inn Logo" width="300" height="100" class="client-logo-img">
+                    </div>
+                </div>
+
+                <!-- 6. Hindustan Coca-Cola Beverages -->
+                <div class="client-card-item">
+                    <div class="client-logo-header">
+                        <img src="assets/images/clients/hindustan-coca.png" alt="Hindustan Coca-Cola Beverages Logo" width="300" height="100" class="client-logo-img">
+                    </div>
+                </div>
+
+                <!-- 7. Honda Motorcycle & Scooter India -->
                 <div class="client-card-item">
                     <div class="client-logo-header">
                         <img src="assets/images/clients/honda-logo.png" alt="Honda Motorcycle &amp; Scooter India Logo" width="300" height="100" class="client-logo-img">
                     </div>
                 </div>
 
-                <!-- 4. Havells India -->
+                <!-- 8. Havells India -->
                 <div class="client-card-item">
                     <div class="client-logo-header">
                         <img src="assets/images/clients/havells-logo.png" alt="Havells India Ltd Logo" width="300" height="100" class="client-logo-img">
                     </div>
                 </div>
 
-                <!-- 5. Venkateswara Wires -->
-                <div class="client-card-item">
-                    <div class="client-logo-header">
-                        <img src="assets/images/clients/venkateswara-logo.png" alt="Venkateswara Wires Logo" width="300" height="100" class="client-logo-img">
-                    </div>
-                </div>
-
-                <!-- 6. Netsmartz Tower -->
-                <div class="client-card-item">
-                    <div class="client-logo-header">
-                        <img src="assets/images/clients/netsmartz-logo.png" alt="Netsmartz Tower Logo" width="300" height="100" class="client-logo-img">
-                    </div>
-                </div>
-
-                <!-- 7. JREW Engineering -->
-                <div class="client-card-item">
-                    <div class="client-logo-header">
-                        <img src="assets/images/clients/jrew-logo.png" alt="JREW Engineering Logo" width="300" height="100" class="client-logo-img">
-                    </div>
-                </div>
-
-                <!-- 8. Window Tech India -->
-                <div class="client-card-item">
-                    <div class="client-logo-header">
-                        <img src="assets/images/clients/windowtech-logo.png" alt="Window Tech India Logo" width="300" height="100" class="client-logo-img">
-                    </div>
-                </div>
-
-                <!-- 9. Appworx IT Tower -->
-                <div class="client-card-item">
-                    <div class="client-logo-header">
-                        <img src="assets/images/clients/appworx-logo.png" alt="Appworx IT Tower Logo" width="300" height="100" class="client-logo-img">
-                    </div>
-                </div>
-
-                <!-- 10. Vaibhav Global Limited -->
-                <div class="client-card-item">
-                    <div class="client-logo-header">
-                        <img src="assets/images/clients/vaibhav-logo.png" alt="Vaibhav Global Limited Logo" width="300" height="100" class="client-logo-img">
-                    </div>
-                </div>
-
-                <!-- 11. Platinum Mall (Placeholder Slot) -->
-                <div class="client-card-item client-card-placeholder">
-                    <div class="client-logo-header">
-                        <div class="client-placeholder-content">
-                            <i class="fa-solid fa-bag-shopping"></i>
-                            <span>Platinum Mall</span>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- 12. VRS Fintech Square -->
-                <div class="client-card-item">
-                    <div class="client-logo-header">
-                        <img src="assets/images/clients/vrs-fintech-logo.png" alt="VRS Fintech Square Logo" width="300" height="100" class="client-logo-img">
-                    </div>
-                </div>
-
-                <!-- 13. 42 Works -->
-                <div class="client-card-item">
-                    <div class="client-logo-header">
-                        <img src="assets/images/clients/42works-logo.png" alt="42 Works Logo" width="300" height="100" class="client-logo-img">
-                    </div>
-                </div>
-
-                <!-- 14. Dewcrest - Gulnaar Meadows (Placeholder Slot) -->
-                <div class="client-card-item client-card-placeholder">
-                    <div class="client-logo-header">
-                        <div class="client-placeholder-content">
-                            <i class="fa-solid fa-tree-city"></i>
-                            <span>Dewcrest - Gulnaar Meadows</span>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- 15. Sentro Technology -->
-                <div class="client-card-item">
-                    <div class="client-logo-header">
-                        <img src="assets/images/clients/sentro-tech-logo.png" alt="Sentro Technology Logo" width="300" height="100" class="client-logo-img">
-                    </div>
-                </div>
-
-                <!-- 16. Chitkara University -->
-                <div class="client-card-item">
-                    <div class="client-logo-header">
-                        <img src="assets/images/clients/chitkara-logo.png" alt="Chitkara University Logo" width="300" height="100" class="client-logo-img">
-                    </div>
-                </div>
-
-                <!-- 17. State Bank of India (SBI) -->
+                <!-- 9. State Bank of India (SBI) -->
                 <div class="client-card-item">
                     <div class="client-logo-header">
                         <img src="assets/images/clients/sbi-logo.png" alt="State Bank of India Logo" width="300" height="100" class="client-logo-img">
                     </div>
                 </div>
 
-                <!-- 18. IOCL COCO -->
-                <div class="client-card-item">
-                    <div class="client-logo-header">
-                        <img src="assets/images/clients/iocl-logo.png" alt="Indian Oil Logo" width="300" height="100" class="client-logo-img">
-                    </div>
-                </div>
-
-                <!-- 19. Advance Plastic Industries (Ecovia) (Placeholder Slot) -->
-                <div class="client-card-item client-card-placeholder">
-                    <div class="client-logo-header">
-                        <div class="client-placeholder-content">
-                            <i class="fa-solid fa-industry"></i>
-                            <span>Advance Plastic Industries (Ecovia)</span>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- 20. ASKK Ltd. (Placeholder Slot) -->
-                <div class="client-card-item client-card-placeholder">
-                    <div class="client-logo-header">
-                        <div class="client-placeholder-content">
-                            <i class="fa-solid fa-gear"></i>
-                            <span>ASKK Ltd.</span>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- 21. Core Metal Krafts (IEC Group) -->
-                <div class="client-card-item">
-                    <div class="client-logo-header">
-                        <img src="assets/images/clients/core-metal-logo.png" alt="Core Metal Krafts Logo" width="300" height="100" class="client-logo-img">
-                    </div>
-                </div>
-
-                <!-- 22. Vedatam Commercial Mall -->
-                <div class="client-card-item">
-                    <div class="client-logo-header">
-                        <img src="assets/images/clients/vedatam-logo.png" alt="Vedatam Commercial Mall Logo" width="300" height="100" class="client-logo-img">
-                    </div>
-                </div>
-
-                <!-- 23. The Crest Hills -->
-                <div class="client-card-item">
-                    <div class="client-logo-header">
-                        <img src="assets/images/clients/crest-hills-logo.png" alt="The Crest Hills Logo" width="300" height="100" class="client-logo-img">
-                    </div>
-                </div>
-
-                <!-- 24. Patiala Locomotive Works (Indian Railways) -->
+                <!-- 10. Indian Railways -->
                 <div class="client-card-item">
                     <div class="client-logo-header">
                         <img src="assets/images/clients/indian-railways-logo.png" alt="Indian Railways - Patiala Locomotive Works Logo" width="300" height="100" class="client-logo-img">
                     </div>
                 </div>
 
-                <!-- 25. Eastman Cast & Forge -->
+                <!-- 11. IOCL COCO -->
                 <div class="client-card-item">
                     <div class="client-logo-header">
-                        <img src="assets/images/clients/eastman-logo.png" alt="Eastman Cast &amp; Forge Logo" width="300" height="100" class="client-logo-img">
+                        <img src="assets/images/clients/iocl-logo.png" alt="Indian Oil Logo" width="300" height="100" class="client-logo-img">
                     </div>
                 </div>
 
-                <!-- 26. Citizen Auto Component -->
+                <!-- 12. KIMS Hospitals -->
                 <div class="client-card-item">
                     <div class="client-logo-header">
-                        <img src="assets/images/clients/citizen-auto-logo.png" alt="Citizen Auto Component Logo" width="300" height="100" class="client-logo-img">
+                        <img src="assets/images/clients/kims.png" alt="KIMS Hospitals Logo" width="300" height="100" class="client-logo-img">
+                    </div>
+                </div>
+
+                <!-- 13. Unity Group -->
+                <div class="client-card-item">
+                    <div class="client-logo-header">
+                        <img src="assets/images/clients/unity.png" alt="Unity Group Logo" width="300" height="100" class="client-logo-img">
+                    </div>
+                </div>
+
+                <!-- 14. St. Xavier's -->
+                <div class="client-card-item">
+                    <div class="client-logo-header">
+                        <img src="assets/images/clients/st-xavier.png" alt="St. Xavier's Logo" width="300" height="100" class="client-logo-img">
+                    </div>
+                </div>
+
+                <!-- 15. SPJ Group -->
+                <div class="client-card-item">
+                    <div class="client-logo-header">
+                        <img src="assets/images/clients/spj.png" alt="SPJ Group Logo" width="300" height="100" class="client-logo-img">
+                    </div>
+                </div>
+
+                <!-- 16. Sentro Technology -->
+                <div class="client-card-item">
+                    <div class="client-logo-header">
+                        <img src="assets/images/clients/sentro-tech-logo.png" alt="Sentro Technology Logo" width="300" height="100" class="client-logo-img">
+                    </div>
+                </div>
+
+                <!-- 17. Core Metal Krafts (IEC Group) -->
+                <div class="client-card-item">
+                    <div class="client-logo-header">
+                        <img src="assets/images/clients/core-metal-logo.png" alt="Core Metal Krafts IEC Group Logo" width="300" height="100" class="client-logo-img">
+                    </div>
+                </div>
+
+                <div class="client-card-item">
+                    <div class="client-logo-header">
+                        <img src="assets/images/clients/iec.png" alt="IEC Logo" width="300" height="100" class="client-logo-img">
+                    </div>
+                </div>
+
+                <!-- 18. Durian -->
+                <div class="client-card-item">
+                    <div class="client-logo-header">
+                        <img src="assets/images/clients/durian.png" alt="Durian Furniture Logo" width="300" height="100" class="client-logo-img">
+                    </div>
+                </div>
+
+                <!-- 19. The Doksa -->
+                <div class="client-card-item">
+                    <div class="client-logo-header">
+                        <img src="assets/images/clients/the-doksha.png" alt="The Doksa Eco Resort Logo" width="300" height="100" class="client-logo-img">
+                    </div>
+                </div>
+
+                <!-- 20. Apex Group -->
+                <div class="client-card-item">
+                    <div class="client-logo-header">
+                        <img src="assets/images/clients/apex.png" alt="Apex Group Logo" width="300" height="100" class="client-logo-img">
+                    </div>
+                </div>
+
+                <!-- 21. Gulnaar Meadows (Dewcrest) -->
+                <div class="client-card-item">
+                    <div class="client-logo-header">
+                        <img src="assets/images/clients/gulnaar-meadows.png" alt="Dewcrest Gulnaar Meadows Logo" width="300" height="100" class="client-logo-img">
+                    </div>
+                </div>
+
+                <!-- 22. Netsmartz Tower -->
+                <div class="client-card-item">
+                    <div class="client-logo-header">
+                        <img src="assets/images/clients/netsmartz-logo.png" alt="Netsmartz Tower Logo" width="300" height="100" class="client-logo-img">
+                    </div>
+                </div>
+
+                <!-- 23. VRS Fintech Square -->
+                <div class="client-card-item">
+                    <div class="client-logo-header">
+                        <img src="assets/images/clients/vrs-fintech-logo.png" alt="VRS Fintech Square Logo" width="300" height="100" class="client-logo-img">
+                    </div>
+                </div>
+
+                <!-- 24. 42 Works -->
+                <div class="client-card-item">
+                    <div class="client-logo-header">
+                        <img src="assets/images/clients/42works-logo.png" alt="42 Works Logo" width="300" height="100" class="client-logo-img">
+                    </div>
+                </div>
+
+                <!-- 25. Chitkara University -->
+                <div class="client-card-item">
+                    <div class="client-logo-header">
+                        <img src="assets/images/clients/chitkara-logo.png" alt="Chitkara University Logo" width="300" height="100" class="client-logo-img">
+                    </div>
+                </div>
+
+                <!-- 26. Noida International University -->
+                <div class="client-card-item">
+                    <div class="client-logo-header">
+                        <img src="assets/images/clients/noida-uni-logo.png" alt="Noida International University Logo" width="300" height="100" class="client-logo-img">
                     </div>
                 </div>
 
@@ -402,41 +353,119 @@
                     </div>
                 </div>
 
-                <!-- 28. Noida International University -->
+                <!-- 28. Venkateswara Wires -->
                 <div class="client-card-item">
                     <div class="client-logo-header">
-                        <img src="assets/images/clients/noida-uni-logo.png" alt="Noida International University Logo" width="300" height="100" class="client-logo-img">
+                        <img src="assets/images/clients/venkateswara-logo.png" alt="Venkateswara Wires Logo" width="300" height="100" class="client-logo-img">
                     </div>
                 </div>
 
-                <!-- 29. Crown 5 - Trishla City -->
+                <!-- 29. JREW Engineering -->
+                <div class="client-card-item">
+                    <div class="client-logo-header">
+                        <img src="assets/images/clients/jrew-logo.png" alt="JREW Engineering Logo" width="300" height="100" class="client-logo-img">
+                    </div>
+                </div>
+
+                <!-- 30. Window Tech India -->
+                <div class="client-card-item">
+                    <div class="client-logo-header">
+                        <img src="assets/images/clients/windowtech-logo.png" alt="Window Tech India Logo" width="300" height="100" class="client-logo-img">
+                    </div>
+                </div>
+
+                <!-- 31. Appworx IT Tower -->
+                <div class="client-card-item">
+                    <div class="client-logo-header">
+                        <img src="assets/images/clients/appworx-logo.png" alt="Appworx IT Tower Logo" width="300" height="100" class="client-logo-img">
+                    </div>
+                </div>
+
+                <!-- 32. Vaibhav Global Limited -->
+                <div class="client-card-item">
+                    <div class="client-logo-header">
+                        <img src="assets/images/clients/vaibhav-logo.png" alt="Vaibhav Global Limited Logo" width="300" height="100" class="client-logo-img">
+                    </div>
+                </div>
+
+                <!-- 33. Vedatam Commercial Mall -->
+                <div class="client-card-item">
+                    <div class="client-logo-header">
+                        <img src="assets/images/clients/vedatam-logo.png" alt="Vedatam Commercial Mall Logo" width="300" height="100" class="client-logo-img">
+                    </div>
+                </div>
+
+              
+
+                <!-- 35. The Crest Hills -->
+                <div class="client-card-item">
+                    <div class="client-logo-header">
+                        <img src="assets/images/clients/crest-hills-logo.png" alt="The Crest Hills Logo" width="300" height="100" class="client-logo-img">
+                    </div>
+                </div>
+
+                <!-- 36. Eastman Cast & Forge -->
+                <div class="client-card-item">
+                    <div class="client-logo-header">
+                        <img src="assets/images/clients/eastman-logo.png" alt="Eastman Cast &amp; Forge Logo" width="300" height="100" class="client-logo-img">
+                    </div>
+                </div>
+
+                <!-- 37. Citizen Auto Component -->
+                <div class="client-card-item">
+                    <div class="client-logo-header">
+                        <img src="assets/images/clients/citizen-auto-logo.png" alt="Citizen Auto Component Logo" width="300" height="100" class="client-logo-img">
+                    </div>
+                </div>
+
+                <!-- 38. Crown 5 - Trishla City -->
                 <div class="client-card-item">
                     <div class="client-logo-header">
                         <img src="assets/images/clients/trishla-city-logo.png" alt="Crown 5 Trishla City Logo" width="300" height="100" class="client-logo-img">
                     </div>
                 </div>
 
-                <!-- 30. Avanta Greens -->
+                <!-- 39. Avanta Greens -->
                 <div class="client-card-item">
                     <div class="client-logo-header">
                         <img src="assets/images/clients/avanta-greens-logo.png" alt="Avanta Greens Logo" width="300" height="100" class="client-logo-img">
                     </div>
                 </div>
 
-                <!-- 31. The Residence (Placeholder Slot) -->
-                <div class="client-card-item client-card-placeholder">
-                    <div class="client-logo-header">
-                        <div class="client-placeholder-content">
-                            <i class="fa-solid fa-building"></i>
-                            <span>The Residence</span>
-                        </div>
-                    </div>
-                </div>
 
-                <!-- 32. Sukhavas Residence -->
+         
+                <!-- 43. Sukhavas Residence -->
                 <div class="client-card-item">
                     <div class="client-logo-header">
                         <img src="assets/images/clients/sukhavas-logo.png" alt="Sukhavas Residence Logo" width="300" height="100" class="client-logo-img">
+                    </div>
+                </div>
+                   <!-- 44. max-logo Residence -->
+                <div class="client-card-item">
+                    <div class="client-logo-header">
+                        <img src="assets/images/clients/max-logo.png" alt="Sukhavas Residence Logo" width="300" height="100" class="client-logo-img">
+                    </div>
+                </div>
+                
+                <div class="client-card-item">
+                    <div class="client-logo-header">
+                        <img src="assets/images/clients/General-health-care.png" alt="Sukhavas Residence Logo" width="300" height="100" class="client-logo-img">
+                    </div>
+                </div>
+                
+                <div class="client-card-item">
+                    <div class="client-logo-header">
+                        <img src="assets/images/clients/pinegroove.png" alt="Sukhavas Residence Logo" width="300" height="100" class="client-logo-img">
+                    </div>
+                </div>
+                <div class="client-card-item">
+                    <div class="client-logo-header">
+                        <img src="assets/images/clients/mnit.png" alt="Sukhavas Residence Logo" width="300" height="100" class="client-logo-img">
+                    </div>
+                </div>
+                <div class="client-card-item">
+                    <div class="client-logo-header">
+                        <img src="assets/images/clients/iit.png" alt="Sukhavas Residence Logo" width="300" height="100" class="client-logo-img">
                     </div>
                 </div>
 
