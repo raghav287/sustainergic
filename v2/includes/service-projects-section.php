@@ -21,12 +21,17 @@ $unique_id = 'sp_swiper_' . uniqid();
     position: relative;
     border-bottom: 1px solid #e2e8f0;
     font-family: 'Inter', 'Poppins', -apple-system, BlinkMacSystemFont, sans-serif;
+    overflow: hidden;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 .sp-container {
     max-width: 1240px;
     margin: 0 auto;
     padding: 0 20px;
+    box-sizing: border-box;
+    width: 100%;
 }
 
 .sp-header {
@@ -77,6 +82,7 @@ $unique_id = 'sp_swiper_' . uniqid();
     height: 100%;
     min-height: 290px;
     transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+    box-sizing: border-box;
 }
 
 .sp-horizontal-card:hover {
@@ -111,6 +117,7 @@ $unique_id = 'sp_swiper_' . uniqid();
     top: 14px;
     left: 14px;
     z-index: 5;
+    max-width: calc(100% - 28px);
 }
 
 .cert-tag-box {
@@ -124,6 +131,9 @@ $unique_id = 'sp_swiper_' . uniqid();
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
     letter-spacing: 0.3px;
     white-space: nowrap;
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .badge-igbc {
@@ -151,6 +161,7 @@ $unique_id = 'sp_swiper_' . uniqid();
     display: flex;
     flex-direction: column;
     justify-content: center;
+    box-sizing: border-box;
 }
 
 .sp-location-badge {
@@ -194,7 +205,9 @@ $unique_id = 'sp_swiper_' . uniqid();
     position: relative !important;
     z-index: 10 !important;
     width: 100% !important;
-    float: none !important;
+    max-width: 100% !important;
+    box-sizing: border-box !important;
+    padding: 0 10px !important;
     clear: both !important;
 }
 
@@ -215,11 +228,7 @@ $unique_id = 'sp_swiper_' . uniqid();
     box-shadow: 0 2px 8px rgba(0,0,0,0.06) !important;
     position: static !important;
     margin: 0 !important;
-    top: auto !important;
-    bottom: auto !important;
-    left: auto !important;
-    right: auto !important;
-    float: none !important;
+    flex-shrink: 0 !important;
 }
 
 .sp-nav-btn:hover {
@@ -229,18 +238,28 @@ $unique_id = 'sp_swiper_' . uniqid();
     box-shadow: 0 4px 12px rgba(16, 185, 129, 0.35) !important;
 }
 
-/* Force Swiper Pagination to remain inline flex in center bar */
+.sp-pagination-wrapper {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 28px;
+    max-width: 160px;
+    overflow: hidden;
+    padding: 2px 0;
+}
+
+/* Swiper Pagination Elements */
 .sp-pagination-dots,
-.sp-pagination-dots.swiper-pagination,
-.sp-pagination-dots.swiper-pagination-horizontal {
-    position: static !important;
+.sp-pagination-dots.swiper-pagination {
+    position: relative !important;
     width: auto !important;
     height: auto !important;
     display: inline-flex !important;
     align-items: center !important;
     justify-content: center !important;
     gap: 8px !important;
-    margin: 0 8px !important;
+    margin: 0 !important;
     padding: 0 !important;
     transform: none !important;
     left: auto !important;
@@ -248,6 +267,15 @@ $unique_id = 'sp_swiper_' . uniqid();
     top: auto !important;
     bottom: auto !important;
     z-index: 10 !important;
+}
+
+.sp-pagination-dots.swiper-pagination-bullets-dynamic {
+    display: inline-block !important;
+    overflow: hidden !important;
+    white-space: nowrap !important;
+    font-size: 0 !important;
+    vertical-align: middle !important;
+    gap: 0 !important;
 }
 
 .sp-pagination-dots .swiper-pagination-bullet {
@@ -258,28 +286,122 @@ $unique_id = 'sp_swiper_' . uniqid();
     border-radius: 50% !important;
     transition: all 0.3s ease !important;
     cursor: pointer !important;
-    margin: 0 !important;
+    margin: 0 4px !important;
     display: inline-block !important;
+    vertical-align: middle !important;
 }
 
-.sp-pagination-dots .swiper-pagination-bullet-active {
+/* Static pills for small project counts */
+.sp-pagination-dots:not(.swiper-pagination-bullets-dynamic) .swiper-pagination-bullet-active {
     width: 28px !important;
     border-radius: 12px !important;
     background: #10b981 !important;
 }
 
+/* Dynamic bullets active state */
+.sp-pagination-dots.swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active,
+.sp-pagination-dots.swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active-main {
+    background: #10b981 !important;
+    opacity: 1 !important;
+}
+
 @media (max-width: 991px) {
+    .service-projects-section {
+        padding: 60px 0 70px;
+    }
+    .sp-header {
+        margin-bottom: 30px;
+    }
+    .sp-title-main {
+        font-size: 28px;
+    }
+    .sp-subtitle {
+        font-size: 15px;
+    }
     .sp-horizontal-card {
         flex-direction: column;
         min-height: auto;
     }
     .sp-card-img-wrapper {
         width: 100%;
+        min-width: 100%;
         height: 220px;
     }
     .sp-card-content {
         width: 100%;
         padding: 22px;
+    }
+}
+
+@media (max-width: 768px) {
+    .service-projects-section {
+        padding: 50px 0 60px;
+    }
+    .sp-title-main {
+        font-size: 26px;
+    }
+}
+
+@media (max-width: 576px) {
+    .sp-container {
+        padding: 0 16px;
+    }
+    .sp-header {
+        margin-bottom: 24px;
+    }
+    .sp-title-main {
+        font-size: 23px;
+        line-height: 1.3;
+    }
+    .sp-subtitle {
+        font-size: 14px;
+        line-height: 1.55;
+    }
+    .sp-card-img-wrapper {
+        height: 200px;
+    }
+    .sp-card-content {
+        padding: 18px 16px;
+    }
+    .sp-card-content h4 {
+        font-size: 17px;
+        line-height: 1.35;
+        margin-bottom: 8px;
+    }
+    .sp-description {
+        font-size: 13.5px;
+        line-height: 1.6;
+        -webkit-line-clamp: 4;
+    }
+    .sp-swiper-controls-bar {
+        gap: 12px !important;
+        margin-top: 24px !important;
+    }
+    .sp-nav-btn {
+        width: 40px !important;
+        height: 40px !important;
+        min-width: 40px !important;
+        min-height: 40px !important;
+        font-size: 13px !important;
+    }
+}
+
+@media (max-width: 380px) {
+    .sp-card-img-wrapper {
+        height: 185px;
+    }
+    .sp-card-content {
+        padding: 16px 14px;
+    }
+    .sp-card-content h4 {
+        font-size: 16px;
+    }
+    .sp-location-badge {
+        font-size: 11.5px;
+    }
+    .cert-tag-box {
+        font-size: 11px;
+        padding: 5px 10px;
     }
 }
 </style>
@@ -341,11 +463,13 @@ $unique_id = 'sp_swiper_' . uniqid();
         <!-- Custom Swiper Navigation Controls (Only shown when multiple projects exist) -->
         <?php if (count($service_projects) > 1): ?>
         <div class="sp-swiper-controls-bar">
-            <div class="sp-nav-btn <?php echo $unique_id; ?>-prev">
+            <div class="sp-nav-btn <?php echo $unique_id; ?>-prev" aria-label="Previous Slide">
                 <i class="fa-solid fa-chevron-left"></i>
             </div>
-            <div class="sp-pagination-dots <?php echo $unique_id; ?>-pag"></div>
-            <div class="sp-nav-btn <?php echo $unique_id; ?>-next">
+            <div class="sp-pagination-wrapper">
+                <div class="sp-pagination-dots <?php echo $unique_id; ?>-pag"></div>
+            </div>
+            <div class="sp-nav-btn <?php echo $unique_id; ?>-next" aria-label="Next Slide">
                 <i class="fa-solid fa-chevron-right"></i>
             </div>
         </div>
@@ -370,6 +494,8 @@ document.addEventListener('DOMContentLoaded', function () {
             pagination: {
                 el: '.<?php echo $unique_id; ?>-pag',
                 clickable: true,
+                dynamicBullets: projCount > 5,
+                dynamicMainBullets: 3,
             },
             navigation: {
                 nextEl: '.<?php echo $unique_id; ?>-next',

@@ -410,7 +410,10 @@
                             </li>
                             <li>
                                 <i class="fa-solid fa-phone"></i>
-                                <span><a href="tel:+919785749960">+91 97857 49960</a></span>
+                                <span>
+                                    <a href="tel:+919785749960">+91 97857 49960</a><br>
+                                    <a href="tel:+917073828008">+91 70738 28008</a>
+                                </span>
                             </li>
                             <li>
                                 <i class="fa-solid fa-envelope"></i>

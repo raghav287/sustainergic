@@ -10517,6 +10517,7 @@ RESPONSIVE
         }
 
         .values-grid {
+            grid-template-columns: 1fr;
             gap: 16px;
         }
 
@@ -12044,41 +12045,151 @@ RESPONSIVE
     @media (max-width: 991px) {
         .strength-split-wrapper {
             grid-template-columns: 1fr;
-            gap: 50px;
+            gap: 40px;
+        }
+
+        .strength-info-panel {
+            position: static !important;
+            top: auto !important;
+        }
+
+        .strength-info-panel h2 {
+            font-size: 34px;
+            margin: 16px 0 20px;
+        }
+
+        .strength-info-panel p {
+            margin-bottom: 24px;
+        }
+
+        .strength-item:hover {
+            transform: none !important;
         }
     }
 
-    @media (max-width: 600px) {
+    @media (max-width: 768px) {
         .about-section--strength {
-            padding: 60px 0;
+            padding: 50px 0;
+        }
+
+        .strength-container {
+            padding: 0 20px;
+        }
+
+        .strength-info-panel h2 {
+            font-size: 30px;
+        }
+
+        .strength-info-panel p {
+            font-size: 15.5px;
+            line-height: 1.65;
+        }
+
+        .strength-panel-card {
+            padding: 24px 26px;
+            border-radius: 18px;
+            display: block;
+            width: 100%;
+            max-width: 340px;
+            box-sizing: border-box;
+        }
+
+        .spc-num {
+            font-size: 40px;
+        }
+    }
+
+    @media (max-width: 576px) {
+        .about-section--strength {
+            padding: 45px 0;
+        }
+
+        .strength-container {
+            padding: 0 16px;
+        }
+
+        .strength-split-wrapper {
+            gap: 28px;
+        }
+
+        .strength-info-panel h2 {
+            font-size: 26px;
+            line-height: 1.25;
+            margin: 12px 0 14px;
+        }
+
+        .strength-info-panel p {
+            font-size: 14.5px;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+
+        .strength-panel-card {
+            padding: 18px 20px;
+            border-radius: 16px;
+            max-width: 100%;
+            display: block;
+        }
+
+        .spc-num {
+            font-size: 36px;
+        }
+
+        .spc-lbl {
+            font-size: 12px;
+            margin-top: 6px;
+        }
+
+        .strength-list-panel {
+            gap: 16px;
         }
 
         .strength-item {
-            padding: 24px 20px;
-            gap: 20px;
+            padding: 18px 16px;
+            gap: 16px;
+            border-radius: 16px;
         }
 
         .strength-item-number {
-            width: 38px;
-            height: 38px;
+            width: 40px;
+            height: 40px;
             font-size: 16px;
             border-radius: 10px;
         }
 
         .strength-item-content h3 {
-            font-size: 18px;
+            font-size: 17px;
+            margin-bottom: 6px;
         }
 
         .strength-item-content p {
             font-size: 13.5px;
+            line-height: 1.55;
+        }
+    }
+
+    @media (max-width: 380px) {
+        .strength-info-panel h2 {
+            font-size: 23px;
         }
 
-        .strength-info-panel h2 {
-            font-size: 32px;
+        .strength-item {
+            padding: 16px 14px;
+            gap: 12px;
+        }
+
+        .strength-item-number {
+            width: 36px;
+            height: 36px;
+            font-size: 15px;
+        }
+
+        .strength-item-content h3 {
+            font-size: 16px;
         }
 
         .spc-num {
-            font-size: 38px;
+            font-size: 32px;
         }
     }
 
@@ -14446,24 +14557,8 @@ RESPONSIVE
         grid-template-columns: 1fr;
         max-width: 480px;
         margin: 0 auto;
-    }
-}
-
-@media (max-width: 768px) {
-    .gb-hero {
-        padding: 150px 0 80px;
-    }
-    .gb-hero-title {
-        font-size: 36px;
-    }
-    .gb-hero-subtitle {
-        font-size: 16px;
-    }
-    .gb-title-main {
-        font-size: 32px;
-    }
-    .gb-why-grid {
-        grid-template-columns: 1fr;
+    .gb-hero-img-wrapper {
+        transform: none !important;
     }
     .gb-intro-badge {
         position: static;
@@ -14473,7 +14568,28 @@ RESPONSIVE
     }
 }
 
+@media (max-width: 768px) {
+    .gb-hero {
+        padding: 140px 0 70px;
+    }
+    .gb-hero-title {
+        font-size: 34px;
+    }
+    .gb-hero-subtitle {
+        font-size: 15.5px;
+    }
+    .gb-title-main {
+        font-size: 28px;
+    }
+    .gb-why-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
 @media (max-width: 576px) {
+    .gb-container {
+        padding: 0 18px;
+    }
     .gb-intro-capabilities {
         grid-template-columns: 1fr;
         gap: 18px;
@@ -14484,11 +14600,12 @@ RESPONSIVE
         gap: 16px;
     }
     .gb-hero-floating-card {
-        display: none;
+        display: none !important;
     }
     .gb-hero-actions {
         flex-direction: column;
         width: 100%;
+        gap: 12px;
     }
     .gb-hero-actions .gb-btn {
         width: 100%;
@@ -14497,12 +14614,147 @@ RESPONSIVE
         flex-direction: column;
         width: 100%;
         padding: 0 16px;
+        gap: 12px;
     }
     .gb-cta-buttons .gb-btn {
         width: 100%;
     }
     .gb-service-card {
-        padding: 24px;
+        padding: 24px 20px;
+    }
+    .gb-benefits-visual-wrapper img {
+        height: 280px;
+    }
+    .gb-intro-img {
+        height: 280px;
+    }
+}
+
+@media (max-width: 480px) {
+    .gb-container {
+        padding: 0 16px;
+    }
+    .gb-hero {
+        padding: 125px 0 50px;
+    }
+    .gb-hero-title {
+        font-size: 27px;
+        line-height: 1.25;
+    }
+    .gb-hero-subtitle {
+        font-size: 14px;
+        line-height: 1.55;
+    }
+    .gb-title-main {
+        font-size: 24px;
+        line-height: 1.3;
+    }
+    .gb-text-lead {
+        font-size: 14.5px;
+        line-height: 1.6;
+    }
+    .gb-hero-img-wrapper {
+        border-width: 4px;
+        border-radius: 20px;
+    }
+    .gb-hero-img-wrapper img {
+        border-radius: 16px;
+    }
+    .gb-intro-img,
+    .gb-benefits-visual-wrapper img {
+        height: 230px;
+        border-radius: 18px;
+    }
+    .gb-service-card {
+        padding: 20px 16px;
+        border-radius: 16px;
+    }
+    .gb-card-icon-wrapper,
+    .gb-card-logo-wrapper {
+        width: 52px;
+        height: 52px;
+        font-size: 22px;
+        margin-bottom: 16px;
+        border-radius: 12px;
+    }
+    .gb-service-card h3 {
+        font-size: 18px;
+        line-height: 1.35;
+        margin-bottom: 10px;
+    }
+    .gb-service-card p {
+        font-size: 13.5px;
+        line-height: 1.6;
+    }
+    .gb-process-step {
+        padding: 16px 14px;
+        border-radius: 14px;
+    }
+    .gb-process-num-wrapper {
+        width: 46px;
+        height: 46px;
+        font-size: 16px;
+        margin: 0 14px 0 0;
+        border-radius: 12px;
+    }
+    .gb-process-step h4 {
+        font-size: 16px;
+    }
+    .gb-process-step p {
+        font-size: 13px;
+        line-height: 1.5;
+    }
+    .gb-why-card {
+        padding: 20px 16px;
+        border-radius: 14px;
+    }
+    .gb-why-card h4 {
+        font-size: 17px;
+    }
+    .gb-why-card p {
+        font-size: 13.5px;
+    }
+    .gb-stats-band {
+        padding: 24px 16px;
+        gap: 24px;
+    }
+    .gb-stat-item h3 {
+        font-size: 30px;
+    }
+    .gb-stat-item p {
+        font-size: 13px;
+    }
+    .gb-cta-banner {
+        padding: 50px 18px;
+        margin: 30px 10px;
+        border-radius: 20px;
+    }
+    .gb-cta-content h2 {
+        font-size: 22px;
+        line-height: 1.3;
+    }
+    .gb-cta-content p {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 380px) {
+    .gb-hero-title {
+        font-size: 24px;
+    }
+    .gb-title-main {
+        font-size: 22px;
+    }
+    .gb-intro-img,
+    .gb-benefits-visual-wrapper img {
+        height: 200px;
+    }
+    .gb-service-card {
+        padding: 16px 14px;
+    }
+    .gb-btn {
+        padding: 12px 20px;
+        font-size: 14px;
     }
 }
 
