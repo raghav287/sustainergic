@@ -13334,6 +13334,15 @@ RESPONSIVE
     .aud-benefits-grid {
         align-items: center !important;
     }
+    .aud-intro-visual-wrapper {
+        height: auto !important;
+        min-height: 0 !important;
+        display: block !important;
+        position: relative !important;
+        width: 100% !important;
+        max-width: 100% !important;
+        overflow: hidden !important;
+    }
     .aud-alt-visual img {
         height: 380px !important;
     }
@@ -13341,7 +13350,18 @@ RESPONSIVE
         height: 400px !important;
     }
     .aud-intro-img {
-        height: auto !important;
+        height: 280px !important;
+        width: 100% !important;
+        max-width: 100% !important;
+        display: block !important;
+        object-fit: cover !important;
+    }
+    .aud-intro-badge {
+        position: static !important;
+        margin-top: 20px !important;
+        display: inline-flex !important;
+        padding: 14px 22px !important;
+        border-radius: 14px !important;
     }
 }
 
@@ -14557,14 +14577,37 @@ RESPONSIVE
         grid-template-columns: 1fr;
         max-width: 480px;
         margin: 0 auto;
+    }
     .gb-hero-img-wrapper {
         transform: none !important;
     }
+    .gb-intro-visual-wrapper {
+        height: auto !important;
+        display: block !important;
+        position: relative !important;
+        width: 100% !important;
+    }
+    .gb-intro-img {
+        height: 280px !important;
+        min-height: auto !important;
+        width: 100% !important;
+        max-width: 100% !important;
+        object-fit: cover !important;
+        object-position: left center !important;
+        display: block !important;
+        border-radius: 20px !important;
+    }
     .gb-intro-badge {
-        position: static;
-        margin-top: 24px;
-        padding: 16px 20px;
-        border-radius: 12px;
+        position: static !important;
+        margin-top: 20px !important;
+        display: inline-flex !important;
+        padding: 16px 24px !important;
+        border-radius: 14px !important;
+        width: auto !important;
+        max-width: 100% !important;
+    }
+    .gb-intro-badge strong {
+        font-size: 22px !important;
     }
 }
 
@@ -17418,6 +17461,21 @@ RESPONSIVE
     .sm-alt-row {
         grid-template-columns: 1fr;
         gap: 30px;
+    }
+    .sm-hero-img-wrapper {
+        transform: none !important;
+        border-width: 4px !important;
+    }
+    .sm-intro-visual-wrapper {
+        height: auto !important;
+        width: 100% !important;
+    }
+    .sm-intro-img {
+        width: 100% !important;
+        max-width: 100% !important;
+        height: auto !important;
+        object-fit: cover !important;
+        display: block !important;
     }
     .sm-alt-row:nth-child(even) .sm-alt-visual {
         order: 0;

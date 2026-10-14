@@ -380,43 +380,55 @@
                     <!-- Step 1 -->
                     <div class="aud-process-step">
                         <div class="aud-process-num-wrapper">01</div>
-                        <h4>Project Requirements</h4>
-                        <p>Understand project scope, design intent, performance objectives, and requirements.</p>
+                        <div class="aud-process-text">
+                            <h4>Project Requirements</h4>
+                            <p>Understand project scope, design intent, performance objectives, and requirements.</p>
+                        </div>
                     </div>
 
                     <!-- Step 2 -->
                     <div class="aud-process-step">
                         <div class="aud-process-num-wrapper">02</div>
-                        <h4>Commissioning Planning</h4>
-                        <p> Data Collection, Define responsibilities, systems to test, procedures, and coordination logs.</p>
+                        <div class="aud-process-text">
+                            <h4>Commissioning Planning</h4>
+                            <p>Data Collection, Define responsibilities, systems to test, procedures, and coordination logs.</p>
+                        </div>
                     </div>
 
                     <!-- Step 3 -->
                     <div class="aud-process-step">
                         <div class="aud-process-num-wrapper">03</div>
-                        <h4>Design & Document Review</h4>
-                        <p>Review design drawings, sequence narratives, and technical submissions.</p>
+                        <div class="aud-process-text">
+                            <h4>Design & Document Review</h4>
+                            <p>Review design drawings, sequence narratives, and technical submissions.</p>
+                        </div>
                     </div>
 
                     <!-- Step 4 -->
                     <div class="aud-process-step">
                         <div class="aud-process-num-wrapper">04</div>
-                        <h4>Installation Verification</h4>
-                        <p>Inspect physical equipment to verify compliant mechanical and electrical installation.</p>
+                        <div class="aud-process-text">
+                            <h4>Installation Verification</h4>
+                            <p>Inspect physical equipment to verify compliant mechanical and electrical installation.</p>
+                        </div>
                     </div>
 
                     <!-- Step 5 -->
                     <div class="aud-process-step">
                         <div class="aud-process-num-wrapper">05</div>
-                        <h4>Functional Testing</h4>
-                        <p>Verify active system operation, control loops, and performance cycles.</p>
+                        <div class="aud-process-text">
+                            <h4>Functional Testing</h4>
+                            <p>Verify active system operation, control loops, and performance cycles.</p>
+                        </div>
                     </div>
 
                     <!-- Step 6 -->
                     <div class="aud-process-step">
                         <div class="aud-process-num-wrapper">06</div>
-                        <h4>Reporting & Handover</h4>
-                        <p>Document findings, resolve issue logs, and support facility team training.</p>
+                        <div class="aud-process-text">
+                            <h4>Reporting & Handover</h4>
+                            <p>Document findings, resolve issue logs, and support facility team training.</p>
+                        </div>
                     </div>
                 </div>
             </div>

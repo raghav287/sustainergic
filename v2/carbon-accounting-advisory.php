@@ -613,43 +613,55 @@
                     <!-- Step 1 -->
                     <div class="aud-process-step">
                         <div class="aud-process-num-wrapper">01</div>
-                        <h4>Objective & Boundary</h4>
-                        <p>Understand the organization, reporting limits, and boundary profiles.</p>
+                        <div class="aud-process-text">
+                            <h4>Objective & Boundary</h4>
+                            <p>Understand the organization, reporting limits, and boundary profiles.</p>
+                        </div>
                     </div>
 
                     <!-- Step 2 -->
                     <div class="aud-process-step">
                         <div class="aud-process-num-wrapper">02</div>
-                        <h4>Data Collection</h4>
-                        <p>Gather activity records, logistics logs, and raw energy bills.</p>
+                        <div class="aud-process-text">
+                            <h4>Data Collection</h4>
+                            <p>Gather activity records, logistics logs, and raw energy bills.</p>
+                        </div>
                     </div>
 
                     <!-- Step 3 -->
                     <div class="aud-process-step">
                         <div class="aud-process-num-wrapper">03</div>
-                        <h4>Data Validation</h4>
-                        <p>Review raw logs for complete datasets, consistency, and alignment.</p>
+                        <div class="aud-process-text">
+                            <h4>Data Validation</h4>
+                            <p>Review raw logs for complete datasets, consistency, and alignment.</p>
+                        </div>
                     </div>
 
                     <!-- Step 4 -->
                     <div class="aud-process-step">
                         <div class="aud-process-num-wrapper">04</div>
-                        <h4>Emissions Calculation</h4>
-                        <p>Apply suitable emission factors and protocol formulas to raw values.</p>
+                        <div class="aud-process-text">
+                            <h4>Emissions Calculation</h4>
+                            <p>Apply suitable emission factors and protocol formulas to raw values.</p>
+                        </div>
                     </div>
 
                     <!-- Step 5 -->
                     <div class="aud-process-step">
                         <div class="aud-process-num-wrapper">05</div>
-                        <h4>Impact & Hotspots</h4>
-                        <p>Identify major emissions spikes and optimization targets.</p>
+                        <div class="aud-process-text">
+                            <h4>Impact & Hotspots</h4>
+                            <p>Identify major emissions spikes and optimization targets.</p>
+                        </div>
                     </div>
 
                     <!-- Step 6 -->
                     <div class="aud-process-step">
                         <div class="aud-process-num-wrapper">06</div>
-                        <h4>Reporting Roadmap</h4>
-                        <p>Prepare ESG advisory files and define practical mitigation paths.</p>
+                        <div class="aud-process-text">
+                            <h4>Reporting Roadmap</h4>
+                            <p>Prepare ESG advisory files and define practical mitigation paths.</p>
+                        </div>
                     </div>
                 </div>
             </div>

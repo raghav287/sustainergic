@@ -1130,6 +1130,21 @@
         grid-template-columns: 1fr;
         gap: 30px;
     }
+    .sm-hero-img-wrapper {
+        transform: none !important;
+        border-width: 4px !important;
+    }
+    .sm-intro-visual-wrapper {
+        height: auto !important;
+        width: 100% !important;
+    }
+    .sm-intro-img {
+        width: 100% !important;
+        max-width: 100% !important;
+        height: auto !important;
+        object-fit: cover !important;
+        display: block !important;
+    }
     .sm-alt-row:nth-child(even) .sm-alt-visual {
         order: 0;
     }

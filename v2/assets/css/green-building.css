@@ -1207,14 +1207,37 @@ html, body, .page-green-building {
         grid-template-columns: 1fr;
         max-width: 480px;
         margin: 0 auto;
+    }
     .gb-hero-img-wrapper {
         transform: none !important;
     }
+    .gb-intro-visual-wrapper {
+        height: auto !important;
+        display: block !important;
+        position: relative !important;
+        width: 100% !important;
+    }
+    .gb-intro-img {
+        height: 280px !important;
+        min-height: auto !important;
+        width: 100% !important;
+        max-width: 100% !important;
+        object-fit: cover !important;
+        object-position: left center !important;
+        display: block !important;
+        border-radius: 20px !important;
+    }
     .gb-intro-badge {
-        position: static;
-        margin-top: 24px;
-        padding: 16px 20px;
-        border-radius: 12px;
+        position: static !important;
+        margin-top: 20px !important;
+        display: inline-flex !important;
+        padding: 16px 24px !important;
+        border-radius: 14px !important;
+        width: auto !important;
+        max-width: 100% !important;
+    }
+    .gb-intro-badge strong {
+        font-size: 22px !important;
     }
 }
 

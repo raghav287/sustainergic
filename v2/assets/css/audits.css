@@ -1360,31 +1360,56 @@
         left: 0;
         transform: translateY(-50%);
     }
+    .aud-hero-img-wrapper {
+        transform: none !important;
+    }
+    .aud-intro-visual-wrapper {
+        height: auto !important;
+        display: block !important;
+        position: relative !important;
+        width: 100% !important;
+    }
+    .aud-intro-img {
+        width: 100% !important;
+        max-width: 100% !important;
+        height: 280px !important;
+        object-fit: cover !important;
+        border-radius: 20px !important;
+        display: block !important;
+    }
+    .aud-intro-badge {
+        position: static !important;
+        margin-top: 20px !important;
+        display: inline-flex !important;
+        padding: 14px 22px !important;
+        border-radius: 14px !important;
+    }
     .aud-process-line {
         display: none;
     }
     .aud-process-grid,
     .aud-process-grid--7 {
         grid-template-columns: 1fr !important;
-        gap: 30px;
-        max-width: 480px;
+        gap: 20px;
+        max-width: 500px;
         margin: 0 auto;
     }
     .aud-process-step {
-        display: flex;
-        align-items: flex-start;
-        text-align: left;
+        display: flex !important;
+        align-items: flex-start !important;
+        text-align: left !important;
         background-color: var(--aud-white);
         border: 1px solid var(--aud-border-light);
         border-radius: 16px;
         padding: 20px;
         box-shadow: var(--aud-shadow-sm);
+        gap: 16px;
     }
     .aud-process-num-wrapper {
-        margin: 0 20px 0 0;
+        margin: 0 !important;
         flex-shrink: 0;
-        width: 60px;
-        height: 60px;
+        width: 54px;
+        height: 54px;
         font-size: 18px;
     }
     .aud-process-text {
@@ -1393,6 +1418,21 @@
         align-items: flex-start;
         flex: 1;
         min-width: 0;
+    }
+    .aud-process-text h4,
+    .aud-process-step > h4 {
+        margin: 0 0 6px 0 !important;
+        font-size: 18px;
+        font-weight: 700;
+        color: #0f172a;
+        line-height: 1.35;
+    }
+    .aud-process-text p,
+    .aud-process-step > p {
+        margin: 0 !important;
+        font-size: 14px;
+        color: #475569;
+        line-height: 1.55;
     }
     .aud-assess-grid {
         grid-template-columns: repeat(2, 1fr);
@@ -1422,25 +1462,19 @@
 
 @media (max-width: 768px) {
     .aud-hero {
-        padding: 150px 0 80px;
+        padding: 140px 0 70px;
     }
     .aud-hero-title {
-        font-size: 36px;
+        font-size: 34px;
     }
     .aud-hero-subtitle {
-        font-size: 16px;
+        font-size: 15.5px;
     }
     .aud-title-main {
-        font-size: 32px;
+        font-size: 28px;
     }
     .aud-why-grid {
         grid-template-columns: 1fr;
-    }
-    .aud-intro-badge {
-        position: static;
-        margin-top: 24px;
-        padding: 16px 20px;
-        border-radius: 12px;
     }
     .aud-benefits-list {
         grid-template-columns: 1fr;
@@ -1448,9 +1482,15 @@
 }
 
 @media (max-width: 576px) {
+    .aud-container {
+        padding: 0 16px;
+    }
+    .aud-intro-img {
+        height: 240px !important;
+    }
     .aud-intro-capabilities {
         grid-template-columns: 1fr;
-        gap: 18px;
+        gap: 16px;
     }
     .aud-trust-highlights {
         flex-direction: column;
@@ -1458,11 +1498,12 @@
         gap: 16px;
     }
     .aud-hero-floating-card {
-        display: none;
+        display: none !important;
     }
     .aud-hero-actions {
         flex-direction: column;
         width: 100%;
+        gap: 12px;
     }
     .aud-hero-actions .aud-btn {
         width: 100%;
@@ -1471,12 +1512,13 @@
         flex-direction: column;
         width: 100%;
         padding: 0 16px;
+        gap: 12px;
     }
     .aud-cta-buttons .aud-btn {
         width: 100%;
     }
     .aud-why-card {
-        padding: 24px;
+        padding: 20px 18px;
     }
     .aud-assess-grid {
         grid-template-columns: 1fr;
@@ -1488,23 +1530,35 @@
         grid-template-columns: 1fr;
         gap: 16px;
     }
+    .aud-benefits-visual-wrapper img {
+        height: 260px;
+    }
 }
 
 @media (max-width: 480px) {
     .aud-hero {
-        padding: 130px 0 60px;
+        padding: 125px 0 50px;
     }
     .aud-hero-title {
-        font-size: 28px;
+        font-size: 27px;
         line-height: 1.25;
+    }
+    .aud-hero-subtitle {
+        font-size: 14px;
+        line-height: 1.55;
     }
     .aud-title-main {
         font-size: 24px;
+        line-height: 1.3;
+    }
+    .aud-intro-img {
+        height: 210px !important;
     }
     .aud-alt-content-header h3 {
         font-size: 20px;
     }
     .aud-alt-visual img {
+        height: 220px !important;
         border-radius: 16px;
     }
     .aud-alt-content {
@@ -1514,5 +1568,37 @@
         width: 100%;
         text-align: center;
         justify-content: center;
+    }
+    .aud-process-step {
+        padding: 16px 14px !important;
+        gap: 14px !important;
+    }
+    .aud-process-num-wrapper {
+        width: 44px !important;
+        height: 44px !important;
+        font-size: 16px !important;
+    }
+    .aud-process-text h4,
+    .aud-process-step > h4 {
+        font-size: 16px !important;
+    }
+    .aud-process-text p,
+    .aud-process-step > p {
+        font-size: 13px !important;
+    }
+    .aud-hero-img-wrapper {
+        border-width: 4px;
+    }
+}
+
+@media (max-width: 380px) {
+    .aud-hero-title {
+        font-size: 24px;
+    }
+    .aud-title-main {
+        font-size: 22px;
+    }
+    .aud-intro-img {
+        height: 190px !important;
     }
 }
