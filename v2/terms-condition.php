@@ -252,7 +252,9 @@
                                     <h5><i class="fa-solid fa-phone"></i> Direct Call</h5>
                                     <p>
                                         <a href="tel:+919785749960">+91 97857 49960</a><br>
-                                        Mon – Sat (09:00 - 18:00 IST)
+                                        <a href="tel:+917073828008">+91 70738 28008</a><br>
+                                        Mon – Thu, Sat (09:00 - 17:00 IST)<br>
+                                        Fri (09:00 - 21:00 IST)
                                     </p>
                                 </div>
                             </div>

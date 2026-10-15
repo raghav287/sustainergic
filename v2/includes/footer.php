@@ -361,11 +361,9 @@
                         Leading sustainability engineering &amp; green building consultancy delivering energy-efficient, IGBC/LEED certified developments across India and internationally.
                     </p>
                     <div class="fm-socials">
-                        <a href="https://www.linkedin.com/company/sustainergic-tech/" target="_blank" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
-                        <a href="#" aria-label="X (Twitter)"><i class="fa-brands fa-x-twitter"></i></a>
-                        <a href="https://www.instagram.com/sustainergictech?igsh=MTBwdDZhd3lzNnF0eQ" target="_blank" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
-                        <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
-                        <a href="#" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+                        <a href="https://www.facebook.com/people/Sustainergic-Tech-Pvt-Ltd/61580917485468/?rdid=RPpRiiIKp1Xg5zas&amp;share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F18sBBmuSf6%2F%3Fref%3D1" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="https://www.linkedin.com/company/sustainergic-tech/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="https://www.instagram.com/sustainergictech?igsh=MTBwdDZhd3lzNnF0eQ%3D%3D" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
                     </div>
                 </div>
 

@@ -128,7 +128,7 @@ function getCustomerEmailTemplate($data) {
 
                 <p>Our engineering team is currently reviewing your project details. A dedicated technical consultant will follow up with you within <strong>24 hours</strong> with tailored proposal options.</p>
                 
-                <p>If your requirement is urgent, feel free to call us directly at <a href='tel:+919785749960' style='color: #0b4d2c; font-weight: 600;'>+91 97857 49960</a> or write to <a href='mailto:business@sustainergictech.in' style='color: #0b4d2c; font-weight: 600;'>business@sustainergictech.in</a>.</p>
+                <p>If your requirement is urgent, feel free to call us directly at <a href='tel:+919785749960' style='color: #0b4d2c; font-weight: 600;'>+91 97857 49960</a> / <a href='tel:+917073828008' style='color: #0b4d2c; font-weight: 600;'>+91 70738 28008</a> or write to <a href='mailto:business@sustainergictech.in' style='color: #0b4d2c; font-weight: 600;'>business@sustainergictech.in</a>.</p>
 
                 <br>
                 <p style='margin: 0;'>Warm regards,</p>
