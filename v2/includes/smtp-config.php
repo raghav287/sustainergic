@@ -11,16 +11,16 @@ define('SMTP_ENCRYPTION', 'tls');                       // 'tls' or 'ssl'
 define('SMTP_AUTH', true);                              // Enable SMTP authentication
 
 // SMTP Credentials
-define('SMTP_USERNAME', 'developermakes360@gmail.com'); // Your SMTP email address
-define('SMTP_PASSWORD', 'pdyfwqibveqjsxuf');  // Your SMTP password or App Password
+define('SMTP_USERNAME', 'vivek@sustainergictech.in'); // Your SMTP email address
+define('SMTP_PASSWORD', 'zmknxbysowrtyvoc');  // Your SMTP password or App Password
 
 // Sender Identity
-define('SMTP_FROM_EMAIL', 'code@makes360.com');
+define('SMTP_FROM_EMAIL', 'vivek@sustainergictech.in');
 define('SMTP_FROM_NAME', 'Sustainergic Tech');
 
 // Admin Notification Recipients (Emails that receive contact form submissions)
-define('ADMIN_NOTIFICATION_EMAIL', 'code@makes360.com');
-define('ADMIN_NOTIFICATION_CC', 'developermakes360@gmail.com'); // Optional CC recipient or empty string
+define('ADMIN_NOTIFICATION_EMAIL', 'business@sustainergictech.in');
+define('ADMIN_NOTIFICATION_CC', 'vivek@sustainergictech.in, prateek@sustainergictech.in'); // Comma-separated CC recipients
 
 // Enable PHPMailer Debug output (0 = off, 2 = client and server messages)
 define('SMTP_DEBUG', 0);
