@@ -76,7 +76,7 @@
                 <!-- Right Visual Column -->
                 <div class="gb-hero-visual">
                     <div class="gb-hero-img-wrapper">
-                        <img src="assets/images/green-building.png" alt="Modern sustainable building with vertical gardens and solar integration">
+                        <img src="assets/images/green-building.png" alt="Modern sustainable building with vertical gardens and solar integration" width="1254" height="1254">
                         
                         <!-- Floating Badge 1 -->
                         <div class="gb-hero-floating-card gb-hero-floating-card--one">
@@ -115,7 +115,7 @@
             <div class="gb-grid-2">
                 <!-- Left Column (Visual) -->
                 <div class="gb-intro-visual-wrapper">
-                    <img src="assets/images/green-why.png" class="gb-intro-img" alt="Sustainable Architecture Systems Schematic Graphic">
+                    <img src="assets/images/green-why.png" class="gb-intro-img" alt="Sustainable Architecture Systems Schematic Graphic" width="1254" height="1254">
                     <div class="gb-intro-badge">
                         <strong>Eco-Design</strong>
                         <span>Technical Advisory</span>
@@ -449,7 +449,7 @@
             <div class="gb-grid-2">
                 <!-- Left Visual Column -->
                 <div class="gb-benefits-visual-wrapper">
-                    <img src="assets/images/green-why-2.png" alt="Eco-friendly green office building design facade representing benefits of sustainability">
+                    <img src="assets/images/green-why-2.png" alt="Eco-friendly green office building design facade representing benefits of sustainability" width="1278" height="1231">
                 </div>
 
                 <!-- Right Benefits List Column -->

@@ -75,7 +75,7 @@
                 <!-- Right Visual Column -->
                 <div class="gb-hero-visual">
                     <div class="gb-hero-img-wrapper">
-                        <img src="assets/images/industry-hero.png" alt="Industrial HVAC Heavy Process Ventilation Unit">
+                        <img src="assets/images/industry-hero.png" alt="Industrial HVAC Heavy Process Ventilation Unit" width="1254" height="1254">
                         
                         <!-- Floating Badge 1 -->
                         <div class="gb-hero-floating-card gb-hero-floating-card--one">
@@ -112,7 +112,7 @@
             <div class="gb-grid-2">
                 <!-- Left Column (Visual) -->
                 <div class="gb-intro-visual-wrapper">
-                    <img src="assets/images/industry-about.png" class="gb-intro-img" alt="Industrial HVAC Process Ventilation Engineering">
+                    <img src="assets/images/industry-about.png" class="gb-intro-img" alt="Industrial HVAC Process Ventilation Engineering" width="1067" height="1474">
                     <div class="gb-intro-badge">
                         <strong>Heavy Industrial HVAC</strong>
                         <span>Engineered Solutions</span>

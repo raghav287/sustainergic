@@ -354,7 +354,7 @@
                 <div class="fm-col fm-brand">
                     <div class="fm-logo">
                         <a href="index.php" class="fm-logo-link" aria-label="Sustainergic Home">
-                            <img src="assets/images/logo-white.png" alt="Sustainergic Tech Logo" class="fm-logo-img">
+                            <img src="assets/images/logo-white.png" alt="Sustainergic Tech Logo" class="fm-logo-img" width="628" height="162">
                         </a>
                     </div>
                     <p class="fm-about">

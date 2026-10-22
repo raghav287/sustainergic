@@ -76,7 +76,7 @@
                 <!-- Right Visual Column -->
                 <div class="gb-hero-visual">
                     <div class="gb-hero-img-wrapper">
-                        <img src="assets/images/underfloor-hero.png" alt="Underfloor electric heating mat installation schematic under floor tiles">
+                        <img src="assets/images/underfloor-hero.png" alt="Underfloor electric heating mat installation schematic under floor tiles" width="1254" height="1254">
                         
                         <!-- Floating Badge 1 -->
                         <div class="gb-hero-floating-card gb-hero-floating-card--one">
@@ -113,7 +113,7 @@
             <div class="gb-grid-2">
                 <!-- Left Column (Visual) -->
                 <div class="gb-intro-visual-wrapper">
-                    <img src="assets/images/underfloor-about.png" class="gb-intro-img" alt="Underfloor Electric Radiant Heating Interior">
+                    <img src="assets/images/underfloor-about.png" class="gb-intro-img" alt="Underfloor Electric Radiant Heating Interior" width="1336" height="1177">
                     <div class="gb-intro-badge">
                         <strong>Electric Radiant</strong>
                         <span>Floor Warmth</span>

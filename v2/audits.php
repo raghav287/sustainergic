@@ -83,7 +83,7 @@
                 <!-- Right Column: Visual -->
                 <div class="aud-hero-visual">
                     <div class="aud-hero-img-wrapper">
-                        <img src="assets/images/audit hero.png" alt="Commercial high-rise building with thermal and water consumption audit dashboard overlay">
+                        <img src="assets/images/audit hero.png" alt="Commercial high-rise building with thermal and water consumption audit dashboard overlay" width="472" height="490">
                     </div>
                     
                     <!-- Floating Indicator cards -->
@@ -119,7 +119,7 @@
             <div class="aud-grid-2">
                 <!-- Left Visual Column -->
                 <div class="aud-intro-visual-wrapper">
-                    <img src="assets/images/audit-about.png" alt="Commercial facility 3D cutaway showing mechanical, lighting, and plumbing systems under audit" class="aud-intro-img">
+                    <img src="assets/images/audit-about.png" alt="Commercial facility 3D cutaway showing mechanical, lighting, and plumbing systems under audit" class="aud-intro-img" width="572" height="600">
                     <div class="aud-intro-badge">
                         <strong>ASHRAE</strong>
                         <span>Compliant Audits</span>
@@ -201,7 +201,7 @@
                 <!-- 1. Energy Audit -->
                 <div class="aud-alt-row">
                     <div class="aud-alt-visual">
-                        <img src="assets/images/energy-audit.png" alt="Auditor checking circuit breakers with infrared thermal camera diagnostic screen">
+                        <img src="assets/images/energy-audit.png" alt="Auditor checking circuit breakers with infrared thermal camera diagnostic screen" width="1024" height="1024">
                     </div>
                     <div class="aud-alt-content">
                         <div class="aud-alt-content-header">
@@ -243,7 +243,7 @@
                 <!-- 2. Water Audit -->
                 <div class="aud-alt-row">
                     <div class="aud-alt-visual">
-                        <img src="assets/images/water-audit.png" alt="Detailed water pipeline distribution flow chart showing levels, meters and tanks">
+                        <img src="assets/images/water-audit.png" alt="Detailed water pipeline distribution flow chart showing levels, meters and tanks" width="554" height="440">
                     </div>
                     <div class="aud-alt-content">
                         <div class="aud-alt-content-header">
@@ -623,7 +623,7 @@
 
                 <!-- Right: Visual -->
                 <div class="aud-benefits-visual-wrapper">
-                    <img src="assets/images/water-benifits.png" alt="Facility cutaway model highlighting mechanical and water utilities inspection">
+                    <img src="assets/images/water-benifits.png" alt="Facility cutaway model highlighting mechanical and water utilities inspection" width="564" height="689">
                 </div>
             </div>
         </div>

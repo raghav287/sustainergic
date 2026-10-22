@@ -82,7 +82,7 @@
                 <!-- Right Column: Visual -->
                 <div class="sm-hero-visual">
                     <div class="sm-hero-img-wrapper">
-                        <img src="assets/images/simulation-hero.png" alt="Modern building with digital performance simulation overlay">
+                        <img src="assets/images/simulation-hero.png" alt="Modern building with digital performance simulation overlay" width="1254" height="1254">
                     </div>
                     
                     <!-- Floating Indicator cards -->
@@ -118,7 +118,7 @@
             <div class="sm-grid-2">
                 <!-- Left Visual Column -->
                 <div class="sm-intro-visual-wrapper">
-                    <img src="assets/images/simulation-intro.png" alt="3D CAD model rendering showing thermal and airflow simulation overlays" class="sm-intro-img">
+                    <img src="assets/images/simulation-intro.png" alt="3D CAD model rendering showing thermal and airflow simulation overlays" class="sm-intro-img" width="1024" height="1024">
                     <div class="sm-intro-badge">
                         <strong>500+</strong>
                         <span>Simulations Run</span>
@@ -200,7 +200,7 @@
                 <!-- 1. Energy Simulation -->
                 <div class="sm-alt-row">
                     <div class="sm-alt-visual">
-                        <img src="assets/images/energy-sim.png" alt="Building energy model showcasing HVAC airflow paths and temperature zones">
+                        <img src="assets/images/energy-sim.png" alt="Building energy model showcasing HVAC airflow paths and temperature zones" width="554" height="380">
                     </div>
                     <div class="sm-alt-content">
                         <div class="sm-alt-content-header">
@@ -229,7 +229,7 @@
                 <!-- 2. Daylight Simulation -->
                 <div class="sm-alt-row">
                     <div class="sm-alt-visual">
-                        <img src="assets/images/energy-daylight.png" alt="Daylight and glare analysis grid on office floor layout">
+                        <img src="assets/images/energy-daylight.png" alt="Daylight and glare analysis grid on office floor layout" width="554" height="380">
                     </div>
                     <div class="sm-alt-content">
                         <div class="sm-alt-content-header">
@@ -257,7 +257,7 @@
                 <!-- 3. CFD Simulation -->
                 <div class="sm-alt-row">
                     <div class="sm-alt-visual">
-                        <img src="assets/images/internal-cfd.png" alt="Computational Fluid Dynamics showing vector wind streamlines around building">
+                        <img src="assets/images/internal-cfd.png" alt="Computational Fluid Dynamics showing vector wind streamlines around building" width="554" height="380">
                     </div>
                     <div class="sm-alt-content">
                         <div class="sm-alt-content-header">
@@ -297,7 +297,7 @@
                 <!-- 4. LCA Analysis -->
                 <div class="sm-alt-row">
                     <div class="sm-alt-visual">
-                        <img src="assets/images/lca-analysis.png" alt="Life Cycle Assessment lifecycle diagram mapping embodied carbon and environmental impacts">
+                        <img src="assets/images/lca-analysis.png" alt="Life Cycle Assessment lifecycle diagram mapping embodied carbon and environmental impacts" width="554" height="380">
                     </div>
                     <div class="sm-alt-content">
                         <div class="sm-alt-content-header">
@@ -519,7 +519,7 @@
 
                 <!-- Right: Visual -->
                 <div class="sm-outcomes-visual-wrapper">
-                    <img src="assets/images/simulation-intro.png" alt="Analytical cutaway design model showing airflow and solar light vector coordinates">
+                    <img src="assets/images/simulation-intro.png" alt="Analytical cutaway design model showing airflow and solar light vector coordinates" width="1024" height="1024">
                 </div>
             </div>
         </div>

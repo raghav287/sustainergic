@@ -19,7 +19,7 @@ $resource_pages = ['case-studies.php', 'case-study-detail.php', 'client.php', 'c
 
         <!-- Logo -->
         <a href="index.php" class="logo">
-            <img src="assets/images/logo.png" alt="Sustainergic">
+            <img src="assets/images/logo.png" alt="Sustainergic" width="628" height="162">
         </a>
 
         <!-- Desktop Menu -->

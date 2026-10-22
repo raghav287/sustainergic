@@ -394,7 +394,7 @@ $paginated_studies = array_slice($filtered_case_studies, $offset, $items_per_pag
                 <!-- Right Visual Column -->
                 <div class="gb-hero-visual">
                     <div class="gb-hero-img-wrapper">
-                        <img src="assets/images/case-study.png" alt="Sustainergic Tech Certified Case Studies Portfolio">
+                        <img src="assets/images/case-study.png" alt="Sustainergic Tech Certified Case Studies Portfolio" width="1254" height="1254">
                         
                         <!-- Floating Badge 1 -->
                         <div class="gb-hero-floating-card gb-hero-floating-card--one">
@@ -462,7 +462,7 @@ $paginated_studies = array_slice($filtered_case_studies, $offset, $items_per_pag
                             
                             <!-- Left Column: High-Definition Image Box -->
                             <div class="cs-card-img-box">
-                                <img src="<?php echo htmlspecialchars($cs['image']); ?>" alt="<?php echo htmlspecialchars($cs['title']); ?>" loading="lazy">
+                                <img src="<?php echo htmlspecialchars($cs['image']); ?>" alt="<?php echo htmlspecialchars($cs['title']); ?>" width="400" height="320" loading="lazy">
                                 <span class="cs-card-badge">
                                     <i class="fa-solid fa-award"></i> <?php echo htmlspecialchars($cs['badge']); ?>
                                 </span>

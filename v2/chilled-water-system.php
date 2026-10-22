@@ -76,7 +76,7 @@
                 <!-- Right Visual Column -->
                 <div class="gb-hero-visual">
                     <div class="gb-hero-img-wrapper">
-                        <img src="assets/images/chilled-hero.png" alt="Commercial chilled water plant room with centrifugal chillers and header pumps">
+                        <img src="assets/images/chilled-hero.png" alt="Commercial chilled water plant room with centrifugal chillers and header pumps" width="1254" height="1254">
                         
                         <!-- Floating Badge 1 -->
                         <div class="gb-hero-floating-card gb-hero-floating-card--one">
@@ -113,7 +113,7 @@
             <div class="gb-grid-2">
                 <!-- Left Column (Visual) -->
                 <div class="gb-intro-visual-wrapper">
-                    <img src="assets/images/chilled-about.png" class="gb-intro-img" alt="Chilled Water Plant Piping and Heat Exchanger Diagram">
+                    <img src="assets/images/chilled-about.png" class="gb-intro-img" alt="Chilled Water Plant Piping and Heat Exchanger Diagram" width="1115" height="1411">
                     <div class="gb-intro-badge">
                         <strong>Central Cooling</strong>
                         <span>Chilled Water Plant</span>

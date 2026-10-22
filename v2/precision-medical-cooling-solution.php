@@ -76,7 +76,7 @@
                 <!-- Right Visual Column -->
                 <div class="gb-hero-visual">
                     <div class="gb-hero-img-wrapper">
-                        <img src="assets/images/medical-hero.png" alt="Precision Medical Cooling Unit for Hospital Diagnostic MRI">
+                        <img src="assets/images/medical-hero.png" alt="Precision Medical Cooling Unit for Hospital Diagnostic MRI" width="1254" height="1254">
                         
                         <!-- Floating Badge 1 -->
                         <div class="gb-hero-floating-card gb-hero-floating-card--one">
@@ -113,7 +113,7 @@
             <div class="gb-grid-2">
                 <!-- Left Column (Visual) -->
                 <div class="gb-intro-visual-wrapper">
-                    <img src="assets/images/medical-about.png" class="gb-intro-img" alt="Precision Medical Cooling Hospital Ventilation Diagram">
+                    <img src="assets/images/medical-about.png" class="gb-intro-img" alt="Precision Medical Cooling Hospital Ventilation Diagram" width="1173" height="1341">
                     <div class="gb-intro-badge">
                         <strong>Healthcare HVAC</strong>
                         <span>Precision Advisory</span>

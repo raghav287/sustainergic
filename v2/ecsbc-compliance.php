@@ -75,7 +75,7 @@
                 <!-- Right Visual Column -->
                 <div class="gb-hero-visual">
                     <div class="gb-hero-img-wrapper">
-                        <img src="assets/images/ecbc-hero.png" alt="ECSBC compliant energy efficient commercial building design">
+                        <img src="assets/images/ecbc-hero.png" alt="ECSBC compliant energy efficient commercial building design" width="1254" height="1254">
                         
                         <!-- Floating Badge 1 -->
                         <div class="gb-hero-floating-card gb-hero-floating-card--one">
@@ -112,7 +112,7 @@
             <div class="gb-grid-2">
                 <!-- Left Column (Visual) -->
                 <div class="gb-intro-visual-wrapper">
-                    <img src="assets/images/ecbc-about.png" class="gb-intro-img" alt="Energy Conservation &amp; Sustainable Building Code Analysis Schematic">
+                    <img src="assets/images/ecbc-about.png" class="gb-intro-img" alt="Energy Conservation &amp; Sustainable Building Code Analysis Schematic" width="1121" height="1403">
                     <div class="gb-intro-badge">
                         <strong>BEE ECSBC</strong>
                         <span>Technical Advisory</span>
@@ -283,7 +283,7 @@
 
                 <!-- Right: Visual Card -->
                 <div class="gb-intro-visual-wrapper">
-                    <img src="assets/images/eco-niwas.png" class="gb-intro-img" alt="Eco-Niwas Samhita Residential Energy Code">
+                    <img src="assets/images/eco-niwas.png" class="gb-intro-img" alt="Eco-Niwas Samhita Residential Energy Code" width="1254" height="1254">
                     <div class="gb-intro-badge">
                         <strong>BEE ENS</strong>
                         <span>Residential Code</span>
@@ -356,7 +356,7 @@
             <div class="gb-grid-2">
                 <!-- Left Visual Column -->
                 <div class="gb-benefits-visual-wrapper">
-                    <img src="assets/images/benefits-building.png" alt="Commercial building energy efficiency and ECSBC compliance benefits">
+                    <img src="assets/images/benefits-building.png" alt="Commercial building energy efficiency and ECSBC compliance benefits" width="1024" height="1024">
                 </div>
 
                 <!-- Right Benefits List Column -->

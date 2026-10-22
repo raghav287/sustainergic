@@ -217,7 +217,7 @@
                 <!-- Right Column: Visual -->
                 <div class="aud-hero-visual">
                     <div class="aud-hero-img-wrapper">
-                        <img src="assets/images/carbon-accounting.png" alt="Corporate facility showing floating paths for Scope 1 direct, Scope 2 indirect, and Scope 3 supply-chain emissions">
+                        <img src="assets/images/carbon-accounting.png" alt="Corporate facility showing floating paths for Scope 1 direct, Scope 2 indirect, and Scope 3 supply-chain emissions" width="1254" height="1254">
                     </div>
                     
                     <!-- Floating Scope Indicator cards -->
@@ -253,7 +253,7 @@
             <div class="aud-grid-2 aud-intro-grid">
                 <!-- Left Visual Column -->
                 <div class="aud-intro-visual-wrapper">
-                    <img src="assets/images/carbon-why.png" alt="Clean energy commercial facility showing supply chain logistics, electricity meters, and emissions logs" class="aud-intro-img">
+                    <img src="assets/images/carbon-why.png" alt="Clean energy commercial facility showing supply chain logistics, electricity meters, and emissions logs" class="aud-intro-img" width="1177" height="1336">
                     <div class="aud-intro-badge" style="background-color: var(--carb-scope1);">
                         <strong style="color: var(--aud-white);">GHG</strong>
                         <span style="color: rgba(255, 255, 255, 0.85);">Protocol Method</span>
@@ -343,7 +343,7 @@
                 <!-- 1. Scope 1, Scope 2 & Scope 3 Calculation -->
                 <div class="aud-alt-row">
                     <div class="aud-alt-visual">
-                        <img src="assets/images/emissions-calculation.png" alt="Schematic showing organization boundaries connected to fuel combustion, purchased electricity, and logistics distribution">
+                        <img src="assets/images/emissions-calculation.png" alt="Schematic showing organization boundaries connected to fuel combustion, purchased electricity, and logistics distribution" width="1024" height="1024">
                     </div>
                     <div class="aud-alt-content">
                         <div class="aud-alt-content-header">
@@ -390,7 +390,7 @@
                 <!-- 2. Life Cycle Assessment (LCA) -->
                 <div class="aud-alt-row">
                     <div class="aud-alt-visual">
-                        <img src="assets/images/lca-analysis.png" alt="Circular lifecycle cradle-to-grave diagram mapping raw extraction to reuse and recycling">
+                        <img src="assets/images/lca-analysis.png" alt="Circular lifecycle cradle-to-grave diagram mapping raw extraction to reuse and recycling" width="554" height="380">
                     </div>
                     <div class="aud-alt-content">
                         <div class="aud-alt-content-header">
@@ -431,7 +431,7 @@
                 <!-- 3. Environmental Product Declaration (EPD) -->
                 <div class="aud-alt-row">
                     <div class="aud-alt-visual">
-                        <img src="assets/images/epd-product.png" alt="A green product sample with material specs and EPD declaration checklist indicators">
+                        <img src="assets/images/epd-product.png" alt="A green product sample with material specs and EPD declaration checklist indicators" width="554" height="440">
                     </div>
                     <div class="aud-alt-content">
                         <div class="aud-alt-content-header">
@@ -472,7 +472,7 @@
                 <!-- 4. GHG Emission Reporting -->
                 <div class="aud-alt-row">
                     <div class="aud-alt-visual">
-                        <img src="assets/images/ghg-reporting.png" alt="Emissions-reporting dashboard tracking Scope 1, 2, and 3 logs against disclosure compliance targets">
+                        <img src="assets/images/ghg-reporting.png" alt="Emissions-reporting dashboard tracking Scope 1, 2, and 3 logs against disclosure compliance targets" width="1024" height="1024">
                     </div>
                     <div class="aud-alt-content">
                         <div class="aud-alt-content-header">
@@ -513,7 +513,7 @@
                 <!-- 5. Carbon Footprinting & Mitigation Strategies -->
                 <div class="aud-alt-row">
                     <div class="aud-alt-visual">
-                        <img src="assets/images/carbon-mitigation.png" alt="Transition graphic showing high-emission industrial baseline moving toward wind, solar, and optimized HVAC efficiency">
+                        <img src="assets/images/carbon-mitigation.png" alt="Transition graphic showing high-emission industrial baseline moving toward wind, solar, and optimized HVAC efficiency" width="1024" height="1024">
                     </div>
                     <div class="aud-alt-content">
                         <div class="aud-alt-content-header">
@@ -900,7 +900,7 @@
 
                 <!-- Right: Visual -->
                 <div class="aud-benefits-visual-wrapper">
-                    <img src="assets/images/carbon-benifits.png" alt="Clean energy solar fields and office complex showing carbon footprint reduction baseline tracking">
+                    <img src="assets/images/carbon-benifits.png" alt="Clean energy solar fields and office complex showing carbon footprint reduction baseline tracking" width="1113" height="1414">
                 </div>
             </div>
         </div>

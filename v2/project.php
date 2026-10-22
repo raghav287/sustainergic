@@ -101,7 +101,7 @@ $hvac_categories = array_filter($header_services, function($s, $key) use ($hidde
                     <a href="<?php echo htmlspecialchars($category['url']); ?>#projects" class="project-category-card">
                         
                         <div class="project-category-image">
-                            <img src="<?php echo htmlspecialchars($category['image']); ?>" alt="<?php echo htmlspecialchars($category['title']); ?>" loading="lazy">
+                            <img src="<?php echo htmlspecialchars($category['image']); ?>" alt="<?php echo htmlspecialchars($category['title']); ?>" width="400" height="250" loading="lazy">
                         </div>
                         
                         <div class="project-category-body">
@@ -125,7 +125,7 @@ $hvac_categories = array_filter($header_services, function($s, $key) use ($hidde
                     <a href="<?php echo htmlspecialchars($category['url']); ?>#projects" class="project-category-card">
                         
                         <div class="project-category-image">
-                            <img src="<?php echo htmlspecialchars($category['image']); ?>" alt="<?php echo htmlspecialchars($category['title']); ?>" loading="lazy">
+                            <img src="<?php echo htmlspecialchars($category['image']); ?>" alt="<?php echo htmlspecialchars($category['title']); ?>" width="400" height="250" loading="lazy">
                         </div>
                         
                         <div class="project-category-body">

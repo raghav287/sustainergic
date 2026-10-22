@@ -76,7 +76,7 @@
                 <!-- Right Visual Column -->
                 <div class="gb-hero-visual">
                     <div class="gb-hero-img-wrapper">
-                        <img src="assets/images/geothermal-hero.png" alt="Geothermal ground loop heat exchanger installation">
+                        <img src="assets/images/geothermal-hero.png" alt="Geothermal ground loop heat exchanger installation" width="1254" height="1254">
                         
                         <!-- Floating Badge 1 -->
                         <div class="gb-hero-floating-card gb-hero-floating-card--one">
@@ -113,7 +113,7 @@
             <div class="gb-grid-2">
                 <!-- Left Column (Visual) -->
                 <div class="gb-intro-visual-wrapper">
-                    <img src="assets/images/geo-about.png" class="gb-intro-img" alt="Geothermal Ground Source Heat Pump Facility">
+                    <img src="assets/images/geo-about.png" class="gb-intro-img" alt="Geothermal Ground Source Heat Pump Facility" width="1190" height="1322">
                     <div class="gb-intro-badge">
                         <strong>Geothermal HVAC</strong>
                         <span>Ground Energy Solutions</span>

@@ -1058,7 +1058,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['action']) && $_POST['
             <!-- Right Image Framed Container -->
             <div class="hero-image">
                 <div class="hero-image-frame">
-                    <img src="assets/images/hero.png" alt="Green Building Engineering">
+                    <img src="assets/images/hero.png" alt="Green Building Engineering" width="1437" height="1095">
                 </div>
             </div>
         </div>
@@ -1078,32 +1078,32 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['action']) && $_POST['
             <!-- Accreditations Row (Centered Elevated Capsules) -->
             <div class="trust-badges-row">
                 <div class="trust-badge-card" title="LEED Accredited Professional (USGBC / GBCI)">
-                    <img src="assets/images/certifications/leed-logo.png" alt="LEED AP">
+                    <img src="assets/images/certifications/leed-logo.png" alt="LEED AP" width="131" height="131">
                     <span class="badge-title">LEED&reg; Accredited</span>
                 </div>
 
                 <div class="trust-badge-card" title="Indian Green Building Council (IGBC) Accredited Professional">
-                    <img src="assets/images/certifications/igbc-logo.png" alt="IGBC AP">
+                    <img src="assets/images/certifications/igbc-logo.png" alt="IGBC AP" width="131" height="131">
                     <span class="badge-title">IGBC&reg; AP</span>
                 </div>
 
                 <div class="trust-badge-card" title="GRIHA Certified Professional (TERI & MNRE)">
-                    <img src="assets/images/certifications/griha-logo.png" alt="GRIHA CP">
+                    <img src="assets/images/certifications/griha-logo.png" alt="GRIHA CP" width="131" height="131">
                     <span class="badge-title">GRIHA&reg; CP</span>
                 </div>
 
                 <div class="trust-badge-card" title="ASSOCHAM Green &amp; Eco-friendly Movement (GEM)">
-                    <img src="assets/images/certifications/gem-logo.png" alt="ASSOCHAM GEM">
+                    <img src="assets/images/certifications/gem-logo.png" alt="ASSOCHAM GEM" width="131" height="131">
                     <span class="badge-title">ASSOCHAM GEM</span>
                 </div>
 
                 <div class="trust-badge-card" title="WELL Building Standard">
-                    <img src="assets/images/certifications/well-logo.png" alt="WELL Standard">
+                    <img src="assets/images/certifications/well-logo.png" alt="WELL Standard" width="131" height="131">
                     <span class="badge-title">WELL&reg; Standard</span>
                 </div>
 
                 <div class="trust-badge-card" title="CII GreenPro Certified Products">
-                    <img src="assets/images/certifications/greenpro-logo.png" alt="CII GreenPro">
+                    <img src="assets/images/certifications/greenpro-logo.png" alt="CII GreenPro" width="131" height="131">
                     <span class="badge-title">CII GreenPro</span>
                 </div>
 
@@ -1124,66 +1124,66 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['action']) && $_POST['
             <div class="trust-marquee-wrapper">
                 <div class="trust-marquee-track">
                     <div class="trust-client-card" title="Hyatt Regency">
-                        <img src="assets/images/clients/hyatt-logo.png" alt="Hyatt Regency">
+                        <img src="assets/images/clients/hyatt-logo.png" alt="Hyatt Regency" width="300" height="100">
                     </div>
                     <div class="trust-client-card" title="Taj Hotels">
-                        <img src="assets/images/clients/taj.png" alt="Taj Hotels">
+                        <img src="assets/images/clients/taj.png" alt="Taj Hotels" width="300" height="100">
                     </div>
                     <div class="trust-client-card" title="Reserve Bank of India">
-                        <img src="assets/images/clients/rbi.png" alt="Reserve Bank of India">
+                        <img src="assets/images/clients/rbi.png" alt="Reserve Bank of India" width="300" height="100">
                     </div>
                     <div class="trust-client-card" title="AIIMS New Delhi">
-                        <img src="assets/images/clients/aiims.png" alt="AIIMS New Delhi">
+                        <img src="assets/images/clients/aiims.png" alt="AIIMS New Delhi" width="300" height="100">
                     </div>
                     <div class="trust-client-card" title="Hindustan Coca-Cola Beverages">
-                        <img src="assets/images/clients/hindustan-coca.png" alt="Hindustan Coca-Cola Beverages">
+                        <img src="assets/images/clients/hindustan-coca.png" alt="Hindustan Coca-Cola Beverages" width="300" height="100">
                     </div>
                     <div class="trust-client-card" title="Honda Cars India">
-                        <img src="assets/images/clients/honda-logo.png" alt="Honda Cars India">
+                        <img src="assets/images/clients/honda-logo.png" alt="Honda Cars India" width="300" height="100">
                     </div>
                     <div class="trust-client-card" title="Havells India">
-                        <img src="assets/images/clients/havells-logo.png" alt="Havells India">
+                        <img src="assets/images/clients/havells-logo.png" alt="Havells India" width="300" height="100">
                     </div>
                     <div class="trust-client-card" title="State Bank of India">
-                        <img src="assets/images/clients/sbi-logo.png" alt="State Bank of India">
+                        <img src="assets/images/clients/sbi-logo.png" alt="State Bank of India" width="300" height="100">
                     </div>
                     <div class="trust-client-card" title="Indian Railways">
-                        <img src="assets/images/clients/indian-railways-logo.png" alt="Indian Railways">
+                        <img src="assets/images/clients/indian-railways-logo.png" alt="Indian Railways" width="300" height="100">
                     </div>
                     <div class="trust-client-card" title="Chitkara University">
-                        <img src="assets/images/clients/chitkara-logo.png" alt="Chitkara University">
+                        <img src="assets/images/clients/chitkara-logo.png" alt="Chitkara University" width="300" height="100">
                     </div>
                     <div class="trust-client-card" title="KIMS Hospitals">
-                        <img src="assets/images/clients/kims.png" alt="KIMS Hospitals">
+                        <img src="assets/images/clients/kims.png" alt="KIMS Hospitals" width="300" height="100">
                     </div>
                     <div class="trust-client-card" title="Indian Oil Corporation">
-                        <img src="assets/images/clients/iocl-logo.png" alt="Indian Oil Corporation Limited">
+                        <img src="assets/images/clients/iocl-logo.png" alt="Indian Oil Corporation Limited" width="300" height="100">
                     </div>
 
                     <!-- Duplicate for smooth infinite marquee -->
                     <div class="trust-client-card" title="Hyatt Regency">
-                        <img src="assets/images/clients/hyatt-logo.png" alt="Hyatt Regency">
+                        <img src="assets/images/clients/hyatt-logo.png" alt="Hyatt Regency" width="300" height="100">
                     </div>
                     <div class="trust-client-card" title="Taj Hotels">
-                        <img src="assets/images/clients/taj.png" alt="Taj Hotels">
+                        <img src="assets/images/clients/taj.png" alt="Taj Hotels" width="300" height="100">
                     </div>
                     <div class="trust-client-card" title="Reserve Bank of India">
-                        <img src="assets/images/clients/rbi.png" alt="Reserve Bank of India">
+                        <img src="assets/images/clients/rbi.png" alt="Reserve Bank of India" width="300" height="100">
                     </div>
                     <div class="trust-client-card" title="AIIMS New Delhi">
-                        <img src="assets/images/clients/aiims.png" alt="AIIMS New Delhi">
+                        <img src="assets/images/clients/aiims.png" alt="AIIMS New Delhi" width="300" height="100">
                     </div>
                     <div class="trust-client-card" title="Hindustan Coca-Cola Beverages">
-                        <img src="assets/images/clients/hindustan-coca.png" alt="Hindustan Coca-Cola Beverages">
+                        <img src="assets/images/clients/hindustan-coca.png" alt="Hindustan Coca-Cola Beverages" width="300" height="100">
                     </div>
                     <div class="trust-client-card" title="Honda Cars India">
-                        <img src="assets/images/clients/honda-logo.png" alt="Honda Cars India">
+                        <img src="assets/images/clients/honda-logo.png" alt="Honda Cars India" width="300" height="100">
                     </div>
                     <div class="trust-client-card" title="Havells India">
-                        <img src="assets/images/clients/havells-logo.png" alt="Havells India">
+                        <img src="assets/images/clients/havells-logo.png" alt="Havells India" width="300" height="100">
                     </div>
                     <div class="trust-client-card" title="State Bank of India">
-                        <img src="assets/images/clients/sbi-logo.png" alt="State Bank of India">
+                        <img src="assets/images/clients/sbi-logo.png" alt="State Bank of India" width="300" height="100">
                     </div>
                 </div>
             </div>
@@ -1214,7 +1214,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['action']) && $_POST['
                         <div class="swiper-slide">
                             <a href="green-building-certification.php" class="service-card">
                                 <div class="service-image">
-                                    <img src="assets/images/green-building.png" alt="Green Certification">
+                                    <img src="assets/images/green-building.png" alt="Green Certification" width="1254" height="1254">
                                     <div class="service-image-icon">
                                         <i class="fa-solid fa-leaf"></i>
                                     </div>
@@ -1235,7 +1235,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['action']) && $_POST['
                         <div class="swiper-slide">
                             <a href="audits.php" class="service-card">
                                 <div class="service-image">
-                                    <img src="assets/images/energy-audit.png" alt="Audits">
+                                    <img src="assets/images/energy-audit.png" alt="Audits" width="1024" height="1024">
                                     <div class="service-image-icon">
                                         <i class="fa-solid fa-clipboard-check"></i>
                                     </div>
@@ -1256,7 +1256,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['action']) && $_POST['
                         <div class="swiper-slide">
                             <a href="hybrid-thermal-solar-panel.php" class="service-card">
                                 <div class="service-image">
-                                    <img src="assets/images/hts-hero.png" alt="Hybrid Thermal Solar (HTS) Panel">
+                                    <img src="assets/images/hts-hero.png" alt="Hybrid Thermal Solar (HTS) Panel" width="497" height="388">
                                     <div class="service-image-icon">
                                         <i class="fa-solid fa-solar-panel"></i>
                                     </div>
@@ -1277,7 +1277,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['action']) && $_POST['
                         <div class="swiper-slide">
                             <a href="iot-water-solution.php" class="service-card">
                                 <div class="service-image">
-                                    <img src="assets/images/water-audit.png" alt="IoT Water Solution">
+                                    <img src="assets/images/water-audit.png" alt="IoT Water Solution" width="554" height="440">
                                     <div class="service-image-icon">
                                         <i class="fa-solid fa-droplet"></i>
                                     </div>
@@ -1298,7 +1298,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['action']) && $_POST['
                         <div class="swiper-slide">
                             <a href="radiant-heating-cooling-system.php" class="service-card">
                                 <div class="service-image">
-                                    <img src="assets/images/radiant-hero.png" alt="Radiant Heating & Cooling System">
+                                    <img src="assets/images/radiant-hero.png" alt="Radiant Heating & Cooling System" width="1254" height="1254">
                                     <div class="service-image-icon">
                                         <i class="fa-solid fa-temperature-arrow-down"></i>
                                     </div>
@@ -1590,7 +1590,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['action']) && $_POST['
         <div class="container">
 
             <div class="about-image">
-                <img src="assets/images/home-about.png" alt="About Sustainergic Tech">
+                <img src="assets/images/home-about.png" alt="About Sustainergic Tech" width="1435" height="1096">
                 <div class="about-experience-badge">
                     <span class="abt-num">15+</span>
                     <span class="abt-lbl">Years Experience</span>
@@ -1817,7 +1817,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['action']) && $_POST['
                         <div class="swiper-slide">
                             <article class="project-card" onclick="window.location.href='case-study-detail.php?id=hyatt-regency-dehradun'">
                                 <div class="project-image">
-                                    <img src="assets/images/energy-hyatt.png" alt="Hyatt Regency, Dehradun">
+                                    <img src="assets/images/energy-hyatt.png" alt="Hyatt Regency, Dehradun" width="256" height="288">
                                     <span class="project-tag">Green Certification</span>
                                 </div>
                                 <div class="project-body">
@@ -1846,7 +1846,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['action']) && $_POST['
                         <div class="swiper-slide">
                             <article class="project-card" onclick="window.location.href='case-study-detail.php?id=holiday-inn-jaipur'">
                                 <div class="project-image">
-                                    <img src="assets/images/energy-holiday.png" alt="Holiday Inn, Jaipur">
+                                    <img src="assets/images/energy-holiday.png" alt="Holiday Inn, Jaipur" width="256" height="288">
                                     <span class="project-tag project-tag--sage">Energy Audit</span>
                                 </div>
                                 <div class="project-body">
@@ -1875,7 +1875,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['action']) && $_POST['
                         <div class="swiper-slide">
                             <article class="project-card" onclick="window.location.href='case-study-detail.php?id=spj-vedatam-mall'">
                                 <div class="project-image">
-                                    <img src="assets/images/ecsbc-spj.png" alt="SPJ Vedatam Mall">
+                                    <img src="assets/images/ecsbc-spj.png" alt="SPJ Vedatam Mall" width="256" height="288">
                                     <span class="project-tag project-tag--coral">ECSBC Compliance</span>
                                 </div>
                                 <div class="project-body">
@@ -1904,7 +1904,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['action']) && $_POST['
                         <div class="swiper-slide">
                             <article class="project-card" onclick="window.location.href='case-study-detail.php?id=martin-luther-chitkara'">
                                 <div class="project-image">
-                                    <img src="assets/images/comission-martin.png" alt="Martin Luther Block, Chitkara">
+                                    <img src="assets/images/comission-martin.png" alt="Martin Luther Block, Chitkara" width="256" height="288">
                                     <span class="project-tag">Building Commissioning</span>
                                 </div>
                                 <div class="project-body">
@@ -1933,7 +1933,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['action']) && $_POST['
                         <div class="swiper-slide">
                             <article class="project-card" onclick="window.location.href='case-study-detail.php?id=aiims-delhi'">
                                 <div class="project-image">
-                                    <img src="assets/images/medical-aims.png" alt="AIIMS, Delhi">
+                                    <img src="assets/images/medical-aims.png" alt="AIIMS, Delhi" width="256" height="288">
                                     <span class="project-tag project-tag--sage">Precision Medical</span>
                                 </div>
                                 <div class="project-body">
@@ -1962,7 +1962,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['action']) && $_POST['
                         <div class="swiper-slide">
                             <article class="project-card" onclick="window.location.href='case-study-detail.php?id=coca-cola-srikalahasti'">
                                 <div class="project-image">
-                                    <img src="assets/images/industry-hindustan.png" alt="Hindustan Coca-Cola Beverages Plant, Srikalahasti">
+                                    <img src="assets/images/industry-hindustan.png" alt="Hindustan Coca-Cola Beverages Plant, Srikalahasti" width="256" height="288">
                                     <span class="project-tag project-tag--coral">Industrial HVAC</span>
                                 </div>
                                 <div class="project-body">
@@ -1991,7 +1991,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['action']) && $_POST['
                         <div class="swiper-slide">
                             <article class="project-card" onclick="window.location.href='case-study-detail.php?id=42works-campus'">
                                 <div class="project-image">
-                                    <img src="assets/images/ecsbc-42.png" alt="42 Works Campus">
+                                    <img src="assets/images/ecsbc-42.png" alt="42 Works Campus" width="256" height="288">
                                     <span class="project-tag">Energy Simulation</span>
                                 </div>
                                 <div class="project-body">
@@ -2020,7 +2020,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['action']) && $_POST['
                         <div class="swiper-slide">
                             <article class="project-card" onclick="window.location.href='case-study-detail.php?id=the-gold-palace'">
                                 <div class="project-image">
-                                    <img src="assets/images/energy-gold.png" alt="The Gold Palace Resort, Jaipur">
+                                    <img src="assets/images/energy-gold.png" alt="The Gold Palace Resort, Jaipur" width="256" height="288">
                                     <span class="project-tag project-tag--sage">IoT Water Solution</span>
                                 </div>
                                 <div class="project-body">

@@ -432,7 +432,7 @@ $unique_id = 'sp_swiper_' . uniqid();
                         <div class="sp-horizontal-card">
                             <!-- Left Side: Image -->
                             <div class="sp-card-img-wrapper">
-                                <img src="<?php echo htmlspecialchars($proj['image']); ?>" alt="<?php echo htmlspecialchars($proj['title']); ?>" loading="lazy">
+                                <img src="<?php echo htmlspecialchars($proj['image']); ?>" alt="<?php echo htmlspecialchars($proj['title']); ?>" width="400" height="300" loading="lazy">
                                 <?php if (!empty($proj['tag'])): ?>
                                     <div class="sp-badge-tag">
                                         <span class="cert-tag-box <?php echo isset($proj['badge_type']) ? htmlspecialchars($proj['badge_type']) : 'badge-igbc'; ?>">

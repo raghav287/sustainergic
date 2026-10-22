@@ -76,7 +76,7 @@
                 <!-- Right Visual Column -->
                 <div class="gb-hero-visual">
                     <div class="gb-hero-img-wrapper">
-                        <img src="assets/images/fresh-air-hero.png" alt="Fresh air ventilation handling unit with energy recovery wheel">
+                        <img src="assets/images/fresh-air-hero.png" alt="Fresh air ventilation handling unit with energy recovery wheel" width="1254" height="1254">
                         
                         <!-- Floating Badge 1 -->
                         <div class="gb-hero-floating-card gb-hero-floating-card--one">
@@ -113,7 +113,7 @@
             <div class="gb-grid-2">
                 <!-- Left Column (Visual) -->
                 <div class="gb-intro-visual-wrapper">
-                    <img src="assets/images/fresh-air-about.png" class="gb-intro-img" alt="Fresh Air System and Indoor Air Quality Engineering Diagram">
+                    <img src="assets/images/fresh-air-about.png" class="gb-intro-img" alt="Fresh Air System and Indoor Air Quality Engineering Diagram" width="1146" height="1372">
                     <div class="gb-intro-badge">
                         <strong>Indoor Air Quality</strong>
                         <span>Fresh Air Advisory</span>

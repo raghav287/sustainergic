@@ -76,7 +76,7 @@
                 <!-- Right Visual Column -->
                 <div class="gb-hero-visual">
                     <div class="gb-hero-img-wrapper">
-                        <img src="assets/images/vrv-hero.png" alt="VRV VRF outdoor inverter condenser unit and sleek indoor air conditioning cassettes">
+                        <img src="assets/images/vrv-hero.png" alt="VRV VRF outdoor inverter condenser unit and sleek indoor air conditioning cassettes" width="1254" height="1254">
                         
                         <!-- Floating Badge 1 -->
                         <div class="gb-hero-floating-card gb-hero-floating-card--one">
@@ -113,7 +113,7 @@
             <div class="gb-grid-2">
                 <!-- Left Column (Visual) -->
                 <div class="gb-intro-visual-wrapper">
-                    <img src="assets/images/vrv-about.png" class="gb-intro-img" alt="Multi-Zone VRF System Architecture Diagram">
+                    <img src="assets/images/vrv-about.png" class="gb-intro-img" alt="Multi-Zone VRF System Architecture Diagram" width="1137" height="1383">
                     <div class="gb-intro-badge">
                         <strong>VRV / VRF HVAC</strong>
                         <span>Multi-Zone Climate Control</span>

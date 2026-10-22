@@ -152,7 +152,7 @@
                 <!-- Right Visual Column -->
                 <div class="gb-hero-visual">
                     <div class="gb-hero-img-wrapper">
-                        <img src="assets/images/iot-hero.png" alt="Aquasense IoT Water Management System Architecture">
+                        <img src="assets/images/iot-hero.png" alt="Aquasense IoT Water Management System Architecture" width="1254" height="1254">
                         
                         <!-- Floating Badge 1 -->
                         <div class="gb-hero-floating-card gb-hero-floating-card--one">
@@ -189,7 +189,7 @@
             <div class="gb-grid-2">
                 <!-- Left Column (Visual) -->
                 <div class="gb-intro-visual-wrapper">
-                    <img src="assets/images/iot-intro.png" class="gb-intro-img" alt="Smart IoT Water Management System Architecture">
+                    <img src="assets/images/iot-intro.png" class="gb-intro-img" alt="Smart IoT Water Management System Architecture" width="1188" height="1324">
                     <div class="gb-intro-badge">
                         <strong>Aquasense IoT</strong>
                         <span>Connected Water Lifecycle</span>

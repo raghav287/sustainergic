@@ -83,7 +83,7 @@
                 <!-- Right Column: Visual -->
                 <div class="aud-hero-visual">
                     <div class="aud-hero-img-wrapper">
-                        <img src="assets/images/commissioning-hero.png" alt="Commissioning engineer checking mechanical control valves and review sheets">
+                        <img src="assets/images/commissioning-hero.png" alt="Commissioning engineer checking mechanical control valves and review sheets" width="470" height="490">
                     </div>
                     
                     <!-- Floating Indicator cards -->
@@ -119,7 +119,7 @@
             <div class="aud-grid-2">
                 <!-- Left Visual Column -->
                 <div class="aud-intro-visual-wrapper">
-                    <img src="assets/images/commissioning-intro.png" alt="Engineering review of mechanical systems, controls, and parameters" class="aud-intro-img">
+                    <img src="assets/images/commissioning-intro.png" alt="Engineering review of mechanical systems, controls, and parameters" class="aud-intro-img" width="1224" height="1285">
                     <div class="aud-intro-badge">
                         <strong>CxA</strong>
                         <span>Authority Verification</span>
@@ -201,7 +201,7 @@
                 <!-- 1. Fundamental Commissioning -->
                 <div class="aud-alt-row">
                     <div class="aud-alt-visual">
-                        <img src="assets/images/fundamental.png" alt="Commissioning engineer checking HVAC electrical wiring and checklists">
+                        <img src="assets/images/fundamental.png" alt="Commissioning engineer checking HVAC electrical wiring and checklists" width="554" height="380">
                     </div>
                     <div class="aud-alt-content">
                         <div class="aud-alt-content-header">
@@ -242,7 +242,7 @@
                 <!-- 2. Enhanced Commissioning -->
                 <div class="aud-alt-row">
                     <div class="aud-alt-visual">
-                        <img src="assets/images/enhanced.png" alt="Technician calibrating control loops and analyzing parameters on energy dashboard">
+                        <img src="assets/images/enhanced.png" alt="Technician calibrating control loops and analyzing parameters on energy dashboard" width="554" height="380">
                     </div>
                     <div class="aud-alt-content">
                         <div class="aud-alt-content-header">
@@ -283,7 +283,7 @@
                 <!-- 3. Testing, Adjusting & Balancing (TAB) Services -->
                 <div class="aud-alt-row">
                     <div class="aud-alt-visual">
-                        <img src="assets/images/tab-services.png" alt="Balancing air flow dampers and measuring duct pressure using balometer instruments">
+                        <img src="assets/images/tab-services.png" alt="Balancing air flow dampers and measuring duct pressure using balometer instruments" width="1024" height="1024">
                     </div>
                     <div class="aud-alt-content">
                         <div class="aud-alt-content-header">
@@ -703,7 +703,7 @@
 
                 <!-- Right: Visual -->
                 <div class="aud-benefits-visual-wrapper">
-                    <img src="assets/images/commissioning-benefits.png" alt="Commissioning checklist validation and energy efficiency inspection visual">
+                    <img src="assets/images/commissioning-benefits.png" alt="Commissioning checklist validation and energy efficiency inspection visual" width="1109" height="1419">
                 </div>
             </div>
         </div>

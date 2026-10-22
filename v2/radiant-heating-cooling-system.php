@@ -76,7 +76,7 @@
                 <!-- Right Visual Column -->
                 <div class="gb-hero-visual">
                     <div class="gb-hero-img-wrapper">
-                        <img src="assets/images/radiant-hero.png" alt="Modern commercial interior with radiant floor and ceiling cooling system">
+                        <img src="assets/images/radiant-hero.png" alt="Modern commercial interior with radiant floor and ceiling cooling system" width="1254" height="1254">
                         
                         <!-- Floating Badge 1 -->
                         <div class="gb-hero-fc-icon-card gb-hero-floating-card gb-hero-floating-card--one">
@@ -113,7 +113,7 @@
             <div class="gb-grid-2">
                 <!-- Left Column (Visual) -->
                 <div class="gb-intro-visual-wrapper">
-                    <img src="assets/images/radiant-about.png" class="gb-intro-img" alt="Radiant Hydronic Cooling System Piping Schematic">
+                    <img src="assets/images/radiant-about.png" class="gb-intro-img" alt="Radiant Hydronic Cooling System Piping Schematic" width="1078" height="1459">
                     <div class="gb-intro-badge">
                         <strong>Hydronic Thermal</strong>
                         <span>Radiant Comfort</span>

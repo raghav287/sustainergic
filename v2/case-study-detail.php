@@ -694,7 +694,7 @@ if (mb_strlen($cs_meta_desc) > 160) {
                         <?php foreach ($related_studies as $rel): ?>
                             <div class="cs-card">
                                 <div class="cs-card-img-box">
-                                    <img src="<?php echo htmlspecialchars($rel['image']); ?>" alt="<?php echo htmlspecialchars($rel['title']); ?>">
+                                    <img src="<?php echo htmlspecialchars($rel['image']); ?>" alt="<?php echo htmlspecialchars($rel['title']); ?>" width="400" height="320">
                                     <span class="cs-card-badge"><?php echo htmlspecialchars($rel['badge']); ?></span>
                                 </div>
                                 <div class="cs-card-body">

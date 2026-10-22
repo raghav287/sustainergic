@@ -241,7 +241,7 @@ $related_section_label = isset($related_label) ? $related_label : 'Integrated En
             <?php foreach ($display_services as $rel_item): ?>
                 <div class="rsq-card">
                     <div class="rsq-img-box">
-                        <img src="<?php echo htmlspecialchars($rel_item['image']); ?>" alt="<?php echo htmlspecialchars($rel_item['title']); ?>" loading="lazy">
+                        <img src="<?php echo htmlspecialchars($rel_item['image']); ?>" alt="<?php echo htmlspecialchars($rel_item['title']); ?>" width="400" height="250" loading="lazy">
                         <div class="rsq-icon-box">
                             <i class="<?php echo htmlspecialchars(!empty($rel_item['icon']) ? $rel_item['icon'] : 'fa-solid fa-arrow-right'); ?>"></i>
                         </div>
