@@ -342,9 +342,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                         <h4>Follow Us</h4>
 
                         <div class="side-socials">
-                            <a href="https://www.facebook.com/people/Sustainergic-Tech-Pvt-Ltd/61580917485468/?rdid=RPpRiiIKp1Xg5zas&amp;share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F18sBBmuSf6%2F%3Fref%3D1" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
-                            <a href="https://www.linkedin.com/company/sustainergic-tech/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
-                            <a href="https://www.instagram.com/sustainergictech?igsh=MTBwdDZhd3lzNnF0eQ%3D%3D" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="https://www.facebook.com/people/Sustainergic-Tech-Pvt-Ltd/61580917485468/?rdid=RPpRiiIKp1Xg5zas&amp;share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F18sBBmuSf6%2F%3Fref%3D1" target="_blank" rel="noopener noreferrer" aria-label="Follow Sustainergic Tech on Facebook"><i class="fa-brands fa-facebook-f" aria-hidden="true"></i><span class="sr-only">Facebook</span></a>
+                            <a href="https://www.linkedin.com/company/sustainergic-tech/" target="_blank" rel="noopener noreferrer" aria-label="Connect with Sustainergic Tech on LinkedIn"><i class="fa-brands fa-linkedin-in" aria-hidden="true"></i><span class="sr-only">LinkedIn</span></a>
+                            <a href="https://www.instagram.com/sustainergictech?igsh=MTBwdDZhd3lzNnF0eQ%3D%3D" target="_blank" rel="noopener noreferrer" aria-label="Follow Sustainergic Tech on Instagram"><i class="fa-brands fa-instagram" aria-hidden="true"></i><span class="sr-only">Instagram</span></a>
                         </div>
 
                     </div>

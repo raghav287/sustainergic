@@ -208,7 +208,7 @@
                     <p>
                         Indian Green Building Council (IGBC) Green Building Certification promotes environmentally responsible and resource-efficient buildings throughout their lifecycle. Sustainergic Tech provides end-to-end consultancy, including design review, documentation, simulation, and project coordination, to achieve the targeted IGBC rating. Our team ensures compliance while improving energy efficiency, water conservation, indoor environmental quality, and overall building performance.
                     </p>
-                    <a href="contact-us.php" class="gb-card-link">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+                    <a href="contact-us.php" class="gb-card-link" aria-label="Learn more about IGBC Green Building Certification">Learn More <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
                 </div>
 
                 <!-- 2. USGBC LEED -->
@@ -220,7 +220,7 @@
                     <p>
                         The U.S. Green Building Council’s LEED certification is one of the world’s most recognized green building certification systems. Sustainergic Tech supports projects through sustainable design strategies, energy modelling, material evaluation, documentation, and certification management. Our approach helps clients reduce environmental impact, improve operational efficiency, and achieve internationally recognized sustainability standards.
                     </p>
-                    <a href="contact-us.php" class="gb-card-link">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+                    <a href="contact-us.php" class="gb-card-link" aria-label="Learn more about USGBC LEED Green Building Certification">Learn More <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
                 </div>
 
                 <!-- 3. GRIHA -->
@@ -232,7 +232,7 @@
                     <p>
                         GRIHA is India’s national green building rating system that encourages sustainable planning, construction, and operation. Sustainergic Tech assists clients from project registration to final certification by implementing energy-efficient solutions, water conservation measures, renewable energy integration, and environmental compliance. We help deliver buildings that are efficient, resilient, and environmentally responsible.
                     </p>
-                    <a href="contact-us.php" class="gb-card-link">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+                    <a href="contact-us.php" class="gb-card-link" aria-label="Learn more about GRIHA Certification">Learn More <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
                 </div>
 
                 <!-- 4. ASSOCHAM GEM -->
@@ -244,7 +244,7 @@
                     <p>
                         ASSOCHAM GEM Certification recognizes organizations demonstrating excellence in sustainability and environmental management. Sustainergic Tech provides gap analysis, implementation support, documentation, and technical guidance to help clients meet certification requirements. Our services strengthen environmental performance while enhancing corporate reputation and stakeholder confidence.
                     </p>
-                    <a href="contact-us.php" class="gb-card-link">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+                    <a href="contact-us.php" class="gb-card-link" aria-label="Learn more about ASSOCHAM GEM Certification">Learn More <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
                 </div>
 
                 <!-- 5. WELL -->
@@ -256,7 +256,7 @@
                     <p>
                         WELL Certification focuses on improving occupant health, comfort, and well-being through better building design and operations. Sustainergic Tech helps integrate strategies for air quality, lighting, thermal comfort, acoustics, water quality, and wellness, creating healthier and more productive indoor environments.
                     </p>
-                    <a href="contact-us.php" class="gb-card-link">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+                    <a href="contact-us.php" class="gb-card-link" aria-label="Learn more about WELL Certification">Learn More <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
                 </div>
 
                 <!-- 6. GreenPro -->
@@ -268,7 +268,7 @@
                     <p>
                         GreenPro Certification validates environmentally preferable products and materials based on their sustainability performance. Sustainergic Tech assists manufacturers with product assessment, technical documentation, and compliance support to achieve certification, improving product credibility and market acceptance.
                     </p>
-                    <a href="contact-us.php" class="gb-card-link">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+                    <a href="contact-us.php" class="gb-card-link" aria-label="Learn more about GreenPro Certification">Learn More <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
                 </div>
 
                 <!-- 7. GreenCo -->
@@ -280,7 +280,7 @@
                     <p>
                         GreenCo Certification evaluates industries based on energy efficiency, water management, waste reduction, emissions, and resource conservation. Sustainergic Tech conducts assessments, identifies improvement opportunities, and prepares the documentation required for certification, helping organizations achieve higher environmental performance.
                     </p>
-                    <a href="contact-us.php" class="gb-card-link">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+                    <a href="contact-us.php" class="gb-card-link" aria-label="Learn more about GreenCo Certification">Learn More <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
                 </div>
 
                 <!-- 8. EarthCheck -->
@@ -292,7 +292,7 @@
                     <p>
                         EarthCheck Certification is a globally recognized sustainability certification for tourism, hospitality, and infrastructure projects. Sustainergic Tech assists clients in implementing sustainable practices, improving resource efficiency, reducing carbon emissions, and meeting international sustainability benchmarks.
                     </p>
-                    <a href="contact-us.php" class="gb-card-link">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+                    <a href="contact-us.php" class="gb-card-link" aria-label="Learn more about EarthCheck Certification">Learn More <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
                 </div>
             </div>
     </section>
@@ -317,7 +317,7 @@
                     <p>
                         Optimizing building energy efficiency through passive architectural design, ultra-high COP HVAC equipment, and offsetting 100% of annual energy consumption through on-site solar PV and renewable power integration.
                     </p>
-                    <a href="contact-us.php" class="gb-card-link">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+                    <a href="contact-us.php" class="gb-card-link" aria-label="Learn more about Net Zero Energy NZE Solutions">Learn More <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
                 </div>
 
                 <!-- 2. Net Zero Water -->
@@ -329,7 +329,7 @@
                     <p>
                         Achieving 100% water neutrality by implementing rainwater harvesting, advanced STP/MBBR wastewater treatment, zero liquid discharge (ZLD), and eliminating reliance on external fresh water supplies.
                     </p>
-                    <a href="contact-us.php" class="gb-card-link">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+                    <a href="contact-us.php" class="gb-card-link" aria-label="Learn more about Net Zero Water NZW Solutions">Learn More <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
                 </div>
 
                 <!-- 3. Net Zero Carbon -->
@@ -341,7 +341,7 @@
                     <p>
                         Eliminating Scope 1 and Scope 2 operational carbon emissions through 100% green energy sourcing while evaluating embodied carbon in construction materials through Life Cycle Assessment (LCA).
                     </p>
-                    <a href="contact-us.php" class="gb-card-link">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+                    <a href="contact-us.php" class="gb-card-link" aria-label="Learn more about Net Zero Carbon NZC Solutions">Learn More <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
                 </div>
 
                 <!-- 4. Net Zero Waste -->
@@ -353,7 +353,7 @@
                     <p>
                         Diverting 90%+ of construction and operational waste from municipal landfills through organic waste composting, source segregation, material recovery, and circular economy waste management practices.
                     </p>
-                    <a href="contact-us.php" class="gb-card-link">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+                    <a href="contact-us.php" class="gb-card-link" aria-label="Learn more about Net Zero Waste to Landfill Solutions">Learn More <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
                 </div>
             </div>
         </div>

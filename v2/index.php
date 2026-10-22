@@ -1402,7 +1402,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['action']) && $_POST['
                             <span class="card-tag">Draft-Free</span>
                             <span class="card-tag">Hydronic</span>
                         </div>
-                        <a href="radiant-heating-cooling-system.php" class="card-overlay-link" aria-label="Radiant Heating & Cooling"></a>
+                        <a href="radiant-heating-cooling-system.php" class="card-overlay-link" aria-label="Explore Radiant Heating and Cooling System Solutions"><span class="sr-only">Explore Radiant Heating and Cooling System Solutions</span></a>
                     </div>
                     
                     <!-- Card 2 -->
@@ -1422,7 +1422,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['action']) && $_POST['
                             <span class="card-tag" title="Tested per AHRI-550/590 ground loop standards">COP 4.5+*</span>
                             <span class="card-tag">Low OPEX</span>
                         </div>
-                        <a href="geothermal-system.php" class="card-overlay-link" aria-label="Geothermal Energy Systems"></a>
+                        <a href="geothermal-system.php" class="card-overlay-link" aria-label="Explore Geothermal Energy Systems"><span class="sr-only">Explore Geothermal Energy Systems</span></a>
                     </div>
                     
                     <!-- Card 3 -->
@@ -1442,7 +1442,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['action']) && $_POST['
                             <span class="card-tag">High SEER</span>
                             <span class="card-tag">Flexible</span>
                         </div>
-                        <a href="vrv-vrf-system.php" class="card-overlay-link" aria-label="Variable Refrigerant Flow"></a>
+                        <a href="vrv-vrf-system.php" class="card-overlay-link" aria-label="Explore Variable Refrigerant Flow VRF Systems"><span class="sr-only">Explore Variable Refrigerant Flow VRF Systems</span></a>
                     </div>
                     
                     <!-- Card 4 -->
@@ -1462,7 +1462,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['action']) && $_POST['
                             <span class="card-tag">Fresh Air</span>
                             <span class="card-tag">HEPA Filter</span>
                         </div>
-                        <a href="fresh-air-system.php" class="card-overlay-link" aria-label="Mechanical Ventilation & IAQ"></a>
+                        <a href="fresh-air-system.php" class="card-overlay-link" aria-label="Explore Mechanical Ventilation and Indoor Air Quality"><span class="sr-only">Explore Mechanical Ventilation and Indoor Air Quality</span></a>
                     </div>
 
                     <!-- Supporting References Footnote Bar -->
@@ -1834,8 +1834,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['action']) && $_POST['
                                             <strong>LEED</strong>
                                             <small>Platinum Benchmark</small>
                                         </div>
-                                        <a href="case-study-detail.php?id=hyatt-regency-dehradun" class="project-link" title="Read Hyatt Regency Case Study">
-                                            <i class="fa-solid fa-arrow-right"></i>
+                                        <a href="case-study-detail.php?id=hyatt-regency-dehradun" class="project-link" aria-label="Read Hyatt Regency Dehradun Case Study" title="Read Hyatt Regency Case Study">
+                                            <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
+                                            <span class="sr-only">Read Hyatt Regency Dehradun Case Study</span>
                                         </a>
                                     </div>
                                 </div>
@@ -1863,8 +1864,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['action']) && $_POST['
                                             <strong>34% Saved</strong>
                                             <small>Electrical &amp; HVAC Audit</small>
                                         </div>
-                                        <a href="case-study-detail.php?id=holiday-inn-jaipur" class="project-link" title="Read Holiday Inn Case Study">
-                                            <i class="fa-solid fa-arrow-right"></i>
+                                        <a href="case-study-detail.php?id=holiday-inn-jaipur" class="project-link" aria-label="Read Holiday Inn Jaipur Case Study" title="Read Holiday Inn Case Study">
+                                            <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
+                                            <span class="sr-only">Read Holiday Inn Jaipur Case Study</span>
                                         </a>
                                     </div>
                                 </div>
@@ -1892,8 +1894,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['action']) && $_POST['
                                             <strong>ECSBC 2024</strong>
                                             <small>Envelope &amp; Glass Model</small>
                                         </div>
-                                        <a href="case-study-detail.php?id=spj-vedatam-mall" class="project-link" title="Read SPJ Vedatam Mall Case Study">
-                                            <i class="fa-solid fa-arrow-right"></i>
+                                        <a href="case-study-detail.php?id=spj-vedatam-mall" class="project-link" aria-label="Read SPJ Vedatam Mall Case Study" title="Read SPJ Vedatam Mall Case Study">
+                                            <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
+                                            <span class="sr-only">Read SPJ Vedatam Mall Case Study</span>
                                         </a>
                                     </div>
                                 </div>
@@ -1921,8 +1924,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['action']) && $_POST['
                                             <strong>100% Cx</strong>
                                             <small>Commissioned MEP</small>
                                         </div>
-                                        <a href="case-study-detail.php?id=martin-luther-chitkara" class="project-link" title="Read Martin Luther Block Case Study">
-                                            <i class="fa-solid fa-arrow-right"></i>
+                                        <a href="case-study-detail.php?id=martin-luther-chitkara" class="project-link" aria-label="Read Martin Luther Block Chitkara University Case Study" title="Read Martin Luther Block Case Study">
+                                            <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
+                                            <span class="sr-only">Read Martin Luther Block Chitkara University Case Study</span>
                                         </a>
                                     </div>
                                 </div>
@@ -1950,8 +1954,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['action']) && $_POST['
                                             <strong>&plusmn;0.2&deg;C</strong>
                                             <small>Sterile Research HVAC</small>
                                         </div>
-                                        <a href="case-study-detail.php?id=aiims-delhi" class="project-link" title="Read AIIMS Delhi Case Study">
-                                            <i class="fa-solid fa-arrow-right"></i>
+                                        <a href="case-study-detail.php?id=aiims-delhi" class="project-link" aria-label="Read AIIMS Delhi Precision Cooling Case Study" title="Read AIIMS Delhi Case Study">
+                                            <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
+                                            <span class="sr-only">Read AIIMS Delhi Precision Cooling Case Study</span>
                                         </a>
                                     </div>
                                 </div>
@@ -1979,8 +1984,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['action']) && $_POST['
                                             <strong>38% Power Cut</strong>
                                             <small>Industrial Heat Recovery</small>
                                         </div>
-                                        <a href="case-study-detail.php?id=coca-cola-srikalahasti" class="project-link" title="Read Hindustan Coca-Cola Case Study">
-                                            <i class="fa-solid fa-arrow-right"></i>
+                                        <a href="case-study-detail.php?id=coca-cola-srikalahasti" class="project-link" aria-label="Read Hindustan Coca-Cola Beverages Case Study" title="Read Hindustan Coca-Cola Case Study">
+                                            <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
+                                            <span class="sr-only">Read Hindustan Coca-Cola Beverages Case Study</span>
                                         </a>
                                     </div>
                                 </div>
@@ -2008,8 +2014,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['action']) && $_POST['
                                             <strong>42% Energy Cut</strong>
                                             <small>3D CFD &amp; Solar Model</small>
                                         </div>
-                                        <a href="case-study-detail.php?id=42works-campus" class="project-link" title="Read 42 Works Campus Case Study">
-                                            <i class="fa-solid fa-arrow-right"></i>
+                                        <a href="case-study-detail.php?id=42works-campus" class="project-link" aria-label="Read 42 Works Campus Case Study" title="Read 42 Works Campus Case Study">
+                                            <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
+                                            <span class="sr-only">Read 42 Works Campus Case Study</span>
                                         </a>
                                     </div>
                                 </div>
@@ -2037,8 +2044,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['action']) && $_POST['
                                             <strong>35% Water Saved</strong>
                                             <small>Ultrasonic Telemetry</small>
                                         </div>
-                                        <a href="case-study-detail.php?id=the-gold-palace" class="project-link" title="Read The Gold Palace Case Study">
-                                            <i class="fa-solid fa-arrow-right"></i>
+                                        <a href="case-study-detail.php?id=the-gold-palace" class="project-link" aria-label="Read The Gold Palace Resort Case Study" title="Read The Gold Palace Case Study">
+                                            <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
+                                            <span class="sr-only">Read The Gold Palace Resort Case Study</span>
                                         </a>
                                     </div>
                                 </div>
