@@ -369,7 +369,7 @@
 
                 <!-- Quick Links Column -->
                 <div class="fm-col fm-nav">
-                    <h4>Quick Links</h4>
+                    <h3>Quick Links</h3>
                     <ul>
                         <li><a href="index.php">Home</a></li>
                         <li><a href="about.php">About Us</a></li>
@@ -382,7 +382,7 @@
 
                 <!-- Services Column -->
                 <div class="fm-col fm-nav">
-                    <h4>Our Services</h4>
+                    <h3>Our Services</h3>
                     <ul>
                         <li><a href="green-building-certification.php">Green Building Certification</a></li>
                         <li><a href="simulation-modeling.php">Building Simulation &amp; Modeling</a></li>
@@ -397,7 +397,7 @@
                 <!-- Reach Us Column -->
                 <div class="fm-col fm-end">
                     <div class="fm-mini-contact">
-                        <h4>Reach Us</h4>
+                        <h3>Reach Us</h3>
                         <ul>
                             <li>
                                 <i class="fa-solid fa-location-dot"></i>

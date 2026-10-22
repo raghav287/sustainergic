@@ -84,7 +84,7 @@
                                 <i class="fa-solid fa-temperature-arrow-up"></i>
                             </div>
                             <div class="gb-hero-fc-text">
-                                <h5>Controlled Heat Emission</h5>
+                                <strong class=\"fc-title\">Controlled Heat Emission</strong>
                                 <p>Optimal Comfort</p>
                             </div>
                         </div>
@@ -95,7 +95,7 @@
                                 <i class="fa-solid fa-sliders"></i>
                             </div>
                             <div class="gb-hero-fc-text">
-                                <h5>TRV Smart Valves</h5>
+                                <strong class=\"fc-title\">TRV Smart Valves</strong>
                                 <p>Heat Pump Compatible</p>
                             </div>
                         </div>
@@ -133,7 +133,7 @@
                         <div class="gb-cap-item">
                             <div class="gb-cap-icon"><i class="fa-solid fa-temperature-low"></i></div>
                             <div class="gb-cap-text">
-                                <h4>Low-Temperature Heat Pump Radiators</h4>
+                                <h3>Low-Temperature Heat Pump Radiators</h3>
                                 <p>Engineered for low supply water temperatures (45°C–55°C) to pair seamlessly with air-source &amp; geothermal heat pumps.</p>
                             </div>
                         </div>
@@ -142,7 +142,7 @@
                         <div class="gb-cap-item">
                             <div class="gb-cap-icon"><i class="fa-solid fa-sliders"></i></div>
                             <div class="gb-cap-text">
-                                <h4>Thermostatic Radiator Valves (TRVs)</h4>
+                                <h3>Thermostatic Radiator Valves (TRVs)</h3>
                                 <p>Precision room-by-room mechanical &amp; smart digital TRVs preventing overheating and saving energy.</p>
                             </div>
                         </div>
@@ -151,7 +151,7 @@
                         <div class="gb-cap-item">
                             <div class="gb-cap-icon"><i class="fa-solid fa-paintbrush"></i></div>
                             <div class="gb-cap-text">
-                                <h4>Architectural &amp; Designer Configurations</h4>
+                                <h3>Architectural &amp; Designer Configurations</h3>
                                 <p>Sleek steel panel, vertical column, and extruded aluminum radiators designed to complement premium interiors.</p>
                             </div>
                         </div>
@@ -160,7 +160,7 @@
                         <div class="gb-cap-item">
                             <div class="gb-cap-icon"><i class="fa-solid fa-bolt"></i></div>
                             <div class="gb-cap-text">
-                                <h4>Fan-Assisted Low-H₂O Convectors</h4>
+                                <h3>Fan-Assisted Low-H₂O Convectors</h3>
                                 <p>Micro-fan assisted low-water content radiators delivering instant, 3x faster room warm-up response.</p>
                             </div>
                         </div>
@@ -258,28 +258,28 @@
                 <!-- Advantage 1 -->
                 <div class="gb-why-card">
                     <div class="gb-why-icon"><i class="fa-solid fa-sliders"></i></div>
-                    <h4>Individual Room TRV Temperature Control</h4>
+                    <h3>Individual Room TRV Temperature Control</h3>
                     <p>Thermostatic Radiator Valves automatically throttle hot water flow when desired room temperature is reached, saving up to 20% in heating costs.</p>
                 </div>
 
                 <!-- Advantage 2 -->
                 <div class="gb-why-card">
                     <div class="gb-why-icon"><i class="fa-solid fa-leaf"></i></div>
-                    <h4>Seamless Heat Pump Integration</h4>
+                    <h3>Seamless Heat Pump Integration</h3>
                     <p>Designed to operate at lower water temperatures ($\Delta T$ 30K), enabling heat pumps to run at peak efficiency (COP 4.0+) for maximum energy savings.</p>
                 </div>
 
                 <!-- Advantage 3 -->
                 <div class="gb-why-card">
                     <div class="gb-why-icon"><i class="fa-solid fa-bolt"></i></div>
-                    <h4>Fast Thermal Response &amp; Warmth</h4>
+                    <h3>Fast Thermal Response &amp; Warmth</h3>
                     <p>Low-water content convector channels heat up rapidly, delivering cozy radiant warmth within minutes of turning on the heating system.</p>
                 </div>
 
                 <!-- Advantage 4 -->
                 <div class="gb-why-card">
                     <div class="gb-why-icon"><i class="fa-solid fa-shield-halved"></i></div>
-                    <h4>High Corrosion Resistance &amp; Long Life</h4>
+                    <h3>High Corrosion Resistance &amp; Long Life</h3>
                     <p>Durable electro-coated steel and extruded aluminum construction protected with anti-corrosion inner lining for decades of trouble-free operation.</p>
                 </div>
             </div>
@@ -305,7 +305,7 @@
                     <div class="gb-process-step">
                         <div class="gb-process-num-wrapper">01</div>
                         <div class="gb-process-step-content">
-                            <h4>Room Heat Loss Calculation (EN 442)</h4>
+                            <h3>Room Heat Loss Calculation (EN 442)</h3>
                             <p>Calculating room-by-room BTU/Watt heating requirements based on window surface area, wall U-values, and room volume.</p>
                         </div>
                     </div>
@@ -314,7 +314,7 @@
                     <div class="gb-process-step">
                         <div class="gb-process-num-wrapper">02</div>
                         <div class="gb-process-step-content">
-                            <h4>Radiator Sizing &amp; Model Selection</h4>
+                            <h3>Radiator Sizing &amp; Model Selection</h3>
                             <p>Selecting correct radiator dimensions and output ratings matched to heat pump supply water temperatures ($\Delta T$ 30K/50K).</p>
                         </div>
                     </div>
@@ -323,7 +323,7 @@
                     <div class="gb-process-step">
                         <div class="gb-process-num-wrapper">03</div>
                         <div class="gb-process-step-content">
-                            <h4>Piping Route &amp; TRV Fitting</h4>
+                            <h3>Piping Route &amp; TRV Fitting</h3>
                             <p>Installing pre-insulated PEX/copper supply lines, lockshield valves, and smart digital thermostatic radiator valve actuators.</p>
                         </div>
                     </div>
@@ -332,7 +332,7 @@
                     <div class="gb-process-step">
                         <div class="gb-process-num-wrapper">04</div>
                         <div class="gb-process-step-content">
-                            <h4>Flushing , Hydronic Balancing & Commissioning</h4>
+                            <h3>Flushing , Hydronic Balancing & Commissioning</h3>
                             <p>Flushing heating circuits, adding anti-corrosion inhibitor fluid, and balancing flow rates across all radiator nodes.</p>
                         </div>
                     </div>

@@ -84,7 +84,7 @@
                                 <i class="fa-solid fa-building-shield"></i>
                             </div>
                             <div class="gb-hero-fc-text">
-                                <h5>IGBC & LEED</h5>
+                                <strong class=\"fc-title\">IGBC & LEED</strong>
                                 <p>Accredited Experts</p>
                             </div>
                         </div>
@@ -95,7 +95,7 @@
                                 <i class="fa-solid fa-certificate"></i>
                             </div>
                             <div class="gb-hero-fc-text">
-                                <h5>100% Compliance</h5>
+                                <strong class=\"fc-title\">100% Compliance</strong>
                                 <p>Technical Coordination</p>
                             </div>
                         </div>
@@ -135,7 +135,7 @@
                         <div class="gb-cap-item">
                             <div class="gb-cap-icon"><i class="fa-solid fa-map-location-dot"></i></div>
                             <div class="gb-cap-text">
-                                <h4>Certification Strategy</h4>
+                                <h3>Certification Strategy</h3>
                                 <p>Defining targeted rating levels, credits, and optimal compliance pathways.</p>
                             </div>
                         </div>
@@ -144,7 +144,7 @@
                         <div class="gb-cap-item">
                             <div class="gb-cap-icon"><i class="fa-solid fa-chart-line"></i></div>
                             <div class="gb-cap-text">
-                                <h4>Technical Assessment</h4>
+                                <h3>Technical Assessment</h3>
                                 <p>Energy simulations, daylight modeling, water audits, and material evaluations.</p>
                             </div>
                         </div>
@@ -153,7 +153,7 @@
                         <div class="gb-cap-item">
                             <div class="gb-cap-icon"><i class="fa-solid fa-file-shield"></i></div>
                             <div class="gb-cap-text">
-                                <h4>Documentation & Compliance</h4>
+                                <h3>Documentation & Compliance</h3>
                                 <p>Rigorous preparation, compilation, and review of all technical documents.</p>
                             </div>
                         </div>
@@ -162,7 +162,7 @@
                         <div class="gb-cap-item">
                             <div class="gb-cap-icon"><i class="fa-solid fa-arrows-spin"></i></div>
                             <div class="gb-cap-text">
-                                <h4>End-to-End Coordination</h4>
+                                <h3>End-to-End Coordination</h3>
                                 <p>Managing review cycles, audits, and final certification submissions.</p>
                             </div>
                         </div>
@@ -378,7 +378,7 @@
                     <div class="gb-process-step">
                         <div class="gb-process-num-wrapper">01</div>
                         <div class="gb-process-step-content">
-                            <h4>Initial Consultation</h4>
+                            <h3>Initial Consultation</h3>
                             <p>Understanding the project, certification goals, and targeted rating.</p>
                         </div>
                     </div>
@@ -387,7 +387,7 @@
                     <div class="gb-process-step">
                         <div class="gb-process-num-wrapper">02</div>
                         <div class="gb-process-step-content">
-                            <h4>Gap Assessment</h4>
+                            <h3>Gap Assessment</h3>
                             <p>Evaluating the existing design, operations, and compliance status.</p>
                         </div>
                     </div>
@@ -396,7 +396,7 @@
                     <div class="gb-process-step">
                         <div class="gb-process-num-wrapper">03</div>
                         <div class="gb-process-step-content">
-                            <h4>Strategy Development</h4>
+                            <h3>Strategy Development</h3>
                             <p>Preparing a customized roadmap for meeting certification requirements.</p>
                         </div>
                     </div>
@@ -405,7 +405,7 @@
                     <div class="gb-process-step">
                         <div class="gb-process-num-wrapper">04</div>
                         <div class="gb-process-step-content">
-                            <h4>Modeling</h4>
+                            <h3>Modeling</h3>
                             <p>Conduct energy, daylight, and LCA modeling of the building.</p>
                         </div>
                     </div>
@@ -414,7 +414,7 @@
                     <div class="gb-process-step">
                         <div class="gb-process-num-wrapper">05</div>
                         <div class="gb-process-step-content">
-                            <h4>Implementation Support</h4>
+                            <h3>Implementation Support</h3>
                             <p>Coordinating sustainable design strategies and performance improvements.</p>
                         </div>
                     </div>
@@ -423,7 +423,7 @@
                     <div class="gb-process-step">
                         <div class="gb-process-num-wrapper">06</div>
                         <div class="gb-process-step-content">
-                            <h4>Documentation &amp; Submission</h4>
+                            <h3>Documentation &amp; Submission</h3>
                             <p>Preparing, reviewing, and submitting all required technical documents.</p>
                         </div>
                     </div>
@@ -432,7 +432,7 @@
                     <div class="gb-process-step">
                         <div class="gb-process-num-wrapper">07</div>
                         <div class="gb-process-step-content">
-                            <h4>Certification Assistance</h4>
+                            <h3>Certification Assistance</h3>
                             <p>Managing clarifications, reviews, and coordination until certification is achieved.</p>
                         </div>
                     </div>
@@ -498,21 +498,21 @@
                 <!-- 1. End-to-end -->
                 <div class="gb-why-card">
                     <div class="gb-why-icon"><i class="fa-solid fa-infinity"></i></div>
-                    <h4>End-to-end certification consultancy</h4>
+                    <h3>End-to-end certification consultancy</h3>
                     <p>We manage the complete lifecycle from project registration to final reviews, ensuring a seamless, worry-free process.</p>
                 </div>
 
                 <!-- 2. Experienced professionals -->
                   <div class="gb-why-card">
                     <div class="gb-why-icon"><i class="fa-solid fa-file-contract"></i></div>
-                    <h4>Detailed technical documentation</h4>
+                    <h3>Detailed technical documentation</h3>
                     <p>We prepare precise reports, calculations, and compliance records, reducing regulatory review times significantly.</p>
                 </div>
 
                 <!-- 3. Customized strategies -->
                 <div class="gb-why-card">
                     <div class="gb-why-icon"><i class="fa-solid fa-sliders"></i></div>
-                    <h4>Customized certification strategies</h4>
+                    <h3>Customized certification strategies</h3>
                     <p>We tailor rating targets and engineering solutions to align with your design goals and project budgets.</p>
                 </div>
 
@@ -520,21 +520,21 @@
               
                 <div class="gb-why-card">
                     <div class="gb-why-icon"><i class="fa-solid fa-user-tie"></i></div>
-                    <h4>Experienced sustainability professionals</h4>
+                    <h3>Experienced sustainability professionals</h3>
                     <p>Our team consists of qualified LEED APs, IGBC APs, and GRIHA Evaluators with extensive technical consulting experience.</p>
                 </div>
 
                 <!-- 5. Environmental performance analysis -->
                 <div class="gb-why-card">
                     <div class="gb-why-icon"><i class="fa-solid fa-microscope"></i></div>
-                    <h4>Expert Energy, Daylight & LCA Modelers</h4>
+                    <h3>Expert Energy, Daylight & LCA Modelers</h3>
                     <p>Advanced simulation methodologies support our recommendations, ensuring real-world operational savings.</p>
                 </div>
 
                 <!-- 6. Continuous coordination -->
                 <div class="gb-why-card">
                     <div class="gb-why-icon"><i class="fa-solid fa-comments"></i></div>
-                    <h4>Implementation of Innovative Technologies</h4>
+                    <h3>Implementation of Innovative Technologies</h3>
                     <p>Direct communication and responsive handling of auditor feedback until your certification is officially awarded.</p>
                 </div>
             </div>

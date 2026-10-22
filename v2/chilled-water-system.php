@@ -84,7 +84,7 @@
                                 <i class="fa-solid fa-snowflake"></i>
                             </div>
                             <div class="gb-hero-fc-text">
-                                <h5>AHRI Certified</h5>
+                                <strong class=\"fc-title\">AHRI Certified</strong>
                                 <p>Optimal kW/Ton Metrics</p>
                             </div>
                         </div>
@@ -95,7 +95,7 @@
                                 <i class="fa-solid fa-industry"></i>
                             </div>
                             <div class="gb-hero-fc-text">
-                                <h5>Central Plant Design</h5>
+                                <strong class=\"fc-title\">Central Plant Design</strong>
                                 <p>30+ Year Reliability</p>
                             </div>
                         </div>
@@ -133,7 +133,7 @@
                         <div class="gb-cap-item">
                             <div class="gb-cap-icon"><i class="fa-solid fa-cogs"></i></div>
                             <div class="gb-cap-text">
-                                <h4>Chiller Plant Sizing &amp; Selection</h4>
+                                <h3>Chiller Plant Sizing &amp; Selection</h3>
                                 <p>Engineering centrifugal, magnetic bearing (frictionless), screw, and scroll chiller plants matched to building TR load profiles.</p>
                             </div>
                         </div>
@@ -142,7 +142,7 @@
                         <div class="gb-cap-item">
                             <div class="gb-cap-icon"><i class="fa-solid fa-arrows-spin"></i></div>
                             <div class="gb-cap-text">
-                                <h4>Primary &amp; Secondary Pumping Grids</h4>
+                                <h3>Primary &amp; Secondary Pumping Grids</h3>
                                 <p>Designing Variable Primary Flow (VPF) and primary-secondary pumping loops with VFD speed control to minimize pumping power.</p>
                             </div>
                         </div>
@@ -151,7 +151,7 @@
                         <div class="gb-cap-item">
                             <div class="gb-cap-icon"><i class="fa-solid fa-temperature-arrow-down"></i></div>
                             <div class="gb-cap-text">
-                                <h4>Cooling Tower &amp; Heat Rejection Design</h4>
+                                <h3>Cooling Tower &amp; Heat Rejection Design</h3>
                                 <p>Sizing induced-draft cooling towers, plate heat exchangers, and thermal energy storage (TES) integration.</p>
                             </div>
                         </div>
@@ -160,7 +160,7 @@
                         <div class="gb-cap-item">
                             <div class="gb-cap-icon"><i class="fa-solid fa-sliders"></i></div>
                             <div class="gb-cap-text">
-                                <h4>Smart BMS Automation &amp; Sequencing</h4>
+                                <h3>Smart BMS Automation &amp; Sequencing</h3>
                                 <p>Automating chiller staging, Delta-T optimization, and continuous real-time plant kW/Ton performance tracking.</p>
                             </div>
                         </div>
@@ -258,28 +258,28 @@
                 <!-- Advantage 1 -->
                 <div class="gb-why-card">
                     <div class="gb-why-icon"><i class="fa-solid fa-chart-line"></i></div>
-                    <h4>Unmatched Full &amp; Part-Load Efficiency</h4>
+                    <h3>Unmatched Full &amp; Part-Load Efficiency</h3>
                     <p>Advanced VFD chillers modulate cooling output smoothly down to 15% capacity, maintaining low kW/Ton efficiency across varying seasonal ambient weather.</p>
                 </div>
 
                 <!-- Advantage 2 -->
                 <div class="gb-why-card">
                     <div class="gb-why-icon"><i class="fa-solid fa-building"></i></div>
-                    <h4>Unlimited Hydraulic Distances</h4>
+                    <h3>Unlimited Hydraulic Distances</h3>
                     <p>Water-based central distribution easily feeds cooling across multi-building campuses and high-rise skyscrapers with zero refrigerant piping distance limits.</p>
                 </div>
 
                 <!-- Advantage 3 -->
                 <div class="gb-why-card">
                     <div class="gb-why-icon"><i class="fa-solid fa-clock-rotate-left"></i></div>
-                    <h4>Long 25–30 Year Equipment Life</h4>
+                    <h3>Long 25–30 Year Equipment Life</h3>
                     <p>Industrial-grade water-cooled chillers located inside central mechanical rooms feature double the operational lifespan of decentralized split DX systems.</p>
                 </div>
 
                 <!-- Advantage 4 -->
                 <div class="gb-why-card">
                     <div class="gb-why-icon"><i class="fa-solid fa-shield-cat"></i></div>
-                    <h4>Safe &amp; Eco-Friendly Tenant Piping</h4>
+                    <h3>Safe &amp; Eco-Friendly Tenant Piping</h3>
                     <p>Water circulates through occupied building tenant zones instead of high-pressure chemical refrigerant, ensuring 100% occupant safety and ASHRAE 15 compliance.</p>
                 </div>
             </div>
@@ -305,7 +305,7 @@
                     <div class="gb-process-step">
                         <div class="gb-process-num-wrapper">01</div>
                         <div class="gb-process-step-content">
-                            <h4>Peak Load &amp; Flow Calculation</h4>
+                            <h3>Peak Load &amp; Flow Calculation</h3>
                             <p>Calculating peak Tons of Refrigeration (TR), GPM flow rates, friction head losses, and plant diversity factors.</p>
                         </div>
                     </div>
@@ -314,7 +314,7 @@
                     <div class="gb-process-step">
                         <div class="gb-process-num-wrapper">02</div>
                         <div class="gb-process-step-content">
-                            <h4>Chiller &amp; Pump Selection</h4>
+                            <h3>Chiller &amp; Pump Selection</h3>
                             <p>Selecting AHRI-certified chillers, VFD primary/secondary pumps, cooling towers, and AHUs to optimize overall plant kW/Ton.</p>
                         </div>
                     </div>
@@ -323,7 +323,7 @@
                     <div class="gb-process-step">
                         <div class="gb-process-num-wrapper">03</div>
                         <div class="gb-process-step-content">
-                            <h4>Hydronic Piping &amp; BMS Integration</h4>
+                            <h3>Hydronic Piping &amp; BMS Integration</h3>
                             <p>Designing Variable Primary Flow (VPF) schematics, 2-way control valves, and automated BMS chiller staging algorithms.</p>
                         </div>
                     </div>
@@ -332,7 +332,7 @@
                     <div class="gb-process-step">
                         <div class="gb-process-num-wrapper">04</div>
                         <div class="gb-process-step-content">
-                            <h4>Testing, Balancing &amp; Commissioning</h4>
+                            <h3>Testing, Balancing &amp; Commissioning</h3>
                             <p>Conducting hydrostatic pipe pressure tests, chemical water treatment setup, and hydronic balancing across all AHUs and FCUs.</p>
                         </div>
                     </div>

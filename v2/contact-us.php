@@ -131,12 +131,13 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <section class="contact-info-section">
 
         <div class="container">
+            <h2 class="sr-only">Contact Details &amp; Communication Channels</h2>
 
             <div class="contact-info-grid">
 
                 <div class="contact-info-card">
                     <div class="cic-icon"><i class="fa-solid fa-location-dot"></i></div>
-                    <h4>Our Offices</h4>
+                    <h3>Our Offices</h3>
                     <p style="margin-bottom: 12px; font-size: 14.5px;">
                         <strong>Jaipur:</strong> GF, D-5/24, Chitrakoot Scheme, Vaishali Nagar, Jaipur, Rajasthan 302021
                     </p>
@@ -147,7 +148,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
                 <div class="contact-info-card contact-info-card--accent">
                     <div class="cic-icon cic-icon--accent"><i class="fa-solid fa-phone-volume"></i></div>
-                    <h4>Call Us</h4>
+                    <h3>Call Us</h3>
                     <p>
                         <a href="tel:+919785749960">+91 97857 49960</a><br>
                         <a href="tel:+917073828008">+91 70738 28008</a><br>
@@ -158,7 +159,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
                 <div class="contact-info-card">
                     <div class="cic-icon"><i class="fa-regular fa-envelope-open"></i></div>
-                    <h4>Email</h4>
+                    <h3>Email</h3>
                     <p>
                         <a href="mailto:prateek@sustainergictech.in">prateek@sustainergictech.in</a><br>
                         <a href="mailto:business@sustainergictech.in">business@sustainergictech.in</a><br>
@@ -328,7 +329,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
                     <div class="contact-side-card">
 
-                        <h4>Office Hours</h4>
+                        <h3>Office Hours</h3>
 
                         <ul class="office-hours">
                             <li><span>Monday – Thursday</span><strong>9:00 AM – 5:00 PM</strong></li>
@@ -339,7 +340,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
                         <div class="side-divider"></div>
 
-                        <h4>Follow Us</h4>
+                        <h3>Follow Us</h3>
 
                         <div class="side-socials">
                             <a href="https://www.facebook.com/people/Sustainergic-Tech-Pvt-Ltd/61580917485468/?rdid=RPpRiiIKp1Xg5zas&amp;share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F18sBBmuSf6%2F%3Fref%3D1" target="_blank" rel="noopener noreferrer" aria-label="Follow Sustainergic Tech on Facebook"><i class="fa-brands fa-facebook-f" aria-hidden="true"></i><span class="sr-only">Facebook</span></a>

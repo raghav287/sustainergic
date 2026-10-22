@@ -84,7 +84,7 @@
                                 <i class="fa-solid fa-earth-americas"></i>
                             </div>
                             <div class="gb-hero-fc-text">
-                                <h5>Earth Energy</h5>
+                                <strong class=\"fc-title\">Earth Energy</strong>
                                 <p>Heating COP up to 9 and Cooling EER up to 7 </p>
                             </div>
                         </div>
@@ -95,7 +95,7 @@
                                 <i class="fa-solid fa-leaf"></i>
                             </div>
                             <div class="gb-hero-fc-text">
-                                <h5>Zero Carbon Impact</h5>
+                                <strong class=\"fc-title\">Zero Carbon Impact</strong>
                                 <p>Low Operating Costs</p>
                             </div>
                         </div>
@@ -133,7 +133,7 @@
                         <div class="gb-cap-item">
                             <div class="gb-cap-icon"><i class="fa-solid fa-vial"></i></div>
                             <div class="gb-cap-text">
-                                <h4>Feasibility &amp; Thermal Response Testing</h4>
+                                <h3>Feasibility &amp; Thermal Response Testing</h3>
                                 <p>Evaluating soil thermal conductivity, borehole thermal response (TRT), and site geological suitability.</p>
                             </div>
                         </div>
@@ -142,7 +142,7 @@
                         <div class="gb-cap-item">
                             <div class="gb-cap-icon"><i class="fa-solid fa-diagram-project"></i></div>
                             <div class="gb-cap-text">
-                                <h4>Ground Heat Exchanger (GHE) Design</h4>
+                                <h3>Ground Heat Exchanger (GHE) Design</h3>
                                 <p>Precision modeling of vertical borehole fields, horizontal loop grids, and surface water heat exchangers.</p>
                             </div>
                         </div>
@@ -151,7 +151,7 @@
                         <div class="gb-cap-item">
                             <div class="gb-cap-icon"><i class="fa-solid fa-temperature-arrow-down"></i></div>
                             <div class="gb-cap-text">
-                                <h4>Geothermal Heat Pump Integration</h4>
+                                <h3>Geothermal Heat Pump Integration</h3>
                                 <p>Pairing ground loops with high-efficiency water-to-water and water-to-air geothermal heat pump plants.</p>
                             </div>
                         </div>
@@ -160,7 +160,7 @@
                         <div class="gb-cap-item">
                             <div class="gb-cap-icon"><i class="fa-solid fa-file-circle-check"></i></div>
                             <div class="gb-cap-text">
-                                <h4>Turnkey Engineering &amp; Commissioning</h4>
+                                <h3>Turnkey Engineering &amp; Commissioning</h3>
                                 <p>Managing loop field sizing, header manifolds, hydraulic balance, and long-term system optimization.</p>
                             </div>
                         </div>
@@ -258,28 +258,28 @@
                 <!-- Advantage 1 -->
                 <div class="gb-why-card">
                     <div class="gb-why-icon"><i class="fa-solid fa-chart-line"></i></div>
-                    <h4>Heating COP up to 9 and Cooling EER up to 7</h4>
+                    <h3>Heating COP up to 9 and Cooling EER up to 7</h3>
                     <p>Geothermal heat pumps deliver 4.5 to 5.5 units of thermal cooling/heating for every 1 unit of electricity, outperforming conventional air-cooled systems by up to 50%.</p>
                 </div>
 
                 <!-- Advantage 2 -->
                 <div class="gb-why-card">
                     <div class="gb-why-icon"><i class="fa-solid fa-volume-xmark"></i></div>
-                    <h4>Most Suitable For NET ZERO energy Buildings</h4>
+                    <h3>Most Suitable For NET ZERO energy Buildings</h3>
                     <p>Eliminates noisy roof-top condensers, cooling tower chemical treatment, and evaporative water consumption, preserving roof real estate for solar PV panels.</p>
                 </div>
 
                 <!-- Advantage 3 -->
                 <div class="gb-why-card">
                     <div class="gb-why-icon"><i class="fa-solid fa-cloud-arrow-down"></i></div>
-                    <h4>Decarbonization &amp; ESG Goals</h4>
+                    <h3>Decarbonization &amp; ESG Goals</h3>
                     <p>Directly reduces building Scope 1 and Scope 2 carbon emissions, helping real estate portfolios achieve Net Zero Carbon and ESG compliance.</p>
                 </div>
 
                 <!-- Advantage 4 -->
                 <div class="gb-why-card">
                     <div class="gb-why-icon"><i class="fa-solid fa-clock-rotate-left"></i></div>
-                    <h4>50+ Year Underground Lifespan</h4>
+                    <h3>50+ Year Underground Lifespan</h3>
                     <p>High-density polyethylene (HDPE) ground loops are warrantied for decades with virtually zero maintenance, providing generational infrastructure value.</p>
                 </div>
             </div>
@@ -305,7 +305,7 @@
                     <div class="gb-process-step">
                         <div class="gb-process-num-wrapper">01</div>
                         <div class="gb-process-step-content">
-                            <h4>Heat Load Calculation</h4>
+                            <h3>Heat Load Calculation</h3>
                             <p>Calculating annual building thermal loads, peak heating and cooling demands, and hourly energy profiles.</p>
                         </div>
                     </div>
@@ -314,7 +314,7 @@
                     <div class="gb-process-step">
                         <div class="gb-process-num-wrapper">02</div>
                         <div class="gb-process-step-content">
-                            <h4>System Design</h4>
+                            <h3>System Design</h3>
                             <p>Developing initial geothermal system layouts, loop field sizing estimates, and heat pump plant specifications.</p>
                         </div>
                     </div>
@@ -323,7 +323,7 @@
                     <div class="gb-process-step">
                         <div class="gb-process-num-wrapper">03</div>
                         <div class="gb-process-step-content">
-                            <h4>Site &amp; Geological Assessment</h4>
+                            <h3>Site &amp; Geological Assessment</h3>
                             <p>Conducting test bore drilling, soil sampling, and Thermal Response Testing (TRT) to determine ground conductivity.</p>
                         </div>
                     </div>
@@ -332,7 +332,7 @@
                     <div class="gb-process-step">
                         <div class="gb-process-num-wrapper">04</div>
                         <div class="gb-process-step-content">
-                            <h4>System Redesign Based on TRT</h4>
+                            <h3>System Redesign Based on TRT</h3>
                             <p>Refining geothermal loop parameters, heat exchanger depth, and fluid flow rates using actual TRT empirical data.</p>
                         </div>
                     </div>
@@ -341,7 +341,7 @@
                     <div class="gb-process-step">
                         <div class="gb-process-num-wrapper">05</div>
                         <div class="gb-process-step-content">
-                            <h4>Loop Field Modeling</h4>
+                            <h3>Loop Field Modeling</h3>
                             <p>Simulating multi-decade ground thermal balance using GLD software to prevent long-term ground thermal depletion.</p>
                         </div>
                     </div>
@@ -350,7 +350,7 @@
                     <div class="gb-process-step">
                         <div class="gb-process-num-wrapper">06</div>
                         <div class="gb-process-step-content">
-                            <h4>Plant &amp; Piping Integration</h4>
+                            <h3>Plant &amp; Piping Integration</h3>
                             <p>Designing central heat pump mechanical room, header manifolds, variable-speed circulation pumps, and BMS integration.</p>
                         </div>
                     </div>
@@ -359,7 +359,7 @@
                     <div class="gb-process-step">
                         <div class="gb-process-num-wrapper">07</div>
                         <div class="gb-process-step-content">
-                            <h4>Commissioning &amp; Optimization</h4>
+                            <h3>Commissioning &amp; Optimization</h3>
                             <p>Performing hydrostatic loop pressure testing, fluid thermal balancing, and fine-tuning seasonal COP performance.</p>
                         </div>
                     </div>

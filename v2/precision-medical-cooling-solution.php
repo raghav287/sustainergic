@@ -84,7 +84,7 @@
                                 <i class="fa-solid fa-heart-pulse"></i>
                             </div>
                             <div class="gb-hero-fc-text">
-                                <h5>±0.1°C Stability</h5>
+                                <strong class=\"fc-title\">±0.1°C Stability</strong>
                                 <p>Medical MRI / CT Grade</p>
                             </div>
                         </div>
@@ -95,7 +95,7 @@
                                 <i class="fa-solid fa-hospital-user"></i>
                             </div>
                             <div class="gb-hero-fc-text">
-                                <h5>ISO Class 5 Sterile OT</h5>
+                                <strong class=\"fc-title\">ISO Class 5 Sterile OT</strong>
                                 <p>Laminar Airflow &amp; HEPA</p>
                             </div>
                         </div>
@@ -133,7 +133,7 @@
                         <div class="gb-cap-item">
                             <div class="gb-cap-icon"><i class="fa-solid fa-magnet"></i></div>
                             <div class="gb-cap-text">
-                                <h4>MRI &amp; CT Scanner Precision Chillers</h4>
+                                <h3>MRI &amp; CT Scanner Precision Chillers</h3>
                                 <p>N+1 redundant chillers delivering ±0.1°C liquid temperature MRI & CT Scanner Machines.</p>
                             </div>
                         </div>
@@ -142,7 +142,7 @@
                         <div class="gb-cap-item">
                             <div class="gb-cap-icon"><i class="fa-solid fa-syringe"></i></div>
                             <div class="gb-cap-text">
-                                <h4>Laminar Flow Operating Theater (OT) Ventilation</h4>
+                                <h3>Laminar Flow Operating Theater (OT) Ventilation</h3>
                                 <p>Positive-pressure HEPA ceiling distribution grids ensuring unidirectional sterile air velocities (0.45 m/s) over surgical tables.</p>
                             </div>
                         </div>
@@ -151,7 +151,7 @@
                         <div class="gb-cap-item">
                             <div class="gb-cap-icon"><i class="fa-solid fa-mask-ventilator"></i></div>
                             <div class="gb-cap-text">
-                                <h4>Isolation Ward Negative Pressure HVAC</h4>
+                                <h3>Isolation Ward Negative Pressure HVAC</h3>
                                 <p>Directional pressure cascading and 100% HEPA exhaust filtration preventing airborne pathogen cross-contamination.</p>
                             </div>
                         </div>
@@ -160,7 +160,7 @@
                         <div class="gb-cap-item">
                             <div class="gb-cap-icon"><i class="fa-solid fa-vial"></i></div>
                             <div class="gb-cap-text">
-                                <h4>Pharma &amp; Blood Bank Cold Storage</h4>
+                                <h3>Pharma &amp; Blood Bank Cold Storage</h3>
                                 <p>Ultra-reliable 2°C to 8°C cold room refrigeration with automated remote alarms, dual compressors, and battery backup logs.</p>
                             </div>
                         </div>
@@ -253,28 +253,28 @@
                 <!-- Advantage 1 -->
                 <div class="gb-why-card">
                     <div class="gb-why-icon"><i class="fa-solid fa-shield-halved"></i></div>
-                    <h4>100% N+1 Fail-Safe Redundancy</h4>
+                    <h3>100% N+1 Fail-Safe Redundancy</h3>
                     <p>Dual independent refrigeration circuits and auto-transfer pumps ensure uninterrupted diagnostic scanning and continuous life-support cooling.</p>
                 </div>
 
                 <!-- Advantage 2 -->
                 <div class="gb-why-card">
                     <div class="gb-why-icon"><i class="fa-solid fa-temperature-arrow-down"></i></div>
-                    <h4>±0.1°C Micro-Precision Stability</h4>
+                    <h3>±0.1°C Micro-Precision Stability</h3>
                     <p>Eliminating thermal drift in delicate diagnostic optics, helium compressors, and pharmaceutical blood bank storage units.</p>
                 </div>
 
                 <!-- Advantage 3 -->
                 <div class="gb-why-card">
                     <div class="gb-why-icon"><i class="fa-solid fa-virus-slash"></i></div>
-                    <h4>NABH &amp; ASHRAE 170 Compliance</h4>
+                    <h3>NABH &amp; ASHRAE 170 Compliance</h3>
                     <p>Designed strictly to international healthcare infection control standards, delivering 99.97% airborne pathogen filtration efficiency.</p>
                 </div>
 
                 <!-- Advantage 4 -->
                 <div class="gb-why-card">
                     <div class="gb-why-icon"><i class="fa-solid fa-desktop"></i></div>
-                    <h4>BACnet BMS Monitoring &amp; GSM Alarms</h4>
+                    <h3>BACnet BMS Monitoring &amp; GSM Alarms</h3>
                     <p>Real-time continuous tracking of differential pressures, temperature setpoints, and relative humidity with instant digital SMS alerts.</p>
                 </div>
             </div>
@@ -299,7 +299,7 @@
                     <div class="gb-process-step">
                         <div class="gb-process-num-wrapper">01</div>
                         <div class="gb-process-step-content">
-                            <h4>Heat Load Calculation</h4>
+                            <h3>Heat Load Calculation</h3>
                             <p>Calculating medical equipment heat dissipation (kW), chiller capacities, and thermal gains.</p>
                         </div>
                     </div>
@@ -308,7 +308,7 @@
                     <div class="gb-process-step">
                         <div class="gb-process-num-wrapper">02</div>
                         <div class="gb-process-step-content">
-                            <h4>Clinical Thermal &amp; Airflow Assessment</h4>
+                            <h3>Clinical Thermal &amp; Airflow Assessment</h3>
                             <p>Auditing OT air change rates (ACH), isolation pressure differentials, and thermal targets.</p>
                         </div>
                     </div>
@@ -317,7 +317,7 @@
                     <div class="gb-process-step">
                         <div class="gb-process-num-wrapper">03</div>
                         <div class="gb-process-step-content">
-                            <h4>System Design</h4>
+                            <h3>System Design</h3>
                             <p>Selecting N+1 redundant medical chillers, non-ferrous piping loops, and HEPA units.</p>
                         </div>
                     </div>
@@ -326,7 +326,7 @@
                     <div class="gb-process-step">
                         <div class="gb-process-num-wrapper">04</div>
                         <div class="gb-process-step-content">
-                            <h4>3D CFD Modeling</h4>
+                            <h3>3D CFD Modeling</h3>
                             <p>Simulating laminar airflow velocity vectors to eliminate turbulent air pockets over surgical tables.</p>
                         </div>
                     </div>
@@ -335,7 +335,7 @@
                     <div class="gb-process-step">
                         <div class="gb-process-num-wrapper">05</div>
                         <div class="gb-process-step-content">
-                            <h4>Precision Installation &amp; Piping</h4>
+                            <h3>Precision Installation &amp; Piping</h3>
                             <p>Installing anti-bacterial stainless ductwork, medical piping, and sealed AHU housings.</p>
                         </div>
                     </div>
@@ -344,7 +344,7 @@
                     <div class="gb-process-step">
                         <div class="gb-process-num-wrapper">06</div>
                         <div class="gb-process-step-content">
-                            <h4>Testing, Balancing &amp; Commissioning</h4>
+                            <h3>Testing, Balancing &amp; Commissioning</h3>
                             <p>Executing TAB airflow balancing, hydronic pressure testing, and thermal stress validation.</p>
                         </div>
                     </div>
@@ -353,7 +353,7 @@
                     <div class="gb-process-step">
                         <div class="gb-process-num-wrapper">07</div>
                         <div class="gb-process-step-content">
-                            <h4>Particle Counting &amp; NABH Validation</h4>
+                            <h3>Particle Counting &amp; NABH Validation</h3>
                             <p>Conducting ISO airborne particle counts, pressure differential logging, and NABH compliance sign-off.</p>
                         </div>
                     </div>

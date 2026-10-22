@@ -176,6 +176,7 @@ $unique_id = 'sp_swiper_' . uniqid();
     margin-bottom: 8px;
 }
 
+.sp-card-content h3,
 .sp-card-content h4 {
     font-size: 19px;
     font-weight: 800;
@@ -363,6 +364,7 @@ $unique_id = 'sp_swiper_' . uniqid();
     .sp-card-content {
         padding: 18px 16px;
     }
+    .sp-card-content h3,
     .sp-card-content h4 {
         font-size: 17px;
         line-height: 1.35;
@@ -393,6 +395,7 @@ $unique_id = 'sp_swiper_' . uniqid();
     .sp-card-content {
         padding: 16px 14px;
     }
+    .sp-card-content h3,
     .sp-card-content h4 {
         font-size: 16px;
     }
@@ -448,7 +451,7 @@ $unique_id = 'sp_swiper_' . uniqid();
                                     <span class="sp-location-badge">
                                         <i class="fa-solid fa-location-dot"></i> <?php echo htmlspecialchars($proj['location']); ?>
                                     </span>
-                                    <h4><?php echo htmlspecialchars($proj['title']); ?></h4>
+                                    <h3><?php echo htmlspecialchars($proj['title']); ?></h3>
                                     <p class="sp-description" style="margin-bottom: 0;">
                                         <?php echo htmlspecialchars($proj['description']); ?>
                                     </p>

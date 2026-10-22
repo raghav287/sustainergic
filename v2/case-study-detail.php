@@ -145,11 +145,13 @@ if (mb_strlen($cs_meta_desc) > 160) {
             border-color: #047857;
         }
 
-        .cs-detail-metric-card h3 {
+        .cs-detail-metric-card h3,
+        .cs-detail-metric-card .metric-num {
             font-size: 34px;
             font-weight: 800;
             color: #047857;
             margin-bottom: 4px;
+            display: block;
         }
 
         .cs-detail-metric-card p {
@@ -216,6 +218,7 @@ if (mb_strlen($cs_meta_desc) > 160) {
             border: 1px solid #a7f3d0;
         }
 
+        .cs-pillar-info h3,
         .cs-pillar-info h4 {
             font-size: 17px;
             font-weight: 800;
@@ -464,19 +467,19 @@ if (mb_strlen($cs_meta_desc) > 160) {
         <?php if (!empty($cs['metrics'])): ?>
             <div class="cs-detail-metrics-grid">
                 <div class="cs-detail-metric-card">
-                    <h3><?php echo htmlspecialchars($cs['metrics']['waste_diversion']); ?></h3>
+                    <span class="metric-num"><?php echo htmlspecialchars($cs['metrics']['waste_diversion']); ?></span>
                     <p>Waste Diversion</p>
                 </div>
                 <div class="cs-detail-metric-card">
-                    <h3><?php echo htmlspecialchars($cs['metrics']['water_savings']); ?></h3>
+                    <span class="metric-num"><?php echo htmlspecialchars($cs['metrics']['water_savings']); ?></span>
                     <p>Water Savings</p>
                 </div>
                 <div class="cs-detail-metric-card">
-                    <h3><?php echo htmlspecialchars($cs['metrics']['energy_savings']); ?></h3>
+                    <span class="metric-num"><?php echo htmlspecialchars($cs['metrics']['energy_savings']); ?></span>
                     <p>Energy Savings</p>
                 </div>
                 <div class="cs-detail-metric-card">
-                    <h3><?php echo htmlspecialchars($cs['metrics']['solar_contribution']); ?></h3>
+                    <span class="metric-num"><?php echo htmlspecialchars($cs['metrics']['solar_contribution']); ?></span>
                     <p>Solar Offset</p>
                 </div>
             </div>
@@ -534,7 +537,7 @@ if (mb_strlen($cs_meta_desc) > 160) {
                                     <i class="fa-solid <?php echo !empty($pillar['icon']) ? htmlspecialchars($pillar['icon']) : 'fa-leaf'; ?>"></i>
                                 </div>
                                 <div class="cs-pillar-info">
-                                    <h4><?php echo htmlspecialchars($pillar['title']); ?></h4>
+                                    <h3><?php echo htmlspecialchars($pillar['title']); ?></h3>
                                     <p><?php echo htmlspecialchars($pillar['desc']); ?></p>
                                 </div>
                             </div>
@@ -615,7 +618,7 @@ if (mb_strlen($cs_meta_desc) > 160) {
                         <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; margin-bottom: 32px;">
                             <?php foreach ($cs['occupant_wellbeing'] as $item): ?>
                                 <div style="background: #f8fafc; border: 1px solid #e2e8f0; padding: 20px; border-radius: 16px;">
-                                    <h4 style="font-size: 16px; font-weight: 800; color: #047857; margin-bottom: 6px;"><?php echo htmlspecialchars($item['title']); ?></h4>
+                                    <h3 style="font-size: 16px; font-weight: 800; color: #047857; margin-bottom: 6px;"><?php echo htmlspecialchars($item['title']); ?></h3>
                                     <p style="font-size: 14px; color: #475569; margin: 0; line-height: 1.5;"><?php echo htmlspecialchars($item['desc']); ?></p>
                                 </div>
                             <?php endforeach; ?>
@@ -659,7 +662,7 @@ if (mb_strlen($cs_meta_desc) > 160) {
                     </p>
 
                     <?php if (!empty($cs['sustainability_legacy'])): ?>
-                        <h4 style="font-size: 17px; font-weight: 800; color: #0f172a; margin-bottom: 14px;">Building a Sustainable Future</h4>
+                        <h3 style="font-size: 17px; font-weight: 800; color: #0f172a; margin-bottom: 14px;">Building a Sustainable Future</h3>
                         <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 12px;">
                             <?php foreach ($cs['sustainability_legacy'] as $item): ?>
                                 <div style="display: flex; align-items: center; gap: 10px; font-size: 14px; font-weight: 600; color: #047857; background: #ecfdf5; padding: 12px 18px; border-radius: 12px; border: 1px solid #a7f3d0;">

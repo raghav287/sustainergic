@@ -59,7 +59,7 @@
 
                 <!-- SIDEBAR / TABLE OF CONTENTS -->
                 <aside class="legal-sidebar">
-                    <h4><i class="fa-solid fa-list-ul"></i> Quick Navigation</h4>
+                    <h2><i class="fa-solid fa-list-ul"></i> Quick Navigation</h2>
                     <nav class="legal-toc-list">
                         <a href="#acceptance" class="legal-toc-link active"><i class="fa-solid fa-angle-right"></i> <span>1. Acceptance of Terms</span></a>
                         <a href="#services-scope" class="legal-toc-link"><i class="fa-solid fa-angle-right"></i> <span>2. Services & Scope</span></a>
@@ -73,7 +73,7 @@
                     </nav>
 
                     <div class="legal-sidebar-contact">
-                        <h5>Contract Inquiries?</h5>
+                        <h3>Contract Inquiries?</h3>
                         <p>Have questions regarding our consulting terms or service agreements?</p>
                         <a href="mailto:business@sustainergictech.in" class="legal-sidebar-btn">
                             <i class="fa-regular fa-envelope"></i> Contact Legal Team
@@ -250,26 +250,26 @@
 
                             <div class="legal-contact-grid">
                                 <div class="legal-contact-item">
-                                    <h5><i class="fa-solid fa-building-user"></i> Jaipur Office</h5>
+                                    <h4><i class="fa-solid fa-building-user"></i> Jaipur Office</h4>
                                     <p>
                                         Ground Floor, D-5/24, Chitrakoot Scheme, Vaishali Nagar, Jaipur, Rajasthan 302021
                                     </p>
                                 </div>
                                 <div class="legal-contact-item">
-                                    <h5><i class="fa-solid fa-building-user"></i> Zirakpur Office</h5>
+                                    <h4><i class="fa-solid fa-building-user"></i> Zirakpur Office</h4>
                                     <p>
                                         SCO 3, 1st Floor, Dashmesh Colony, Patiala Road, Zirakpur, Punjab 140603
                                     </p>
                                 </div>
                                 <div class="legal-contact-item">
-                                    <h5><i class="fa-solid fa-envelope"></i> Business Email</h5>
+                                    <h4><i class="fa-solid fa-envelope"></i> Business Email</h4>
                                     <p>
                                         <a href="mailto:business@sustainergictech.in">business@sustainergictech.in</a><br>
                                         <a href="mailto:prateek@sustainergictech.in">prateek@sustainergictech.in</a>
                                     </p>
                                 </div>
                                 <div class="legal-contact-item">
-                                    <h5><i class="fa-solid fa-phone"></i> Direct Call</h5>
+                                    <h4><i class="fa-solid fa-phone"></i> Direct Call</h4>
                                     <p>
                                         <a href="tel:+919785749960">+91 97857 49960</a><br>
                                         <a href="tel:+917073828008">+91 70738 28008</a><br>

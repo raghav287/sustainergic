@@ -92,7 +92,7 @@
                             <i class="fa-solid fa-clipboard-check"></i>
                         </div>
                         <div class="aud-hero-fc-text">
-                            <h5>Fundamental Cx</h5>
+                            <strong class=\"fc-title\">Fundamental Cx</strong>
                             <p>Installation Verification</p>
                         </div>
                     </div>
@@ -102,7 +102,7 @@
                             <i class="fa-solid fa-sliders"></i>
                         </div>
                         <div class="aud-hero-fc-text">
-                            <h5>Enhanced Cx</h5>
+                            <strong class=\"fc-title\">Enhanced Cx</strong>
                             <p>Sequence Tuning</p>
                         </div>
                     </div>
@@ -140,7 +140,7 @@
                         <div class="aud-cap-item">
                             <div class="aud-cap-icon"><i class="fa-solid fa-file-pen"></i></div>
                             <div class="aud-cap-text">
-                                <h4>Design & Documentation Review</h4>
+                                <h3>Design & Documentation Review</h3>
                                 <p>Checking project specifications and sequence descriptions.</p>
                             </div>
                         </div>
@@ -148,7 +148,7 @@
                         <div class="aud-cap-item">
                             <div class="aud-cap-icon"><i class="fa-solid fa-screwdriver-wrench"></i></div>
                             <div class="aud-cap-text">
-                                <h4>Installation Verification</h4>
+                                <h3>Installation Verification</h3>
                                 <p>On-site inspection to confirm components meet design.</p>
                             </div>
                         </div>
@@ -156,7 +156,7 @@
                         <div class="aud-cap-item">
                             <div class="aud-cap-icon"><i class="fa-solid fa-gauge-simple"></i></div>
                             <div class="aud-cap-text">
-                                <h4>Functional Performance Testing</h4>
+                                <h3>Functional Performance Testing</h3>
                                 <p>Operating and testing systems under active control sequences.</p>
                             </div>
                         </div>
@@ -164,7 +164,7 @@
                         <div class="aud-cap-item">
                             <div class="aud-cap-icon"><i class="fa-solid fa-chart-line"></i></div>
                             <div class="aud-cap-text">
-                                <h4>Optimization & Handover</h4>
+                                <h3>Optimization & Handover</h3>
                                 <p>Tuning parameters and supporting the facility operations team.</p>
                             </div>
                         </div>
@@ -400,7 +400,7 @@
                     <div class="aud-process-step">
                         <div class="aud-process-num-wrapper">01</div>
                         <div class="aud-process-text">
-                            <h4>Project Requirements</h4>
+                            <h3>Project Requirements</h3>
                             <p>Understand project scope, design intent, performance objectives, and requirements.</p>
                         </div>
                     </div>
@@ -409,7 +409,7 @@
                     <div class="aud-process-step">
                         <div class="aud-process-num-wrapper">02</div>
                         <div class="aud-process-text">
-                            <h4>Commissioning Planning</h4>
+                            <h3>Commissioning Planning</h3>
                             <p>Data Collection, Define responsibilities, systems to test, procedures, and coordination logs.</p>
                         </div>
                     </div>
@@ -418,7 +418,7 @@
                     <div class="aud-process-step">
                         <div class="aud-process-num-wrapper">03</div>
                         <div class="aud-process-text">
-                            <h4>Design & Document Review</h4>
+                            <h3>Design & Document Review</h3>
                             <p>Review design drawings, sequence narratives, and technical submissions.</p>
                         </div>
                     </div>
@@ -427,7 +427,7 @@
                     <div class="aud-process-step">
                         <div class="aud-process-num-wrapper">04</div>
                         <div class="aud-process-text">
-                            <h4>Installation Verification</h4>
+                            <h3>Installation Verification</h3>
                             <p>Inspect physical equipment to verify compliant mechanical and electrical installation.</p>
                         </div>
                     </div>
@@ -436,7 +436,7 @@
                     <div class="aud-process-step">
                         <div class="aud-process-num-wrapper">05</div>
                         <div class="aud-process-text">
-                            <h4>Functional Testing</h4>
+                            <h3>Functional Testing</h3>
                             <p>Verify active system operation, control loops, and performance cycles.</p>
                         </div>
                     </div>
@@ -445,7 +445,7 @@
                     <div class="aud-process-step">
                         <div class="aud-process-num-wrapper">06</div>
                         <div class="aud-process-text">
-                            <h4>Reporting & Handover</h4>
+                            <h3>Reporting & Handover</h3>
                             <p>Document findings, resolve issue logs, and support facility team training.</p>
                         </div>
                     </div>
@@ -468,63 +468,63 @@
                 <!-- Card 1 -->
                 <div class="aud-assess-card aud-assess-card--energy">
                     <div class="aud-assess-icon"><i class="fa-solid fa-temperature-half"></i></div>
-                    <h4>HVAC Systems</h4>
+                    <h3>HVAC Systems</h3>
                 </div>
                 <!-- Card 2 -->
                 <div class="aud-assess-card aud-assess-card--energy">
                     <div class="aud-assess-icon"><i class="fa-solid fa-sliders"></i></div>
-                    <h4>Building Management (BMS)</h4>
+                    <h3>Building Management (BMS)</h3>
                 </div>
                 <!-- Card 3 -->
                 <div class="aud-assess-card aud-assess-card--energy">
                     <div class="aud-assess-icon"><i class="fa-solid fa-bolt"></i></div>
-                    <h4>Electrical Systems</h4>
+                    <h3>Electrical Systems</h3>
                 </div>
                 <!-- Card 4 -->
                 <div class="aud-assess-card aud-assess-card--energy">
                     <div class="aud-assess-icon"><i class="fa-solid fa-lightbulb"></i></div>
-                    <h4>Lighting & Controls</h4>
+                    <h3>Lighting & Controls</h3>
                 </div>
                 
                 <!-- Card 7 -->
                 <div class="aud-assess-card aud-assess-card--energy">
                     <div class="aud-assess-icon"><i class="fa-solid fa-wind"></i></div>
-                    <h4>Ventilation & Exhaust</h4>
+                    <h3>Ventilation & Exhaust</h3>
                 </div>
                 <!-- Card 8 -->
                 <div class="aud-assess-card aud-assess-card--energy">
                     <div class="aud-assess-icon"><i class="fa-solid fa-house-laptop"></i></div>
-                    <h4>Indoor Env. Controls</h4>
+                    <h3>Indoor Env. Controls</h3>
                 </div>
                 <!-- Card 9 -->
                 <div class="aud-assess-card aud-assess-card--energy">
                     <div class="aud-assess-icon"><i class="fa-solid fa-solar-panel"></i></div>
-                    <h4>Renewable Energy</h4>
+                    <h3>Renewable Energy</h3>
                 </div>
                 <!-- Card 10 -->
                 <div class="aud-assess-card aud-assess-card--energy">
                     <div class="aud-assess-icon"><i class="fa-solid fa-shield-halved"></i></div>
-                    <h4>Life-Safety Interfaces</h4>
+                    <h3>Life-Safety Interfaces</h3>
                 </div>
                 <!-- Card 11 -->
                 <div class="aud-assess-card aud-assess-card--energy">
                     <div class="aud-assess-icon"><i class="fa-solid fa-gauge-high"></i></div>
-                    <h4>Metering & Monitoring</h4>
+                    <h3>Metering & Monitoring</h3>
                 </div>
                 <!-- Card 12 -->
                 <div class="aud-assess-card aud-assess-card--energy">
                     <div class="aud-assess-icon"><i class="fa-solid fa-circle-nodes"></i></div>
-                    <h4>Integrated System Operations</h4>
+                    <h3>Integrated System Operations</h3>
                 </div>
                 <!-- Card 5 -->
                 <div class="aud-assess-card aud-assess-card--water">
                     <div class="aud-assess-icon"><i class="fa-solid fa-droplet"></i></div>
-                    <h4>Plumbing & Water</h4>
+                    <h3>Plumbing & Water</h3>
                 </div>
                 <!-- Card 6 -->
                 <div class="aud-assess-card aud-assess-card--water">
                     <div class="aud-assess-icon"><i class="fa-solid fa-gears"></i></div>
-                    <h4>Pumps & Hydronics</h4>
+                    <h3>Pumps & Hydronics</h3>
                 </div>
             </div>
         </div>
@@ -594,42 +594,42 @@
                 <!-- 1 -->
                 <div class="aud-fac-card">
                     <div class="aud-fac-icon"><i class="fa-solid fa-building"></i></div>
-                    <h4>Commercial Buildings</h4>
+                    <h3>Commercial Buildings</h3>
                 </div>
                 <!-- 2 -->
                 <div class="aud-fac-card">
                     <div class="aud-fac-icon"><i class="fa-solid fa-house-chimney"></i></div>
-                    <h4>Residential Developments</h4>
+                    <h3>Residential Developments</h3>
                 </div>
                 <!-- 3 -->
                 <div class="aud-fac-card">
                     <div class="aud-fac-icon"><i class="fa-solid fa-hospital"></i></div>
-                    <h4>Hospitals & Healthcare</h4>
+                    <h3>Hospitals & Healthcare</h3>
                 </div>
                 <!-- 4 -->
                 <div class="aud-fac-card">
                     <div class="aud-fac-icon"><i class="fa-solid font-awesome"></i><i class="fa-solid fa-hotel"></i></div>
-                    <h4>Hotels & Hospitality</h4>
+                    <h3>Hotels & Hospitality</h3>
                 </div>
                 <!-- 5 -->
                 <div class="aud-fac-card">
                     <div class="aud-fac-icon"><i class="fa-solid fa-graduation-cap"></i></div>
-                    <h4>Educational Institutions</h4>
+                    <h3>Educational Institutions</h3>
                 </div>
                 <!-- 6 -->
                 <div class="aud-fac-card">
                     <div class="aud-fac-icon"><i class="fa-solid fa-industry"></i></div>
-                    <h4>Industrial Facilities</h4>
+                    <h3>Industrial Facilities</h3>
                 </div>
                 <!-- 7 -->
                 <div class="aud-fac-card">
                     <div class="aud-fac-icon"><i class="fa-solid fa-store"></i></div>
-                    <h4>Retail & Mixed-Use</h4>
+                    <h3>Retail & Mixed-Use</h3>
                 </div>
                 <!-- 8 -->
                 <div class="aud-fac-card">
                     <div class="aud-fac-icon"><i class="fa-solid fa-landmark"></i></div>
-                    <h4>Public Buildings</h4>
+                    <h3>Public Buildings</h3>
                 </div>
             </div>
         </div>
@@ -723,37 +723,37 @@
                 <!-- 1 -->
                 <div class="aud-why-card">
                     <div class="aud-why-icon"><i class="fa-solid fa-shield-halved"></i></div>
-                    <h4>Independent commissioning expertise</h4>
+                    <h3>Independent commissioning expertise</h3>
                     <p>We provide objective verification free of contractor or supplier influence, safeguarding project interests.</p>
                 </div>
                 <!-- 2 -->
                 <div class="aud-why-card">
                     <div class="aud-why-icon"><i class="fa-solid fa-clipboard-check"></i></div>
-                    <h4>Detailed system inspections and testing</h4>
+                    <h3>Detailed system inspections and testing</h3>
                     <p>Our engineers perform systematic installation checks and operational functional testing on all active equipment.</p>
                 </div>
                 <!-- 3 -->
                 <div class="aud-why-card">
                     <div class="aud-why-icon"><i class="fa-solid fa-gears"></i></div>
-                    <h4>Integrated HVAC and performance knowledge</h4>
+                    <h3>Integrated HVAC and performance knowledge</h3>
                     <p>Deep expertise in thermal plants, ventilation, and energy modeling to detect hidden system failures.</p>
                 </div>
                 <!-- 4 -->
                 <div class="aud-why-card">
                     <div class="aud-why-icon"><i class="fa-solid fa-bug"></i></div>
-                    <h4>Clear issue tracking and documentation</h4>
+                    <h3>Clear issue tracking and documentation</h3>
                     <p>Calibrated worksheets and detailed issue logs make resolution items transparent and easy to track.</p>
                 </div>
                 <!-- 5 -->
                 <div class="aud-why-card">
                     <div class="aud-why-icon"><i class="fa-solid fa-chart-line"></i></div>
-                    <h4>Practical system-optimization recommendations</h4>
+                    <h3>Practical system-optimization recommendations</h3>
                     <p>We don't just report issues—we suggest actionable setpoints and sequence adjustments to maximize efficiency.</p>
                 </div>
                 <!-- 6 -->
                 <div class="aud-why-card">
                     <div class="aud-why-icon"><i class="fa-solid fa-circle-nodes"></i></div>
-                    <h4>Coordination through testing and project handover</h4>
+                    <h3>Coordination through testing and project handover</h3>
                     <p>Active hand-holding of project developers, contractors, and operators to achieve seamless building launch.</p>
                 </div>
             </div>

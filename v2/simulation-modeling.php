@@ -91,7 +91,7 @@
                             <i class="fa-solid fa-chart-line"></i>
                         </div>
                         <div class="sm-hero-fc-text">
-                            <h5>HighAccuracy</h5>
+                            <strong class=\"fc-title\">HighAccuracy</strong>
                             <p>Calibration Models</p>
                         </div>
                     </div>
@@ -101,7 +101,7 @@
                             <i class="fa-solid fa-wind"></i>
                         </div>
                         <div class="sm-hero-fc-text">
-                            <h5>CFD & Daylight</h5>
+                            <strong class=\"fc-title\">CFD & Daylight</strong>
                             <p>Integrated Studies</p>
                         </div>
                     </div>
@@ -139,7 +139,7 @@
                         <div class="sm-cap-item">
                             <div class="sm-cap-icon"><i class="fa-solid fa-temperature-half"></i></div>
                             <div class="sm-cap-text">
-                                <h4>Energy Performance</h4>
+                                <h3>Energy Performance</h3>
                                 <p>Envelope, lighting, and HVAC load evaluations.</p>
                             </div>
                         </div>
@@ -147,7 +147,7 @@
                         <div class="sm-cap-item">
                             <div class="sm-cap-icon"><i class="fa-solid fa-lightbulb"></i></div>
                             <div class="sm-cap-text">
-                                <h4>Daylight & Glare</h4>
+                                <h3>Daylight & Glare</h3>
                                 <p>Natural light distribution and shading analyses.</p>
                             </div>
                         </div>
@@ -155,7 +155,7 @@
                         <div class="sm-cap-item">
                             <div class="sm-cap-icon"><i class="fa-solid fa-wind"></i></div>
                             <div class="sm-cap-text">
-                                <h4>Airflow CFD Studies</h4>
+                                <h3>Airflow CFD Studies</h3>
                                 <p>Internal and external fluid dynamics.</p>
                             </div>
                         </div>
@@ -163,7 +163,7 @@
                         <div class="sm-cap-item">
                             <div class="sm-cap-icon"><i class="fa-solid fa-arrows-spin"></i></div>
                             <div class="sm-cap-text">
-                                <h4>LCA Analysis</h4>
+                                <h3>LCA Analysis</h3>
                                 <p>Embodied carbon and lifecycle impact assessments.</p>
                             </div>
                         </div>
@@ -270,11 +270,11 @@
                         
                         <div class="sm-cfd-split">
                             <div class="sm-cfd-box">
-                                <h5>Internal CFD</h5>
+                                <h4>Internal CFD</h4>
                                 <p>Air movement, temperature, mechanical ventilation, and smoke behaviour inside buildings.</p>
                             </div>
                             <div class="sm-cfd-box">
-                                <h5>External CFD</h5>
+                                <h4>External CFD</h4>
                                 <p>Wind pressure, turbulence, surrounding airflow, and pedestrian comfort around structures.</p>
                             </div>
                         </div>
@@ -342,7 +342,7 @@
                     <div class="sm-process-step">
                         <div class="sm-process-num-wrapper">01</div>
                         <div class="sm-process-text">
-                            <h4>Project Understanding</h4>
+                            <h3>Project Understanding</h3>
                             <p>Review the project scope, drawings, design requirements, and performance objectives.</p>
                         </div>
                     </div>
@@ -351,7 +351,7 @@
                     <div class="sm-process-step">
                         <div class="sm-process-num-wrapper">02</div>
                         <div class="sm-process-text">
-                            <h4>Data Collection</h4>
+                            <h3>Data Collection</h3>
                             <p>Collect architectural, mechanical, electrical, climatic, and operational details.</p>
                         </div>
                     </div>
@@ -360,7 +360,7 @@
                     <div class="sm-process-step">
                         <div class="sm-process-num-wrapper">03</div>
                         <div class="sm-process-text">
-                            <h4>Digital Model Development</h4>
+                            <h3>Digital Model Development</h3>
                             <p>Develop an accurate simulation model based on the available project data.</p>
                         </div>
                     </div>
@@ -369,7 +369,7 @@
                     <div class="sm-process-step">
                         <div class="sm-process-num-wrapper">04</div>
                         <div class="sm-process-text">
-                            <h4>Performance Analysis</h4>
+                            <h3>Performance Analysis</h3>
                             <p>Run simulations to evaluate energy, daylight, airflow, thermal comfort, or compliance.</p>
                         </div>
                     </div>
@@ -378,7 +378,7 @@
                     <div class="sm-process-step">
                         <div class="sm-process-num-wrapper">05</div>
                         <div class="sm-process-text">
-                            <h4>Design Optimization</h4>
+                            <h3>Design Optimization</h3>
                             <p>Compare alternatives and recommend practical performance improvements.</p>
                         </div>
                     </div>
@@ -387,7 +387,7 @@
                     <div class="sm-process-step">
                         <div class="sm-process-num-wrapper">06</div>
                         <div class="sm-process-text">
-                            <h4>Reporting & Coordination</h4>
+                            <h3>Reporting & Coordination</h3>
                             <p>Deliver technical reports, visual findings, and coordination support to the team.</p>
                         </div>
                     </div>
@@ -410,42 +410,42 @@
                 <!-- Card 1 -->
                 <div class="sm-app-card">
                     <div class="sm-app-icon"><i class="fa-solid fa-building"></i></div>
-                    <h4>Commercial Buildings</h4>
+                    <h3>Commercial Buildings</h3>
                 </div>
                 <!-- Card 2 -->
                 <div class="sm-app-card">
                     <div class="sm-app-icon"><i class="fa-solid fa-house-chimney"></i></div>
-                    <h4>Residential Developments</h4>
+                    <h3>Residential Developments</h3>
                 </div>
                 <!-- Card 3 -->
                 <div class="sm-app-card">
                     <div class="sm-app-icon"><i class="fa-solid fa-hospital"></i></div>
-                    <h4>Hospitals & Healthcare</h4>
+                    <h3>Hospitals & Healthcare</h3>
                 </div>
                 <!-- Card 4 -->
                 <div class="sm-app-card">
                     <div class="sm-app-icon"><i class="fa-solid fa-hotel"></i></div>
-                    <h4>Hotels & Hospitality</h4>
+                    <h3>Hotels & Hospitality</h3>
                 </div>
                 <!-- Card 5 -->
                 <div class="sm-app-card">
                     <div class="sm-app-icon"><i class="fa-solid fa-graduation-cap"></i></div>
-                    <h4>Educational Institutions</h4>
+                    <h3>Educational Institutions</h3>
                 </div>
                 <!-- Card 6 -->
                 <div class="sm-app-card">
                     <div class="sm-app-icon"><i class="fa-solid fa-industry"></i></div>
-                    <h4>Industrial Facilities</h4>
+                    <h3>Industrial Facilities</h3>
                 </div>
                 <!-- Card 7 -->
                 <div class="sm-app-card">
                     <div class="sm-app-icon"><i class="fa-solid fa-plane-departure"></i></div>
-                    <h4>Airports & Infrastructure</h4>
+                    <h3>Airports & Infrastructure</h3>
                 </div>
                 <!-- Card 8 -->
                 <div class="sm-app-card">
                     <div class="sm-app-icon"><i class="fa-solid fa-city"></i></div>
-                    <h4>Mixed-Use Developments</h4>
+                    <h3>Mixed-Use Developments</h3>
                 </div>
             </div>
         </div>
@@ -539,37 +539,37 @@
                 <!-- 1 -->
                 <div class="sm-why-card">
                     <div class="sm-why-icon"><i class="fa-solid fa-gears"></i></div>
-                    <h4>Integrated building-performance expertise</h4>
+                    <h3>Integrated building-performance expertise</h3>
                     <p>We blend engineering physics, architecture, and regulatory standards to deliver accurate diagnostic feedback.</p>
                 </div>
                 <!-- 2 -->
                 <div class="sm-why-card">
                     <div class="sm-why-icon"><i class="fa-solid fa-bullseye"></i></div>
-                    <h4>Detailed and accurate simulation models</h4>
+                    <h3>Detailed and accurate simulation models</h3>
                     <p>Our models represent true microclimates, thermal patterns, and operational systems to ensure reliable calculations.</p>
                 </div>
                 <!-- 3 -->
                 <div class="sm-why-card">
                     <div class="sm-why-icon"><i class="fa-solid fa-lightbulb"></i></div>
-                    <h4>Practical design-oriented recommendations</h4>
+                    <h3>Practical design-oriented recommendations</h3>
                     <p>We do not just report numbers; we propose cost-effective design refinements for structural elements and systems.</p>
                 </div>
                 <!-- 4 -->
                 <div class="sm-why-card">
                     <div class="sm-why-icon"><i class="fa-solid fa-sitemap"></i></div>
-                    <h4>Support across multiple project stages</h4>
+                    <h3>Support across multiple project stages</h3>
                     <p>From early concept envelope choices to final system testing and commissioning reviews.</p>
                 </div>
                 <!-- 5 -->
                 <div class="sm-why-card">
                     <div class="sm-why-icon"><i class="fa-solid fa-chart-line"></i></div>
-                    <h4>Clear technical reports and visual outputs</h4>
+                    <h3>Clear technical reports and visual outputs</h3>
                     <p>We deliver interactive plots, visual charts, and straightforward executive summaries for client stakeholders.</p>
                 </div>
                 <!-- 6 -->
                 <div class="sm-why-card">
                     <div class="sm-why-icon"><i class="fa-solid fa-users"></i></div>
-                    <h4>Coordination with design project teams</h4>
+                    <h3>Coordination with design project teams</h3>
                     <p>Active support working side-by-side with architects, MEP consultants, contractors, and project managers.</p>
                 </div>
             </div>

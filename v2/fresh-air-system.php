@@ -84,7 +84,7 @@
                                 <i class="fa-solid fa-wind"></i>
                             </div>
                             <div class="gb-hero-fc-text">
-                                <h5>Filtered Fresh Air</h5>
+                                <strong class=\"fc-title\">Filtered Fresh Air</strong>
                                 <p>PM2.5 &amp; CO₂ Control</p>
                             </div>
                         </div>
@@ -95,7 +95,7 @@
                                 <i class="fa-solid fa-arrows-rotate"></i>
                             </div>
                             <div class="gb-hero-fc-text">
-                                <h5>Up to 80% Energy Recovery</h5>
+                                <strong class=\"fc-title\">Up to 80% Energy Recovery</strong>
                                 <p>ASHRAE 62.1 Aligned</p>
                             </div>
                         </div>
@@ -133,7 +133,7 @@
                         <div class="gb-cap-item">
                             <div class="gb-cap-icon"><i class="fa-solid fa-fan"></i></div>
                             <div class="gb-cap-text">
-                                <h4>Dedicated Outdoor Air Systems (DOAS)</h4>
+                                <h3>Dedicated Outdoor Air Systems (DOAS)</h3>
                                 <p>Decoupling latent humidity loads by supplying 100% pre-conditioned, dehumidified outdoor air.</p>
                             </div>
                         </div>
@@ -142,7 +142,7 @@
                         <div class="gb-cap-item">
                             <div class="gb-cap-icon"><i class="fa-solid fa-arrows-spin"></i></div>
                             <div class="gb-cap-text">
-                                <h4>Energy &amp; Heat Recovery (ERV / HRV)</h4>
+                                <h3>Energy &amp; Heat Recovery (ERV / HRV)</h3>
                                 <p>Capturing up to 80% of sensible and latent energy from exhaust air to pre-cool incoming fresh air.</p>
                             </div>
                         </div>
@@ -151,7 +151,7 @@
                         <div class="gb-cap-item">
                             <div class="gb-cap-icon"><i class="fa-solid fa-filter"></i></div>
                             <div class="gb-cap-text">
-                                <h4>Multi-Stage Air Filtration</h4>
+                                <h3>Multi-Stage Air Filtration</h3>
                                 <p>Deploying MERV 13 to HEPA filtration to eliminate PM2.5, airborne allergens, bacteria, and VOCs.</p>
                             </div>
                         </div>
@@ -160,7 +160,7 @@
                         <div class="gb-cap-item">
                             <div class="gb-cap-icon"><i class="fa-solid fa-sliders"></i></div>
                             <div class="gb-cap-text">
-                                <h4>Demand-Controlled Ventilation (DCV)</h4>
+                                <h3>Demand-Controlled Ventilation (DCV)</h3>
                                 <p>Automating fresh air CFM flow rates in real-time using indoor CO₂ sensor feedback.</p>
                             </div>
                         </div>
@@ -258,28 +258,28 @@
                 <!-- Advantage 1 -->
                 <div class="gb-why-card">
                     <div class="gb-why-icon"><i class="fa-solid fa-brain"></i></div>
-                    <h4>Cognitive Boost &amp; Wellness</h4>
+                    <h3>Cognitive Boost &amp; Wellness</h3>
                     <p>Keeping indoor CO₂ levels under 800 ppm prevents drowsiness, headaches, and fatigue, boosting occupant productivity and mental focus by up to 15%.</p>
                 </div>
 
                 <!-- Advantage 2 -->
                 <div class="gb-why-card">
                     <div class="gb-why-icon"><i class="fa-solid fa-droplet-slash"></i></div>
-                    <h4>Humidity &amp; Mold Control</h4>
+                    <h3>Humidity &amp; Mold Control</h3>
                     <p>Pre-dehumidifying incoming outdoor air eliminates dampness, preventing mold, mildew, and fungal growth inside ductwork and wall cavities.</p>
                 </div>
 
                 <!-- Advantage 3 -->
                 <div class="gb-why-card">
                     <div class="gb-why-icon"><i class="fa-solid fa-bolt"></i></div>
-                    <h4>80% Enthalpy Energy Savings</h4>
+                    <h3>80% Enthalpy Energy Savings</h3>
                     <p>Rotary enthalpy wheels pre-cool hot summer air using cool exhaust air, drastically reducing chiller capacity requirements and operating power.</p>
                 </div>
 
                 <!-- Advantage 4 -->
                 <div class="gb-why-card">
                     <div class="gb-why-icon"><i class="fa-solid fa-award"></i></div>
-                    <h4>Green Building certification Mandatory Points </h4>
+                    <h3>Green Building certification Mandatory Points </h3>
                     <p>Fulfills mandatory minimum ventilation prerequisites and earns valuable Indoor Environmental Quality (EQ) credit points for green building ratings.</p>
                 </div>
             </div>
@@ -305,7 +305,7 @@
                     <div class="gb-process-step">
                         <div class="gb-process-num-wrapper">01</div>
                         <div class="gb-process-step-content">
-                            <h4>Fresh Air Load Calculation</h4>
+                            <h3>Fresh Air Load Calculation</h3>
                             <p>Determining outdoor air CFM rates based on space usage, occupant density, and ASHRAE 62.1 / NBC guidelines.</p>
                         </div>
                     </div>
@@ -314,7 +314,7 @@
                     <div class="gb-process-step">
                         <div class="gb-process-num-wrapper">02</div>
                         <div class="gb-process-step-content">
-                            <h4>System Selection &amp; Ductwork Engineering</h4>
+                            <h3>System Selection &amp; Ductwork Engineering</h3>
                             <p>Selecting enthalpy heat recovery wheels, sizing low-friction duct routes, and specifying MERV 13/HEPA filter banks.</p>
                         </div>
                     </div>
@@ -323,7 +323,7 @@
                     <div class="gb-process-step">
                         <div class="gb-process-num-wrapper">03</div>
                         <div class="gb-process-step-content">
-                            <h4>Controls &amp; Sensor Integration</h4>
+                            <h3>Controls &amp; Sensor Integration</h3>
                             <p>Integrating CO₂ monitors, humidity sensors, motorized dampers, and BMS VFD controls for demand-based regulation.</p>
                         </div>
                     </div>
@@ -332,7 +332,7 @@
                     <div class="gb-process-step">
                         <div class="gb-process-num-wrapper">04</div>
                         <div class="gb-process-step-content">
-                            <h4>TAB &amp; Air Quality Verification</h4>
+                            <h3>TAB &amp; Air Quality Verification</h3>
                             <p>Conducting Testing, Adjusting &amp; Balancing (TAB) to measure exact air CFM, filter static pressure drops, and room pressure.</p>
                         </div>
                     </div>

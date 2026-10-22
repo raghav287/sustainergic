@@ -394,31 +394,31 @@
 
                 <div class="value-card">
                     <div class="value-icon value-icon--1"><i class="fa-solid fa-lightbulb"></i></div>
-                    <h4>Innovation</h4>
+                    <h3>Innovation</h3>
                     <p>Fresh ideas for every challenge we take on.</p>
                 </div>
 
                 <div class="value-card">
                     <div class="value-icon value-icon--2"><i class="fa-solid fa-rocket"></i></div>
-                    <h4>Think Big</h4>
+                    <h3>Think Big</h3>
                     <p>Ambitious visions with a grounded roadmap.</p>
                 </div>
 
                 <div class="value-card">
                     <div class="value-icon value-icon--3"><i class="fa-solid fa-handshake-angle"></i></div>
-                    <h4>Customer Centric Approach</h4>
+                    <h3>Customer Centric Approach</h3>
                     <p>Every decision starts with our client's goal.</p>
                 </div>
 
                 <div class="value-card">
                     <div class="value-icon value-icon--4"><i class="fa-solid fa-bullseye"></i></div>
-                    <h4>Accountability</h4>
+                    <h3>Accountability</h3>
                     <p>Transparent reporting on every project step.</p>
                 </div>
 
                 <div class="value-card">
                     <div class="value-icon value-icon--5"><i class="fa-solid fa-user-shield"></i></div>
-                    <h4>Ownership</h4>
+                    <h3>Ownership</h3>
                     <p>We take ownership of results, from start to handover.</p>
                 </div>
 

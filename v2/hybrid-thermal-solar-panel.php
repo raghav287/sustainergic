@@ -210,7 +210,7 @@
                                 <i class="fa-solid fa-bolt"></i>
                             </div>
                             <div class="gb-hero-fc-text">
-                                <h5>Up to 40% AC Energy Saved</h5>
+                                <strong class=\"fc-title\">Up to 40% AC Energy Saved</strong>
                                 <p>COP 6+ Efficiency</p>
                             </div>
                         </div>
@@ -221,7 +221,7 @@
                                 <i class="fa-solid fa-solar-panel"></i>
                             </div>
                             <div class="gb-hero-fc-text">
-                                <h5>1200% Space Efficient</h5>
+                                <strong class=\"fc-title\">1200% Space Efficient</strong>
                                 <p>Compared to PV Panels</p>
                             </div>
                         </div>
@@ -262,7 +262,7 @@
                         <div class="gb-cap-item">
                             <div class="gb-cap-icon"><i class="fa-solid fa-temperature-arrow-up"></i></div>
                             <div class="gb-cap-text">
-                                <h4>Direct Refrigerant Solar Pre-Heating</h4>
+                                <h3>Direct Refrigerant Solar Pre-Heating</h3>
                                 <p>Adds thermal energy to gas between compressor and condenser.</p>
                             </div>
                         </div>
@@ -271,7 +271,7 @@
                         <div class="gb-cap-item">
                             <div class="gb-cap-icon"><i class="fa-solid fa-compress"></i></div>
                             <div class="gb-cap-text">
-                                <h4>Compressor Partial Load Operation</h4>
+                                <h3>Compressor Partial Load Operation</h3>
                                 <p>Reduces compressor speed and electrical work during peak hours.</p>
                             </div>
                         </div>
@@ -280,7 +280,7 @@
                         <div class="gb-cap-item">
                             <div class="gb-cap-icon"><i class="fa-solid fa-sun"></i></div>
                             <div class="gb-cap-text">
-                                <h4>Dual Phototransistor Sun Tracking</h4>
+                                <h3>Dual Phototransistor Sun Tracking</h3>
                                 <p>Automated 12V DC stepper motor tracks solar movement for maximum heat focus.</p>
                             </div>
                         </div>
@@ -289,7 +289,7 @@
                         <div class="gb-cap-item">
                             <div class="gb-cap-icon"><i class="fa-solid fa-shield-virus"></i></div>
                             <div class="gb-cap-text">
-                                <h4>Arrests Summer Capacity Deration</h4>
+                                <h3>Arrests Summer Capacity Deration</h3>
                                 <p>Prevents AC cooling capacity loss during extreme peak summer ambient temperatures.</p>
                             </div>
                         </div>
@@ -335,56 +335,56 @@
                 <!-- Benefit 1 -->
                 <div class="gb-why-card">
                     <div class="gb-why-icon"><i class="fa-solid fa-bolt-lightning"></i></div>
-                    <h4>Up to 40% Reduction in AC Bills</h4>
+                    <h3>Up to 40% Reduction in AC Bills</h3>
                     <p>Dramatically lowers monthly kilowatt-hour consumption for VRF units and central chillers.</p>
                 </div>
 
                 <!-- Benefit 2 -->
                 <div class="gb-why-card">
                     <div class="gb-why-icon"><i class="fa-solid fa-chart-line"></i></div>
-                    <h4>Best-in-Industry COP of 6+</h4>
+                    <h3>Best-in-Industry COP of 6+</h3>
                     <p>Elevates overall system Coefficient of Performance well beyond standard AC design limits.</p>
                 </div>
 
                 <!-- Benefit 3 -->
                 <div class="gb-why-card">
                     <div class="gb-why-icon"><i class="fa-solid fa-heart-pulse"></i></div>
-                    <h4>Improved AC Operating Life</h4>
+                    <h3>Improved AC Operating Life</h3>
                     <p>Compressor runs at reduced partial load speeds, extending mechanical lifespan and lowering wear.</p>
                 </div>
 
                 <!-- Benefit 4 -->
                 <div class="gb-why-card">
                     <div class="gb-why-icon"><i class="fa-solid fa-maximize"></i></div>
-                    <h4>1200% More Space Efficient</h4>
+                    <h3>1200% More Space Efficient</h3>
                     <p>Requires a fraction of the rooftop footprint compared to standard photovoltaic solar panels.</p>
                 </div>
 
                 <!-- Benefit 5 -->
                 <div class="gb-why-card">
                     <div class="gb-why-icon"><i class="fa-solid fa-piggy-bank"></i></div>
-                    <h4>Saves Capital Costs &amp; Prevents Deration</h4>
+                    <h3>Saves Capital Costs &amp; Prevents Deration</h3>
                     <p>Reduces required HVAC sizing and prevents cooling capacity loss during 45°C+ summer heatwaves.</p>
                 </div>
 
                 <!-- Benefit 6 -->
                 <div class="gb-why-card">
                     <div class="gb-why-icon"><i class="fa-solid fa-file-invoice-dollar"></i></div>
-                    <h4>Government Incentives &amp; Depreciation</h4>
+                    <h3>Government Incentives &amp; Depreciation</h3>
                     <p>Eligible for 12% GST rate and accelerated 40% depreciation tax benefits for renewable energy.</p>
                 </div>
 
                 <!-- Benefit 7 -->
                 <div class="gb-why-card">
                     <div class="gb-why-icon"><i class="fa-solid fa-clock-rotate-left"></i></div>
-                    <h4>~3 Years Payback Period</h4>
+                    <h3>~3 Years Payback Period</h3>
                     <p>Delivers full capital return within ~3 years through guaranteed monthly energy cost savings.</p>
                 </div>
 
                 <!-- Benefit 8 -->
                 <div class="gb-why-card">
                     <div class="gb-why-icon"><i class="fa-solid fa-shield-halved"></i></div>
-                    <h4>15-Year Life &amp; 5-Year Warranty</h4>
+                    <h3>15-Year Life &amp; 5-Year Warranty</h3>
                     <p>Heavy-duty aluminum enclosure, hardened glass, and EPDM insulation engineered for 15-year operational life.</p>
                 </div>
             </div>
@@ -409,7 +409,7 @@
                     <div class="gb-process-step">
                         <div class="gb-process-num-wrapper">01</div>
                         <div class="gb-process-step-content">
-                            <h4>VRF &amp; Chiller Site Audit</h4>
+                            <h3>VRF &amp; Chiller Site Audit</h3>
                             <p>Auditing AC tonnage, compressor specs, outdoor unit placement, and daily solar shadow angles.</p>
                         </div>
                     </div>
@@ -418,7 +418,7 @@
                     <div class="gb-process-step">
                         <div class="gb-process-num-wrapper">02</div>
                         <div class="gb-process-step-content">
-                            <h4>HTS Panel Layout &amp; Pipe Sizing</h4>
+                            <h3>HTS Panel Layout &amp; Pipe Sizing</h3>
                             <p>Designing copper refrigeration line taps between compressor and condenser with sun-tracking alignment.</p>
                         </div>
                     </div>
@@ -427,7 +427,7 @@
                     <div class="gb-process-step">
                         <div class="gb-process-num-wrapper">03</div>
                         <div class="gb-process-step-content">
-                            <h4>Retrofit Installation &amp; Piping</h4>
+                            <h3>Retrofit Installation &amp; Piping</h3>
                             <p>Mounting HTS panels on adjustable stands, tapping refrigeration loops, and wiring 12V tracker sensors.</p>
                         </div>
                     </div>
@@ -436,7 +436,7 @@
                     <div class="gb-process-step">
                         <div class="gb-process-num-wrapper">04</div>
                         <div class="gb-process-step-content">
-                            <h4>Testing &amp; Energy Verification</h4>
+                            <h3>Testing &amp; Energy Verification</h3>
                             <p>Verifying refrigerant pressures, sun-tracking calibration, and measuring kW draw savings.</p>
                         </div>
                     </div>

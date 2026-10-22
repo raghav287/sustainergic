@@ -226,7 +226,7 @@
                             <i class="fa-solid fa-industry"></i>
                         </div>
                         <div class="aud-hero-fc-text">
-                            <h5>Scope 1 & 2</h5>
+                            <strong class=\"fc-title\">Scope 1 & 2</strong>
                             <p>Direct & Utility</p>
                         </div>
                     </div>
@@ -236,7 +236,7 @@
                             <i class="fa-solid fa-truck-ramp-box"></i>
                         </div>
                         <div class="aud-hero-fc-text">
-                            <h5>Scope 3</h5>
+                            <strong class=\"fc-title\">Scope 3</strong>
                             <p>Value Chain</p>
                         </div>
                     </div>
@@ -274,7 +274,7 @@
                         <div class="aud-cap-item">
                             <div class="aud-cap-icon"><i class="fa-solid fa-globe"></i></div>
                             <div class="aud-cap-text">
-                                <h4>Scope 1, 2, and 3 Calculation</h4>
+                                <h3>Scope 1, 2, and 3 Calculation</h3>
                                 <p>Rigorous direct and value-chain carbon inventory mapping.</p>
                             </div>
                         </div>
@@ -282,7 +282,7 @@
                         <div class="aud-cap-item">
                             <div class="aud-cap-icon"><i class="fa-solid fa-arrows-spin"></i></div>
                             <div class="aud-cap-text">
-                                <h4>Life Cycle Assessment (LCA)</h4>
+                                <h3>Life Cycle Assessment (LCA)</h3>
                                 <p>Cradle-to-grave environmental impact studies for products.</p>
                             </div>
                         </div>
@@ -290,7 +290,7 @@
                         <div class="aud-cap-item">
                             <div class="aud-cap-icon"><i class="fa-solid fa-file-shield"></i></div>
                             <div class="aud-cap-text">
-                                <h4>Environmental Product Declarations</h4>
+                                <h3>Environmental Product Declarations</h3>
                                 <p>Technical preparation of verified, transparent EPD reports.</p>
                             </div>
                         </div>
@@ -298,7 +298,7 @@
                         <div class="aud-cap-item">
                             <div class="aud-cap-icon"><i class="fa-solid fa-chart-line"></i></div>
                             <div class="aud-cap-text">
-                                <h4>GHG Emissions Reporting</h4>
+                                <h3>GHG Emissions Reporting</h3>
                                 <p>Framework compliance reporting (CDP, BRSR, GRI, etc.).</p>
                             </div>
                         </div>
@@ -306,7 +306,7 @@
                         <div class="aud-cap-item">
                             <div class="aud-cap-icon"><i class="fa-solid fa-seedling"></i></div>
                             <div class="aud-cap-text">
-                                <h4>Carbon Mitigation Strategy</h4>
+                                <h3>Carbon Mitigation Strategy</h3>
                                 <p>Practical roadmap development to execute real carbon reductions.</p>
                             </div>
                         </div>
@@ -633,7 +633,7 @@
                     <div class="aud-process-step">
                         <div class="aud-process-num-wrapper">01</div>
                         <div class="aud-process-text">
-                            <h4>Objective & Boundary</h4>
+                            <h3>Objective & Boundary</h3>
                             <p>Understand the organization, reporting limits, and boundary profiles.</p>
                         </div>
                     </div>
@@ -642,7 +642,7 @@
                     <div class="aud-process-step">
                         <div class="aud-process-num-wrapper">02</div>
                         <div class="aud-process-text">
-                            <h4>Data Collection</h4>
+                            <h3>Data Collection</h3>
                             <p>Gather activity records, logistics logs, and raw energy bills.</p>
                         </div>
                     </div>
@@ -651,7 +651,7 @@
                     <div class="aud-process-step">
                         <div class="aud-process-num-wrapper">03</div>
                         <div class="aud-process-text">
-                            <h4>Data Validation</h4>
+                            <h3>Data Validation</h3>
                             <p>Review raw logs for complete datasets, consistency, and alignment.</p>
                         </div>
                     </div>
@@ -660,7 +660,7 @@
                     <div class="aud-process-step">
                         <div class="aud-process-num-wrapper">04</div>
                         <div class="aud-process-text">
-                            <h4>Emissions Calculation</h4>
+                            <h3>Emissions Calculation</h3>
                             <p>Apply suitable emission factors and protocol formulas to raw values.</p>
                         </div>
                     </div>
@@ -669,7 +669,7 @@
                     <div class="aud-process-step">
                         <div class="aud-process-num-wrapper">05</div>
                         <div class="aud-process-text">
-                            <h4>Impact & Hotspots</h4>
+                            <h3>Impact & Hotspots</h3>
                             <p>Identify major emissions spikes and optimization targets.</p>
                         </div>
                     </div>
@@ -678,7 +678,7 @@
                     <div class="aud-process-step">
                         <div class="aud-process-num-wrapper">06</div>
                         <div class="aud-process-text">
-                            <h4>Reporting Roadmap</h4>
+                            <h3>Reporting Roadmap</h3>
                             <p>Prepare ESG advisory files and define practical mitigation paths.</p>
                         </div>
                     </div>
@@ -701,62 +701,62 @@
                 <!-- Card 1 -->
                 <div class="aud-assess-card aud-assess-card--scope1">
                     <div class="aud-assess-icon"><i class="fa-solid fa-temperature-arrow-down"></i></div>
-                    <h4>Energy-Efficiency Improvements</h4>
+                    <h3>Energy-Efficiency Improvements</h3>
                 </div>
                 <!-- Card 2 -->
                 <div class="aud-assess-card aud-assess-card--scope1">
                     <div class="aud-assess-icon"><i class="fa-solid fa-solar-panel"></i></div>
-                    <h4>Renewable-Energy Integration</h4>
+                    <h3>Renewable-Energy Integration</h3>
                 </div>
                 <!-- Card 3 -->
                 <div class="aud-assess-card aud-assess-card--scope1">
                     <div class="aud-assess-icon"><i class="fa-solid fa-fire-burner"></i></div>
-                    <h4>Cleaner Fuels & Technologies</h4>
+                    <h3>Cleaner Fuels & Technologies</h3>
                 </div>
                 <!-- Card 4 -->
                 <div class="aud-assess-card aud-assess-card--scope1">
                     <div class="aud-assess-icon"><i class="fa-solid fa-power-off"></i></div>
-                    <h4>Building-System Optimization</h4>
+                    <h3>Building-System Optimization</h3>
                 </div>
                 <!-- Card 5 -->
                 <div class="aud-assess-card aud-assess-card--scope2">
                     <div class="aud-assess-icon"><i class="fa-solid fa-recycle"></i></div>
-                    <h4>Sustainable Material Selection</h4>
+                    <h3>Sustainable Material Selection</h3>
                 </div>
                 <!-- Card 6 -->
                 <div class="aud-assess-card aud-assess-card--scope2">
                     <div class="aud-assess-icon"><i class="fa-solid fa-truck-pickup"></i></div>
-                    <h4>Low-Carbon Transportation</h4>
+                    <h3>Low-Carbon Transportation</h3>
                 </div>
                 <!-- Card 7 -->
                 <div class="aud-assess-card aud-assess-card--scope2">
                     <div class="aud-assess-icon"><i class="fa-solid fa-handshake"></i></div>
-                    <h4>Supply-Chain Engagement</h4>
+                    <h3>Supply-Chain Engagement</h3>
                 </div>
                 <!-- Card 8 -->
                 <div class="aud-assess-card aud-assess-card--scope2">
                     <div class="aud-assess-icon"><i class="fa-solid fa-trash-arrow-up"></i></div>
-                    <h4>Waste Reduction & Circularity</h4>
+                    <h3>Waste Reduction & Circularity</h3>
                 </div>
                 <!-- Card 9 -->
                 <div class="aud-assess-card aud-assess-card--scope3">
                     <div class="aud-assess-icon"><i class="fa-solid fa-droplet-slash"></i></div>
-                    <h4>Water & Resource Efficiency</h4>
+                    <h3>Water & Resource Efficiency</h3>
                 </div>
                 <!-- Card 10 -->
                 <div class="aud-assess-card aud-assess-card--scope3">
                     <div class="aud-assess-icon"><i class="fa-solid fa-industry"></i></div>
-                    <h4>Operational Process Audits</h4>
+                    <h3>Operational Process Audits</h3>
                 </div>
                 <!-- Card 11 -->
                 <div class="aud-assess-card aud-assess-card--scope3">
                     <div class="aud-assess-icon"><i class="fa-solid fa-users"></i></div>
-                    <h4>Employee Awareness</h4>
+                    <h3>Employee Awareness</h3>
                 </div>
                 <!-- Card 12 -->
                 <div class="aud-assess-card aud-assess-card--scope1">
                     <div class="aud-assess-icon"><i class="fa-solid fa-gauge"></i></div>
-                    <h4>Carbon Performance Monitoring</h4>
+                    <h3>Carbon Performance Monitoring</h3>
                 </div>
             </div>
             
@@ -781,52 +781,52 @@
                 <!-- 1 -->
                 <div class="aud-fac-card">
                     <div class="aud-fac-icon"><i class="fa-solid fa-building"></i></div>
-                    <h4>Commercial Buildings</h4>
+                    <h3>Commercial Buildings</h3>
                 </div>
                 <!-- 2 -->
                 <div class="aud-fac-card">
                     <div class="aud-fac-icon"><i class="fa-solid fa-city"></i></div>
-                    <h4>Real Estate Developments</h4>
+                    <h3>Real Estate Developments</h3>
                 </div>
                 <!-- 3 -->
                 <div class="aud-fac-card">
                     <div class="aud-fac-icon"><i class="fa-solid fa-industry"></i></div>
-                    <h4>Manufacturing Industries</h4>
+                    <h3>Manufacturing Industries</h3>
                 </div>
                 <!-- 4 -->
                 <div class="aud-fac-card">
                     <div class="aud-fac-icon"><i class="fa-solid fa-box-open"></i></div>
-                    <h4>Product Manufacturers</h4>
+                    <h3>Product Manufacturers</h3>
                 </div>
                 <!-- 5 -->
                 <div class="aud-fac-card">
                     <div class="aud-fac-icon"><i class="fa-solid fa-hotel"></i></div>
-                    <h4>Hotels & Hospitality</h4>
+                    <h3>Hotels & Hospitality</h3>
                 </div>
                 <!-- 6 -->
                 <div class="aud-fac-card">
                     <div class="aud-fac-icon"><i class="fa-solid fa-hospital"></i></div>
-                    <h4>Healthcare Facilities</h4>
+                    <h3>Healthcare Facilities</h3>
                 </div>
                 <!-- 7 -->
                 <div class="aud-fac-card">
                     <div class="aud-fac-icon"><i class="fa-solid fa-graduation-cap"></i></div>
-                    <h4>Educational Institutions</h4>
+                    <h3>Educational Institutions</h3>
                 </div>
                 <!-- 8 -->
                 <div class="aud-fac-card">
                     <div class="aud-fac-icon"><i class="fa-solid fa-bridge"></i></div>
-                    <h4>Infrastructure Projects</h4>
+                    <h3>Infrastructure Projects</h3>
                 </div>
                 <!-- 9 -->
                 <div class="aud-fac-card">
                     <div class="aud-fac-icon"><i class="fa-solid fa-store"></i></div>
-                    <h4>Retail & Mixed-Use</h4>
+                    <h3>Retail & Mixed-Use</h3>
                 </div>
                 <!-- 10 -->
                 <div class="aud-fac-card">
                     <div class="aud-fac-icon"><i class="fa-solid fa-briefcase"></i></div>
-                    <h4>Corporate Offices</h4>
+                    <h3>Corporate Offices</h3>
                 </div>
             </div>
         </div>
@@ -920,37 +920,37 @@
                 <!-- 1 -->
                 <div class="aud-why-card">
                     <div class="aud-why-icon"><i class="fa-solid fa-shield-halved"></i></div>
-                    <h4>Integrated carbon and sustainability expertise</h4>
+                    <h3>Integrated carbon and sustainability expertise</h3>
                     <p>We connect carbon mapping with site energy audits and simulation tools, uncovering practical reduction synergies.</p>
                 </div>
                 <!-- 2 -->
                 <div class="aud-why-card">
                     <div class="aud-why-icon"><i class="fa-solid fa-sitemap"></i></div>
-                    <h4>Support across organizational & product levels</h4>
+                    <h3>Support across organizational & product levels</h3>
                     <p>Rigorous calculations spanning organization boundaries, materials systems, and individual product lifecycle stages.</p>
                 </div>
                 <!-- 3 -->
                 <div class="aud-why-card">
                     <div class="aud-why-icon"><i class="fa-solid fa-square-check"></i></div>
-                    <h4>Recognized calculation methodologies</h4>
+                    <h3>Recognized calculation methodologies</h3>
                     <p>All inventories are developed strictly in accordance with the GHG Protocol, ISO standards, and EPD rules.</p>
                 </div>
                 <!-- 4 -->
                 <div class="aud-why-card">
                     <div class="aud-why-icon"><i class="fa-solid fa-magnifying-glass-chart"></i></div>
-                    <h4>Detailed and transparent documentation</h4>
+                    <h3>Detailed and transparent documentation</h3>
                     <p>We compile audit-ready worksheets and fully traceable factor calculations that simplify ESG verification audits.</p>
                 </div>
                 <!-- 5 -->
                 <div class="aud-why-card">
                     <div class="aud-why-icon"><i class="fa-solid fa-lightbulb"></i></div>
-                    <h4>Practical mitigation recommendations</h4>
+                    <h3>Practical mitigation recommendations</h3>
                     <p>We focus on direct emissions mitigation, including HVAC optimization, electrification, and on-site clean power.</p>
                 </div>
                 <!-- 6 -->
                 <div class="aud-why-card">
                     <div class="aud-why-icon"><i class="fa-solid fa-globe"></i></div>
-                    <h4>End-to-end technical advisory support</h4>
+                    <h3>End-to-end technical advisory support</h3>
                     <p>From initial scopes boundaries mapping to verified ESG disclosure support, we are your long-term decarbonization partner.</p>
                 </div>
             </div>

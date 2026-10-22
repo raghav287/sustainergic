@@ -84,7 +84,7 @@
                                 <i class="fa-solid fa-temperature-arrow-up"></i>
                             </div>
                             <div class="gb-hero-fc-text">
-                                <h5>COP 4.0+ Efficiency</h5>
+                                <strong class=\"fc-title\">COP 4.0+ Efficiency</strong>
                                 <p>300%–400% Thermal Output</p>
                             </div>
                         </div>
@@ -95,7 +95,7 @@
                                 <i class="fa-solid fa-leaf"></i>
                             </div>
                             <div class="gb-hero-fc-text">
-                                <h5>Zero Scope 1 Emissions</h5>
+                                <strong class=\"fc-title\">Zero Scope 1 Emissions</strong>
                                 <p>Replaces Fossil Boilers</p>
                             </div>
                         </div>
@@ -135,7 +135,7 @@
                         <div class="gb-cap-item">
                             <div class="gb-cap-icon"><i class="fa-solid fa-wind"></i></div>
                             <div class="gb-cap-text">
-                                <h4>Air-to-Water &amp; Water to Water Heat Pumps</h4>
+                                <h3>Air-to-Water &amp; Water to Water Heat Pumps</h3>
                                 <p>Extracting free thermal energy from ambient outdoor air to generate hot water (up to 65°C) or space cooling.</p>
                             </div>
                         </div>
@@ -154,7 +154,7 @@
                         <div class="gb-cap-item">
                             <div class="gb-cap-icon"><i class="fa-solid fa-industry"></i></div>
                             <div class="gb-cap-text">
-                                <h4>High-Temperature Industrial Heat Pumps</h4>
+                                <h3>High-Temperature Industrial Heat Pumps</h3>
                                 <p>Delivering high-temp hot water (80°C–90°C) for industrial washing, food processing, and textile manufacturing.</p>
                             </div>
                         </div>
@@ -163,7 +163,7 @@
                         <div class="gb-cap-item">
                             <div class="gb-cap-icon"><i class="fa-solid fa-solar-panel"></i></div>
                             <div class="gb-cap-text">
-                                <h4>Hybrid Solar &amp; Thermal Storage Integration</h4>
+                                <h3>Hybrid Solar &amp; Thermal Storage Integration</h3>
                                 <p>Pairing heat pumps with solar thermal collectors or PV solar panels for zero-carbon hot water systems.</p>
                             </div>
                         </div>
@@ -283,28 +283,28 @@
                 <!-- Advantage 1 -->
                 <div class="gb-why-card">
                     <div class="gb-why-icon"><i class="fa-solid fa-chart-line"></i></div>
-                    <h4>300%–400% Thermal Efficiency (COP 3–4+)</h4>
+                    <h3>300%–400% Thermal Efficiency (COP 3–4+)</h3>
                     <p>Unlike electrical resistance heaters or gas boilers capped at 90%–98% efficiency, heat pumps deliver 3 to 4 kWh of thermal energy for every 1 kWh of power consumed.</p>
                 </div>
 
                 <!-- Advantage 2 -->
                 <div class="gb-why-card">
                     <div class="gb-why-icon"><i class="fa-solid fa-smog"></i></div>
-                    <h4>Elimination of Fossil Fuel Boilers</h4>
+                    <h3>Elimination of Fossil Fuel Boilers</h3>
                     <p>Replaces diesel, LPG, and natural gas boilers, eliminating direct Scope 1 chimney emissions, fuel storage hazards, and high fuel price volatility.</p>
                 </div>
 
                 <!-- Advantage 3 -->
                 <div class="gb-why-card">
                     <div class="gb-why-icon"><i class="fa-solid fa-repeat"></i></div>
-                    <h4>Year-Round All-Season Utility</h4>
+                    <h3>Year-Round All-Season Utility</h3>
                     <p>Provides space heating during cold winter months and switches seamlessly to space cooling during summer via reversing valves, maximizing asset utilization.</p>
                 </div>
 
                 <!-- Advantage 4 -->
                 <div class="gb-why-card">
                     <div class="gb-why-icon"><i class="fa-solid fa-piggy-bank"></i></div>
-                    <h4>Substantial Operating Cost Savings</h4>
+                    <h3>Substantial Operating Cost Savings</h3>
                     <p>Cuts commercial hot water heating energy bills by up to 65% compared to electric geysers or oil-fired water boilers.</p>
                 </div>
             </div>
@@ -330,7 +330,7 @@
                     <div class="gb-process-step">
                         <div class="gb-process-num-wrapper">01</div>
                         <div class="gb-process-step-content">
-                            <h4>Thermal Audit &amp; Load Profile</h4>
+                            <h3>Thermal Audit &amp; Load Profile</h3>
                             <p>Analyzing peak hourly heating, cooling, and domestic hot water GPM demand profiles for the facility.</p>
                         </div>
                     </div>
@@ -339,7 +339,7 @@
                     <div class="gb-process-step">
                         <div class="gb-process-num-wrapper">02</div>
                         <div class="gb-process-step-content">
-                            <h4>Refrigerant &amp; Unit Selection</h4>
+                            <h3>Refrigerant &amp; Unit Selection</h3>
                             <p>Selecting eco-friendly R-32 or R-744 (CO₂) heat pumps tailored to required hot water delivery temperatures (55°C–80°C).</p>
                         </div>
                     </div>
@@ -348,7 +348,7 @@
                     <div class="gb-process-step">
                         <div class="gb-process-num-wrapper">03</div>
                         <div class="gb-process-step-content">
-                            <h4>Buffer Tank &amp; Hydronic Piping</h4>
+                            <h3>Buffer Tank &amp; Hydronic Piping</h3>
                             <p>Sizing thermal hot/chilled water buffer storage tanks, circulation pumps, anti-legionella cycles, and BMS controls.</p>
                         </div>
                     </div>
@@ -357,7 +357,7 @@
                     <div class="gb-process-step">
                         <div class="gb-process-num-wrapper">04</div>
                         <div class="gb-process-step-content">
-                            <h4>Commissioning &amp; COP Verification</h4>
+                            <h3>Commissioning &amp; COP Verification</h3>
                             <p>Conducting hydrostatic pressure tests, electrical safety checks, and verifying seasonal coefficient of performance (SCOP).</p>
                         </div>
                     </div>

@@ -92,7 +92,7 @@
                             <i class="fa-solid fa-bolt"></i>
                         </div>
                         <div class="aud-hero-fc-text">
-                            <h5>Energy Audits</h5>
+                            <strong class=\"fc-title\">Energy Audits</strong>
                             <p>HVAC & Systems</p>
                         </div>
                     </div>
@@ -102,7 +102,7 @@
                             <i class="fa-solid fa-droplet"></i>
                         </div>
                         <div class="aud-hero-fc-text">
-                            <h5>Water Audits</h5>
+                            <strong class=\"fc-title\">Water Audits</strong>
                             <p>Leakage & Reuse</p>
                         </div>
                     </div>
@@ -140,7 +140,7 @@
                         <div class="aud-cap-item">
                             <div class="aud-cap-icon"><i class="fa-solid fa-building-circle-check"></i></div>
                             <div class="aud-cap-text">
-                                <h4>On-site System Assessment</h4>
+                                <h3>On-site System Assessment</h3>
                                 <p>Comprehensive field testing of utilities and equipment.</p>
                             </div>
                         </div>
@@ -148,7 +148,7 @@
                         <div class="aud-cap-item">
                             <div class="aud-cap-icon"><i class="fa-solid fa-chart-pie"></i></div>
                             <div class="aud-cap-text">
-                                <h4>Consumption & Utility Analysis</h4>
+                                <h3>Consumption & Utility Analysis</h3>
                                 <p>Detailed reviews of historic billings and load profiles.</p>
                             </div>
                         </div>
@@ -156,7 +156,7 @@
                         <div class="aud-cap-item">
                             <div class="aud-cap-icon"><i class="fa-solid fa-triangle-exclamation"></i></div>
                             <div class="aud-cap-text">
-                                <h4>Loss & Inefficiency Identification</h4>
+                                <h3>Loss & Inefficiency Identification</h3>
                                 <p>Locating system leakage, friction, and heat loss.</p>
                             </div>
                         </div>
@@ -164,7 +164,7 @@
                         <div class="aud-cap-item">
                             <div class="aud-cap-icon"><i class="fa-solid fa-lightbulb"></i></div>
                             <div class="aud-cap-text">
-                                <h4>Conservation Recommendations</h4>
+                                <h3>Conservation Recommendations</h3>
                                 <p>Practical and cost-effective improvement roadmaps.</p>
                             </div>
                         </div>
@@ -355,7 +355,7 @@
                     <div class="aud-process-step">
                         <div class="aud-process-num-wrapper">01</div>
                         <div class="aud-process-text">
-                            <h4>Initial Consultation</h4>
+                            <h3>Initial Consultation</h3>
                             <p>Understand the facility, operational profiles, constraints, and audit objectives.</p>
                         </div>
                     </div>
@@ -364,7 +364,7 @@
                     <div class="aud-process-step">
                         <div class="aud-process-num-wrapper">02</div>
                         <div class="aud-process-text">
-                            <h4>Site Assessment</h4>
+                            <h3>Site Assessment</h3>
                             <p>Inspect relevant building infrastructure, utilities, systems, and equipment.</p>
                         </div>
                     </div>
@@ -373,7 +373,7 @@
                     <div class="aud-process-step">
                         <div class="aud-process-num-wrapper">03</div>
                         <div class="aud-process-text">
-                            <h4>Data Collection</h4>
+                            <h3>Data Collection</h3>
                             <p>Review utility bills, consumption logs, drawings, and operating cycles.</p>
                         </div>
                     </div>
@@ -382,7 +382,7 @@
                     <div class="aud-process-step">
                         <div class="aud-process-num-wrapper">04</div>
                         <div class="aud-process-text">
-                            <h4>Instrument Data Acquisition</h4>
+                            <h3>Instrument Data Acquisition</h3>
                             <p>Deploy calibrated instruments and meters for logging real-time system metrics.</p>
                         </div>
                     </div>
@@ -391,7 +391,7 @@
                     <div class="aud-process-step">
                         <div class="aud-process-num-wrapper">05</div>
                         <div class="aud-process-text">
-                            <h4>Data Analysis</h4>
+                            <h3>Data Analysis</h3>
                             <p>Analyze performance patterns, HVAC loads, efficiency baselines, and losses.</p>
                         </div>
                     </div>
@@ -400,7 +400,7 @@
                     <div class="aud-process-step">
                         <div class="aud-process-num-wrapper">06</div>
                         <div class="aud-process-text">
-                            <h4>Recommendations</h4>
+                            <h3>Recommendations</h3>
                             <p>Develop practical measures for improving efficiency and reducing consumption.</p>
                         </div>
                     </div>
@@ -409,7 +409,7 @@
                     <div class="aud-process-step">
                         <div class="aud-process-num-wrapper">07</div>
                         <div class="aud-process-text">
-                            <h4>Reporting & Support</h4>
+                            <h3>Reporting & Support</h3>
                             <p>Present findings in a clear report and support implementation decisions.</p>
                         </div>
                     </div>
@@ -432,69 +432,69 @@
                 <!-- Energy Assessment Cards (8) -->
                 <div class="aud-assess-card aud-assess-card--energy">
                     <div class="aud-assess-icon"><i class="fa-solid fa-temperature-half"></i></div>
-                    <h4>HVAC Systems</h4>
+                    <h3>HVAC Systems</h3>
                 </div>
                 <div class="aud-assess-card aud-assess-card--energy">
                     <div class="aud-assess-icon"><i class="fa-solid fa-lightbulb"></i></div>
-                    <h4>Lighting & Controls</h4>
+                    <h3>Lighting & Controls</h3>
                 </div>
                 <div class="aud-assess-card aud-assess-card--energy">
                     <div class="aud-assess-icon"><i class="fa-solid fa-network-wired"></i></div>
-                    <h4>Electrical Distribution</h4>
+                    <h3>Electrical Distribution</h3>
                 </div>
                 <div class="aud-assess-card aud-assess-card--energy">
                     <div class="aud-assess-icon"><i class="fa-solid fa-bolt"></i></div>
-                    <h4>Power Factor Correction</h4>
+                    <h3>Power Factor Correction</h3>
                 </div>
                 <div class="aud-assess-card aud-assess-card--energy">
                     <div class="aud-assess-icon"><i class="fa-solid fa-industry"></i></div>
-                    <h4>Electromechanical Equipment</h4>
+                    <h3>Electromechanical Equipment</h3>
                 </div>
                 <div class="aud-assess-card aud-assess-card--energy">
                     <div class="aud-assess-icon"><i class="fa-solid fa-solar-panel"></i></div>
-                    <h4>Renewable Energy Integration</h4>
+                    <h3>Renewable Energy Integration</h3>
                 </div>
                 <div class="aud-assess-card aud-assess-card--energy">
                     <div class="aud-assess-icon"><i class="fa-solid fa-file-invoice-dollar"></i></div>
-                    <h4>Utility Consumption</h4>
+                    <h3>Utility Consumption</h3>
                 </div>
                 <div class="aud-assess-card aud-assess-card--energy">
                     <div class="aud-assess-icon"><i class="fa-solid fa-clock-rotate-left"></i></div>
-                    <h4>Operating Practices</h4>
+                    <h3>Operating Practices</h3>
                 </div>
 
                 <!-- Water Assessment Cards (8) -->
                 <div class="aud-assess-card aud-assess-card--water">
                     <div class="aud-assess-icon"><i class="fa-solid fa-faucet-drip"></i></div>
-                    <h4>Water Supply & Grid</h4>
+                    <h3>Water Supply & Grid</h3>
                 </div>
                 <div class="aud-assess-card aud-assess-card--water">
                     <div class="aud-assess-icon"><i class="fa-solid fa-temperature-arrow-up"></i></div>
-                    <h4>Hot Water Systems</h4>
+                    <h3>Hot Water Systems</h3>
                 </div>
                 <div class="aud-assess-card aud-assess-card--water">
                     <div class="aud-assess-icon"><i class="fa-solid fa-shower"></i></div>
-                    <h4>Plumbing Fixtures</h4>
+                    <h3>Plumbing Fixtures</h3>
                 </div>
                 <div class="aud-assess-card aud-assess-card--water">
                     <div class="aud-assess-icon"><i class="fa-solid fa-gears"></i></div>
-                    <h4>Pumps & Storage</h4>
+                    <h3>Pumps & Storage</h3>
                 </div>
                 <div class="aud-assess-card aud-assess-card--water">
                     <div class="aud-assess-icon"><i class="fa-solid fa-triangle-exclamation"></i></div>
-                    <h4>Leakage & Losses</h4>
+                    <h3>Leakage & Losses</h3>
                 </div>
                 <div class="aud-assess-card aud-assess-card--water">
                     <div class="aud-assess-icon"><i class="fa-solid fa-soap"></i></div>
-                    <h4>Wastewater Generation</h4>
+                    <h3>Wastewater Generation</h3>
                 </div>
                 <div class="aud-assess-card aud-assess-card--water">
                     <div class="aud-assess-icon"><i class="fa-solid fa-arrows-spin"></i></div>
-                    <h4>Water Recycling Systems</h4>
+                    <h3>Water Recycling Systems</h3>
                 </div>
                 <div class="aud-assess-card aud-assess-card--water">
                     <div class="aud-assess-icon"><i class="fa-solid fa-cloud-showers-heavy"></i></div>
-                    <h4>Rainwater Harvesting</h4>
+                    <h3>Rainwater Harvesting</h3>
                 </div>
             </div>
         </div>
@@ -514,42 +514,42 @@
                 <!-- 1 -->
                 <div class="aud-fac-card">
                     <div class="aud-fac-icon"><i class="fa-solid fa-building"></i></div>
-                    <h4>Commercial Buildings</h4>
+                    <h3>Commercial Buildings</h3>
                 </div>
                 <!-- 2 -->
                 <div class="aud-fac-card">
                     <div class="aud-fac-icon"><i class="fa-solid fa-house-chimney"></i></div>
-                    <h4>Residential Developments</h4>
+                    <h3>Residential Developments</h3>
                 </div>
                 <!-- 3 -->
                 <div class="aud-fac-card">
                     <div class="aud-fac-icon"><i class="fa-solid fa-hotel"></i></div>
-                    <h4>Hotels & Hospitality</h4>
+                    <h3>Hotels & Hospitality</h3>
                 </div>
                 <!-- 4 -->
                 <div class="aud-fac-card">
                     <div class="aud-fac-icon"><i class="fa-solid fa-hospital"></i></div>
-                    <h4>Hospitals & Healthcare</h4>
+                    <h3>Hospitals & Healthcare</h3>
                 </div>
                 <!-- 5 -->
                 <div class="aud-fac-card">
                     <div class="aud-fac-icon"><i class="fa-solid fa-graduation-cap"></i></div>
-                    <h4>Educational Institutions</h4>
+                    <h3>Educational Institutions</h3>
                 </div>
                 <!-- 6 -->
                 <div class="aud-fac-card">
                     <div class="aud-fac-icon"><i class="fa-solid fa-industry"></i></div>
-                    <h4>Industrial Facilities</h4>
+                    <h3>Industrial Facilities</h3>
                 </div>
                 <!-- 7 -->
                 <div class="aud-fac-card">
                     <div class="aud-fac-icon"><i class="fa-solid fa-store"></i></div>
-                    <h4>Retail & Mixed-Use</h4>
+                    <h3>Retail & Mixed-Use</h3>
                 </div>
                 <!-- 8 -->
                 <div class="aud-fac-card">
                     <div class="aud-fac-icon"><i class="fa-solid fa-landmark"></i></div>
-                    <h4>Public Buildings</h4>
+                    <h3>Public Buildings</h3>
                 </div>
             </div>
         </div>
@@ -643,37 +643,37 @@
                 <!-- 1 -->
                 <div class="aud-why-card">
                     <div class="aud-why-icon"><i class="fa-solid fa-shield-halved"></i></div>
-                    <h4>Integrated energy and water expertise</h4>
+                    <h3>Integrated energy and water expertise</h3>
                     <p>We analyze energy and water flows simultaneously, identifying synergistic conservation opportunities.</p>
                 </div>
                 <!-- 2 -->
                 <div class="aud-why-card">
                     <div class="aud-why-icon"><i class="fa-solid fa-magnifying-glass"></i></div>
-                    <h4>Detailed facility and system assessments</h4>
+                    <h3>Detailed facility and system assessments</h3>
                     <p>Our engineers perform rigorous on-site measurements to construct true operational load profiles.</p>
                 </div>
                 <!-- 3 -->
                 <div class="aud-why-card">
                     <div class="aud-why-icon"><i class="fa-solid fa-chart-line"></i></div>
-                    <h4>Data-driven performance analysis</h4>
+                    <h3>Data-driven performance analysis</h3>
                     <p>All recommendations are backed by calibrated consumption data and engineering energy-balance checks.</p>
                 </div>
                 <!-- 4 -->
                 <div class="aud-why-card">
                     <div class="aud-why-icon"><i class="fa-solid fa-lightbulb"></i></div>
-                    <h4>Practical and achievable recommendations</h4>
+                    <h3>Practical and achievable recommendations</h3>
                     <p>We design specific pay-back roadmaps that focus on low-cost high-impact adjustments first.</p>
                 </div>
                 <!-- 5 -->
                 <div class="aud-why-card">
                     <div class="aud-why-icon"><i class="fa-solid fa-file-invoice"></i></div>
-                    <h4>Clear technical reporting</h4>
+                    <h3>Clear technical reporting</h3>
                     <p>We provide easy-to-read technical summaries, payback charts, and implementation guidance notes.</p>
                 </div>
                 <!-- 6 -->
                 <div class="aud-why-card">
                     <div class="aud-why-icon"><i class="fa-solid fa-globe"></i></div>
-                    <h4>Support for long-term sustainability goals</h4>
+                    <h3>Support for long-term sustainability goals</h3>
                     <p>Active engineering partnership to help you execute adjustments, track savings, and secure green ratings.</p>
                 </div>
             </div>

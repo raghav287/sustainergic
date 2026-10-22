@@ -84,7 +84,7 @@
                                 <i class="fa-solid fa-temperature-arrow-down"></i>
                             </div>
                             <div class="gb-hero-fc-text">
-                                <h5>Draft-Free Comfort</h5>
+                                <strong class=\"fc-title\">Draft-Free Comfort</strong>
                                 <p>Uniform Temperature</p>
                             </div>
                         </div>
@@ -95,7 +95,7 @@
                                 <i class="fa-solid fa-piggy-bank"></i>
                             </div>
                             <div class="gb-hero-fc-text">
-                                <h5>Up to 30% Savings</h5>
+                                <strong class=\"fc-title\">Up to 30% Savings</strong>
                                 <p>Lower Operating Costs</p>
                             </div>
                         </div>
@@ -133,7 +133,7 @@
                         <div class="gb-cap-item">
                             <div class="gb-cap-icon"><i class="fa-solid fa-layer-group"></i></div>
                             <div class="gb-cap-text">
-                                <h4>In-slab, surface-embedded, and ceiling panel system</h4>
+                                <h3>In-slab, surface-embedded, and ceiling panel system</h3>
                                 <p>Precision PEX piping layouts, zone manifold balance, and thermal mass optimization for floors &amp; ceilings.</p>
                             </div>
                         </div>
@@ -142,7 +142,7 @@
                         <div class="gb-cap-item">
                             <div class="gb-cap-icon"><i class="fa-solid fa-droplet-slash"></i></div>
                             <div class="gb-cap-text">
-                                <h4>Dew Point Sensing &amp; Condensation Control</h4>
+                                <h3>Dew Point Sensing &amp; Condensation Control</h3>
                                 <p>Integrated humidity management and dew point monitoring to ensure 100% safe, moisture-free radiant cooling.</p>
                             </div>
                         </div>
@@ -151,7 +151,7 @@
                         <div class="gb-cap-item">
                             <div class="gb-cap-icon"><i class="fa-solid fa-volume-xmark"></i></div>
                             <div class="gb-cap-text">
-                                <h4> Most suitable Technology for NET ZERO Energy Buildings</h4>
+                                <h3> Most suitable Technology for NET ZERO Energy Buildings</h3>
                                 <p>Delivers highly energy-efficient heating and cooling with minimal energy consumption, helping buildings achieve Net Zero Energy goals while maintaining a comfortable and sustainable indoor environment.</p>
                             </div>
                         </div>
@@ -160,7 +160,7 @@
                         <div class="gb-cap-item">
                             <div class="gb-cap-icon"><i class="fa-solid fa-arrows-split-up-and-left"></i></div>
                             <div class="gb-cap-text">
-                                <h4>Heat Pump, Chiller, Renewable Energy Integration 	</h4>
+                                <h3>Heat Pump, Chiller, Renewable Energy Integration 	</h3>
                                 <p>Seamless pairing with air-to-water heat pumps and geothermal systems to maximize overall COP.</p>
                             </div>
                         </div>
@@ -258,29 +258,29 @@
                 <!-- Advantage 1 -->
                 <div class="gb-why-card">
                     <div class="gb-why-icon"><i class="fa-solid fa-droplet"></i></div>
-                    <h4>3,500x Heat Transport Efficiency</h4>
+                    <h3>3,500x Heat Transport Efficiency</h3>
                     <p>Water transports heat over 3,500 times more efficiently than air by volume, reducing circulation energy by up to 60% compared to heavy duct fans.</p>
                 </div>
 
                 <!-- Advantage 2 -->
                 <div class="gb-why-card">
                     <div class="gb-why-icon"><i class="fa-solid fa-wind"></i></div>
-                    <h4>30 to 40 % higher energy savings 
-</h4>
+                    <h3>30 to 40 % higher energy savings 
+</h3>
                     <p>By eliminating high-velocity air blowers, radiant systems prevent draft discomfort, cold air dumping, and dust re-circulation.</p>
                 </div>
 
                 <!-- Advantage 3 -->
                 <div class="gb-why-card">
                     <div class="gb-why-icon"><i class="fa-solid fa-maximize"></i></div>
-                    <h4>Enhanced thermal comfort </h4>
+                    <h3>Enhanced thermal comfort </h3>
                     <p>Concealed floor and ceiling piping eliminates bulky air ducts, fan coil units, and floor registers, giving architects complete aesthetic freedom.</p>
                 </div>
 
                 <!-- Advantage 4 -->
                 <div class="gb-why-card">
                     <div class="gb-why-icon"><i class="fa-solid fa-arrow-trend-down"></i></div>
-                    <h4>No draft , More space saving</h4>
+                    <h3>No draft , More space saving</h3>
                     <p>Radiant cooling operates with higher chilled water supply temperatures (14°C–16°C vs 7°C for FCUs), enabling chillers and heat pumps to run at significantly higher efficiency (COP).</p>
                 </div>
             </div>
@@ -306,7 +306,7 @@
                     <div class="gb-process-step">
                         <div class="gb-process-num-wrapper">01</div>
                         <div class="gb-process-step-content">
-                            <h4>Thermal Load &amp; Surface Analysis</h4>
+                            <h3>Thermal Load &amp; Surface Analysis</h3>
                             <p>Calculating zone-by-zone sensible cooling/heating loads and evaluating floor/ceiling surface temperature limits to prevent condensation.</p>
                         </div>
                     </div>
@@ -315,7 +315,7 @@
                     <div class="gb-process-step">
                         <div class="gb-process-num-wrapper">02</div>
                         <div class="gb-process-step-content">
-                            <h4>Hydronic System Selection</h4>
+                            <h3>Hydronic System Selection</h3>
                             <p>Selecting optimal radiant surface configurations (underfloor, radiant ceiling panel, or TABS) tailored to architectural and thermal requirements.</p>
                         </div>
                     </div>
@@ -324,7 +324,7 @@
                     <div class="gb-process-step">
                         <div class="gb-process-num-wrapper">03</div>
                         <div class="gb-process-step-content">
-                            <h4>Hydronic Loop &amp; Manifold Design</h4>
+                            <h3>Hydronic Loop &amp; Manifold Design</h3>
                             <p>Designing PEX loop spacing, pipe sizing, manifold location, hydraulic pressure drops, and balancing valve configurations.</p>
                         </div>
                     </div>
@@ -333,7 +333,7 @@
                     <div class="gb-process-step">
                         <div class="gb-process-num-wrapper">04</div>
                         <div class="gb-process-step-content">
-                            <h4>Dew Point &amp; BMS Integration</h4>
+                            <h3>Dew Point &amp; BMS Integration</h3>
                             <p>Integrating dew point sensors, room humidity transmitters, and 2-way modulating valves with the central Building Management System (BMS).</p>
                         </div>
                     </div>
@@ -342,7 +342,7 @@
                     <div class="gb-process-step">
                         <div class="gb-process-num-wrapper">05</div>
                         <div class="gb-process-step-content">
-                            <h4>Commissioning &amp; Balancing</h4>
+                            <h3>Commissioning &amp; Balancing</h3>
                             <p>Flushing hydronic loops, pressure testing, balancing manifold flow rates, and fine-tuning thermal comfort parameters.</p>
                         </div>
                     </div>

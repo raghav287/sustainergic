@@ -84,7 +84,7 @@
                                 <i class="fa-solid fa-fire"></i>
                             </div>
                             <div class="gb-hero-fc-text">
-                                <h5>Even Radiant Heat</h5>
+                                <strong class=\"fc-title\">Even Radiant Heat</strong>
                                 <p>100% Thermal Conversion</p>
                             </div>
                         </div>
@@ -95,7 +95,7 @@
                                 <i class="fa-solid fa-microchip"></i>
                             </div>
                             <div class="gb-hero-fc-text">
-                                <h5>Smart Zone Control</h5>
+                                <strong class=\"fc-title\">Smart Zone Control</strong>
                                 <p>Wi-Fi Thermostats</p>
                             </div>
                         </div>
@@ -133,7 +133,7 @@
                         <div class="gb-cap-item">
                             <div class="gb-cap-icon"><i class="fa-solid fa-border-top-left"></i></div>
                             <div class="gb-cap-text">
-                                <h4>Ultra-Thin Heating Mats</h4>
+                                <h3>Ultra-Thin Heating Mats</h3>
                                 <p>Pre-spaced fiberglass mesh mats (2mm–3mm) for tile, marble, and engineered stone floors.</p>
                             </div>
                         </div>
@@ -142,7 +142,7 @@
                         <div class="gb-cap-item">
                             <div class="gb-cap-icon"><i class="fa-solid fa-bolt"></i></div>
                             <div class="gb-cap-text">
-                                <h4>In-Screed Heavy-Duty Cables</h4>
+                                <h3>In-Screed Heavy-Duty Cables</h3>
                                 <p>Robust dual-conductor heating cables embedded inside concrete screed for long thermal retention.</p>
                             </div>
                         </div>
@@ -151,7 +151,7 @@
                         <div class="gb-cap-item">
                             <div class="gb-cap-icon"><i class="fa-solid fa-temperature-full"></i></div>
                             <div class="gb-cap-text">
-                                <h4>Smart Thermostats &amp; Floor Sensors</h4>
+                                <h3>Smart Thermostats &amp; Floor Sensors</h3>
                                 <p>Wi-Fi smart thermostats with dual floor &amp; air sensors for independent room-by-room temperature control.</p>
                             </div>
                         </div>
@@ -160,7 +160,7 @@
                         <div class="gb-cap-item">
                             <div class="gb-cap-icon"><i class="fa-solid fa-wrench-simple"></i></div>
                             <div class="gb-cap-text">
-                                <h4>Zero Maintenance Architecture</h4>
+                                <h3>Zero Maintenance Architecture</h3>
                                 <p>Solid-state heating elements with no water pipes, boilers, pumps, or risk of leakage.</p>
                             </div>
                         </div>
@@ -258,28 +258,28 @@
                 <!-- Advantage 1 -->
                 <div class="gb-why-card">
                     <div class="gb-why-icon"><i class="fa-solid fa-heart"></i></div>
-                    <h4>Ideal Vertical Heat Profile</h4>
+                    <h3>Ideal Vertical Heat Profile</h3>
                     <p>Warming from the feet up creates the ideal thermal gradient (22°C at floor level, 19°C at head level), keeping occupants warm and comfortable without stuffiness.</p>
                 </div>
 
                 <!-- Advantage 2 -->
                 <div class="gb-why-card">
                     <div class="gb-why-icon"><i class="fa-solid fa-sliders"></i></div>
-                    <h4>Independent Room Zoning</h4>
+                    <h3>Independent Room Zoning</h3>
                     <p>Each room features a dedicated digital thermostat, allowing occupants to heat only active spaces and set individual schedules for maximum energy economy.</p>
                 </div>
 
                 <!-- Advantage 3 -->
                 <div class="gb-why-card">
                     <div class="gb-why-icon"><i class="fa-solid fa-maximize"></i></div>
-                    <h4>100% Usable Wall &amp; Floor Space</h4>
+                    <h3>100% Usable Wall &amp; Floor Space</h3>
                     <p>Eliminates unsightly wall radiators and baseboard heaters, providing complete freedom for interior furniture layout and modern architectural aesthetics.</p>
                 </div>
 
                 <!-- Advantage 4 -->
                 <div class="gb-why-card">
                     <div class="gb-why-icon"><i class="fa-solid fa-volume-xmark"></i></div>
-                    <h4>Silent &amp; Maintenance-Free</h4>
+                    <h3>Silent &amp; Maintenance-Free</h3>
                     <p>Solid-state electric operation operates in 100% silence with no moving parts, pumps, or boiler servicing required over its long operational lifespan.</p>
                 </div>
             </div>
@@ -305,7 +305,7 @@
                     <div class="gb-process-step">
                         <div class="gb-process-num-wrapper">01</div>
                         <div class="gb-process-step-content">
-                            <h4>Heat Loss &amp; Layout Design</h4>
+                            <h3>Heat Loss &amp; Layout Design</h3>
                             <p>Calculating room thermal heat loss, selecting appropriate watt density (150W/m²–200W/m²), and mapping unheated cold-tail routes.</p>
                         </div>
                     </div>
@@ -314,7 +314,7 @@
                     <div class="gb-process-step">
                         <div class="gb-process-num-wrapper">02</div>
                         <div class="gb-process-step-content">
-                            <h4>Subfloor Insulation Prep</h4>
+                            <h3>Subfloor Insulation Prep</h3>
                             <p>Installing high-density insulation boards (XPS) to block downward heat loss and reflect 100% of thermal energy upward.</p>
                         </div>
                     </div>
@@ -323,7 +323,7 @@
                     <div class="gb-process-step">
                         <div class="gb-process-num-wrapper">03</div>
                         <div class="gb-process-step-content">
-                            <h4>Mat Laying &amp; Sensor Placement</h4>
+                            <h3>Mat Laying &amp; Sensor Placement</h3>
                             <p>Laying electric heating mats/cables, positioning NTC floor temperature sensors, and wiring cold leads to thermostat conduit.</p>
                         </div>
                     </div>
@@ -332,7 +332,7 @@
                     <div class="gb-process-step">
                         <div class="gb-process-num-wrapper">04</div>
                         <div class="gb-process-step-content">
-                            <h4>Megger Testing &amp; Commissioning</h4>
+                            <h3>Megger Testing &amp; Commissioning</h3>
                             <p>Conducting insulation resistance and electrical continuity tests before and after tile laying to guarantee 100% fault-free operation.</p>
                         </div>
                     </div>

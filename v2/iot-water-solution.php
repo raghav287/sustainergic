@@ -160,7 +160,7 @@
                                 <i class="fa-solid fa-faucet-drip"></i>
                             </div>
                             <div class="gb-hero-fc-text">
-                                <h5>Aquasense Ecosystem</h5>
+                                <strong class=\"fc-title\">Aquasense Ecosystem</strong>
                                 <p>Source-to-Sink Telemetry</p>
                             </div>
                         </div>
@@ -171,7 +171,7 @@
                                 <i class="fa-solid fa-chart-line"></i>
                             </div>
                             <div class="gb-hero-fc-text">
-                                <h5>Cloud Dashboard</h5>
+                                <strong class=\"fc-title\">Cloud Dashboard</strong>
                                 <p>Real-Time Alerts &amp; Control</p>
                             </div>
                         </div>
@@ -209,7 +209,7 @@
                         <div class="gb-cap-item">
                             <div class="gb-cap-icon"><i class="fa-solid fa-gauge-high"></i></div>
                             <div class="gb-cap-text">
-                                <h4>Real-Time Water Visibility</h4>
+                                <h3>Real-Time Water Visibility</h3>
                                 <p>Continuous telemetry tracking water flow, storage capacities, consumption patterns, and system pressure.</p>
                             </div>
                         </div>
@@ -218,7 +218,7 @@
                         <div class="gb-cap-item">
                             <div class="gb-cap-icon"><i class="fa-solid fa-gears"></i></div>
                             <div class="gb-cap-text">
-                                <h4>Intelligent Operations &amp; Automation</h4>
+                                <h3>Intelligent Operations &amp; Automation</h3>
                                 <p>Automated pump ON/OFF, motorized valve operation, dry-run protection, and overflow prevention logic.</p>
                             </div>
                         </div>
@@ -227,7 +227,7 @@
                         <div class="gb-cap-item">
                             <div class="gb-cap-icon"><i class="fa-solid fa-flask-vial"></i></div>
                             <div class="gb-cap-text">
-                                <h4>Online Water Quality Intelligence</h4>
+                                <h3>Online Water Quality Intelligence</h3>
                                 <p>IoT-connected online analyzers monitoring essential physical, chemical, and biological water parameters 24/7.</p>
                             </div>
                         </div>
@@ -236,7 +236,7 @@
                         <div class="gb-cap-item">
                             <div class="gb-cap-icon"><i class="fa-solid fa-cloud-arrow-up"></i></div>
                             <div class="gb-cap-text">
-                                <h4>Cloud Platform &amp; Multi-Site Control</h4>
+                                <h3>Cloud Platform &amp; Multi-Site Control</h3>
                                 <p>Centralized live dashboards, historical analytics, automated digital reporting, and instant alarm triggers.</p>
                             </div>
                         </div>
@@ -412,56 +412,56 @@
                 <!-- Benefit 1 -->
                 <div class="gb-why-card">
                     <div class="gb-why-icon"><i class="fa-solid fa-eye"></i></div>
-                    <h4>Real-Time Water Visibility</h4>
+                    <h3>Real-Time Water Visibility</h3>
                     <p>Instant digital tracking of water levels, flow rates, and storage across all facility locations.</p>
                 </div>
 
                 <!-- Benefit 2 -->
                 <div class="gb-why-card">
                     <div class="gb-why-icon"><i class="fa-solid fa-user-check"></i></div>
-                    <h4>Reduced Manual Intervention</h4>
+                    <h3>Reduced Manual Intervention</h3>
                     <p>Automated sensor-driven operations eliminate manual valve turns, pump switching, and logbook entries.</p>
                 </div>
 
                 <!-- Benefit 3 -->
                 <div class="gb-why-card">
                     <div class="gb-why-icon"><i class="fa-solid fa-gears"></i></div>
-                    <h4>Automated Water Operations</h4>
+                    <h3>Automated Water Operations</h3>
                     <p>Smart closed-loop control for tank filling, valve shutoff, overflow prevention, and dry-run protection.</p>
                 </div>
 
                 <!-- Benefit 4 -->
                 <div class="gb-why-card">
                     <div class="gb-why-icon"><i class="fa-solid fa-mobile-screen-button"></i></div>
-                    <h4>Remote Monitoring &amp; Control</h4>
+                    <h3>Remote Monitoring &amp; Control</h3>
                     <p>Control pumps, motorized valves, and distribution systems remotely via web and mobile interfaces.</p>
                 </div>
 
                 <!-- Benefit 5 -->
                 <div class="gb-why-card">
                     <div class="gb-why-icon"><i class="fa-solid fa-chart-pie"></i></div>
-                    <h4>Improved Water-Use Management</h4>
+                    <h3>Improved Water-Use Management</h3>
                     <p>Detailed consumption analytics empower facility teams to optimize water budgeting and reduce waste.</p>
                 </div>
 
                 <!-- Benefit 6 -->
                 <div class="gb-why-card">
                     <div class="gb-why-icon"><i class="fa-solid fa-triangle-exclamation"></i></div>
-                    <h4>Early Fault &amp; Leak Detection</h4>
+                    <h3>Early Fault &amp; Leak Detection</h3>
                     <p>Instant notifications upon detecting abnormal flow surges, pressure drops, or dry-run conditions.</p>
                 </div>
 
                 <!-- Benefit 7 -->
                 <div class="gb-why-card">
                     <div class="gb-why-icon"><i class="fa-solid fa-file-invoice"></i></div>
-                    <h4>Digital Data &amp; Reporting</h4>
+                    <h3>Digital Data &amp; Reporting</h3>
                     <p>Automated cloud logging, tenant billing statements, and regulatory compliance audit reports.</p>
                 </div>
 
                 <!-- Benefit 8 -->
                 <div class="gb-why-card">
                     <div class="gb-why-icon"><i class="fa-solid fa-sitemap"></i></div>
-                    <h4>Centralized Multi-Location Monitoring</h4>
+                    <h3>Centralized Multi-Location Monitoring</h3>
                     <p>Manage dispersed infrastructure across campuses, townships, and industrial plants from a single pane of glass.</p>
                 </div>
             </div>
@@ -486,7 +486,7 @@
                     <div class="gb-process-step">
                         <div class="gb-process-num-wrapper">01</div>
                         <div class="gb-process-step-content">
-                            <h4>Infrastructure Audit &amp; Sensor Mapping</h4>
+                            <h3>Infrastructure Audit &amp; Sensor Mapping</h3>
                             <p>Mapping water sources, tanks, pumps, valves, and identifying communication network options (4G/LoRaWAN/Wi-Fi).</p>
                         </div>
                     </div>
@@ -495,7 +495,7 @@
                     <div class="gb-process-step">
                         <div class="gb-process-num-wrapper">02</div>
                         <div class="gb-process-step-content">
-                            <h4>Hardware &amp; Controller Installation</h4>
+                            <h3>Hardware &amp; Controller Installation</h3>
                             <p>Fitting AquaTank controllers, AquaCharge meters, motorized valves, and online quality analyzers.</p>
                         </div>
                     </div>
@@ -504,7 +504,7 @@
                     <div class="gb-process-step">
                         <div class="gb-process-num-wrapper">03</div>
                         <div class="gb-process-step-content">
-                            <h4>Cloud Integration &amp; Automation Setup</h4>
+                            <h3>Cloud Integration &amp; Automation Setup</h3>
                             <p>Configuring control logic, pump ON/OFF rules, billing rates, and connecting field gateways to the cloud platform.</p>
                         </div>
                     </div>
@@ -513,7 +513,7 @@
                     <div class="gb-process-step">
                         <div class="gb-process-num-wrapper">04</div>
                         <div class="gb-process-step-content">
-                            <h4>Commissioning &amp; Real-Time Analytics</h4>
+                            <h3>Commissioning &amp; Real-Time Analytics</h3>
                             <p>Testing closed-loop automation, verifying alert notifications, and training staff on live dashboards.</p>
                         </div>
                     </div>

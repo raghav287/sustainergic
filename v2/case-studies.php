@@ -402,7 +402,7 @@ $paginated_studies = array_slice($filtered_case_studies, $offset, $items_per_pag
                                 <i class="fa-solid fa-trophy"></i>
                             </div>
                             <div class="gb-hero-fc-text">
-                                <h5>150+ Certified Projects</h5>
+                                <strong class="fc-title">150+ Certified Projects</strong>
                                 <p>LEED &amp; IGBC Platinum</p>
                             </div>
                         </div>
@@ -413,7 +413,7 @@ $paginated_studies = array_slice($filtered_case_studies, $offset, $items_per_pag
                                 <i class="fa-solid fa-leaf"></i>
                             </div>
                             <div class="gb-hero-fc-text">
-                                <h5>45 GWh / Year Saved</h5>
+                                <strong class="fc-title">45 GWh / Year Saved</strong>
                                 <p>Clean Energy Reduction</p>
                             </div>
                         </div>

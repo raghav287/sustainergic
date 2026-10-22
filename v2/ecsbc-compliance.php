@@ -83,7 +83,7 @@
                                 <i class="fa-solid fa-award"></i>
                             </div>
                             <div class="gb-hero-fc-text">
-                                <h5>BEE Standards</h5>
+                                <strong class=\"fc-title\">BEE Standards</strong>
                                 <p>Code Compliant</p>
                             </div>
                         </div>
@@ -94,7 +94,7 @@
                                 <i class="fa-solid fa-file-circle-check"></i>
                             </div>
                             <div class="gb-hero-fc-text">
-                                <h5>Statutory Vetting</h5>
+                                <strong class=\"fc-title\">Statutory Vetting</strong>
                                 <p>Fast-Track Approvals</p>
                             </div>
                         </div>
@@ -134,7 +134,7 @@
                         <div class="gb-cap-item">
                             <div class="gb-cap-icon"><i class="fa-solid fa-compass-drafting"></i></div>
                             <div class="gb-cap-text">
-                                <h4>Prescriptive &amp; Performance Review</h4>
+                                <h3>Prescriptive &amp; Performance Review</h3>
                                 <p>Evaluating building envelope, HVAC, lighting, and electrical power against ECSBC thresholds.</p>
                             </div>
                         </div>
@@ -143,7 +143,7 @@
                         <div class="gb-cap-item">
                             <div class="gb-cap-icon"><i class="fa-solid fa-laptop-code"></i></div>
                             <div class="gb-cap-text">
-                                <h4>Whole Building Energy Simulation</h4>
+                                <h3>Whole Building Energy Simulation</h3>
                                 <p>Using approved simulation tools (EnergyPlus, eQUEST) for the Whole Building Performance approach.</p>
                             </div>
                         </div>
@@ -152,7 +152,7 @@
                         <div class="gb-cap-item">
                             <div class="gb-cap-icon"><i class="fa-solid fa-file-shield"></i></div>
                             <div class="gb-cap-text">
-                                <h4>EPI Report &amp; Documentation</h4>
+                                <h3>EPI Report &amp; Documentation</h3>
                                 <p>Formulating official Energy Performance Index (EPI) compliance reports for municipal authority sanction.</p>
                             </div>
                         </div>
@@ -161,7 +161,7 @@
                         <div class="gb-cap-item">
                             <div class="gb-cap-icon"><i class="fa-solid fa-shield-check"></i></div>
                             <div class="gb-cap-text">
-                                <h4>Statutory Authority Clearance</h4>
+                                <h3>Statutory Authority Clearance</h3>
                                 <p>Coordinating with State Designated Agencies (SDAs) and BEE-empanelled assessors for sign-off.</p>
                             </div>
                         </div>
@@ -265,11 +265,11 @@
                     
                     <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; margin-bottom: 24px;">
                         <div style="background-color: var(--gb-white); padding: 16px; border-radius: 12px; border: 1px solid var(--gb-border);">
-                            <h4 style="font-size: 14px; font-weight: 700; margin-bottom: 6px; color: var(--gb-sage);"><i class="fa-solid fa-house-laptop"></i> ENS Part I (Envelope)</h4>
+                            <h3 style=\"font-size: 14px; font-weight: 700; margin-bottom: 6px; color: var(--gb-sage);\"><i class="fa-solid fa-house-laptop"></i> ENS Part I (Envelope)</h3>
                             <p style="font-size: 12.5px; margin: 0; color: var(--gb-text-muted); line-height: 1.5;">RETV (&le;15 W/m&sup2;), Natural Ventilation (WFR<sub>op</sub>), and Daylit Area Fraction (DAF).</p>
                         </div>
                         <div style="background-color: var(--gb-white); padding: 16px; border-radius: 12px; border: 1px solid var(--gb-border);">
-                            <h4 style="font-size: 14px; font-weight: 700; margin-bottom: 6px; color: var(--gb-gold);"><i class="fa-solid fa-bolt-lightning"></i> ENS Part II (Electro-Mechanical)</h4>
+                            <h3 style=\"font-size: 14px; font-weight: 700; margin-bottom: 6px; color: var(--gb-gold);\"><i class="fa-solid fa-bolt-lightning"></i> ENS Part II (Electro-Mechanical)</h3>
                             <p style="font-size: 12.5px; margin: 0; color: var(--gb-text-muted); line-height: 1.5;">Common area LPD, motion sensors, BEE Star pumps/motors, and Solar PV capacity.</p>
                         </div>
                     </div>
@@ -312,7 +312,7 @@
                     <div class="gb-process-step">
                         <div class="gb-process-num-wrapper">01</div>
                         <div class="gb-process-step-content">
-                            <h4>Design Review</h4>
+                            <h3>Design Review</h3>
                             <p>Reviewing architectural plans, glass specifications, wall/roof insulation, HVAC systems, and lighting layouts against ECSBC parameters.</p>
                         </div>
                     </div>
@@ -321,7 +321,7 @@
                     <div class="gb-process-step">
                         <div class="gb-process-num-wrapper">02</div>
                         <div class="gb-process-step-content">
-                            <h4>Energy Modeling</h4>
+                            <h3>Energy Modeling</h3>
                             <p>Performing Whole Building Energy Simulation or Prescriptive Check calculations to compute project Energy Performance Index (EPI).</p>
                         </div>
                     </div>
@@ -330,7 +330,7 @@
                     <div class="gb-process-step">
                         <div class="gb-process-num-wrapper">03</div>
                         <div class="gb-process-step-content">
-                            <h4>Optimization Recommendations</h4>
+                            <h3>Optimization Recommendations</h3>
                             <p>Providing cost-effective recommendations for glass SHGC, insulation thickness, VFDs, or LPD adjustments to pass code checks.</p>
                         </div>
                     </div>
@@ -339,7 +339,7 @@
                     <div class="gb-process-step">
                         <div class="gb-process-num-wrapper">04</div>
                         <div class="gb-process-step-content">
-                            <h4>Documentation &amp; Approval</h4>
+                            <h3>Documentation &amp; Approval</h3>
                             <p>Preparing official BEE compliance reports and supporting clearance applications submitted to municipal authorities.</p>
                         </div>
                     </div>

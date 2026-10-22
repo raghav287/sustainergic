@@ -84,7 +84,7 @@
                                 <i class="fa-solid fa-microchip"></i>
                             </div>
                             <div class="gb-hero-fc-text">
-                                <h5>Inverter Variable Flow</h5>
+                                <strong class=\"fc-title\">Inverter Variable Flow</strong>
                                 <p>Precise Temperature Control</p>
                             </div>
                         </div>
@@ -95,7 +95,7 @@
                                 <i class="fa-solid fa-sliders"></i>
                             </div>
                             <div class="gb-hero-fc-text">
-                                <h5>Multi-Zone Flexibility</h5>
+                                <strong class=\"fc-title\">Multi-Zone Flexibility</strong>
                                 <p>Up to 40% Energy Savings</p>
                             </div>
                         </div>
@@ -133,7 +133,7 @@
                         <div class="gb-cap-item">
                             <div class="gb-cap-icon"><i class="fa-solid fa-microchip"></i></div>
                             <div class="gb-cap-text">
-                                <h4>Variable Inverter Compressor Control</h4>
+                                <h3>Variable Inverter Compressor Control</h3>
                                 <p>Continuously adjusting refrigerant flow rates to match exact instantaneous cooling and heating demands per room.</p>
                             </div>
                         </div>
@@ -142,7 +142,7 @@
                         <div class="gb-cap-item">
                             <div class="gb-cap-icon"><i class="fa-solid fa-arrows-spin"></i></div>
                             <div class="gb-cap-text">
-                                <h4>Simultaneous Heat Recovery (3-Pipe VRF)</h4>
+                                <h3>Simultaneous Heat Recovery (3-Pipe VRF)</h3>
                                 <p>Transferring waste heat from cooled zones (e.g. server rooms) to heat other zones or hot water simultaneously.</p>
                             </div>
                         </div>
@@ -151,7 +151,7 @@
                         <div class="gb-cap-item">
                             <div class="gb-cap-icon"><i class="fa-solid fa-border-all"></i></div>
                             <div class="gb-cap-text">
-                                <h4>Multi-Type Indoor Unit Versatility</h4>
+                                <h3>Multi-Type Indoor Unit Versatility</h3>
                                 <p>Combining 4-way ceiling cassettes, slim ducted units, wall splits, and floor consoles on a single outdoor loop.</p>
                             </div>
                         </div>
@@ -160,7 +160,7 @@
                         <div class="gb-cap-item">
                             <div class="gb-cap-icon"><i class="fa-solid fa-network-wired"></i></div>
                             <div class="gb-cap-text">
-                                <h4>Central Touch Screen &amp; BMS Integration</h4>
+                                <h3>Central Touch Screen &amp; BMS Integration</h3>
                                 <p>Integrating BACnet / Modbus BMS gateways, tenant power proportioning (PPD) billing, and remote app management.</p>
                             </div>
                         </div>
@@ -258,28 +258,28 @@
                 <!-- Advantage 1 -->
                 <div class="gb-why-card">
                     <div class="gb-why-icon"><i class="fa-solid fa-gauge-high"></i></div>
-                    <h4>Inverter Energy Savings (Up to 40%)</h4>
+                    <h3>Inverter Energy Savings (Up to 40%)</h3>
                     <p>Variable speed DC inverter scroll compressors adjust motor speeds continuously, eliminating the high current spikes and energy waste of traditional ON/OFF compressors.</p>
                 </div>
 
                 <!-- Advantage 2 -->
                 <div class="gb-why-card">
                     <div class="gb-why-icon"><i class="fa-solid fa-sliders"></i></div>
-                    <h4>Individual Multi-Zone Micro-Climates</h4>
+                    <h3>Individual Multi-Zone Micro-Climates</h3>
                     <p>Every office, hotel room, or residential suite has its own independent digital thermostat, enabling personalized temperature setpoints without affecting adjacent zones.</p>
                 </div>
 
                 <!-- Advantage 3 -->
                 <div class="gb-why-card">
                     <div class="gb-why-icon"><i class="fa-solid fa-arrows-up-down-left-right"></i></div>
-                    <h4>Modular &amp; Compact Infrastructure</h4>
+                    <h3>Modular &amp; Compact Infrastructure</h3>
                     <p>Modular outdoor units fit into standard service elevators and small balcony spaces, reducing structural loads and eliminating massive roof duct shafts.</p>
                 </div>
 
                 <!-- Advantage 4 -->
                 <div class="gb-why-card">
                     <div class="gb-why-icon"><i class="fa-solid fa-volume-xmark"></i></div>
-                    <h4>Whisper-Quiet Operation (19 dB)</h4>
+                    <h3>Whisper-Quiet Operation (19 dB)</h3>
                     <p>Aerodynamically engineered indoor fans and electronic expansion valves (EEVs) deliver ultra-quiet sound levels, ensuring serene working and sleeping environments.</p>
                 </div>
             </div>
@@ -305,7 +305,7 @@
                     <div class="gb-process-step">
                         <div class="gb-process-num-wrapper">01</div>
                         <div class="gb-process-step-content">
-                            <h4>Multi-Zone Load Calculation</h4>
+                            <h3>Multi-Zone Load Calculation</h3>
                             <p>Calculating room-by-room sensible and latent heat loads, diversity factors, and selecting appropriate indoor unit types (cassette/ducted).</p>
                         </div>
                     </div>
@@ -314,7 +314,7 @@
                     <div class="gb-process-step">
                         <div class="gb-process-num-wrapper">02</div>
                         <div class="gb-process-step-content">
-                            <h4>Refrigerant Piping &amp; Y-Joint Design</h4>
+                            <h3>Refrigerant Piping &amp; Y-Joint Design</h3>
                             <p>Routing copper refrigerant lines, sizing Y-joints, calculating equivalent pipe lengths, vertical oil drops, and branch selectors using VRF selection software.</p>
                         </div>
                     </div>
@@ -323,7 +323,7 @@
                     <div class="gb-process-step">
                         <div class="gb-process-num-wrapper">03</div>
                         <div class="gb-process-step-content">
-                            <h4>Controls &amp; Power Meter Wiring</h4>
+                            <h3>Controls &amp; Power Meter Wiring</h3>
                             <p>Wiring non-polar 2-core communication cables, central touch screen controllers, tenant kWh power meters (PPD), and BMS gateways.</p>
                         </div>
                     </div>
@@ -332,7 +332,7 @@
                     <div class="gb-process-step">
                         <div class="gb-process-num-wrapper">04</div>
                         <div class="gb-process-step-content">
-                            <h4>Nitrogen Holding, Vacuum &amp; Charging</h4>
+                            <h3>Nitrogen Holding, Vacuum &amp; Charging</h3>
                             <p>Performing 24-hour 4.15 MPa nitrogen holding pressure tests, triple vacuum evacuation down to 500 microns, and precise R-410A / R-32 auto-charging.</p>
                         </div>
                     </div>

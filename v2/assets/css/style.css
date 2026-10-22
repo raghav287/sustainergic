@@ -7403,6 +7403,7 @@ RESPONSIVE
 
     }
 
+    .contact-info-card h3,
     .contact-info-card h4 {
 
         font-size: 18px;
@@ -7788,6 +7789,7 @@ RESPONSIVE
 
     }
 
+    .contact-side-card h3,
     .contact-side-card h4 {
 
         font-size: 18px;
@@ -9938,6 +9940,7 @@ RESPONSIVE
         background: #0EA5E9;
     }
 
+    .value-card h3,
     .value-card h4 {
 
         font-size: 18px;
@@ -10956,6 +10959,7 @@ RESPONSIVE
 
     }
 
+    .fm-col h3,
     .fm-col h4 {
 
         color: #fff;
@@ -10976,6 +10980,7 @@ RESPONSIVE
 
     }
 
+    .fm-col h3::after,
     .fm-col h4::after {
 
         content: "";
@@ -11463,6 +11468,7 @@ RESPONSIVE
 
         }
 
+        .fm-col h3,
         .fm-col h4 {
             font-size: 14.5px;
             margin-bottom: 20px;
@@ -11534,6 +11540,7 @@ RESPONSIVE
             max-width: 100%;
         }
 
+        .fm-col h3,
         .fm-col h4 {
             font-size: 14px;
             margin-bottom: 18px;
@@ -11614,6 +11621,7 @@ RESPONSIVE
             font-size: 13px;
         }
 
+        .fm-col h3,
         .fm-col h4 {
             font-size: 13.5px;
             margin-bottom: 18px;
@@ -11701,6 +11709,7 @@ RESPONSIVE
             grid-column: auto;
         }
 
+        .fm-col h3,
         .fm-col h4 {
             font-size: 13px;
             margin-bottom: 17px;
@@ -11850,6 +11859,7 @@ RESPONSIVE
             font-size: 12.5px;
         }
 
+        .fm-col h3,
         .fm-col h4 {
             font-size: 12.5px;
             margin-bottom: 16px;
@@ -12767,6 +12777,7 @@ RESPONSIVE
         box-sizing: border-box;
     }
 
+    .legal-sidebar h2,
     .legal-sidebar h4 {
         font-size: 17px;
         font-weight: 700;
@@ -12779,6 +12790,7 @@ RESPONSIVE
         gap: 10px;
     }
 
+    .legal-sidebar h2 i,
     .legal-sidebar h4 i {
         color: var(--primary-color);
     }
@@ -12829,6 +12841,7 @@ RESPONSIVE
         border-top: 1px dashed #E2E8F0;
     }
 
+    .legal-sidebar-contact h3,
     .legal-sidebar-contact h5 {
         font-size: 15px;
         font-weight: 700;
@@ -13043,6 +13056,7 @@ RESPONSIVE
         word-break: break-word;
     }
 
+    .legal-contact-item h4,
     .legal-contact-item h5 {
         font-size: 15px;
         font-weight: 700;
@@ -13053,6 +13067,7 @@ RESPONSIVE
         gap: 8px;
     }
 
+    .legal-contact-item h4 i,
     .legal-contact-item h5 i {
         color: var(--primary-color);
         flex-shrink: 0;
@@ -13275,6 +13290,7 @@ RESPONSIVE
             border-radius: 12px;
         }
 
+        .legal-contact-item h4,
         .legal-contact-item h5 {
             font-size: 14px;
         }
@@ -13789,7 +13805,10 @@ RESPONSIVE
         color: var(--gb-gold-hover);
     }
 
-    .gb-hero-fc-text h5 {
+    .gb-hero-fc-text h5,
+    .gb-hero-fc-text strong,
+    .gb-hero-fc-text .fc-title {
+        display: block;
         font-size: 14px;
         font-weight: 700;
         color: var(--gb-text-dark);
@@ -13916,6 +13935,7 @@ RESPONSIVE
         font-size: 14px;
     }
 
+    .gb-cap-text h3,
     .gb-cap-text h4 {
         font-size: 15px;
         font-weight: 600;
@@ -14612,6 +14632,7 @@ RESPONSIVE
             flex-grow: 1;
         }
 
+        .gb-process-step h3,
         .gb-process-step h4 {
             margin-bottom: 4px;
         }
@@ -14843,6 +14864,7 @@ RESPONSIVE
             border-radius: 12px;
         }
 
+        .gb-process-step h3,
         .gb-process-step h4 {
             font-size: 16px;
         }
@@ -14857,6 +14879,7 @@ RESPONSIVE
             border-radius: 14px;
         }
 
+        .gb-why-card h3,
         .gb-why-card h4 {
             font-size: 17px;
         }
@@ -15324,7 +15347,10 @@ RESPONSIVE
         color: var(--aud-water);
     }
 
-    .aud-hero-fc-text h5 {
+    .aud-hero-fc-text h5,
+    .aud-hero-fc-text strong,
+    .aud-hero-fc-text .fc-title {
+        display: block;
         font-size: 14px;
         font-weight: 700;
         color: var(--aud-text-dark);
@@ -15424,6 +15450,7 @@ RESPONSIVE
         font-size: 14px;
     }
 
+    .aud-cap-text h3,
     .aud-cap-text h4 {
         font-size: 15px;
         font-weight: 600;
@@ -15790,6 +15817,7 @@ RESPONSIVE
         align-items: center;
     }
 
+    .aud-process-step h3,
     .aud-process-step h4 {
         font-size: 15px;
         font-weight: 700;
@@ -15870,6 +15898,7 @@ RESPONSIVE
         color: var(--aud-white);
     }
 
+    .aud-assess-card h3,
     .aud-assess-card h4 {
         font-size: 15px;
         font-weight: 700;
@@ -15923,6 +15952,7 @@ RESPONSIVE
         color: var(--aud-white);
     }
 
+    .aud-fac-card h3,
     .aud-fac-card h4 {
         font-size: 15.5px;
         font-weight: 700;
@@ -16049,6 +16079,7 @@ RESPONSIVE
         color: var(--aud-white);
     }
 
+    .aud-why-card h3,
     .aud-why-card h4 {
         font-size: 17px;
         font-weight: 700;
@@ -16905,7 +16936,10 @@ RESPONSIVE
         color: var(--sm-blue);
     }
 
-    .sm-hero-fc-text h5 {
+    .sm-hero-fc-text h5,
+    .sm-hero-fc-text strong,
+    .sm-hero-fc-text .fc-title {
+        display: block;
         font-size: 14px;
         font-weight: 700;
         color: var(--sm-text-dark);
@@ -17005,6 +17039,7 @@ RESPONSIVE
         font-size: 14px;
     }
 
+    .sm-cap-text h3,
     .sm-cap-text h4 {
         font-size: 15px;
         font-weight: 600;
@@ -17171,6 +17206,7 @@ RESPONSIVE
         border-top: 1px dashed var(--sm-border);
     }
 
+    .sm-cfd-box h4,
     .sm-cfd-box h5 {
         font-size: 13.5px;
         font-weight: 700;
@@ -17249,6 +17285,7 @@ RESPONSIVE
         align-items: center;
     }
 
+    .sm-process-step h3,
     .sm-process-step h4 {
         font-size: 15px;
         font-weight: 700;
@@ -17309,6 +17346,7 @@ RESPONSIVE
         color: var(--sm-white);
     }
 
+    .sm-app-card h3,
     .sm-app-card h4 {
         font-size: 15.5px;
         font-weight: 700;
@@ -17431,6 +17469,7 @@ RESPONSIVE
         color: var(--sm-white);
     }
 
+    .sm-why-card h3,
     .sm-why-card h4 {
         font-size: 17px;
         font-weight: 700;

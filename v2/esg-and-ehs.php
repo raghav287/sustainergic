@@ -84,7 +84,7 @@
                                 <i class="fa-solid fa-file-shield"></i>
                             </div>
                             <div class="gb-hero-fc-text">
-                                <h5>SEBI BRSR Compliant</h5>
+                                <strong class=\"fc-title\">SEBI BRSR Compliant</strong>
                                 <p>GRI &amp; TCFD Aligned</p>
                             </div>
                         </div>
@@ -95,7 +95,7 @@
                                 <i class="fa-solid fa-leaf"></i>
                             </div>
                             <div class="gb-hero-fc-text">
-                                <h5>ISO 14001 / 45001</h5>
+                                <strong class=\"fc-title\">ISO 14001 / 45001</strong>
                                 <p>EHS Certified Auditing</p>
                             </div>
                         </div>
@@ -133,7 +133,7 @@
                         <div class="gb-cap-item">
                             <div class="gb-cap-icon"><i class="fa-solid fa-chart-pie"></i></div>
                             <div class="gb-cap-text">
-                                <h4>SEBI BRSR &amp; GRI ESG Disclosures</h4>
+                                <h3>SEBI BRSR &amp; GRI ESG Disclosures</h3>
                                 <p>Formulating statutory Business Responsibility and Sustainability Reports (BRSR) aligned with GRI, TCFD, and CDP frameworks.</p>
                             </div>
                         </div>
@@ -142,7 +142,7 @@
                         <div class="gb-cap-item">
                             <div class="gb-cap-icon"><i class="fa-solid fa-shield-heart"></i></div>
                             <div class="gb-cap-text">
-                                <h4>ISO 14001 &amp; 45001 EHS Compliance Audits</h4>
+                                <h3>ISO 14001 &amp; 45001 EHS Compliance Audits</h3>
                                 <p>Environmental Management Systems (EMS) and Occupational Health &amp; Safety (OHSAS) gap assessments, hazard reviews, and workplace safety protocols.</p>
                             </div>
                         </div>
@@ -151,7 +151,7 @@
                         <div class="gb-cap-item">
                             <div class="gb-cap-icon"><i class="fa-solid fa-bullseye"></i></div>
                             <div class="gb-cap-text">
-                                <h4>Scope 1, 2 &amp; 3 SBTi Net-Zero Strategy</h4>
+                                <h3>Scope 1, 2 &amp; 3 SBTi Net-Zero Strategy</h3>
                                 <p>GHG Protocol compliant carbon inventorying, supply chain Scope 3 mapping, and Science Based Targets initiative (SBTi) net-zero roadmaps.</p>
                             </div>
                         </div>
@@ -160,7 +160,7 @@
                         <div class="gb-cap-item">
                             <div class="gb-cap-icon"><i class="fa-solid fa-recycle"></i></div>
                             <div class="gb-cap-text">
-                                <h4>Circular Economy &amp; Product LCA (ISO 14040)</h4>
+                                <h3>Circular Economy &amp; Product LCA (ISO 14040)</h3>
                                 <p>Environmental Product Declarations (EPD), life-cycle assessments, waste minimization audits, and zero-waste-to-landfill verification.</p>
                             </div>
                         </div>
@@ -253,28 +253,28 @@
                 <!-- Advantage 1 -->
                 <div class="gb-why-card">
                     <div class="gb-why-icon"><i class="fa-solid fa-gavel"></i></div>
-                    <h4>100% SEBI &amp; Statutory Compliance</h4>
+                    <h3>100% SEBI &amp; Statutory Compliance</h3>
                     <p>Fulfill mandatory regulatory filing requirements on time with zero compliance penalty risks.</p>
                 </div>
 
                 <!-- Advantage 2 -->
                 <div class="gb-why-card">
                     <div class="gb-why-icon"><i class="fa-solid fa-arrow-trend-up"></i></div>
-                    <h4>Elevated Investor ESG Ratings</h4>
+                    <h3>Elevated Investor ESG Ratings</h3>
                     <p>Improve access to sustainable capital and green financing by boosting MSCI, DJSI, and S&amp;P Global ESG benchmark scores.</p>
                 </div>
 
                 <!-- Advantage 3 -->
                 <div class="gb-why-card">
                     <div class="gb-why-icon"><i class="fa-solid fa-user-shield"></i></div>
-                    <h4>Workplace Injury &amp; Environmental Risk Reduction</h4>
+                    <h3>Workplace Injury &amp; Environmental Risk Reduction</h3>
                     <p>Structured ISO 45001 safety management reduces lost-time injury rates (LTIR) and chemical spill liabilities.</p>
                 </div>
 
                 <!-- Advantage 4 -->
                 <div class="gb-why-card">
                     <div class="gb-why-icon"><i class="fa-solid fa-globe"></i></div>
-                    <h4>Global Export Market Access</h4>
+                    <h3>Global Export Market Access</h3>
                     <p>Product LCA and EPD documentation ensure full compliance with EU Carbon Border Adjustment Mechanism (CBAM) rules.</p>
                 </div>
             </div>
@@ -299,7 +299,7 @@
                     <div class="gb-process-step">
                         <div class="gb-process-num-wrapper">01</div>
                         <div class="gb-process-step-content">
-                            <h4>Materiality Assessment &amp; EHS Gap Audit</h4>
+                            <h3>Materiality Assessment &amp; EHS Gap Audit</h3>
                             <p>Identifying key stakeholder ESG priorities, environmental compliance gaps, and workplace health &amp; safety risks.</p>
                         </div>
                     </div>
@@ -308,7 +308,7 @@
                     <div class="gb-process-step">
                         <div class="gb-process-num-wrapper">02</div>
                         <div class="gb-process-step-content">
-                            <h4>Data Collection &amp; Carbon Accounting</h4>
+                            <h3>Data Collection &amp; Carbon Accounting</h3>
                             <p>Inventorying energy, water, waste, social metrics, and Scope 1-3 GHG emissions across enterprise sites.</p>
                         </div>
                     </div>
@@ -317,7 +317,7 @@
                     <div class="gb-process-step">
                         <div class="gb-process-num-wrapper">03</div>
                         <div class="gb-process-step-content">
-                            <h4>Target Setting &amp; Policy Formulation</h4>
+                            <h3>Target Setting &amp; Policy Formulation</h3>
                             <p>Formulating net-zero roadmaps, EHS safety protocols, diversity policies, and supplier codes of conduct.</p>
                         </div>
                     </div>
@@ -326,7 +326,7 @@
                     <div class="gb-process-step">
                         <div class="gb-process-num-wrapper">04</div>
                         <div class="gb-process-step-content">
-                            <h4>BRSR Filing &amp; Third-Party Assurance</h4>
+                            <h3>BRSR Filing &amp; Third-Party Assurance</h3>
                             <p>Drafting final statutory disclosures, facilitating independent audit assurance, and submitting SEBI filings.</p>
                         </div>
                     </div>

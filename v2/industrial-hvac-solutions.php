@@ -83,7 +83,7 @@
                                 <i class="fa-solid fa-industry"></i>
                             </div>
                             <div class="gb-hero-fc-text">
-                                <h5>55°C Ambient Duty</h5>
+                                <strong class=\"fc-title\">55°C Ambient Duty</strong>
                                 <p>Heavy Manufacturing Rated</p>
                             </div>
                         </div>
@@ -94,7 +94,7 @@
                                 <i class="fa-solid fa-temperature-arrow-down"></i>
                             </div>
                             <div class="gb-hero-fc-text">
-                                <h5>±0.5°C Process Cooling</h5>
+                                <strong class=\"fc-title\">±0.5°C Process Cooling</strong>
                                 <p>Zero Unscheduled Downtime</p>
                             </div>
                         </div>
@@ -132,7 +132,7 @@
                         <div class="gb-cap-item">
                             <div class="gb-cap-icon"><i class="fa-solid fa-snowflake"></i></div>
                             <div class="gb-cap-text">
-                                <h4>Industrial Chilled Water &amp; Process Cooling</h4>
+                                <h3>Industrial Chilled Water &amp; Process Cooling</h3>
                                 <p>Constant-temperature cooling loops for extrusion, molding, and heavy machinery.</p>
                             </div>
                         </div>
@@ -141,7 +141,7 @@
                         <div class="gb-cap-item">
                             <div class="gb-cap-icon"><i class="fa-solid fa-wind"></i></div>
                             <div class="gb-cap-text">
-                                <h4>Heavy Dust &amp; Fume Extraction Systems</h4>
+                                <h3>Heavy Dust &amp; Fume Extraction Systems</h3>
                                 <p>Baghouses and wet scrubbers for hazardous air containment and filtration.</p>
                             </div>
                         </div>
@@ -150,7 +150,7 @@
                         <div class="gb-cap-item">
                             <div class="gb-cap-icon"><i class="fa-solid fa-shield-virus"></i></div>
                             <div class="gb-cap-text">
-                                <h4>Cleanroom &amp; ISO Enclosure HVAC</h4>
+                                <h3>Cleanroom &amp; ISO Enclosure HVAC</h3>
                                 <p>Precision ISO Class 5-8 particulate and humidity control systems.</p>
                             </div>
                         </div>
@@ -159,7 +159,7 @@
                         <div class="gb-cap-item">
                             <div class="gb-cap-icon"><i class="fa-solid fa-fire-flame-curved"></i></div>
                             <div class="gb-cap-text">
-                                <h4>Waste Heat Recovery &amp; Thermal Reuse</h4>
+                                <h3>Waste Heat Recovery &amp; Thermal Reuse</h3>
                                 <p>Capturing furnace exhaust and compressor heat to preheat process water.</p>
                             </div>
                         </div>
@@ -168,7 +168,7 @@
                         <div class="gb-cap-item">
                             <div class="gb-cap-icon"><i class="fa-solid fa-fan"></i></div>
                             <div class="gb-cap-text">
-                                <h4>Industrial Ventilation</h4>
+                                <h3>Industrial Ventilation</h3>
                                 <p>Balanced supply and exhaust networks for fresh air turnover and pressure control.</p>
                             </div>
                         </div>
@@ -177,7 +177,7 @@
                         <div class="gb-cap-item">
                             <div class="gb-cap-icon"><i class="fa-solid fa-temperature-arrow-down"></i></div>
                             <div class="gb-cap-text">
-                                <h4>Industrial Plant Heat Load Optimization</h4>
+                                <h3>Industrial Plant Heat Load Optimization</h3>
                                 <p>Thermal auditing and modeling to minimize heat gains and HVAC energy use.</p>
                             </div>
                         </div>
@@ -270,28 +270,28 @@
                 <!-- Advantage 1 -->
                 <div class="gb-why-card">
                     <div class="gb-why-icon"><i class="fa-solid fa-temperature-arrow-up"></i></div>
-                    <h4>Design for extreme weather condition</h4>
+                    <h3>Design for extreme weather condition</h3>
                     <p>Designed for reliable and efficient performance even in extreme weather conditions and harsh outdoor temperatures.</p>
                 </div>
 
                 <!-- Advantage 2 -->
                 <div class="gb-why-card">
                     <div class="gb-why-icon"><i class="fa-solid fa-gauge-high"></i></div>
-                    <h4>High Precision Air Conditioning</h4>
+                    <h3>High Precision Air Conditioning</h3>
                     <p>Wide range of cooling and heating capacities with precision control to maintain optimal temperature and humidity levels.</p>
                 </div>
 
                 <!-- Advantage 3 -->
                 <div class="gb-why-card">
                     <div class="gb-why-icon"><i class="fa-solid fa-shield-halved"></i></div>
-                    <h4>Explosion-Proof &amp; Hazardous Duty Certification</h4>
+                    <h3>Explosion-Proof &amp; Hazardous Duty Certification</h3>
                     <p>IECEx and ATEX certified spark-proof fan motors, sealed control panels, and anti-corrosive epoxy coated coils for chemical and paint spray bays.</p>
                 </div>
 
                 <!-- Advantage 4 -->
                 <div class="gb-why-card">
                     <div class="gb-why-icon"><i class="fa-solid fa-leaf"></i></div>
-                    <h4>Up to 35% Lower Operating Costs</h4>
+                    <h3>Up to 35% Lower Operating Costs</h3>
                     <p>Integrated heat recovery wheels, economizer free-cooling circuits, and smart BMS automation optimize power consumption across all production lines.</p>
                 </div>
             </div>
@@ -316,7 +316,7 @@
                     <div class="gb-process-step">
                         <div class="gb-process-num-wrapper">01</div>
                         <div class="gb-process-step-content">
-                            <h4>Data Collection</h4>
+                            <h3>Data Collection</h3>
                             <p>Gathering industrial thermal loads, machine heat specs, CFM requirements, and ambient parameters.</p>
                         </div>
                     </div>
@@ -325,7 +325,7 @@
                     <div class="gb-process-step">
                         <div class="gb-process-num-wrapper">02</div>
                         <div class="gb-process-step-content">
-                            <h4>Site Assessment</h4>
+                            <h3>Site Assessment</h3>
                             <p>Evaluating facility structural layout, airflow vectors, duct routing, and utility infrastructure.</p>
                         </div>
                     </div>
@@ -334,7 +334,7 @@
                     <div class="gb-process-step">
                         <div class="gb-process-num-wrapper">03</div>
                         <div class="gb-process-step-content">
-                            <h4>System Design with Modeling &amp; Calculation</h4>
+                            <h3>System Design with Modeling &amp; Calculation</h3>
                             <p>Performing 3D CFD airflow simulations, static pressure loss calculations, and equipment sizing.</p>
                         </div>
                     </div>
@@ -343,7 +343,7 @@
                     <div class="gb-process-step">
                         <div class="gb-process-num-wrapper">04</div>
                         <div class="gb-process-step-content">
-                            <h4>Machine Installation</h4>
+                            <h3>Machine Installation</h3>
                             <p>Precision rigging of chillers, AHUs, anti-vibration mounting, and ductwork erection.</p>
                         </div>
                     </div>
@@ -352,7 +352,7 @@
                     <div class="gb-process-step">
                         <div class="gb-process-num-wrapper">05</div>
                         <div class="gb-process-step-content">
-                            <h4>Testing &amp; Commissioning</h4>
+                            <h3>Testing &amp; Commissioning</h3>
                             <p>Conducting TAB balancing, hydronic pressure testing, thermal stress tests, and BMS integration.</p>
                         </div>
                     </div>
