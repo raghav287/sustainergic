@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="assets/images/favicon.png" type="image/png">
     
-    <title>Precision Medical Cooling Solution &amp; Healthcare HVAC | Sustainergic Tech</title>
-    <meta name="description" content="Sustainergic Tech designs precision medical cooling solutions, MRI/CT scanner chillers, laminar airflow operating theater HVAC, and negative pressure isolation ward systems across India.">
+    <title>Precision Medical Cooling &amp; HVAC | Sustainergic Tech</title>
+    <meta name="description" content="Precision medical cooling systems, MRI/CT scanner chillers, laminar airflow operating theater HVAC, and isolation ward climate control engineered across India.">
     <meta name="keywords" content="precision medical cooling, MRI chiller, CT scanner chiller, hospital HVAC, operating theater laminar flow, negative pressure isolation ward, NABH ASHRAE 170">
 
     <!-- Stylesheets -->

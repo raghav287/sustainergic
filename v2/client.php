@@ -11,8 +11,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="assets/images/favicon.png" type="image/png">
     
-    <title>Our Clients &amp; Project Portfolio | Sustainergic Tech</title>
-    <meta name="description" content="Explore Sustainergic Tech's extensive portfolio of green building certifications, energy assessments, LEED, and IGBC certified projects for corporate, industrial, hospitality, and residential clients.">
+    <title>Our Clients &amp; Proven Project Partners | Sustainergic Tech</title>
+    <meta name="description" content="Discover the organizations and Fortune 500 enterprises partnering with Sustainergic Tech for green building certifications, HVAC design, and ESG advisory.">
     <meta name="keywords" content="Sustainergic clients, green building project portfolio, LEED certified building projects, corporate HVAC clients India">
     <link rel="canonical" href="https://sustainergictech.in/client.php">
 

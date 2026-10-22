@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="assets/images/favicon.png" type="image/png">
     
-    <title>Chilled Water System Design & Engineering | Sustainergic Tech</title>
-    <meta name="description" content="Sustainergic Tech provides complete design, equipment selection, installation support, and commissioning for energy-efficient Chilled Water Systems in commercial and industrial buildings.">
+    <title>Chilled Water System Engineering | Sustainergic Tech</title>
+    <meta name="description" content="Sustainergic Tech delivers energy-efficient Chilled Water System design, central chiller plant optimization, and commissioning for commercial facilities.">
     <meta name="keywords" content="chilled water system, central chiller plant, primary secondary pumping, HVAC chiller design, cooling tower system, hydronic cooling">
 
     <!-- Stylesheets -->

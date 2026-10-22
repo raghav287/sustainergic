@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="assets/images/favicon.png" type="image/png">
     
-    <title>Sitemap | Sustainergic Tech</title>
+    <title>Website Directory &amp; Sitemap | Sustainergic Tech India</title>
     <meta name="description" content="Explore the comprehensive website directory of Sustainergic Tech including green building certification, HVAC engineering, IoT water solutions, and case studies.">
     <meta name="keywords" content="Sustainergic sitemap, website directory, green building services, HVAC engineering solutions">
     <link rel="canonical" href="https://sustainergictech.in/sitemap.php">

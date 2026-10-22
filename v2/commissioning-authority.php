@@ -11,8 +11,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="assets/images/favicon.png" type="image/png">
     
-    <title>Commissioning Authority | Sustainergic Tech</title>
-    <meta name="description" content="Independent verification, testing, and performance optimization to ensure building systems operate reliably, efficiently, and in accordance with the project's design intent.">
+    <title>Building Commissioning Authority (CxA) | Sustainergic Tech</title>
+    <meta name="description" content="Independent commissioning authority (CxA) services by Sustainergic Tech to verify, test, and optimize HVAC, electrical, and plumbing system efficiency.">
     <meta name="keywords" content="commissioning authority, CxA consultant, building commissioning, HVAC TAB testing, LEED commissioning, functional performance testing">
 
     <!-- Stylesheets -->

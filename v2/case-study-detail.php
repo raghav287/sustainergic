@@ -25,8 +25,23 @@ $related_studies = array_slice($related_studies, 0, 3);
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="assets/images/favicon.png" type="image/png">
     
-    <title><?php echo htmlspecialchars($cs['title']); ?> | Sustainergic Tech Case Studies</title>
-    <meta name="description" content="<?php echo htmlspecialchars($cs['tagline']); ?>">
+<?php
+// Compute optimal title length (50-60 characters)
+$client_name = $cs['client'] ?? '';
+$short_title = $client_name ? ($client_name . ' Case Study | Sustainergic Tech') : ($cs['title'] . ' | Sustainergic');
+if (mb_strlen($short_title) > 60) {
+    $cs_seo_title = mb_substr($short_title, 0, 57) . '...';
+} else {
+    $cs_seo_title = $short_title;
+}
+
+$cs_meta_desc = !empty($cs['tagline']) ? $cs['tagline'] : ($cs['subtitle'] ?? 'Read the ' . $cs['title'] . ' engineering case study by Sustainergic Tech.');
+if (mb_strlen($cs_meta_desc) > 160) {
+    $cs_meta_desc = mb_substr($cs_meta_desc, 0, 157) . '...';
+}
+?>
+    <title><?php echo htmlspecialchars($cs_seo_title); ?></title>
+    <meta name="description" content="<?php echo htmlspecialchars($cs_meta_desc); ?>">
     <meta name="keywords" content="<?php echo htmlspecialchars($cs['title']); ?>, <?php echo htmlspecialchars($cs['client']); ?>, Sustainergic Tech case study, green building analysis">
     <link rel="canonical" href="https://sustainergictech.in/case-study-detail.php?id=<?php echo urlencode($cs['id']); ?>">
 

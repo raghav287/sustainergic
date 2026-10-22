@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="assets/images/favicon.png" type="image/png">
-    <title>Terms & Conditions | Sustainergic Tech</title>
+    <title>Terms &amp; Conditions of Service | Sustainergic Tech India</title>
     <meta name="description" content="Terms & Conditions of Sustainergic Tech Pvt. Ltd. Read our terms of service, consulting scope, intellectual property, and service agreements.">
     <meta name="keywords" content="terms and conditions, terms of service, Sustainergic consulting agreement, service terms">
 

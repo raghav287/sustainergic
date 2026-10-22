@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="assets/images/favicon.png" type="image/png">
     
-    <title>IoT Water Automation &amp; Smart Water Management | Sustainergic Tech</title>
+    <title>IoT Water Automation &amp; Management | Sustainergic Tech</title>
     <meta name="description" content="Aquasense delivers IoT water automation, smart ultrasonic flow metering, automated leak detection, AquaTank, and AquaCharge telemetry across India.">
     <meta name="keywords" content="IoT water solution, smart water automation, AquaTank, AquaCharge, ultrasonic flow meter, borewell monitoring, water quality analyzer, real-time leak detection">
 

@@ -11,8 +11,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="assets/images/favicon.png" type="image/png">
     
-    <title>Carbon Accounting & Advisory | Sustainergic Tech</title>
-    <meta name="description" content="Comprehensive carbon measurement, lifecycle assessment, emissions reporting, and mitigation support to help organizations understand and reduce their climate impact.">
+    <title>Carbon Accounting &amp; Decarbonization | Sustainergic Tech</title>
+    <meta name="description" content="Comprehensive carbon accounting, lifecycle assessment (LCA), and BRSR emissions reporting to help organizations quantify and reduce corporate climate impact.">
     <meta name="keywords" content="carbon accounting, Scope 1 2 3 emissions, decarbonization roadmap, carbon footprint calculation, GHG protocol reporting, lifecycle assessment">
 
     <!-- Stylesheets -->

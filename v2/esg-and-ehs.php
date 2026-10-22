@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="assets/images/favicon.png" type="image/png">
     
-    <title>ESG &amp; EHS Consulting &amp; Environmental Advisory | Sustainergic Tech</title>
-    <meta name="description" content="Sustainergic Tech provides corporate ESG consulting, SEBI BRSR sustainability reporting, ISO 14001 &amp; 45001 EHS compliance audits, and carbon footprint decarbonization advisory.">
+    <title>ESG &amp; EHS Consulting &amp; Advisory | Sustainergic Tech</title>
+    <meta name="description" content="Corporate ESG consulting, SEBI BRSR sustainability reporting, ISO 14001/45001 EHS compliance audits, and decarbonization roadmap advisory across India.">
     <meta name="keywords" content="ESG consulting, SEBI BRSR reporting, EHS compliance audit, ISO 14001 certification, ISO 45001 safety audit, corporate sustainability advisory">
 
     <!-- Stylesheets -->

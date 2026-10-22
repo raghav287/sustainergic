@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="assets/images/favicon.png" type="image/png">
     
-    <title>HTS Panel — Hybrid Thermal Solar Panel for VRF &amp; Chillers | Sustainergic Tech</title>
-    <meta name="description" content="HTS Panel technology connects parabolic sun-tracking solar collectors to VRF &amp; Chiller refrigeration cycles, cutting AC electricity bills by up to 40% with COP 6+.">
+    <title>Hybrid Thermal Solar (HTS) Panels | Sustainergic Tech</title>
+    <meta name="description" content="HTS Panel technology connects sun-tracking solar collectors to VRF &amp; chillers, cutting air conditioning electricity bills by up to 40% with COP 6+ efficiency.">
     <meta name="keywords" content="HTS panel, hybrid thermal solar panel, VRF solar retrofit, chiller solar optimization, solar thermal HVAC, sun tracking solar concentrator, COP 6 HVAC">
 
     <!-- Stylesheets -->

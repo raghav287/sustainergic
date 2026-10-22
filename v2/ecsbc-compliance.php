@@ -7,7 +7,7 @@
     <link rel="icon" href="assets/images/favicon.png" type="image/png">
     
     <title>ECSBC Compliance Consulting Services | Sustainergic Tech</title>
-    <meta name="description" content="Sustainergic Tech provides design reviews, compliance calculations, energy modeling, and documentation for ECSBC and Eco-Niwas Samhita compliance issued by BEE India.">
+    <meta name="description" content="Expert BEE ECSBC and Eco-Niwas Samhita compliance services in India, including energy modeling, design reviews, envelope optimization, and documentation.">
     <meta name="keywords" content="ECSBC compliance, Eco-Niwas Samhita, BEE India building energy code, building envelope compliance, ECSBC energy modeling">
     <link rel="canonical" href="https://sustainergictech.in/ecsbc-compliance.php">
 

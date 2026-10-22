@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="assets/images/favicon.png" type="image/png">
     
-    <title>VRV / VRF System Design & Engineering | Sustainergic Tech</title>
-    <meta name="description" content="Sustainergic Tech designs customized VRV/VRF air conditioning solutions offering flexible multi-zone climate control, precise temperature regulation, and reduced energy consumption.">
+    <title>VRV / VRF System Design &amp; Engineering | Sustainergic Tech</title>
+    <meta name="description" content="Customized VRV and VRF air conditioning engineering offering multi-zone climate control, superior seasonal energy efficiency, and reduced power consumption.">
     <meta name="keywords" content="VRV system, VRF air conditioning, variable refrigerant volume, multi-zone HVAC, commercial VRF installation, inverter AC system">
 
     <!-- Stylesheets -->

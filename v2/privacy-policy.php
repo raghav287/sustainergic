@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="assets/images/favicon.png" type="image/png">
-    <title>Privacy Policy | Sustainergic Tech</title>
+    <title>Privacy Policy &amp; Data Security | Sustainergic Tech</title>
     <meta name="description" content="Privacy Policy of Sustainergic Tech Pvt. Ltd. Learn how we collect, protect, and use your personal and business data.">
     <meta name="keywords" content="privacy policy, Sustainergic privacy terms, user data protection, data privacy policy">
 

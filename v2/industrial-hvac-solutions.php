@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="assets/images/favicon.png" type="image/png">
     
-    <title>Industrial HVAC Solutions &amp; Process Climate Control | Sustainergic Tech</title>
-    <meta name="description" content="Sustainergic Tech designs heavy-duty industrial HVAC solutions, process cooling plants, cleanroom ventilation, and fume extraction systems for manufacturing facilities across India.">
+    <title>Industrial HVAC &amp; Process Cooling | Sustainergic Tech</title>
+    <meta name="description" content="Custom industrial HVAC solutions, process cooling, cleanroom ventilation, and fume extraction systems engineered for manufacturing plants across India.">
     <meta name="keywords" content="industrial HVAC solutions, process chillers, dust collection system, wet scrubbers, cleanroom AHU, industrial heat load optimization, plant climate control">
     <link rel="canonical" href="https://sustainergictech.in/industrial-hvac-solutions.php">
 

@@ -29,9 +29,9 @@ $hvac_categories = array_filter($header_services, function($s, $key) use ($hidde
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Explore Sustainergic Tech's sustainability and energy efficiency projects organized by service category, including LEED certifications and advanced HVAC installations.">
     <link rel="icon" href="assets/images/favicon.png" type="image/png">
-    <title>Projects | Sustainergic Tech</title>
+    <title>Green Building &amp; HVAC Projects India | Sustainergic Tech</title>
+    <meta name="description" content="Explore Sustainergic Tech's portfolio of LEED Platinum, IGBC Gold, and energy-efficient HVAC engineering projects executed for premier clients across India.">
     <meta name="keywords" content="Sustainergic projects, sustainability engineering portfolio, LEED IGBC certified projects, commercial HVAC installations">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />

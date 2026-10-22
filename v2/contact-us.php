@@ -72,7 +72,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="assets/images/favicon.png" type="image/png">
-    <title>Contact Us | Sustainergic Tech</title>
+    <title>Contact Sustainergic Tech | Green Building Consultants</title>
     <meta name="description" content="Get in touch with Sustainergic Tech for green building certifications, HVAC engineering, IoT water solutions, and sustainability advisory services.">
     <meta name="keywords" content="contact Sustainergic Tech, HVAC consultant inquiry, green building consultation, energy audit contact, sustainability advisors India">
 

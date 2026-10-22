@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="assets/images/favicon.png" type="image/png">
     
-    <title>Heat Pump Systems Design & Engineering | Sustainergic Tech</title>
-    <meta name="description" content="Sustainergic Tech offers advanced heat pump solutions that lower energy costs, reduce carbon emissions, and provide year-round thermal comfort for residential, commercial, and industrial applications.">
+    <title>Heat Pump Systems Design &amp; Engineering | Sustainergic Tech</title>
+    <meta name="description" content="Advanced commercial and industrial heat pump solutions by Sustainergic Tech. Cut heating and hot water energy costs by up to 50% with low-carbon technology.">
     <meta name="keywords" content="heat pump system, air to water heat pump, commercial water heating, thermal heat pump, heat pump design India, energy efficient hot water">
 
     <!-- Stylesheets -->

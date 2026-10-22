@@ -7,7 +7,7 @@
     <link rel="icon" href="assets/images/favicon.png" type="image/png">
     
     <title>Underfloor Electric Heating System | Sustainergic Tech</title>
-    <meta name="description" content="Sustainergic Tech designs and installs reliable Underfloor Electric Heating systems utilizing heating cables and mats to deliver comfortable, silent, and evenly distributed warmth.">
+    <meta name="description" content="Underfloor electric heating systems by Sustainergic Tech delivering silent, energy-efficient, and evenly distributed radiant warmth for luxury residences.">
     <meta name="keywords" content="underfloor electric heating, electric floor warming, heating cables mats, radiant floor heat, bathroom floor heating, silent space heating">
 
     <!-- Stylesheets -->

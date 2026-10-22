@@ -11,7 +11,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="assets/images/favicon.png" type="image/png">
     
-    <title>Energy & Water Audits | Sustainergic Tech</title>
+    <title>Energy &amp; Water Audit Services India | Sustainergic Tech</title>
     <meta name="description" content="Comprehensive resource audits that identify inefficiencies, reduce operating costs, and support more sustainable building and facility performance.">
     <meta name="keywords" content="energy audit, water audit, facility energy assessment, ECM energy conservation measures, thermal image audit, power quality audit">
 
