@@ -80,6 +80,23 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <link rel="stylesheet" href="assets/css/style.css">
 
     <link rel="canonical" href="https://sustainergictech.in/contact-us.php">
+    <!-- Open Graph (Facebook, LinkedIn, WhatsApp) -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://sustainergictech.in/contact-us.php">
+    <meta property="og:site_name" content="Sustainergic Tech">
+    <meta property="og:locale" content="en_IN">
+    <meta property="og:title" content="Contact Sustainergic Tech | Green Building Consultants">
+    <meta property="og:description" content="Get in touch with Sustainergic Tech for green building certifications, HVAC engineering, IoT water solutions, and sustainability advisory services.">
+    <meta property="og:image" content="https://sustainergictech.in/assets/images/og-banner.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="Sustainergic Tech - Sustainable Green Building &amp; HVAC Engineering">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Contact Sustainergic Tech | Green Building Consultants">
+    <meta name="twitter:description" content="Get in touch with Sustainergic Tech for green building certifications, HVAC engineering, IoT water solutions, and sustainability advisory services.">
+    <meta name="twitter:image" content="https://sustainergictech.in/assets/images/og-banner.png">
 
 </head>
 

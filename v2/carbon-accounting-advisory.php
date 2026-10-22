@@ -155,6 +155,23 @@
         }
     </style>
     <link rel="canonical" href="https://sustainergictech.in/carbon-accounting-advisory.php">
+    <!-- Open Graph (Facebook, LinkedIn, WhatsApp) -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://sustainergictech.in/carbon-accounting-advisory.php">
+    <meta property="og:site_name" content="Sustainergic Tech">
+    <meta property="og:locale" content="en_IN">
+    <meta property="og:title" content="Carbon Accounting &amp; Decarbonization | Sustainergic Tech">
+    <meta property="og:description" content="Comprehensive carbon accounting, lifecycle assessment (LCA), and BRSR emissions reporting to help organizations quantify and reduce corporate climate impact.">
+    <meta property="og:image" content="https://sustainergictech.in/assets/images/og-banner.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="Sustainergic Tech - Sustainable Green Building &amp; HVAC Engineering">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Carbon Accounting &amp; Decarbonization | Sustainergic Tech">
+    <meta name="twitter:description" content="Comprehensive carbon accounting, lifecycle assessment (LCA), and BRSR emissions reporting to help organizations quantify and reduce corporate climate impact.">
+    <meta name="twitter:image" content="https://sustainergictech.in/assets/images/og-banner.png">
 
 </head>
 

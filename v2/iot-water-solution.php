@@ -91,6 +91,23 @@
         }
     </style>
     <link rel="canonical" href="https://sustainergictech.in/iot-water-solution.php">
+    <!-- Open Graph (Facebook, LinkedIn, WhatsApp) -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://sustainergictech.in/iot-water-solution.php">
+    <meta property="og:site_name" content="Sustainergic Tech">
+    <meta property="og:locale" content="en_IN">
+    <meta property="og:title" content="IoT Water Automation &amp; Management | Sustainergic Tech">
+    <meta property="og:description" content="Aquasense delivers IoT water automation, smart ultrasonic flow metering, automated leak detection, AquaTank, and AquaCharge telemetry across India.">
+    <meta property="og:image" content="https://sustainergictech.in/assets/images/og-banner.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="Sustainergic Tech - Sustainable Green Building &amp; HVAC Engineering">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="IoT Water Automation &amp; Management | Sustainergic Tech">
+    <meta name="twitter:description" content="Aquasense delivers IoT water automation, smart ultrasonic flow metering, automated leak detection, AquaTank, and AquaCharge telemetry across India.">
+    <meta name="twitter:image" content="https://sustainergictech.in/assets/images/og-banner.png">
 
 </head>
 

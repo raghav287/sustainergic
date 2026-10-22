@@ -442,4 +442,115 @@
 
 </footer>
 
+<!-- ==========================================================================
+     JSON-LD STRUCTURED DATA (SCHEMA.ORG)
+     ========================================================================== -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://sustainergictech.in/#organization",
+      "name": "Sustainergic Tech Pvt. Ltd.",
+      "url": "https://sustainergictech.in/",
+      "logo": {
+        "@type": "ImageObject",
+        "@id": "https://sustainergictech.in/#logo",
+        "url": "https://sustainergictech.in/assets/images/logo.png",
+        "caption": "Sustainergic Tech",
+        "width": 628,
+        "height": 162
+      },
+      "image": {
+        "@id": "https://sustainergictech.in/#logo"
+      },
+      "telephone": "+91-9785749960",
+      "email": "business@sustainergictech.in",
+      "sameAs": [
+        "https://www.linkedin.com/company/sustainergic-tech/",
+        "https://www.instagram.com/sustainergictech",
+        "https://www.facebook.com/people/Sustainergic-Tech-Pvt-Ltd/61578335520970/"
+      ]
+    },
+    {
+      "@type": "EngineeringService",
+      "@id": "https://sustainergictech.in/#service",
+      "name": "Sustainergic Tech",
+      "url": "https://sustainergictech.in/",
+      "logo": "https://sustainergictech.in/assets/images/logo.png",
+      "image": "https://sustainergictech.in/assets/images/og-banner.png",
+      "description": "Green building certification (LEED, IGBC, GRIHA), HVAC engineering design, building commissioning (CxA), IoT water management, and corporate ESG carbon advisory services across India.",
+      "telephone": "+91-9785749960",
+      "email": "business@sustainergictech.in",
+      "priceRange": "$$",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "IN"
+      },
+      "areaServed": {
+        "@type": "Country",
+        "name": "India"
+      },
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Sustainable Engineering Services",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Green Building Certification",
+              "description": "LEED, IGBC, GRIHA, ASSOCHAM GEM, and WELL certification consulting."
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Energy Simulation & Modeling",
+              "description": "Whole-building energy modeling, daylight simulation, and microclimate CFD."
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Building Commissioning Authority (CxA)",
+              "description": "Third-party MEP verification, TAB balancing, and functional performance testing."
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Sustainable HVAC & Cooling Engineering",
+              "description": "Chilled water systems, geothermal HVAC, heat pumps, and cleanroom air systems."
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "IoT Water Management",
+              "description": "Smart ultrasonic flow metering, leak detection, and automated STP/ETP telemetry."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://sustainergictech.in/#website",
+      "url": "https://sustainergictech.in/",
+      "name": "Sustainergic Tech",
+      "publisher": {
+        "@id": "https://sustainergictech.in/#organization"
+      },
+      "inLanguage": "en-IN"
+    }
+  ]
+}
+</script>
+
 <?php include __DIR__ . '/floating-contact.php'; ?>

@@ -141,6 +141,23 @@
         }
     </style>
     <link rel="canonical" href="https://sustainergictech.in/hybrid-thermal-solar-panel.php">
+    <!-- Open Graph (Facebook, LinkedIn, WhatsApp) -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://sustainergictech.in/hybrid-thermal-solar-panel.php">
+    <meta property="og:site_name" content="Sustainergic Tech">
+    <meta property="og:locale" content="en_IN">
+    <meta property="og:title" content="Hybrid Thermal Solar (HTS) Panels | Sustainergic Tech">
+    <meta property="og:description" content="HTS Panel technology connects sun-tracking solar collectors to VRF &amp; chillers, cutting air conditioning electricity bills by up to 40% with COP 6+ efficiency.">
+    <meta property="og:image" content="https://sustainergictech.in/assets/images/og-banner.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="Sustainergic Tech - Sustainable Green Building &amp; HVAC Engineering">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Hybrid Thermal Solar (HTS) Panels | Sustainergic Tech">
+    <meta name="twitter:description" content="HTS Panel technology connects sun-tracking solar collectors to VRF &amp; chillers, cutting air conditioning electricity bills by up to 40% with COP 6+ efficiency.">
+    <meta name="twitter:image" content="https://sustainergictech.in/assets/images/og-banner.png">
 
 </head>
 

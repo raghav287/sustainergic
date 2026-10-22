@@ -21,6 +21,23 @@
     <link rel="stylesheet" href="assets/css/style.css">
      <link rel="stylesheet" href="assets/css/audits.css">
     <link rel="canonical" href="https://sustainergictech.in/commissioning-authority.php">
+    <!-- Open Graph (Facebook, LinkedIn, WhatsApp) -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://sustainergictech.in/commissioning-authority.php">
+    <meta property="og:site_name" content="Sustainergic Tech">
+    <meta property="og:locale" content="en_IN">
+    <meta property="og:title" content="Building Commissioning Authority (CxA) | Sustainergic Tech">
+    <meta property="og:description" content="Independent commissioning authority (CxA) services by Sustainergic Tech to verify, test, and optimize HVAC, electrical, and plumbing system efficiency.">
+    <meta property="og:image" content="https://sustainergictech.in/assets/images/og-banner.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="Sustainergic Tech - Sustainable Green Building &amp; HVAC Engineering">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Building Commissioning Authority (CxA) | Sustainergic Tech">
+    <meta name="twitter:description" content="Independent commissioning authority (CxA) services by Sustainergic Tech to verify, test, and optimize HVAC, electrical, and plumbing system efficiency.">
+    <meta name="twitter:image" content="https://sustainergictech.in/assets/images/og-banner.png">
 
 </head>
 

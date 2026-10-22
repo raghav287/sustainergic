@@ -15,6 +15,23 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="canonical" href="https://sustainergictech.in/underfloor-electric-heating-system.php">
+    <!-- Open Graph (Facebook, LinkedIn, WhatsApp) -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://sustainergictech.in/underfloor-electric-heating-system.php">
+    <meta property="og:site_name" content="Sustainergic Tech">
+    <meta property="og:locale" content="en_IN">
+    <meta property="og:title" content="Underfloor Electric Heating System | Sustainergic Tech">
+    <meta property="og:description" content="Underfloor electric heating systems by Sustainergic Tech delivering silent, energy-efficient, and evenly distributed radiant warmth for luxury residences.">
+    <meta property="og:image" content="https://sustainergictech.in/assets/images/og-banner.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="Sustainergic Tech - Sustainable Green Building &amp; HVAC Engineering">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Underfloor Electric Heating System | Sustainergic Tech">
+    <meta name="twitter:description" content="Underfloor electric heating systems by Sustainergic Tech delivering silent, energy-efficient, and evenly distributed radiant warmth for luxury residences.">
+    <meta name="twitter:image" content="https://sustainergictech.in/assets/images/og-banner.png">
 
 </head>
 

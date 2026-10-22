@@ -127,6 +127,23 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['action']) && $_POST['
     <meta name="description" content="Sustainergic Tech provides expert Green Building Certification (LEED, IGBC), HVAC engineering, IoT water management, and energy audits across India.">
     <meta name="keywords" content="green building consultant, HVAC engineering India, LEED certification, IGBC certification, energy audit, IoT water management, sustainable building design, Sustainergic Tech">
     <link rel="canonical" href="https://sustainergictech.in/">
+    <!-- Open Graph (Facebook, LinkedIn, WhatsApp) -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://sustainergictech.in/">
+    <meta property="og:site_name" content="Sustainergic Tech">
+    <meta property="og:locale" content="en_IN">
+    <meta property="og:title" content="Green Building &amp; HVAC Consultants India | Sustainergic Tech">
+    <meta property="og:description" content="Sustainergic Tech provides expert Green Building Certification (LEED, IGBC), HVAC engineering, IoT water management, and energy audits across India.">
+    <meta property="og:image" content="https://sustainergictech.in/assets/images/og-banner.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="Sustainergic Tech - Sustainable Green Building &amp; HVAC Engineering">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Green Building &amp; HVAC Consultants India | Sustainergic Tech">
+    <meta name="twitter:description" content="Sustainergic Tech provides expert Green Building Certification (LEED, IGBC), HVAC engineering, IoT water management, and energy audits across India.">
+    <meta name="twitter:image" content="https://sustainergictech.in/assets/images/og-banner.png">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />

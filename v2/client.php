@@ -15,6 +15,23 @@
     <meta name="description" content="Discover the organizations and Fortune 500 enterprises partnering with Sustainergic Tech for green building certifications, HVAC design, and ESG advisory.">
     <meta name="keywords" content="Sustainergic clients, green building project portfolio, LEED certified building projects, corporate HVAC clients India">
     <link rel="canonical" href="https://sustainergictech.in/client.php">
+    <!-- Open Graph (Facebook, LinkedIn, WhatsApp) -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://sustainergictech.in/client.php">
+    <meta property="og:site_name" content="Sustainergic Tech">
+    <meta property="og:locale" content="en_IN">
+    <meta property="og:title" content="Our Clients &amp; Proven Project Partners | Sustainergic Tech">
+    <meta property="og:description" content="Discover the organizations and Fortune 500 enterprises partnering with Sustainergic Tech for green building certifications, HVAC design, and ESG advisory.">
+    <meta property="og:image" content="https://sustainergictech.in/assets/images/og-banner.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="Sustainergic Tech - Sustainable Green Building &amp; HVAC Engineering">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Our Clients &amp; Proven Project Partners | Sustainergic Tech">
+    <meta name="twitter:description" content="Discover the organizations and Fortune 500 enterprises partnering with Sustainergic Tech for green building certifications, HVAC design, and ESG advisory.">
+    <meta name="twitter:image" content="https://sustainergictech.in/assets/images/og-banner.png">
 
     <!-- Stylesheets -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />

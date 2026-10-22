@@ -12,6 +12,23 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="canonical" href="https://sustainergictech.in/privacy-policy.php">
+    <!-- Open Graph (Facebook, LinkedIn, WhatsApp) -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://sustainergictech.in/privacy-policy.php">
+    <meta property="og:site_name" content="Sustainergic Tech">
+    <meta property="og:locale" content="en_IN">
+    <meta property="og:title" content="Privacy Policy &amp; Data Security | Sustainergic Tech">
+    <meta property="og:description" content="Privacy Policy of Sustainergic Tech Pvt. Ltd. Learn how we collect, protect, and use your personal and business data.">
+    <meta property="og:image" content="https://sustainergictech.in/assets/images/og-banner.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="Sustainergic Tech - Sustainable Green Building &amp; HVAC Engineering">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Privacy Policy &amp; Data Security | Sustainergic Tech">
+    <meta name="twitter:description" content="Privacy Policy of Sustainergic Tech Pvt. Ltd. Learn how we collect, protect, and use your personal and business data.">
+    <meta name="twitter:image" content="https://sustainergictech.in/assets/images/og-banner.png">
 
 </head>
 

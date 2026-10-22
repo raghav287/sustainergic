@@ -12,6 +12,23 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="canonical" href="https://sustainergictech.in/terms-condition.php">
+    <!-- Open Graph (Facebook, LinkedIn, WhatsApp) -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://sustainergictech.in/terms-condition.php">
+    <meta property="og:site_name" content="Sustainergic Tech">
+    <meta property="og:locale" content="en_IN">
+    <meta property="og:title" content="Terms &amp; Conditions of Service | Sustainergic Tech India">
+    <meta property="og:description" content="Terms & Conditions of Sustainergic Tech Pvt. Ltd. Read our terms of service, consulting scope, intellectual property, and service agreements.">
+    <meta property="og:image" content="https://sustainergictech.in/assets/images/og-banner.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="Sustainergic Tech - Sustainable Green Building &amp; HVAC Engineering">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Terms &amp; Conditions of Service | Sustainergic Tech India">
+    <meta name="twitter:description" content="Terms & Conditions of Sustainergic Tech Pvt. Ltd. Read our terms of service, consulting scope, intellectual property, and service agreements.">
+    <meta name="twitter:image" content="https://sustainergictech.in/assets/images/og-banner.png">
 
 </head>
 

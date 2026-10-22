@@ -43,7 +43,22 @@ if (mb_strlen($cs_meta_desc) > 160) {
     <title><?php echo htmlspecialchars($cs_seo_title); ?></title>
     <meta name="description" content="<?php echo htmlspecialchars($cs_meta_desc); ?>">
     <meta name="keywords" content="<?php echo htmlspecialchars($cs['title']); ?>, <?php echo htmlspecialchars($cs['client']); ?>, Sustainergic Tech case study, green building analysis">
-    <link rel="canonical" href="https://sustainergictech.in/case-study-detail.php?id=<?php echo urlencode($cs['id']); ?>">
+    <link rel="canonical" href="https://sustainergictech.in/case-study-detail.php?id=<?php echo urlencode($cs['id']); ?>
+    <!-- Open Graph (Facebook, LinkedIn, WhatsApp) -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://sustainergictech.in/case-study-detail.php?id=<?php echo urlencode($cs['id']); ?>">
+    <meta property="og:site_name" content="Sustainergic Tech">
+    <meta property="og:locale" content="en_IN">
+    <meta property="og:title" content="<?php echo htmlspecialchars($cs_seo_title); ?>">
+    <meta property="og:description" content="<?php echo htmlspecialchars($cs_meta_desc); ?>">
+    <meta property="og:image" content="https://sustainergictech.in/assets/images/<?php echo !empty($cs['image']) ? htmlspecialchars($cs['image']) : 'og-banner.png'; ?>">
+    <meta property="og:image:alt" content="<?php echo htmlspecialchars($cs['title']); ?>">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="<?php echo htmlspecialchars($cs_seo_title); ?>">
+    <meta name="twitter:description" content="<?php echo htmlspecialchars($cs_meta_desc); ?>">
+    <meta name="twitter:image" content="https://sustainergictech.in/assets/images/<?php echo !empty($cs['image']) ? htmlspecialchars($cs['image']) : 'og-banner.png'; ?>">">
 
     <!-- Stylesheets -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />

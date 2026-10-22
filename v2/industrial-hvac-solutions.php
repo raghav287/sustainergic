@@ -10,6 +10,23 @@
     <meta name="description" content="Custom industrial HVAC solutions, process cooling, cleanroom ventilation, and fume extraction systems engineered for manufacturing plants across India.">
     <meta name="keywords" content="industrial HVAC solutions, process chillers, dust collection system, wet scrubbers, cleanroom AHU, industrial heat load optimization, plant climate control">
     <link rel="canonical" href="https://sustainergictech.in/industrial-hvac-solutions.php">
+    <!-- Open Graph (Facebook, LinkedIn, WhatsApp) -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://sustainergictech.in/industrial-hvac-solutions.php">
+    <meta property="og:site_name" content="Sustainergic Tech">
+    <meta property="og:locale" content="en_IN">
+    <meta property="og:title" content="Industrial HVAC &amp; Process Cooling | Sustainergic Tech">
+    <meta property="og:description" content="Custom industrial HVAC solutions, process cooling, cleanroom ventilation, and fume extraction systems engineered for manufacturing plants across India.">
+    <meta property="og:image" content="https://sustainergictech.in/assets/images/og-banner.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="Sustainergic Tech - Sustainable Green Building &amp; HVAC Engineering">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Industrial HVAC &amp; Process Cooling | Sustainergic Tech">
+    <meta name="twitter:description" content="Custom industrial HVAC solutions, process cooling, cleanroom ventilation, and fume extraction systems engineered for manufacturing plants across India.">
+    <meta name="twitter:image" content="https://sustainergictech.in/assets/images/og-banner.png">
 
     <!-- Stylesheets -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />

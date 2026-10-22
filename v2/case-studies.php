@@ -329,6 +329,23 @@ $paginated_studies = array_slice($filtered_case_studies, $offset, $items_per_pag
         }
     </style>
     <link rel="canonical" href="https://sustainergictech.in/case-studies.php">
+    <!-- Open Graph (Facebook, LinkedIn, WhatsApp) -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://sustainergictech.in/case-studies.php">
+    <meta property="og:site_name" content="Sustainergic Tech">
+    <meta property="og:locale" content="en_IN">
+    <meta property="og:title" content="Case Studies &amp; Decarbonization Portfolio | Sustainergic Tech">
+    <meta property="og:description" content="Explore real-world green building certifications, net-zero HVAC, IoT water management, and ESG case studies executed by Sustainergic Tech across India.">
+    <meta property="og:image" content="https://sustainergictech.in/assets/images/og-banner.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="Sustainergic Tech - Sustainable Green Building &amp; HVAC Engineering">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Case Studies &amp; Decarbonization Portfolio | Sustainergic Tech">
+    <meta name="twitter:description" content="Explore real-world green building certifications, net-zero HVAC, IoT water management, and ESG case studies executed by Sustainergic Tech across India.">
+    <meta name="twitter:image" content="https://sustainergictech.in/assets/images/og-banner.png">
 
 </head>
 

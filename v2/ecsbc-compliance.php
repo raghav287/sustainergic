@@ -10,6 +10,23 @@
     <meta name="description" content="Expert BEE ECSBC and Eco-Niwas Samhita compliance services in India, including energy modeling, design reviews, envelope optimization, and documentation.">
     <meta name="keywords" content="ECSBC compliance, Eco-Niwas Samhita, BEE India building energy code, building envelope compliance, ECSBC energy modeling">
     <link rel="canonical" href="https://sustainergictech.in/ecsbc-compliance.php">
+    <!-- Open Graph (Facebook, LinkedIn, WhatsApp) -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://sustainergictech.in/ecsbc-compliance.php">
+    <meta property="og:site_name" content="Sustainergic Tech">
+    <meta property="og:locale" content="en_IN">
+    <meta property="og:title" content="ECSBC Compliance Consulting Services | Sustainergic Tech">
+    <meta property="og:description" content="Expert BEE ECSBC and Eco-Niwas Samhita compliance services in India, including energy modeling, design reviews, envelope optimization, and documentation.">
+    <meta property="og:image" content="https://sustainergictech.in/assets/images/og-banner.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="Sustainergic Tech - Sustainable Green Building &amp; HVAC Engineering">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="ECSBC Compliance Consulting Services | Sustainergic Tech">
+    <meta name="twitter:description" content="Expert BEE ECSBC and Eco-Niwas Samhita compliance services in India, including energy modeling, design reviews, envelope optimization, and documentation.">
+    <meta name="twitter:image" content="https://sustainergictech.in/assets/images/og-banner.png">
 
     <!-- Stylesheets -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
