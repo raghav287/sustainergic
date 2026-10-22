@@ -142,23 +142,19 @@ $resource_pages = ['case-studies.php', 'case-study-detail.php', 'client.php', 'c
             <!-- Mobile CTA (shown only in mobile menu) -->
             <div class="mobile-cta">
                 <a href="contact-us.php" class="quote-btn">
-                    Get a Consultation
-                    <i class="fa-solid fa-arrow-right-long"></i>
+                    Book a Free Consultation
+                    <i class="fa-solid fa-calendar-check"></i>
                 </a>
             </div>
 
         </nav>
 
         <!-- Right Side -->
-
         <div class="nav-right">
 
             <a href="contact-us.php" class="quote-btn">
-
-                Get a Consultation
-
-                <i class="fa-solid fa-arrow-right-long"></i>
-
+                Book a Free Consultation
+                <i class="fa-solid fa-calendar-check"></i>
             </a>
 
             <!-- Mobile Toggle -->

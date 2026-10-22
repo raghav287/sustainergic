@@ -13,7 +13,7 @@
 
 $title = isset($cta_title) ? $cta_title : 'Ready to Transition to Sustainable Solutions?';
 $desc = isset($cta_desc) ? $cta_desc : 'Partner with Sustainergic Tech for certified green buildings, optimized HVAC design, and low-carbon energy systems.';
-$btn_text = isset($cta_btn_text) ? $cta_btn_text : 'Get Free Consultation';
+$btn_text = isset($cta_btn_text) ? $cta_btn_text : 'Book a Free Consultation';
 $btn_link = isset($cta_btn_link) ? $cta_btn_link : 'contact-us.php';
 ?>
 

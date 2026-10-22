@@ -334,6 +334,279 @@ function get_all_case_studies() {
                 'company' => 'Sustainergic Tech Solutions',
                 'address' => 'D 5/24, Chitrakoot Scheme, Jaipur'
             ]
+        ],
+
+        'holiday-inn-jaipur' => [
+            'id' => 'holiday-inn-jaipur',
+            'title' => 'Holiday Inn Jaipur — Comprehensive Energy, Electrical Safety & HVAC Thermal Audit',
+            'client' => 'Holiday Inn (IHG Group)',
+            'location' => 'Jaipur, Rajasthan',
+            'prepared_by' => 'Sustainergic Tech',
+            'category' => 'audits',
+            'category_name' => 'Energy & Safety Audits',
+            'badge' => 'BEE Empanelled Audit Certified',
+            'tagline' => 'Full-spectrum thermal envelope, centralized chiller plant, and electrical safety audit identifying 24% potential energy reduction with actionable ECMs.',
+            'image' => 'assets/images/energy-holiday.png',
+            'is_featured' => false,
+            'metrics' => [
+                'waste_diversion' => '78%',
+                'water_savings' => '32%',
+                'energy_savings' => '24%',
+                'solar_contribution' => '18%',
+                'co2_avoided' => '210 Tons/Yr',
+                'baseline_note' => 'Benchmarked against BEE hospitality sector thermal performance standards.'
+            ],
+            'scorecard' => [
+                'rating_system' => 'BEE Certified Energy Audit & Thermal Imaging',
+                'tier' => 'Grade-A Energy Conservation Report',
+                'summary' => 'Formulated comprehensive thermal imaging and chiller COP optimization roadmap with an estimated 1.8-year payback.'
+            ],
+            'pillars' => [
+                ['title' => 'Chiller COP Audit', 'desc' => 'Measured actual partial load chiller efficiencies and pumping delta-T.', 'icon' => 'fa-gauge-high'],
+                ['title' => 'Thermography', 'desc' => 'Infrared thermal imaging identifying electrical hotspot risks and envelope leakage.', 'icon' => 'fa-camera'],
+                ['title' => 'Kitchen Ventilation', 'desc' => 'Variable-speed exhaust hood control reducing conditioned air exhaust losses.', 'icon' => 'fa-fan'],
+                ['title' => 'Power Quality', 'desc' => 'Harmonic distortion analysis and power factor correction to 0.99.', 'icon' => 'fa-bolt']
+            ],
+            'architectural_vision' => 'Optimizing guest thermal comfort while driving down hotel operational energy expenditure through engineering precision.',
+            'enquiries' => [
+                'title' => 'Need an Energy & Safety Audit for Your Facility?',
+                'company' => 'Sustainergic Tech Solutions',
+                'address' => 'D 5/24, Chitrakoot Scheme, Jaipur'
+            ]
+        ],
+
+        'spj-vedatam-mall' => [
+            'id' => 'spj-vedatam-mall',
+            'title' => 'SPJ Vedatam Mall — ECSBC / ECBC Statutory Compliance & Envelope Optimization',
+            'client' => 'SPJ Group',
+            'location' => 'Gurugram, Haryana',
+            'prepared_by' => 'Sustainergic Tech',
+            'category' => 'services',
+            'category_name' => 'ECSBC Code & Simulation',
+            'badge' => 'BEE ECSBC Sanctioned',
+            'tagline' => 'Prescriptive trade-off and whole-building simulation for high-density retail destination, optimizing glass SHGC, roof insulation, and central chiller efficiency.',
+            'image' => 'assets/images/ecsbc-spj.png',
+            'is_featured' => false,
+            'metrics' => [
+                'waste_diversion' => '85%',
+                'water_savings' => '38%',
+                'energy_savings' => '31%',
+                'solar_contribution' => '22%',
+                'co2_avoided' => '540 Tons/Yr',
+                'baseline_note' => 'Compliance verified against Haryana ECBC / BEE ECSBC 2024 thresholds.'
+            ],
+            'scorecard' => [
+                'rating_system' => 'BEE Energy Conservation & Sustainable Building Code (ECSBC)',
+                'tier' => '100% Code Approved',
+                'summary' => 'Achieved municipal statutory energy sanction while reducing peak cooling chiller capacity requirement by 18%.'
+            ],
+            'pillars' => [
+                ['title' => 'Glazing Optimization', 'desc' => 'Curtain wall SHGC specified at 0.25 with low-E coating for daylight retention.', 'icon' => 'fa-window-maximize'],
+                ['title' => 'Whole-Building Sim', 'desc' => 'Hour-by-hour dynamic energy simulation using EnergyPlus and eQUEST engines.', 'icon' => 'fa-laptop-code'],
+                ['title' => 'Lighting Power Density', 'desc' => 'Retail atriums engineered at 35% lower LPD than baseline code.', 'icon' => 'fa-lightbulb'],
+                ['title' => 'Statutory Clearances', 'desc' => 'Expedited Energy Performance Index (EPI) compliance report and approvals.', 'icon' => 'fa-file-shield']
+            ],
+            'architectural_vision' => 'Proving that high-footfall commercial retail developments can operate at benchmark efficiency with high occupant visual comfort.',
+            'enquiries' => [
+                'title' => 'Need ECSBC Code Compliance & Approvals for Your Project?',
+                'company' => 'Sustainergic Tech Solutions',
+                'address' => 'D 5/24, Chitrakoot Scheme, Jaipur'
+            ]
+        ],
+
+        'martin-luther-chitkara' => [
+            'id' => 'martin-luther-chitkara',
+            'title' => 'Martin Luther Block — Independent Commissioning Authority (CxA) & MEP Balancing',
+            'client' => 'Chitkara University',
+            'location' => 'Rajpura, Punjab',
+            'prepared_by' => 'Sustainergic Tech',
+            'category' => 'services',
+            'category_name' => 'Commissioning Authority',
+            'badge' => 'Cx Certified Performance',
+            'tagline' => 'Comprehensive third-party commissioning of VRV cooling, dedicated outdoor air systems (DOAS), water pumping, and building management controls.',
+            'image' => 'assets/images/comission-martin.png',
+            'is_featured' => false,
+            'metrics' => [
+                'waste_diversion' => '92%',
+                'water_savings' => '44%',
+                'energy_savings' => '28%',
+                'solar_contribution' => '30%',
+                'co2_avoided' => '175 Tons/Yr',
+                'baseline_note' => 'Performance validated against ASHRAE Guideline 0-2019 commissioning requirements.'
+            ],
+            'scorecard' => [
+                'rating_system' => 'USGBC / IGBC Fundamental & Enhanced Commissioning',
+                'tier' => 'Verified Commissioning Authority',
+                'summary' => 'Identified and remediated 34 pre-functional mechanical discrepancies prior to building handover, ensuring optimal design intent.'
+            ],
+            'pillars' => [
+                ['title' => 'TAB Verification', 'desc' => 'Testing, Adjusting, and Balancing (TAB) of all air and hydronic distribution circuits.', 'icon' => 'fa-sliders'],
+                ['title' => 'BMS Sequences', 'desc' => 'End-to-end verification of control algorithms, setback temperatures, and alarms.', 'icon' => 'fa-network-wired'],
+                ['title' => 'Air Balancing', 'desc' => 'Ensuring precise ventilation delivery to lecture halls, auditoriums, and laboratories.', 'icon' => 'fa-wind'],
+                ['title' => 'Seasonal Testing', 'desc' => '10-month post-occupancy seasonal review verifying peak cooling and heating performance.', 'icon' => 'fa-calendar-check']
+            ],
+            'architectural_vision' => 'Guaranteeing institutional building systems deliver real-world operational savings from day one of occupation.',
+            'enquiries' => [
+                'title' => 'Looking for an Independent Commissioning Authority (CxA)?',
+                'company' => 'Sustainergic Tech Solutions',
+                'address' => 'D 5/24, Chitrakoot Scheme, Jaipur'
+            ]
+        ],
+
+        '42works-campus' => [
+            'id' => '42works-campus',
+            'title' => '42 Works Campus — 3D Whole-Building Energy Simulation & Microclimate CFD',
+            'client' => '42 Works',
+            'location' => 'Mohali, Punjab',
+            'prepared_by' => 'Sustainergic Tech',
+            'category' => 'services',
+            'category_name' => 'Simulation & 3D Modeling',
+            'badge' => 'High-Performance Modeled',
+            'tagline' => 'High-fidelity building physics simulation, daylight lux factor mapping, and computational fluid dynamics (CFD) airflow distribution.',
+            'image' => 'assets/images/ecsbc-42.png',
+            'is_featured' => false,
+            'metrics' => [
+                'waste_diversion' => '86%',
+                'water_savings' => '36%',
+                'energy_savings' => '34%',
+                'solar_contribution' => '20%',
+                'co2_avoided' => '160 Tons/Yr',
+                'baseline_note' => 'Simulated utilizing EnergyPlus v23.2 and OpenStudio building energy modeling.'
+            ],
+            'scorecard' => [
+                'rating_system' => 'ASHRAE Standard 140 Energy Modeling Best Practice',
+                'tier' => 'Predictive Energy Optimization',
+                'summary' => 'Virtual prototyping identified external shading geometries that eliminated 22% of solar heat gain while preserving 85% natural daylighting.'
+            ],
+            'pillars' => [
+                ['title' => 'Daylight Simulation', 'desc' => 'Useful Daylight Illuminance (UDI 100-2000 lux) mapped across all open office zones.', 'icon' => 'fa-sun'],
+                ['title' => 'CFD Airflow', 'desc' => 'Internal computational fluid dynamics preventing draft points and thermal stratification.', 'icon' => 'fa-cloud'],
+                ['title' => 'Solar Shading', 'desc' => 'Parametric louvre optimization minimizing solar heat gain during peak summer months.', 'icon' => 'fa-shield-halved'],
+                ['title' => 'HVAC Sizing', 'desc' => 'Accurate peak thermal sizing avoiding costly chiller and duct oversizing.', 'icon' => 'fa-calculator']
+            ],
+            'architectural_vision' => 'Uniting modern architectural aesthetics with high-performance computational building physics.',
+            'enquiries' => [
+                'title' => 'Need 3D Energy, Daylight, or CFD Modeling for Your Design?',
+                'company' => 'Sustainergic Tech Solutions',
+                'address' => 'D 5/24, Chitrakoot Scheme, Jaipur'
+            ]
+        ],
+
+        'the-gold-palace' => [
+            'id' => 'the-gold-palace',
+            'title' => 'The Gold Palace Resort — Real-Time IoT Water Sensor Telemetry & Resource Optimization',
+            'client' => 'The Gold Palace Resort',
+            'location' => 'Jaipur, Rajasthan',
+            'prepared_by' => 'Sustainergic Tech',
+            'category' => 'iot-water',
+            'category_name' => 'IoT Water & Smart Automation',
+            'badge' => 'IoT Smart Water Certified',
+            'tagline' => 'End-to-end telemetry deployment across resort freshwater supplies, STP recycling loops, and pool thermal circuits, saving 35% water annually.',
+            'image' => 'assets/images/energy-gold.png',
+            'is_featured' => false,
+            'metrics' => [
+                'waste_diversion' => '89%',
+                'water_savings' => '35%',
+                'energy_savings' => '26%',
+                'solar_contribution' => '24%',
+                'co2_avoided' => '190 Tons/Yr',
+                'baseline_note' => 'Monitored across 32 ultrasonic flow sensors and digital water quality telemetry.'
+            ],
+            'scorecard' => [
+                'rating_system' => 'Aquasense IoT Telemetry & Central Water Dashboard',
+                'tier' => 'Automated Water Efficiency',
+                'summary' => 'Real-time automated leak alarms and greywater recycling controls eliminated over 12 million liters of water waste per year.'
+            ],
+            'pillars' => [
+                ['title' => 'Smart Metering', 'desc' => 'Ultrasonic digital telemetry tracking consumption across guest wings and landscaping.', 'icon' => 'fa-droplet'],
+                ['title' => 'STP Automation', 'desc' => 'Automated aeration and filtration cycling maximizing treated water re-use for horticulture.', 'icon' => 'fa-recycle'],
+                ['title' => 'Thermal Pool Loop', 'desc' => 'Heat pump integration maintaining pool temperature with 45% lower electricity input.', 'icon' => 'fa-temperature-half'],
+                ['title' => 'Cloud Dashboard', 'desc' => 'Real-time alert notifications for pipeline pressure drops and tank overflows.', 'icon' => 'fa-chart-line']
+            ],
+            'architectural_vision' => 'Enabling luxury heritage resorts to achieve water security and environmental stewardship in water-stressed climates.',
+            'enquiries' => [
+                'title' => 'Want to Deploy Smart IoT Water Automation for Your Facility?',
+                'company' => 'Sustainergic Tech Solutions',
+                'address' => 'D 5/24, Chitrakoot Scheme, Jaipur'
+            ]
+        ],
+
+        'aiims-delhi' => [
+            'id' => 'aiims-delhi',
+            'title' => 'AIIMS, New Delhi — Precision Medical Research Cooling & Sterile Lab HVAC',
+            'client' => 'All India Institute of Medical Sciences (AIIMS)',
+            'location' => 'New Delhi, India',
+            'prepared_by' => 'Sustainergic Tech',
+            'category' => 'hvac',
+            'category_name' => 'HVAC & Precision Medical',
+            'badge' => 'ISO Class 5 & NABH Medical Grade',
+            'tagline' => 'Engineered high-stability precision chilled water circuits and HEPA filtration for medical diagnostic equipment, pathology labs, and research wings.',
+            'image' => 'assets/images/medical-aims.png',
+            'is_featured' => false,
+            'metrics' => [
+                'waste_diversion' => '84%',
+                'water_savings' => '32%',
+                'energy_savings' => '36%',
+                'solar_contribution' => '18%',
+                'co2_avoided' => '220 Tons/Yr',
+                'baseline_note' => 'Engineered to NABH healthcare guidelines and ISO 14644 cleanroom criteria.'
+            ],
+            'scorecard' => [
+                'rating_system' => 'NABH & Cleanroom HVAC Standards',
+                'tier' => 'Critical Medical Precision',
+                'summary' => 'Achieved uninterrupted ±0.2°C temperature tolerance with 99.997% particle containment across diagnostic suites.'
+            ],
+            'pillars' => [
+                ['title' => 'Lab Precision', 'desc' => 'Thermal stability of ±0.2°C ensuring zero calibration drift for precision diagnostic equipment.', 'icon' => 'fa-hospital'],
+                ['title' => 'Sterile Airflow', 'desc' => 'Positive pressure isolation and HEPA laminar air distribution protecting sensitive environments.', 'icon' => 'fa-wind'],
+                ['title' => 'Fail-Safe N+1', 'desc' => 'Fully redundant secondary chiller backup safeguarding continuous 24x7 patient care.', 'icon' => 'fa-shield-halved'],
+                ['title' => 'Energy Optimization', 'desc' => 'Electronically commutated EC motor fans reducing AHU power draw by 34%.', 'icon' => 'fa-bolt']
+            ],
+            'architectural_vision' => 'Supporting national premier medical institutions with mission-critical climate and sterile environment engineering.',
+            'enquiries' => [
+                'title' => 'Require Healthcare or Sterile Lab HVAC Engineering?',
+                'company' => 'Sustainergic Tech Solutions',
+                'address' => 'D 5/24, Chitrakoot Scheme, Jaipur'
+            ]
+        ],
+
+        'coca-cola-srikalahasti' => [
+            'id' => 'coca-cola-srikalahasti',
+            'title' => 'Hindustan Coca-Cola Beverages — Industrial Ventilation & Process HVAC Efficiency',
+            'client' => 'Hindustan Coca-Cola Beverages Pvt. Ltd.',
+            'location' => 'Srikalahasti, Andhra Pradesh',
+            'prepared_by' => 'Sustainergic Tech',
+            'category' => 'industrial-hvac',
+            'category_name' => 'Industrial HVAC & Energy Recovery',
+            'badge' => 'Industrial Energy Benchmark',
+            'tagline' => 'High-efficiency industrial ventilation, automated spot cooling, cleanroom environmental management, and compressor waste heat recovery across bottling lines.',
+            'image' => 'assets/images/industry-hindustan.png',
+            'is_featured' => false,
+            'metrics' => [
+                'waste_diversion' => '94%',
+                'water_savings' => '42%',
+                'energy_savings' => '38%',
+                'solar_contribution' => '22%',
+                'co2_avoided' => '450 Tons/Yr',
+                'baseline_note' => 'Audited across bottling hall, syrup preparation zones, and warehousing facilities.'
+            ],
+            'scorecard' => [
+                'rating_system' => 'Industrial Energy Conservation Benchmark',
+                'tier' => 'World-Class Manufacturing Standard',
+                'summary' => 'Reduced bottling hall ambient peak thermal stress by 6.5°C while trimming auxiliary fan electricity consumption by 38%.'
+            ],
+            'pillars' => [
+                ['title' => 'Waste Heat Recovery', 'desc' => 'Harnessed compressor thermal rejection for boiler feedwater preheating, saving thermal fuel.', 'icon' => 'fa-fire-flame-curved'],
+                ['title' => 'Spot Cooling', 'desc' => 'Targeted high-velocity displacement diffusers focusing conditioned air directly on operator stations.', 'icon' => 'fa-fan'],
+                ['title' => 'Process Air Balance', 'desc' => 'Controlled pressure gradients preventing dust ingress into bottling and clean packaging areas.', 'icon' => 'fa-industry'],
+                ['title' => 'BMS Automation', 'desc' => 'Smart scheduling and temperature reset curves responsive to factory ambient loads.', 'icon' => 'fa-microchip']
+            ],
+            'architectural_vision' => 'Delivering heavy-duty industrial environmental control that drives high-throughput manufacturing productivity while hitting strict decarbonization targets.',
+            'enquiries' => [
+                'title' => 'Seeking Industrial HVAC Optimization for Manufacturing Facilities?',
+                'company' => 'Sustainergic Tech Solutions',
+                'address' => 'D 5/24, Chitrakoot Scheme, Jaipur'
+            ]
         ]
     ];
 }

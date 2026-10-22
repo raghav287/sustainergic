@@ -98,65 +98,9 @@
                         </article>
                     </div>
 
-                    <!-- Slide 4: IoT Water Solution & Telemetry -->
-                    <div class="swiper-slide">
-                        <article class="testimonial-card">
-                            <div class="testimonial-quote">
-                                <i class="fa-solid fa-quote-left"></i>
-                            </div>
-                            <div class="testimonial-stars">
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                            </div>
-                            <p class="testimonial-text">
-                                The 100% ZLD effluent recycling and IoT cloud telemetry system
-                                streams live water quality metrics to PCB servers while cutting
-                                peak cooling load by 40%.
-                            </p>
-                            <div class="testimonial-author">
-                                <div class="author-avatar">ND</div>
-                                <div class="author-info">
-                                    <strong>Nikhil Desai</strong>
-                                    <small>MD, Coral Heights Developers</small>
-                                </div>
-                            </div>
-                        </article>
-                    </div>
-
-                    <!-- Slide 5: Geothermal System & Clean HVAC -->
+                    <!-- Slide 4: Radiant Heating & Cooling System -->
                     <div class="swiper-slide">
                         <article class="testimonial-card testimonial-card--feature">
-                            <div class="testimonial-quote">
-                                <i class="fa-solid fa-quote-left"></i>
-                            </div>
-                            <div class="testimonial-stars">
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                            </div>
-                            <p class="testimonial-text">
-                                The ground-source geothermal heat pump system cut resort cooling
-                                bills by 58%. Their post-occupancy monitoring proved
-                                real-world thermal efficiency year-round.
-                            </p>
-                            <div class="testimonial-author">
-                                <div class="author-avatar author-avatar--sage">MR</div>
-                                <div class="author-info">
-                                    <strong>Meera Rao</strong>
-                                    <small>Owner, Serene Resorts Goa</small>
-                                </div>
-                            </div>
-                        </article>
-                    </div>
-
-                    <!-- Slide 6: Radiant Heating & Cooling System -->
-                    <div class="swiper-slide">
-                        <article class="testimonial-card">
                             <div class="testimonial-quote">
                                 <i class="fa-solid fa-quote-left"></i>
                             </div>
@@ -173,94 +117,10 @@
                                 energy consumption by 32% overall.
                             </p>
                             <div class="testimonial-author">
-                                <div class="author-avatar author-avatar--coral">SJ</div>
+                                <div class="author-avatar author-avatar--sage">SJ</div>
                                 <div class="author-info">
                                     <strong>Suresh Jain</strong>
                                     <small>Project Director, InfraBuild Ltd</small>
-                                </div>
-                            </div>
-                        </article>
-                    </div>
-
-                    <!-- Slide 7: Simulation & Building Performance Modeling -->
-                    <div class="swiper-slide">
-                        <article class="testimonial-card">
-                            <div class="testimonial-quote">
-                                <i class="fa-solid fa-quote-left"></i>
-                            </div>
-                            <div class="testimonial-stars">
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                            </div>
-                            <p class="testimonial-text">
-                                Their CFD airflow and daylight simulations on our 400,000
-                                sq ft office were remarkably accurate. Post-occupancy
-                                energy metrics matched predicted thermal models within 3%.
-                            </p>
-                            <div class="testimonial-author">
-                                <div class="author-avatar">RV</div>
-                                <div class="author-info">
-                                    <strong>Ritu Verma</strong>
-                                    <small>Head of Facilities, TechNest IT Park</small>
-                                </div>
-                            </div>
-                        </article>
-                    </div>
-
-                    <!-- Slide 8: Carbon Accounting & ESG Advisory -->
-                    <div class="swiper-slide">
-                        <article class="testimonial-card testimonial-card--feature">
-                            <div class="testimonial-quote">
-                                <i class="fa-solid fa-quote-left"></i>
-                            </div>
-                            <div class="testimonial-stars">
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                            </div>
-                            <p class="testimonial-text">
-                                Sustainergic structured our SEBI BRSR filings and Scope 1-3
-                                carbon accounting seamlessly, helping our healthcare campus
-                                achieve net-zero ESG milestones.
-                            </p>
-                            <div class="testimonial-author">
-                                <div class="author-avatar author-avatar--sage">DK</div>
-                                <div class="author-info">
-                                    <strong>Dr. Kapur</strong>
-                                    <small>Medical Director, Aashirwad Hospitals</small>
-                                </div>
-                            </div>
-                        </article>
-                    </div>
-
-                    <!-- Slide 9: Solar PV Carport & Clean Energy -->
-                    <div class="swiper-slide">
-                        <article class="testimonial-card">
-                            <div class="testimonial-quote">
-                                <i class="fa-solid fa-quote-left"></i>
-                            </div>
-                            <div class="testimonial-stars">
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                            </div>
-                            <p class="testimonial-text">
-                                The rooftop solar PV carport + net-zero retrofit they
-                                delivered for our logistics hub is now a case study in
-                                our group's ESG report. Exceptional end-to-end delivery.
-                            </p>
-                            <div class="testimonial-author">
-                                <div class="author-avatar author-avatar--coral">AG</div>
-                                <div class="author-info">
-                                    <strong>Arjun Gupta</strong>
-                                    <small>COO, SkyNet Logistics</small>
                                 </div>
                             </div>
                         </article>

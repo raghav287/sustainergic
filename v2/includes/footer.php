@@ -441,3 +441,5 @@
     </div>
 
 </footer>
+
+<?php include __DIR__ . '/floating-contact.php'; ?>

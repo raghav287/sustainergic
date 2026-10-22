@@ -134,7 +134,7 @@
 
         align-items: center;
 
-        gap: 35px;
+        gap: clamp(16px, 1.8vw, 26px);
 
     }
 
@@ -406,31 +406,43 @@
 
     .quote-btn {
 
-        background: #000;
+        background: #0f172a;
 
         color: #fff;
 
-        padding: 10px 22px;
+        padding: 11px 22px;
 
-        font-size: 14.5px;
+        font-size: 14px;
 
         border-radius: 50px;
 
-        display: flex;
+        display: inline-flex;
 
         align-items: center;
 
-        gap: 10px;
+        gap: 9px;
 
-        font-weight: 500;
+        font-weight: 600;
 
-        transition: .3s;
+        transition: all .3s ease;
+
+        white-space: nowrap;
+
+        text-decoration: none;
+
+        box-shadow: 0 4px 14px rgba(15, 23, 42, 0.12);
 
     }
 
     .quote-btn:hover {
 
         background: var(--primary-color);
+
+        color: #fff;
+
+        transform: translateY(-1px);
+
+        box-shadow: 0 8px 20px rgba(238, 119, 90, 0.35);
 
     }
 
