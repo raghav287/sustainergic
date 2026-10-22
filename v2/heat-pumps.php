@@ -14,6 +14,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="canonical" href="https://sustainergictech.in/heat-pumps.php">
+
 </head>
 
 <body class="page-green-building">
@@ -127,7 +129,7 @@
                             <div class="gb-cap-text">
                                 <h4> Heat pump for swimming pool Application 
 </h4>
-                                <p>Leveraging condenser loops, ground loops, or process water to achieve ultra-high efficiency (COP 4.5–5.5).</p>
+                                <p>Leveraging condenser loops, ground loops, or process water to achieve ultra-high efficiency (COP 4.5–5.5 under AHRI 550/590 and EN 14511 rating conditions).</p>
                             </div>
                         </div>
 

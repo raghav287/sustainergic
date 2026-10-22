@@ -9,6 +9,7 @@
     <title>ECSBC Compliance Consulting Services | Sustainergic Tech</title>
     <meta name="description" content="Sustainergic Tech provides design reviews, compliance calculations, energy modeling, and documentation for ECSBC and Eco-Niwas Samhita compliance issued by BEE India.">
     <meta name="keywords" content="ECSBC compliance, Eco-Niwas Samhita, BEE India building energy code, building envelope compliance, ECSBC energy modeling">
+    <link rel="canonical" href="https://sustainergictech.in/ecsbc-compliance.php">
 
     <!-- Stylesheets -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
@@ -407,7 +408,7 @@
        ========================================== -->
     <?php
     $service_projects_title = "ECBC & ECSBC Compliance Projects";
-    $service_projects_subtitle = "Energy Conservation Building Code (ECBC) and Energy Conservation Building Code for Commercial (ECSBC) compliance documentation and approvals.";
+    $service_projects_subtitle = "Energy Conservation Building Code (ECBC) and Energy Conservation & Sustainable Building Code (ECSBC) compliance documentation and approvals.";
     $service_projects = [
         [
             'title' => '42 Works',

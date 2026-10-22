@@ -1,0 +1,14 @@
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /sustain/v2/
+
+# Redirect /index or /index.php to preferred URL (trailing slash or directory)
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /(.*)index(\.php)?([?\ ]|\ HTTP/) [NC]
+RewriteRule ^(.*)index(\.php)?$ $1 [R=301,L]
+
+# Redirect ecbc-compliance.php to canonical ecsbc-compliance.php
+RewriteRule ^ecbc-compliance\.php$ ecsbc-compliance.php [R=301,L]
+
+# Redirect clients.php alias to client.php
+RewriteRule ^clients\.php$ client.php [R=301,L]
+</IfModule>

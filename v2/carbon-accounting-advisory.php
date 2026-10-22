@@ -154,6 +154,8 @@
             background-image: url('assets/images/carbon-hero.png') !important;
         }
     </style>
+    <link rel="canonical" href="https://sustainergictech.in/carbon-accounting-advisory.php">
+
 </head>
 
 <body class="page-carbon">

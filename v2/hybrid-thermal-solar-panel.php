@@ -140,6 +140,8 @@
             color: #0d9488;
         }
     </style>
+    <link rel="canonical" href="https://sustainergictech.in/hybrid-thermal-solar-panel.php">
+
 </head>
 
 <body class="page-green-building">
@@ -235,7 +237,7 @@
                         The HTS Panel connects directly to the VRF outdoor unit or Chiller plant refrigeration circuit via copper piping between the compressor and condenser.
                     </p>
                     <p style="color: #475569; line-height: 1.65; margin-bottom: 24px;">
-                        Smart sun-tracking parabolic heat concentrators capture direct solar irradiance to add heat and thermal pressure to the refrigerant gas. By raising the temperature and pressure naturally before the condenser, compressor work is dramatically reduced—enabling the compressor to operate on partial load while saving up to 40% AC electricity.
+                        Smart sun-tracking parabolic heat concentrators capture direct solar irradiance to add heat and thermal pressure to the refrigerant gas. By raising the temperature and pressure naturally before the condenser, compressor work is dramatically reduced—enabling the compressor to operate on partial load while saving up to 40% AC electricity (demonstrated across field solar-assisted chiller and VRF monitoring compared to baseline standard operations).
                     </p>
                     
                     <div class="gb-intro-capabilities">

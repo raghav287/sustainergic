@@ -38,6 +38,8 @@ $hvac_categories = array_filter($header_services, function($s, $key) use ($hidde
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link rel="stylesheet" href="assets/css/style.css">
 
+    <link rel="canonical" href="https://sustainergictech.in/project.php">
+
 </head>
 
 <body class="page-projects">

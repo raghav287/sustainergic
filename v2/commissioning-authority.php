@@ -20,6 +20,8 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link rel="stylesheet" href="assets/css/style.css">
      <link rel="stylesheet" href="assets/css/audits.css">
+    <link rel="canonical" href="https://sustainergictech.in/commissioning-authority.php">
+
 </head>
 
 <body class="page-commissioning">

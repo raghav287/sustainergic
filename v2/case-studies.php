@@ -328,6 +328,8 @@ $paginated_studies = array_slice($filtered_case_studies, $offset, $items_per_pag
             }
         }
     </style>
+    <link rel="canonical" href="https://sustainergictech.in/case-studies.php">
+
 </head>
 
 <body class="page-green-building">

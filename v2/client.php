@@ -14,6 +14,7 @@
     <title>Our Clients &amp; Project Portfolio | Sustainergic Tech</title>
     <meta name="description" content="Explore Sustainergic Tech's extensive portfolio of green building certifications, energy assessments, LEED, and IGBC certified projects for corporate, industrial, hospitality, and residential clients.">
     <meta name="keywords" content="Sustainergic clients, green building project portfolio, LEED certified building projects, corporate HVAC clients India">
+    <link rel="canonical" href="https://sustainergictech.in/client.php">
 
     <!-- Stylesheets -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
@@ -434,41 +435,24 @@
 
 
          
-                <!-- 43. Sukhavas Residence -->
+                <!-- 40. Sukhavas Residence -->
                 <div class="client-card-item">
                     <div class="client-logo-header">
                         <img src="assets/images/clients/sukhavas-logo.png" alt="Sukhavas Residence Logo" width="300" height="100" class="client-logo-img">
                     </div>
                 </div>
-                   <!-- 44. max-logo Residence -->
-                <div class="client-card-item">
-                    <div class="client-logo-header">
-                        <img src="assets/images/clients/max-logo.png" alt="Sukhavas Residence Logo" width="300" height="100" class="client-logo-img">
-                    </div>
-                </div>
-                
-                <div class="client-card-item">
-                    <div class="client-logo-header">
-                        <img src="assets/images/clients/General-health-care.png" alt="Sukhavas Residence Logo" width="300" height="100" class="client-logo-img">
-                    </div>
-                </div>
-                
-                <div class="client-card-item">
-                    <div class="client-logo-header">
-                        <img src="assets/images/clients/pinegroove.png" alt="Sukhavas Residence Logo" width="300" height="100" class="client-logo-img">
-                    </div>
-                </div>
-                <div class="client-card-item">
-                    <div class="client-logo-header">
-                        <img src="assets/images/clients/mnit.png" alt="Sukhavas Residence Logo" width="300" height="100" class="client-logo-img">
-                    </div>
-                </div>
-                <div class="client-card-item">
-                    <div class="client-logo-header">
-                        <img src="assets/images/clients/iit.png" alt="Sukhavas Residence Logo" width="300" height="100" class="client-logo-img">
-                    </div>
-                </div>
 
+            </div>
+
+            <!-- Client Portfolio & Trademark Verification Notice -->
+            <div class="client-trademark-notice" style="background: #ffffff; border: 1px solid #e2e8f0; border-radius: 14px; padding: 22px 26px; margin-top: 10px; margin-bottom: 20px; box-shadow: 0 2px 10px rgba(0,0,0,0.02);">
+                <div style="display: flex; gap: 14px; align-items: flex-start;">
+                    <i class="fa-solid fa-shield-halved" style="color: #10b981; font-size: 20px; margin-top: 2px;"></i>
+                    <div style="font-size: 13px; line-height: 1.6; color: #64748b;">
+                        <strong style="color: #0f172a; display: block; margin-bottom: 4px;">Client Logos &amp; Trademarks Verification Notice</strong>
+                        All corporate trademarks, logos, brand badges, and service marks displayed on this directory are the proprietary property of their respective owners. Their display represents verified past or ongoing energy modeling, LEED/IGBC green certifications, commissioning (Cx), HVAC engineering design, or energy/water audit engagements executed by Sustainergic Tech and its technical team. Display does not constitute direct corporate endorsement or sponsorship.
+                    </div>
+                </div>
             </div>
 
         </div>

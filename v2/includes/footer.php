@@ -435,7 +435,7 @@
             <ul class="fb-legal">
                 <li><a href="privacy-policy.php">Privacy Policy</a></li>
                 <li><a href="terms-condition.php">Terms of Service</a></li>
-                <li><a href="#">Sitemap</a></li>
+                <li><a href="sitemap.php">Sitemap</a></li>
             </ul>
         </div>
     </div>

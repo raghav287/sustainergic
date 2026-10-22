@@ -11,7 +11,7 @@ $hvac_pages = [
     'radiators.php', 'heat-pumps.php', 'vrv-vrf-system.php', 'chilled-water-system.php', 'underfloor-electric-heating-system.php', 'radiant-heating-cooling-system.php', 'geothermal-system.php', 'fresh-air-system.php', 'industrial-hvac-solutions.php', 'precision-medical-cooling-solution.php', 'hvac-design-installation.php', 'radiant-cooling-system.php', 'heat-pump.php',
     'geothermal-energy-system.php', 'vrf.php', 'hts.php'
 ];
-$resource_pages = ['case-studies.php', 'clients.php', 'blog.php'];
+$resource_pages = ['case-studies.php', 'case-study-detail.php', 'client.php', 'clients.php', 'sitemap.php'];
 ?>
 <header class="main-header" id="header">
 
@@ -131,8 +131,6 @@ $resource_pages = ['case-studies.php', 'clients.php', 'blog.php'];
 
                         <li><a href="client.php">Clients</a></li>
 
-                        <li><a href="#">Blog</a></li>
-
                     </ul>
 
                 </li>
@@ -143,7 +141,7 @@ $resource_pages = ['case-studies.php', 'clients.php', 'blog.php'];
 
             <!-- Mobile CTA (shown only in mobile menu) -->
             <div class="mobile-cta">
-                <a href="consultation.php" class="quote-btn">
+                <a href="contact-us.php" class="quote-btn">
                     Get a Consultation
                     <i class="fa-solid fa-arrow-right-long"></i>
                 </a>
@@ -155,7 +153,7 @@ $resource_pages = ['case-studies.php', 'clients.php', 'blog.php'];
 
         <div class="nav-right">
 
-            <a href="#" class="quote-btn">
+            <a href="contact-us.php" class="quote-btn">
 
                 Get a Consultation
 

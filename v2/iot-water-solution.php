@@ -90,6 +90,8 @@
             color: #ffffff;
         }
     </style>
+    <link rel="canonical" href="https://sustainergictech.in/iot-water-solution.php">
+
 </head>
 
 <body class="page-green-building">

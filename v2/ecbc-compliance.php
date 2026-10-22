@@ -1,5 +1,7 @@
 <?php
 /**
- * Backward compatibility alias for ECSBC Compliance Page
+ * Backward compatibility 301 redirect for ECSBC Compliance Page
  */
-include_once __DIR__ . '/ecsbc-compliance.php';
+header("HTTP/1.1 301 Moved Permanently");
+header("Location: ecsbc-compliance.php");
+exit();

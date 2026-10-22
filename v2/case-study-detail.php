@@ -28,6 +28,7 @@ $related_studies = array_slice($related_studies, 0, 3);
     <title><?php echo htmlspecialchars($cs['title']); ?> | Sustainergic Tech Case Studies</title>
     <meta name="description" content="<?php echo htmlspecialchars($cs['tagline']); ?>">
     <meta name="keywords" content="<?php echo htmlspecialchars($cs['title']); ?>, <?php echo htmlspecialchars($cs['client']); ?>, Sustainergic Tech case study, green building analysis">
+    <link rel="canonical" href="https://sustainergictech.in/case-study-detail.php?id=<?php echo urlencode($cs['id']); ?>">
 
     <!-- Stylesheets -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />

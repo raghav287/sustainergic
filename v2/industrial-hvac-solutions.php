@@ -9,6 +9,7 @@
     <title>Industrial HVAC Solutions &amp; Process Climate Control | Sustainergic Tech</title>
     <meta name="description" content="Sustainergic Tech designs heavy-duty industrial HVAC solutions, process cooling plants, cleanroom ventilation, and fume extraction systems for manufacturing facilities across India.">
     <meta name="keywords" content="industrial HVAC solutions, process chillers, dust collection system, wet scrubbers, cleanroom AHU, industrial heat load optimization, plant climate control">
+    <link rel="canonical" href="https://sustainergictech.in/industrial-hvac-solutions.php">
 
     <!-- Stylesheets -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
@@ -381,7 +382,7 @@
     $service_projects = [
         [
             'title' => 'Hindustan Coca-Cola Beverages',
-            'location' => 'Kala Hasti (Srikalahasti), Andhra Pradesh',
+            'location' => 'Srikalahasti, Andhra Pradesh',
             'tag' => 'Process Cooling & Plant HVAC',
             'badge_type' => 'badge-igbc',
             'description' => 'Industrial process cooling, syrup processing room thermal control, and high-volume plant ventilation systems for Coca-Cola\'s state-of-the-art beverage bottling facility.',
@@ -393,7 +394,7 @@
             'tag' => 'Industrial Beverage Bottling HVAC',
             'badge_type' => 'badge-igbc',
             'description' => 'Industrial air handling units, positive pressure filtration, and high-capacity process chiller circuits for Coca-Cola authorized bottling plant, optimizing bottling hall thermal management.',
-            'image' => 'assets/images/industry-moon.png'
+            'image' => 'assets/images/industry-lbpl.png'
         ],
         [
             'title' => 'Moon Beverages',
@@ -401,7 +402,7 @@
             'tag' => 'Process Chillers & Plant Ventilation',
             'badge_type' => 'badge-igbc',
             'description' => 'Heavy-duty industrial process water chillers, production bay positive ventilation, and compressed air cooling optimization for premier North India Coca-Cola manufacturing and bottling lines.',
-            'image' => 'assets/images/industry-lbpl.png'
+            'image' => 'assets/images/industry-moon.png'
         ]
     ];
     include 'includes/service-projects-section.php';

@@ -11,6 +11,8 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="canonical" href="https://sustainergictech.in/terms-condition.php">
+
 </head>
 
 <body class="page-terms">
@@ -131,6 +133,7 @@
                             <ul>
                                 <li><i class="fa-solid fa-circle-check"></i> <span><strong>Website Content:</strong> You may view, download, and print pages for informational purposes only. Reproduction or redistribution without written consent is strictly prohibited.</span></li>
                                 <li><i class="fa-solid fa-circle-check"></i> <span><strong>Client Deliverables:</strong> Clients receive ownership of final project reports and certification submissions upon full payment of contractual fees, while underlying calculation templates remain our proprietary IP.</span></li>
+                                <li><i class="fa-solid fa-circle-check"></i> <span><strong>Third-Party Trademarks &amp; Portfolio Logos:</strong> All client trademarks, trade names, and logos displayed on this website remain the proprietary assets of their respective owners. Their display represents verified professional consulting, modeling, auditing, or commissioning services delivered by Sustainergic Tech and does not imply direct corporate sponsorship or endorsement.</span></li>
                             </ul>
                         </div>
                     </article>

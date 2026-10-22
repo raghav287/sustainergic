@@ -1,3 +1,15 @@
+<?php
+// Canonical 301 redirect if requested directly as /index.php or /index
+$request_uri = $_SERVER['REQUEST_URI'] ?? '';
+$parsed_path = parse_url($request_uri, PHP_URL_PATH);
+if ($parsed_path && preg_match('#/index(?:\.php)?$#i', $parsed_path)) {
+    $clean_path = preg_replace('#index(?:\.php)?$#i', '', $parsed_path);
+    $query = !empty($_SERVER['QUERY_STRING']) ? '?' . $_SERVER['QUERY_STRING'] : '';
+    header("HTTP/1.1 301 Moved Permanently");
+    header("Location: " . $clean_path . $query);
+    exit();
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -9,6 +21,7 @@
     <title>Green Building &amp; HVAC Consultants India | Sustainergic Tech</title>
     <meta name="description" content="Sustainergic Tech provides expert Green Building Certification (LEED, IGBC), HVAC engineering, IoT water management, and energy audits across India.">
     <meta name="keywords" content="green building consultant, HVAC engineering India, LEED certification, IGBC certification, energy audit, IoT water management, sustainable building design, Sustainergic Tech">
+    <link rel="canonical" href="https://sustainergictech.in/">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
@@ -473,16 +486,18 @@
                         <div class="hvac-stats-row">
                             <div class="stat-box">
                                 <span class="stat-number">40%</span>
-                                <span class="stat-label">Energy Saved</span>
+                                <span class="stat-label">Energy Saved*</span>
+                                <span class="stat-reference" style="font-size: 11px; color: #94a3b8; margin-top: 6px; line-height: 1.4;">vs. ASHRAE 90.1 / ECBC baseline standards</span>
                             </div>
                             <div class="stat-box">
                                 <span class="stat-number">Zero</span>
-                                <span class="stat-label">Carbon Goal</span>
+                                <span class="stat-label">Carbon Goal*</span>
+                                <span class="stat-reference" style="font-size: 11px; color: #94a3b8; margin-top: 6px; line-height: 1.4;">Aligned with IGBC &amp; LEED Zero Carbon frameworks</span>
                             </div>
                         </div>
                     </div>
                     
-                    <a href="#" class="hvac-panel-btn">
+                    <a href="project.php" class="hvac-panel-btn">
                         Explore All Services <i class="fa-solid fa-arrow-right"></i>
                     </a>
                 </div>
@@ -507,7 +522,7 @@
                             <span class="card-tag">Draft-Free</span>
                             <span class="card-tag">Hydronic</span>
                         </div>
-                        <a href="#" class="card-overlay-link" aria-label="Radiant Heating & Cooling"></a>
+                        <a href="radiant-heating-cooling-system.php" class="card-overlay-link" aria-label="Radiant Heating & Cooling"></a>
                     </div>
                     
                     <!-- Card 2 -->
@@ -524,10 +539,10 @@
                         </div>
                         <div class="card-footer">
                             <span class="card-tag">Renewable</span>
-                            <span class="card-tag">COP 4.5+</span>
+                            <span class="card-tag" title="Tested per AHRI-550/590 ground loop standards">COP 4.5+*</span>
                             <span class="card-tag">Low OPEX</span>
                         </div>
-                        <a href="#" class="card-overlay-link" aria-label="Geothermal Energy Systems"></a>
+                        <a href="geothermal-system.php" class="card-overlay-link" aria-label="Geothermal Energy Systems"></a>
                     </div>
                     
                     <!-- Card 3 -->
@@ -547,7 +562,7 @@
                             <span class="card-tag">High SEER</span>
                             <span class="card-tag">Flexible</span>
                         </div>
-                        <a href="#" class="card-overlay-link" aria-label="Variable Refrigerant Flow"></a>
+                        <a href="vrv-vrf-system.php" class="card-overlay-link" aria-label="Variable Refrigerant Flow"></a>
                     </div>
                     
                     <!-- Card 4 -->
@@ -567,7 +582,13 @@
                             <span class="card-tag">Fresh Air</span>
                             <span class="card-tag">HEPA Filter</span>
                         </div>
-                        <a href="#" class="card-overlay-link" aria-label="Mechanical Ventilation & IAQ"></a>
+                        <a href="fresh-air-system.php" class="card-overlay-link" aria-label="Mechanical Ventilation & IAQ"></a>
+                    </div>
+
+                    <!-- Supporting References Footnote Bar -->
+                    <div style="grid-column: 1 / -1; margin-top: 10px; padding-top: 14px; border-top: 1px dashed rgba(255,255,255,0.14); font-size: 11.5px; color: #94a3b8; display: flex; align-items: center; gap: 8px;">
+                        <i class="fa-solid fa-circle-info" style="color: #ff9475;"></i>
+                        <span>*Performance benchmarks referenced against ASHRAE 90.1-2019 / BEE ECBC simulation baselines and AHRI-550/590 water-to-water heat pump COP test conditions.</span>
                     </div>
                     
                 </div>
@@ -883,11 +904,11 @@
                                 <div class="project-body">
                                     <div class="project-meta">
                                         <span><i class="fa-solid fa-map-location-dot"></i> Gurugram, HR</span>
-                                        <span><i class="fa-solid fa-shield-halved"></i> ECBC Code</span>
+                                        <span><i class="fa-solid fa-shield-halved"></i> ECSBC / ECBC</span>
                                     </div>
                                     <h3>SPJ Vedatam Mall</h3>
                                     <p>
-                                        Energy Conservation Building Code (ECSBC) compliance modeling, glass specification, and efficient HVAC integration.
+                                        Energy Conservation &amp; Sustainable Building Code (ECSBC / ECBC) compliance modeling, glass specification, and efficient HVAC integration.
                                     </p>
                                 </div>
                             </article>
@@ -937,13 +958,13 @@
                         <div class="swiper-slide">
                             <article class="project-card">
                                 <div class="project-image">
-                                    <img src="assets/images/industry-hindustan.png" alt="Hindustan Unilever Facility">
+                                    <img src="assets/images/industry-hindustan.png" alt="Hindustan Coca-Cola Beverages Plant, Srikalahasti">
                                     <span class="project-tag project-tag--coral">Industrial HVAC</span>
                                 </div>
                                 <div class="project-body">
                                     <div class="project-meta">
-                                        <span><i class="fa-solid fa-map-location-dot"></i>  Kala Hasti, AP</span>
-                                        <span><i class="fa-solid fa-industry"></i> Industrial HVAC Solution.</span>
+                                        <span><i class="fa-solid fa-map-location-dot"></i> Srikalahasti, AP</span>
+                                        <span><i class="fa-solid fa-industry"></i> Industrial HVAC Solution</span>
                                     </div>
                                     <h3>Hindustan Coca-Cola Beverages</h3>
                                     <p>
@@ -977,7 +998,7 @@
                         <div class="swiper-slide">
                             <article class="project-card">
                                 <div class="project-image">
-                                    <img src="assets/images/energy-gold.png" alt="Gold Plus Glass Plant">
+                                    <img src="assets/images/energy-gold.png" alt="The Gold Palace Resort, Jaipur">
                                     <span class="project-tag project-tag--sage">IoT Water Solution</span>
                                 </div>
                                 <div class="project-body">
